@@ -1,48 +1,49 @@
 {
-	"betterroofs.settings.fogVisibility.name": "Видимость тайлов сквозь туман",
-	"betterroofs.settings.fogVisibility.hint": "Насколько видимы (ярки) тайлы, отображаемые сквозь туман.",
+  "betterroofs.settings.fogVisibility.name": "Visibilità tile attraverso la nebbia",
+  "betterroofs.settings.fogVisibility.hint": "Quanto sono visibili (luminosi) i tile mostrati attraverso la nebbia.",
 
-	"betterroofs.settings.forceFallback.name": "Режим производительности",
-	"betterroofs.settings.forceFallback.hint": "Принудительно менять режим крыши с Маски на Скрытый, если есть проблемы с производительностью.",
+  "betterroofs.settings.forceFallback.name": "Modalità prestazioni",
+  "betterroofs.settings.forceFallback.hint": "Forza il cambio di modalità tetto da Maschera a Nascosto in caso di problemi di prestazioni.",
 
-	"betterroofs.settings.roomPreview.name": "Продвинутый режим",
-	"betterroofs.settings.roomPreview.hint": "При открытии настроек тайла, показывать обнаруженные модулем строения. Также позволяет управлять ручным размещением полигонов для комнат. Полезно для отладки.",
+  "betterroofs.settings.roomPreview.name": "Modalità avanzata",
+  "betterroofs.settings.roomPreview.hint": "All'apertura delle impostazioni del tile, mostra le strutture rilevate dal modulo. Permette anche il posizionamento manuale dei poligoni per le stanze. Utile per il debug.",
 
-	"betterroofs.settings.wbIntegration.name": "Интеграция Weather Blocker",
-	"betterroofs.settings.wbIntegration.hint": "Если обнаружен модуль Weather Blocker, погода будет автоматически скрываться внутри зданий.",
+  "betterroofs.settings.wbIntegration.name": "Integrazione Weather Blocker",
+  "betterroofs.settings.wbIntegration.hint": "Se il modulo Weather Blocker è attivo, il meteo verrà nascosto automaticamente all'interno degli edifici.",
 
-	"betterroofs.settings.occlusionRadius.name": "Радиус преграждения",
-	"betterroofs.settings.occlusionRadius.hint": "Множитель радиуса для режима кругового преграждения",
+  "betterroofs.settings.occlusionRadius.name": "Raggio di ostruzione",
+  "betterroofs.settings.occlusionRadius.hint": "Moltiplicatore del raggio per la modalità di ostruzione circolare",
 
-	"betterroofs.tokenConfig.occlusionRadius.name": "Радиус преграждения",
-	"betterroofs.tokenConfig.occlusionRadius.placeholder": "По умолчанию",
+  "betterroofs.tokenConfig.occlusionRadius.name": "Raggio di ostruzione",
+  "betterroofs.tokenConfig.occlusionRadius.placeholder": "Predefinito",
 
-	"betterroofs.tileConfig.showInFog.name": "Раскрытие тумана войны",
-	"betterroofs.tileConfig.showInFog.hint": "Когда тайл находится в области зрения токена, этот тайл будет видим сквозь туман войны. Не применяется к освещению.",
-	"betterroofs.tileConfig.brMode.name": "Режим улучшенных крыш",
-	"betterroofs.tileConfig.brMode.option0": "Нет (По умолчанию в Foundry)",
-	"betterroofs.tileConfig.brMode.option1": "Видимый (Показывать тайл сквозь туман)",
-	"betterroofs.tileConfig.brMode.option2": "Скрытый (Скрывать весь тайл зрением)",
-	"betterroofs.tileConfig.brMode.option3": "Маска (Вырезать область тайла зрением)",
-	"betterroofs.tileConfig.manualPoly.name": "Выбранные стены",
-	"betterroofs.tileConfig.definePoly.name": "Назначить полигон",
-	"betterroofs.tileConfig.clearPoly.name": "Очистить полигон",
-	"betterroofs.tileConfig.definePoly.notify": "Выберите стены, которые вы желаете использовать для полигона, и нажмите Назначить полигон снова для подтверждения.",
-	"betterroofs.tileConfig.occlusionLinkId": "ID источника преграждения",
-	"betterroofs.tileConfig.occlusionLinkIdHint": "Может быть любым текстом. Когда под тайлом с 'Является источником преграждения' находится токен, все тайлы с тем же 'ID источника' будут преграждены. Например соединённые крыши.",
-	"betterroofs.tileConfig.occlusionLinkSource": "Является источником преграждения?",
+  "betterroofs.tileConfig.showInFog.name": "Scoperta della nebbia di guerra",
+  "betterroofs.tileConfig.showInFog.hint": "Quando il tile è nel campo visivo del token, sarà visibile attraverso la nebbia di guerra. Non influisce sull’illuminazione.",
+  "betterroofs.tileConfig.brMode.name": "Modalità tetti avanzati",
+  "betterroofs.tileConfig.brMode.option0": "Nessuna (predefinita in Foundry)",
+  "betterroofs.tileConfig.brMode.option1": "Visibile (mostra il tile nella nebbia)",
+  "betterroofs.tileConfig.brMode.option2": "Nascosto (nasconde completamente il tile)",
+  "betterroofs.tileConfig.brMode.option3": "Maschera (ritaglia l’area del tile dalla vista)",
 
-	"betterroofs.tileConfig.isbroken": "Авто-определение полигона не удалось на этом уровне. Включите продвинутый режим в настройках модуля и вручную нарисуйте полигон.",
+  "betterroofs.tileConfig.manualPoly.name": "Muri selezionati",
+  "betterroofs.tileConfig.definePoly.name": "Definisci poligono",
+  "betterroofs.tileConfig.clearPoly.name": "Cancella poligono",
+  "betterroofs.tileConfig.definePoly.notify": "Seleziona i muri da usare per il poligono, poi premi di nuovo 'Definisci poligono' per confermare.",
+  "betterroofs.tileConfig.occlusionLinkId": "ID della sorgente di ostruzione",
+  "betterroofs.tileConfig.occlusionLinkIdHint": "Può essere qualsiasi testo. Se un token si trova su un tile con 'È sorgente di ostruzione', tutti i tile con lo stesso ID saranno oscurati. Utile per tetti collegati.",
+  "betterroofs.tileConfig.occlusionLinkSource": "È sorgente di ostruzione?",
 
-	"betterroofs.wallConfig.externalWall.name": "Внешняя стена?",
+  "betterroofs.tileConfig.isbroken": "Il rilevamento automatico del poligono non è riuscito a questo livello. Attiva la modalità avanzata nelle impostazioni del modulo e disegna manualmente il poligono.",
 
-	"betterroofs.scenecontrols.walledges": "Стены на границах сцены",
+  "betterroofs.wallConfig.externalWall.name": "Muro esterno?",
 
-	"betterroofs.yesnodialog.yes": "Подтвердить",
-	"betterroofs.yesnodialog.no": "Отмена",
-	"betterroofs.yesnodialog.title": "Оградить стенами границы сцены",
-	"betterroofs.yesnodialog.desc": "Вы уверены, что хотите оградить сцену стенами?",
+  "betterroofs.scenecontrols.walledges": "Muri ai bordi della scena",
 
-	"betterroofs.bulk.notification": "ВНИМАНИЕ: Эта операция изменит настройки всех выбранных верхних тайлов. Если тайлы не выбраны, будут преобразованы все верхние тайлы. Верхние тайлы с режимом 'Нет' не будут изменены.",
-	"betterroofs.bulk.title": "Изменение всех крыш сцены"
+  "betterroofs.yesnodialog.yes": "Conferma",
+  "betterroofs.yesnodialog.no": "Annulla",
+  "betterroofs.yesnodialog.title": "Circonda i bordi della scena con muri",
+  "betterroofs.yesnodialog.desc": "Sei sicuro di voler circondare la scena con muri?",
+
+  "betterroofs.bulk.notification": "ATTENZIONE: Questa operazione cambierà le impostazioni di tutti i tile superiori selezionati. Se nessun tile è selezionato, verranno modificati tutti i tile superiori. I tile con modalità 'Nessuna' non verranno toccati.",
+  "betterroofs.bulk.title": "Modifica di tutti i tetti della scena"
 }

@@ -1,70 +1,70 @@
 {
-	"bossbar": {
-		"controls": {
-			"bossUI": {
-				"name": "Переключить Boss Bar",
-				"warn": "Токен не выбран. Выберите один или несколько токенов, и попробуйте снова"
-			}
-		},
-		"settings": {
-			"barStyle": {
-				"classic": "Классический",
-				"matchingImages": "Соответствующие изображения"
-			},
-			"currentHpPath": {
-				"name": "Путь к текущим ПЗ",
-				"hint": "Путь к текущим ПЗ актёра"
-			},
-			"maxHpPath": {
-				"name": "Путь к максимуму ПЗ",
-				"hint": "Путь к максимуму ПЗ актёра"
-			},
-			"BarStyleConfiguration": {
-				"name": "Стили Boss Bar",
-				"label": "Настройка стиля"
-			},
-			"resetPosition": {
-				"name": "Сбросить позицию",
-				"hint": "Сбросить позицию Boss Bar на значение по умолчанию"
-			},
-			"textAlign": {
-				"left": "Слева",
-				"center": "В центре",
-				"right": "Справа"
-			},
-			"woundsSystem": {
-				"name": "Система ран",
-				"hint": "Если вы используете в вашей системы раны вместо ПЗ, включите эту опцию."
-			}
-		},
-		"bar-style-configuration": {
-			"add": "Добавить стиль",
-			"title": "Настройка стиля Boss Bar",
-			"delete-title": "Удалить стиль",
-			"delete-confirm": "Вы уверены, что хотите удалить стиль?",
-			"edit": "Редактировать стиль",
-			"background": "Фоновое изображение",
-			"foreground": "Переднее изображение",
-			"bar": "Изображение полосы",
-			"tempBarColor": "Цвет временной полосы здоровья",
-			"tempBarAlpha": "Прозрачность временной полосы здоровья",
-			"barHeight": "Высота Boss Bar",
-			"font": "Семейство шрифтов",
-			"textSize": "Размер шрифта",
-			"textAlign": "Выравнивание текста",
-			"type": "Тип стиля",
-			"type-hint": "Выберите тип стиля"
-		},
-		"boss-bar-configuration": {
-			"title": "Настройка Boss Bar",
-			"no-actors": "Нет выбранных актёров или актёров на сцене.",
-			"no-scene": "Нет доступной сцены. Пожалуйста, откройте сцену и попробуйте снова",
-			"save-pan": "Сохранить и переместить камеру",
-			"edit-themes": "Закрыть и редактировать темы",
-			"hideNameHint": "Скрыть имя актёра на Boss Bar"
-		},
-		"boss-bar": {
-			"title": "Boss Bar"
-		}
-	}
+  "bossbar": {
+    "controls": {
+      "bossUI": {
+        "name": "Attiva/Disattiva Boss Bar",
+        "warn": "Nessun token selezionato. Seleziona uno o più token e riprova"
+      }
+    },
+    "settings": {
+      "barStyle": {
+        "classic": "Classico",
+        "matchingImages": "Immagini corrispondenti"
+      },
+      "currentHpPath": {
+        "name": "Percorso HP attuali",
+        "hint": "Percorso agli HP attuali dell’attore"
+      },
+      "maxHpPath": {
+        "name": "Percorso HP massimi",
+        "hint": "Percorso agli HP massimi dell’attore"
+      },
+      "BarStyleConfiguration": {
+        "name": "Stili Boss Bar",
+        "label": "Configurazione dello stile"
+      },
+      "resetPosition": {
+        "name": "Reimposta posizione",
+        "hint": "Reimposta la posizione della Boss Bar ai valori predefiniti"
+      },
+      "textAlign": {
+        "left": "Sinistra",
+        "center": "Centro",
+        "right": "Destra"
+      },
+      "woundsSystem": {
+        "name": "Sistema ferite",
+        "hint": "Se il tuo sistema usa le ferite invece degli HP, attiva questa opzione"
+      }
+    },
+    "bar-style-configuration": {
+      "add": "Aggiungi stile",
+      "title": "Configurazione stile Boss Bar",
+      "delete-title": "Elimina stile",
+      "delete-confirm": "Sei sicuro di voler eliminare lo stile?",
+      "edit": "Modifica stile",
+      "background": "Immagine di sfondo",
+      "foreground": "Immagine in primo piano",
+      "bar": "Immagine della barra",
+      "tempBarColor": "Colore della barra HP temporanei",
+      "tempBarAlpha": "Trasparenza della barra HP temporanei",
+      "barHeight": "Altezza della Boss Bar",
+      "font": "Famiglia di font",
+      "textSize": "Dimensione del testo",
+      "textAlign": "Allineamento del testo",
+      "type": "Tipo di stile",
+      "type-hint": "Seleziona il tipo di stile"
+    },
+    "boss-bar-configuration": {
+      "title": "Configurazione Boss Bar",
+      "no-actors": "Nessun attore selezionato o presente sulla scena.",
+      "no-scene": "Nessuna scena disponibile. Apri una scena e riprova",
+      "save-pan": "Salva e sposta la telecamera",
+      "edit-themes": "Chiudi e modifica i temi",
+      "hideNameHint": "Nascondi il nome dell’attore sulla Boss Bar"
+    },
+    "boss-bar": {
+      "title": "Boss Bar"
+    }
+  }
 }

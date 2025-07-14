@@ -1,69 +1,69 @@
 {
-	"anonymous": {
-		"settings": {
-			"token": {
-				"name": "Принудительное отображение информации токена",
-				"hint": "При отображении имени существа будет принудительно отображаться информация токена."
-			},
-			"rolls": {
-				"name": "Скрытие подробностей бросков",
-				"hint": "Подробности броска (формула, значение костей) будут скрыты в чате."
-			},
-			"criticals": {
-				"name": "Скрытие критических бросков",
-				"hint": "Критические успехи и провалы будут скрыты от игроков. Должна быть включена опция 'Скрытие подробностей броска'."
-			},
-			"cardContent": {
-				"name": "Скрытие описаний в чате",
-				"hint": "Описания на карточках чата будут скрыты."
-			},
-			"footer": {
-				"name": "Скрытие сносок",
-				"hint": "Сноски с подробностями действий в нижней части карточек чата будут скрыты."
-			},
-			"pf2e": {
-				"traits": {
-					"name": "(PF2e) Скрытие дескрипторов",
-					"hint": "Дескрипторы действий будут скрыты. Должна быть включена опция 'Скрытие подробностей броска'.",
-					"choices": {
-						"never": "Никогда",
-						"rolls": "Только броски",
-						"always": "Всегда"
-					}
-				}
-			},
+  "anonymous": {
+    "settings": {
+      "token": {
+        "name": "Visualizzazione forzata delle informazioni del token",
+        "hint": "Quando viene mostrato il nome della creatura, verranno forzatamente visualizzate anche le informazioni del token."
+      },
+      "rolls": {
+        "name": "Nascondi dettagli dei tiri",
+        "hint": "I dettagli dei tiri (formula, risultati dei dadi) saranno nascosti nella chat."
+      },
+      "criticals": {
+        "name": "Nascondi i tiri critici",
+        "hint": "Successi e fallimenti critici saranno nascosti ai giocatori. È necessario attivare l'opzione 'Nascondi dettagli dei tiri'."
+      },
+      "cardContent": {
+        "name": "Nascondi le descrizioni in chat",
+        "hint": "Le descrizioni nelle schede della chat saranno nascoste."
+      },
+      "footer": {
+        "name": "Nascondi piè di pagina",
+        "hint": "I dettagli delle azioni nella parte inferiore delle schede della chat saranno nascosti."
+      },
+      "pf2e": {
+        "traits": {
+          "name": "(PF2e) Nascondi tratti",
+          "hint": "I tratti delle azioni saranno nascosti. È necessario attivare l'opzione 'Nascondi dettagli dei tiri'.",
+          "choices": {
+            "never": "Mai",
+            "rolls": "Solo nei tiri",
+            "always": "Sempre"
+          }
+        }
+      },
 
-			"menus": {
-				"namesMenu": {
-					"name": "Особые имена",
-					"label": "Настройка имён",
-					"hint": "Выбор имен для разных типов сущностей системы."
-				}
-			}
-		},
+      "menus": {
+        "namesMenu": {
+          "name": "Nomi speciali",
+          "label": "Configurazione nomi",
+          "hint": "Selezione dei nomi per diversi tipi di entità nel sistema."
+        }
+      }
+    },
 
-		"templates": {
-			"names": {
-				"title": "Настройка особых имён",
-				"save": "Сохранить",
-				"cancel": "Отмена"
-			}
-		},
+    "templates": {
+      "names": {
+        "title": "Configurazione dei nomi speciali",
+        "save": "Salva",
+        "cancel": "Annulla"
+      }
+    },
 
-		"unknown": "Неизвестный",
+    "unknown": "Sconosciuto",
 
-		"pf2e": {
-			"disabled": "Настройка системы '{setting}' была отключена, чтобы избежать конфликта с модулем '{module}'.",
-			"target": "Цель: {name}"
-		},
+    "pf2e": {
+      "disabled": "L'impostazione di sistema '{setting}' è stata disattivata per evitare conflitti con il modulo '{module}'.",
+      "target": "Bersaglio: {name}"
+    },
 
-		"context": {
-			"show": "Показать имя игрокам",
-			"hide": "Скрыть имя от игроков"
-		},
+    "context": {
+      "show": "Mostra il nome ai giocatori",
+      "hide": "Nascondi il nome ai giocatori"
+    },
 
-		"hud": {
-			"title": "Переключения анонимности"
-		}
-	}
+    "hud": {
+      "title": "Commutazione anonimato"
+    }
+  }
 }

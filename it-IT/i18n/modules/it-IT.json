@@ -1,0 +1,38 @@
+{
+	"it": {
+		"compendium": {
+			"name": "Traduzione delle librerie",
+			"content1": "Per tradurre le librerie",
+			"content2": "è necessario attivare i moduli <b>Babele e libWrapper</b>",
+			"ok": "Va bene",
+			"disable": "Disattiva la traduzione delle librerie"
+		},
+		"sceneLabelFont": {
+			"name": "Font delle etichette sulla scena",
+			"hint": "Font utilizzato per i nomi dei token e i titoli delle note sulla scena."
+		},
+		"adjectiveControls": {
+			"name": "Selettore di genere per aggettivi casuali",
+			"hint": "Se usi la funzione per aggiungere aggettivi casuali ai token, puoi aggiungere un selettore di genere nella barra degli strumenti.",
+			"button": "Cambio genere degli aggettivi",
+			"female": "Verrà usato il genere femminile per gli aggettivi casuali",
+			"male": "Verrà usato il genere maschile per gli aggettivi casuali"
+		},
+		"dnd5e": {
+			"altTranslation": {
+				"name": "Traduzione alternativa",
+				"hint": "(Richiede il modulo libWrapper) Usa la traduzione alternativa di D&D5E a cura di Phantom Studio. Altrimenti verrà utilizzata la traduzione ufficiale dell'editore Hobby World.",
+				"warning": "Per utilizzare la traduzione alternativa è necessario attivare il modulo <b>libWrapper</b>"
+			},
+			"aa": {
+				"hint": "Prima di tradurre le animazioni, è necessario attivare i moduli Automated Animations, D&D5E Animations e JB2A Patreon",
+				"button": "Traduci le animazioni"
+			},
+			"compendium": {
+				"name": "Traduzione delle librerie SRD",
+				"hint": "(Richiede il modulo Babele) Traduzione delle librerie SRD del sistema D&D5E.",
+				"warning": "Per tradurre le librerie <b>D&D5E</b> è necessario attivare i moduli <b>Babele e libWrapper</b>"
+			}
+		}
+	}
+}
