@@ -1,0 +1,15 @@
+{
+"TIME.Millisecond.few": "millisecondi",
+"TIME.Millisecond.many": "millisecondi",
+"TIME.Second.few": "secondi",
+"TIME.Second.many": "secondi",
+"TIME.Minute.few": "minuti",
+"TIME.Minute.many": "minuti",
+"TIME.Hour.few": "ore",
+"TIME.Hour.many": "ore",
+"TIME.Day.few": "giorni",
+"TIME.Day.many": "giorni",
+"TIME.Year.few": "anni",
+"TIME.Year.many": "anni",
+"FOLDER.Create": "Crea cartella"
+}

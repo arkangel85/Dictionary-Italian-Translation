@@ -5,8 +5,8 @@
   	"authors": [
     	{
       	"name": "Arkangel",
-      	"discord": "arkangel77",
-      	"url": "https://github.com/Arkangel77"
+      	"discord": "arkangel9056",
+      	"url": "https://github.com/arkangel85"
     	}
   	],
 	"version": "13.346.7",
@@ -33,7 +33,7 @@
 	"languages": [
 		{
 			"lang": "it",
-			"name": "Russian",
+			"name": "Italiano",
 			"path": "i18n/core/foundry.json"
 		},
 		{
@@ -973,13 +973,13 @@
 	"media": [
 		{
 			"type": "cover",
-			"url": "https://raw.githubusercontent.com/phenomen/foundry-vtt-ru/refs/heads/main/public/images/module/cover.webp",
+			"url": "https://raw.githubusercontent.com/arkangel85/FoundryVTT-italian/main/public/images/module/cover.webp",
 			"loop": false,
 			"flags": {}
 		},
 		{
 			"type": "icon",
-			"url": "https://raw.githubusercontent.com/phenomen/foundry-vtt-ru/refs/heads/main/public/images/module/icon.webp",
+			"url": "https://raw.githubusercontent.com/arkangel85/FoundryVTT-italian/main/public/images/module/icon.webp",
 			"loop": false,
 			"flags": {}
 		},
@@ -996,7 +996,7 @@
 			"paths": ["i18n/**/*.json", "styles/*.css"]
 		}
 	},
-	"url": "https://github.com/phenomen/foundry-vtt-ru",
-	"manifest": "https://github.com/phenomen/foundry-vtt-ru/releases/download/latest/module.json",
-	"download": "https://github.com/phenomen/foundry-vtt-ru/releases/download/latest/it-IT.zip"
+	"url": "https://github.com/arkangel85/FoundryVTT-italian",
+	"manifest": "https://github.com/arkangel85/FoundryVTT-italian/releases/download/latest/module.json",
+	"download": "https://github.com/arkangel85/FoundryVTT-italian/releases/download/latest/it-IT.zip"
 }
