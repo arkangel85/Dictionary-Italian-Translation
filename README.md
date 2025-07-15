@@ -1,25 +1,16 @@
 <h1>Traduzione italiana per Foundry VTT</h1>
 
 <p>
-  <img src="https://via.placeholder.com/800x400.png?text=Immagine+segnaposto+per+Foundry+VTT" alt="Logo Foundry VTT con bandiera italiana">
+  <img src="https://img.shields.io/badge/FVTT-v13-brightgreen" alt="FVTT v13 badge">
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/FVTT-v13-brightgreen" alt="FVTT v13 badge">
+  <img src="https://via.placeholder.com/800x400.png?text=Immagine+segnaposto+per+Foundry+VTT" alt="Logo Foundry VTT con bandiera italiana">
 </p>
 
 <p>
   Il modulo aggiunge il supporto per la lingua italiana in Foundry VTT, nonché per molti sistemi e moduli.
 </p>
-
-<h2>Collegamenti</h2>
-<ul>
-  <li><a href="#">manifest.json V13</a></li>
-  <li><a href="#">manifest.json V12</a></li>
-  <li><a href="#">Comunità italiana di Foundry su Discord</a></li>
-  <li><a href="#">Modulo sul sito di Foundry VTT</a></li>
-  <li><a href="#">Github</a></li>
-</ul>
 
 <h2>Installazione e configurazione</h2>
 
