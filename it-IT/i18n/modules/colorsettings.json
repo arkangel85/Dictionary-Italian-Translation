@@ -1,13 +1,13 @@
 {
-	"colorSettings.menuError": "Подменю не найдено этого ключа",
-	"colorSettings.dropper": "Пипетка",
-	"colorSettings.reset": "Палитры будут сброшены при сохранении",
-	"colorSettings.showError": "Показывать ошибку",
-	"colorSettings.showErrorHint": "Отображение ошибки, если основной модуль отсутствует.",
-	"colorSettings.enableDialog": "Включить модуль Color Settings?",
-	"colorSettings.enableDialogContent": "У вас установлен модуль Color Settings, хотите включить его?",
-	"colorSettings.backupWarning": "Модуль предоставляет продвинутую библиотеку для выбора цвета. Для лучшего результата советуем также установить и активировать Lib-Color Settings.",
-	"colorSettings.init": "Color Settings | Инициализация",
-	"colorSettings.fallBackInit": "Color Settings | Инициализация в режиме совместимости",
-	"colorSettings.delay": "Может потребоваться немного времени для определения цвета."
+"colorSettings.menuError": "Sottomenu non trovato per questa chiave",
+"colorSettings.dropper": "Contagocce",
+"colorSettings.reset": "Le palette verranno ripristinate al salvataggio",
+"colorSettings.showError": "Mostra errore",
+"colorSettings.showErrorHint": "Mostra un errore se il modulo principale non è presente.",
+"colorSettings.enableDialog": "Attivare il modulo Color Settings?",
+"colorSettings.enableDialogContent": "Hai installato il modulo Color Settings, vuoi attivarlo?",
+"colorSettings.backupWarning": "Il modulo fornisce una libreria avanzata per la selezione dei colori. Per ottenere il miglior risultato, si consiglia di installare e attivare anche Lib-Color Settings.",
+"colorSettings.init": "Color Settings | Inizializzazione",
+"colorSettings.fallBackInit": "Color Settings | Inizializzazione in modalità compatibilità",
+"colorSettings.delay": "Potrebbe volerci un po’ di tempo per determinare il colore."
 }

@@ -1,30 +1,30 @@
 {
-	"compact-scene-navigation": {
-		"ToggleFavorite": "Избранная",
-		"goToFolder": "Перейти к папке",
-		"settings": {
-			"gmOnly": {
-				"name": "Только для ведущего",
-				"hint": "Если отключено, игроки смогут видеть дерево папок для любой сцены, к которой у них есть доступ."
-			},
-			"autoHide": {
-				"name": "Автоскрытие",
-				"hint": "Автоматически скрывать панель навигации, когда она не используется."
-			},
-			"useNavigation": {
-				"name": "Только отображаемые в навигации сцены",
-				"hint": "Если включено, показывать ведущему только сцены, отмеченные как 'Отображать в навигации', иначе показывать все сцены. Игроки всегда будут видеть только сцены, отмеченные как 'Отображать в навигации'."
-			},
-			"clickViewScene": {
-				"name": "ЛКМ для просмотра сцены",
-				"hint": "Если включено, нажатие на сцену в боковой панели будет открывать просмотр сцены вместо настроек сцены."
-			},
-			"dynamicSorting": {
-				"name": "Динамическая сортировка",
-				"hint": "Если включено, активная сцена всегда будет первой, а просматриваемая сцена всегда будет второй."
-			}
-		},
-		"app": {},
-		"flags": {}
-	}
+  "compact-scene-navigation": {
+    "ToggleFavorite": "Preferita",
+    "goToFolder": "Vai alla cartella",
+    "settings": {
+      "gmOnly": {
+        "name": "Solo per il GM",
+        "hint": "Se disattivato, i giocatori potranno vedere l'albero delle cartelle per qualsiasi scena a cui hanno accesso."
+      },
+      "autoHide": {
+        "name": "Nascondi automaticamente",
+        "hint": "Nasconde automaticamente il pannello di navigazione quando non viene utilizzato."
+      },
+      "useNavigation": {
+        "name": "Solo scene visibili nella navigazione",
+        "hint": "Se attivato, mostra al GM solo le scene contrassegnate come 'Mostra nella navigazione'; altrimenti mostra tutte. I giocatori vedranno sempre solo le scene contrassegnate come visibili."
+      },
+      "clickViewScene": {
+        "name": "Click sinistro per visualizzare la scena",
+        "hint": "Se attivato, cliccare su una scena nella barra laterale la aprirà in visualizzazione invece di aprire le sue impostazioni."
+      },
+      "dynamicSorting": {
+        "name": "Ordinamento dinamico",
+        "hint": "Se attivato, la scena attiva sarà sempre al primo posto e la scena visualizzata al secondo."
+      }
+    },
+    "app": {},
+    "flags": {}
+  }
 }

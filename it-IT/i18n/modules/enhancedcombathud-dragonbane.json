@@ -1,74 +1,74 @@
 {
-	"enhancedcombathud-dragonbane": {
-		"settings": {
-			"includeUnpreparedSpells": "Отображение неподготовленных заклинаний",
-			"includeUnpreparedSpellsHint": "Включать неподготовленные заклинания в список заклинаний",
-			"groupSpellsByRank": "Группировка по кругу",
-			"groupSpellsByRankHint": "Группировать заклинания по кругу",
-			"preferShieldParry": "Предпочитать щит для кнопки паррирования",
-			"preferShieldParryHint": "Предпочитать щит при выборе оружия для парирования. Иначе использовать оружие с наивысшим навыком и прочностью.",
-			"skillNameHealing": "Навык для кнопки Первой помощи",
-			"skillNamePersuasion": "Навык для кнопки Воодушевления",
-			"skillNameEvade": "Навык для кнопки Уклонения"
-		},
-		"panels": {
-			"attack": "Атака",
-			"actions": "Действия",
-			"magic": "Магия",
-			"defense": "Защита",
-			"dying": "Смерть"
-		},
-		"actions": {
-			"first-aid": "Первая помощь",
-			"rally": "Воодушевление",
-			"rally-self": "Воодушевление (себя)",
-			"parry": "Паррирование",
-			"dodge": "Уклонение",
-			"monster-attack": "Атака чудовища",
-			"monster-defend": "Защита чудовища",
-			"death-roll": "Проверка смерти"
-		},
-		"buttons": {
-			"heroic-abilities": "Героические способности",
-			"round-rest": "Раунд отдыха",
-			"spells": "Заклинания",
-			"shift-rest": "Смена отдыха",
-			"stretch-rest": "Период отдыха"
-		},
-		"portrait": {
-			"hp": "ПЗ",
-			"wp": "ПВ"
-		},
-		"tooltips": {
-			"heroic-ability": "Героическая способность",
-			"wp-cost": "ПВ"
-		},
-		"weapon": {
-			"tooltips": {
-				"damage": "Урон",
-				"durability": "Прочность",
-				"range": "Дистанция",
-				"features": "Особенности"
-			}
-		},
-		"drawer": {
-			"attributes-and-skills": "Характеристики и навыки",
-			"skills": "Навыки",
-			"magic": "Магия",
-			"spells": {
-				"rank": "Круг {rank}"
-			},
-			"secondary-skills": "Дополнительные навыки",
-			"weapons": "Оружие",
-			"attribute": "Характеристиа",
-			"attributes": {
-				"STR": "СИЛ",
-				"CON": "ВЫН",
-				"AGL": "ЛОВ",
-				"INT": "ИНТ",
-				"WIL": "ВОЛ",
-				"CHA": "ХАР"
-			}
-		}
-	}
+  "enhancedcombathud-dragonbane": {
+    "settings": {
+      "includeUnpreparedSpells": "Mostra incantesimi non preparati",
+      "includeUnpreparedSpellsHint": "Includi gli incantesimi non preparati nell’elenco degli incantesimi",
+      "groupSpellsByRank": "Raggruppa per grado",
+      "groupSpellsByRankHint": "Raggruppa gli incantesimi in base al loro grado",
+      "preferShieldParry": "Preferisci lo scudo per la parata",
+      "preferShieldParryHint": "Preferisci lo scudo quando scegli l’arma per la parata. Altrimenti usa l’arma con la maggiore abilità e durabilità.",
+      "skillNameHealing": "Abilità per il pulsante Primo Soccorso",
+      "skillNamePersuasion": "Abilità per il pulsante Incoraggiamento",
+      "skillNameEvade": "Abilità per il pulsante Schivata"
+    },
+    "panels": {
+      "attack": "Attacco",
+      "actions": "Azioni",
+      "magic": "Magia",
+      "defense": "Difesa",
+      "dying": "Morte"
+    },
+    "actions": {
+      "first-aid": "Primo soccorso",
+      "rally": "Incoraggiamento",
+      "rally-self": "Incoraggiamento (sé)",
+      "parry": "Parata",
+      "dodge": "Schivata",
+      "monster-attack": "Attacco del mostro",
+      "monster-defend": "Difesa del mostro",
+      "death-roll": "Tiro salvezza contro la morte"
+    },
+    "buttons": {
+      "heroic-abilities": "Abilità eroiche",
+      "round-rest": "Riposo breve",
+      "spells": "Incantesimi",
+      "shift-rest": "Turno di riposo",
+      "stretch-rest": "Periodo di riposo"
+    },
+    "portrait": {
+      "hp": "PF",
+      "wp": "PS"
+    },
+    "tooltips": {
+      "heroic-ability": "Abilità eroica",
+      "wp-cost": "PS"
+    },
+    "weapon": {
+      "tooltips": {
+        "damage": "Danno",
+        "durability": "Durabilità",
+        "range": "Portata",
+        "features": "Caratteristiche"
+      }
+    },
+    "drawer": {
+      "attributes-and-skills": "Attributi e abilità",
+      "skills": "Abilità",
+      "magic": "Magia",
+      "spells": {
+        "rank": "Grado {rank}"
+      },
+      "secondary-skills": "Abilità secondarie",
+      "weapons": "Armi",
+      "attribute": "Attributo",
+      "attributes": {
+        "STR": "FOR",
+        "CON": "COS",
+        "AGL": "AGI",
+        "INT": "INT",
+        "WIL": "VOL",
+        "CHA": "CAR"
+      }
+    }
+  }
 }

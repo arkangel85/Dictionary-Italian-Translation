@@ -1,207 +1,207 @@
 {
-	"enhancedcombathud-dnd5e": {
-		"portraitConfig": {
-			"prepared": {
-				"label": "Подготовленные заклинания",
-				"auto": "Автоматическое определение",
-				"preparedOnly": "Только подготовленные",
-				"all": "Все заклинания"
-			}
-		},
-		"settings": {
-			"switchEquip": {
-				"name": "Автоматическое снаряжение",
-				"hint": "Автоматически надевать и снимать снаряжение при смене наборов"
-			},
-			"showWeaponsItems": {
-				"name": "Отображение оружия в разделе 'Использование предмета'",
-				"hint": "Оружие будет отображаться в разделе 'Использование предмета'. Полезно, если вам не хватает ячеек под наборы оружия."
-			},
-			"showClassActions": {
-				"name": "Отображение действий класса",
-				"hint": "Отображать действия класса на основной панели действий"
-			},
-			"condenseClassActions": {
-				"name": "Компактные действия класса",
-				"hint": "Если включено 'Отображение действий класса', то действия будут отображаться парами для сохранения места."
-			},
-			"noAA": {
-				"name": "Не применять активные эффекты",
-				"hint": "Активные эффекты не будут применяться при использовании особых действий (требуется перезагрузка)"
-			},
-			"showSpecialActions": {
-				"name": "Отображение основных действий",
-				"hint": "Отображать основные действия на панели (уклонение, рывок, отступление, засада, подготовка, толчок)"
-			}
-		},
-		"hud": {
-			"mainactions": {
-				"name": "Действие"
-			},
-			"castspell": {
-				"name": "Заклинание"
-			},
-			"usepower": {
-				"name": "Особенность"
-			},
-			"useitem": {
-				"name": "Предмет"
-			},
-			"bonusaction": {
-				"name": "Бонусное"
-			},
-			"reaction": {
-				"name": "Ответное"
-			},
-			"specialaction": {
-				"name": "Свободное"
-			},
-			"pass": {
-				"name": "Пропуск"
-			},
-			"endturn": {
-				"name": "Конец хода"
-			},
-			"hp": {
-				"name": "ПЗ"
-			},
-			"ac": {
-				"name": "КБ"
-			},
-			"of": {
-				"name": "из"
-			},
-			"inventory": {
-				"name": "Бланк"
-			},
-			"saves": {
-				"name": "Испытания"
-			},
-			"skills": {
-				"name": "Навыки"
-			},
-			"tools": {
-				"name": "Инструменты"
-			}
-		},
-		"items": {
-			"disengage": {
-				"name": "Отступление",
-				"desc": "<p>Если вы выполнили действие Отступления, ваше перемещение не провоцирует внеочередных атак до конца этого хода.</p>"
-			},
-			"hide": {
-				"name": "Засада",
-				"desc": "<p>Совершая это действие, вы проходите проверку Ловкости (Скрытность), пытаясь спрятаться, согласно правилам скрытности.</p>\n<p data-content-chunk-id=\"d49da437-9800-4cdb-be60-5c1cc12e45f2\">Чтобы избежать внимания врагов, бойцы нередко прячутся, творят заклинание <i>невидимость</i> или скрываются в темноте. </p>\n<p data-content-chunk-id=\"c7a62036-4c31-4a7f-bd29-db5f4a873f8c\">Атакуя цель, которую вы не видите, вы получаете помеху к броску атаки. Это работает всякий раз, когда вы пытаетесь угадать расположение цели или слышите её, но не видите. Если цель окажется не там, где вы предполагали, вы промахиваетесь автоматически, но мастер, как правило, просто скажет, что вы промахнулись, не уточняя, где находилась цель.</p>\n<p data-content-chunk-id=\"760a7b7d-7681-4f2c-a356-05594eca1bbd\">Если противник вас не видит, у вас преимущество к броскам атаки против него. Если вы прятались — вас не было видно и слышно, — то, совершив атаку, вы выдаёте своё местоположение, как попав, так и промахнувшись.</p>\n"
-			},
-			"shove": {
-				"name": "Толчок",
-				"desc": "<p data-content-chunk-id=\"5242445d-e04b-437b-b1c4-4fef6622c350\">Когда вы пытаетесь схватить существо или бороться с ним, можете использовать действие Атака, чтобы совершить особую атаку ближнего боя — захват. Если вы можете совершить несколько атак действием Атака, захват заменяет одну из них.</p>\n<p data-content-chunk-id=\"55b5838a-271d-4cb3-b971-9769a49a921c\">Цель вашего захвата должна быть не более чем на одну категорию размера крупнее вас и должна находиться в зоне вашей досягаемости. Используя хотя бы одну свободную руку, вы пытаетесь схватить цель, совершая вместо броска атаки проверку захвата: проверку Силы (Атлетика) в состязании с Силой (Атлетика) или Ловкостью (Акробатика) цели по её выбору. Захват автоматически успешен, если цель <i>выведена из строя</i>. При успехе цель получает состояние <i>захвата</i>. В описании состояния указано, что может его прекратить, также вы можете отпустить цель в любой момент (действие не требуется).</p>\n<p data-content-chunk-id=\"a5d87cfc-afcc-4ae2-99c4-b4ed2af6a439\"><b>Освобождение из захвата.</b> Существо в <i>захвате</i> может использовать действие, чтобы освободиться. Для этого ему нужно успешно пройти проверку Силы (Атлетика) или Ловкости (Акробатика) в состязании с вашей проверкой Силы (Атлетика).</p>\n<p data-content-chunk-id=\"ea1b3c54-b95f-45cb-8c5c-1ed310d82ce2\"><b>Перемещение захваченного существа.</b> Перемещаясь, вы можете тащить за собой захваченное существо. При этом ваша скорость снижается вдвое, если только существо не меньше вас на две или более категории размера.</p>\n<h4 id=\"ShovingaCreature\" data-content-chunk-id=\"5b230975-10b4-4cd0-bd03-2770875c21e5\">Толчок</h4>\n<p data-content-chunk-id=\"f4e214a2-2779-43c0-b318-23f5e5c47a9f\">Использовав действие Атака, вы можете совершить особую атаку ближнего боя — толчок, чтобы либо заставить противника <i>распластаться</i>, либо оттолкнуть его от себя. Если вы можете совершить несколько атак действием Атака, толчок заменяет одну из них.</p>\n<p data-content-chunk-id=\"d6bd6c9e-bda0-4b45-a5be-f9425e23783c\">Цель вашего толчка должна быть не более чем на одну категорию размера крупнее вас и должна находиться в зоне вашей досягаемости. Вместо броска атаки совершите проверку Силы (Атлетика) в состязании с Силой (Атлетика) или Ловкостью (Акробатика) цели по её выбору. Толчок автоматически успешен, если цель выведена из строя. При успехе вы либо заставляете цель распластаться, либо отталкиваете её от себя на 5 футов.</p>"
-			},
-			"dash": {
-				"name": "Рывок",
-				"desc": "<p data-content-chunk-id=\"32f25854-3ca6-4afe-8790-0a87b06879b1\">Совершая это действие, вы получаете дополнительное перемещение в текущем ходу. Оно равно вашей скорости с добавлением соответствующих модификаторов. Если, к примеру, ваша скорость — 30 футов, то, совершив Рывок, вы сможете переместиться на расстояние до 60 футов в ваш ход.</p>\n<p data-content-chunk-id=\"8587443b-c938-455a-9861-09e5af6a9629\">Любое увеличение или снижение вашей скорости влияет на это дополнительное перемещение в той же степени. Если ваша скорость понизилась с 30 до 15 футов, то, совершив Рывок, вы сможете переместиться только на 30 футов.</p>"
-			},
-			"dodge": {
-				"name": "Уклонение",
-				"desc": "<p>Совершая это действие, вы сосредотачиваетесь исключительно на том, чтобы избегать атак. До начала вашего следующего хода любой бросок атаки против вас имеет помеху, если вы видите атакующего, а сами вы проходите испытания Ловкости с преимуществом. Эффект теряется, если вы <i>выведены из строя</i> или если ваша скорость упала до 0.</p>"
-			},
-			"ready": {
-				"name": "Подготовка",
-				"desc": "<p data-content-chunk-id=\"7cbedb62-3df7-482e-9bee-412289356aca\">Иногда вы хотите опередить врага в атаке или подождать удобного момента, прежде чем действовать. Для этого вы можете в свой ход совершить Подготовленное действие, которое позволяет вам подействовать позже до начала вашего следующего хода, потратив ответное действие.</p>\n<p data-content-chunk-id=\"ef9f90d3-f264-4278-a0f8-0684073c429f\">В первую очередь вам надо решить, какое наблюдаемое условие вызовет ваше ответное действие. Затем выберите действие или перемещение в пределах вашей скорости, которым вы отреагируете на это условие. Например: «Если культист наступит на люк, я дёрну за рычаг и открою его» или «Если гоблин подойдёт ко мне вплотную, я отбегу».</p>\n<p data-content-chunk-id=\"6c8b0166-9e42-42fa-9ef6-6c01381032c9\">Когда условие наступает, вы можете или совершить ответное действие сразу после этого, или проигнорировать условие. Помните, что в каждом раунде можно совершить лишь одно ответное действие.</p>\n<p data-content-chunk-id=\"2783c1c8-74e2-4b36-8eb7-2a7c4ea671e3\">Применяя заклинание в качестве Подготовленного действия, вы творите его как обычно, но сдерживаете его энергию, пока не наступит условие, а потом выпускаете, потратив ответное действие. Для применения заклинания подобным образом нужно, чтобы его время сотворения составляло 1 действие, а для поддержания магии заклинания, пока вы его не выпустите, требуется концентрация (подробнее см. в главе 10). Если концентрация нарушена, заклинание рассеивается без эффекта. К примеру, если вы концентрируетесь на заклинании <i>паутина</i> и сотворяете <i>волшебную стрелу</i> в качестве Подготовленного действия, ваше заклинание <i>паутина</i> прекращается, и если вы получите урон, прежде чем выпустите <i>волшебную стрелу</i> ответным действием, то ваша концентрация может быть нарушена.</p>"
-			}
-		},
-		"skills": {
-			"acr": {
-				"tooltip": "Проверки Ловкости (Акробатика) требуются при попытках удержаться на ногах в сложном положении, например когда вы бежите по скользкому льду, балансируете на канате или пытаетесь устоять на качающейся палубе корабля. Мастер также может потребовать проверку Ловкости (Акробатика), если вы выполняете акробатические трюки, например прыжок в воду, колесо, сальто или кувырок."
-			},
-			"ani": {
-				"tooltip": "Если нужно проверить, сможете ли вы успокоить домашнее животное, усмирить испуганного коня или понять намерения зверя, мастер требует проверку Мудрости (Дрессировка). Она также требуется, чтобы править скакуном, выполняя опасный трюк."
-			},
-			"arc": {
-				"tooltip": "Проверки Интеллекта (Магия) отражают ваши знания о заклинаниях, магических предметах, мистических символах, волшебных традициях, иных планах бытия и их обитателях."
-			},
-			"ath": {
-				"tooltip": "<p>Проверки Силы (Атлетика) требуются в ситуациях, когда вы лазаете, прыгаете или плаваете. Примеры таких действий:</p><ul><li>Вы пытаетесь забраться на отвесный или скользкий склон, избежать опасностей, влезая на стену, или удержаться от падения, когда что-то пытается сбросить вас.</li><li>Вы пытаетесь прыгнуть на очень большое расстояние или выполнить трюк посреди прыжка.</li><li>Вы пытаетесь плыть или удерживаться на плаву в бурном потоке, в море посреди шторма или в зарослях водорослей либо сопротивляетесь попыткам другого существа утянуть вас под воду или ещё как-то помешать вам плыть.</li></ul>"
-			},
-			"dec": {
-				"tooltip": "Проверка Харизмы (Обман) требуется, когда вы пытаетесь убедительно скрыть правду словами или действиями. Обман может быть каким угодно, от попытки запутать собеседника неопределёнными словами до прямой лжи. Типичные ситуации — попытки уболтать стражника, надуть купца, заработать денег азартными играми, выдать себя за другого, усыпить подозрения ложными заверениями и нагло врать, не моргнув глазом."
-			},
-			"his": {
-				"tooltip": "Проверки Интеллекта (История) отражают ваши знания об исторических событиях, легендарных героях, древних царствах, конфликтах давнего и недавнего прошлого и погибших цивилизациях."
-			},
-			"ins": {
-				"tooltip": "Проверки Мудрости (Проницательность) указывают, можете ли вы определить мотивы существа, например пытаясь вычислить обман или предсказать чьё-то следующее действие. Позволяет понимать язык тела, манеру разговора и перемены в поведении."
-			},
-			"itm": {
-				"tooltip": "Когда вы пытаетесь повлиять на кого-то прямыми угрозами, устрашающими действиями и физическим насилием, мастер может потребовать проверку Харизмы (Запугивание). Типичные ситуации — попытки выбить сведения из пленника, заставить уличных грабителей отступить без драки или использовать острый осколок бутылки, чтобы убедить наглого визиря поменять своё решение."
-			},
-			"inv": {
-				"tooltip": "Когда вы ищете улики и применяете дедукцию, делая выводы из них, пройдите проверку Интеллекта (Расследование). Вы можете вычислить местоположение скрытого объекта, понять по форме раны, чем она была нанесена, или найти слабую точку в тоннеле, в которой его легко обрушить. Чтение древних свитков в поисках тайного знания тоже может потребовать проверки Интеллекта (Расследование)."
-			},
-			"med": {
-				"tooltip": "Проверки Мудрости (Медицина) требуются при попытке стабилизировать состояние умирающего спутника или опознать болезнь."
-			},
-			"nat": {
-				"tooltip": "Проверки Интеллекта (Природа) отражают ваши знания о местности, растениях и животных, о погоде и природных циклах."
-			},
-			"prc": {
-				"tooltip": "Проверка Мудрости (Внимание) определяет, сможете ли вы увидеть, услышать или ещё как-то заметить присутствие чего-либо. Она определяет ваше представление об окружающей обстановке и остроту вашего восприятия. К примеру, вы можете попытаться подслушать разговор через закрытую дверь или под окном или услышать, как чудовища скрытно рыскают в лесу. Или можете попробовать подметить что-то скрытое или малозаметное, например орков, залёгших в засаду у дороги, разбойников, прячущихся в тенистой аллее, или свет свечи из-за закрытой тайной дверцы."
-			},
-			"prf": {
-				"tooltip": "Проверка Харизмы (Исполнение) определяет, можете ли вы развлечь публику музыкой, танцем, актёрской игрой, байками или каким-то ещё способом."
-			},
-			"per": {
-				"tooltip": "Когда вы пытаетесь повлиять на кого-то при помощи тактичности, вежливости и добрых слов, мастер может потребовать проверку Харизмы (Убеждение). Как правило, Убеждение используется, когда вы действуете с добрыми намерениями, дружелюбно и откровенно, и придерживаетесь правил этикета. Примеры Убеждения — попытка уговорить представить ваш отряд королю, переговоры о мире между враждующими племенами или вдохновляющая речь перед толпой горожан."
-			},
-			"rel": {
-				"tooltip": "Проверки Интеллекта (Религия) отражают ваши знания о богах, обрядах, молитвах, церковных иерархиях, символах религии и практиках тайных культов."
-			},
-			"slt": {
-				"tooltip": "Когда вы пытаетесь показать фокус, жонглировать или сделать что-то ещё руками, например незаметно подбросить другому предмет или скрыть его на своём теле, пройдите проверку Ловкости (Ловкость рук). Мастер может также потребовать проверку Ловкости (Ловкость рук), чтобы определить, можете ли вы срезать у другого персонажа кошелёк или стянуть что-то из его кармана."
-			},
-			"ste": {
-				"tooltip": "Проверки Ловкости (Скрытность) требуются при попытках спрятаться от врагов, проскользнуть мимо стражи, сбежать незамеченным или подкрасться к кому-то, не привлекая его внимания."
-			},
-			"sur": {
-				"tooltip": "Мастер может потребовать проверку Мудрости (Выживание), если вы пытаетесь идти по следу, охотиться на дичь, вести вашу группу через замёрзшую тундру, определить по приметам, что рядом обитают медвесычи, или избежать зыбучих песков и прочих природных опасностей."
-			}
-		},
-		"abilities": {
-			"str": {
-				"tooltip": "<p>Сила означает мощь тела, спортивную подготовку и то, насколько вы можете применять грубую физическую силу.</p><p><strong>Проверки Силы</strong><br/>Проверка Силы отражает попытки поднимать, толкать, тянуть или ломать что-то, проломиться через занятое чем-то пространство или как-то ещё решить проблему силовыми средствами. Навык Атлетика отражает вашу подготовку к определённым проверкам Силы.</p><p><strong>Другие проверки Силы</strong><br/>Мастер может также попросить совершить проверку Силы, если вы пытаетесь выполнить задачу, подобную следующим:<ul><li>Выломать запертую, заклинившую или забаррикадированную дверь.</li><li>Освободиться из пут.</li><li>Протиснуться сквозь слишком маленький тоннель.</li><li>Держаться руками, волочась за телегой на полном ходу.</li><li>Опрокинуть статую.</li><li>Остановить катящийся валун.</li></ul></p><p><strong>Подъём и переноска тяжестей</strong><br/>От значения вашей Силы зависит, какой вес вы можете нести. Следующие правила определяют, что вы можете поднять или нести.</p><p><strong>Грузоподъёмность.</strong> Ваша грузоподъёмность — это ваше значение Силы, умноженное на 15. Это вес (в фунтах), который вы можете нести. Обычно он достаточно высок, чтобы персонажам не приходилось из-за этого волноваться.</p><p><strong>Толкать, тянуть или поднимать.</strong> Вы можете толкать, тянуть или поднимать вес в фунтах, вдвое больше вашей грузоподъёмности (то есть в 30 раз больше значения вашей Силы). Когда вы толкаете или тянете груз, который выше вашей грузоподъёмности, ваша скорость снижается до 5 футов.</p><p><strong>Размер и Сила.</strong> Чем больше существо, тем больший вес оно может нести, а маленькие существа способны нести меньше. За каждую категорию размера выше среднего удваивайте грузоподъёмность существа и вес, который оно может толкать, тянуть и поднимать. Для маленького существа уменьшите эти значения вдвое.</p>"
-			},
-			"dex": {
-				"tooltip": "<p>Ловкость означает физическую подвижность, рефлексы и равновесие.</p><p><strong>Проверки Ловкости</strong><br/>Проверка Ловкости отражает попытку двигаться проворно, быстро или бесшумно или стараясь не упасть при этом. Навыки Акробатика, Ловкость рук и Скрытность отражают вашу подготовку к определённым проверкам Ловкости.</p><p><strong>Другие проверки Ловкости</strong><br/>Мастер может также попросить совершить проверку Ловкости, если вы пытаетесь выполнить задачу, подобную следующим:<ul><li>Управлять перегруженной двуколкой на крутом спуске.</li><li>Провести колесницу через крутой поворот.</li><li>Взломать замок.</li><li>Обезвредить ловушку.</li><li>Надёжно связать пленника.</li><li>Вывернуться из пут.</li><li>Сыграть на струнном инструменте.</li><li>Изготовить маленький или детализированный предмет.</li></ul></p><p><strong>Класс брони</strong><br/>В зависимости от надетой на вас брони, вы можете добавить ваш модификатор Ловкости или его часть к вашему классу брони как описано в главе <a class='entity-link' data-pack='dnd5e.rules' data-id='ln4KF7662eP93keD'>Снаряжение.</a></p><p><strong>Инициатива</strong><br/>В начале каждого боя вы совершаете бросок инициативы — это проверка Ловкости. От инициативы зависит порядок ходов существ в бою, как описано в главе <a class='entity-link' data-pack='dnd5e.rules' data-id='3V8ywGHQEpbZpsIL'>Бой.</a>"
-			},
-			"con": {
-				"tooltip": "<p>Выносливость означает здоровье, стойкость и жизненную силу.</p><p><strong>Проверки Выносливости</strong><br/>Проверки Выносливости требуются редко, и никакие навыки к ним не применяются, потому что эта характеристика означает пассивное сопротивление, а не конкретное действие со стороны персонажа или чудовища. Проверки Выносливости могут отражать вашу попытку выйти за пределы своих сил. Мастер может попросить совершить проверку Выносливости, если вы пытаетесь выполнить задачу, подобную следующим::<ul><li>Задержать дыхание.</li><li>Идти или работать часами без отдыха.</li><li>Обходиться без сна.</li><li>Выживать без пищи и воды.</li><li>Выпить залпом большую кружку эля.</li></ul></p><p><strong>Пункты здоровья</strong><br/>Ваш модификатор Выносливости влияет на количество пунктов здоровья (ПЗ). Как правило, вы добавляете модификатор Выносливости к каждому броску кости здоровья для определения ПЗ.</p><p>Если ваш модификатор Выносливости меняется, меняется и ваш максимум ПЗ, как если бы новый модификатор был у вас с 1-го уровня. К примеру, если вы повысите значение Выносливости, достигнув 4-го уровня, и ваш модификатор Выносливости увеличится с +1 до +2, то ваш максимум ПЗ изменяется так, будто модификатор всегда был +2. Так что вы добавляете 3 ПЗ за первые три уровня, а затем делаете бросок для определения ПЗ за 4-й уровень, используя новый модификатор. А если вы 7-го уровня и какой-то эффект понизил вашу Выносливость, так что её модификатор уменьшился на 1, ваш максимум ПЗ снижается на 7.</p>"
-			},
-			"int": {
-				"tooltip": "<p>Интеллект означает остроту ума, точность памяти и способность к рассуждениям.</p><p><strong>Проверки Интеллекта</strong><br/>Проверка Интеллекта применяется, когда нужно полагаться на логику, образование, память или дедукцию. Навыки История, Магия, Природа, Расследование и Религия отражают вашу подготовку к определённым проверкам Интеллекта.</p><p><strong>Другие проверки Интеллекта</strong><br/>Мастер может также попросить совершить проверку Интеллекта, если вы пытаетесь выполнить задачу, подобную следующим:<ul><li>Общаться с другим существом без слов.</li><li>Определить стоимость ценного предмета.</li><li>Замаскироваться под городского стражника.</li><li>Подделать документ.</li><li>Вспомнить знания о ремесле.</li><li>Выиграть в игре, требующей сообразительности.</li></ul></p>"
-			},
-			"wis": {
-				"tooltip": "<p>Мудрость означает приспособленность к миру вокруг вас, внимательность и интуицию.</p><p><strong>Проверки Мудрости</strong>Проверка Мудрости отражает попытки понять язык тела, угадать чьи-то чувства, заметить что-то необычное вокруг вас или вылечить раненого. Навыки Внимание, Выживание, Дрессировка, Медицина и Проницательность отражают вашу подготовку к определённым проверкам Мудрости.</p><p><strong>Другие проверки Мудрости</strong></br>Мастер может также попросить совершить проверку Мудрости, если вы пытаетесь выполнить задачу, подобную следующим:<ul><li>Нутром почуять, что именно стоит делать.</li><li>Понять, что существо, которое кажется живым или мёртвым, является нежитью.</li></ul></p>"
-			},
-			"cha": {
-				"tooltip": "<p>Харизма означает вашу способность взаимодействовать с другими персонажами. Она включает уверенность в себе и красноречие и может олицетворять привлекательную или властную личность.</p><p><strong>Проверки Харизмы</strong><br/>Проверки Харизмы требуются, когда вы пытаетесь повлиять на других или развлечь их, произвести на них впечатление, убедительно соврать или выпутаться из сложной социальной ситуации. Навыки Запугивание, Исполнение, Обман и Убеждение отражают вашу подготовку к определённым проверкам Харизмы.</p><p><strong>Другие проверки Харизмы</strong><br/>Мастер может также попросить совершить проверку Харизмы, если вы пытаетесь выполнить задачу, подобную следующим:<ul><li>Найти подходящего собеседника, у которого можно узнать новости, слухи и сплетни.</li><li>Влиться в толпу и понять, о чём в ней говорят.</li></ul></p>"
-			}
-		},
-		"tooltip": {
-			"target": {
-				"name": "Цель"
-			},
-			"range": {
-				"name": "Дистанция"
-			},
-			"properties": {
-				"name": "Свойства"
-			},
-			"toHit": {
-				"name": "Для попадания"
-			},
-			"damage": {
-				"name": "Урон"
-			}
-		}
-	}
+  "enhancedcombathud-dnd5e": {
+    "portraitConfig": {
+      "prepared": {
+        "label": "Incantesimi preparati",
+        "auto": "Rilevamento automatico",
+        "preparedOnly": "Solo preparati",
+        "all": "Tutti gli incantesimi"
+      }
+    },
+    "settings": {
+      "switchEquip": {
+        "name": "Equipaggiamento automatico",
+        "hint": "Equipaggia e rimuove automaticamente l'equipaggiamento al cambio dei set"
+      },
+      "showWeaponsItems": {
+        "name": "Mostra armi nella sezione 'Uso oggetto'",
+        "hint": "Le armi verranno visualizzate nella sezione 'Uso oggetto'. Utile se non hai abbastanza slot per i set di armi."
+      },
+      "showClassActions": {
+        "name": "Mostra azioni di classe",
+        "hint": "Mostra le azioni di classe nel pannello principale delle azioni"
+      },
+      "condenseClassActions": {
+        "name": "Azioni di classe compatte",
+        "hint": "Se è attiva 'Mostra azioni di classe', le azioni verranno mostrate a coppie per risparmiare spazio."
+      },
+      "noAA": {
+        "name": "Non applicare effetti attivi",
+        "hint": "Gli effetti attivi non verranno applicati durante l'uso di azioni speciali (richiede riavvio)"
+      },
+      "showSpecialActions": {
+        "name": "Mostra azioni principali",
+        "hint": "Mostra le azioni principali nella barra (schivata, scatto, ritirata, nascondersi, preparazione, spinta)"
+      }
+    },
+    "hud": {
+      "mainactions": {
+        "name": "Azione"
+      },
+      "castspell": {
+        "name": "Incantesimo"
+      },
+      "usepower": {
+        "name": "Tratto"
+      },
+      "useitem": {
+        "name": "Oggetto"
+      },
+      "bonusaction": {
+        "name": "Bonus"
+      },
+      "reaction": {
+        "name": "Reazione"
+      },
+      "specialaction": {
+        "name": "Libera"
+      },
+      "pass": {
+        "name": "Passa"
+      },
+      "endturn": {
+        "name": "Fine turno"
+      },
+      "hp": {
+        "name": "PF"
+      },
+      "ac": {
+        "name": "CA"
+      },
+      "of": {
+        "name": "su"
+      },
+      "inventory": {
+        "name": "Scheda"
+      },
+      "saves": {
+        "name": "Tiri salvezza"
+      },
+      "skills": {
+        "name": "Abilità"
+      },
+      "tools": {
+        "name": "Strumenti"
+      }
+    },
+    "items": {
+      "disengage": {
+        "name": "Disimpegno",
+        "desc": "<p>Se esegui l'azione Disimpegno, il tuo movimento non provoca attacchi di opportunità fino alla fine di questo turno.</p>"
+      },
+      "hide": {
+        "name": "Nascondersi",
+        "desc": "<p>Eseguendo questa azione, effettui una prova di Destrezza (Furtività) cercando di nasconderti secondo le regole della furtività.</p>\n<p data-content-chunk-id=\"d49da437-9800-4cdb-be60-5c1cc12e45f2\">Per evitare l'attenzione dei nemici, i combattenti spesso si nascondono, lanciano l'incantesimo <i>invisibilità</i> o si celano nell'oscurità. </p>\n<p data-content-chunk-id=\"c7a62036-4c31-4a7f-bd29-db5f4a873f8c\">Quando attacchi un bersaglio che non puoi vedere, hai svantaggio al tiro per colpire. Questo vale ogni volta che cerchi di indovinare la posizione del bersaglio o lo senti ma non lo vedi. Se il bersaglio non si trova dove pensavi, manchi automaticamente, ma di solito il master ti dirà semplicemente che hai mancato, senza rivelare la sua posizione.</p>\n<p data-content-chunk-id=\"760a7b7d-7681-4f2c-a356-05594eca1bbd\">Se il nemico non può vederti, hai vantaggio sui tiri per colpire contro di lui. Se eri nascosto — quindi né visibile né udibile — appena attacchi riveli la tua posizione, sia che colpisci sia che manchi.</p>\n"
+      },
+      "shove": {
+        "name": "Spinta",
+        "desc": "<p data-content-chunk-id=\"5242445d-e04b-437b-b1c4-4fef6622c350\">Quando cerchi di afferrare o lottare con una creatura, puoi usare l'azione Attacco per effettuare un attacco in mischia speciale: una presa. Se puoi effettuare più attacchi con l'azione Attacco, la presa sostituisce uno di essi.</p>\n<p data-content-chunk-id=\"55b5838a-271d-4cb3-b971-9769a49a921c\">Il bersaglio della tua presa deve essere al massimo di una categoria di taglia più grande della tua e deve trovarsi alla tua portata. Usando almeno una mano libera, cerchi di afferrare il bersaglio effettuando una prova di Forza (Atletica) in un confronto contro la prova di Forza (Atletica) o Destrezza (Acrobazia) del bersaglio, a sua scelta. La presa ha successo automaticamente se il bersaglio è <i>incapacitato</i>. Se ha successo, il bersaglio acquisisce la condizione <i>afferrato</i>. La descrizione della condizione spiega come termina e puoi rilasciare il bersaglio in qualsiasi momento (non richiede azione).</p>\n<p data-content-chunk-id=\"a5d87cfc-afcc-4ae2-99c4-b4ed2af6a439\"><b>Fuga dalla presa.</b> Una creatura <i>afferrata</i> può usare la propria azione per liberarsi. Deve superare una prova di Forza (Atletica) o Destrezza (Acrobazia), in confronto alla tua prova di Forza (Atletica).</p>\n<p data-content-chunk-id=\"ea1b3c54-b95f-45cb-8c5c-1ed310d82ce2\"><b>Trascinare una creatura afferrata.</b> Quando ti muovi, puoi trascinare con te la creatura afferrata. In questo caso, la tua velocità è dimezzata, a meno che la creatura non sia almeno di due categorie di taglia più piccola della tua.</p>\n<h4 id=\"ShovingaCreature\" data-content-chunk-id=\"5b230975-10b4-4cd0-bd03-2770875c21e5\">Spinta</h4>\n<p data-content-chunk-id=\"f4e214a2-2779-43c0-b318-23f5e5c47a9f\">Usando l'azione Attacco, puoi effettuare un attacco in mischia speciale: una spinta per far cadere prono un avversario o allontanarlo da te. Se puoi effettuare più attacchi con l'azione Attacco, la spinta sostituisce uno di essi.</p>\n<p data-content-chunk-id=\"d6bd6c9e-bda0-4b45-a5be-f9425e23783c\">Il bersaglio della spinta deve essere al massimo di una categoria di taglia più grande della tua e alla tua portata. Invece di effettuare un tiro per colpire, fai una prova di Forza (Atletica) in un confronto contro la prova di Forza (Atletica) o Destrezza (Acrobazia) del bersaglio, a sua scelta. La spinta riesce automaticamente se il bersaglio è incapacitato. In caso di successo, puoi farlo cadere prono oppure allontanarlo di 5 piedi.</p>"
+      },
+      "dash": {
+        "name": "Scatto",
+        "desc": "<p data-content-chunk-id=\"32f25854-3ca6-4afe-8790-0a87b06879b1\">Usando questa azione, ottieni un movimento aggiuntivo nel turno in corso pari alla tua velocità, includendo eventuali modificatori. Per esempio, se la tua velocità è 30 piedi, con lo Scatto puoi spostarti fino a 60 piedi durante il tuo turno.</p>\n<p data-content-chunk-id=\"8587443b-c938-455a-9861-09e5af6a9629\">Qualsiasi aumento o riduzione della tua velocità influisce anche su questo movimento aggiuntivo. Se la tua velocità è stata ridotta da 30 a 15 piedi, lo Scatto ti permetterà di spostarti solo di 30 piedi.</p>"
+      },
+      "dodge": {
+        "name": "Schivata",
+        "desc": "<p>Quando usi questa azione, ti concentri esclusivamente sull’evitare gli attacchi. Fino all'inizio del tuo prossimo turno, qualsiasi tiro per colpire contro di te ha svantaggio se riesci a vedere l’attaccante, e hai vantaggio nei tiri salvezza di Destrezza. L’effetto termina se sei <i>incapacitato</i> o se la tua velocità scende a 0.</p>"
+      },
+      "ready": {
+        "name": "Preparazione",
+        "desc": "<p data-content-chunk-id=\"7cbedb62-3df7-482e-9bee-412289356aca\">A volte vuoi colpire prima un nemico o aspettare il momento giusto per agire. Per farlo, nel tuo turno puoi compiere un’Azione Preparata, che ti permette di agire più tardi, prima dell’inizio del tuo prossimo turno, usando la tua reazione.</p>\n<p data-content-chunk-id=\"ef9f90d3-f264-4278-a0f8-0684073c429f\">Per prima cosa, decidi quale condizione osservabile farà scattare la tua reazione. Poi scegli un’azione o un movimento entro la tua velocità con cui reagirai a quella condizione. Per esempio: «Se il cultista mette piede sul tombino, tiro la leva e lo apro» oppure «Se il goblin mi si avvicina, fuggo».</p>\n<p data-content-chunk-id=\"6c8b0166-9e42-42fa-9ef6-6c01381032c9\">Quando si verifica la condizione, puoi eseguire immediatamente l’azione preparata oppure ignorarla. Ricorda che puoi compiere solo una reazione per round.</p>\n<p data-content-chunk-id=\"2783c1c8-74e2-4b36-8eb7-2a7c4ea671e3\">Se l’azione preparata è un incantesimo, lo lanci come di consueto ma trattieni la sua energia finché non si verifica la condizione, quindi lo rilasci usando la tua reazione. L'incantesimo deve avere tempo di lancio pari a 1 azione e devi mantenerne la concentrazione fino al rilascio (vedi capitolo 10 per i dettagli). Se perdi concentrazione, l’incantesimo si dissolve senza effetto. Per esempio, se stai concentrandoti su <i>ragnatela</i> e lanci <i>dardo incantato</i> come azione preparata, <i>ragnatela</i> termina, e se subisci danni prima di lanciare <i>dardo incantato</i>, potresti perdere la concentrazione.</p>"
+      }
+    },
+    "skills": {
+      "acr": {
+        "tooltip": "Le prove di Destrezza (Acrobazia) sono richieste quando cerchi di mantenere l’equilibrio in situazioni difficili, come correre sul ghiaccio scivoloso, camminare su una corda o restare in piedi sul ponte oscillante di una nave. Il master può anche richiedere una prova di Destrezza (Acrobazia) quando esegui acrobazie come tuffi, ruote, salti mortali o capriole."
+      },
+      "ani": {
+        "tooltip": "Per calmare un animale domestico, placare un cavallo spaventato o comprendere le intenzioni di una bestia, il master richiede una prova di Saggezza (Addestrare Animali). Questa prova è necessaria anche per cavalcare durante una manovra pericolosa."
+      },
+      "arc": {
+        "tooltip": "Le prove di Intelligenza (Arcano) riflettono la tua conoscenza degli incantesimi, oggetti magici, simboli mistici, tradizioni arcane, piani di esistenza e delle creature che li abitano."
+      },
+      "ath": {
+        "tooltip": "<p>Le prove di Forza (Atletica) si usano quando arrampichi, salti o nuoti. Esempi:</p><ul><li>Tentare di scalare una parete scivolosa o evitare pericoli durante un’arrampicata, oppure non cadere quando qualcosa cerca di farti cadere.</li><li>Saltare su una lunga distanza o eseguire acrobazie durante il salto.</li><li>Nuotare in acque agitate, affrontare una tempesta o alghe spesse, o resistere a un nemico che cerca di trascinarti sott’acqua.</li></ul>"
+      },
+      "dec": {
+        "tooltip": "Una prova di Carisma (Inganno) è usata quando cerchi di nascondere la verità in modo convincente, sia con le parole che con le azioni. Può trattarsi di ambiguità, bugie dirette, convincere una guardia, imbrogliare un mercante, vincere con l’inganno in un gioco d’azzardo, fingerti qualcun altro o rassicurare con false promesse."
+      },
+      "his": {
+        "tooltip": "Le prove di Intelligenza (Storia) riflettono la tua conoscenza di eventi storici, eroi leggendari, regni antichi, guerre passate e civiltà scomparse."
+      },
+      "ins": {
+        "tooltip": "Le prove di Saggezza (Intuizione) indicano se riesci a capire le motivazioni di una creatura, ad esempio percependo una menzogna o prevedendo una sua azione. Aiutano a leggere il linguaggio del corpo, il tono della voce e i cambiamenti di comportamento."
+      },
+      "itm": {
+        "tooltip": "Quando cerchi di intimorire qualcuno con minacce, azioni spaventose o forza fisica, il master può richiedere una prova di Carisma (Intimidazione). Esempi includono: estorcere informazioni a un prigioniero, far indietreggiare dei banditi o convincere un visir arrogante con un coccio di bottiglia puntato alla gola."
+      },
+      "inv": {
+        "tooltip": "Quando cerchi indizi e li analizzi con logica deduttiva, fai una prova di Intelligenza (Indagare). Può aiutarti a trovare oggetti nascosti, capire un’arma da una ferita, o identificare un punto debole in una struttura. Anche leggere antichi testi alla ricerca di sapere occulto può richiederla."
+      },
+      "med": {
+        "tooltip": "Le prove di Saggezza (Medicina) sono usate per stabilizzare un alleato morente o per identificare una malattia."
+      },
+      "nat": {
+        "tooltip": "Le prove di Intelligenza (Natura) riflettono la tua conoscenza di territori, piante, animali, clima e cicli naturali."
+      },
+      "prc": {
+        "tooltip": "Una prova di Saggezza (Percezione) stabilisce se riesci a vedere, udire o notare qualcosa. È legata alla consapevolezza dell’ambiente e all’acutezza dei sensi. Esempi: origliare una conversazione dietro una porta, sentire una creatura nella foresta, o scorgere orchi in agguato, briganti nascosti o la luce di una candela dietro un pannello segreto."
+      },
+      "prf": {
+        "tooltip": "Una prova di Carisma (Intrattenere) stabilisce se riesci a divertire un pubblico con musica, danza, recitazione, racconti o simili."
+      },
+      "per": {
+        "tooltip": "Quando tenti di influenzare qualcuno con tatto, cortesia e parole gentili, il master può richiedere una prova di Carisma (Persuasione). Si usa in genere con buone intenzioni e rispetto delle regole sociali. Esempi: convincere qualcuno a ricevere il gruppo dal re, negoziare una tregua tra tribù in guerra o tenere un discorso motivazionale."
+      },
+      "rel": {
+        "tooltip": "Le prove di Intelligenza (Religione) riflettono la tua conoscenza di divinità, rituali, preghiere, gerarchie religiose, simboli sacri e culti segreti."
+      },
+      "slt": {
+        "tooltip": "Quando esegui trucchi con le mani, giocoleria o azioni furtive come nascondere oggetti o passarli inosservato, usa una prova di Destrezza (Rapidità di Mano). Il master può anche usarla per verificare se riesci a borseggiare qualcuno o sottrarre qualcosa senza farti notare."
+      },
+      "ste": {
+        "tooltip": "Le prove di Destrezza (Furtività) si usano per nascondersi dai nemici, eludere le guardie, scappare senza essere visti o avvicinarsi furtivamente a qualcuno."
+      },
+      "sur": {
+        "tooltip": "Il master può richiedere una prova di Saggezza (Sopravvivenza) quando segui una pista, cacci selvaggina, guidi il gruppo nella tundra, riconosci la presenza di creature nei dintorni o eviti pericoli naturali come sabbie mobili."
+      }
+    },
+    "abilities": {
+      "str": {
+        "tooltip": "<p>La Forza rappresenta la potenza fisica, l’allenamento atletico e la capacità di esercitare forza bruta.</p><p><strong>Prove di Forza</strong><br/>Una prova di Forza riflette tentativi di sollevare, spingere, trascinare o rompere qualcosa, farsi strada attraverso uno spazio occupato o affrontare un ostacolo con metodi fisici. L'abilità Atletica riflette la tua preparazione per determinate prove di Forza.</p><p><strong>Altre prove di Forza</strong><br/>Il master può chiedere una prova di Forza se tenti azioni come:<ul><li>Buttare giù una porta chiusa, bloccata o sbarrata.</li><li>Liberarti da delle corde.</li><li>Strisciare in un tunnel troppo stretto.</li><li>Aggrapparti a un carro in corsa.</li><li>Rovesciare una statua.</li><li>Fermare un masso rotolante.</li></ul></p><p><strong>Sollevamento e trasporto</strong><br/>Il tuo punteggio di Forza determina il peso che puoi trasportare. Le seguenti regole indicano cosa puoi sollevare o portare.</p><p><strong>Capacità di carico.</strong> La tua capacità di carico è pari al tuo punteggio di Forza moltiplicato per 15. Questo è il peso (in libbre) che puoi trasportare. Di norma è sufficiente da non costituire un problema per la maggior parte dei personaggi.</p><p><strong>Spingere, tirare o sollevare.</strong> Puoi spingere, tirare o sollevare fino al doppio della tua capacità di carico (cioè 30 volte il tuo punteggio di Forza). Quando spingi o tiri un carico superiore alla capacità, la tua velocità si riduce a 1,5 metri.</p><p><strong>Taglia e Forza.</strong> Più una creatura è grande, più peso può trasportare. Le creature di taglia superiore a Media raddoppiano la loro capacità per ogni categoria oltre la Media. Le creature di taglia Piccola dimezzano tali valori."
+      },
+      "dex": {
+        "tooltip": "<p>La Destrezza rappresenta l’agilità fisica, i riflessi e l’equilibrio.</p><p><strong>Prove di Destrezza</strong><br/>Una prova di Destrezza riflette un tentativo di muoversi con agilità, rapidità o silenziosamente, o di non perdere l’equilibrio. Le abilità Acrobazia, Rapidità di Mano e Furtività riflettono la tua preparazione per determinate prove di Destrezza.</p><p><strong>Altre prove di Destrezza</strong><br/>Il master può chiedere una prova di Destrezza se tenti azioni come:<ul><li>Condurre un carro carico lungo una discesa ripida.</li><li>Curvare bruscamente con una biga.</li><li>Scassinare una serratura.</li><li>Disinnescare una trappola.</li><li>Legare saldamente un prigioniero.</li><li>Svincolarti da delle corde.</li><li>Suonare uno strumento a corde.</li><li>Costruire un oggetto piccolo o dettagliato.</li></ul></p><p><strong>Classe Armatura</strong><br/>In base all’armatura indossata, puoi aggiungere il tuo modificatore di Destrezza (interamente o parzialmente) alla Classe Armatura, come descritto nel capitolo <a class='entity-link' data-pack='dnd5e.rules' data-id='ln4KF7662eP93keD'>Equipaggiamento</a>.</p><p><strong>Iniziativa</strong><br/>All’inizio di ogni combattimento, effettui un tiro di iniziativa — una prova di Destrezza — che determina l’ordine dei turni, come descritto nel capitolo <a class='entity-link' data-pack='dnd5e.rules' data-id='3V8ywGHQEpbZpsIL'>Combattimento</a>."
+      },
+      "con": {
+        "tooltip": "<p>La Costituzione rappresenta la salute, la resistenza fisica e la vitalità.</p><p><strong>Prove di Costituzione</strong><br/>Queste prove sono rare e non hanno abilità associate, poiché la Costituzione rappresenta una resistenza passiva, non un’azione diretta. Il master può chiedere una prova di Costituzione per tentare cose come:<ul><li>Trattenere il respiro.</li><li>Marciare o lavorare per ore senza sosta.</li><li>Rimanere sveglio a lungo.</li><li>Sopravvivere senza cibo o acqua.</li><li>Bere un’enorme pinta di birra tutta d’un fiato.</li></ul></p><p><strong>Punti Ferita</strong><br/>Il tuo modificatore di Costituzione influisce sul numero di Punti Ferita (PF). Di norma, lo aggiungi a ogni dado vita lanciato per determinare i PF.</p><p>Se il tuo modificatore cambia, cambia anche il tuo massimo di PF come se quel modificatore fosse stato presente sin dal livello 1. Per esempio, se al 4° livello il tuo modificatore di Costituzione aumenta da +1 a +2, aggiungi 3 PF ai primi tre livelli e lanci il dado per il 4°, usando il nuovo modificatore. Se sei di 7° livello e un effetto riduce la tua Costituzione di 1 punto, perdi 7 PF massimi."
+      },
+      "int": {
+        "tooltip": "<p>L’Intelligenza rappresenta la prontezza mentale, la memoria e la capacità di ragionamento.</p><p><strong>Prove di Intelligenza</strong><br/>Si usano quando servono logica, cultura, memoria o deduzione. Le abilità Storia, Arcano, Natura, Indagare e Religione riflettono la tua preparazione per queste prove.</p><p><strong>Altre prove di Intelligenza</strong><br/>Il master può chiedere una prova di Intelligenza per azioni come:<ul><li>Comunicare senza parole.</li><li>Valutare il valore di un oggetto.</li><li>Travestirti da guardia cittadina.</li><li>Falsificare un documento.</li><li>Ricordare nozioni artigianali.</li><li>Vincere un gioco basato sull’intuito.</li></ul></p>"
+      },
+      "wis": {
+        "tooltip": "<p>La Saggezza rappresenta consapevolezza dell’ambiente, attenzione e intuizione.</p><p><strong>Prove di Saggezza</strong>Le prove di Saggezza servono per leggere il linguaggio del corpo, intuire emozioni, percepire dettagli insoliti o curare ferite. Le abilità Percezione, Sopravvivenza, Addestrare Animali, Medicina e Intuizione sono basate su questa caratteristica.</p><p><strong>Altre prove di Saggezza</strong></br>Il master può richiederle per azioni come:<ul><li>Seguire l’istinto su cosa fare.</li><li>Capire che una creatura apparentemente viva o morta è in realtà non morta.</li></ul></p>"
+      },
+      "cha": {
+        "tooltip": "<p>Il Carisma rappresenta la tua capacità di interazione sociale. Include fiducia in sé, eloquenza e può indicare un’aura affascinante o autoritaria.</p><p><strong>Prove di Carisma</strong><br/>Si usano quando tenti di influenzare o intrattenere gli altri, impressionarli, mentire o uscire da una situazione sociale delicata. Le abilità Intimidire, Intrattenere, Inganno e Persuasione si basano su Carisma.</p><p><strong>Altre prove di Carisma</strong><br/>Il master può richiederle per azioni come:<ul><li>Trovare qualcuno da cui ottenere notizie, voci o pettegolezzi.</li><li>Confondersi tra la folla e capire di cosa si parla.</li></ul></p>"
+      }
+    },
+    "tooltip": {
+      "target": {
+        "name": "Bersaglio"
+      },
+      "range": {
+        "name": "Portata"
+      },
+      "properties": {
+        "name": "Proprietà"
+      },
+      "toHit": {
+        "name": "Colpire"
+      },
+      "damage": {
+        "name": "Danno"
+      }
+    }
+  }
 }

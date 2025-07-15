@@ -1,65 +1,65 @@
 {
-	"DF-QOL.errorLibWrapperMissing": "'DF Quality of Life' требует модуль 'libWrapper'. Установите и активируйте 'libWrapper'.",
-	"DF_QOL": {
-		"QuickRoll": {
-			"Title": "Включить быстрые броски для случайных таблиц",
-			"Hint": "Добавляет опцию в ПКМ меню случайных таблиц, позволяющую совершать быстрые броски без открытия окна таблицы (требуется перезагрузка).",
-			"MenuItem": "Быстрый бросок"
-		},
-		"AutoFocus": {
-			"Title": "Включить авто-фокусировку поля названия",
-			"Hint": "При создании нового документа (актёры, предметы, таблицы, сцены и т.д) поле ввода названия будет выбрано автоматически и вам не нужно на него нажимать."
-		},
-		"FolderTextColour": {
-			"Name": "Включить цвет заголовков папок",
-			"Hint": "Добавляет возможность задавать цвет для заголовков папок."
-		},
-		"BetterToggle": {
-			"Name": "Улучшенная подсветка кнопок управления сценой",
-			"Hint": "Изменение внешнего вида кнопок управления сценой, так что когда фиолетовые кнопки активны, это более заметно."
-		},
-		"ReloadGame": {
-			"Title": "Перезагрузить игру?",
-			"Content": "<p style=\"margin:1em 0\">Некоторые изменения вступят в силу после перезагрузки. Желаете перезагрузить мир сейчас?</p>"
-		},
-		"BetterAttack": {
-			"Name": "Включение улучшенной подсветки кнопки атаки",
-			"Hint": "Кнопки атаки сложно заметить в гуще карточек чата. Эта опция добавляет зелёную рамку для атак с преимуществом и красную рамку для атак с помехой на кнопки атаки."
-		},
-		"VehicleUnit": {
-			"SettingName": "Включить меры веса для транспорта",
-			"SettingHint": "Разрешить изменять базовую меру веса, используемую транспортом",
-			"ConfigName": "Мера веса",
-			"ConfigHint": "Мера веса, используемая в расчётах.",
-			"Units_LongTon": "Длинная тонна (2240 lb)",
-			"Units_ShortTon": "Короткая тонна (2000 lb)",
-			"Units_Pounds": "Фунты (1 lb)",
-			"ConvertTitle": "Конвертировать грузоподъёмность",
-			"ConvertContent": "Желаете конвертировать текущую грузоподъёмность с '{{OLD}}' на '{{NEW}}'?"
-		},
-		"DayNight": {
-			"ProgressSettingName": "Отображать переход дня/ночи",
-			"ProgressSettingHint": "При активации анимированного перехода дня/ночи, эта опция будет отображать шкалу прогресса по мере проигрывания анимации.",
-			"DurationSettingName": "Продолжительность перехода дня/ночи (секунды)",
-			"DurationSettingHint": "Время, требуемое для завершения анимации перехода дня/ночи в секундах (1-60)."
-		},
-		"TemplateTargeting": {
-			"SettingName": "Автоматическое нацеливание шаблоном",
-			"SettingHint": "При размещении измерительного шаблона на токенах, они будут автоматически выбраны целью.",
-			"PreviewName": "Подсветка нацеливаемых токенов",
-			"PreviewHint": "Отображение подсветки сетки и предпросмотра нацеливания при движении или создании шаблона.",
-			"ToggleTitle": "Автоматическое нацеливание токенов",
-			"Patch5e_Name": "Использовать стиль шаблонов D&D5e",
-			"Patch5e_Hint": "По умолчанию Foundry требует, чтобы центр клетки был внутри шаблона, чтобы шаблон подействовал на клетку. Эта опция изменяет поведение шаблонов в соответствии с правилами D&D5e, выбирая клетки, если шаблон пересёк их в любом месте (кроме окружностей).",
-			"Patch5e_Circle_Name": "Не делать шаблон окружности исключением",
-			"Patch5e_Circle_Hint": "(требуется опция 'Использовать стиль шаблонов D&D5e') Включите, если вы желаете, чтобы шаблон окружности работал также, как остальные шаблоны (выбор клеток в любом месте пересечения)."
-		},
-		"TokenLock": {
-			"Setting.EnableName": "Блокировка токенов",
-			"Setting.EnableHint": "При включении в интерфейсе токенов будет кнопка замка для блокировки перемещения токена.",
-			"Setting.AllowGMName": "Блокировка токенов: игнорировать GM",
-			"Setting.AllowGMHint": "Позволить GM перемещать заблокированные токены. Полезно, когда вы желаете запретить игрокам перемещать их токены.",
-			"LockTitle": "Блокировка перемещения"
-		}
-	}
+  "DF-QOL.errorLibWrapperMissing": "'DF Quality of Life' richiede il modulo 'libWrapper'. Installa e attiva 'libWrapper'.",
+  "DF_QOL": {
+    "QuickRoll": {
+      "Title": "Abilita tiri rapidi per le tabelle casuali",
+      "Hint": "Aggiunge un'opzione nel menu del tasto destro delle tabelle casuali che consente tiri rapidi senza aprire la finestra della tabella (richiede riavvio).",
+      "MenuItem": "Tiro rapido"
+    },
+    "AutoFocus": {
+      "Title": "Abilita auto-focus sul campo nome",
+      "Hint": "Quando si crea un nuovo documento (attori, oggetti, tabelle, scene, ecc.), il campo nome verrà selezionato automaticamente senza dover cliccarci sopra."
+    },
+    "FolderTextColour": {
+      "Name": "Abilita colore per i titoli delle cartelle",
+      "Hint": "Aggiunge la possibilità di impostare un colore ai titoli delle cartelle."
+    },
+    "BetterToggle": {
+      "Name": "Evidenziazione migliorata per i pulsanti della scena",
+      "Hint": "Modifica l'aspetto dei pulsanti di controllo scena per rendere più visibili quelli attivi (viola)."
+    },
+    "ReloadGame": {
+      "Title": "Riavviare il gioco?",
+      "Content": "<p style=\"margin:1em 0\">Alcune modifiche avranno effetto solo dopo il riavvio. Vuoi riavviare il mondo adesso?</p>"
+    },
+    "BetterAttack": {
+      "Name": "Abilita evidenziazione migliorata dei pulsanti di attacco",
+      "Hint": "I pulsanti di attacco sono difficili da notare nelle schede chat. Questa opzione aggiunge un bordo verde per gli attacchi con vantaggio e rosso per quelli con svantaggio."
+    },
+    "VehicleUnit": {
+      "SettingName": "Abilita unità di peso per i veicoli",
+      "SettingHint": "Permette di cambiare l'unità base di peso usata dai veicoli",
+      "ConfigName": "Unità di peso",
+      "ConfigHint": "Unità di peso usata nei calcoli.",
+      "Units_LongTon": "Ton lunga (2240 lb)",
+      "Units_ShortTon": "Ton corta (2000 lb)",
+      "Units_Pounds": "Libbre (1 lb)",
+      "ConvertTitle": "Convertire la capacità di carico",
+      "ConvertContent": "Vuoi convertire la capacità di carico attuale da '{{OLD}}' a '{{NEW}}'?"
+    },
+    "DayNight": {
+      "ProgressSettingName": "Mostra transizione giorno/notte",
+      "ProgressSettingHint": "Quando è attiva l’animazione giorno/notte, questa opzione mostra una barra di avanzamento durante l’animazione.",
+      "DurationSettingName": "Durata transizione giorno/notte (secondi)",
+      "DurationSettingHint": "Tempo richiesto per completare l’animazione giorno/notte in secondi (1–60)."
+    },
+    "TemplateTargeting": {
+      "SettingName": "Puntamento automatico con sagoma",
+      "SettingHint": "Quando si piazza una sagoma sopra i token, questi vengono automaticamente selezionati come bersagli.",
+      "PreviewName": "Evidenzia token mirati",
+      "PreviewHint": "Mostra griglia evidenziata e anteprima del puntamento quando si muove o si crea una sagoma.",
+      "ToggleTitle": "Puntamento automatico dei token",
+      "Patch5e_Name": "Usa stile sagome D&D5e",
+      "Patch5e_Hint": "Di default, Foundry richiede che il centro della cella sia all'interno della sagoma. Questa opzione cambia il comportamento per selezionare le celle se la sagoma le attraversa in qualsiasi punto (escluse le circolari).",
+      "Patch5e_Circle_Name": "Non escludere le sagome circolari",
+      "Patch5e_Circle_Hint": "(richiede 'Usa stile sagome D&D5e') Abilita per far funzionare le sagome circolari come le altre (seleziona celle se attraversate in qualsiasi punto)."
+    },
+    "TokenLock": {
+      "Setting.EnableName": "Blocco token",
+      "Setting.EnableHint": "Abilita un'icona a forma di lucchetto nell'interfaccia dei token per bloccare il loro movimento.",
+      "Setting.AllowGMName": "Blocco token: ignora GM",
+      "Setting.AllowGMHint": "Permette al GM di muovere token bloccati. Utile se vuoi impedire ai giocatori di muovere i propri token.",
+      "LockTitle": "Blocco movimento"
+    }
+  }
 }

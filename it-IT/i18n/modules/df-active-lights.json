@@ -1,43 +1,43 @@
 {
-	"DF_ACTIVE_LIGHTS": {
-		"name": "DF Active Lights",
-		"Seconds": "Секунды",
-		"Config": {
-			"Title": "Настройки активного освещения:",
-			"OpenButton": "Настройки активного освещения",
-			"AddKey": "Добавить кадр",
-			"Bounce": "Зациклить анимацию",
-			"Randomize": "Случайное смещение в зависимости от продолжительности",
-			"Offset": "Задержка в милисекундах для десинхронизации похожих анимаций"
-		},
-		"Props": {
-			"Time": "Время ключевого кадра (мс)",
-			"Enable": "Включить свойство",
-			"Dim": "Радиус тусклого света",
-			"Bright": "Радиус яркого света",
-			"Angle": "Угол излучения",
-			"Rotation": "Поворот света",
-			"TintColor": "Оттенок света",
-			"TintAlpha": "Насыщенность оттенка"
-		},
-		"Funcs": {
-			"Linear": "Линейная",
-			"LinearLoop": "Линейная петля",
-			"FixedStart": "Фиксированное начало",
-			"FixedEnd": "Фиксированное окончание",
-			"QuadIn": "Квадратичная восходящая",
-			"QuadOut": "Квадратичная нисходящая",
-			"QuadFull": "Квадратичная полная",
-			"QuadLoop": "Квадратичная петля",
-			"EllipseIn": "Эллиптическая восходящая",
-			"EllipseOut": "Эллиптическая нисходящая",
-			"EllipseFull": "Эллиптическая полная",
-			"EllipseLoop": "Эллиптическая петля"
-		},
-		"Warnings": {
-			"KeyFrame_Zero": "Вы не можете выставить ключевой кадр на ноль",
-			"KeyFrame_Exists": "Ключевой кадр уже существует на  {0} секунде"
-		},
-		"animationToggleTitle": "Анимировать активное освещение"
-	}
+  "DF_ACTIVE_LIGHTS": {
+    "name": "DF Active Lights",
+    "Seconds": "Secondi",
+    "Config": {
+      "Title": "Impostazioni illuminazione attiva:",
+      "OpenButton": "Impostazioni illuminazione attiva",
+      "AddKey": "Aggiungi fotogramma",
+      "Bounce": "Ripeti animazione",
+      "Randomize": "Sfasamento casuale in base alla durata",
+      "Offset": "Ritardo in millisecondi per desincronizzare animazioni simili"
+    },
+    "Props": {
+      "Time": "Tempo del fotogramma chiave (ms)",
+      "Enable": "Abilita proprietà",
+      "Dim": "Raggio luce fioca",
+      "Bright": "Raggio luce intensa",
+      "Angle": "Angolo di emissione",
+      "Rotation": "Rotazione luce",
+      "TintColor": "Tonalità luce",
+      "TintAlpha": "Saturazione tonalità"
+    },
+    "Funcs": {
+      "Linear": "Lineare",
+      "LinearLoop": "Ciclo lineare",
+      "FixedStart": "Inizio fisso",
+      "FixedEnd": "Fine fissa",
+      "QuadIn": "Quadratica in entrata",
+      "QuadOut": "Quadratica in uscita",
+      "QuadFull": "Quadratica completa",
+      "QuadLoop": "Ciclo quadratico",
+      "EllipseIn": "Ellittica in entrata",
+      "EllipseOut": "Ellittica in uscita",
+      "EllipseFull": "Ellittica completa",
+      "EllipseLoop": "Ciclo ellittico"
+    },
+    "Warnings": {
+      "KeyFrame_Zero": "Non puoi impostare un fotogramma chiave a zero",
+      "KeyFrame_Exists": "Il fotogramma chiave esiste già al secondo {0}"
+    },
+    "animationToggleTitle": "Anima illuminazione attiva"
+  }
 }

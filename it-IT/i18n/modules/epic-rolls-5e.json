@@ -1,83 +1,83 @@
 {
-	"epic-rolls-5e": {
-		"check": "Проверка",
-		"save": "Испытание",
-		"death": "Против смерти",
-		"success": "Успех",
-		"failure": "Провал",
-		"button-tooltip": "Настроить Epic Roll<hr>Нажатие правой кнопки мыши покажет последние броски",
-		"complete-roll": "Завершение Epic Roll",
-		"epicRoll": "Epic Roll",
-		"settings": {
-			"introSound": {
-				"name": "Звук вступления",
-				"hint": "Звук, воспроизводимый при запуске броска"
-			},
-			"successSound": {
-				"name": "Звук успеха",
-				"hint": "Звук, воспроизводимый при успешном броске"
-			},
-			"failureSound": {
-				"name": "Звук провала",
-				"hint": "Звук, воспроизводимый при неудачном броске"
-			},
-			"recapMessage": {
-				"name": "Результаты броска",
-				"hint": "Определяет то, кому будут показаны сообщения, после завершения эпического броска",
-				"options": {
-					"none": "Никто",
-					"gm": "GM",
-					"public": "Все"
-				}
-			},
-			"cleanupMessages": {
-				"name": "Удалять сообщения",
-				"hint": "Удалять сообщения о бросках после завершения эпического броска"
-			}
-		},
-		"get-roll-data": {
-			"customFormula": "Своя формула",
-			"customLabel": "Название",
-			"customLabelNotes": "Особое название для броска",
-			"formula": "Формула",
-			"title": "Настройка Epic Roll",
-			"startRoll": "Эпический бросок!",
-			"macro": "Сохранить как макрос",
-			"save-macro": "Макрос броска создан для ",
-			"player": "Персонаж игрока",
-			"npc": "Персонаж мастера",
-			"selected": "Выбранные",
-			"available": "Доступные",
-			"rollOptions": "Настройки броска",
-			"VsDCNotes": "Сложность проверки",
-			"showDC": "Отображение сложности проверки",
-			"showDCNotes": "Показать сложность проверки игрокам",
-			"useAverage": "Групповой бросок",
-			"useAverageNotes": "Использовать среднее значение для определения результата броска",
-			"allowReroll": "Разрешить переброс",
-			"allowRerollNotes": "Разрешить игрокам переброс выпавших значений",
-			"showRollResults": "Отображение результата броска",
-			"showRollResultsNotes": "Показывать результат броска игрокам",
-			"blindRoll": "Слепой бросок",
-			"blindRollNotes": "Скрывать выпавшее значение от игроков",
-			"hideNames": "Скрывать имена",
-			"hideNamesNotes": "Скрывать имена персонажей мастера от игроков",
-			"color": "Цвет",
-			"colorNotes": "Цвет баннера",
-			"autoColor": "Автоматический подбор цвета",
-			"autoColorNotes": "Автоматически подбирать цвет баннера на основании выбранного типа броска",
-			"contest": "Состязание",
-			"contestInfo": "Для настройки противника в состязании нажмите правой кнопкой мыши по актеру и/или по типу броска",
-			"saveDefaultOptions": "Сохранить настройки",
-			"saveDefaultOptionsNotification": "Текущие настройки были сохранены",
-			"ERROR": {
-				"noActors": "Необходимо выбрать как минимум одного актёра",
-				"noType": "Не выбран тип проверки",
-				"noContestants": "Для состязания не выбраны актёры",
-				"noContest": "Не выбран тип проверки для состязания",
-				"noDC": "Отсуствует значение СЛ проверки"
-			}
-		},
-		"flags": {}
-	}
+  "epic-rolls-5e": {
+    "check": "Prova",
+    "save": "Tiro salvezza",
+    "death": "Contro la morte",
+    "success": "Successo",
+    "failure": "Fallimento",
+    "button-tooltip": "Configura Epic Roll<hr>Click destro per mostrare i tiri recenti",
+    "complete-roll": "Conclusione Epic Roll",
+    "epicRoll": "Epic Roll",
+    "settings": {
+      "introSound": {
+        "name": "Suono introduttivo",
+        "hint": "Suono riprodotto all'inizio del tiro"
+      },
+      "successSound": {
+        "name": "Suono di successo",
+        "hint": "Suono riprodotto in caso di tiro riuscito"
+      },
+      "failureSound": {
+        "name": "Suono di fallimento",
+        "hint": "Suono riprodotto in caso di tiro fallito"
+      },
+      "recapMessage": {
+        "name": "Risultati del tiro",
+        "hint": "Determina a chi verranno mostrati i messaggi dopo il completamento dell'epic roll",
+        "options": {
+          "none": "Nessuno",
+          "gm": "GM",
+          "public": "Tutti"
+        }
+      },
+      "cleanupMessages": {
+        "name": "Elimina messaggi",
+        "hint": "Elimina i messaggi di tiro dopo il completamento dell'epic roll"
+      }
+    },
+    "get-roll-data": {
+      "customFormula": "Formula personalizzata",
+      "customLabel": "Etichetta",
+      "customLabelNotes": "Nome speciale per il tiro",
+      "formula": "Formula",
+      "title": "Configurazione Epic Roll",
+      "startRoll": "Tiro epico!",
+      "macro": "Salva come macro",
+      "save-macro": "Macro di tiro creata per ",
+      "player": "Personaggio giocante",
+      "npc": "Personaggio del master",
+      "selected": "Selezionati",
+      "available": "Disponibili",
+      "rollOptions": "Impostazioni tiro",
+      "VsDCNotes": "Difficoltà della prova",
+      "showDC": "Mostra difficoltà",
+      "showDCNotes": "Mostra la difficoltà della prova ai giocatori",
+      "useAverage": "Tiro di gruppo",
+      "useAverageNotes": "Usa il valore medio per determinare il risultato del tiro",
+      "allowReroll": "Permetti rilancio",
+      "allowRerollNotes": "Permetti ai giocatori di rilanciare i risultati ottenuti",
+      "showRollResults": "Mostra risultati del tiro",
+      "showRollResultsNotes": "Mostra il risultato del tiro ai giocatori",
+      "blindRoll": "Tiro cieco",
+      "blindRollNotes": "Nasconde il risultato del tiro ai giocatori",
+      "hideNames": "Nascondi nomi",
+      "hideNamesNotes": "Nasconde i nomi dei PNG ai giocatori",
+      "color": "Colore",
+      "colorNotes": "Colore del banner",
+      "autoColor": "Colore automatico",
+      "autoColorNotes": "Seleziona automaticamente il colore del banner in base al tipo di tiro",
+      "contest": "Contesa",
+      "contestInfo": "Per configurare l'avversario della contesa, clicca col tasto destro sull'attore e/o sul tipo di tiro",
+      "saveDefaultOptions": "Salva impostazioni",
+      "saveDefaultOptionsNotification": "Le impostazioni attuali sono state salvate",
+      "ERROR": {
+        "noActors": "Devi selezionare almeno un attore",
+        "noType": "Nessun tipo di prova selezionato",
+        "noContestants": "Nessun attore selezionato per la contesa",
+        "noContest": "Tipo di prova per la contesa non selezionato",
+        "noDC": "Manca il valore della difficoltà"
+      }
+    },
+    "flags": {}
+  }
 }

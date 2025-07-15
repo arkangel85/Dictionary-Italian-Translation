@@ -1,412 +1,412 @@
 {
-	"combat-utility-belt": {
-		"SHORT_NAME": "CUB",
-		"NAME": "Combat Utility Belt",
-		"ID": "combat-utility-belt",
-		"ENHANCED_CONDITIONS": {
-			"OutputChatConfirm": {
-				"Title": "Включить вывод в чат для всех состояний?",
-				"Content": "Нажмите 'Да', чтобы включить 'Выводить в чат' для всех состояний."
-			},
-			"ConditionLab": {
-				"NoReference": "--Нет документа-- (перетащите журнал, предмет или актёра в это поле)",
-				"FilterInputTitle": "Фильтр по названию",
-				"FilterButtonTitle": "Применить фильтр",
-				"SortAnchorTitle": "Сортировка по названию - нет сортировки",
-				"SortAnchorTitle_asc": "Сортировка по названию - по алфавиту",
-				"SortAnchorTitle_desc": "Сортировка по названию - обратно алфавиту",
-				"SortDirectionSave": {
-					"Title": "Сохранить привязки с сортировкой?",
-					"Content": "<p>Нажмите 'Да' для сохранения Кузни состояний с настройками сортировки, иначе нажмите 'Нет' для отмены.</p>",
-					"CheckboxText": "Больше не показывать"
-				},
-				"BadReference": "Не удалось создать ссылку на перенесённый документ",
-				"RestoreDefaultClearCache": {
-					"CheckboxText": "Очистить кэш и перезагрузить с настройками по умолчанию?"
-				},
-				"Buttons": {
-					"Options": "Настройки"
-				}
-			},
-			"ChatCard": {
-				"Heading": "Изменения Улучшенных состояний",
-				"HeadingActive": "Активные Улучшенные состояния",
-				"Title": {
-					"Added": "Добавлено",
-					"Removed": "Удалено",
-					"Active": "Активно"
-				}
-			},
-			"MacroConfig": {
-				"Heading": "Запускаемый макрос",
-				"ApplyHeading": "Применить макрос",
-				"RemoveHeading": "Удалить макрос",
-				"Description": "Выберите макрос для запуска, когда это условие добавляется или удаляется из токена/актёра",
-				"SelectNone": "--Нет макроса--"
-			},
-			"TriggerConfig": {
-				"Heading": "Триггеры",
-				"ApplyHeading": "Применить триггер",
-				"RemoveHeading": "Удалить триггер",
-				"Description": "Триггеры, применяемые при добавлении или удалении состояния",
-				"SelectNone": "--Нет триггера--"
-			},
-			"OptionConfig": {
-				"Heading": "Настройки",
-				"Description": "Общие настройки этого состояния",
-				"SpecialStatusEffects": {
-					"Heading": "Особые эффекты статуса",
-					"Description": "Особые статусы, добавляемые к стандартным."
-				},
-				"BlindToken": {
-					"Label": "Слепота",
-					"Notes": "При добавлении этого состояния токен становится слепым"
-				},
-				"MarkInvisible": {
-					"Label": "Невидимость",
-					"Notes": "При добавлении этого состояния токен становится невидимым"
-				},
-				"SpecialStatusEffectOverride": {
-					"Title": "Перезаписать существующее состояние этим эффектом статуса?",
-					"Content": "Другое состояние ({existingCondition}) уже настроено на добавление этого эффекта статуса ({statusEffect}). <p>Вы можете перезаписать настройки состояния с новым статусом.</p>"
-				},
-				"SaveNote": "Примечание: при нажатии Сохранение, будут сохранены настройки привязки Кузни состояний"
-			},
-			"Warnings": {
-				"ApplyCondition": "applyCondition было заменено на addCondition. Обновите ваш код."
-			}
-		},
-		"CONCENTRATOR": {
-			"MessagePrefix": "Combat Utility Belt - Концентратор",
-			"NoMatchingCondition": "Не найдено подходящего состояния для Концентратора. Проверьте ваши настройки Концентратора и Кузни состояний.",
-			"Prompts": {
-				"Check": {
-					"Title": "Проверка концентрации",
-					"Content": "<p>Проверить концентрацию для <strong>{actorName}</strong>?</p><p>Заклинание: <strong>{spellName}</strong></p>",
-					"ClosedByOther": "Другой участник совершил проверку концентрации"
-				},
-				"EnableEnhancedConditions": {
-					"Title": "Включить Улучшенные состояния?",
-					"Content": "<p>Для использования Концентратора требуется включить Улучшенные состояния.</p><strong>Желаете ли включить их?</strong>"
-				}
-			},
-			"Messages": {
-				"StartConcentration": "<h3>Концентратор</h3><p>{entityName} сейчас концентрируется на <strong>{spellName}</strong>.",
-				"DoubleConcentration": "<h3>Концентратор</h3><p>{entityName} сотворяет <strong>{newSpellName}</strong> во время концентрации на <strong>{oldSpellName}</strong>. Концентрация на предыдущем заклинании была потеряна.",
-				"EndConcentration": "<h3>Концентратор</h3><p>Концентрация {entityName} на <strong>{spellName}</strong> была потеряна!</p>",
-				"ConcentrationTested": "<h3>Концентратор</h3><strong>{entityName}</strong> получает урон и концентрация на <strong>{spellName}</strong> требует проверки (<strong>СЛ {dc}</strong>)!</p>",
-				"Incapacitated": "<h3>Концентратор</h3><strong>{entityName}</strong> выведен из строя и концентрация на <strong>{spellName}</strong> была потеряна!</p>"
-			},
-			"UnknownSpell": "Неизвестное заклинание"
-		},
-		"HIDE_NAMES": {
-			"MessageIcon": {
-				"Title": {
-					"NameNotHidden": "Имя не скрыто (нажмите, чтобы скрыть)",
-					"NameHiddenPrefix": "Имя для подмены:",
-					"NameHiddenSuffix": "(раскрыть имя)"
-				}
-			},
-			"ActorForm": {
-				"Title": "Скрыть настройку имени актёра"
-			}
-		},
-		"SETTINGS": {
-			"CONCENTRATOR": {
-				"AutoEndConcentrationN": "Автоматически завершать концентрацию",
-				"AutoEndConcentrationH": "Автоматическая потеря концентрации при проваленной проверке концентрации.",
-				"NotifyConcentrationN": "Оповещение о начале концентрации",
-				"NotifyConcentrationH": "Отправлять сообщение при сотворении заклинания, требующего концентрации.",
-				"NotifyConcentrationCheckN": "Оповещение о проверке концентрации",
-				"NotifyConcentrationCheckH": "Отправлять сообщение при проверке, требующей концентрации.",
-				"NotifyEndN": "Оповещение о завершении концентрации",
-				"NotifyEndH": "Отправлять сообщение при завершении концентрации на заклинании (включая смерть или потерю сознания заклинателя)",
-				"HideNPCConcentrationN": "Скрытие концентрации NPC",
-				"HideNPCConcentrationH": "Скрывать сообщения концентрации NPC от игроков. Эта настройка активна даже если оповещения о концентрации выставлены на 'Всем'"
-			},
-			"ENHANCED_CONDITIONS": {
-				"MigrationVersionN": "Версия миграции",
-				"MigrationVersionH": "Версия CUB для которой будет выполнена миграция настроек",
-				"ShowSortDirectionDialogN": "Подтверждение сохранения сортировки Кузни состояний",
-				"ShowSortDirectionDialogH": "Отображать или нет окно подтверждения для сохранения направления сортировки."
-			},
-			"MIGHTY_SUMMONER": {
-				"PromptGMN": "Запрос GM для Mighty Summoner",
-				"PromptGMH": "Следует ли отправлять запрос GM для Mighty Summoner при размещении токена."
-			}
-		},
-		"TEMPORARY_COMBATANTS": {
-			"Form": {
-				"Title": "Создание временного участника боя"
-			},
-			"AddTempCombatant": "Добавление временного участника боя"
-		},
-		"TRIGGLER": {
-			"ButtonTitle": "Открыть Тригглер"
-		},
-		"WORDS": {
-			"Icon": "Иконка",
-			"Macro": "Макрос",
-			"Name": "Название",
-			"Reference": "Отсылка",
-			"Save": "Сохранение"
-		},
-		"PHRASES": {
-			"SaveAndClose": "Сохранить и закрыть"
-		}
-	},
-	"GADGET_DESCRIPTIONS.AwardXP": "Включает распределение пунктов опыта между игроками за победу над врагами после боя",
-	"GADGET_DESCRIPTIONS.Concentrator": "Управляет концентрацией в 5е",
-	"GADGET_DESCRIPTIONS.EnhancedConditions": "Позволяет привязывать состояния к иконкам статуса токена",
-	"GADGET_DESCRIPTIONS.HideNames": "Заменяет настоящее имя актёра на выбранное",
-	"GADGET_DESCRIPTIONS.PanSelect": "Наводит камеру на токен в его ход",
-	"GADGET_DESCRIPTIONS.RerollInitiative": "Перебрасывает инициативу каждый раунд",
-	"GADGET_DESCRIPTIONS.TemporaryCombatants": "Позволяет создавать временных участников боя для отслеживания состояния окружения и неодушевлённых объектов",
-	"GADGET_DESCRIPTIONS.Triggler": "Система триггеров при изменении состояний и параметров актёра/токена",
-	"GADGET_DESCRIPTIONS.MiscActor": "Разные улучшения актёров",
-	"GADGET_DESCRIPTIONS.MiscToken": "Разные улучшения токенов",
+  "combat-utility-belt": {
+    "SHORT_NAME": "CUB",
+    "NAME": "Combat Utility Belt",
+    "ID": "combat-utility-belt",
+    "ENHANCED_CONDITIONS": {
+      "OutputChatConfirm": {
+        "Title": "Abilitare la visualizzazione in chat per tutte le condizioni?",
+        "Content": "Clicca 'Sì' per abilitare 'Visualizza in chat' per tutte le condizioni."
+      },
+      "ConditionLab": {
+        "NoReference": "--Nessun documento-- (trascina un diario, oggetto o attore in questo campo)",
+        "FilterInputTitle": "Filtro per nome",
+        "FilterButtonTitle": "Applica filtro",
+        "SortAnchorTitle": "Ordinamento per nome - nessun ordinamento",
+        "SortAnchorTitle_asc": "Ordinamento per nome - alfabetico",
+        "SortAnchorTitle_desc": "Ordinamento per nome - inverso alfabetico",
+        "SortDirectionSave": {
+          "Title": "Salvare l’ordinamento?",
+          "Content": "<p>Clicca 'Sì' per salvare la Fucina delle condizioni con le impostazioni di ordinamento, altrimenti clicca 'No' per annullare.</p>",
+          "CheckboxText": "Non mostrare più"
+        },
+        "BadReference": "Impossibile creare un collegamento al documento trascinato",
+        "RestoreDefaultClearCache": {
+          "CheckboxText": "Cancellare cache e ricaricare con le impostazioni predefinite?"
+        },
+        "Buttons": {
+          "Options": "Impostazioni"
+        }
+      },
+      "ChatCard": {
+        "Heading": "Modifiche alle Condizioni Avanzate",
+        "HeadingActive": "Condizioni Avanzate Attive",
+        "Title": {
+          "Added": "Aggiunto",
+          "Removed": "Rimosso",
+          "Active": "Attivo"
+        }
+      },
+      "MacroConfig": {
+        "Heading": "Macro eseguibile",
+        "ApplyHeading": "Applica macro",
+        "RemoveHeading": "Rimuovi macro",
+        "Description": "Seleziona una macro da eseguire quando questa condizione viene aggiunta o rimossa da un token/attore",
+        "SelectNone": "--Nessuna macro--"
+      },
+      "TriggerConfig": {
+        "Heading": "Trigger",
+        "ApplyHeading": "Applica trigger",
+        "RemoveHeading": "Rimuovi trigger",
+        "Description": "Trigger applicati all'aggiunta o rimozione della condizione",
+        "SelectNone": "--Nessun trigger--"
+      },
+      "OptionConfig": {
+        "Heading": "Impostazioni",
+        "Description": "Impostazioni generali di questa condizione",
+        "SpecialStatusEffects": {
+          "Heading": "Effetti di stato speciali",
+          "Description": "Effetti di stato aggiuntivi a quelli standard."
+        },
+        "BlindToken": {
+          "Label": "Cecità",
+          "Notes": "Quando viene applicata questa condizione, il token diventa cieco"
+        },
+        "MarkInvisible": {
+          "Label": "Invisibilità",
+          "Notes": "Quando viene applicata questa condizione, il token diventa invisibile"
+        },
+        "SpecialStatusEffectOverride": {
+          "Title": "Sovrascrivere la condizione esistente con questo effetto di stato?",
+          "Content": "Un'altra condizione ({existingCondition}) è già configurata per aggiungere questo effetto di stato ({statusEffect}). <p>Puoi sovrascrivere le impostazioni della condizione con il nuovo stato.</p>"
+        },
+        "SaveNote": "Nota: premendo Salva, verranno salvate le impostazioni della Fucina delle condizioni"
+      },
+      "Warnings": {
+        "ApplyCondition": "applyCondition è stato sostituito con addCondition. Aggiorna il tuo codice."
+      }
+    },
+    "CONCENTRATOR": {
+      "MessagePrefix": "Combat Utility Belt - Concentratore",
+      "NoMatchingCondition": "Nessuna condizione corrispondente trovata per il Concentratore. Controlla le impostazioni del Concentratore e della Fucina delle condizioni.",
+      "Prompts": {
+        "Check": {
+          "Title": "Verifica concentrazione",
+          "Content": "<p>Verificare la concentrazione per <strong>{actorName}</strong>?</p><p>Incantesimo: <strong>{spellName}</strong></p>",
+          "ClosedByOther": "Un altro utente ha effettuato la verifica di concentrazione"
+        },
+        "EnableEnhancedConditions": {
+          "Title": "Attivare le Condizioni Avanzate?",
+          "Content": "<p>Per usare il Concentratore è necessario attivare le Condizioni Avanzate.</p><strong>Vuoi attivarle ora?</strong>"
+        }
+      },
+      "Messages": {
+        "StartConcentration": "<h3>Concentratore</h3><p>{entityName} si sta ora concentrando su <strong>{spellName}</strong>.",
+        "DoubleConcentration": "<h3>Concentratore</h3><p>{entityName} lancia <strong>{newSpellName}</strong> mentre si stava già concentrando su <strong>{oldSpellName}</strong>. La concentrazione sul precedente incantesimo è stata persa.",
+        "EndConcentration": "<h3>Concentratore</h3><p>La concentrazione di {entityName} su <strong>{spellName}</strong> è stata persa!</p>",
+        "ConcentrationTested": "<h3>Concentratore</h3><strong>{entityName}</strong> subisce danni e la concentrazione su <strong>{spellName}</strong> richiede un tiro salvezza (<strong>CD {dc}</strong>)!</p>",
+        "Incapacitated": "<h3>Concentratore</h3><strong>{entityName}</strong> è stato reso incapace e ha perso la concentrazione su <strong>{spellName}</strong>!</p>"
+      },
+      "UnknownSpell": "Incantesimo sconosciuto"
+    },
+    "HIDE_NAMES": {
+      "MessageIcon": {
+        "Title": {
+          "NameNotHidden": "Nome non nascosto (clicca per nascondere)",
+          "NameHiddenPrefix": "Nome alternativo:",
+          "NameHiddenSuffix": "(mostra nome)"
+        }
+      },
+      "ActorForm": {
+        "Title": "Impostazioni di nascondimento nome attore"
+      }
+    },
+    "SETTINGS": {
+      "CONCENTRATOR": {
+        "AutoEndConcentrationN": "Termina automaticamente la concentrazione",
+        "AutoEndConcentrationH": "Perdita automatica della concentrazione quando il tiro fallisce.",
+        "NotifyConcentrationN": "Notifica inizio concentrazione",
+        "NotifyConcentrationH": "Invia un messaggio quando viene lanciato un incantesimo che richiede concentrazione.",
+        "NotifyConcentrationCheckN": "Notifica test concentrazione",
+        "NotifyConcentrationCheckH": "Invia un messaggio quando viene richiesto un tiro salvezza per mantenere la concentrazione.",
+        "NotifyEndN": "Notifica fine concentrazione",
+        "NotifyEndH": "Invia un messaggio quando termina la concentrazione (inclusa morte o incoscienza).",
+        "HideNPCConcentrationN": "Nascondi concentrazione NPC",
+        "HideNPCConcentrationH": "Nasconde ai giocatori i messaggi di concentrazione degli NPC, anche se le notifiche sono impostate su 'Tutti'"
+      },
+      "ENHANCED_CONDITIONS": {
+        "MigrationVersionN": "Versione di migrazione",
+        "MigrationVersionH": "Versione di CUB per cui verrà eseguita la migrazione delle impostazioni",
+        "ShowSortDirectionDialogN": "Conferma salvataggio ordinamento",
+        "ShowSortDirectionDialogH": "Mostrare o meno il messaggio di conferma per salvare l’ordinamento"
+      },
+      "MIGHTY_SUMMONER": {
+        "PromptGMN": "Richiesta al GM per Mighty Summoner",
+        "PromptGMH": "Inviare richiesta al GM quando si posiziona un token controllato da Mighty Summoner"
+      }
+    },
+    "TEMPORARY_COMBATANTS": {
+      "Form": {
+        "Title": "Creazione di un partecipante temporaneo al combattimento"
+      },
+      "AddTempCombatant": "Aggiungi partecipante temporaneo"
+    },
+    "TRIGGLER": {
+      "ButtonTitle": "Apri Triggler"
+    },
+    "WORDS": {
+      "Icon": "Icona",
+      "Macro": "Macro",
+      "Name": "Nome",
+      "Reference": "Riferimento",
+      "Save": "Salva"
+    },
+    "PHRASES": {
+      "SaveAndClose": "Salva e chiudi"
+    }
+  },
+  "GADGET_DESCRIPTIONS.AwardXP": "Abilita la distribuzione dei punti esperienza ai giocatori dopo la sconfitta dei nemici",
+  "GADGET_DESCRIPTIONS.Concentrator": "Gestisce la concentrazione in D&D 5e",
+  "GADGET_DESCRIPTIONS.EnhancedConditions": "Permette di associare condizioni alle icone di stato dei token",
+  "GADGET_DESCRIPTIONS.HideNames": "Sostituisce il nome reale dell'attore con uno scelto",
+  "GADGET_DESCRIPTIONS.PanSelect": "Punta la telecamera sul token durante il suo turno",
+  "GADGET_DESCRIPTIONS.RerollInitiative": "Ritira l'iniziativa a ogni round",
+  "GADGET_DESCRIPTIONS.TemporaryCombatants": "Permette di creare partecipanti temporanei al combattimento per tracciare l’ambiente e oggetti inanimati",
+  "GADGET_DESCRIPTIONS.Triggler": "Sistema di trigger per modifiche di condizioni e attributi di attori/token",
+  "GADGET_DESCRIPTIONS.MiscActor": "Miglioramenti vari per gli attori",
+  "GADGET_DESCRIPTIONS.MiscToken": "Miglioramenti vari per i token",
 
-	"NOTIFICATIONS.CUBPuter.RestoreDefaults": "Настройки инструмента сброшены!",
-	"NOTIFICATIONS.CUBPuter.SaveSettings": "Настройки инструмента сохранены!",
+  "NOTIFICATIONS.CUBPuter.RestoreDefaults": "Le impostazioni dello strumento sono state ripristinate!",
+  "NOTIFICATIONS.CUBPuter.SaveSettings": "Impostazioni dello strumento salvate!",
 
-	"APPS.CUBPuter.RestoreButton": "Настройки по умолчанию",
-	"APPS.CUBPuter.ResetButton": "Вернуть настройки",
-	"APPS.CUBPuter.SaveButton": "Сохранить настройки",
-	"APPS.CUBPuter.SettingsHeader": "Настройки:",
-	"APPS.CUBPuter.WikiLinkText": "Wiki/Больше информации",
-	"APPS.CUBPuter.WikiLinkTitle": "Wiki/Больше информации",
-	"APPS.CUBPuter.NoInfo": "Нет дополнительной информации",
-	"APPS.CUBPuter.SelectGadget": "--Выберите инструмент--",
+  "APPS.CUBPuter.RestoreButton": "Impostazioni predefinite",
+  "APPS.CUBPuter.ResetButton": "Ripristina impostazioni",
+  "APPS.CUBPuter.SaveButton": "Salva impostazioni",
+  "APPS.CUBPuter.SettingsHeader": "Impostazioni:",
+  "APPS.CUBPuter.WikiLinkText": "Wiki/Maggiori informazioni",
+  "APPS.CUBPuter.WikiLinkTitle": "Wiki/Maggiori informazioni",
+  "APPS.CUBPuter.NoInfo": "Nessuna informazione aggiuntiva",
+  "APPS.CUBPuter.SelectGadget": "--Seleziona uno strumento--",
 
-	"APPS.Wiki.Title": "Combat Utility Belt Wiki",
+  "APPS.Wiki.Title": "Combat Utility Belt Wiki",
 
-	"CONCENTRATOR.ConditionName": "Концентрация",
-	"CONCENTRATOR.Alias": "Концентратор",
+  "CONCENTRATOR.ConditionName": "Concentrazione",
+  "CONCENTRATOR.Alias": "Concentratore",
 
-	"ENHANCED_CONDITIONS.GameSystemNotSupported": "Улучшенные состояния CUB не работают с этой системой. Подробнее о совместимости можно узнать в CUB Wiki",
-	"ENHANCED_CONDITIONS.SimpleIconsNotSupported": "Улучшенные состояния CUB не работают с системами, которые используют простые иконки статусов.",
-	"ENHANCED_CONDITIONS.MapMismatch": "Эта привязка не соответствует текущей игровой системе и может работать некорректно.",
-	"ENHANCED_CONDITIONS.ApplyCondition.Failed.NoToken": "Не удалось применить состояние. Токен не выбран.",
-	"ENHANCED_CONDITIONS.ApplyCondition.Failed.NoCondition": "Не удалось применить состояние. Не найдено состояние:",
-	"ENHANCED_CONDITIONS.ApplyCondition.Failed.NoIcon": "Не удалось применить состояние. Не найдена иконка.",
-	"ENHANCED_CONDITIONS.ApplyCondition.Failed.AlreadyActive": "уже активно. Не удалось применить состояние.",
+  "ENHANCED_CONDITIONS.GameSystemNotSupported": "Le Condizioni Avanzate di CUB non sono supportate in questo sistema. Consulta il Wiki di CUB per dettagli sulla compatibilità",
+  "ENHANCED_CONDITIONS.SimpleIconsNotSupported": "Le Condizioni Avanzate di CUB non funzionano con sistemi che usano icone di stato semplificate.",
+  "ENHANCED_CONDITIONS.MapMismatch": "Questa mappatura non corrisponde al sistema di gioco attuale e potrebbe non funzionare correttamente.",
+  "ENHANCED_CONDITIONS.ApplyCondition.Failed.NoToken": "Impossibile applicare la condizione. Nessun token selezionato.",
+  "ENHANCED_CONDITIONS.ApplyCondition.Failed.NoCondition": "Impossibile applicare la condizione. Condizione non trovata:",
+  "ENHANCED_CONDITIONS.ApplyCondition.Failed.NoIcon": "Impossibile applicare la condizione. Icona non trovata.",
+  "ENHANCED_CONDITIONS.ApplyCondition.Failed.AlreadyActive": "già attiva. Impossibile applicare la condizione.",
 
-	"ENHANCED_CONDITIONS.GetConditions.Failed.NoToken": "Не удалось обнаружить состояние. Токен не найден и не определён автоматически.",
-	"ENHANCED_CONDITIONS.GetConditions.Failed.NoCondition": "Не удалось обнаружить состояние. Нет активной привязки состояний.",
-	"ENHANCED_CONDITIONS.GetConditions.Failed.NoResults": "Не удалось обнаружить состояние. На токене нет активных состояний.",
+  "ENHANCED_CONDITIONS.GetConditions.Failed.NoToken": "Impossibile rilevare la condizione. Nessun token selezionato o rilevato automaticamente.",
+  "ENHANCED_CONDITIONS.GetConditions.Failed.NoCondition": "Impossibile rilevare la condizione. Nessuna mappatura attiva trovata.",
+  "ENHANCED_CONDITIONS.GetConditions.Failed.NoResults": "Impossibile rilevare la condizione. Nessuna condizione attiva sul token.",
 
-	"ENHANCED_CONDITIONS.RemoveCondition.Failed.NoToken": "Не удалось удалить состояние. Токен не выбран.",
-	"ENHANCED_CONDITIONS.RemoveCondition.Failed.NoCondition": "Не удалось удалить состояние. Не найдено состояние:",
-	"ENHANCED_CONDITIONS.RemoveCondition.Failed.NoIcon": "Не удалось удалить состояние. Не найдена иконка.",
-	"ENHANCED_CONDITIONS.RemoveCondition.Failed.NotActive": "не активно на данном токене. Не удалось удалить состояние.",
+  "ENHANCED_CONDITIONS.RemoveCondition.Failed.NoToken": "Impossibile rimuovere la condizione. Nessun token selezionato.",
+  "ENHANCED_CONDITIONS.RemoveCondition.Failed.NoCondition": "Impossibile rimuovere la condizione. Condizione non trovata:",
+  "ENHANCED_CONDITIONS.RemoveCondition.Failed.NoIcon": "Impossibile rimuovere la condizione. Icona non trovata.",
+  "ENHANCED_CONDITIONS.RemoveCondition.Failed.NotActive": "non attiva sul token. Impossibile rimuovere la condizione.",
 
-	"ENHANCED_CONDITIONS.RemoveAllConditions.Failed.NoToken": "Не удалось удалить состояния. Токен(ы) не выбран(ы).",
-	"ENHANCED_CONDITIONS.RemoveAllConditions.Failed.NoCondition": "Не удалось удалить состояния. Нет активной привязки состояний.",
+  "ENHANCED_CONDITIONS.RemoveAllConditions.Failed.NoToken": "Impossibile rimuovere le condizioni. Nessun token selezionato.",
+  "ENHANCED_CONDITIONS.RemoveAllConditions.Failed.NoCondition": "Impossibile rimuovere le condizioni. Nessuna mappatura attiva trovata.",
 
-	"ENHANCED_CONDITIONS.Lab.Title": "Кузня состояний",
-	"ENHANCED_CONDITIONS.Lab.MappingType.Label": "Тип привязки",
-	"ENHANCED_CONDITIONS.Lab.MappingType.Unsaved": "(несохранённые изменения)",
-	"ENHANCED_CONDITIONS.Lab.ActiveEffects.Title": "Настройки активных эффектов",
-	"ENHANCED_CONDITIONS.Lab.ActiveEffects.TitleDisabledNew": "Настройки активных эффектов (Выключено - Сначала сохраните раскладку)",
-	"ENHANCED_CONDITIONS.Lab.ActiveEffects.TitleDisabledDefault": "Настройки активных эффектов (Выключено - Нельзя редактировать стандартную раскладку)",
-	"ENHANCED_CONDITIONS.LAB.Import.NoFile": "Вы не загрузили файл данных!",
-	"ENHANCED_CONDITIONS.Lab.ConfirmDeleteTitle": "Подтвердите удаления ряда",
-	"ENHANCED_CONDITIONS.Lab.ConfirmDeleteContent": "Вы уверены, что хотите удалить этот ряд?",
-	"ENHANCED_CONDITIONS.Lab.RestoreDefaultsTitle": "Восстановить настройки по умолчанию?",
-	"ENHANCED_CONDITIONS.Lab.RestoreDefaultsContent": "<p>Вы уверены, что хотите вернуть привязку по умолчанию?</p><strong>Если вы сохраните изменения, то вернуть привязку будет нельзя.</strong>",
-	"ENHANCED_CONDITIONS.Lab.ResetFormTitle": "Сбросить форму?",
-	"ENHANCED_CONDITIONS.Lab.ResetFormContent": "<p>Вы уверены, что хотите сбросить форму?</p><p><strong>Вы потеряете все несохранённые изменения.</strong></p>",
-	"ENHANCED_CONDITIONS.Lab.SaveFailed": "Кузне состояний не удалось сохранить изменения.",
-	"ENHANCED_CONDITIONS.Lab.SaveSuccess": "Привязка Кузни состояний сохранена!",
-	"ENHANCED_CONDITIONS.Lab.ImportTitle": "Импорт привязки состояний",
-	"ENHANCED_CONDITIONS.Lab.ExportTitle": "Экспорт привязки состояний",
-	"ENHANCED_CONDITIONS.Lab.Options.Title": "Опции:",
-	"ENHANCED_CONDITIONS.Lab.Options.Overlay.Label": "Оверлей",
-	"ENHANCED_CONDITIONS.Lab.Options.RemoveOthers.Label": "Удалить другие",
-	"ENHANCED_CONDITIONS.Lab.Options.OutputChat.Label": "Вывести в чат",
-	"ENHANCED_CONDITIONS.Lab.Options.MarkDefeated.Label": "Отметить побеждённым",
-	"ENHANCED_CONDITIONS.Lab.Options.Overlay.Title": "Отображает состояние в виде оверлея на токене",
-	"ENHANCED_CONDITIONS.Lab.Options.RemoveOthers.Title": "Удаляет другие состояния, когда применено это",
-	"ENHANCED_CONDITIONS.Lab.Options.MarkDefeated.Title": "Отмечает участников боя побеждёнными, когда они получают это состояние",
-	"ENHANCED_CONDITIONS.Lab.Options.OutputChat.Title": "Выводит сообщение в чат, когда это состояние применяется/удаляется",
-	"ENHANCED_CONDITIONS.PreventativeSaveReminder.Title": "CUB - Улучшенные состояния | Предупреждение",
-	"ENHANCED_CONDITIONS.PreventativeSaveReminder.Content": "<p>Чтобы предотвратить проблемы, связанные с переходом на <i>Активные эффекты</i>, откройте <strong>Кузню состояний</strong> и нажмите <strong>Сохранить привязку</strong>.</p><p>Это нужно сделать один раз, чтобы сконвертировать состояния в новый формат.</p>",
-	"ENHANCED_CONDITIONS.PreventativeSaveReminder.Suppress": "Больше не показывать предупреждение",
+  "ENHANCED_CONDITIONS.Lab.Title": "Fucina delle Condizioni",
+  "ENHANCED_CONDITIONS.Lab.MappingType.Label": "Tipo di mappatura",
+  "ENHANCED_CONDITIONS.Lab.MappingType.Unsaved": "(modifiche non salvate)",
+  "ENHANCED_CONDITIONS.Lab.ActiveEffects.Title": "Impostazioni degli Effetti Attivi",
+  "ENHANCED_CONDITIONS.Lab.ActiveEffects.TitleDisabledNew": "Impostazioni degli Effetti Attivi (Disabilitato - salva prima la mappa)",
+  "ENHANCED_CONDITIONS.Lab.ActiveEffects.TitleDisabledDefault": "Impostazioni degli Effetti Attivi (Disabilitato - non modificabile per la mappa predefinita)",
+  "ENHANCED_CONDITIONS.LAB.Import.NoFile": "Nessun file dati caricato!",
+  "ENHANCED_CONDITIONS.Lab.ConfirmDeleteTitle": "Conferma eliminazione riga",
+  "ENHANCED_CONDITIONS.Lab.ConfirmDeleteContent": "Sei sicuro di voler eliminare questa riga?",
+  "ENHANCED_CONDITIONS.Lab.RestoreDefaultsTitle": "Ripristinare le impostazioni predefinite?",
+  "ENHANCED_CONDITIONS.Lab.RestoreDefaultsContent": "<p>Sei sicuro di voler ripristinare la mappatura predefinita?</p><strong>Se salvi le modifiche, non potrai tornare indietro.</strong>",
+  "ENHANCED_CONDITIONS.Lab.ResetFormTitle": "Resettare il modulo?",
+  "ENHANCED_CONDITIONS.Lab.ResetFormContent": "<p>Sei sicuro di voler resettare il modulo?</p><p><strong>Perderai tutte le modifiche non salvate.</strong></p>",
+  "ENHANCED_CONDITIONS.Lab.SaveFailed": "Impossibile salvare la Fucina delle Condizioni.",
+  "ENHANCED_CONDITIONS.Lab.SaveSuccess": "Mappatura della Fucina delle Condizioni salvata!",
+  "ENHANCED_CONDITIONS.Lab.ImportTitle": "Importa mappatura condizioni",
+  "ENHANCED_CONDITIONS.Lab.ExportTitle": "Esporta mappatura condizioni",
+  "ENHANCED_CONDITIONS.Lab.Options.Title": "Opzioni:",
+  "ENHANCED_CONDITIONS.Lab.Options.Overlay.Label": "Overlay",
+  "ENHANCED_CONDITIONS.Lab.Options.RemoveOthers.Label": "Rimuovi le altre",
+  "ENHANCED_CONDITIONS.Lab.Options.OutputChat.Label": "Mostra in chat",
+  "ENHANCED_CONDITIONS.Lab.Options.MarkDefeated.Label": "Segna come sconfitto",
+  "ENHANCED_CONDITIONS.Lab.Options.Overlay.Title": "Mostra la condizione come overlay sul token",
+  "ENHANCED_CONDITIONS.Lab.Options.RemoveOthers.Title": "Rimuove le altre condizioni quando questa viene applicata",
+  "ENHANCED_CONDITIONS.Lab.Options.MarkDefeated.Title": "Segna il combattente come sconfitto quando riceve questa condizione",
+  "ENHANCED_CONDITIONS.Lab.Options.OutputChat.Title": "Invia un messaggio in chat quando questa condizione viene applicata o rimossa",
+  "ENHANCED_CONDITIONS.PreventativeSaveReminder.Title": "CUB - Condizioni Avanzate | Avviso",
+  "ENHANCED_CONDITIONS.PreventativeSaveReminder.Content": "<p>Per evitare problemi legati al passaggio agli <i>Effetti Attivi</i>, apri la <strong>Fucina delle Condizioni</strong> e clicca <strong>Salva mappatura</strong>.</p><p>Devi farlo solo una volta per convertire le condizioni nel nuovo formato.</p>",
+  "ENHANCED_CONDITIONS.PreventativeSaveReminder.Suppress": "Non mostrare più questo avviso",
 
-	"ENHANCED_CONDITIONS.ChatCard.Title.Active": "Активные состояния",
-	"ENHANCED_CONDITIONS.ChatCard.Title.Added": "Добавленные состояния",
-	"ENHANCED_CONDITIONS.ChatCard.Title.Removed": "Удалённые состояния",
+  "ENHANCED_CONDITIONS.ChatCard.Title.Active": "Condizioni attive",
+  "ENHANCED_CONDITIONS.ChatCard.Title.Added": "Condizioni aggiunte",
+  "ENHANCED_CONDITIONS.ChatCard.Title.Removed": "Condizioni rimosse",
 
-	"ENHANCED_CONDITIONS.ChatCard.Buttons.Undo": "Отмена удаления",
-	"ENHANCED_CONDITIONS.ChatCard.Buttons.Remove": "Удалить состояние",
+  "ENHANCED_CONDITIONS.ChatCard.Buttons.Undo": "Annulla rimozione",
+  "ENHANCED_CONDITIONS.ChatCard.Buttons.Remove": "Rimuovi condizione",
 
-	"GIVE_XP.DistributeForm.XPModifier": "Модификатор ПО",
-	"GIVE_XP.DistributeForm.Friendlies": "Союзники",
-	"GIVE_XP.DistributeForm.Hostiles": "Враги",
-	"GIVE_XP.DistributeForm.SelectFriendlies": "Выберите какие союзники получат ПО",
-	"GIVE_XP.DistributeForm.SelectHostiles": "Выберите какие враги будут давать ПО",
-	"GIVE_XP.DistributeForm.Distribution": "Распределение",
-	"GIVE_XP.DistributeForm.TotalXp": "Общие ПО",
-	"GIVE_XP.DistributeForm.CreaturesReceiving": "Существа получающие",
-	"GIVE_XP.DistributeForm.XpPerCreature": "ПО за союзное существо",
+  "GIVE_XP.DistributeForm.XPModifier": "Modificatore PE",
+  "GIVE_XP.DistributeForm.Friendlies": "Alleati",
+  "GIVE_XP.DistributeForm.Hostiles": "Nemici",
+  "GIVE_XP.DistributeForm.SelectFriendlies": "Seleziona quali alleati riceveranno PE",
+  "GIVE_XP.DistributeForm.SelectHostiles": "Seleziona quali nemici forniranno PE",
+  "GIVE_XP.DistributeForm.Distribution": "Distribuzione",
+  "GIVE_XP.DistributeForm.TotalXp": "Totale PE",
+  "GIVE_XP.DistributeForm.CreaturesReceiving": "Creature che ricevono",
+  "GIVE_XP.DistributeForm.XpPerCreature": "PE per ogni alleato",
 
-	"HIDE_NAMES.ActorForm.Enable": "Скрыть имя актёра",
-	"HIDE_NAMES.ActorForm.EnableHint": "Скрывает имя этого актёров в чате и трекере боя (приоритет выше глобальной настройки)",
-	"HIDE_NAMES.ActorForm.ReplacementName": "Подмена имени",
-	"HIDE_NAMES.ActorForm.ReplacementHint": "Это имя будет отображаться вместо настоящего",
-	"HIDE_NAMES.ActorForm.DefaultSettingH": "Это глобальная настройка по умолчанию для актёров с данным отношение",
-	"HIDE_NAMES.ActorSheetButton": "Настройка скрытия имени",
+  "HIDE_NAMES.ActorForm.Enable": "Nascondi il nome dell'attore",
+  "HIDE_NAMES.ActorForm.EnableHint": "Nasconde il nome di questo attore nella chat e nel tracciatore di combattimento (ha priorità rispetto all'impostazione globale)",
+  "HIDE_NAMES.ActorForm.ReplacementName": "Nome sostitutivo",
+  "HIDE_NAMES.ActorForm.ReplacementHint": "Questo nome verrà mostrato al posto di quello reale",
+  "HIDE_NAMES.ActorForm.DefaultSettingH": "Questa è l'impostazione globale predefinita per gli attori con questa disposizione",
+  "HIDE_NAMES.ActorSheetButton": "Impostazione nascondi nome",
 
-	"CUB.TRIGGLER.App.AdvancedTrigger.Actor.Note": "Укажите путь к свойству для обновления актёра - относительный путь к обновляемому объекту хука updateActor.",
-	"CUB.TRIGGLER.App.AdvancedTrigger.Actor.Note2": "По желанию укажите второе свойство для сравнения с первым - путь относительно объекта самого актёра.",
-	"CUB.TRIGGLER.App.AdvancedTrigger.Token.Note": "Укажите путь к свойству для обновления токена - относительный путь к обновляемому объекту хука updateToken.",
-	"CUB.TRIGGLER.App.AdvancedTrigger.Token.Note2": "По желанию укажите второе свойство для сравнения с первым - путь относительно объекта самого токена.",
-	"CUB.TRIGGLER.App.AdvancedTrigger.ActorProperty.Label": "Обновляемое свойство актёра",
-	"CUB.TRIGGLER.App.AdvancedTrigger.ActorProperty.Placeholder": "напр. data.attributes.hp.value (требуется, если 'Обновляемое свойство токена' не указано)",
-	"CUB.TRIGGLER.App.AdvancedTrigger.ActorProperty2.Label": "Сравнимое свойство актёра",
-	"CUB.TRIGGLER.App.AdvancedTrigger.ActorProperty2.Placeholder": "напр. data.data.attributes.hp.max (опционально)",
-	"CUB.TRIGGLER.App.AdvancedTrigger.TokenProperty.Label": "Обновляемое свойство токена",
-	"CUB.TRIGGLER.App.AdvancedTrigger.TokenProperty.Placeholder": "напр. actorData.attributes.hp.value (требуется, если 'Обновляемое свойство актёра' не указано)",
-	"CUB.TRIGGLER.App.AdvancedTrigger.TokenProperty2.Label": "Сравнимое свойство токена",
-	"CUB.TRIGGLER.App.AdvancedTrigger.TokenProperty2.Placeholder": "напр. actor.data.attributes.hp.max (опционально)",
-	"CUB.TRIGGLER.App.AdvancedTrigger.Property.Hint": "Путь к обновляемому свойству для отслеживания. Значения Entry Point сущностей актёра и токена передают Triggler информацию о наблюдении за каждым типом сущности.",
-	"CUB.TRIGGLER.App.TriggerType.Simple.Label": "Простой триггер",
-	"CUB.TRIGGLER.App.TriggerType.Advanced.Label": "Продвинутый триггер",
-	"CUB.TRIGGLER.App.Options.Title": "Опции",
-	"CUB.TRIGGLER.App.SaveSuccessful": "Триггер сохранён!",
-	"CUB.TRIGGLER.App.AdvancedTrigger.OperatorValue.Heading": "Оператор/значение",
-	"CUB.TRIGGLER.App.AdvancedTrigger.OperatorValue.Note": "Требуется всегда. Математический оператор и значение применяются к свойствам актёра и токена, указанным выше.",
-	"CUB.TRIGGLER.App.AdvancedTrigger.Name.Label": "Название триггера",
-	"CUB.TRIGGLER.App.AdvancedTrigger.Name.Placeholder": "(требуется для продвинутых триггеров)",
-	"CUB.TRIGGLER.App.AdvancedTrigger.Name.Warning": "Для продвинутых триггеров требуется название!",
+  "CUB.TRIGGLER.App.AdvancedTrigger.Actor.Note": "Specifica il percorso della proprietà da aggiornare dell'attore - percorso relativo all'oggetto aggiornato nel hook updateActor.",
+  "CUB.TRIGGLER.App.AdvancedTrigger.Actor.Note2": "Facoltativamente, specifica una seconda proprietà da confrontare con la prima - percorso relativo all'attore stesso.",
+  "CUB.TRIGGLER.App.AdvancedTrigger.Token.Note": "Specifica il percorso della proprietà da aggiornare del token - percorso relativo all'oggetto aggiornato nel hook updateToken.",
+  "CUB.TRIGGLER.App.AdvancedTrigger.Token.Note2": "Facoltativamente, specifica una seconda proprietà da confrontare con la prima - percorso relativo al token stesso.",
+  "CUB.TRIGGLER.App.AdvancedTrigger.ActorProperty.Label": "Proprietà attore da aggiornare",
+  "CUB.TRIGGLER.App.AdvancedTrigger.ActorProperty.Placeholder": "es. data.attributes.hp.value (richiesto se non specificata la proprietà token)",
+  "CUB.TRIGGLER.App.AdvancedTrigger.ActorProperty2.Label": "Proprietà di confronto attore",
+  "CUB.TRIGGLER.App.AdvancedTrigger.ActorProperty2.Placeholder": "es. data.data.attributes.hp.max (facoltativo)",
+  "CUB.TRIGGLER.App.AdvancedTrigger.TokenProperty.Label": "Proprietà token da aggiornare",
+  "CUB.TRIGGLER.App.AdvancedTrigger.TokenProperty.Placeholder": "es. actorData.attributes.hp.value (richiesto se non specificata la proprietà attore)",
+  "CUB.TRIGGLER.App.AdvancedTrigger.TokenProperty2.Label": "Proprietà di confronto token",
+  "CUB.TRIGGLER.App.AdvancedTrigger.TokenProperty2.Placeholder": "es. actor.data.attributes.hp.max (facoltativo)",
+  "CUB.TRIGGLER.App.AdvancedTrigger.Property.Hint": "Percorso della proprietà da monitorare. I valori di Entry Point per attore e token trasmettono a Triggler le informazioni di osservazione per ogni tipo di entità.",
+  "CUB.TRIGGLER.App.TriggerType.Simple.Label": "Trigger semplice",
+  "CUB.TRIGGLER.App.TriggerType.Advanced.Label": "Trigger avanzato",
+  "CUB.TRIGGLER.App.Options.Title": "Opzioni",
+  "CUB.TRIGGLER.App.SaveSuccessful": "Trigger salvato!",
+  "CUB.TRIGGLER.App.AdvancedTrigger.OperatorValue.Heading": "Operatore/valore",
+  "CUB.TRIGGLER.App.AdvancedTrigger.OperatorValue.Note": "Sempre richiesto. L'operatore matematico e il valore vengono applicati alle proprietà specificate sopra.",
+  "CUB.TRIGGLER.App.AdvancedTrigger.Name.Label": "Nome del trigger",
+  "CUB.TRIGGLER.App.AdvancedTrigger.Name.Placeholder": "(richiesto per trigger avanzati)",
+  "CUB.TRIGGLER.App.AdvancedTrigger.Name.Warning": "I trigger avanzati richiedono un nome!",
 
-	"SETTINGS.AboutApp.ButtonN": "О Combat Utility Belt",
-	"SETTINGS.AboutApp.ButtonH": "Информация о Combat Utility Belt",
-	"SETTINGS.CUBPuter.ButtonN": "Настройка Combat Utility Belt",
-	"SETTINGS.CUBPuter.ButtonH": "Дополнительная настройка Combat Utility Belt",
+  "SETTINGS.AboutApp.ButtonN": "Informazioni su Combat Utility Belt",
+  "SETTINGS.AboutApp.ButtonH": "Dettagli su Combat Utility Belt",
+  "SETTINGS.CUBPuter.ButtonN": "Impostazioni Combat Utility Belt",
+  "SETTINGS.CUBPuter.ButtonH": "Configurazione avanzata di Combat Utility Belt",
 
-	"SETTINGS.Concentrator.EnableN": "Включить Концентратор",
-	"SETTINGS.Concentrator.EnableH": "(Только D&D5e)(Требуются Улучшенные состояния) Принудительно совершает проверку концентрации, когда токен получает урон в состоянии концентрации",
-	"SETTINGS.Concentrator.ConditionNameN": "Название состояния концентрации",
-	"SETTINGS.Concentrator.ConditionNameH": "Название концентрации в вашей системе, которое будет использовано для отслеживания",
-	"SETTINGS.Concentrator.OutputToChatN": "Уведомление в чат",
-	"SETTINGS.Concentrator.OutputToChatH": "Отображает уведомление в чате, когда концентрация под угрозой",
-	"SETTINGS.Concentrator.PromptRollN": "Запрос игрока",
-	"SETTINGS.Concentrator.PromptRollH": "Отправлять запрос игроку на прохождение проверки концентрации. Иначе автоматически",
-	"SETTINGS.Concentrator.ConcentrationAttributeN": "Характеристика концентрации",
-	"SETTINGS.Concentrator.ConcentrationAttributeH": "Название характеристики, отвечающей за проверку концентрации в вашей системе",
-	"SETTINGS.Concentrator.HealthAttributeN": "Названия здоровья",
-	"SETTINGS.Concentrator.HealthAttributeH": "Название характеристики, отвечающей за пункты здоровья (ПЗ) в вашей системе",
-	"SETTINGS.Concentrator.AutoConcentrateN": "Автоматически применять состояние концентрации",
-	"SETTINGS.Concentrator.AutoConcentrateH": "Когда актёр произносит заклинание с концентрацией, автоматически применять состояние для него",
-	"SETTINGS.Concentrator.NotifyDoubleN": "Предупреждение о двойной концентрации",
-	"SETTINGS.Concentrator.NotifyDoubleH": "Выводить предупреждение, если актёр произносит заклинание с концентрацией, при этом уже концентрируясь",
+  "SETTINGS.Concentrator.EnableN": "Abilita il Concentratore",
+  "SETTINGS.Concentrator.EnableH": "(Solo D&D5e)(Richiede Condizioni Avanzate) Forza un tiro di concentrazione quando il token subisce danni durante la concentrazione",
+  "SETTINGS.Concentrator.ConditionNameN": "Nome della condizione di concentrazione",
+  "SETTINGS.Concentrator.ConditionNameH": "Nome della condizione usato nel sistema per tracciare la concentrazione",
+  "SETTINGS.Concentrator.OutputToChatN": "Notifica in chat",
+  "SETTINGS.Concentrator.OutputToChatH": "Mostra una notifica in chat quando la concentrazione è a rischio",
+  "SETTINGS.Concentrator.PromptRollN": "Richiesta al giocatore",
+  "SETTINGS.Concentrator.PromptRollH": "Invia al giocatore la richiesta per effettuare il tiro di concentrazione. Altrimenti lo esegue automaticamente",
+  "SETTINGS.Concentrator.ConcentrationAttributeN": "Attributo concentrazione",
+  "SETTINGS.Concentrator.ConcentrationAttributeH": "Nome dell'attributo usato per i tiri di concentrazione",
+  "SETTINGS.Concentrator.HealthAttributeN": "Attributo salute",
+  "SETTINGS.Concentrator.HealthAttributeH": "Nome dell'attributo che rappresenta i punti ferita",
+  "SETTINGS.Concentrator.AutoConcentrateN": "Applica automaticamente la condizione di concentrazione",
+  "SETTINGS.Concentrator.AutoConcentrateH": "Applica automaticamente la condizione quando un attore lancia un incantesimo con concentrazione",
+  "SETTINGS.Concentrator.NotifyDoubleN": "Avviso doppia concentrazione",
+  "SETTINGS.Concentrator.NotifyDoubleH": "Mostra un avviso se l'attore lancia un nuovo incantesimo con concentrazione mentre ne sta già mantenendo uno",
 
-	"SETTINGS.EnhancedConditions.EnableN": "Включить Улучшенные состояния",
-	"SETTINGS.EnhancedConditions.EnableH": "Привязывает состояния к иконкам статусов",
-	"SETTINGS.EnhancedConditions.CoreIconsN": "Стандартные иконки статусов",
-	"SETTINGS.EnhancedConditions.CoreIconsH": "Копия стандартных иконок статусов",
-	"SETTINGS.EnhancedConditions.SystemN": "Игровая система",
-	"SETTINGS.EnhancedConditions.SystemH": "Выбор игровой системы. Выставляется как Другая, если не найдена подходящая",
-	"SETTINGS.EnhancedConditions.OutputChatN": "Выводить в чат",
-	"SETTINGS.EnhancedConditions.OutputChatH": "Выводить состояния в чат",
-	"SETTINGS.EnhancedConditions.OutputCombatN": "Выводить в бою",
-	"SETTINGS.EnhancedConditions.OutputCombatH": "Выводить состояния актёра, когда наступает его ход в бою",
-	"SETTINGS.EnhancedConditions.DefaultMapsN": "Стандартная привязка состояний",
-	"SETTINGS.EnhancedConditions.DefaultMapsH": "Заранее созданная привязка из этого модуля",
-	"SETTINGS.EnhancedConditions.RemoveDefaultEffectsN": "Удалить стандартные состояния",
-	"SETTINGS.EnhancedConditions.RemoveDefaultEffectsH": "Удалить стандартные иконки состояний из интерфейса",
-	"SETTINGS.EnhancedConditions.MapTypeN": "Тип привязки активных состояний",
-	"SETTINGS.EnhancedConditions.MapTypeH": "Текущая привязка активных состояний - стандартная, своя или другая",
-	"SETTINGS.EnhancedConditions.ActiveConditionMapN": "Привязка активных состояний",
-	"SETTINGS.EnhancedConditions.ActiveConditionMapH": "Содержит привязки активных состояний",
-	"SETTINGS.EnhancedConditions.SuppressPreventativeSaveReminderN": "Не напоминать о сохранении",
-	"SETTINGS.EnhancedConditions.SuppressPreventativeSaveReminderH": "Напоминание о сохранении Кузни состояний не будет больше отображаться",
+  "SETTINGS.EnhancedConditions.EnableN": "Abilita Condizioni Avanzate",
+  "SETTINGS.EnhancedConditions.EnableH": "Collega condizioni alle icone di stato",
+  "SETTINGS.EnhancedConditions.CoreIconsN": "Icone di stato standard",
+  "SETTINGS.EnhancedConditions.CoreIconsH": "Copia delle icone di stato standard",
+  "SETTINGS.EnhancedConditions.SystemN": "Sistema di gioco",
+  "SETTINGS.EnhancedConditions.SystemH": "Seleziona il sistema di gioco. Sarà 'Altro' se non riconosciuto",
+  "SETTINGS.EnhancedConditions.OutputChatN": "Mostra in chat",
+  "SETTINGS.EnhancedConditions.OutputChatH": "Mostra le condizioni nella chat",
+  "SETTINGS.EnhancedConditions.OutputCombatN": "Mostra in combattimento",
+  "SETTINGS.EnhancedConditions.OutputCombatH": "Mostra le condizioni dell’attore quando inizia il suo turno",
+  "SETTINGS.EnhancedConditions.DefaultMapsN": "Mappatura condizioni predefinita",
+  "SETTINGS.EnhancedConditions.DefaultMapsH": "Mappatura fornita da questo modulo",
+  "SETTINGS.EnhancedConditions.RemoveDefaultEffectsN": "Rimuovi condizioni standard",
+  "SETTINGS.EnhancedConditions.RemoveDefaultEffectsH": "Rimuove le icone di condizione standard dall'interfaccia",
+  "SETTINGS.EnhancedConditions.MapTypeN": "Tipo di mappatura condizioni attive",
+  "SETTINGS.EnhancedConditions.MapTypeH": "Tipo attuale di mappatura: standard, personalizzata o altra",
+  "SETTINGS.EnhancedConditions.ActiveConditionMapN": "Mappa condizioni attive",
+  "SETTINGS.EnhancedConditions.ActiveConditionMapH": "Contiene la mappatura delle condizioni attive",
+  "SETTINGS.EnhancedConditions.SuppressPreventativeSaveReminderN": "Non ricordare di salvare",
+  "SETTINGS.EnhancedConditions.SuppressPreventativeSaveReminderH": "Non mostra più l’avviso per salvare la Fucina delle Condizioni",
 
-	"SETTINGS.GiveXP.EnableN": "Включить награждение ПО",
-	"SETTINGS.GiveXP.EnableH": "Включает распределение пунктов опыта между игроками после боя за победу над врагами",
-	"SETTINGS.GiveXP.ModifierN": "Модификатор ПО",
-	"SETTINGS.GiveXP.ModifierH": "Умножает полученные ПО на это значение",
+  "SETTINGS.GiveXP.EnableN": "Abilita Assegnazione PE",
+  "SETTINGS.GiveXP.EnableH": "Abilita la distribuzione dei punti esperienza tra i giocatori dopo la vittoria contro i nemici",
+  "SETTINGS.GiveXP.ModifierN": "Modificatore PE",
+  "SETTINGS.GiveXP.ModifierH": "Moltiplica i PE guadagnati per questo valore",
 
-	"SETTINGS.HideNames.EnableN": "Скрывать имена актёров",
-	"SETTINGS.HideNames.EnableH": "Скрывает имена актёров в чате и трекере боя",
-	"SETTINGS.HideNames.EnableHostileN": "Скрывать вражеские имена",
-	"SETTINGS.HideNames.EnableHostileH": "Скрывает имена актёров, чьё отношение выставлено как ВРАЖДЕБНОЕ",
-	"SETTINGS.HideNames.EnableNeutralN": "Скрывать нейтральные имена",
-	"SETTINGS.HideNames.EnableNeutralH": "Скрывает имена актёров, чьё отношение выставлено как НЕЙТРАЛЬНЫЕ",
-	"SETTINGS.HideNames.EnableFriendlyN": "Скрывать дружественные имена",
-	"SETTINGS.HideNames.EnableFriendlyH": "Скрывает имена актёров, чьё отношение выставлено как ДРУЖЕСТВЕННОЕ",
-	"SETTINGS.HideNames.HostileReplacementN": "Враждебное имя",
-	"SETTINGS.HideNames.HostileReplacementH": "Имя по умолчанию для токенов с враждебным отношением",
-	"SETTINGS.HideNames.NeutralReplacementN": "Нейтральное имя",
-	"SETTINGS.HideNames.NeutralReplacementH": "Имя по умолчанию для токенов с нейтральным отношением",
-	"SETTINGS.HideNames.FriendlyReplacementN": "Дружественное имя",
-	"SETTINGS.HideNames.FriendlyReplacementH": "Имя по умолчанию для токенов с дружественным отношением",
-	"SETTINGS.HideNames.ReplacementStringN": "Замена имени",
-	"SETTINGS.HideNames.ReplacementStringH": "Текст для скрытых имён",
-	"SETTINGS.HideNames.HideFooterN": "Скрывать низ карточки чата",
-	"SETTINGS.HideNames.HideFooterH": "Когда имена скрыты, также скрывать нижнюю часть карточек в чате, которые могут содержать скрытую информацию",
-	"SETTINGS.HideNames.HidePartsN": "Скрывать все части имени",
-	"SETTINGS.HideNames.HidePartsH": "Если скрытое имя содержит несколько частей с пробелами, то все его части будут скрыты",
+  "SETTINGS.HideNames.EnableN": "Nascondi nomi degli attori",
+  "SETTINGS.HideNames.EnableH": "Nasconde i nomi degli attori nella chat e nel tracciatore di combattimento",
+  "SETTINGS.HideNames.EnableHostileN": "Nascondi nomi nemici",
+  "SETTINGS.HideNames.EnableHostileH": "Nasconde i nomi degli attori con atteggiamento OSTILE",
+  "SETTINGS.HideNames.EnableNeutralN": "Nascondi nomi neutri",
+  "SETTINGS.HideNames.EnableNeutralH": "Nasconde i nomi degli attori con atteggiamento NEUTRALE",
+  "SETTINGS.HideNames.EnableFriendlyN": "Nascondi nomi amici",
+  "SETTINGS.HideNames.EnableFriendlyH": "Nasconde i nomi degli attori con atteggiamento AMICHEVOLE",
+  "SETTINGS.HideNames.HostileReplacementN": "Nome per nemici",
+  "SETTINGS.HideNames.HostileReplacementH": "Nome predefinito per i token ostili",
+  "SETTINGS.HideNames.NeutralReplacementN": "Nome per neutrali",
+  "SETTINGS.HideNames.NeutralReplacementH": "Nome predefinito per i token neutrali",
+  "SETTINGS.HideNames.FriendlyReplacementN": "Nome per amici",
+  "SETTINGS.HideNames.FriendlyReplacementH": "Nome predefinito per i token amichevoli",
+  "SETTINGS.HideNames.ReplacementStringN": "Testo sostitutivo",
+  "SETTINGS.HideNames.ReplacementStringH": "Testo mostrato al posto dei nomi nascosti",
+  "SETTINGS.HideNames.HideFooterN": "Nascondi piè di pagina della chat",
+  "SETTINGS.HideNames.HideFooterH": "Quando i nomi sono nascosti, nasconde anche il fondo delle carte in chat che potrebbe contenere informazioni",
+  "SETTINGS.HideNames.HidePartsN": "Nascondi tutte le parti del nome",
+  "SETTINGS.HideNames.HidePartsH": "Se il nome nascosto contiene spazi, tutte le parti verranno nascoste",
 
-	"SETTINGS.MightySummoner.EnableN": "Включить Mighty Summoner",
-	"SETTINGS.MightySummoner.EnableH": "(Только D&D5) Автоматически проверяет, если владелец нейтрального актёра также владеет актёром с чертой Mighty Summoner. В этом случае при переносе нейтрального токена на сцену, его ПЗ будет бросаться автоматически по формуле.",
-	"SETTINGS.MightySummoner.FeatNameN": "Название черты Mighty Summoner",
-	"SETTINGS.MightySummoner.FeatNameH": "Название черты для проверки",
+  "SETTINGS.MightySummoner.EnableN": "Abilita Mighty Summoner",
+  "SETTINGS.MightySummoner.EnableH": "(Solo D&D5) Controlla automaticamente se il proprietario di un attore neutrale possiede anche un attore con la caratteristica Mighty Summoner. In tal caso, quando il token viene piazzato sulla scena, i suoi PF verranno tirati automaticamente dalla formula.",
+  "SETTINGS.MightySummoner.FeatNameN": "Nome della caratteristica Mighty Summoner",
+  "SETTINGS.MightySummoner.FeatNameH": "Nome della caratteristica da cercare",
 
-	"SETTINGS.PanSelect.EnablePanN": "Включить камеру на токен",
-	"SETTINGS.PanSelect.EnablePanH": "Включает следующий функционал управления камерой",
-	"SETTINGS.PanSelect.PanGMN": "Камера для GM",
-	"SETTINGS.PanSelect.PanGMH": "Камера для GM. Опции: Нет (не управлять камерой для GM), NPC (наводить камеру только на токены ведущего), Все (наводить камеру на все токены)",
-	"SETTINGS.PanSelect.PanPlayersN": "Камера для игроков",
-	"SETTINGS.PanSelect.PanPlayersH": "Камера для игроков. Опции: Нет (не управлять камерой игроков), Владелец (наводить камеру на токены во владении игрока), Наблюдатель (наводить камеру на токены во владении и наблюдении игрока), Все (наводить камеру на все токены)",
-	"SETTINGS.PanSelect.EnableSelectN": "Включить выбор токена",
-	"SETTINGS.PanSelect.EnableSelectH": "Включает следующие функции выбор токенов",
-	"SETTINGS.PanSelect.SelectGMN": "Выбрать GM",
-	"SETTINGS.PanSelect.SelectGMH": "Выбирает токена в зависимости от следующих опций: Нет (не выбирать), NPC (токены, не контролируемые игроками), Все (выбрать все токены)",
-	"SETTINGS.PanSelect.SelectPlayersN": "Выбрать игроков",
-	"SETTINGS.PanSelect.SelectPlayersH": "Выбрать контролируемые игроками токены в начале их хода",
-	"SETTINGS.PanSelect.ObserverDeselectN": "Снять выделение с токенов",
-	"SETTINGS.PanSelect.ObserverDeselectH": "Снимает выделение с токенов в чужом ходу",
+  "SETTINGS.PanSelect.EnablePanN": "Abilita la camera sul token",
+  "SETTINGS.PanSelect.EnablePanH": "Abilita le seguenti funzioni di controllo della telecamera",
+  "SETTINGS.PanSelect.PanGMN": "Camera per il GM",
+  "SETTINGS.PanSelect.PanGMH": "Controllo camera per il GM. Opzioni: Nessuna (non controllare la camera del GM), PNG (sposta la camera solo sui token del GM), Tutti (sposta la camera su tutti i token)",
+  "SETTINGS.PanSelect.PanPlayersN": "Camera per i giocatori",
+  "SETTINGS.PanSelect.PanPlayersH": "Controllo camera per i giocatori. Opzioni: Nessuna (non controllare la camera), Proprietario (sui token controllati dal giocatore), Osservatore (sui token controllati o osservati), Tutti (su tutti i token)",
+  "SETTINGS.PanSelect.EnableSelectN": "Abilita selezione token",
+  "SETTINGS.PanSelect.EnableSelectH": "Abilita le seguenti funzioni di selezione token",
+  "SETTINGS.PanSelect.SelectGMN": "Seleziona GM",
+  "SETTINGS.PanSelect.SelectGMH": "Seleziona i token in base a queste opzioni: Nessuna (non selezionare), PNG (token non controllati dai giocatori), Tutti (seleziona tutti i token)",
+  "SETTINGS.PanSelect.SelectPlayersN": "Seleziona giocatori",
+  "SETTINGS.PanSelect.SelectPlayersH": "Seleziona i token controllati dai giocatori all'inizio del loro turno",
+  "SETTINGS.PanSelect.ObserverDeselectN": "Deseleziona token",
+  "SETTINGS.PanSelect.ObserverDeselectH": "Deseleziona i token durante il turno di un altro",
 
-	"SETTINGS.RerollInitiative.EnableN": "Переброс инициативы",
-	"SETTINGS.RerollInitiative.EnableH": "Инициатива участников боя будет переброшена в каждом раунде",
-	"SETTINGS.RerollInitiative.RerollTempCombatantsN": "Переброс инициативы временных участников",
-	"SETTINGS.RerollInitiative.RerollTempCombatantsH": "Инициатива временных участников боя будет переброшена в каждом раунде",
+  "SETTINGS.RerollInitiative.EnableN": "Rilancio iniziativa",
+  "SETTINGS.RerollInitiative.EnableH": "L'iniziativa dei combattenti verrà rilanciata a ogni round",
+  "SETTINGS.RerollInitiative.RerollTempCombatantsN": "Rilancia iniziativa per combattenti temporanei",
+  "SETTINGS.RerollInitiative.RerollTempCombatantsH": "L'iniziativa dei combattenti temporanei verrà rilanciata a ogni round",
 
-	"SETTINGS.TemporaryCombatants.EnableN": "Временные участники боя",
-	"SETTINGS.TemporaryCombatants.EnableH": "Позволяет создавать упрощённых временных участников боя в трекере боя",
+  "SETTINGS.TemporaryCombatants.EnableN": "Combattenti temporanei",
+  "SETTINGS.TemporaryCombatants.EnableH": "Permette di creare combattenti temporanei semplificati nel tracciatore di combattimento",
 
-	"SETTINGS.ActorUtility.InitiativeFromSheetN": "Включить бросок инициативы из листа",
-	"SETTINGS.ActorUtility.InitiativeFromSheetH": "Создаёт особую ссылку на заголовке инициативе в некоторых листах актёров",
+  "SETTINGS.ActorUtility.InitiativeFromSheetN": "Abilita tiro iniziativa dal foglio",
+  "SETTINGS.ActorUtility.InitiativeFromSheetH": "Crea un collegamento speciale sull’intestazione dell’iniziativa in alcuni fogli dell’attore",
 
-	"SETTINGS.TokenUtility.AutoRollHostileHpN": "Автоматически бросать ПЗ враждебных токенов",
-	"SETTINGS.TokenUtility.AutoRollHostileHpH": "При переносе враждебного токена на сцену, его ПЗ будет бросаться автоматически",
-	"SETTINGS.TokenUtility.HideAutoRollN": "Скрыть автоматические броски ПЗ",
-	"SETTINGS.TokenUtility.HideAutoRollH": "Если ПЗ враждебных токенов бросается автоматически, скрывать этот бросок от игроков",
-	"SETTINGS.TokenUtility.TokenEffectSizeN": "Размер иконок эффекта",
-	"SETTINGS.TokenUtility.TokenEffectSizeH": "Определяет размер иконки эффекта на токене. Число означает число иконок на сетке (X*Y). По умолчанию: 5x5",
+  "SETTINGS.TokenUtility.AutoRollHostileHpN": "Tira automaticamente i PF dei token ostili",
+  "SETTINGS.TokenUtility.AutoRollHostileHpH": "Quando un token ostile viene piazzato sulla scena, i suoi PF vengono tirati automaticamente",
+  "SETTINGS.TokenUtility.HideAutoRollN": "Nascondi i tiri automatici dei PF",
+  "SETTINGS.TokenUtility.HideAutoRollH": "Se i PF dei token ostili vengono tirati automaticamente, nascondi questo tiro ai giocatori",
+  "SETTINGS.TokenUtility.TokenEffectSizeN": "Dimensione icone effetti",
+  "SETTINGS.TokenUtility.TokenEffectSizeH": "Determina la dimensione delle icone effetti sul token. Il numero rappresenta il numero di icone sulla griglia (X*Y). Predefinito: 5x5",
 
-	"SETTINGS.Triggler.TriggersN": "Триггеры Triggler",
-	"SETTINGS.Triggler.TriggersH": "Хранит сохранённые триггеры Triggler",
+  "SETTINGS.Triggler.TriggersN": "Trigger di Triggler",
+  "SETTINGS.Triggler.TriggersH": "Contiene i trigger salvati di Triggler",
 
-	"WORDS.IUnderstand": "Я понимаю",
-	"WORDS.Import": "Импорт",
-	"WORDS.Export": "Экспорт",
-	"WORDS.Cancel": "Отмена",
-	"WORDS._Yes": " Да",
-	"WORDS._No": " Нет",
-	"WORDS.Yes": "Да",
-	"WORDS.No": "Нет",
-	"WORDS.None": "Нет",
-	"WORDS.GMOnly": "Только GM",
-	"WORDS.Everyone": "Все",
-	"WORDS.About": "О модуле",
-	"WORDS.OK": "ОК",
-	"CUB.WORDS.Save": "Сохранить",
-	"CUB.WORDS.Cancel": "Отмена",
-	"CUB.WORDS.Reset": "Сбросить",
-	"CUB.WORDS.Actor": "Актёр",
-	"CUB.WORDS.Token": "Токен",
-	"WORDS.Configuration": "Настройки"
+  "WORDS.IUnderstand": "Ho capito",
+  "WORDS.Import": "Importa",
+  "WORDS.Export": "Esporta",
+  "WORDS.Cancel": "Annulla",
+  "WORDS._Yes": " Sì",
+  "WORDS._No": " No",
+  "WORDS.Yes": "Sì",
+  "WORDS.No": "No",
+  "WORDS.None": "Nessuno",
+  "WORDS.GMOnly": "Solo GM",
+  "WORDS.Everyone": "Tutti",
+  "WORDS.About": "Informazioni sul modulo",
+  "WORDS.OK": "OK",
+  "CUB.WORDS.Save": "Salva",
+  "CUB.WORDS.Cancel": "Annulla",
+  "CUB.WORDS.Reset": "Reimposta",
+  "CUB.WORDS.Actor": "Attore",
+  "CUB.WORDS.Token": "Token",
+  "WORDS.Configuration": "Configurazione"
 }

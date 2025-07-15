@@ -1,6 +1,6 @@
 {
-	"EASYTGT.ReleaseBehaviour": "Поведение выбора",
-	"EASYTGT.ReleaseBehaviourHint": "Эта настройка определяет поведение при выборе нескольких целей. В 'Связанном' режиме вы можете выбирать цели без снятия предыдущих целей и должны кликнуть на токен снова, чтобы снять выбор. В 'Стандартном' режиме выбор автоматически снимается с токена при выборе новой цели.",
-	"EASYTGT.Standard": "Стандартный",
-	"EASYTGT.Sticky": "Связанный"
+  "EASYTGT.ReleaseBehaviour": "Comportamento di selezione",
+  "EASYTGT.ReleaseBehaviourHint": "Questa impostazione determina il comportamento durante la selezione di più bersagli. In modalità 'Persistente', puoi selezionare bersagli senza deselezionare quelli precedenti e devi cliccare nuovamente sul token per deselezionarlo. In modalità 'Standard', la selezione viene automaticamente rimossa dal token precedente quando ne selezioni uno nuovo.",
+  "EASYTGT.Standard": "Standard",
+  "EASYTGT.Sticky": "Persistente"
 }

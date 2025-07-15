@@ -1,135 +1,135 @@
 {
-	"dnd5e-system-customizer": {
-		"settings": {
-			"menu": {
-				"name": "Настройщик системы D&D 5e",
-				"label": "Настройщик системы D&D 5e",
-				"hint": "Настройте систему D&D 5e под вашу игру"
-			},
-			"enableAdvancedCustomization": {
-				"name": "Включить продвинутые настройки",
-				"hint": "Отображение продвинутых настроек"
-			},
-			"configKey": {
-				"name": "Ключ настройки",
-				"hint": "Ключ настройки вашей системы"
-			},
-			"jsonEditor": {
-				"name": "Настройка системы",
-				"label": "Редактор JSON",
-				"hint": "Открыть редактор JSON для вашей системы. Требуется включить продвинутые настройки.",
-				"warn": "Внимание! Не все системы поддерживают настройку таким способом. В случае ошибок, удалите настройку или сбросьте до настроек по умолчанию."
-			}
-		},
-		"CustomizerApp": {
-			"title": "Настройщик системы D&D 5e",
-			"save": "Сохранить изменения",
-			"hide": "Скрыть",
-			"delete": "Удалить",
-			"tabs": {
-				"abilities": {
-					"name": "Характеристики",
-					"hint": "Настройка характеристик",
-					"abilityName": "Название характеристики",
-					"abilityAbbreviation": "Сокращение",
-					"add": "Добавить характеристику"
-				},
-				"skills": {
-					"name": "Навыки",
-					"hint": "Настройка навыков",
-					"skillName": "Название навыка",
-					"skillAbbreviation": "Сокращение",
-					"skillAbility": "Характеристика",
-					"add": "Добавить навык"
-				},
-				"damageTypes": {
-					"name": "Типы урона",
-					"hint": "Настройка типов урона",
-					"damageName": "Название типа урона",
-					"damageAbbreviation": "Сокращение",
-					"add": "Добавить тип урона"
-				},
-				"creatureTypes": {
-					"name": "Типы существ",
-					"hint": "Настройка типов существ",
-					"creatureName": "Название типа существа",
-					"creatureAbbreviation": "Сокращение",
-					"add": "Добавить тип существа"
-				},
-				"languages": {
-					"name": "Языки",
-					"hint": "Настройка языков",
-					"languageName": "Название языка",
-					"languageAbbreviation": "Сокращение",
-					"add": "Добавить язык"
-				},
-				"hitDieTypes": {
-					"name": "Кости здоровья",
-					"hint": "Настройка типов костей здоровья",
-					"hitDieName": "Тип кости здоровья",
-					"add": "Добавить тип кости здоровья"
-				},
-				"itemRarity": {
-					"name": "Редкости предметов",
-					"hint": "Настройка редкостей предметов",
-					"itemRarityName": "Название редкости предмета",
-					"itemRarityAbbreviation": "Сокращение",
-					"add": "Добавить редкость предмета"
-				},
-				"spellLevels": {
-					"name": "Круги заклинаний",
-					"hint": "Настройка кругов заклинаний",
-					"spellLevelName": "Название круга заклинаний",
-					"spellLevelAbbreviation": "Номер круга заклинаний",
-					"add": "Добавить круг заклинаний"
-				},
-				"spellSchools": {
-					"name": "Школы заклинаний",
-					"hint": "Настройка школ заклинаний",
-					"spellSchoolName": "Название школы заклинаний",
-					"spellSchoolAbbreviation": "Сокращение",
-					"add": "Добавить школу заклинаний"
-				},
-				"classFeatureTypes": {
-					"name": "Типы особенностей классов",
-					"hint": "Настройка типов особенностей классов",
-					"classFeatureTypeName": "Название типа особенностей классов",
-					"classFeatureTypeAbbreviation": "Сокращение",
-					"add": "Добавить тип особенностей классов"
-				},
-				"currencies": {
-					"name": "Валюта",
-					"hint": "Настройка типов валюты",
-					"currency": "Валюта",
-					"currencyName": "Название",
-					"currencyAbbreviation": "Сокращение"
-				},
-				"misc": {
-					"name": "Другое",
-					"hint": "Настройка других элементов системы",
-					"maxLevel": "Максимальный уровень",
-					"initiativeAbility": "Характеристика инициативы",
-					"initiativeFormula": "Формула инициативы",
-					"initiativeFormulaNotes": "ВНИМАНИЕ: эта настройка перезаписывает основную функцию системы и может повлиять на работу других модулей.",
-					"hitPointsAbility": "Характеристика пунктов здоровья",
-					"castFromDescription": "Сотворение заклинаний по ссылкам",
-					"castFromDescriptionHint": "Позволяет использовать заклинания из ссылок в описаниях предметов, которыми владеет участник.",
-					"sharedInspiration": "Общее вдохновение",
-					"sharedInspirationHint": "Вдохновение станет общим ресурсом для всех игроков. ВНИМАНИЕ: эта настройка использует 'Ресурс 3' в бланке игроков и заменит любое значение, которое там уже имеется. Используйте команду чата '/inspiration' для выдачи вдохновения всем игрокам."
-				}
-			}
-		},
-		"json-editor-app": {
-			"title": "Настройка системы",
-			"resetTitle": "Сброс настроек",
-			"resetContent": "Вы уверены, что хотите сбросить настройки системы на стандартные? Это действие нельзя отменить."
-		},
-		"castFromDescription": {
-			"tooltip": "Сотворить заклинание"
-		},
-		"sharedInspiration": {
-			"awarded": "Все участники группы получили вдохновение!"
-		},
-		"noConfig": "System Customizerы: конфигурация для вашей системы не найдена. Возможно,  система не поддерживает изменения конфигурации или вам необходимо вручную ввести путь к конфигурации в настройках модуля. Если вы не знаете, как определить ключ конфигурации системы, обратитесь за помощью в канал системы в Discord."
-	}
+  "dnd5e-system-customizer": {
+    "settings": {
+      "menu": {
+        "name": "Personalizzatore sistema D&D 5e",
+        "label": "Personalizzatore sistema D&D 5e",
+        "hint": "Personalizza il sistema D&D 5e per la tua campagna"
+      },
+      "enableAdvancedCustomization": {
+        "name": "Abilita impostazioni avanzate",
+        "hint": "Visualizza le impostazioni avanzate"
+      },
+      "configKey": {
+        "name": "Chiave di configurazione",
+        "hint": "Chiave di configurazione del tuo sistema"
+      },
+      "jsonEditor": {
+        "name": "Configurazione sistema",
+        "label": "Editor JSON",
+        "hint": "Apri l'editor JSON per il tuo sistema. Richiede l’attivazione delle impostazioni avanzate.",
+        "warn": "Attenzione! Non tutti i sistemi supportano questa modalità di configurazione. In caso di errori, elimina o ripristina la configurazione predefinita."
+      }
+    },
+    "CustomizerApp": {
+      "title": "Personalizzatore sistema D&D 5e",
+      "save": "Salva modifiche",
+      "hide": "Nascondi",
+      "delete": "Elimina",
+      "tabs": {
+        "abilities": {
+          "name": "Caratteristiche",
+          "hint": "Configura le caratteristiche",
+          "abilityName": "Nome della caratteristica",
+          "abilityAbbreviation": "Abbreviazione",
+          "add": "Aggiungi caratteristica"
+        },
+        "skills": {
+          "name": "Abilità",
+          "hint": "Configura le abilità",
+          "skillName": "Nome dell’abilità",
+          "skillAbbreviation": "Abbreviazione",
+          "skillAbility": "Caratteristica",
+          "add": "Aggiungi abilità"
+        },
+        "damageTypes": {
+          "name": "Tipi di danno",
+          "hint": "Configura i tipi di danno",
+          "damageName": "Nome del tipo di danno",
+          "damageAbbreviation": "Abbreviazione",
+          "add": "Aggiungi tipo di danno"
+        },
+        "creatureTypes": {
+          "name": "Tipi di creatura",
+          "hint": "Configura i tipi di creatura",
+          "creatureName": "Nome del tipo di creatura",
+          "creatureAbbreviation": "Abbreviazione",
+          "add": "Aggiungi tipo di creatura"
+        },
+        "languages": {
+          "name": "Linguaggi",
+          "hint": "Configura i linguaggi",
+          "languageName": "Nome del linguaggio",
+          "languageAbbreviation": "Abbreviazione",
+          "add": "Aggiungi linguaggio"
+        },
+        "hitDieTypes": {
+          "name": "Dadi vita",
+          "hint": "Configura i tipi di dado vita",
+          "hitDieName": "Tipo di dado vita",
+          "add": "Aggiungi tipo di dado vita"
+        },
+        "itemRarity": {
+          "name": "Rarità oggetti",
+          "hint": "Configura le rarità degli oggetti",
+          "itemRarityName": "Nome della rarità",
+          "itemRarityAbbreviation": "Abbreviazione",
+          "add": "Aggiungi rarità"
+        },
+        "spellLevels": {
+          "name": "Livelli incantesimi",
+          "hint": "Configura i livelli degli incantesimi",
+          "spellLevelName": "Nome del livello incantesimo",
+          "spellLevelAbbreviation": "Numero del livello",
+          "add": "Aggiungi livello"
+        },
+        "spellSchools": {
+          "name": "Scuole di magia",
+          "hint": "Configura le scuole di magia",
+          "spellSchoolName": "Nome della scuola",
+          "spellSchoolAbbreviation": "Abbreviazione",
+          "add": "Aggiungi scuola"
+        },
+        "classFeatureTypes": {
+          "name": "Tipi di tratti di classe",
+          "hint": "Configura i tipi di tratti di classe",
+          "classFeatureTypeName": "Nome del tipo di tratto di classe",
+          "classFeatureTypeAbbreviation": "Abbreviazione",
+          "add": "Aggiungi tipo di tratto"
+        },
+        "currencies": {
+          "name": "Valute",
+          "hint": "Configura le valute",
+          "currency": "Valuta",
+          "currencyName": "Nome",
+          "currencyAbbreviation": "Abbreviazione"
+        },
+        "misc": {
+          "name": "Varie",
+          "hint": "Configura altri elementi del sistema",
+          "maxLevel": "Livello massimo",
+          "initiativeAbility": "Caratteristica per l’iniziativa",
+          "initiativeFormula": "Formula per l’iniziativa",
+          "initiativeFormulaNotes": "ATTENZIONE: questa impostazione sovrascrive la funzione principale del sistema e può interferire con altri moduli.",
+          "hitPointsAbility": "Caratteristica punti ferita",
+          "castFromDescription": "Lanciare incantesimi dalle descrizioni",
+          "castFromDescriptionHint": "Permette di usare incantesimi presenti nei link delle descrizioni degli oggetti posseduti dal personaggio.",
+          "sharedInspiration": "Ispirazione condivisa",
+          "sharedInspirationHint": "L’ispirazione diventa una risorsa comune per tutti i giocatori. ATTENZIONE: questa impostazione usa la 'Risorsa 3' sulla scheda dei giocatori e sovrascriverà eventuali dati già presenti. Usa il comando chat '/inspiration' per assegnare ispirazione a tutti i giocatori."
+        }
+      }
+    },
+    "json-editor-app": {
+      "title": "Configurazione sistema",
+      "resetTitle": "Ripristina impostazioni",
+      "resetContent": "Sei sicuro di voler ripristinare le impostazioni di sistema predefinite? Questa azione è irreversibile."
+    },
+    "castFromDescription": {
+      "tooltip": "Lancia incantesimo"
+    },
+    "sharedInspiration": {
+      "awarded": "Tutti i membri del gruppo hanno ricevuto ispirazione!"
+    },
+    "noConfig": "System Customizer: configurazione non trovata per il tuo sistema. Potrebbe non supportare modifiche oppure è necessario inserire manualmente il percorso della configurazione nelle impostazioni del modulo. Se non sai come individuare la chiave, chiedi aiuto nel canale Discord del sistema."
+  }
 }
