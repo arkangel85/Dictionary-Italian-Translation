@@ -1,44 +1,44 @@
 {
-	"settings.debug.title": "Отладка (клиентская настройка)",
-	"settings.debug.hint": "Отладочная информация в консоли.",
+  "settings.debug.title": "Debug (impostazione client)",
+  "settings.debug.hint": "Informazioni di debug nella console.",
 
-	"settings.defaultmacro.title": "Переопределить выполнение макроса по умолчанию",
-	"settings.defaultmacro.hint": "Включение этой опции позволит проверять, есть ли у предмета макрос, и выполнять его вместо стандартной системной активации.",
+  "settings.defaultmacro.title": "Sovrascrivi esecuzione macro predefinita",
+  "settings.defaultmacro.hint": "Abilitando questa opzione verrà controllato se l’oggetto ha una macro e, in caso positivo, verrà eseguita al posto dell’attivazione di sistema standard.",
 
-	"settings.sheethook.title": "Хук бланка персонажа",
-	"settings.sheethook.hint": "Включение этой опции позволит выполнять макросы предметов из бланка персонажа.",
+  "settings.sheethook.title": "Hook della scheda del personaggio",
+  "settings.sheethook.hint": "Abilitando questa opzione si potranno eseguire le macro degli oggetti dalla scheda del personaggio.",
 
-	"settings.charsheet.title": "Хук бланка персонажа",
-	"settings.charsheet.hint": "Включение этой опции позволит выполнять макросы предметов из бланка персонажа.",
+  "settings.charsheet.title": "Hook della scheda del personaggio",
+  "settings.charsheet.hint": "Abilitando questa opzione si potranno eseguire le macro degli oggetti dalla scheda del personaggio.",
 
-	"settings.visibilty.title": "Доступ для игроков",
-	"settings.visibilty.hint": "Включение этой опции позволит игрокам просматривать и редактировать макросы на предметах, которыми они владеют.",
+  "settings.visibilty.title": "Accesso per i giocatori",
+  "settings.visibilty.hint": "Abilitando questa opzione i giocatori potranno visualizzare e modificare le macro sugli oggetti che possiedono.",
 
-	"settings.icon.title": "Отображать только иконку",
-	"settings.icon.hint": "Вместо кнопки в бланке предмета будет использоваться иконка.",
+  "settings.icon.title": "Mostra solo l’icona",
+  "settings.icon.hint": "Verrà usata un’icona invece del pulsante nella scheda dell’oggetto.",
 
-	"settings.click.title": "Переопределение правого клика (клиентская настройка)",
-	"settings.click.hint": "Включение этой опции заставит Item Macro (только для хуков бланка) выполняться по правому клику.",
+  "settings.click.title": "Sovrascrivi clic destro (impostazione client)",
+  "settings.click.hint": "Abilitando questa opzione, Item Macro (solo per gli hook delle schede) verrà eseguito al clic destro.",
 
-	"buttons.saveMacro": "Сохранить макрос",
-	"buttons.executeMacro": "Выполнить макрос",
+  "buttons.saveMacro": "Salva macro",
+  "buttons.executeMacro": "Esegui macro",
 
-	"context.label": "Обновить макросы предметов мира",
-	"context.confirm.title": "Запрос на перезапись макроса предмета",
-	"context.confirm.content": "Вы уверены, что хотите перезаписать все макросы предметов на ",
-	"context.prompt.title": "Информация о перезаписи макроса предмета",
-	"context.prompt.content": "Перезапись макроса предмета завершена",
+  "context.label": "Aggiorna le macro degli oggetti del mondo",
+  "context.confirm.title": "Richiesta di sovrascrizione della macro dell’oggetto",
+  "context.confirm.content": "Sei sicuro di voler sovrascrivere tutte le macro degli oggetti in ",
+  "context.prompt.title": "Informazione sulla sovrascrizione della macro dell’oggetto",
+  "context.prompt.content": "Sovrascrizione della macro dell’oggetto completata",
 
-	"error.editImage": "Вы не можете редактировать иконку для этого макроса.",
-	"error.macroExecution": "В синтаксисе вашего макроса  обнаружена ошибка. Смотрите консоль (F12) для подробностей",
+  "error.editImage": "Non puoi modificare l’icona per questa macro.",
+  "error.macroExecution": "È stato rilevato un errore nella sintassi della tua macro. Consulta la console (F12) per i dettagli",
 
-	"warning.systemNotSupported": "Система {system} не поддерживается Item Macro. Макросы всё ещё можно добавлять к предметам, но вам придётся запускать их из конфигурации Item Macro или программно.",
+  "warning.systemNotSupported": "Il sistema {system} non è supportato da Item Macro. È comunque possibile aggiungere macro agli oggetti, ma dovranno essere eseguite dalla configurazione di Item Macro o tramite codice.",
 
-	"itemacro.dnd5e.v9deprecation": "ITEM MACRO: Функциональность панели быстрого доступа отключена для v9.",
-	"itemacro.dnd5e.systemDeprecationv4": "ITEM MACRO: Новые версии модуля больше не поддерживают DND5e ниже 4.0.0. Пожалуйста, обновите вашу систему или установите Item Macro v2.0.1.",
-	"itemacro.dnd5e.skipItemMacroDeprecation": "ITEM MACRO: Начиная с DND5e 4.0.0 использование предметов изменилось, и предыдущие решения больше не работают. Вы больше не можете использовать `item.use({}, {skipItemMacro: true});` и должны использовать `item.use({skipItemMacro: true, legacy: false});` вместо этого.",
-	"itemacro.dnd5e.useFunctionWarning": "ITEM MACRO: пустое использование `item.use()` больше не поддерживается в Item Macro. Верните `true` в макросе, чтобы вернуться к системному методу использования, или передайте `{skipItemMacro: true, legacy: false}` в качестве первого параметра.",
+  "itemacro.dnd5e.v9deprecation": "ITEM MACRO: la funzionalità della barra rapida è disattivata per v9.",
+  "itemacro.dnd5e.systemDeprecationv4": "ITEM MACRO: le nuove versioni del modulo non supportano più DND5e sotto la versione 4.0.0. Aggiorna il tuo sistema o installa Item Macro v2.0.1.",
+  "itemacro.dnd5e.skipItemMacroDeprecation": "ITEM MACRO: a partire da DND5e 4.0.0, l’uso degli oggetti è cambiato e le soluzioni precedenti non funzionano più. Non puoi più usare `item.use({}, {skipItemMacro: true});` e devi usare `item.use({skipItemMacro: true, legacy: false});` al suo posto.",
+  "itemacro.dnd5e.useFunctionWarning": "ITEM MACRO: l’uso vuoto di `item.use()` non è più supportato in Item Macro. Restituisci `true` nella macro per tornare al metodo di utilizzo standard, oppure passa `{skipItemMacro: true, legacy: false}` come primo parametro.",
 
-	"itemacro.dnd5e.defaultmacro.title": "Переопределить хук `preUseItem`",
-	"itemacro.dnd5e.defaultmacro.hint": "Включение этой опции позволит Item Macro запускать макрос предмета вместо использования предмета по умолчанию. Верните `true` или вызовите `item.use({skipItemMacro: true, legacy: false});` для выполнения использования предмета по умолчанию из макроса предмета."
+  "itemacro.dnd5e.defaultmacro.title": "Sovrascrivi hook `preUseItem`",
+  "itemacro.dnd5e.defaultmacro.hint": "Abilitando questa opzione, Item Macro eseguirà la macro dell’oggetto invece dell’uso predefinito. Restituisci `true` o chiama `item.use({skipItemMacro: true, legacy: false});` per eseguire l’utilizzo standard dell’oggetto dalla macro."
 }

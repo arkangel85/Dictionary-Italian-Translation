@@ -1,54 +1,54 @@
 {
-	"healthMonitor": {
-		"settings": {
-			"useTokenName": {
-				"name": "Использовать имя токена",
-				"hint": "Для несвязанных токенов будет использоваться его имя. Для связанных токенов будет использоваться имя прототипа токена."
-			},
-			"hideNPCs": {
-				"name": "Скрывать лог ПЗ NPC от игроков",
-				"hint": "Пользователи с правами Мастера могут показывать сообщения в чате используя контекстное меню"
-			},
-			"hideNPCname": {
-				"name": "Скрывать имена NPC",
-				"hint": "Заменять имя NPC текстом ниже."
-			},
-			"replacementName": {
-				"name": "Заменяемое имя NPC",
-				"hint": "Если опция выше включена, имя NPC будет заменено на введённое в этом поле."
-			},
-			"showGMonly": {
-				"name": "Показывать сообщения о здоровье только игрокам с правами Мастера",
-				"hint": "Сообщения в чате могут быть показаны игрокам через контекстное меню."
-			},
-			"showToggle": {
-				"name": "Показывать переключатель Health Monitor",
-				"hint": "Показывать переключатель Health Monitor на панели инструментов токена. Кнопку могут видеть только пользователи с правами Мастера."
-			},
-			"showRes": {
-				"name": "Показывать иммунитет, сопротивление и уязвимость к урону",
-				"hint": "Для автоматизации нанесения урона требуются другие модули."
-			},
-			"trackMax": {
-				"name": "Показывать изменения макс. ПЗ / временного макс. ПЗ"
-			},
-			"trashIcon": {
-				"name": "Включить иконку корзины для удаления сообщений Health Monitor в чате"
-			}
-		},
-		"control": {
-			"title": "Переключить Health Monitor"
-		},
-		"chatMessage": {
-			"heals": "излечивает",
-			"takes": "получает",
-			"damage": "урона",
-			"gains": "добавляет",
-			"loses": "теряет",
-			"maxHP": "макс. ПЗ",
-			"Immunity": "Иммунитет",
-			"Resistance": "Сопротивление",
-			"Vulnerability": "Уязвимость"
-		}
-	}
+  "healthMonitor": {
+    "settings": {
+      "useTokenName": {
+        "name": "Usa il nome del token",
+        "hint": "Per i token non associati verrà usato il loro nome. Per quelli associati, verrà usato il nome del prototipo."
+      },
+      "hideNPCs": {
+        "name": "Nascondi il log dei PF degli NPC ai giocatori",
+        "hint": "Gli utenti con ruolo di Master possono mostrare i messaggi in chat tramite il menu contestuale."
+      },
+      "hideNPCname": {
+        "name": "Nascondi i nomi degli NPC",
+        "hint": "Sostituisce il nome dell’NPC con il testo indicato qui sotto."
+      },
+      "replacementName": {
+        "name": "Nome sostitutivo per NPC",
+        "hint": "Se l'opzione sopra è attiva, il nome dell’NPC sarà sostituito con questo valore."
+      },
+      "showGMonly": {
+        "name": "Mostra i messaggi sulla salute solo ai Master",
+        "hint": "I messaggi in chat possono essere mostrati ai giocatori tramite il menu contestuale."
+      },
+      "showToggle": {
+        "name": "Mostra l’interruttore Health Monitor",
+        "hint": "Visualizza l’interruttore Health Monitor nella barra degli strumenti del token. Solo i Master lo possono vedere."
+      },
+      "showRes": {
+        "name": "Mostra immunità, resistenze e vulnerabilità",
+        "hint": "Per automatizzare il danno sono richiesti altri moduli."
+      },
+      "trackMax": {
+        "name": "Mostra variazioni dei PF massimi / PF temporanei massimi"
+      },
+      "trashIcon": {
+        "name": "Abilita l’icona del cestino per rimuovere i messaggi di Health Monitor dalla chat"
+      }
+    },
+    "control": {
+      "title": "Attiva/Disattiva Health Monitor"
+    },
+    "chatMessage": {
+      "heals": "cura",
+      "takes": "subisce",
+      "damage": "danni",
+      "gains": "ottiene",
+      "loses": "perde",
+      "maxHP": "PF max",
+      "Immunity": "Immunità",
+      "Resistance": "Resistenza",
+      "Vulnerability": "Vulnerabilità"
+    }
+  }
 }

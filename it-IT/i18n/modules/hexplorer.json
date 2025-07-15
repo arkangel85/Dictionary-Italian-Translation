@@ -1,172 +1,172 @@
 {
-	"hexplorer": {
-		"request": {
-			"explore": "Исследовать",
-			"reveal": "Раскрыть",
-			"advance-time": "Продвинуть время",
-			"total-time": "Общее время",
-			"roll-tables": "Бросить по таблице",
-			"move": "Переместиться",
-			"journal-entry": "Раскрыть страницу",
-			"not-in-scene": "Hexplorer: Вы должны находиться в той же сцене, что и запрашиваемое перемещение, чтобы подтвердить его.",
-			"player-message": "Запрос на перемещение отправлен ведущему."
-		},
-		"fog": {
-			"showColor": "Переключить отображение цветов ячеек в раскрытых ячейках"
-		},
-		"scene": {
-			"enable": {
-				"name": "Включить Hexplorer"
-			}
-		},
-		"token": {
-			"enable": {
-				"name": "Является Hexplorer?"
-			},
-			"revealRadius": {
-				"name": "Радиус раскрытия",
-				"hint": "Радиус раскрываемой области в гексах. 0 означает, что раскрывается только гекс, на котором находится токен."
-			},
-			"speed": {
-				"name": "Скорость",
-				"hint": "Скорость перемещения токена Hexplorer в единицах сцены в час. Используется для расчета продвижения времени."
-			}
-		},
-		"settings": {
-			"hexTime": {
-				"name": "Анимация перемещения",
-				"hint": "Время анимации в миллисекундах для перемещения на одну ячейку."
-			},
-			"autoTriggerExplore": {
-				"name": "Автоматически запускать действие исследования",
-				"hint": "Автоматически запускать действия исследования, когда токен перемещается в ячейку. Если ваша система требует ручного действия от игроков для исследования ячейки, это можно отключить."
-			}
-		},
-		"hexplorer-app": {
-			"title": "Hexplorer",
-			"brushes": {
-				"legend": "Кисти",
-				"radius": "Радиус кисти",
-				"hint": "Нажмите на ячейку на сцене, чтобы настроить её и/или сохранить как кисть. Нажимайте на ячейки с выбранной кистью, чтобы раскрашивать ячейки вместо их настройки.",
-				"apply": {
-					"title": "Применить кисть",
-					"sameColor": "Тот же цвет",
-					"sameColorHint": "Применить кисть ко всем ячейкам с тем же цветом",
-					"sameName": "То же название",
-					"sameNameHint": "Применить кисть ко всем ячейкам с тем же названием региона",
-					"tooltip": "Применить кисть",
-					"notification": "Кисть применена к {count} ячейкам."
-				}
-			},
-			"settings": {
-				"legend": "Настройки",
-				"show-color": {
-					"label": "Отображать цвета ячеек в раскрытых ячейках"
-				}
-			},
-			"reset-fow": {
-				"label": "Сбросить раскрытые ячейки",
-				"title": "Сбросить раскрытые ячейки?",
-				"content": "Вы уверены, что хотите сбросить раскрытые ячейки? Это действие нельзя отменить."
-			}
-		},
-		"cell-config": {
-			"title": "Настроить ячейку",
-			"tabs": {
-				"basic": {
-					"label": "Основное"
-				},
-				"activities": {
-					"label": "Действия"
-				},
-				"discover-activities": {
-					"label": "Действия исследования",
-					"hint": "Эти действия будут выполнены, когда Hexplorer проходит через ячейку или заканчивает в ней своё движение. Некоторые действия могут быть выполнены только при первом перемещении Hexplorer в ячейку."
-				},
-				"explore-activities": {
-					"label": "Действия раскрытия",
-					"hint": "Эти действия будут выполнены, когда ячейка впервые раскрывается."
-				}
-			},
-			"revealed": {
-				"label": "Раскрыта",
-				"hint": "Раскрытая ячейка будет видна игрокам."
-			},
-			"revealRadius": {
-				"label": "Радиус раскрытия",
-				"hint": "Радиус раскрытия вокруг этой ячейки при её раскрытии. Значение 0 или больше переопределит настройку токена Hexplorer."
-			},
-			"discovered": {
-				"label": "Исследована",
-				"hint": "Исследованная ячейка была пройдена токеном Hexplorer."
-			},
-			"execute-only-on-explore": {
-				"label": "Выполнять только при исследовании",
-				"hint": "Выполнять действия ячейки только если ячейка ранее не была исследована."
-			},
-			"first-time-only": {
-				"label": "Только в первый раз",
-				"hint": "Выполнять указанное действие только при первом перемещении Hexplorer в эту ячейку."
-			},
-			"reveal-tooltip": {
-				"label": "Раскрыть подсказку",
-				"hint": "Дать игрокам разрешение наблюдателя для страницы журнала, связанной с подсказкой."
-			},
-			"reveal-journal-entry": {
-				"label": "Раскрыть запись журнала",
-				"hint": "Разрешить игрокам открывать запись журнала, связанную с этой ячейкой, во вкладке Основное."
-			},
-			"reveal-map-notes": {
-				"label": "Раскрыть заметки карты",
-				"hint": "Дать игрокам разрешение наблюдателя для всех заметок карты сцены, находящихся в этой ячейке."
-			},
-			"color": {
-				"label": "Цвет"
-			},
-			"region": {
-				"label": "Регион"
-			},
-			"reveal": {
-				"label": "Раскрыть ячейки",
-				"hint": "Список ячеек для раскрытия, разделенных запятыми. Shift + ЛКМ на сцене, чтобы добавить ячейки.",
-				"notification": "Ячейка добавлена в список раскрытия."
-			},
-			"remove-hidden": {
-				"label": "Удалить скрытый статус",
-				"hint": "Документы, с которых нужно снять статус скрытия при выполнении этого действия. Могут быть источники света, тайлы, звуки, токены и т.д."
-			},
-			"macros": {
-				"label": "Макросы",
-				"hint": "Макросы для выполнения при выполнении этого действия."
-			},
-			"speed-multiplier": {
-				"label": "Множитель скорости"
-			},
-			"roll-tables": {
-				"label": "Таблицы бросков",
-				"hint": "Таблицы бросков для использования при входе или прохождении через ячейку."
-			},
-			"tooltip": {
-				"label": "Подсказка"
-			},
-			"journal-entry": {
-				"label": "Запись журнала",
-				"hint": "Запись журнала для открытия по клику."
-			},
-			"brush-name": {
-				"label": "Название кисти"
-			},
-			"save-as-brush": {
-				"label": "Сохранить как кисть"
-			},
-			"discover-button": {
-				"label": "Запустить действие исследования",
-				"no-token": "Токен Hexplorer не найден."
-			}
-		},
-		"flags": {},
-		"err": {
-			"gridless": "Hexplorer несовместим со сценами без сетки. Пожалуйста, выберите тип сетки."
-		}
-	}
+  "hexplorer": {
+    "request": {
+      "explore": "Esplora",
+      "reveal": "Rivela",
+      "advance-time": "Avanza il tempo",
+      "total-time": "Tempo totale",
+      "roll-tables": "Lancia tabella",
+      "move": "Spostati",
+      "journal-entry": "Apri la pagina",
+      "not-in-scene": "Hexplorer: Devi trovarti nella stessa scena dello spostamento richiesto per poterlo confermare.",
+      "player-message": "Richiesta di spostamento inviata al GM."
+    },
+    "fog": {
+      "showColor": "Attiva/disattiva visualizzazione dei colori nelle celle rivelate"
+    },
+    "scene": {
+      "enable": {
+        "name": "Abilita Hexplorer"
+      }
+    },
+    "token": {
+      "enable": {
+        "name": "È un Hexplorer?"
+      },
+      "revealRadius": {
+        "name": "Raggio di rivelazione",
+        "hint": "Il raggio (in esagoni) dell’area rivelata. 0 significa solo la cella su cui si trova il token."
+      },
+      "speed": {
+        "name": "Velocità",
+        "hint": "Velocità di movimento del token Hexplorer in unità di scena all’ora. Utilizzata per calcolare il tempo trascorso."
+      }
+    },
+    "settings": {
+      "hexTime": {
+        "name": "Animazione movimento",
+        "hint": "Durata dell’animazione in millisecondi per lo spostamento di una cella."
+      },
+      "autoTriggerExplore": {
+        "name": "Attiva automaticamente l’esplorazione",
+        "hint": "Attiva l’esplorazione automatica quando un token entra in una cella. Disattivare se la tua ambientazione richiede un’azione manuale."
+      }
+    },
+    "hexplorer-app": {
+      "title": "Hexplorer",
+      "brushes": {
+        "legend": "Pennelli",
+        "radius": "Raggio pennello",
+        "hint": "Fai clic su una cella della scena per configurarla e/o salvarla come pennello. Clicca con un pennello selezionato per applicarlo anziché modificare la cella.",
+        "apply": {
+          "title": "Applica pennello",
+          "sameColor": "Stesso colore",
+          "sameColorHint": "Applica a tutte le celle con lo stesso colore",
+          "sameName": "Stesso nome",
+          "sameNameHint": "Applica a tutte le celle con lo stesso nome di regione",
+          "tooltip": "Applica pennello",
+          "notification": "Pennello applicato a {count} celle."
+        }
+      },
+      "settings": {
+        "legend": "Impostazioni",
+        "show-color": {
+          "label": "Mostra colori nelle celle rivelate"
+        }
+      },
+      "reset-fow": {
+        "label": "Resetta celle rivelate",
+        "title": "Resettare le celle rivelate?",
+        "content": "Sei sicuro di voler resettare le celle rivelate? L’azione non può essere annullata."
+      }
+    },
+    "cell-config": {
+      "title": "Configura cella",
+      "tabs": {
+        "basic": {
+          "label": "Base"
+        },
+        "activities": {
+          "label": "Azioni"
+        },
+        "discover-activities": {
+          "label": "Azioni di esplorazione",
+          "hint": "Eseguite quando Hexplorer attraversa o finisce il suo movimento in questa cella. Alcune azioni si attivano solo al primo ingresso."
+        },
+        "explore-activities": {
+          "label": "Azioni di rivelazione",
+          "hint": "Eseguite quando la cella viene rivelata per la prima volta."
+        }
+      },
+      "revealed": {
+        "label": "Rivelata",
+        "hint": "Se attiva, la cella sarà visibile ai giocatori."
+      },
+      "revealRadius": {
+        "label": "Raggio di rivelazione",
+        "hint": "Raggio di rivelazione da questa cella. Un valore 0 o superiore sovrascrive il valore del token."
+      },
+      "discovered": {
+        "label": "Esplorata",
+        "hint": "La cella è stata attraversata da un token Hexplorer."
+      },
+      "execute-only-on-explore": {
+        "label": "Esegui solo alla prima esplorazione",
+        "hint": "Esegui azioni della cella solo se non è mai stata esplorata prima."
+      },
+      "first-time-only": {
+        "label": "Solo alla prima volta",
+        "hint": "Esegui l’azione solo al primo ingresso di un Hexplorer in questa cella."
+      },
+      "reveal-tooltip": {
+        "label": "Rivela suggerimento",
+        "hint": "Concede ai giocatori il permesso di osservatore alla voce di diario collegata al suggerimento."
+      },
+      "reveal-journal-entry": {
+        "label": "Rivela voce di diario",
+        "hint": "Permette ai giocatori di aprire la voce di diario collegata nella scheda Base."
+      },
+      "reveal-map-notes": {
+        "label": "Rivela note mappa",
+        "hint": "Concede permessi di osservatore per tutte le note mappa nella cella."
+      },
+      "color": {
+        "label": "Colore"
+      },
+      "region": {
+        "label": "Regione"
+      },
+      "reveal": {
+        "label": "Celle da rivelare",
+        "hint": "Elenco di celle da rivelare, separate da virgole. Shift + clic nella scena per aggiungerle.",
+        "notification": "Cella aggiunta all’elenco di rivelazione."
+      },
+      "remove-hidden": {
+        "label": "Rimuovi stato nascosto",
+        "hint": "Oggetti (luci, suoni, token...) da rendere visibili durante questa azione."
+      },
+      "macros": {
+        "label": "Macro",
+        "hint": "Macro da eseguire durante l’azione."
+      },
+      "speed-multiplier": {
+        "label": "Moltiplicatore velocità"
+      },
+      "roll-tables": {
+        "label": "Tabelle di tiro",
+        "hint": "Tabelle da usare quando si entra o si attraversa la cella."
+      },
+      "tooltip": {
+        "label": "Suggerimento"
+      },
+      "journal-entry": {
+        "label": "Voce di diario",
+        "hint": "Voce da aprire al clic."
+      },
+      "brush-name": {
+        "label": "Nome pennello"
+      },
+      "save-as-brush": {
+        "label": "Salva come pennello"
+      },
+      "discover-button": {
+        "label": "Avvia azione di esplorazione",
+        "no-token": "Token Hexplorer non trovato."
+      }
+    },
+    "flags": {},
+    "err": {
+      "gridless": "Hexplorer non è compatibile con scene senza griglia. Seleziona un tipo di griglia."
+    }
+  }
 }
