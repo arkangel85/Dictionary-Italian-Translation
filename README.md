@@ -78,145 +78,161 @@
 </ul>
 
 <h3>Moduli</h3>
-<ul>
-<li><a href="">3D Portraits</a></li>
-<li><a href="https://foundryvtt.com/packages/about-face">About Face</a></li>
-<li><a href="https://foundryvtt.com/packages/about-time">About Time</a></li>
-<li><a href="https://foundryvtt.com/packages/action-pack">Action Pack</a></li>
-<li><a href="https://foundryvtt.com/packages/ActiveAuras">Active Auras</a></li>
-<li><a href="https://foundryvtt.com/packages/adventure-import-export">Adventure Importer / Exporter</a></li>
-<li><a href="https://foundryvtt.com/packages/aime">Adventures in Middle-Earth</a></li>
-<li><a href="">Alien RPG - Motion Tracker</a></li>
-<li><a href="">ALIEN RPG Core Rulebook</a></li>
-<li><a href="">Always Hp</a></li>
-<li><a href="">Anonymous</a></li>
-<li><a href="">Arbron's Improved HP Bar</a></li>
-<li><a href="">Argon - Combat HUD (Core)</a></li>
-<li><a href="">Argon - Combat HUD (DND5E)</a></li>
-<li><a href="">Argon - Combat HUD (Dragonbane)</a></li>
-<li><a href="https://foundryvtt.com/packages/autoanimations">Automated Animations</a></li>
-<li><a href="">Babele</a></li>
-<li><a href="">Baileywiki Mass Edit</a></li>
-<li><a href="">Better Rolltables</a></li>
-<li><a href="">Better Roofs</a></li>
-<li><a href="">BG3 Inspired HUD</a></li>
-<li><a href="">Blades in the Dark Alternate Sheets</a></li>
-<li><a href="">Boss Bar</a></li>
-<li><a href="">Card Hand Mini Toolbar</a></li>
-<li><a href="">Card Hands List</a></li>
-<li><a href="">Carousel Combat Tracker</a></li>
-<li><a href="">Chat Portrait</a></li>
-<li><a href="">Combat Booster</a></li>
-<li><a href="">Combat Carousel</a></li>
-<li><a href="">Combat Utility Belt</a></li>
-<li><a href="">Compact Scene Navigation</a></li>
-<li><a href="">Compendium Browser</a></li>
-<li><a href="">Compendium Folders</a></li>
-<li><a href="">Complete Card Management</a></li>
-<li><a href="">Custom D&amp;D 5e</a></li>
-<li><a href="">Damage Log</a></li>
-<li><a href="">DF Active Lights</a></li>
-<li><a href="">DF Curvy Walls</a></li>
-<li><a href="">DF Quality of Life</a></li>
-<li><a href="">DF Scene Enhancement</a></li>
-<li><a href="">DF Settings Clarity</a></li>
-<li><a href="">DFreds Convenient Effects</a></li>
-<li><a href="">Dice So Nice!</a></li>
-<li><a href="">Dice Tray</a></li>
-<li><a href="">Drag Ruler</a></li>
-<li><a href="">Dragonbane - Item Browser</a></li>
-<li><a href="">Dungeon Draw</a></li>
-<li><a href="">Dynamic Active Effects</a></li>
-<li><a href="">Easy Target</a></li>
-<li><a href="">Fog Manager</a></li>
-<li><a href="">Forien's Copy Environment</a></li>
-<li><a href="">Forien's Quest Log</a></li>
-<li><a href="">Forien's Scene Navigator</a></li>
-<li><a href="">Foundry Achievements</a></li>
-<li><a href="">FX Master</a></li>
-<li><a href="">Gatherer</a></li>
-<li><a href="">Health Estimate</a></li>
-<li><a href="">Health Monitor</a></li>
-<li><a href="">Hexplorer</a></li>
-<li><a href="">Hot Pan &amp; Zoom!</a></li>
-<li><a href="">Illandril's Hotbar Uses</a></li>
-<li><a href="">Innocenti Open Lock Hp</a></li>
-<li><a href="">Innocenti's Loot</a></li>
-<li><a href="">Item Collection</a></li>
-<li><a href="">Item Macro</a></li>
-<li><a href="">Lancer Initiative</a></li>
-<li><a href="">Let Me Roll That For You</a></li>
-<li><a href="">Levels</a></li>
-<li><a href="">lib - ColorSettings</a></li>
-<li><a href="">Lord of the Rings Roleplaying</a></li>
-<li><a href="">Masks: A New Generation</a></li>
-<li><a href="">Mastercrafted</a></li>
-<li><a href="">Merchant Sheet NPC</a></li>
-<li><a href="">Metric System for D&amp;D5e</a></li>
-<li><a href="">Midi Quality of Life Improvements</a></li>
-<li><a href="">Minimal UI</a></li>
-<li><a href="">Monarch | Foundry Virtual Tabletop</a></li>
-<li><a href="">Monk's Active Tile Triggers</a></li>
-<li><a href="">Monk's Bloodsplats</a></li>
-<li><a href="">Monk's Combat Details</a></li>
-<li><a href="">Monk's Combat Marker</a></li>
-<li><a href="">Monk's Hotbar Expansion</a></li>
-<li><a href="">Monk's Scene Navigation</a></li>
-<li><a href="">Monk's TokenBar</a></li>
-<li><a href="">Monk's Wall Enhancement</a></li>
-<li><a href="">Multilevel Tokens</a></li>
-<li><a href="">Paper Doll</a></li>
-<li><a href="">Party HUD</a></li>
-<li><a href="">Party Resources</a></li>
-<li><a href="">Patrol</a></li>
-<li><a href="">Perfect Vision</a></li>
-<li><a href="">Pin Cushion</a></li>
-<li><a href="">Pings</a></li>
-<li><a href="">PnP - Pointer and Pings</a></li>
-<li><a href="">PnP - Pointer and Pings</a></li>
-<li><a href="">Polyglot</a></li>
-<li><a href="">PopOut!</a></li>
-<li><a href="">Portal</a></li>
-<li><a href="">Quick Insert - Search Widget</a></li>
-<li><a href="">Raise My Hand</a></li>
-<li><a href="">Rarity Colors</a></li>
-<li><a href="">Ready Set Roll for D&amp;D5e</a></li>
-<li><a href="">Rideable</a></li>
-<li><a href="">Sequencer</a></li>
-<li><a href="">Shared Vision</a></li>
-<li><a href="">Simple Calendar</a></li>
-<li><a href="">Simple Dice Roller</a></li>
-<li><a href="">Simple Quest</a></li>
-<li><a href="">Simple Weather</a></li>
-<li><a href="">Smart Target</a></li>
-<li><a href="">Splatter</a></li>
-<li><a href="">Storyteller</a></li>
-<li><a href="">Swade Tools</a></li>
-<li><a href="">Symbaroum Core Rulebook</a></li>
-<li><a href="">Terrain Height Tools</a></li>
-<li><a href="">Terrain Ruler</a></li>
-<li><a href="">Tidbits</a></li>
-<li><a href="">Tidy UI Game Settings</a></li>
-<li><a href="">Tidy5e Sheet</a></li>
-<li><a href="">Tile Scroll</a></li>
-<li><a href="">Times Up</a></li>
-<li><a href="">Token Action HUD Core</a></li>
-<li><a href="">Token Action HUD D&amp;D 5e</a></li>
-<li><a href="">Token Attacher</a></li>
-<li><a href="">Token Auras</a></li>
-<li><a href="">Token Flip</a></li>
-<li><a href="">Token HUD Wildcard</a></li>
-<li><a href="">Token Magic FX</a></li>
-<li><a href="">Token Mold</a></li>
-<li><a href="">Token Notes</a></li>
-<li><a href="">Turn Marker</a></li>
-<li><a href="">Vision 5e</a></li>
-<li><a href="">Wall Height</a></li>
-<li><a href="">Warhammer Library</a></li>
-<li><a href="">Weather Blocker</a></li>
-<li><a href="">Weather FX</a></li>
-<li><a href="">Year Zero Engine: Combat</a></li>
-</ul>
+
+<table>
+  <tr>
+    <td>
+
+- [3D Portraits](#)  
+- [About Face](https://foundryvtt.com/packages/about-face)  
+- [About Time](https://foundryvtt.com/packages/about-time)  
+- [Action Pack](https://foundryvtt.com/packages/action-pack)  
+- [Active Auras](https://foundryvtt.com/packages/ActiveAuras)  
+- [Adventure Importer / Exporter](https://foundryvtt.com/packages/adventure-import-export)  
+- [Adventures in Middle-Earth](https://foundryvtt.com/packages/aime)  
+- [Alien RPG - Motion Tracker](#)  
+- [ALIEN RPG Core Rulebook](#)  
+- [Always Hp](#)  
+- [Anonymous](#)  
+- [Arbron's Improved HP Bar](#)  
+- [Argon - Combat HUD (Core)](#)  
+- [Argon - Combat HUD (DND5E)](#)  
+- [Argon - Combat HUD (Dragonbane)](#)  
+- [Automated Animations](https://foundryvtt.com/packages/autoanimations)  
+- [Babele](#)  
+- [Baileywiki Mass Edit](#)  
+- [Better Rolltables](#)  
+- [Better Roofs](#)  
+- [BG3 Inspired HUD](#)  
+- [Blades in the Dark Alternate Sheets](#)  
+- [Boss Bar](#)  
+- [Card Hand Mini Toolbar](#)  
+- [Card Hands List](#)  
+- [Carousel Combat Tracker](#)  
+- [Chat Portrait](#)  
+- [Combat Booster](#)  
+- [Combat Carousel](#)  
+- [Combat Utility Belt](#)  
+- [Compact Scene Navigation](#)  
+- [Compendium Browser](#)  
+- [Compendium Folders](#)  
+- [Complete Card Management](#)  
+- [Custom D&D 5e](#)  
+- [Damage Log](#)  
+- [DF Active Lights](#)  
+- [DF Curvy Walls](#)  
+- [DF Quality of Life](#)  
+- [DF Scene Enhancement](#)  
+- [DF Settings Clarity](#)  
+- [DFreds Convenient Effects](#)  
+- [Dice So Nice!](#)  
+- [Dice Tray](#)  
+- [Drag Ruler](#)  
+- [Dragonbane - Item Browser](#)  
+
+</td>
+<td>
+
+- [Dungeon Draw](#)  
+- [Dynamic Active Effects](#)  
+- [Easy Target](#)  
+- [Fog Manager](#)  
+- [Forien's Copy Environment](#)  
+- [Forien's Quest Log](#)  
+- [Forien's Scene Navigator](#)  
+- [Foundry Achievements](#)  
+- [FX Master](#)  
+- [Gatherer](#)  
+- [Health Estimate](#)  
+- [Health Monitor](#)  
+- [Hexplorer](#)  
+- [Hot Pan & Zoom!](#)  
+- [Illandril's Hotbar Uses](#)  
+- [Innocenti Open Lock Hp](#)  
+- [Innocenti's Loot](#)  
+- [Item Collection](#)  
+- [Item Macro](#)  
+- [Lancer Initiative](#)  
+- [Let Me Roll That For You](#)  
+- [Levels](#)  
+- [lib - ColorSettings](#)  
+- [Lord of the Rings Roleplaying](#)  
+- [Masks: A New Generation](#)  
+- [Mastercrafted](#)  
+- [Merchant Sheet NPC](#)  
+- [Metric System for D&D5e](#)  
+- [Midi Quality of Life Improvements](#)  
+- [Minimal UI](#)  
+- [Monarch | Foundry Virtual Tabletop](#)  
+- [Monk's Active Tile Triggers](#)  
+- [Monk's Bloodsplats](#)  
+- [Monk's Combat Details](#)  
+- [Monk's Combat Marker](#)  
+- [Monk's Hotbar Expansion](#)  
+- [Monk's Scene Navigation](#)  
+- [Monk's TokenBar](#)  
+- [Monk's Wall Enhancement](#)  
+- [Multilevel Tokens](#)  
+- [Paper Doll](#)  
+- [Party HUD](#)  
+- [Party Resources](#)  
+- [Patrol](#)  
+- [Perfect Vision](#)  
+- [Pin Cushion](#)  
+
+</td>
+<td>
+
+- [Pings](#)  
+- [PnP - Pointer and Pings](#)  
+- [PnP - Pointer and Pings](#)  
+- [Polyglot](#)  
+- [PopOut!](#)  
+- [Portal](#)  
+- [Quick Insert - Search Widget](#)  
+- [Raise My Hand](#)  
+- [Rarity Colors](#)  
+- [Ready Set Roll for D&D5e](#)  
+- [Rideable](#)  
+- [Sequencer](#)  
+- [Shared Vision](#)  
+- [Simple Calendar](#)  
+- [Simple Dice Roller](#)  
+- [Simple Quest](#)  
+- [Simple Weather](#)  
+- [Smart Target](#)  
+- [Splatter](#)  
+- [Storyteller](#)  
+- [Swade Tools](#)  
+- [Symbaroum Core Rulebook](#)  
+- [Terrain Height Tools](#)  
+- [Terrain Ruler](#)  
+- [Tidbits](#)  
+- [Tidy UI Game Settings](#)  
+- [Tidy5e Sheet](#)  
+- [Tile Scroll](#)  
+- [Times Up](#)  
+- [Token Action HUD Core](#)  
+- [Token Action HUD D&D 5e](#)  
+- [Token Attacher](#)  
+- [Token Auras](#)  
+- [Token Flip](#)  
+- [Token HUD Wildcard](#)  
+- [Token Magic FX](#)  
+- [Token Mold](#)  
+- [Token Notes](#)  
+- [Turn Marker](#)  
+- [Vision 5e](#)  
+- [Wall Height](#)  
+- [Warhammer Library](#)  
+- [Weather Blocker](#)  
+- [Weather FX](#)  
+- [Year Zero Engine: Combat](#)  
+
+</td>
+</tr>
+</table>
+
 
 <h3>Comunità</h3>
 <p>
