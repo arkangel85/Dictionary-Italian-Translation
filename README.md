@@ -35,7 +35,7 @@
 
 <h2>Informazioni sulla traduzione</h2>
 
-<p><strong>Sviluppo e supporto:</strong> Phenomen</p>
+<p><strong>Sviluppo e supporto:</strong> Arkangel</p>
 
 <p>Attualmente il modulo traduce l'interfaccia principale di Foundry VTT, oltre a:</p>
 
