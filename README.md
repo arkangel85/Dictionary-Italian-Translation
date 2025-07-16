@@ -5,7 +5,7 @@
 </p>
 
 <p style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/arkangel85/FoundryVTT-italian/refs/heads/main/it-IT/logo.png" alt="Logo Foundry VTT con bandiera italiana" style="width: 300px;">
+  <img src="https://raw.githubusercontent.com/arkangel85/FoundryVTT-italian/refs/heads/main/it-IT/logo.png" alt="Logo Foundry VTT con bandiera italiana" style="width: 500px;">
 </p>
 
 <p>
