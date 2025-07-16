@@ -1,220 +1,220 @@
 {
-	"POLYGLOT": {
-		"GameMasterHasAssignedCharacter": "Вы являетесь ведущим, но при этом к вам прикреплён персонаж. Polyglot может из-за этого странно себя вести. Желательно открепить персонажа от ведущего.",
-		"DefaultAlphabet": "Алфавит по умолчанию",
-		"FontSettings": "Настройки шрифта",
-		"GeneralSettings": "Общие настройки",
-		"LanguageSettings": "Настройки языка",
-		"ChatSettings": "Настройки чата",
-		"General": "Общее",
-		"Languages.title": "Языки",
-		"Languages.hint": "Изменение алфавита, используемого языками.",
-		"Font": "Шрифт",
-		"Fonts": "Шрифты",
-		"FontSize": "Размер шрифта (%)",
-		"KnownLanguages": "Известные языки",
-		"UnknownLanguages": "Неизвестные языки",
-		"AlphabeticOnly": "Только с алфавитом",
-		"Logographical": "Логографические",
-		"AllowOOC": {
-			"title": "Шифрование сообщений вне отыгрыша",
-			"hint": "Выберите участников, чьи сообщения должны шифроваться вне отыгрыша."
-		},
-		"AllowOOCOptions": {
-			"a": "Все",
-			"b": "Только ведущий",
-			"c": "Только игроки",
-			"d": "Никто"
-		},
-		"Omniglot": {
-			"title": "Всеобщий язык",
-			"hint": "Укажите язык, носитель которого понимает и говорит на всех других языках. Актер сможет читать и писать на всех других языках, как в чате, так и в журналах."
-		},
-		"ComprehendLanguages.hint": "Установите язык, носитель которого понимает все остальные языки, но не может говорить или писать на них. Актер сможет читать все сообщения в чате и текст в журналах.",
-		"ComprehendLanguages.title": "Язык всеведения",
-		"CustomLanguages.hint": "Определите список пользовательских языков, которые нужно добавить в систему. Они должны быть разделены запятыми или точкой с запятой.",
-		"CustomLanguages.title": "Пользовательские языки",
-		"DefaultLanguage.hint": "Название языка по умолчанию. Оставьте пустым, чтобы использовать язык системы.",
-		"DefaultLanguage.title": "Язык по умолчанию",
-		"DisplayCheckbox": {
-			"hint": "Убирает флажок из раздела чата.",
-			"title": "Отображать флажок"
-		},
-		"DisplayTranslated.hint": "Для языков, переведённых в окне чата, отображать оригинальный текст и перевод под ним.",
-		"DisplayTranslated.title": "Отображать перевод",
-		"enableAllFonts": {
-			"hint": "Добавляет шрифты Foundry, включая дополнительные шрифты, в Polyglot.",
-			"title": "Добавить шрифты Foundry в Polyglot"
-		},
-		"ExportFonts.hint": "Добавить шрифты Polyglot в инструменты Foundry, такие как рисунки.",
-		"ExportFonts.title": "Добавить шрифты Polyglot в Foundry",
-		"HideTranslation.hint": "Скрывает глобус и текст \"Перевод с\" из сообщений чата для игроков. Полезно, когда вы не хотите показывать игрокам, на каком языке вы говорите.",
-		"HideTranslation.title": "Скрыть индикаторы от игроков",
-		"IgnoreJournalFontSize": {
-			"hint": "Игнорирует размер шрифтов Polyglot в журналах, делая их такого же размера, как и обычный текст. Полезно, когда важно форматирование журнала.",
-			"title": "Использовать обычный размер шрифта"
-		},
-		"JournalHighlight": {
-			"hint": "Определяет непрозрачность выделения шрифтов в журнале.",
-			"title": "Непрозрачность выделения (%)"
-		},
-		"JournalHighlightColor": {
-			"hint": "Определяет цвет выделения шрифтов в журнале.",
-			"title": "Цвет выделения"
-		},
-		"LanguageProvider": {
-			"choices": {
-				"module": "[Module] {name}",
-				"native": "Универсальный",
-				"system": "[System] {name}"
-			},
-			"hint": "Выберите источник, предоставляющий информацию об языках. Некоторые источники могут быть добавлены системами и модулями. Опции ниже отражают те, что были найдены в текущем мире.",
-			"name": "Настройки источника языка"
-		},
-		"languageDataPath": {
-			"title": "Путь к данным о языках",
-			"hint": "Если языки в данных вашего актёра не загружаются должным образом, возможно, используется другой путь к данным. Введите путь к данным для правильного атрибута (например, actor.system.languages или actor.system.speak). Эта настройка имеет приоритет над настройкой {setting}."
-		},
-		"literacyDataPath": {
-			"title": "Путь к данным о грамотности",
-			"hint": "То же, что и настройка {setting}, но для чтения журналов. Для этой настройки требуется настройка {setting}."
-		},
-		"LanguageRegex": {
-			"hint": "Вы можете использовать это, чтобы изменить термин, используемый для поиска по предметам, с \"Language\" на что-то другое, например, \"Язык\". Эта настройка более полезна для тех, кто использует системы с переводом.",
-			"title": "RegEx для языка"
-		},
-		"LiteracyRegex": {
-			"hint": "То же, что и RegEx для языка, но для письменных языков.",
-			"title": "RegEx для письменности"
-		},
-		"logographicalFontToggle.hint": "Сокращение фраз вдвое на логографических языках (японский, китайский, корейский и т.д.).",
-		"logographicalFontToggle.title": "Логографические шрифты",
-		"RandomizeRunes.hint": "Определяет, какой тип генератора случайных чисел используется для создания фразы. Опция \"Отключено\" поддерживает только буквенно-цифровые символы (без акцентов).",
-		"RandomizeRunes.title": "Случайные руны",
-		"RandomizeRunesOptions": {
-			"a": "По умолчанию",
-			"b": "Уникальный фразы",
-			"c": "Отключено"
-		},
-		"ReplaceLanguages.hint": "Удаляет языки системы по умолчанию. Первый язык в списке пользовательских языков становится новым языком по умолчанию.",
-		"ReplaceLanguages.title": "Удалить языки системы",
-		"RuneRegex": {
-			"hint": "Заставляет случайную генерацию игнорировать небуквенно-цифровые символы (например, !,.;:?#$\"'). Это может иметь нежелательный эффект отображения некоторых из этих символов как квадрата (□) на некоторых шрифтах.",
-			"title": "Случайная генерация только для букв и цифр"
-		},
-		"ScrambleGM.hint": "Не переводить текст для ведущего (смотрите на цвету глобуса, чтобы определить понимание языка токеном).",
-		"ScrambleGM.title": "Шифровать сообщения для ведущего",
-		"Truespeech.hint": "Установите язык, носитель которого понимает все разговорные языки (не может читать журналы) и понятен всем существам. Актер сможет читать все сообщения в чате и писать сообщения на языке, понятном всем.",
-		"Truespeech.title": "Язык всеобщей речи",
-		"Translation": "Перевод",
-		"TranslatedFrom": "Перевод с ",
-		"LanguageLabel": "Язык",
-		"AlphabetLabel": "Алфавит",
-		"LatinAlphabet": "Латинский алфавит",
-		"ToggleRunes": "Включить руны",
-		"Runes": "Руны",
-		"TOURS": {
-			"Main": {
-				"title": "Начало работы с Polyglot",
-				"desc": "Понять взаимодействие Polyglot с интерфейсом Foundry.",
-				"Canvas": {
-					"Title": "Добро пожаловать в Polyglot",
-					"Content": "В этом уроке вы узнаете, какие возможности добавляет Polyglot в пользовательский интерфейс и как они взаимодействуют с Foundry, а также получите некоторые рекомендации для новичков по настройкам персонажа."
-				},
-				"LanguageSelector": {
-					"Title": "Выбор языка",
-					"Content": "<span class='reference'>Выбор языка</span> - это место, где вы можете выбрать, на каком языке вы хотите говорить, шифруя отправляемые сообщения, пока он активен."
-				},
-				"LanguageSelectorCheckbox": {
-					"Title": "Флажок выбора языка",
-					"Content": "<span class='reference'>Флажок</span> включает шифрование. Любой пользователь, снявший его, будет говорить так, как если бы модуль был отключен."
-				},
-				"LanguageSelectorSelect": {
-					"Title": "Выпадающий список выбора языка",
-					"Content": "<span class='reference'>Выпадающий список</span> содержит все языки в вашем мире.<br>В зависимости от вашей игровой системы, языки могут быть уже настроены, в то время как в других игровых системах вам может потребоваться настроить их в <span class='reference'>Настройках игры</span>.<br>В нём будут отображаться языки среди известных и неизвестных актёрам ваших игроков."
-				},
-				"LanguageSelectorPips": {
-					"Title": "Индикаторы выбора языка",
-					"Content": "<span class='reference'>Индикатор</span>, похожий на те, что отображаются в списке игроков, будет отображаться рядом с известными языками для каждого игрока, у которого есть хотя бы один актёр, понимающий этот язык. При наведении на индикатор будет отображаться имя пользователя и список актёров, обеспечивающих доступ к языку."
-				},
-				"ChatMessage": {
-					"Title": "Сообщения чата",
-					"Content": "Вот как выглядит сообщение, если в нём используется Polyglot."
-				},
-				"ChatMessageScrambled": {
-					"Title": "Зашифрованный текст",
-					"Content": "Это то, что видят игроки, не понимающие язык сообщения."
-				},
-				"ChatMessageTranslation": {
-					"Title": "Переведённый текст",
-					"Content": "Это то, что видят игроки, понимающие язык сообщения.<br>Есть настройка для отключения отображения зашифрованного текста игрокам, которые его понимают. При наведении на него будет отображаться название языка."
-				},
-				"ChatMessageGlobe": {
-					"Title": "Глобус",
-					"Content": "Этот глобус может иметь 3 цвета: <ul><li><span style=\"color: green\">Зелёный</span> для известных языков. При наведении на него будет отображаться название языка.</li><li><span style=\"color: blue\">Синий</span> для языков, которые можно прочитать, но игрок не будет знать, какой это язык.<li><span style=\"color: red\">Красный</span> для неизвестных языков.</li></li></ul>"
-				},
-				"ChatMessageEnding": {
-					"Title": "Настройки сообщений чата",
-					"Content": "Обязательно проверьте настройки модуля, где вы можете изменить способ отображения сообщений чата.<br>Есть особенность Foundry и сообщений чата, связанная с <span class='reference'>Конфигурацией пользователя</span>."
-				},
-				"PlayersList": {
-					"Title": "Список игроков",
-					"Content": "Хотя сам Polyglot ничего не меняет в этом, вы должны знать о поведении основного Foundry, связанном с <span class='reference'>Конфигурацией пользователя</span>. Вы можете открыть её, щёлкнув правой кнопкой мыши на имени пользователя в этом списке."
-				},
-				"UserConfig": {
-					"Title": "Конфигурация пользователя",
-					"Content": "Эта конфигурация открывается для пользователей, не являющихся ведущими, всякий раз, когда они загружаются в мир, если у них <span class='reference'>не выбран персонаж</span>."
-				},
-				"UserConfigSelectCharacter": {
-					"Title": "Выбор персонажа",
-					"Content": "Как ведущий, у вас никогда не должен быть выбран персонаж, так как это приведёт к тому, что ваши сообщения будут отправляться от имени этого персонажа, если он когда-либо присутствует на сцене.<br>Для игроков убедитесь, что они выбрали своего основного персонажа; в противном случае их сообщения всегда будут отправляться как от игрока, а не от их персонажа, и они не смогут читать сообщения на языках, которые понимает их персонаж, если его токен не присутствует на холсте.<br>Вы можете определить, выбрал ли игрок персонажа, если за его именем в списке игроков следует имя персонажа.<br>Это поведение основного Foundry, Polyglot просто следует ему."
-				},
-				"ActorOwnership": {
-					"Title": "Владение актёром",
-					"Content": "Что касается владения актёром, если вы предоставите игроку разрешение \"Владелец\" или \"Наблюдатель\" для актёра, этот игрок сможет читать и писать сообщения как этот актёр, если его токен присутствует на холсте. Если токенов больше одного, выбор токена на холсте изменит актёра игрока.<br>Это также поведение основного Foundry, Polyglot просто следует ему."
-				},
-				"End": {
-					"Title": "Заключение",
-					"Content": "На этом экскурсия завершается. Надеюсь, это прояснило некоторые сомнения о взаимодействии Polyglot с поведением основного Foundry.<br>Если вы хотите более глубоко ознакомиться с модулем, проверьте его настройки в <span class='reference'>Настройках игры</span>.<br>Если этого всё ещё недостаточно, попробуйте проверить <a class=\"hyperlink\" href=\"https://github.com/mclemente/fvtt-module-polyglot/wiki\" target=\"_blank\" rel=\"nofollow noopener\">вики модуля</a> для получения дополнительной информации."
-				}
-			}
-		},
-		"UESRPG.Language": "Язык",
-		"Generic": {
-			"Language": "Язык",
-			"Read": "Чтение"
-		},
-		"COC7": {
-			"LanguageOwn": "Язык",
-			"LanguageAny": "Язык",
-			"LanguageOther": "Язык",
-			"LanguageSpec": "Язык"
-		},
-		"DND5E": {
-			"SpecialLanguages.title": "Заменить специальные языки",
-			"SpecialLanguages.hint": "Название языка, который заменит \"языки\", такие как \"все языки, которые он знал при жизни\"."
-		},
-		"PF2E": {
-			"replaceLanguages.hint": "Удаляет языки системы по умолчанию. У вас должен быть установлен хотя бы один самодельный язык в меню элементов homebrew, иначе языки, отличные от Common, не будут удалены. Если вы отключите эту настройку и захотите сбросить редкости обратно до значений по умолчанию, проверьте вики модуля."
-		},
-		"SWADE": {
-			"LanguageSkills": "Язык",
-			"AdditionalLanguageStat": {
-				"title": "Ключ характеристики языка",
-				"hint": "Можно использовать дополнительную характеристику (которая установлена в конфигураторе настроек SWADE). Вам нужно ввести ключ характеристики (с учётом регистра). Имейте в виду, что установка этого параметра переопределяет настройку {setting}."
-			},
-			"AdditionalLiterateStat": {
-				"title": "Ключ характеристики грамотности",
-				"hint": "Можно ограничить чтение журналов, добавив дополнительную статистику. Вам нужно ввести ключ характеристики (с учётом регистра). Эта настройка не зависит от настройки {setting}."
-			}
-		},
-		"WFRP4E": {
-			"LanguageSkills": "Язык",
-			"ReadWrite": {
-				"hint": "Название таланта Read/Write.",
-				"title": "Талант Read/Write",
-				"default": "Грамотность"
-			}
-		}
-	}
+  "POLYGLOT": {
+    "GameMasterHasAssignedCharacter": "Sei il master, ma ti è assegnato un personaggio. Questo può causare comportamenti anomali in Polyglot. Si consiglia di rimuovere il personaggio dal master.",
+    "DefaultAlphabet": "Alfabeto predefinito",
+    "FontSettings": "Impostazioni carattere",
+    "GeneralSettings": "Impostazioni generali",
+    "LanguageSettings": "Impostazioni lingua",
+    "ChatSettings": "Impostazioni chat",
+    "General": "Generale",
+    "Languages.title": "Lingue",
+    "Languages.hint": "Modifica l'alfabeto utilizzato dalle lingue.",
+    "Font": "Carattere",
+    "Fonts": "Caratteri",
+    "FontSize": "Dimensione carattere (%)",
+    "KnownLanguages": "Lingue conosciute",
+    "UnknownLanguages": "Lingue sconosciute",
+    "AlphabeticOnly": "Solo alfabetiche",
+    "Logographical": "Logografiche",
+    "AllowOOC": {
+      "title": "Cifra i messaggi fuori ruolo",
+      "hint": "Seleziona i partecipanti i cui messaggi fuori ruolo devono essere cifrati."
+    },
+    "AllowOOCOptions": {
+      "a": "Tutti",
+      "b": "Solo GM",
+      "c": "Solo giocatori",
+      "d": "Nessuno"
+    },
+    "Omniglot": {
+      "title": "Lingua universale",
+      "hint": "Specifica una lingua i cui parlanti comprendono e parlano tutte le altre. L’attore potrà leggere e scrivere in tutte le lingue nella chat e nei giornali."
+    },
+    "ComprehendLanguages.hint": "Imposta una lingua i cui parlanti comprendono tutte le altre, ma non possono scrivere o parlarle. L’attore potrà leggere tutti i messaggi in chat e i testi nei giornali.",
+    "ComprehendLanguages.title": "Lingua della comprensione",
+    "CustomLanguages.hint": "Definisci un elenco di lingue personalizzate da aggiungere al sistema. Separale con virgole o punto e virgola.",
+    "CustomLanguages.title": "Lingue personalizzate",
+    "DefaultLanguage.hint": "Nome della lingua predefinita. Lascia vuoto per usare quella del sistema.",
+    "DefaultLanguage.title": "Lingua predefinita",
+    "DisplayCheckbox": {
+      "hint": "Nasconde la casella di controllo nella sezione chat.",
+      "title": "Mostra casella di controllo"
+    },
+    "DisplayTranslated.hint": "Per le lingue tradotte in chat, mostra sia il testo originale che la traduzione.",
+    "DisplayTranslated.title": "Mostra traduzione",
+    "enableAllFonts": {
+      "hint": "Aggiunge i caratteri Foundry, inclusi quelli extra, a Polyglot.",
+      "title": "Aggiungi caratteri Foundry a Polyglot"
+    },
+    "ExportFonts.hint": "Aggiunge i caratteri di Polyglot agli strumenti Foundry, come i disegni.",
+    "ExportFonts.title": "Esporta i caratteri Polyglot in Foundry",
+    "HideTranslation.hint": "Nasconde il globo e la scritta \"Tradotto da\" nei messaggi per i giocatori. Utile se non vuoi rivelare la lingua parlata.",
+    "HideTranslation.title": "Nascondi indicatori ai giocatori",
+    "IgnoreJournalFontSize": {
+      "hint": "Ignora la dimensione del carattere Polyglot nei giornali, mantenendo quella del testo normale.",
+      "title": "Usa dimensione carattere standard"
+    },
+    "JournalHighlight": {
+      "hint": "Imposta l’opacità dell’evidenziazione nei giornali.",
+      "title": "Opacità evidenziazione (%)"
+    },
+    "JournalHighlightColor": {
+      "hint": "Definisce il colore dell’evidenziazione nei giornali.",
+      "title": "Colore evidenziazione"
+    },
+    "LanguageProvider": {
+      "choices": {
+        "module": "[Modulo] {name}",
+        "native": "Universale",
+        "system": "[Sistema] {name}"
+      },
+      "hint": "Seleziona la fonte delle informazioni linguistiche. Alcune sono fornite da sistemi o moduli. Le opzioni elencate sono quelle rilevate nel mondo attuale.",
+      "name": "Fonte delle lingue"
+    },
+    "languageDataPath": {
+      "title": "Percorso ai dati linguistici",
+      "hint": "Se i dati linguistici dell’attore non vengono caricati correttamente, potrebbe essere necessario un percorso diverso. Inserisci il percorso corretto (es. actor.system.languages o actor.system.speak). Ha priorità sulla configurazione {setting}."
+    },
+    "literacyDataPath": {
+      "title": "Percorso ai dati di alfabetizzazione",
+      "hint": "Come sopra, ma per i giornali. Richiede la configurazione {setting}."
+    },
+    "LanguageRegex": {
+      "hint": "Modifica il termine cercato negli oggetti. Utile per chi usa sistemi tradotti.",
+      "title": "Regex per lingue"
+    },
+    "LiteracyRegex": {
+      "hint": "Come sopra, ma per le lingue scritte.",
+      "title": "Regex per alfabetizzazione"
+    },
+    "logographicalFontToggle.hint": "Dimezza le frasi nei linguaggi logografici (giapponese, cinese, coreano, ecc.).",
+    "logographicalFontToggle.title": "Caratteri logografici",
+    "RandomizeRunes.hint": "Scegli il tipo di generazione casuale delle rune. L’opzione \"Disabilitato\" usa solo caratteri alfanumerici (senza accenti).",
+    "RandomizeRunes.title": "Rune casuali",
+    "RandomizeRunesOptions": {
+      "a": "Predefinito",
+      "b": "Frasi uniche",
+      "c": "Disabilitato"
+    },
+    "ReplaceLanguages.hint": "Rimuove le lingue di sistema. La prima lingua personalizzata diventa la nuova predefinita.",
+    "ReplaceLanguages.title": "Rimuovi lingue di sistema",
+    "RuneRegex": {
+      "hint": "Fa ignorare i caratteri non alfanumerici nella generazione casuale. Alcuni simboli potrebbero apparire come □ in alcuni caratteri.",
+      "title": "Generazione solo con lettere e numeri"
+    },
+    "ScrambleGM.hint": "Non traduce i messaggi per il GM (il globo indica se il token conosce la lingua).",
+    "ScrambleGM.title": "Cifra messaggi per il GM",
+    "Truespeech.hint": "Definisce una lingua comprensibile a tutti (ma che non può leggere i giornali). Gli attori che la parlano saranno compresi da tutti.",
+    "Truespeech.title": "Lingua del discorso universale",
+    "Translation": "Traduzione",
+    "TranslatedFrom": "Tradotto da ",
+    "LanguageLabel": "Lingua",
+    "AlphabetLabel": "Alfabeto",
+    "LatinAlphabet": "Alfabeto latino",
+    "ToggleRunes": "Attiva rune",
+    "Runes": "Rune",
+    "TOURS": {
+      "Main": {
+        "title": "Introduzione a Polyglot",
+        "desc": "Scopri come Polyglot interagisce con l'interfaccia di Foundry.",
+        "Canvas": {
+          "Title": "Benvenuto in Polyglot",
+          "Content": "In questa guida imparerai le funzionalità che Polyglot aggiunge all'interfaccia utente di Foundry e come interagiscono con essa, oltre ad alcuni suggerimenti per i nuovi utenti nella configurazione dei personaggi."
+        },
+        "LanguageSelector": {
+          "Title": "Selettore di lingua",
+          "Content": "<span class='reference'>Il selettore di lingua</span> ti permette di scegliere in quale lingua vuoi parlare, cifrando i messaggi finché è attivo."
+        },
+        "LanguageSelectorCheckbox": {
+          "Title": "Casella di controllo lingua",
+          "Content": "<span class='reference'>La casella</span> attiva la cifratura. Qualsiasi utente che la deseleziona parlerà come se il modulo fosse disattivato."
+        },
+        "LanguageSelectorSelect": {
+          "Title": "Menu a tendina lingua",
+          "Content": "<span class='reference'>Il menu a tendina</span> elenca tutte le lingue nel tuo mondo.<br>A seconda del sistema usato, alcune lingue potrebbero già essere configurate, mentre in altri sarà necessario aggiungerle dalle <span class='reference'>Impostazioni di gioco</span>.<br>Mostrerà le lingue note e sconosciute per ogni attore controllato dai giocatori."
+        },
+        "LanguageSelectorPips": {
+          "Title": "Indicatori lingua",
+          "Content": "<span class='reference'>L’indicatore</span>, simile a quello nella lista giocatori, apparirà accanto alle lingue note per ciascun giocatore con almeno un attore che le conosce. Passando il mouse sopra, verranno mostrati il nome dell’utente e l’elenco degli attori."
+        },
+        "ChatMessage": {
+          "Title": "Messaggi in chat",
+          "Content": "Ecco come appare un messaggio quando viene utilizzato Polyglot."
+        },
+        "ChatMessageScrambled": {
+          "Title": "Testo cifrato",
+          "Content": "È ciò che vedono i giocatori che non comprendono la lingua del messaggio."
+        },
+        "ChatMessageTranslation": {
+          "Title": "Testo tradotto",
+          "Content": "È ciò che vedono i giocatori che comprendono la lingua. <br>Una specifica impostazione permette di nascondere il testo cifrato sotto alla traduzione. Passando il mouse si vede comunque la lingua parlata."
+        },
+        "ChatMessageGlobe": {
+          "Title": "Globo",
+          "Content": "Il globo può avere 3 colori: <ul><li><span style=\"color: green\">Verde</span> per le lingue conosciute. Passandoci sopra viene mostrato il nome.</li><li><span style=\"color: blue\">Blu</span> per lingue leggibili, ma il cui nome non è conosciuto.</li><li><span style=\"color: red\">Rosso</span> per lingue sconosciute.</li></ul>"
+        },
+        "ChatMessageEnding": {
+          "Title": "Impostazioni messaggi chat",
+          "Content": "Controlla le impostazioni del modulo per modificare l’aspetto dei messaggi in chat. <br>Esiste una particolarità di Foundry riguardo la <span class='reference'>Configurazione dell’utente</span> che influenza ciò."
+        },
+        "PlayersList": {
+          "Title": "Lista giocatori",
+          "Content": "Anche se Polyglot non modifica direttamente questa sezione, è utile conoscere il comportamento di Foundry relativo alla <span class='reference'>Configurazione dell’utente</span>. Puoi accedervi cliccando con il tasto destro sul nome del giocatore."
+        },
+        "UserConfig": {
+          "Title": "Configurazione utente",
+          "Content": "Questa schermata appare per gli utenti non-GM ogni volta che accedono al mondo, se non hanno <span class='reference'>selezionato un personaggio</span>."
+        },
+        "UserConfigSelectCharacter": {
+          "Title": "Selezione personaggio",
+          "Content": "Come GM, non dovresti mai avere un personaggio selezionato, altrimenti i tuoi messaggi appariranno come se provenissero da quel personaggio, se presente sulla scena.<br>I giocatori devono invece selezionare il proprio personaggio principale, altrimenti i loro messaggi saranno inviati come giocatori e non potranno leggere le lingue comprese dal personaggio se il suo token non è presente.<br>Puoi verificare se un giocatore ha selezionato un personaggio osservando se, dopo il suo nome nella lista, è visibile anche il nome del personaggio.<br>Questo comportamento è proprio di Foundry, Polyglot lo segue semplicemente."
+        },
+        "ActorOwnership": {
+          "Title": "Proprietà attore",
+          "Content": "Per quanto riguarda il possesso degli attori: assegnando a un giocatore i permessi di \"Proprietario\" o \"Osservatore\", egli potrà leggere e scrivere come quell’attore se il token è presente sulla scena. Se ci sono più token, selezionandone uno si cambia l’attore attivo.<br>Anche questo è comportamento nativo di Foundry, Polyglot lo rispetta."
+        },
+        "End": {
+          "Title": "Conclusione",
+          "Content": "La guida termina qui. Spero abbia chiarito alcuni dubbi su come Polyglot interagisce con il comportamento di Foundry.<br>Per approfondire, consulta le impostazioni del modulo nelle <span class='reference'>Impostazioni di gioco</span>.<br>Se non è sufficiente, visita la <a class=\"hyperlink\" href=\"https://github.com/mclemente/fvtt-module-polyglot/wiki\" target=\"_blank\" rel=\"nofollow noopener\">wiki del modulo</a> per maggiori informazioni."
+        }
+      }
+    },
+    "UESRPG.Language": "Lingua",
+    "Generic": {
+      "Language": "Lingua",
+      "Read": "Lettura"
+    },
+    "COC7": {
+      "LanguageOwn": "Lingua",
+      "LanguageAny": "Lingua",
+      "LanguageOther": "Lingua",
+      "LanguageSpec": "Lingua"
+    },
+    "DND5E": {
+      "SpecialLanguages.title": "Sostituisci lingue speciali",
+      "SpecialLanguages.hint": "Nome della lingua che sostituirà espressioni generiche come \"tutte le lingue conosciute in vita\"."
+    },
+    "PF2E": {
+      "replaceLanguages.hint": "Rimuove le lingue di sistema. È necessario avere almeno una lingua personalizzata definita nel menu homebrew, altrimenti tutte le lingue tranne il Comune verranno eliminate. Per ripristinare i valori predefiniti, consulta la wiki del modulo."
+    },
+    "SWADE": {
+      "LanguageSkills": "Lingua",
+      "AdditionalLanguageStat": {
+        "title": "Chiave caratteristica linguistica",
+        "hint": "Puoi usare una caratteristica aggiuntiva definita nel configuratore di SWADE. Inserisci la chiave della caratteristica (case-sensitive). Sostituisce la configurazione {setting}."
+      },
+      "AdditionalLiterateStat": {
+        "title": "Chiave caratteristica alfabetizzazione",
+        "hint": "Limita la lettura dei giornali tramite una statistica aggiuntiva. Inserisci la chiave della caratteristica (case-sensitive). Non dipende da {setting}."
+      }
+    },
+    "WFRP4E": {
+      "LanguageSkills": "Lingua",
+      "ReadWrite": {
+        "hint": "Nome del talento Lettura/Scrittura.",
+        "title": "Talento Lettura/Scrittura",
+        "default": "Alfabetizzazione"
+      }
+    }
+  }
 }

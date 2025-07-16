@@ -1,66 +1,66 @@
 {
-	"pings": {
-		"settings": {
-			"minMovePermission": {
-				"title": "Минимальные права для камеры",
-				"hint": "Минимальный уровень прав, позволяющий участникам перемещать камеру при помощи отметки."
-			},
-			"mouseButton": {
-				"title": "Кнопка мыши для отметки",
-				"hint": "Кнопка мыши, которую нужно удерживать для отметки. 0 = левая, 1 = средняя, 2 = правая. Нажмите желаемой кнопкой в этой области (можно с модификатором Ctrl/Shift). Для очистки используйте Esc."
-			},
-			"mouseButtonMove": {
-				"title": "Кнопка мыши для отметки с камерой",
-				"hint": "Кнопка мыши, которую нужно удерживать для отметки и перемещения камеры всех игроков. 0 = левая, 1 = средняя, 2 = правая. Нажмите желаемой кнопкой в этой области (можно с модификатором Ctrl/Shift). Для очистки используйте Esc."
-			},
-			"mouseButtonDuration": {
-				"title": "Продолжительность удержания",
-				"hint": "Как долго требуется удерживать кнопку мыши для отметки (в милисекундах)."
-			},
-			"key": {
-				"title": "Клавиша для отметки",
-				"hint": "Клавиша клавиатуры для отметки в месте курсора. Нажмите желаемой клавишей в этой области (можно с модификатором Ctrl/Shift). Для очистки используйте Esc."
-			},
-			"keyMove": {
-				"title": "Клавиша клавиатуры для отметки с камерой",
-				"hint": "Клавиша клавиатуры, которую нужно удерживать для отметки и перемещения камеры всех игроков. Нажмите желаемой клавишей в этой области (можно с модификатором Ctrl/Shift). Для очистки используйте Esc."
-			},
-			"showName": {
-				"title": "Отображать имя игрока",
-				"hint": "Нужно ли отображать имя игрока рядом с отметкой."
-			},
-			"image": {
-				"title": "Изображение отметки",
-				"hint": "Можно выбрать альтернативное изображение для отметки. Отметка будет иметь оттенок цвета игрока, поэтому изображений должно быть чёрно-белым для лучшего результата."
-			},
-			"scale": {
-				"title": "Масштаб",
-				"hint": "Насколько большой (в единицах измерения сетки) будет отметка."
-			},
-			"duration": {
-				"title": "Продолжительность",
-				"hint": "Как долго будет оставаться отметка."
-			},
-			"rotate": {
-				"title": "Вращение",
-				"hint": "Будет ли отметка вращаться."
-			},
-			"rotateSpeed": {
-				"title": "Скорость вращения",
-				"hint": "Сколько секунд займёт оборот отметки на 360 градусов."
-			},
-			"sizeChange": {
-				"title": "Изменение размера",
-				"hint": "Будет ли отметка изменяться в размере."
-			},
-			"sizeChangeAmount": {
-				"title": "Амплитуда изменения размера",
-				"hint": "Как сильно будет изменяться размер отметки."
-			},
-			"sizeChangeSpeed": {
-				"title": "Скорость изменения размера",
-				"hint": "Сколько секунд займёт цикл изменения размера."
-			}
-		}
-	}
+  "pings": {
+    "settings": {
+      "minMovePermission": {
+        "title": "Permessi minimi per la fotocamera",
+        "hint": "Livello minimo di permessi necessario per consentire ai partecipanti di muovere la fotocamera tramite il ping."
+      },
+      "mouseButton": {
+        "title": "Tasto del mouse per il ping",
+        "hint": "Tasto del mouse da tenere premuto per eseguire un ping. 0 = sinistro, 1 = centrale, 2 = destro. Premi il tasto desiderato in quest’area (può essere usato con Ctrl/Shift). Usa Esc per cancellare."
+      },
+      "mouseButtonMove": {
+        "title": "Tasto del mouse per ping con movimento fotocamera",
+        "hint": "Tasto del mouse da tenere premuto per eseguire un ping che muove la fotocamera di tutti i giocatori. 0 = sinistro, 1 = centrale, 2 = destro. Premi il tasto desiderato in quest’area (può essere usato con Ctrl/Shift). Usa Esc per cancellare."
+      },
+      "mouseButtonDuration": {
+        "title": "Durata della pressione",
+        "hint": "Per quanto tempo è necessario tenere premuto il tasto del mouse per eseguire il ping (in millisecondi)."
+      },
+      "key": {
+        "title": "Tasto per il ping",
+        "hint": "Tasto della tastiera per eseguire un ping nel punto del cursore. Premi il tasto desiderato in quest’area (può essere usato con Ctrl/Shift). Usa Esc per cancellare."
+      },
+      "keyMove": {
+        "title": "Tasto per ping con movimento fotocamera",
+        "hint": "Tasto della tastiera da tenere premuto per eseguire un ping che muove la fotocamera di tutti i giocatori. Premi il tasto desiderato in quest’area (può essere usato con Ctrl/Shift). Usa Esc per cancellare."
+      },
+      "showName": {
+        "title": "Mostra il nome del giocatore",
+        "hint": "Mostrare o meno il nome del giocatore accanto al ping."
+      },
+      "image": {
+        "title": "Immagine del ping",
+        "hint": "Puoi selezionare un’immagine alternativa per il ping. L'immagine sarà tinta con il colore del giocatore, quindi è consigliato usare immagini in bianco e nero per un risultato ottimale."
+      },
+      "scale": {
+        "title": "Scala",
+        "hint": "Dimensione del ping (in unità della griglia)."
+      },
+      "duration": {
+        "title": "Durata",
+        "hint": "Per quanto tempo il ping resterà visibile."
+      },
+      "rotate": {
+        "title": "Rotazione",
+        "hint": "Se il ping deve ruotare o meno."
+      },
+      "rotateSpeed": {
+        "title": "Velocità di rotazione",
+        "hint": "Tempo necessario per una rotazione completa (360 gradi) in secondi."
+      },
+      "sizeChange": {
+        "title": "Variazione della dimensione",
+        "hint": "Se il ping deve variare in dimensione."
+      },
+      "sizeChangeAmount": {
+        "title": "Ampiezza della variazione",
+        "hint": "Quanto varierà la dimensione del ping."
+      },
+      "sizeChangeSpeed": {
+        "title": "Velocità della variazione di dimensione",
+        "hint": "Tempo in secondi per un ciclo completo di variazione di dimensione."
+      }
+    }
+  }
 }

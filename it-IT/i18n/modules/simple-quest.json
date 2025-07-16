@@ -1,486 +1,487 @@
 {
-	"simple-quest": {
-		"settings": {
-			"tabConfig": {
-				"name": "Настройки разделов",
-				"hint": "Настройки названий разделов Simple Quest.",
-				"label": "Настроить названия разделов"
-			},
-			"themeConfig": {
-				"name": "Настройки темы",
-				"hint": "Настройки темы Simple Quest.",
-				"label": "Настроить тему"
-			},
-			"folderName": {
-				"name": "Название папки",
-				"hint": "Название папки, содержащей журналы Simple Quest",
-				"default": "Quests"
-			},
-			"mapsJournalName": {
-				"name": "Название журнала карт",
-				"hint": "Название журнала, содержащего карты Simple Quest",
-				"default": "Maps"
-			},
-			"timelineJournalName": {
-				"name": "Название журнала хронологий",
-				"hint": "Название журнала, содержащего хронологию",
-				"default": "Timeline"
-			},
-			"loreFolderName": {
-				"name": "Название журнала истории",
-				"hint": "Название журнала, содержащего историю",
-				"default": "Lore"
-			},
-			"partyJournalName": {
-				"name": "Название группового журнала",
-				"hint": "Название журнала, содержащего записи группы",
-				"default": "Party"
-			},
-			"sharedJournalName": {
-				"name": "Название общего журнала",
-				"hint": "Название журнала, содержащего общие записи",
-				"default": "Shared"
-			},
-			"backgroundColor": {
-				"name": "Цвет заднего фона",
-				"hint": "Цвет заднего фона Simple Quest"
-			},
-			"labelColor": {
-				"name": "Глобальный цвет надписей",
-				"hint": "Если установлено, все цвета надписей на картах будут определяться этим цветом. Установите на \"none\", чтобы отключить."
-			},
-			"invertTheme": {
-				"name": "Инверсировать тему",
-				"hint": "Определяет, будет ли инверсирована цветовая палитра темы. Инверсия темы может привести к неожиданным результатам."
-			},
-			"matchJournalStyle": {
-				"name": "Соответствовать стилю журнала",
-				"hint": "Если включено, будет сделана попытка соответствовать специальным стилям, примененным к журналам. Это может вызвать побочные эффекты в зависимости от темы."
-			},
-			"textColor": {
-				"name": "Цвет текста",
-				"hint": "Цвет текста Simple Quest"
-			},
-			"secretColor": {
-				"name": "Цвет секретов",
-				"hint": "Цвет секретных целей заданий Simple Quest"
-			},
-			"failedColor": {
-				"name": "Цвет провалов",
-				"hint": "Цвет невыполненных целей заданий Simple Quest"
-			},
-			"hideFolderFromPlayers": {
-				"name": "Скрывать папку от игроков",
-				"hint": "Определяет, будет ли скрыта папка Simple Quest от игроков"
-			},
-			"fontFamily": {
-				"name": "Шрифт",
-				"hint": "Шрифт, используемый в Simple Quest"
-			},
-			"useMessageTheme": {
-				"name": "Тема сообщений в чате",
-				"hint": "Определяет, будет ли использована пользовательская тема для сообщений Simple Quest в чате"
-			},
-			"showQuestNotifications": {
-				"name": "Показывать уведомления, связанные с заданиями",
-				"hint": "Определяет, будут ли показаны уведомления, когда задание обновлено или отправлено в чат."
-			},
-			"newQuestSoundEffect": {
-				"name": "Звук добавления нового задания",
-				"hint": "Звук, который будет проигрываться при появлении уведомления о новом задании"
-			},
-			"updateQuestSoundEffect": {
-				"name": "Звук обновления задания",
-				"hint": "Звук, который будет проигрываться при появлении уведомления об обновлении задания"
-			},
-			"matchJournalPermission": {
-				"name": "Проверять разрешения журнала",
-				"hint": "Определяет, будут ли учитываться права пользователей относительно заданий, помимо их скрытого статуса. Если она отключена, все задания будут видны игрокам, если только они не были специально скрыты. Однако следует помнить, что при включении этой опции игроки смогут просматривать скрытые цели заданий, открыв обычный журнал."
-			},
-			"openJournalPinsAsModals": {
-				"name": "Открывать метки на карте как всплывающие окна",
-				"hint": "Если метка на карте связана со страницей журнала, и эта страница не является страницей Simple Quest, страница будет открыта в виде всплывающего окна поверх карты, а не как обычная страница журнала."
-			},
-			"enableQuests": {
-				"name": "Включить задания",
-				"hint": "Определяет, будет ли включен раздел заданий"
-			},
-			"enablePartyJournal": {
-				"name": "Включить журнал группы",
-				"hint": "Определяет, будет ли включен раздел журнала группы"
-			},
-			"enableMyJournal": {
-				"name": "Включить \"Мой журнал\"",
-				"hint": "Определяет, будет ли включен раздел \"Мой журнал\""
-			},
-			"enableMaps": {
-				"name": "Включить карты",
-				"hint": "Определяет, будет ли включен раздел карт"
-			},
-			"enableTimeline": {
-				"name": "Включить хронологию",
-				"hint": "Определяет, будет ли включен раздел хронологии"
-			},
-			"enableLore": {
-				"name": "Включить историю",
-				"hint": "Определяет, будет ли включен раздел истории"
-			},
-			"headerOnlyFont": {
-				"name": "Шрифт заголовка",
-				"hint": "Шрифт для заголовков, если выбрана опция \"По умолчанию\", будет использовать стандартный шрифт."
-			},
-			"imagePageMask": {
-				"name": "Маска изображения на странице",
-				"hint": "Маска для использования на страницах с изображениями. Оставьте пустым, чтобы не применять маску."
-			}
-		},
-		"simple-quest": {
-			"title": "Simple Quest",
-			"windowedModeToggle": "Переключение оконного режима",
-			"tabs": {
-				"quests": "Раздел заданий",
-				"map": "Раздел карт",
-				"lore": "Раздел истории",
-				"timeline": "Раздел хронологии",
-				"my-journal": "Раздел \"Мой журнал\"",
-				"party-journal": "Раздел журнала группы",
-				"tab": " "
-			},
-			"move-to": "Переместить в...",
-			"moveQuest": {
-				"error": "У вас недостаточно прав для перемещения заданий в эту категорию."
-			},
-			"tooltip": {
-				"add-quest": "Добавить задание",
-				"add-map": "Добавить карту",
-				"add-lore": "Добавить историю",
-				"add-page": "Добавить страницу",
-				"edit-lore": "Редактировать историю",
-				"configure-lore-permissions": "Настройка прав",
-				"map-help": "Использование раздела карт",
-				"edit-quest": "Редактировать задание",
-				"delete-quest": "Удалить задание",
-				"delete-lore": "Удалить историю",
-				"share-quest": "Отправить в чат",
-				"duplicate-quest": "Дублировать задание",
-				"duplicate-map": "Дублировать карту",
-				"delete-map": "Удалить карту",
-				"duplicate-lore": "Дублировать историю",
-				"mark-updated": "Пометить задание как обновленное",
-				"add-category": "Добавить категорию",
-				"edit-map": "Редактировать карту",
-				"reset-fow": "Сброс/включение тумана войны",
-				"fow-brush-size": "Размер кисти тумана войны",
-				"measure": "100px = 1 миля",
-				"lock-pins": "Заблокировать / разблокировать метки",
-				"show-players": "Показать игрокам",
-				"edit": "Редактировать",
-				"duplicate": "Дублировать",
-				"delete": "Удалить",
-				"toggle-completed": "Показать выполненные"
-			}
-		},
-		"timeline-config": {
-			"title": "Редактировать событие в хронологии",
-			"label": "Пометка",
-			"labelNote": "Пометка события. Она отображается выше года, может быть использована для отображения какой-то дополнительной информации.",
-			"banner": "Баннер",
-			"hidden": "Скрыть",
-			"year": "Год",
-			"duration": "Длительность (в годах)",
-			"era": "Эпоха",
-			"event": "Событие",
-			"general": "Глобальные настройки",
-			"to": "в",
-			"generalNote": "Эти настройки применяются ко всей хронологии.",
-			"icon": "Иконка",
-			"isEra": "Является эпохой?",
-			"eraStart": "Начало эпохи",
-			"eraEnd": "Конец эпохи",
-			"flipped": "Перевернутый",
-			"offset": "Сдвиг (px)",
-			"description": "Изменить содержимое",
-			"negativeAbb": "Сокращение для \"отрицательного\" года",
-			"showMinus": "Показывать знак минус",
-			"positiveAbb": "Сокращение для \"положительного\" года",
-			"timeScale": "Масштаб шкалы времени",
-			"dynamicTimeScale": "Динамический масштаб шкалы времени",
-			"dynamicTimeScaleNote": "Вместо того чтобы определять размер временной шкалы абсолютным значением, размер шкалы будет зависеть от количества событий в каждой эпохе, и всё ещё будет умножаться на значение масштаба.",
-			"content": "Видимость содержимого",
-			"ignoreDataValidation": "Игнорировать проверку данных",
-			"ignoreDataValidationNote": "В случае, если вам необходимо реорганизовать эпохи, вы можете включить эту опцию, чтобы временно игнорировать проверку данных.",
-			"contentChoices": {
-				"always": "Всегда видимый",
-				"toggleOn": "Переключатель (По умолчанию развернуто)",
-				"toggleOff": "Переключатель (По умолчанию свернуто)"
-			},
-			"errors": {
-				"noEra": "Эпохи не найдены. Сначала необходимо создать эпоху.",
-				"noYear": "Год не найден. Вы должны установить год этого события.",
-				"yearOutOfBounds": "Год должен быть включен в эпоху.",
-				"noEraStart": "Не найдено начало эпохи. Вы должны установить начало эпохи.",
-				"noEraEnd": "Не найден конец эпохи. Вы должны установить конец эпохе.",
-				"eraStartAfterEnd": "Начало эпохи должно быть раньше конца эпохи",
-				"eraNotConnected": "Начало или конец эпохи должно быть связано с другой эпохой.",
-				"eraOverlap": "Эпоха не может пересекаться с другой эпохой"
-			}
-		},
-		"tab-config": {
-			"title": "Настройки разделов"
-		},
-		"theme-config": {
-			"title": "Настройки темы",
-			"info": "Тема позволяет применить определенные предустановки. Вы всегда можете отредактировать каждый аспект темы в настройках модуля.",
-			"themes": {
-				"default": "Стандартный",
-				"redDragon": "Красный дракон",
-				"whiteDragon": "Белый дракон",
-				"D&D": "Подземелья и драконы",
-				"typewriter": "Пишущая машинка",
-				"postApocalypticWasteland": "Постапокалиптическая пустошь",
-				"cyberpunkCity": "Киберпанк",
-				"galacticAdventure": "Галактическое приключение",
-				"steampunkWorkshop": "Мастерская стимпанка",
-				"dystopianFuture": "Мрачное будущее",
-				"virtualRealityOasis": "Виртуальный оазис",
-				"mysticForest": "Мистический лес",
-				"vintageFilmNoir": "Старинный нуарный фильм",
-				"sciFiConsole": "Научная фантастика",
-				"futuristicTech": "Футуризм",
-				"alienInvasion": "Инопланетное вторжение",
-				"ancientScrolls": "Древние свитки",
-				"steampunkAdventure": "Стимпанк приключение"
-			}
-		},
-		"markerConfig": {
-			"title": "Настройки меток",
-			"icon": "Иконка",
-			"journal": "Переместите журнал или страницу сюда",
-			"hidden": "Скрыть",
-			"displayLabel": "Всегда показывать надпись"
-		},
-		"deleteQuest": {
-			"title": "Удалить задание? -",
-			"content": "Вы уверены, что хотите удалить это задание? Это действие нельзя отменить."
-		},
-		"deleteLore": {
-			"title": "Удалить историю? -",
-			"content": "Вы уверены, что хотите удалить эту историю? Это действие нельзя отменить."
-		},
-		"deleteMap": {
-			"title": "Удалить карту? -",
-			"content": "Вы уверены, что хотите удалить эту карту? Это действие нельзя отменить."
-		},
-		"deletePage": {
-			"title": "Удалить страницу? -",
-			"content": "Вы уверены, что хотите удалить эту страницу? Это действие нельзя отменить."
-		},
-		"shareQuest": {
-			"title": "Отправить задание в чат",
-			"content": "Вы действительно хотите отправить уведомление о новом задании в чат?",
-			"chatMessage": "Новое задание доступно!"
-		},
-		"showQuest": {
-			"title": "Показать задание"
-		},
-		"welcomeScreen": {
-			"title": "Добро пожаловать в Simple Quest!",
-			"content": "Добро пожаловать в Simple Quest!<hr>Нажмите <span class='hotkey'>J</span> для того, чтобы открыть окно Simple Quest."
-		},
-		"welcomeMaps": {
-			"title": "Simple Quest: Раздел карт",
-			"content": "Добро пожаловать в раздел карт!<hr><span class='hotkey'>ПКМ + Перемещение</span> - перемещение по карте.<br><span class='hotkey'>СКМ</span> - масштабирование карты.<br><span class='hotkey'>ЛКМ</span> - добавить метку.<br><span class='hotkey'>ЛКМ</span> - открыть связанную с маркером запись или задание.<br><span class='hotkey'>ПКМ</span> - по маркеру для его редактирования.<hr>Туман войны<hr><span class='hotkey'>Shift + ЛКМ</span> - наложить туман войны.<br><span class='hotkey'>Shift + ПКМ</span> - стереть туман войны.<hr>Измерение<hr><span class='hotkey'>Ctrl + ЛКМ</span> - начать измерение. "
-		},
-		"flags": {},
-		"noPermission": "У вас недостаточно прав, чтобы просмотреть этот документ.",
-		"time-enricher": {
-			"expired": "Истек"
-		},
-		"questNotification": {
-			"text": "Задание %q было обновлено!"
-		},
-		"hotkeys": {
-			"toggleSimpleQuest": {
-				"name": "Переключить Simple Quest"
-			}
-		},
-		"notifications": {
-			"defaultStructureCreated": "Simple Quest: Стандартная папка и структура журналов создана.",
-			"playerJournalUpdated": "Simple Quest: Журнал игрока был обновлен.",
-			"noPage": "Simple Quest: Выберите страницу для удаления."
-		},
-		"resetFow": {
-			"title": "Сбросить туман войны?",
-			"content": "Вы уверены, что хотите сбросить/включить туман войны для этой карты? Это действие нельзя отменить."
-		},
-		"proseMirrorMenu": {
-			"callout": {
-				"title": "Выноска",
-				"callout-lore": "История",
-				"callout-magic": "Магия",
-				"callout-item": "Предмет",
-				"callout-creature": "Существо",
-				"callout-event": "Событие",
-				"callout-time": "Время"
-			},
-			"pageInsert": {
-				"title": "Вставка",
-				"parchment-note-1": "Записка на пергаменте 1",
-				"parchment-note-2": "Записка на пергаменте 2",
-				"parchment-note-3": "Записка на пергаменте 3",
-				"parchment-note-4": "Записка на пергаменте 4",
-				"parchment-book-1": "Книга 1",
-				"parchment-book-2": "Книга 2",
-				"parchment-scroll-1": "Свиток"
-			},
-			"text": {
-				"initial": "Large Initial"
-			}
-		},
-		"page-template": {
-			"label": "Шаблон страницы",
-			"description": "Это набор HTML-шаблонов для форматирования страниц вашего журнала. Это форматирование будет продолжать работать даже в случае отключения модуля Simple Quest. Щелкните по кнопке, чтобы добавить шаблон в конец страницы."
-		},
-		"injected": {
-			"fowMask": {
-				"label": "Simple Quest: Маска тумана войны"
-			}
-		},
-		"tours": {
-			"interface": {
-				"name": "Экскурс по интерфейсу и разделу заданий",
-				"description": "Этот экскурс покажет вам как использовать основной интерфейс Simple Quest и раздел заданий.",
-				"1": {
-					"title": "Секции",
-					"content": "Эта область отображает различные разделы Simple Quest. Вы можете нажать на раздел, чтобы перейти к нему. Щелчок правой кнопкой мыши позволит перейти к редактирования названия разделов, наведя курсор на правый верхний угол, вам станет доступна опция переключения полноэкранного режима."
-				},
-				"2": {
-					"title": "Список заданий",
-					"content": "Эта область содержит в себе список всех заданий и их категорий. Нажав правой кнопкой мыши по категории, вы можете изменить ее название. В правом верхнем углу располагаются кнопки добавления нового задания и новой категории. Наведя курсор чуть левее названия задания, вы можете отредактировать его видимость."
-				},
-				"3": {
-					"title": "Подробности задания",
-					"content": "Эта область показывать подробную информацию по выбранному заданию. В верхнем правом углу находится интерфейс управления заданием, наведя курсор на любую из кнопок, вы увидите всплывающую подсказку, которая объяснит назначение этой кнопки."
-				},
-				"4": {
-					"title": "Размер шрифта",
-					"content": "Эта область позволит вам изменить размер шрифта в Simple Quest"
-				}
-			},
-			"lore-tab": {
-				"name": "Раздел истории",
-				"description": "Этот экскурс покажет вам как использовать раздел истории.",
-				"1": {
-					"title": "Раздел истории",
-					"content": "Раздел историй показывать все журналы, относящиеся к соответствующей папке. Этот раздел не предоставляет никакого дополнительного функционала, но может использован для удобного доступа к вашему \"кодексу\". Права доступа для просмотра страниц истории соответствуют правам доступа к журналам из ядра Foundry."
-				},
-				"2": {
-					"title": "Список историй",
-					"content": "Эта область содержит в себе список всех историй и их категорий. Нажав правой кнопкой мыши по категории, вы можете изменить ее название. В правом верхнем углу располагаются кнопки добавления новой истории и новой категории. Наведя курсор чуть левее названия истории, вы можете отредактировать ее видимость."
-				},
-				"3": {
-					"title": "Подробности истории",
-					"content": "Эта область показывать подробную информацию по выбранной истории. В верхнем правом углу находится интерфейс управления заданием, наведя курсор на любую из кнопок, вы увидите всплывающую подсказку, которая объяснит назначение этой кнопки."
-				}
-			},
-			"map-tab": {
-				"name": "Раздел карт",
-				"description": "Этот экскурс покажет вам как использовать раздел карт.",
-				"1": {
-					"title": "Раздел карт",
-					"content": "Раздел карт показывать все карты, относящиеся к журналу карт в папке заданий."
-				},
-				"2": {
-					"title": "Список карт",
-					"content": "Эта область содержит в себе список всех карт. В правом верхнем углу располагается кнопка добавления новой карты, а также кнопка, которая позволит вам узнать больше о возможностях редактирования карт. Наведя курсор чуть левее названия карты, вы можете отредактировать ее видимость."
-				},
-				"3": {
-					"title": "Подробности карты",
-					"content": "Эта область включается в себя выбранную карту. Вы можете свободно перемещаться по ней с зажатой левой кнопкой мыши, а также масштабировать ее с помощью колесика мыши. В верхнем правом углу находятся кнопки управления картой, наведя курсор на любую из кнопок, вы увидите всплывающую подсказку, которая объяснит назначение этой кнопки."
-				},
-				"4": {
-					"title": "Метки",
-					"content": "Вы можете щелкнуть правой кнопкой мыши (можно удерживать для предварительного просмотра) по карте, чтобы добавить метку, также можно щелкнуть правой кнопкой мыши по ней для редактирования или перетаскивания. Щелчок левой кнопкой мыши позволит открыть связанную с ним заметку, задание или документ. Перетащив любой документ на карту, будет создана метка, связанная с этим документом."
-				},
-				"5": {
-					"title": "Туман войны",
-					"content": "Для отображения кисти тумана войны необходимо зажать шифт. Левой кнопкой мыши можно наложить туман войны, а правой - стереть его."
-				},
-				"6": {
-					"title": "Измерение",
-					"content": "Удерживая Ctrl вы можете нажать ЛКМ, чтобы воспользоваться инструментом измерения."
-				}
-			},
-			"my-journal-tab": {
-				"name": "Раздел \"Мой журнал\"",
-				"description": "Этот экскурс покажет вам как использовать раздел \"Мой журнал\".",
-				"1": {
-					"title": "Раздел \"Мой журнал\"",
-					"content": "Раздел \"Мой журнал\" показывает персональный журнал, его могут видеть Ведущий и Вы."
-				},
-				"2": {
-					"title": "Содержание",
-					"content": "Эта область включает в себя содержание журнала. Любой заголовок, созданный вами в журнале будет отображен здесь для упрощения навигации."
-				},
-				"3": {
-					"title": "Содержимое журнала",
-					"content": "Это область включает в себя содержимое журнала. Вы можете перейти к его редактированию нажав на кнопку \"Редактировать\" в правом верхнем углу."
-				}
-			},
-			"party-journal-tab": {
-				"name": "Раздел журнала группы",
-				"description": "Этот экскурс покажет вам как использовать раздел журнала группы.",
-				"1": {
-					"title": "Раздел журнала группы",
-					"content": "Раздел журнала группы включает в себя журнал, который могут просматривать и редактировать все пользователи."
-				},
-				"2": {
-					"title": "Содержание",
-					"content": "Эта область включает в себя содержание журнала группы. Любой заголовок, созданный вами в журнале будет отображен здесь для упрощения навигации."
-				},
-				"3": {
-					"title": "Содержимое журнала",
-					"content": "Это область включает в себя содержимое журнала группы. Вы можете перейти к его редактированию нажав на кнопку \"Редактировать\" в правом верхнем углу."
-				}
-			},
-			"journal-page": {
-				"name": "Особенности страницы журнала",
-				"description": "Этот экскурс покажет вам как использовать страницу журнала.",
-				"1": {
-					"title": "Шаблоны страницы",
-					"content": "Simple Quest добавлять шаблоны страниц. Это удобный функционал для быстрого добавления заранее отформатированных частей для вашей страницы. Нажмите на эту кнопку, чтобы увидеть доступные шаблоны."
-				},
-				"2": {
-					"title": "Форматирование",
-					"content": "В этом выпадающем меню вы найдете опции \"Выноска\" и \"Вставка\", они позволят дополнительно украсить ваши документы."
-				}
-			},
-			"timeline-tab": {
-				"name": "Раздел хронологии",
-				"description": "Этот экскурс покажет вам как использовать раздел хронологии.",
-				"1": {
-					"title": "Раздел хронологии",
-					"content": "Раздел хронологии показывает хронологию событий."
-				},
-				"2": {
-					"title": "Хронологический список",
-					"content": "Эта область содержит в себе список всех событий и эпох. Щелчок левой кнопкой мыши по одной из них позволит вам перейти к ее содержимому, а щелчок правой кнопкой мыши позволит отредактировать ее."
-				},
-				"3": {
-					"title": "Добавить событие или эпоху",
-					"content": "С помощью этой кнопки вы можете добавить событие или эпоху. Форма настроек позволит вам детально настроить все связанные с ними моменты."
-				}
-			}
-		},
-		"default-structure": {
-			"in-progress": "In Progress",
-			"completed": "Completed",
-			"failed": "Failed",
-			"locations": "Locations",
-			"npcs": "NPCs",
-			"organizations": "Organizations",
-			"history": "History",
-			"bestiary": "Bestiary"
-		}
-	}
+  "simple-quest": {
+    "settings": {
+      "tabConfig": {
+        "name": "Configurazione delle sezioni",
+        "hint": "Impostazioni dei nomi delle sezioni di Simple Quest.",
+        "label": "Configura i nomi delle sezioni"
+      },
+      "themeConfig": {
+        "name": "Impostazioni del tema",
+        "hint": "Configurazioni del tema di Simple Quest.",
+        "label": "Configura il tema"
+      },
+      "folderName": {
+        "name": "Nome cartella",
+        "hint": "Nome della cartella contenente i diari di Simple Quest",
+        "default": "Quests"
+      },
+      "mapsJournalName": {
+        "name": "Nome diario delle mappe",
+        "hint": "Nome del diario contenente le mappe di Simple Quest",
+        "default": "Maps"
+      },
+      "timelineJournalName": {
+        "name": "Nome diario della cronologia",
+        "hint": "Nome del diario contenente la cronologia",
+        "default": "Timeline"
+      },
+      "loreFolderName": {
+        "name": "Nome diario della storia",
+        "hint": "Nome del diario contenente la storia",
+        "default": "Lore"
+      },
+      "partyJournalName": {
+        "name": "Nome diario del gruppo",
+        "hint": "Nome del diario contenente le annotazioni del gruppo",
+        "default": "Party"
+      },
+      "sharedJournalName": {
+        "name": "Nome diario condiviso",
+        "hint": "Nome del diario contenente le annotazioni condivise",
+        "default": "Shared"
+      },
+      "backgroundColor": {
+        "name": "Colore di sfondo",
+        "hint": "Colore di sfondo per Simple Quest"
+      },
+      "labelColor": {
+        "name": "Colore globale delle etichette",
+        "hint": "Se impostato, tutti i colori delle etichette sulle mappe saranno determinati da questo colore. Imposta su \"none\" per disattivare."
+      },
+      "invertTheme": {
+        "name": "Inverti tema",
+        "hint": "Determina se la tavolozza dei colori del tema sarà invertita. L'inversione può generare risultati inattesi."
+      },
+      "matchJournalStyle": {
+        "name": "Adatta lo stile del diario",
+        "hint": "Se attivo, cercherà di adattarsi agli stili personalizzati applicati ai diari. Potrebbero verificarsi effetti collaterali in base al tema."
+      },
+      "textColor": {
+        "name": "Colore del testo",
+        "hint": "Colore del testo per Simple Quest"
+      },
+      "secretColor": {
+        "name": "Colore dei segreti",
+        "hint": "Colore degli obiettivi segreti delle missioni in Simple Quest"
+      },
+      "failedColor": {
+        "name": "Colore dei fallimenti",
+        "hint": "Colore degli obiettivi falliti delle missioni in Simple Quest"
+      },
+      "hideFolderFromPlayers": {
+        "name": "Nascondi cartella ai giocatori",
+        "hint": "Determina se la cartella di Simple Quest sarà nascosta ai giocatori"
+      },
+      "fontFamily": {
+        "name": "Font",
+        "hint": "Font utilizzato in Simple Quest"
+      },
+      "useMessageTheme": {
+        "name": "Tema dei messaggi in chat",
+        "hint": "Determina se usare un tema personalizzato per i messaggi di Simple Quest nella chat"
+      },
+      "showQuestNotifications": {
+        "name": "Mostra notifiche delle missioni",
+        "hint": "Determina se mostrare le notifiche quando una missione viene aggiornata o inviata in chat."
+      },
+      "newQuestSoundEffect": {
+        "name": "Suono per nuova missione",
+        "hint": "Suono che verrà riprodotto alla comparsa della notifica di una nuova missione"
+      },
+      "updateQuestSoundEffect": {
+        "name": "Suono aggiornamento missione",
+        "hint": "Suono che verrà riprodotto alla comparsa della notifica di aggiornamento di una missione"
+      },
+      "matchJournalPermission": {
+        "name": "Controlla permessi del diario",
+        "hint": "Determina se i permessi utente relativi alle missioni saranno rispettati oltre al loro stato di visibilità. Se disattivato, tutte le missioni saranno visibili ai giocatori, salvo che non siano state esplicitamente nascoste. Nota: se attivo, i giocatori potranno comunque vedere gli obiettivi segreti aprendo il diario normale."
+      },
+      "openJournalPinsAsModals": {
+        "name": "Apri segnaposto come finestre modali",
+        "hint": "Se un segnaposto è collegato a una pagina diario (non Simple Quest), verrà aperta come finestra modale sopra la mappa."
+      },
+      "enableQuests": {
+        "name": "Abilita missioni",
+        "hint": "Determina se la sezione missioni sarà attivata"
+      },
+      "enablePartyJournal": {
+        "name": "Abilita diario del gruppo",
+        "hint": "Determina se la sezione diario del gruppo sarà attivata"
+      },
+      "enableMyJournal": {
+        "name": "Abilita \"Il mio diario\"",
+        "hint": "Determina se la sezione \"Il mio diario\" sarà attivata"
+      },
+      "enableMaps": {
+        "name": "Abilita mappe",
+        "hint": "Determina se la sezione mappe sarà attivata"
+      },
+      "enableTimeline": {
+        "name": "Abilita cronologia",
+        "hint": "Determina se la sezione cronologia sarà attivata"
+      },
+      "enableLore": {
+        "name": "Abilita storia",
+        "hint": "Determina se la sezione storia sarà attivata"
+      },
+      "headerOnlyFont": {
+        "name": "Font per intestazioni",
+        "hint": "Font per le intestazioni. Se impostato su \"Default\" verrà usato il font standard."
+      },
+      "imagePageMask": {
+        "name": "Maschera per pagina immagine",
+        "hint": "Maschera da applicare alle pagine con immagini. Lascia vuoto per non applicare alcuna maschera."
+      }
+    },
+    "simple-quest": {
+      "title": "Simple Quest",
+      "windowedModeToggle": "Attiva/disattiva modalità finestra",
+      "tabs": {
+        "quests": "Sezione missioni",
+        "map": "Sezione mappe",
+        "lore": "Sezione storia",
+        "timeline": "Sezione cronologia",
+        "my-journal": "Sezione \"Il mio diario\"",
+        "party-journal": "Sezione diario del gruppo",
+        "tab": " "
+      },
+      "move-to": "Sposta in...",
+      "moveQuest": {
+        "error": "Non hai i permessi per spostare le missioni in questa categoria."
+      },
+      "tooltip": {
+        "add-quest": "Aggiungi missione",
+        "add-map": "Aggiungi mappa",
+        "add-lore": "Aggiungi storia",
+        "add-page": "Aggiungi pagina",
+        "edit-lore": "Modifica storia",
+        "configure-lore-permissions": "Configura permessi",
+        "map-help": "Uso della sezione mappe",
+        "edit-quest": "Modifica missione",
+        "delete-quest": "Elimina missione",
+        "delete-lore": "Elimina storia",
+        "share-quest": "Invia in chat",
+        "duplicate-quest": "Duplica missione",
+        "duplicate-map": "Duplica mappa",
+        "delete-map": "Elimina mappa",
+        "duplicate-lore": "Duplica storia",
+        "mark-updated": "Segna la missione come aggiornata",
+        "add-category": "Aggiungi categoria",
+        "edit-map": "Modifica mappa",
+        "reset-fow": "Ripristina/attiva nebbia di guerra",
+        "fow-brush-size": "Dimensione pennello nebbia di guerra",
+        "measure": "100px = 1 miglio",
+        "lock-pins": "Blocca/sblocca marcatori",
+        "show-players": "Mostra ai giocatori",
+        "edit": "Modifica",
+        "duplicate": "Duplica",
+        "delete": "Elimina",
+        "toggle-completed": "Mostra completate"
+      }
+    },
+    "timeline-config": {
+      "title": "Modifica evento della cronologia",
+      "label": "Etichetta",
+      "labelNote": "Etichetta dell'evento. Appare sopra l'anno e può essere usata per informazioni aggiuntive.",
+      "banner": "Banner",
+      "hidden": "Nascondi",
+      "year": "Anno",
+      "duration": "Durata (in anni)",
+      "era": "Epoca",
+      "event": "Evento",
+      "general": "Impostazioni generali",
+      "to": "a",
+      "generalNote": "Queste impostazioni si applicano all'intera cronologia.",
+      "icon": "Icona",
+      "isEra": "È un'epoca?",
+      "eraStart": "Inizio epoca",
+      "eraEnd": "Fine epoca",
+      "flipped": "Invertito",
+      "offset": "Offset (px)",
+      "description": "Modifica contenuto",
+      "negativeAbb": "Abbreviazione per anno \"negativo\"",
+      "showMinus": "Mostra il segno meno",
+      "positiveAbb": "Abbreviazione per anno \"positivo\"",
+      "timeScale": "Scala temporale",
+      "dynamicTimeScale": "Scala temporale dinamica",
+      "dynamicTimeScaleNote": "Invece di definire la scala con un valore assoluto, verrà calcolata in base al numero di eventi per epoca, moltiplicata per il valore di scala.",
+      "content": "Visibilità contenuto",
+      "ignoreDataValidation": "Ignora convalida dati",
+      "ignoreDataValidationNote": "Se devi riorganizzare le epoche, puoi attivare questa opzione per ignorare temporaneamente la convalida dei dati.",
+      "contentChoices": {
+        "always": "Sempre visibile",
+        "toggleOn": "Toggle (Espanso di default)",
+        "toggleOff": "Toggle (Compresso di default)"
+      },
+      "errors": {
+        "noEra": "Nessuna epoca trovata. Devi prima crearne una.",
+        "noYear": "Anno mancante. Devi impostare l'anno di questo evento.",
+        "yearOutOfBounds": "L'anno deve rientrare nell'epoca.",
+        "noEraStart": "Inizio epoca mancante. Devi impostarlo.",
+        "noEraEnd": "Fine epoca mancante. Devi impostarlo.",
+        "eraStartAfterEnd": "L'inizio dell'epoca deve precedere la fine.",
+        "eraNotConnected": "Inizio o fine dell'epoca devono essere collegati a un'altra epoca.",
+        "eraOverlap": "Un'epoca non può sovrapporsi a un'altra."
+      }
+    },
+    "tab-config": {
+      "title": "Impostazioni delle sezioni"
+    },
+    "theme-config": {
+      "title": "Impostazioni tema",
+      "info": "Il tema consente di applicare preset specifici. Puoi modificare ogni aspetto nelle impostazioni del modulo.",
+      "themes": {
+        "default": "Standard",
+        "redDragon": "Drago Rosso",
+        "whiteDragon": "Drago Bianco",
+        "D&D": "Dungeons & Dragons",
+        "typewriter": "Macchina da scrivere",
+        "postApocalypticWasteland": "Deserto post-apocalittico",
+        "cyberpunkCity": "Cyberpunk",
+        "galacticAdventure": "Avventura Galattica",
+        "steampunkWorkshop": "Officina Steampunk",
+        "dystopianFuture": "Futuro distopico",
+        "virtualRealityOasis": "Oasi di realtà virtuale",
+        "mysticForest": "Foresta mistica",
+        "vintageFilmNoir": "Film noir vintage",
+        "sciFiConsole": "Console sci-fi",
+        "futuristicTech": "Tecnologia futuristica",
+        "alienInvasion": "Invasione aliena",
+        "ancientScrolls": "Pergamene antiche",
+        "steampunkAdventure": "Avventura steampunk"
+      }
+    },
+    "markerConfig": {
+      "title": "Configurazione marcatori",
+      "icon": "Icona",
+      "journal": "Trascina qui diario o pagina",
+      "hidden": "Nascondi",
+      "displayLabel": "Mostra sempre etichetta"
+    },
+    "deleteQuest": {
+      "title": "Eliminare la missione? -",
+      "content": "Sei sicuro di voler eliminare questa missione? L'operazione è irreversibile."
+    },
+    "deleteLore": {
+      "title": "Eliminare la storia? -",
+      "content": "Sei sicuro di voler eliminare questa storia? L'operazione è irreversibile."
+    },
+    "deleteMap": {
+      "title": "Eliminare la mappa? -",
+      "content": "Sei sicuro di voler eliminare questa mappa? L'operazione è irreversibile."
+    },
+    "deletePage": {
+      "title": "Eliminare la pagina? -",
+      "content": "Sei sicuro di voler eliminare questa pagina? L'operazione è irreversibile."
+    },
+    "shareQuest": {
+      "title": "Invia missione in chat",
+      "content": "Vuoi davvero inviare la notifica della nuova missione in chat?",
+      "chatMessage": "Nuova missione disponibile!"
+    },
+    "showQuest": {
+      "title": "Mostra missione"
+    },
+    "welcomeScreen": {
+      "title": "Benvenuto in Simple Quest!",
+      "content": "Benvenuto in Simple Quest!<hr>Premi <span class='hotkey'>J</span> per aprire la finestra di Simple Quest."
+    },
+    "welcomeMaps": {
+      "title": "Simple Quest: Sezione Mappe",
+      "content": "Benvenuto nella sezione mappe!<hr><span class='hotkey'>Tasto destro + Trascina</span> – muoversi sulla mappa.<br><span class='hotkey'>Tasto centrale</span> – zoom della mappa.<br><span class='hotkey'>Tasto sinistro</span> – aggiungi marcatore.<br><span class='hotkey'>Tasto sinistro</span> – apri il documento o missione collegato al marcatore.<br><span class='hotkey'>Tasto destro</span> – modifica il marcatore.<hr>Nebbia di guerra<hr><span class='hotkey'>Shift + Tasto sinistro</span> – applica nebbia di guerra.<br><span class='hotkey'>Shift + Tasto destro</span> – cancella nebbia di guerra.<hr>Misurazione<hr><span class='hotkey'>Ctrl + Tasto sinistro</span> – avvia misurazione."
+    },
+    "flags": {},
+    "noPermission": "Non hai i permessi per visualizzare questo documento.",
+    "time-enricher": {
+      "expired": "Scaduto"
+    },
+    "questNotification": {
+      "text": "La missione %q è stata aggiornata!"
+    },
+    "hotkeys": {
+      "toggleSimpleQuest": {
+        "name": "Attiva/disattiva Simple Quest"
+      }
+    },
+    "notifications": {
+      "defaultStructureCreated": "Simple Quest: Struttura predefinita delle cartelle e dei diari creata.",
+      "playerJournalUpdated": "Simple Quest: Il diario del giocatore è stato aggiornato.",
+      "noPage": "Simple Quest: Seleziona una pagina da eliminare."
+    },
+    "resetFow": {
+      "title": "Ripristinare la nebbia di guerra?",
+      "content": "Sei sicuro di voler ripristinare/attivare la nebbia di guerra per questa mappa? Questa operazione è irreversibile."
+    },
+    "proseMirrorMenu": {
+      "callout": {
+        "title": "Riquadro",
+        "callout-lore": "Storia",
+        "callout-magic": "Magia",
+        "callout-item": "Oggetto",
+        "callout-creature": "Creatura",
+        "callout-event": "Evento",
+        "callout-time": "Tempo"
+      },
+      "pageInsert": {
+        "title": "Inserimento",
+        "parchment-note-1": "Nota su pergamena 1",
+        "parchment-note-2": "Nota su pergamena 2",
+        "parchment-note-3": "Nota su pergamena 3",
+        "parchment-note-4": "Nota su pergamena 4",
+        "parchment-book-1": "Libro 1",
+        "parchment-book-2": "Libro 2",
+        "parchment-scroll-1": "Pergamena"
+      },
+      "text": {
+        "initial": "Lettera grande iniziale"
+      }
+    },
+    "page-template": {
+      "label": "Modello di pagina",
+      "description": "Questo è un insieme di template HTML per formattare le pagine del tuo diario. La formattazione rimarrà attiva anche se il modulo Simple Quest verrà disattivato. Clicca sul pulsante per aggiungere il template alla fine della pagina."
+    },
+    "injected": {
+      "fowMask": {
+        "label": "Simple Quest: Maschera nebbia di guerra"
+      }
+    },
+    "tours": {
+      "interface": {
+        "name": "Tour dell'interfaccia e sezione missioni",
+        "description": "Questo tour ti mostra come usare l'interfaccia principale di Simple Quest e la sezione missioni.",
+        "1": {
+          "title": "Sezioni",
+          "content": "Questa area mostra le varie sezioni di Simple Quest. Puoi cliccare per accedere a ciascuna. Clic con il tasto destro ti permette di modificarne il nome. Passando col cursore sull'angolo in alto a destra puoi attivare la modalità a schermo intero."
+        },
+        "2": {
+          "title": "Elenco missioni",
+          "content": "Questa area contiene tutte le missioni e categorie. Clic destro su una categoria per rinominarla. In alto a destra ci sono i pulsanti per aggiungere una nuova missione o categoria. Passando il cursore accanto al nome di una missione puoi modificarne la visibilità."
+        },
+        "3": {
+          "title": "Dettagli missione",
+          "content": "Qui vengono mostrati i dettagli della missione selezionata. In alto a destra ci sono i controlli; passa il cursore su un'icona per leggere la descrizione del suo funzionamento."
+        },
+        "4": {
+          "title": "Dimensione testo",
+          "content": "Questa sezione ti consente di cambiare la dimensione del testo in Simple Quest."
+        }
+      },
+
+      "lore-tab": {
+        "name": "Sezione Storia",
+        "description": "Questo tour ti mostra come usare la sezione Storia.",
+        "1": {
+          "title": "Sezione Storia",
+          "content": "La sezione Storia mostra tutti i diari nella cartella corrispondente. Non fornisce funzionalità aggiuntive, ma consente un accesso comodo al tuo 'codex'. I permessi di accesso corrispondono a quelli dei diari di Foundry."
+        },
+        "2": {
+          "title": "Elenco Storie",
+          "content": "Questa area contiene tutte le storie e le loro categorie. Clic destro su una categoria per rinominarla. In alto a destra trovi i pulsanti per aggiungere una nuova storia o categoria. Passando il cursore vicino al nome della storia, puoi modificarne la visibilità."
+        },
+        "3": {
+          "title": "Dettagli Storia",
+          "content": "Quest'area mostra i dettagli della storia selezionata. In alto a destra ci sono i controlli; passa il cursore su qualsiasi pulsante per vedere un suggerimento sul suo utilizzo."
+        }
+      },
+      "map-tab": {
+        "name": "Sezione Mappe",
+        "description": "Questo tour ti mostra come usare la sezione Mappe.",
+        "1": {
+          "title": "Sezione Mappe",
+          "content": "La sezione Mappe mostra tutte le mappe associate al diario nella cartella missioni."
+        },
+        "2": {
+          "title": "Elenco Mappe",
+          "content": "Questa area elenca tutte le mappe. In alto a destra trovi il pulsante per aggiungere una nuova mappa e uno per ottenere maggiori informazioni sulle funzionalità di modifica. Passando il cursore vicino al nome della mappa puoi modificarne la visibilità."
+        },
+        "3": {
+          "title": "Dettagli Mappa",
+          "content": "Questa area mostra la mappa selezionata. Puoi muoverti liberamente con il tasto sinistro del mouse premuto e zoomare con la rotella. In alto a destra ci sono i controlli della mappa; passa sopra ai pulsanti per leggere i suggerimenti."
+        },
+        "4": {
+          "title": "Marcatori",
+          "content": "Puoi cliccare con il tasto destro sulla mappa per aggiungere un marcatore (oppure tenerlo premuto per anteprima). Puoi anche cliccare con il tasto destro su un marcatore per modificarlo o spostarlo. Con un clic sinistro apri il documento, missione o nota collegata. Trascinando un documento sulla mappa viene creato un marcatore collegato."
+        },
+        "5": {
+          "title": "Nebbia di guerra",
+          "content": "Per mostrare il pennello della nebbia di guerra, tieni premuto Shift. Tasto sinistro per applicarla, tasto destro per rimuoverla."
+        },
+        "6": {
+          "title": "Misurazione",
+          "content": "Tieni premuto Ctrl e clicca con il tasto sinistro per usare lo strumento di misurazione."
+        }
+      },
+      "my-journal-tab": {
+        "name": "Sezione 'Il mio diario'",
+        "description": "Questo tour ti mostra come usare la sezione 'Il mio diario'.",
+        "1": {
+          "title": "Sezione 'Il mio diario'",
+          "content": "Mostra il diario personale. È visibile solo a te e al Master."
+        },
+        "2": {
+          "title": "Indice",
+          "content": "Quest’area mostra l’indice del diario. Ogni intestazione creata verrà mostrata qui per facilitare la navigazione."
+        },
+        "3": {
+          "title": "Contenuto del diario",
+          "content": "Questa sezione contiene il contenuto del diario. Puoi modificarlo cliccando su 'Modifica' in alto a destra."
+        }
+      },
+      "party-journal-tab": {
+        "name": "Sezione Diario di gruppo",
+        "description": "Questo tour ti mostra come usare la sezione del diario di gruppo.",
+        "1": {
+          "title": "Sezione Diario di gruppo",
+          "content": "Contiene il diario condiviso che può essere visualizzato e modificato da tutti gli utenti."
+        },
+        "2": {
+          "title": "Indice",
+          "content": "Questa sezione contiene l’indice del diario di gruppo. Tutte le intestazioni create verranno elencate qui."
+        },
+        "3": {
+          "title": "Contenuto del diario",
+          "content": "Questa sezione mostra il contenuto del diario di gruppo. Clicca su 'Modifica' in alto a destra per modificarlo."
+        }
+      },
+      "journal-page": {
+        "name": "Funzionalità delle pagine del diario",
+        "description": "Questo tour ti mostra come usare una pagina del diario.",
+        "1": {
+          "title": "Template pagina",
+          "content": "Simple Quest aggiunge dei modelli di pagina. Puoi usarli per inserire rapidamente sezioni preformattate. Clicca sul pulsante per vedere i modelli disponibili."
+        },
+        "2": {
+          "title": "Formattazione",
+          "content": "Nel menu a tendina troverai le opzioni 'Riquadro' e 'Inserimento' che ti permettono di abbellire i documenti."
+        }
+      },
+      "timeline-tab": {
+        "name": "Sezione Cronologia",
+        "description": "Questo tour ti mostra come usare la sezione Cronologia.",
+        "1": {
+          "title": "Sezione Cronologia",
+          "content": "Mostra la linea temporale degli eventi."
+        },
+        "2": {
+          "title": "Elenco cronologico",
+          "content": "Contiene tutti gli eventi ed epoche. Clic sinistro per visualizzarne il contenuto, clic destro per modificarlo."
+        },
+        "3": {
+          "title": "Aggiungi evento o epoca",
+          "content": "Con questo pulsante puoi aggiungere un nuovo evento o epoca. Il modulo di configurazione ti permetterà di impostarli nel dettaglio."
+        }
+      }
+    },
+    "default-structure": {
+      "in-progress": "In corso",
+      "completed": "Completato",
+      "failed": "Fallito",
+      "locations": "Luoghi",
+      "npcs": "PNG",
+      "organizations": "Organizzazioni",
+      "history": "Storia",
+      "bestiary": "Bestiario"
+    }
+  }
 }

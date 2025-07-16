@@ -1,90 +1,90 @@
 {
-	"raise-my-hand": {
-		"UINOTIFICATION": " поднимает руку",
-		"CHATMESSAGE": "поднимает руку!",
-		"kandashisfluidcanvas": "Вам нужен модуль Fluid Canvas!",
+  "raise-my-hand": {
+    "UINOTIFICATION": " alza la mano",
+    "CHATMESSAGE": "alza la mano!",
+    "kandashisfluidcanvas": "È necessario il modulo Fluid Canvas!",
 
-		"settings": {
-			"handtooglebehavior": {
-				"name": "Работа в режиме переключения",
-				"hint": "Когда включено, то модуль будет работать в режиме переключения, это означает, что вам нужно нажать один раз, чтобы привлечь внимание, а нажав второй раз - вы отмените запрос. Если вы отключите эту опцию, то при каждом срабатывании модуля он будет отправлять запрос на привлечение внимание. Значок руки, рядом с именем игрока, перестанет работать."
-			},
-			"displayhand": {
-				"name": "Показывать руку в списке игроков",
-				"hint": "В списке игроков будет появляется значок руки"
-			},
-			"showuinotification": {
-				"name": "Показывать уведомления",
-				"hint": "Уведомление будет показано всем игрокам"
-			},
-			"makeuinotificationpermanent": {
-				"name": "Постоянное уведомление",
-				"hint": "Эта опция сделает уведомление постоянным. Чтобы скрыть его, нужно будет на него нажать."
-			},
-			"showuinotificationonlytogm": {
-				"name": "Уведомление только для GM",
-				"hint": "Эта опция показывает уведомление только GM"
-			},
-			"showuichatmessage": {
-				"name": "Показать сообщение в чате",
-				"hint": "В чате будет появляться сообщение"
-			},
-			"showuichatmessageonlyforgm": {
-				"name": "Сообщение в чате только для GM",
-				"hint": "Если вы отметите эту опцию, то сообщение в чате будет показываться только GM"
-			},
-			"showimagechatmessage": {
-				"name": "Добавить изображение в чат",
-				"hint": "Эта опция добавит изображение в чат."
-			},
-			"chatimagepath": {
-				"name": "Путь к изображению",
-				"hint": "Вы можете задать путь к изображению, отображаемому в чате"
-			},
-			"chatimagewidth": {
-				"name": "Ширина изображения чата",
-				"hint": "Вы можете задать размер вашего изображения или аватара игрока, в процентах"
-			},
-			"chatmessageimageuserart": {
-				"name": "Заменить изображение чата на аватар игрока",
-				"hint": "Это позволит использовать аватар игрока в качестве изображения чата, вместо изображения по умолчанию."
-			},
-			"playsound": {
-				"name": "Проигрывать звук",
-				"hint": "Будет воспроизведён звук по умолчанию"
-			},
-			"warningsoundpath": {
-				"name": "Путь к звуку 'Внимание'",
-				"hint": "Вы можете установить путь к звуку, который вам больше нравится."
-			},
-			"warningsoundvolume": {
-				"name": "Громкость звука 'Внимание'",
-				"hint": "Вы можете установить громкость звука 'Внимание'. Используйте 0.1 для 10% громкости, 0.6 для 60% громкости."
-			},
-			"shakescreen": {
-				"name": "Встряхнуть экран",
-				"hint": "При активации этой опции экран будет дрожать. НУЖЕН МОДУЛЬ Fluid Canvas!"
-			},
-			"showdialogmessage": {
-				"name": "Показать диалог",
-				"hint": "Появится диалоговое окно с заданным изображением."
-			},
-			"xcard": {
-				"name": "X-карты",
-				"hint": "Включите, что бы активировать опцию Х-карт. Внимание: Мир будет перезапущен."
-			},
-			"xcardgmonly": {
-				"name": "Показывать Х-карту только GM",
-				"hint": "Эта опция позволит видеть Х-карту только GM, иначе она будет отображаться всем."
-			},
-			"xcardsound": {
-				"name": "Проигрывать предупреждение об X-карте",
-				"hint": "Включите эту опцию, для воспроизведения звука при срабатывании карты X-карты"
-			},
-			"xcardsoundvolume": {
-				"name": "Громкость звука X-карты",
-				"hint": "Вы можете установить громкость предупреждения об Х-карте. Используйте 0.1 для 10% громкости, 0.6 для 60% громкости."
-			}
-		}
-	}
+    "settings": {
+      "handtooglebehavior": {
+        "name": "Funzionamento con modalità toggle",
+        "hint": "Se abilitato, il modulo funzionerà in modalità toggle: un clic per attirare l'attenzione, un secondo clic per annullare. Se disabilitato, ogni attivazione invierà una nuova richiesta. L’icona della mano accanto al nome del giocatore smetterà di funzionare."
+      },
+      "displayhand": {
+        "name": "Mostra la mano nell’elenco dei giocatori",
+        "hint": "Mostra un'icona della mano accanto al nome del giocatore nell’elenco"
+      },
+      "showuinotification": {
+        "name": "Mostra notifiche",
+        "hint": "Una notifica verrà mostrata a tutti i giocatori"
+      },
+      "makeuinotificationpermanent": {
+        "name": "Notifica permanente",
+        "hint": "La notifica resterà visibile finché non verrà cliccata per essere chiusa"
+      },
+      "showuinotificationonlytogm": {
+        "name": "Notifica solo per il GM",
+        "hint": "La notifica verrà mostrata solo al GM"
+      },
+      "showuichatmessage": {
+        "name": "Mostra messaggio in chat",
+        "hint": "Il messaggio verrà visualizzato nella chat"
+      },
+      "showuichatmessageonlyforgm": {
+        "name": "Messaggio in chat solo per GM",
+        "hint": "Se selezionato, il messaggio in chat sarà visibile solo al GM"
+      },
+      "showimagechatmessage": {
+        "name": "Aggiungi immagine in chat",
+        "hint": "Aggiunge un'immagine al messaggio in chat"
+      },
+      "chatimagepath": {
+        "name": "Percorso dell'immagine",
+        "hint": "Specifica il percorso dell’immagine da mostrare in chat"
+      },
+      "chatimagewidth": {
+        "name": "Larghezza immagine in chat",
+        "hint": "Specifica la dimensione dell’immagine o avatar del giocatore, in percentuale"
+      },
+      "chatmessageimageuserart": {
+        "name": "Sostituisci immagine chat con avatar giocatore",
+        "hint": "Utilizza l’avatar del giocatore al posto dell’immagine predefinita"
+      },
+      "playsound": {
+        "name": "Riproduci suono",
+        "hint": "Riproduce un suono predefinito"
+      },
+      "warningsoundpath": {
+        "name": "Percorso suono 'Attenzione'",
+        "hint": "Imposta un percorso personalizzato per il suono di attenzione"
+      },
+      "warningsoundvolume": {
+        "name": "Volume suono 'Attenzione'",
+        "hint": "Imposta il volume del suono di attenzione. Usa 0.1 per 10%, 0.6 per 60%, ecc."
+      },
+      "shakescreen": {
+        "name": "Scuoti lo schermo",
+        "hint": "Quando attivo, lo schermo vibrerà. RICHIEDE IL MODULO Fluid Canvas!"
+      },
+      "showdialogmessage": {
+        "name": "Mostra finestra di dialogo",
+        "hint": "Mostra una finestra con l’immagine specificata"
+      },
+      "xcard": {
+        "name": "Carte X",
+        "hint": "Attiva il supporto per carte X. Attenzione: il mondo verrà riavviato."
+      },
+      "xcardgmonly": {
+        "name": "Mostra carta X solo al GM",
+        "hint": "Se attivo, la carta X sarà visibile solo al GM. Altrimenti, sarà visibile a tutti."
+      },
+      "xcardsound": {
+        "name": "Riproduci suono carta X",
+        "hint": "Riproduce un suono quando viene attivata una carta X"
+      },
+      "xcardsoundvolume": {
+        "name": "Volume suono carta X",
+        "hint": "Imposta il volume del suono carta X. Usa 0.1 per 10%, 0.6 per 60%, ecc."
+      }
+    }
+  }
 }

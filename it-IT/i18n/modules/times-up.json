@@ -1,6 +1,6 @@
 {
-	"times-up.Debug.Name": "Отладка",
-	"times-up.Debug.Hint": "Вывод отладочной информации",
-	"times-up.DisablePassiveEffects.Name": "Отключение пассивных эффектов при истечении",
-	"times-up.DisablePassiveEffects.Hint": "Вместо удаления пассивных эффектов (созданных при добавлении предмета/заклинания), они будут отключены. В таком случае активация пассивных эффектов сбросит их начальное время/раунд/ход."
+  "times-up.Debug.Name": "Debug",
+  "times-up.Debug.Hint": "Mostra informazioni di debug",
+  "times-up.DisablePassiveEffects.Name": "Disattiva effetti passivi alla scadenza",
+  "times-up.DisablePassiveEffects.Hint": "Invece di rimuovere gli effetti passivi (creati aggiungendo un oggetto/incantesimo), verranno disattivati. In tal caso, la riattivazione degli effetti passivi ripristinerà il loro tempo/round/turno iniziale."
 }

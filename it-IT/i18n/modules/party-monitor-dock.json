@@ -1,70 +1,70 @@
 {
-	"party-monitor-dock": {
-		"settings": {
-			"onlyConnected": {
-				"name": "Только подключенные игроки",
-				"hint": "Показывать только игроков, подключенных к серверу"
-			},
-			"portraitSize": {
-				"name": "Размер портрета",
-				"hint": "Размер портретов в доке"
-			},
-			"dockAlignment": {
-				"name": "Выравнивание HUD",
-				"hint": "Выравнивание HUD на экране",
-				"choices": {
-					"flex-start": "Сверху",
-					"center": "По центру",
-					"flex-end": "Снизу"
-				}
-			},
-			"dockSide": {
-				"name": "Сторона дока",
-				"hint": "Сторона экрана для размещения дока",
-				"choices": {
-					"left": "Слева (прикрепить к управлению сценой)",
-					"right": "Справа (прикрепить к боковой панели)"
-				}
-			},
-			"hideInCombat": {
-				"name": "Скрывать в бою",
-				"hint": "Скрывать HUD при активном бое"
-			},
-			"hideCompanions": {
-				"name": "Скрывать спутников",
-				"hint": "Скрывать спутников из списка членов группы"
-			},
-			"cornerImage": {
-				"name": "Изображение углов",
-				"hint": "Изображение для использования в углах дока. Оставьте пустым, чтобы отключить."
-			},
-			"edgeImage": {
-				"name": "Изображение краёв",
-				"hint": "Изображение для заполнения пространства между углами дока. Оставьте пустым, чтобы отключить."
-			}
-		},
-		"app": {
-			"buttons": {
-				"toggle-nav": "Переключить кнопки навигации",
-				"toggle-dock": "Переключить док",
-				"reduce": "Уменьшить размер",
-				"enlarge": "Увеличить размер",
-				"start-follow": "Начать следование",
-				"stop-follow": "Прекратить следование",
-				"context": {
-					"follow": "Следовать",
-					"mount": "Сесть верхом",
-					"epicRoll": "Запросить бросок",
-					"raise-hand": "Поднять руку"
-				}
-			}
-		},
-		"flags": {},
-		"notifications": {
-			"follow": " теперь следует за ",
-			"unfollow": " больше не следует за ",
-			"mounted": " сел верхом на ",
-			"dismounted": " спешился с "
-		}
-	}
+  "party-monitor-dock": {
+    "settings": {
+      "onlyConnected": {
+        "name": "Solo giocatori connessi",
+        "hint": "Mostra solo i giocatori attualmente connessi al server"
+      },
+      "portraitSize": {
+        "name": "Dimensione del ritratto",
+        "hint": "Dimensione dei ritratti nel dock"
+      },
+      "dockAlignment": {
+        "name": "Allineamento dell'HUD",
+        "hint": "Allineamento dell'HUD sullo schermo",
+        "choices": {
+          "flex-start": "In alto",
+          "center": "Al centro",
+          "flex-end": "In basso"
+        }
+      },
+      "dockSide": {
+        "name": "Lato del dock",
+        "hint": "Lato dello schermo dove posizionare il dock",
+        "choices": {
+          "left": "A sinistra (agganciato ai controlli scena)",
+          "right": "A destra (agganciato al pannello laterale)"
+        }
+      },
+      "hideInCombat": {
+        "name": "Nascondi in combattimento",
+        "hint": "Nasconde l'HUD durante un combattimento attivo"
+      },
+      "hideCompanions": {
+        "name": "Nascondi compagni",
+        "hint": "Nasconde i compagni dall'elenco dei membri del gruppo"
+      },
+      "cornerImage": {
+        "name": "Immagine degli angoli",
+        "hint": "Immagine da usare negli angoli del dock. Lascia vuoto per disattivare."
+      },
+      "edgeImage": {
+        "name": "Immagine dei bordi",
+        "hint": "Immagine per riempire lo spazio tra gli angoli del dock. Lascia vuoto per disattivare."
+      }
+    },
+    "app": {
+      "buttons": {
+        "toggle-nav": "Attiva/disattiva pulsanti di navigazione",
+        "toggle-dock": "Attiva/disattiva il dock",
+        "reduce": "Riduci dimensione",
+        "enlarge": "Aumenta dimensione",
+        "start-follow": "Inizia a seguire",
+        "stop-follow": "Smetti di seguire",
+        "context": {
+          "follow": "Segui",
+          "mount": "Monta",
+          "epicRoll": "Richiedi tiro",
+          "raise-hand": "Alza la mano"
+        }
+      }
+    },
+    "flags": {},
+    "notifications": {
+      "follow": " ora sta seguendo ",
+      "unfollow": " ha smesso di seguire ",
+      "mounted": " è salito in groppa a ",
+      "dismounted": " è smontato da "
+    }
+  }
 }

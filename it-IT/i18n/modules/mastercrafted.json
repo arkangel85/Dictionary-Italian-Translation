@@ -1,130 +1,130 @@
 {
-	"mastercrafted": {
-		"craft": "Ремесло",
-		"show-recipes": "Показать рецепты",
-		"craftDialog": {
-			"title": "Ремесло",
-			"craft": "Создание",
-			"cancel": "Отмена",
-			"consumes": "Расходует",
-			"crafts": "Создаёт",
-			"crafted": "Создано"
-		},
-		"recipeApp": {
-			"errors": {
-				"namemissing": "Требуется название!",
-				"alreadyingredient": "Этот предмет уже является ингредиентом рецепта!"
-			},
-			"bookcontext": {
-				"add": "Добавление рецепта",
-				"edit": "Изменение",
-				"delete": "Удаление",
-				"duplicate": "Создание копии",
-				"export": "Экспорт",
-				"import": "Импорт"
-			},
-			"editcreatebook": {
-				"title": "Изменение/создание книги",
-				"name": "Название",
-				"namep": "Новая книга",
-				"description": "Описание",
-				"image": "Изображение",
-				"sound": "Звук",
-				"confirm": "Подтвердить",
-				"tools": "Инструменты",
-				"toolsplaceholder": "Список инструментов, разделённых запятой",
-				"macro": "Условие",
-				"macroplaceholder": "Название макроса",
-				"time": "Время",
-				"timeplaceholder": "Время изготовления в минутах",
-				"edit": "Изменение",
-				"create": "Создание",
-				"book": "Книга",
-				"recipe": "Рецепт",
-				"permission": "Права игроков"
-			},
-			"configbookrecipe": {
-				"permissions": {
-					"default": "По умолчанию",
-					"allow": "Разрешить",
-					"deny": "Запретить"
-				}
-			},
-			"recipeconfig": {
-				"inheritTools": "Наследование инструментов",
-				"ingredientsInspection": "Просмотр компонентов",
-				"productInspection": "Просмотр продукта",
-				"ingredients": "Компоненты",
-				"result": "Результат"
-			},
-			"title": "Mastercrafted",
-			"addRecipeBook": "Добавление книги рецептов",
-			"filter": "Переключение всего/доступного",
-			"relinked": "Один или несколько предметов не имели ссылок и были связаны заново.",
-			"craft": "Ремесло - Удержание Ctrl для быстрого создания",
-			"searchRecipe": "Поиск рецепта",
-			"tools": "Требуемые инструменты",
-			"time": "Время изготовления",
-			"minutes": "минут",
-			"craftError": "Ошибка создания",
-			"craftSuccess": "Успешное создание! Добавлено в инвентарь:",
-			"craftSuccessTimed": "Изготовление успешно! Следующие предметы будут добавлены после завершения: ",
-			"timedCraftCompleted": "Изготовление завершено! Добавлено в инвентарь:",
-			"craftFailConsumed": "Создание не удалось! Условие не было выполнено. Компоненты потрачены.",
-			"craftFailNotConsumed": "Создание не удалось! Условие не было выполнено. Компоненты не потрачены.",
-			"noTools": "Нет инструмента! Вам требуется:",
-			"ingredientsTooltip": "ЛКМ для просмотра компонентов. ПКМ для выбора компонента.",
-			"resultTooltip": "Нажмите на предмет для просмотра продукта или на его контейнер для выбора продукта.",
-			"cauldron": "Котёл",
-			"timedCrafting": "Прогресс создания",
-			"readyIn": "Готово через:"
-		},
-		"cauldronApp": {
-			"title": "Котёл",
-			"noIngredients": "Чтобы открыть рецепт, нужно смешать как минимум два ингредиента!",
-			"brewFail": "Приготовление не удалось! Ваш отвар плохо перемешался. Ингредиенты были израсходованы.",
-			"hint": "Перетащите ингредиенты в котёл, чтобы смешать их. Нажмите на ингредиент, чтобы удалить его из котла. Нажмите на кнопку 'Смешать ингредиенты', чтобы смешать их. Если ингредиенты хорошо сочетаются, вы откроете новый рецепт. Ингредиенты будут израсходованы.",
-			"discovered": "Вы открыли новый рецепт!",
-			"gmConfirm": "Ведущий должен подтвердить это открытие перед его использованием.",
-			"confirm": "Подтвердить",
-			"partial": {
-				"consumed": "Израсходовано:",
-				"extra1": "Это было близко! У вас почти получилось. Похоже, вы немного перебрали.",
-				"extra2": "Казалось, что всё идёт хорошо, но что-то пошло не так. Возможно, вы добавили слишком много.",
-				"missing1": "Это было близко! У вас почти получилось. Похоже, вы немного недобрали.",
-				"missing2": "Казалось, что всё идёт хорошо, но что-то пошло не так. Возможно, вы добавили не достаточно.",
-				"extra1missing1": "Казалось, что всё идёт хорошо, но что-то пошло не так. Возможно, вы добавили не достаточно чего-то, но также слишком много чего-то другого."
-			}
-		},
-		"itemConfig": {
-			"title": "Mastercrafted - Настройка предмета",
-			"sheetButton": "",
-			"attributePath": {
-				"label": "Путь атрибута"
-			},
-			"tags": {
-				"label": "Теги",
-				"notes": "Список тегов, разделенных запятыми. При ремесле игрок должен иметь в инвентаре предметы хотя бы с одним из этих тегов."
-			}
-		},
-		"UI": {
-			"open-recipe-app": "Управление рецептами",
-			"delete-recipe-book-title": "Удаление книги рецептов",
-			"delete-recipe-book-content": "Вы уверены, что хотите удалить книгу рецептов?",
-			"delete-recipe-title": "Удаление рецепта",
-			"delete-recipe-content": "Вы уверены, что хотите удалить рецепт?",
-			"default-recipe-name": "Новый рецепт",
-			"no-permission": "У вас не достаточно прав для просмотра книги рецептов."
-		},
-		"settings": {
-			"enableCauldron": {
-				"name": "Включить котёл",
-				"hint": "Включение интерфейса котла. Это позволит игрокам смешивать ингредиенты и открывать рецепты."
-			},
-			"customQuantityPath": {
-				"name": "Путь к особому количеству",
-				"hint": "Путь к данным о количестве предметов (например, если путь к данным начинается с 'system', а количество хранится в item.system.itemQuantity.value, то в этом параметре нужно вставить 'itemQuantity.value'). Оставьте пустым, чтобы использовать путь по умолчанию, настраивайте только в том случае, если ваша система не использует общий путь."
-			}
-		}
-	}
+  "mastercrafted": {
+    "craft": "Creazione",
+    "show-recipes": "Mostra ricette",
+    "craftDialog": {
+      "title": "Creazione",
+      "craft": "Crea",
+      "cancel": "Annulla",
+      "consumes": "Consuma",
+      "crafts": "Crea",
+      "crafted": "Creato"
+    },
+    "recipeApp": {
+      "errors": {
+        "namemissing": "Nome richiesto!",
+        "alreadyingredient": "Questo oggetto è già un ingrediente della ricetta!"
+      },
+      "bookcontext": {
+        "add": "Aggiungi ricetta",
+        "edit": "Modifica",
+        "delete": "Elimina",
+        "duplicate": "Duplica",
+        "export": "Esporta",
+        "import": "Importa"
+      },
+      "editcreatebook": {
+        "title": "Modifica/crea libro",
+        "name": "Nome",
+        "namep": "Nuovo libro",
+        "description": "Descrizione",
+        "image": "Immagine",
+        "sound": "Suono",
+        "confirm": "Conferma",
+        "tools": "Strumenti",
+        "toolsplaceholder": "Elenco strumenti separati da virgole",
+        "macro": "Condizione",
+        "macroplaceholder": "Nome del macro",
+        "time": "Tempo",
+        "timeplaceholder": "Tempo di creazione in minuti",
+        "edit": "Modifica",
+        "create": "Crea",
+        "book": "Libro",
+        "recipe": "Ricetta",
+        "permission": "Permessi giocatori"
+      },
+      "configbookrecipe": {
+        "permissions": {
+          "default": "Predefinito",
+          "allow": "Permetti",
+          "deny": "Nega"
+        }
+      },
+      "recipeconfig": {
+        "inheritTools": "Eredita strumenti",
+        "ingredientsInspection": "Ispezione componenti",
+        "productInspection": "Ispezione prodotto",
+        "ingredients": "Componenti",
+        "result": "Risultato"
+      },
+      "title": "Mastercrafted",
+      "addRecipeBook": "Aggiungi libro ricette",
+      "filter": "Mostra tutti/disponibili",
+      "relinked": "Uno o più oggetti non avevano collegamenti e sono stati ricollegati.",
+      "craft": "Creazione - Tieni premuto Ctrl per creazione rapida",
+      "searchRecipe": "Cerca ricetta",
+      "tools": "Strumenti richiesti",
+      "time": "Tempo di creazione",
+      "minutes": "minuti",
+      "craftError": "Errore di creazione",
+      "craftSuccess": "Creazione riuscita! Aggiunto all'inventario:",
+      "craftSuccessTimed": "Creazione in corso! I seguenti oggetti saranno aggiunti al termine:",
+      "timedCraftCompleted": "Creazione completata! Aggiunto all'inventario:",
+      "craftFailConsumed": "Creazione fallita! La condizione non è stata soddisfatta. Componenti consumati.",
+      "craftFailNotConsumed": "Creazione fallita! La condizione non è stata soddisfatta. Componenti NON consumati.",
+      "noTools": "Nessuno strumento! Ti serve:",
+      "ingredientsTooltip": "Click sinistro per vedere i componenti. Click destro per selezionare il componente.",
+      "resultTooltip": "Clicca sull'oggetto per vedere il prodotto o sul suo contenitore per selezionarlo.",
+      "cauldron": "Calderone",
+      "timedCrafting": "Avanzamento creazione",
+      "readyIn": "Pronto tra:"
+    },
+    "cauldronApp": {
+      "title": "Calderone",
+      "noIngredients": "Per sbloccare una ricetta devi mescolare almeno due ingredienti!",
+      "brewFail": "Fallimento! Il tuo infuso non si è mescolato bene. Gli ingredienti sono stati consumati.",
+      "hint": "Trascina gli ingredienti nel calderone per mescolarli. Clicca su un ingrediente per rimuoverlo. Clicca su 'Mescola ingredienti' per procedere. Se gli ingredienti si combinano bene, sbloccherai una nuova ricetta. Gli ingredienti saranno consumati.",
+      "discovered": "Hai sbloccato una nuova ricetta!",
+      "gmConfirm": "Il GM deve confermare questa scoperta prima dell'uso.",
+      "confirm": "Conferma",
+      "partial": {
+        "consumed": "Consumati:",
+        "extra1": "Quasi riuscito! Ci sei andato vicino. Forse hai esagerato con qualcosa.",
+        "extra2": "Sembrava andare bene, ma qualcosa è andato storto. Forse hai aggiunto troppo.",
+        "missing1": "Quasi riuscito! Ci sei andato vicino. Forse hai messo troppo poco.",
+        "missing2": "Sembrava andare bene, ma qualcosa è andato storto. Forse hai messo troppo poco.",
+        "extra1missing1": "Sembrava andare bene, ma qualcosa è andato storto. Forse hai messo troppo poco di qualcosa e troppo di qualcos'altro."
+      }
+    },
+    "itemConfig": {
+      "title": "Mastercrafted - Configura oggetto",
+      "sheetButton": "",
+      "attributePath": {
+        "label": "Percorso attributo"
+      },
+      "tags": {
+        "label": "Tag",
+        "notes": "Elenco di tag separati da virgole. Durante la creazione, il giocatore deve avere in inventario oggetti con almeno uno di questi tag."
+      }
+    },
+    "UI": {
+      "open-recipe-app": "Gestione ricette",
+      "delete-recipe-book-title": "Elimina libro ricette",
+      "delete-recipe-book-content": "Sei sicuro di voler eliminare questo libro?",
+      "delete-recipe-title": "Elimina ricetta",
+      "delete-recipe-content": "Sei sicuro di voler eliminare questa ricetta?",
+      "default-recipe-name": "Nuova ricetta",
+      "no-permission": "Non hai i permessi per vedere il libro ricette."
+    },
+    "settings": {
+      "enableCauldron": {
+        "name": "Abilita calderone",
+        "hint": "Abilita l'interfaccia del calderone. Permette ai giocatori di mescolare ingredienti e scoprire ricette."
+      },
+      "customQuantityPath": {
+        "name": "Percorso quantità personalizzato",
+        "hint": "Percorso ai dati della quantità oggetto (es: se i dati iniziano da 'system' e la quantità è in item.system.itemQuantity.value, inserisci 'itemQuantity.value'). Lascia vuoto per usare il percorso predefinito. Modifica solo se la tua sistema non segue il percorso standard."
+      }
+    }
+  }
 }

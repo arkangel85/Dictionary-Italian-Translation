@@ -1,297 +1,297 @@
 {
-	"tokenActionHud": {
-		"accept": "Принять",
-		"addToCombat": "Добавление в бой",
-		"blockListLabel": "чёрный список: скрыть / белый список: показать",
-		"cancel": "Отмена",
-		"collapseHud": "Свернуть HUD",
-		"combat": "Бой",
-		"compendiumEntry": "Документ библиотеки",
-		"compendiumMacro": "Макрос библиотеки",
-		"compendiumPlaylist": "Плейлист библиотеки",
-		"editHud": "Изменение HUD",
-		"endTurn": "Конец хода",
-		"expandHud": "Развернуть HUD",
-		"handlerNotFound": "не найдено, возврат к обычному броску.",
-		"lockHud": "Блокировка HUD",
-		"macro": "Макрос",
-		"macros": "Макросы",
-		"makeInvisible": "Сделать невидимым",
-		"makeVisible": "Сделать видимым",
-		"pushLabelExplanation": "С какой стороны отображать категории?",
-		"removeFromCombat": "Убрать из боя",
-		"title": "Token Action HUD",
-		"toggleHud": "Переключение HUD",
-		"token": "Токен",
-		"unlockHud": "Разблокировка HUD",
-		"utility": "Вспомогательное",
-		"settings": {
-			"activeCssAsText": {
-				"hint": "Активные действия будут отмечены звёздочкой",
-				"name": "Отметка активных действий"
-			},
-			"allow": {
-				"hint": "Настройка ведущего: Разрешить участникам с этой ролью (и выше) использовать HUD.",
-				"name": "Разрешить HUD",
-				"choices": {
-					"4": "Ведущий",
-					"3": "Ассистент ведущего",
-					"2": "Доверенный игрок",
-					"1": "Игрок"
-				}
-			},
-			"alwaysShowHud": {
-				"hint": "Показывать привязанного к участнику персонажа, даже если токен не выбран.",
-				"name": "Всегда отображать HUD"
-			},
-			"background": {
-				"hint": "Устанавливает цвет фона HUD. Эта настройка игнорируется при использовании интерфейса Dorako UI и требует наличия одного из модулей: 'Color Picker', 'Color Settings' или 'libThemer'.",
-				"name": "Цвет фона HUD"
-			},
-			"buttonBackgroundColor": {
-				"hint": "Устанавливает цвет фона кнопок HUD. Эта настройка игнорируется при использовании интерфейса Dorako UI и требует наличия одного из модулей: 'Color Picker', 'Color Settings' или 'libThemer'.",
-				"name": "Цвет фона кнопок"
-			},
-			"clickOpenCategory": {
-				"hint": "Раскрывать группы щелчком вместо наведения.",
-				"name": "Щелчок для раскрытия"
-			},
-			"customStyle": {
-				"hint": "Настройка внешнего вида HUD. Для включения, установите 'Стиль' на 'Свой'.",
-				"label": "Настройка стиля",
-				"name": "Настройка стиля",
-				"form": {
-					"title": "Token Action HUD | Настройка стиля",
-					"active": "Когда активно",
-					"buttons": "Кнопки",
-					"hovered": "При наведении",
-					"text": "Текст и иконки",
-					"toggleable": "Переключатель",
-					"reset": "Сброс настроек",
-					"save": "Сохранение",
-					"backgroundColor": {
-						"label": "Цвет фона"
-					},
-					"buttonHeight": {
-						"label": "Высота",
-						"units": "(пиксели)"
-					},
-					"buttonBackgroundColor": {
-						"label": "Цвет фона"
-					},
-					"buttonBorderPrimaryColor": {
-						"label": "Основной цвет рамки"
-					},
-					"buttonBorderSecondaryColor": {
-						"label": "Дополнительный цвет рамки"
-					},
-					"buttonTextColor": {
-						"label": "Цвет текста кнопок"
-					},
-					"buttonHoverBackgroundColor": {
-						"label": "Цвет фона"
-					},
-					"buttonHoverBorderPrimaryColor": {
-						"label": "Основной цвет рамки"
-					},
-					"buttonHoverBorderSecondaryColor": {
-						"label": "Дополнительный цвет рамки"
-					},
-					"buttonHoverTextColor": {
-						"label": "Цвет текста"
-					},
-					"buttonToggleActiveBackgroundColor": {
-						"label": "Цвет фона"
-					},
-					"buttonToggleActiveBorderPrimaryColor": {
-						"label": "Основной цвет рамки"
-					},
-					"buttonToggleActiveBorderSecondaryColor": {
-						"label": "Дополнительный цвет рамки"
-					},
-					"buttonToggleActiveTextColor": {
-						"label": "Цвет текста"
-					},
-					"buttonToggleHoverBackgroundColor": {
-						"label": "Цвет фона"
-					},
-					"buttonToggleHoverTextColor": {
-						"label": "Цвет текста"
-					},
-					"buttonToggleHoverBorderPrimaryColor": {
-						"label": "Основной цвет рамки"
-					},
-					"buttonToggleHoverBorderSecondaryColor": {
-						"label": "Дополнительный цвет рамки"
-					},
-					"textPrimaryColor": {
-						"label": "Основной цвет"
-					},
-					"textSecondaryColor": {
-						"label": "Дополнительный цвет"
-					},
-					"textTertiaryColor": {
-						"label": "Вспомогательный цвет"
-					},
-					"textHoverPrimaryColor": {
-						"label": "Основной цвет"
-					},
-					"textHoverSecondaryColor": {
-						"label": "Дополнительный цвет"
-					},
-					"textHoverTertiaryColor": {
-						"label": "Вспомогательный цвет"
-					}
-				}
-			},
-			"debug": {
-				"hint": "Включение вывода отладочной информации в консоль.",
-				"name": "Отладка"
-			},
-			"direction": {
-				"hint": "Выбор направления раскрытия HUD",
-				"name": "Направление",
-				"choices": {
-					"auto": "Автоматически",
-					"down": "Вниз",
-					"up": "Вверх"
-				}
-			},
-			"displayCharacterName": {
-				"hint": "При 'Направлении вниз' имя персонажа будет отображаться над HUD.",
-				"name": "Отображение имени персонажа"
-			},
-			"displayIcons": {
-				"hint": "На действиях будут отображаться иконки, если они доступны.",
-				"name": "Отображение иконок"
-			},
-			"drag": {
-				"hint": "Выберите, когда HUD можно перемещать перетаскиванием одной из кнопок верхнего уровня.",
-				"name": "Перетаскивание",
-				"choices": {
-					"always": "Всегда",
-					"whenUnlocked": "Когда разблокирован",
-					"never": "Никогда"
-				}
-			},
-			"enable": {
-				"hint": "Включение Token Action HUD.",
-				"name": "Включение HUD"
-			},
-			"enableCustomization": {
-				"hint": "Настройка ведущего: Включение настроек стиля HUD.",
-				"name": "Включение настройки стиля"
-			},
-			"grid": {
-				"hint": "Действия будут отображаться в виде сетки.",
-				"name": "Сетка"
-			},
-			"itemMacro": {
-				"hint": "Выбор способа отображения макросов предметов.",
-				"name": "Отображение макросов предметов",
-				"choices": {
-					"both": "Предмет и макрос",
-					"itemMacro": "Только макрос",
-					"original": "Только предмет"
-				}
-			},
-			"renderItemOnRightClick": {
-				"hint": "При щелчке правой кнопкой мыши будет открыт бланк предмета.",
-				"name": "Открытие бланка предмета ПКМ"
-			},
-			"reset": {
-				"hint": "ВНИМАНИЕ! Это сбросит все настройки на стандартные",
-				"name": "Сброс HUD"
-			},
-			"rollHandler": {
-				"hint": "Настройка ведущего: Выбор модуля для обработки бросков через HUD.",
-				"name": "Обработчик бросков"
-			},
-			"scale": {
-				"hint": "Изменение масштаба HUD (по умолчанию '1').",
-				"name": "Масштаб HUD"
-			},
-			"style": {
-				"hint": "Настройка стиля HUD",
-				"name": "Стиль"
-			},
-			"tooltips": {
-				"hint": "Способ отображения всплывающих подсказок при наведении курсора на действия.",
-				"name": "Отображение подсказок",
-				"choices": {
-					"full": "Полная подсказка",
-					"nameOnly": "Только название",
-					"none": "Без подсказки"
-				}
-			},
-			"toggleHud": {
-				"disabled": "HUD отключён. Для включения нажмите {binding}",
-				"enabled": "HUD включён. Для отключения нажмите {binding}"
-			}
-		},
-		"tagDialog": {
-			"actionDialogDescription": "Добавляйте и удаляйте группы и действия. Перетаскивайте группы и действия, чтобы изменить их порядок.",
-			"actionDialogTitle": "Настройка действий",
-			"groupDialogDescription": "Добавляйте и удаляйте группы. Выберите группы с заранее определенными действиями из списка или введите свой текст для пустых групп. Перетаскивайте группы, чтобы изменить их порядок.",
-			"groupDialogTitle": "Настройка групп",
-			"hudDialogDescription": "Добавляйте и удаляйте группы. Перетаскивайте группы, чтобы изменить их порядок.",
-			"hudDialogTitle": "Настройка HUD",
-			"clearButton": "Очистка",
-			"settings": {
-				"characterCount": {
-					"label": "Максимум символов в слове",
-					"hint": "Ограничение числа символов для каждого слова в названии действия."
-				},
-				"collapse": {
-					"label": "Сворачивание группы",
-					"hint": "Группа будет свёрнута"
-				},
-				"customWidth": {
-					"label": "Особая ширина",
-					"units": "(пиксели)",
-					"hint": "Настройте ширину для подкатегорий"
-				},
-				"grid": {
-					"label": "Сетка",
-					"hint": "Действия будут отображаться в виде сетки."
-				},
-				"image": {
-					"label": "Изображение",
-					"hint": "Изображение на кнопке."
-				},
-				"showCategoryTitle": {
-					"label": "Отображение заголовка",
-					"hint": "Отображение заголовка кнопки"
-				},
-				"showSubcategoryTitle": {
-					"label": "Отображение заголовка",
-					"hint": "Отображение заголовка группы"
-				},
-				"sort": {
-					"label": "Сортировка действий",
-					"hint": "Действия будут отсортированы в алфавитном порядке."
-				},
-				"style": {
-					"label": "Стиль",
-					"choice": {
-						"list": "Список",
-						"tab": "Вкадка"
-					},
-					"hint": "Стиль этой группы"
-				}
-			},
-			"resetActions": {
-				"button": "Сброс действий",
-				"dialog": {
-					"title": "Сброс действий",
-					"content": "Это приведёт к сбросу всех действий актёра. Продолжить?",
-					"buttons": {
-						"yes": "Да",
-						"no": "Нет"
-					}
-				}
-			},
-			"tagPlaceholder": "Выборы (разделяйте ; )"
-		}
-	}
+  "tokenActionHud": {
+    "accept": "Accetta",
+    "addToCombat": "Aggiungi al combattimento",
+    "blockListLabel": "lista nera: nascondi / lista bianca: mostra",
+    "cancel": "Annulla",
+    "collapseHud": "Comprimi HUD",
+    "combat": "Combattimento",
+    "compendiumEntry": "Voce del compendio",
+    "compendiumMacro": "Macro del compendio",
+    "compendiumPlaylist": "Playlist del compendio",
+    "editHud": "Modifica HUD",
+    "endTurn": "Fine turno",
+    "expandHud": "Espandi HUD",
+    "handlerNotFound": "non trovato, ripiego sul tiro normale.",
+    "lockHud": "Blocca HUD",
+    "macro": "Macro",
+    "macros": "Macro",
+    "makeInvisible": "Rendi invisibile",
+    "makeVisible": "Rendi visibile",
+    "pushLabelExplanation": "Da quale lato mostrare le categorie?",
+    "removeFromCombat": "Rimuovi dal combattimento",
+    "title": "Token Action HUD",
+    "toggleHud": "Attiva/disattiva HUD",
+    "token": "Token",
+    "unlockHud": "Sblocca HUD",
+    "utility": "Utilità",
+    "settings": {
+      "activeCssAsText": {
+        "hint": "Le azioni attive saranno contrassegnate con un asterisco",
+        "name": "Evidenziazione azioni attive"
+      },
+      "allow": {
+        "hint": "Impostazione del GM: consente ai giocatori con questo ruolo (o superiore) di usare l'HUD.",
+        "name": "Abilita HUD",
+        "choices": {
+          "4": "Game Master",
+          "3": "Assistente GM",
+          "2": "Giocatore fidato",
+          "1": "Giocatore"
+        }
+      },
+      "alwaysShowHud": {
+        "hint": "Mostra il personaggio associato anche se nessun token è selezionato.",
+        "name": "Mostra sempre l'HUD"
+      },
+      "background": {
+        "hint": "Imposta il colore di sfondo dell'HUD. Ignorato se si usa Dorako UI. Richiede uno dei moduli: 'Color Picker', 'Color Settings' o 'libThemer'.",
+        "name": "Colore di sfondo dell'HUD"
+      },
+      "buttonBackgroundColor": {
+        "hint": "Imposta il colore di sfondo dei pulsanti HUD. Ignorato se si usa Dorako UI. Richiede uno dei moduli: 'Color Picker', 'Color Settings' o 'libThemer'.",
+        "name": "Colore di sfondo dei pulsanti"
+      },
+      "clickOpenCategory": {
+        "hint": "Espande i gruppi con clic invece che con il passaggio del mouse.",
+        "name": "Clic per espandere"
+      },
+      "customStyle": {
+        "hint": "Personalizza l'aspetto dell'HUD. Per abilitare, imposta 'Stile' su 'Personalizzato'.",
+        "label": "Personalizzazione stile",
+        "name": "Stile personalizzato",
+        "form": {
+          "title": "Token Action HUD | Personalizzazione stile",
+          "active": "Quando attivo",
+          "buttons": "Pulsanti",
+          "hovered": "Al passaggio del mouse",
+          "text": "Testo e icone",
+          "toggleable": "Attivabile",
+          "reset": "Ripristina impostazioni",
+          "save": "Salva",
+          "backgroundColor": {
+            "label": "Colore di sfondo"
+          },
+          "buttonHeight": {
+            "label": "Altezza",
+            "units": "(pixel)"
+          },
+          "buttonBackgroundColor": {
+            "label": "Colore di sfondo"
+          },
+          "buttonBorderPrimaryColor": {
+            "label": "Colore bordo primario"
+          },
+          "buttonBorderSecondaryColor": {
+            "label": "Colore bordo secondario"
+          },
+          "buttonTextColor": {
+            "label": "Colore testo pulsante"
+          },
+          "buttonHoverBackgroundColor": {
+            "label": "Colore di sfondo"
+          },
+          "buttonHoverBorderPrimaryColor": {
+            "label": "Colore bordo primario"
+          },
+          "buttonHoverBorderSecondaryColor": {
+            "label": "Colore bordo secondario"
+          },
+          "buttonHoverTextColor": {
+            "label": "Colore del testo"
+          },
+          "buttonToggleActiveBackgroundColor": {
+            "label": "Colore di sfondo"
+          },
+          "buttonToggleActiveBorderPrimaryColor": {
+            "label": "Colore bordo primario"
+          },
+          "buttonToggleActiveBorderSecondaryColor": {
+            "label": "Colore bordo secondario"
+          },
+          "buttonToggleActiveTextColor": {
+            "label": "Colore del testo"
+          },
+          "buttonToggleHoverBackgroundColor": {
+            "label": "Colore di sfondo"
+          },
+          "buttonToggleHoverTextColor": {
+            "label": "Colore del testo"
+          },
+          "buttonToggleHoverBorderPrimaryColor": {
+            "label": "Colore bordo primario"
+          },
+          "buttonToggleHoverBorderSecondaryColor": {
+            "label": "Colore bordo secondario"
+          },
+          "textPrimaryColor": {
+            "label": "Colore primario"
+          },
+          "textSecondaryColor": {
+            "label": "Colore secondario"
+          },
+          "textTertiaryColor": {
+            "label": "Colore terziario"
+          },
+          "textHoverPrimaryColor": {
+            "label": "Colore primario"
+          },
+          "textHoverSecondaryColor": {
+            "label": "Colore secondario"
+          },
+          "textHoverTertiaryColor": {
+            "label": "Colore terziario"
+          }
+        }
+      },
+      "debug": {
+        "hint": "Abilita la stampa di messaggi di debug nella console.",
+        "name": "Debug"
+      },
+      "direction": {
+        "hint": "Scegli la direzione di espansione dell'HUD",
+        "name": "Direzione",
+        "choices": {
+          "auto": "Automatico",
+          "down": "In basso",
+          "up": "In alto"
+        }
+      },
+      "displayCharacterName": {
+        "hint": "Quando l’HUD si espande verso il basso, il nome del personaggio sarà mostrato sopra di esso.",
+        "name": "Mostra nome personaggio"
+      },
+      "displayIcons": {
+        "hint": "Mostra le icone sulle azioni se disponibili.",
+        "name": "Mostra icone"
+      },
+      "drag": {
+        "hint": "Imposta quando è possibile trascinare l'HUD tramite uno dei pulsanti di livello superiore.",
+        "name": "Trascinamento",
+        "choices": {
+          "always": "Sempre",
+          "whenUnlocked": "Quando sbloccato",
+          "never": "Mai"
+        }
+      },
+      "enable": {
+        "hint": "Attiva il Token Action HUD.",
+        "name": "Abilita HUD"
+      },
+      "enableCustomization": {
+        "hint": "Impostazione del GM: consente la personalizzazione dello stile dell'HUD.",
+        "name": "Abilita personalizzazione"
+      },
+      "grid": {
+        "hint": "Le azioni saranno visualizzate come griglia.",
+        "name": "Griglia"
+      },
+      "itemMacro": {
+        "hint": "Scegli come visualizzare le macro degli oggetti.",
+        "name": "Visualizzazione macro oggetti",
+        "choices": {
+          "both": "Oggetto e macro",
+          "itemMacro": "Solo macro",
+          "original": "Solo oggetto"
+        }
+      },
+      "renderItemOnRightClick": {
+        "hint": "Con un clic destro si aprirà la scheda dell'oggetto.",
+        "name": "Apertura scheda oggetto con clic destro"
+      },
+      "reset": {
+        "hint": "ATTENZIONE! Questo ripristinerà tutte le impostazioni ai valori predefiniti",
+        "name": "Resetta HUD"
+      },
+      "rollHandler": {
+        "hint": "Impostazione del GM: seleziona il modulo per gestire i tiri tramite l'HUD.",
+        "name": "Gestore dei tiri"
+      },
+      "scale": {
+        "hint": "Modifica la scala dell'HUD (valore predefinito '1').",
+        "name": "Scala HUD"
+      },
+      "style": {
+        "hint": "Impostazione dello stile dell'HUD",
+        "name": "Stile"
+      },
+      "tooltips": {
+        "hint": "Modalità di visualizzazione dei suggerimenti quando si passa il mouse su un'azione.",
+        "name": "Visualizzazione suggerimenti",
+        "choices": {
+          "full": "Suggerimento completo",
+          "nameOnly": "Solo nome",
+          "none": "Nessun suggerimento"
+        }
+      },
+      "toggleHud": {
+        "disabled": "HUD disattivato. Premi {binding} per attivarlo",
+        "enabled": "HUD attivato. Premi {binding} per disattivarlo"
+      }
+    },
+    "tagDialog": {
+      "actionDialogDescription": "Aggiungi e rimuovi gruppi e azioni. Trascina gruppi e azioni per modificarne l’ordine.",
+      "actionDialogTitle": "Configurazione azioni",
+      "groupDialogDescription": "Aggiungi e rimuovi gruppi. Seleziona gruppi con azioni predefinite dall’elenco o inserisci del testo per gruppi vuoti. Trascina i gruppi per modificarne l’ordine.",
+      "groupDialogTitle": "Configurazione gruppi",
+      "hudDialogDescription": "Aggiungi e rimuovi gruppi. Trascina i gruppi per modificarne l’ordine.",
+      "hudDialogTitle": "Configurazione HUD",
+      "clearButton": "Pulisci",
+      "settings": {
+        "characterCount": {
+          "label": "Numero massimo di caratteri per parola",
+          "hint": "Limita il numero di caratteri per ogni parola nel nome dell’azione."
+        },
+        "collapse": {
+          "label": "Comprimi gruppo",
+          "hint": "Il gruppo sarà compresso"
+        },
+        "customWidth": {
+          "label": "Larghezza personalizzata",
+          "units": "(pixel)",
+          "hint": "Imposta una larghezza personalizzata per le sottocategorie"
+        },
+        "grid": {
+          "label": "Griglia",
+          "hint": "Le azioni saranno visualizzate in formato griglia."
+        },
+        "image": {
+          "label": "Immagine",
+          "hint": "Immagine da visualizzare sul pulsante."
+        },
+        "showCategoryTitle": {
+          "label": "Mostra titolo",
+          "hint": "Mostra il titolo del pulsante"
+        },
+        "showSubcategoryTitle": {
+          "label": "Mostra titolo",
+          "hint": "Mostra il titolo del gruppo"
+        },
+        "sort": {
+          "label": "Ordina azioni",
+          "hint": "Le azioni saranno ordinate in ordine alfabetico."
+        },
+        "style": {
+          "label": "Stile",
+          "choice": {
+            "list": "Elenco",
+            "tab": "Scheda"
+          },
+          "hint": "Stile di questo gruppo"
+        }
+      },
+      "resetActions": {
+        "button": "Resetta azioni",
+        "dialog": {
+          "title": "Resetta azioni",
+          "content": "Questo reimposterà tutte le azioni dell’attore. Continuare?",
+          "buttons": {
+            "yes": "Sì",
+            "no": "No"
+          }
+        }
+      },
+      "tagPlaceholder": "Scelte (separa con ; )"
+    }
+  }
 }

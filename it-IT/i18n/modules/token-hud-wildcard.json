@@ -1,11 +1,11 @@
 {
-	"THWildcard.Title": "Нажмите для настроек изображения",
-	"THWildcard.Fieldset": "Вариант по умолчанию",
-	"THWildcard.DefaultDescription": "При перемещения токена с несколькими вариантами на сцену, этот вариант будет выбран по умолчанию вместо случайного.",
-	"THWildcard.DefaultLabel": "Изображение по умолчанию:",
-	"THWildcard.ButtonTitle": "Открыть файл",
-	"THWildcard.DisplaySettingName": "Отображать как изображение?",
-	"THWildcard.DisplaySettingHint": "Выключение отображения вариантов в виде списка имён файлов в интерфейсе.",
-	"THWildcard.OpacitySettingName": "Непрозрачность предпросмотра",
-	"THWildcard.OpacitySettingHint": "Настройте непрозрачность интерфейса выбора вариантов токена."
+  "THWildcard.Title": "Clicca per configurare l'immagine",
+  "THWildcard.Fieldset": "Variante predefinita",
+  "THWildcard.DefaultDescription": "Quando un token con più varianti viene posizionato sulla scena, questa variante verrà selezionata come predefinita invece di una casuale.",
+  "THWildcard.DefaultLabel": "Immagine predefinita:",
+  "THWildcard.ButtonTitle": "Apri file",
+  "THWildcard.DisplaySettingName": "Mostrare come immagine?",
+  "THWildcard.DisplaySettingHint": "Disattiva la visualizzazione delle varianti come elenco di nomi file nell'interfaccia.",
+  "THWildcard.OpacitySettingName": "Opacità dell'anteprima",
+  "THWildcard.OpacitySettingHint": "Regola l'opacità dell'interfaccia di selezione delle varianti del token."
 }

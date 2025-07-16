@@ -1,32 +1,32 @@
 {
-	"SETTINGS.AboutAppN": "О Pin Cushion",
-	"SETTINGS.AboutAppH": "Показать информацию о модуле Pin Cushion",
-	"SETTINGS.ShowJournalPreviewN": "Отображать предпросмотр журнала",
-	"SETTINGS.ShowJournalPreviewH": "При наведении на метку на сцене будет отображаться краткая версия журнала",
-	"SETTINGS.PreviewTypeN": "Тип предпросмотра журнала",
-	"SETTINGS.PreviewTypeH": "Выбор типа отображения предпросмотра (HTML или текст)",
-	"SETTINGS.PreviewMaxLengthN": "Максимальная длинна предпросмотра",
-	"SETTINGS.PreviewMaxLengthH": "<b>Только для текста.</b> Сколько символов будет отображаться в предпросмотре?",
-	"SETTINGS.PreviewDelayN": "Задержка предпросмотра",
-	"SETTINGS.PreviewDelayH": "Задержка между наведением и отображением предпросмотра (милисекунды)",
-	"SETTINGS.DefaultJournalPermissionN": "Права для журнала по умолчанию",
-	"SETTINGS.DefaultJournalPermissionH": "Права доступа к новой записи журнала по умолчанию",
-	"SETTINGS.DefaultJournalFolderN": "Папка для журнала по умолчанию",
-	"SETTINGS.DefaultJournalFolderH": "Папка в которую будут добавлены записи журнала при создании меток на сцене при помощи двойного нажатия",
+  "SETTINGS.AboutAppN": "Informazioni su Pin Cushion",
+  "SETTINGS.AboutAppH": "Mostra informazioni sul modulo Pin Cushion",
+  "SETTINGS.ShowJournalPreviewN": "Mostra anteprima del diario",
+  "SETTINGS.ShowJournalPreviewH": "Passando il cursore su un segnaposto sulla scena verrà mostrata una versione ridotta del diario",
+  "SETTINGS.PreviewTypeN": "Tipo di anteprima del diario",
+  "SETTINGS.PreviewTypeH": "Scegli il tipo di visualizzazione dell’anteprima (HTML o testo)",
+  "SETTINGS.PreviewMaxLengthN": "Lunghezza massima dell’anteprima",
+  "SETTINGS.PreviewMaxLengthH": "<b>Solo per il testo.</b> Quanti caratteri devono essere mostrati nell’anteprima?",
+  "SETTINGS.PreviewDelayN": "Ritardo anteprima",
+  "SETTINGS.PreviewDelayH": "Ritardo tra il passaggio del cursore e la visualizzazione dell’anteprima (in millisecondi)",
+  "SETTINGS.DefaultJournalPermissionN": "Permessi predefiniti per il diario",
+  "SETTINGS.DefaultJournalPermissionH": "Permessi di accesso predefiniti per un nuovo diario",
+  "SETTINGS.DefaultJournalFolderN": "Cartella predefinita per il diario",
+  "SETTINGS.DefaultJournalFolderH": "Cartella dove verranno inseriti i diari creati tramite doppio clic sulla scena",
 
-	"PinCushion": {
-		"Name": "Название:",
-		"None": "Нет",
-		"PerUser": "Индивидуально",
-		"Folder": "Папка для журнала:",
-		"ExistingFolders": "Существующие папки",
-		"DefaultPermission": "Права доступа по умолчанию:",
-		"CreateMissingFoldersT": "Создать недостающие папки",
-		"CreateMissingFoldersC": "<b>Создать папки журналов для каждого игрока?</b><br>В этом случае у каждого игрока будет своя папка с записями.",
+  "PinCushion": {
+    "Name": "Nome:",
+    "None": "Nessuno",
+    "PerUser": "Individuale",
+    "Folder": "Cartella del diario:",
+    "ExistingFolders": "Cartelle esistenti",
+    "DefaultPermission": "Permessi predefiniti:",
+    "CreateMissingFoldersT": "Crea cartelle mancanti",
+    "CreateMissingFoldersC": "<b>Creare cartelle diario per ogni giocatore?</b><br>In tal caso, ogni giocatore avrà la propria cartella con le note.",
 
-		"Warn": {
-			"AllowPlayerNotes": "Игрокам требуется право доступа \"{permission}\" для создания меток на сцене.",
-			"MissingPinName": "Отсутствует названия для метки!"
-		}
-	}
+    "Warn": {
+      "AllowPlayerNotes": "I giocatori necessitano del permesso \"{permission}\" per creare segnaposto sulla scena.",
+      "MissingPinName": "Nome del segnaposto mancante!"
+    }
+  }
 }

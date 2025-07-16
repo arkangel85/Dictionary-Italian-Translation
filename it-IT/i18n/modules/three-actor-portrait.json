@@ -1,42 +1,42 @@
 {
-	"three-actor-portrait": {
-		"settings": {
-			"authKey": {
-				"name": "Ключ аутентификации HeroForge",
-				"hint": "Введите ваш ключ аутентификации. Вы можете найти его в настройках вашего аккаунта HeroForge  (Account -> Personal Info -> Access Key)."
-			},
-			"disablePortrait": {
-				"name": "Отключение 3D портретов",
-				"hint": "Отключение 3D портретов всех актёров. Рекомендуется для слабых компьютеров."
-			},
-			"playerCanEditPortrait": {
-				"name": "Позволить игрокам изменять положение камеры",
-				"hint": "Игроки смогут изменять положение камеры для 3D портретов."
-			},
-			"autoRotate": {
-				"name": "Автоматическое вращение",
-				"hint": "Камера будет автоматически вращаться вокруг 3D портрета."
-			},
-			"rotationSpeed": {
-				"name": "Скорость вращения",
-				"hint": "Скорость вращения камеры вокруг 3D портрета."
-			},
-			"license-agreement": {
-				"name": "Принять пользовательское соглашение",
-				"hint": "Этот модуль использует HeroForge API и любые попытки воспроизвести функции модуля и провести реверс-инженеринг API без разрешения Sky Castle Studio является нарушением Пользовательского соглашения. Если вы желаете использовать HeroForge API в своих проектах, напишите Sky Castle Studio на support@heroforge.com."
-			},
-			"maxContexts": {
-				"name": "Предел одновременных портретов",
-				"hint": "Максимальное число портретов для одновременного отображения. Чем выше число, тем выше нагрузка. WebGL имеет предел в 16 сущностей, но другие вкладки и приложения также могут использовать эти сущности, что приведёт к ошибкам."
-			}
-		},
-		"portrait-preview": {
-			"save-pose": "Сохранить позу",
-			"toggle-rotate": "Переключение авто-вращения",
-			"camera-position-saved": "Положение камеры сохранено"
-		},
-		"notifications": {
-			"maxContextExceeded": "Вы достигли предела одновременно отображаемых 3D портретов и самый старый был закрыт. Вы можете изменить предел в настройках модуля."
-		}
-	}
+  "three-actor-portrait": {
+    "settings": {
+      "authKey": {
+        "name": "Chiave di autenticazione HeroForge",
+        "hint": "Inserisci la tua chiave di autenticazione. Puoi trovarla nelle impostazioni del tuo account HeroForge (Account -> Informazioni personali -> Chiave di accesso)."
+      },
+      "disablePortrait": {
+        "name": "Disattiva i ritratti 3D",
+        "hint": "Disattiva i ritratti 3D di tutti gli attori. Consigliato per computer meno potenti."
+      },
+      "playerCanEditPortrait": {
+        "name": "Permetti ai giocatori di modificare la visuale",
+        "hint": "I giocatori potranno modificare la posizione della telecamera dei ritratti 3D."
+      },
+      "autoRotate": {
+        "name": "Rotazione automatica",
+        "hint": "La telecamera ruoterà automaticamente attorno al ritratto 3D."
+      },
+      "rotationSpeed": {
+        "name": "Velocità di rotazione",
+        "hint": "Velocità della rotazione della telecamera attorno al ritratto 3D."
+      },
+      "license-agreement": {
+        "name": "Accetta il contratto di licenza",
+        "hint": "Questo modulo utilizza l'API di HeroForge e qualsiasi tentativo di riprodurre le funzionalità del modulo o effettuare reverse-engineering dell’API senza autorizzazione da parte di Sky Castle Studio è una violazione del Contratto di Licenza. Se desideri usare l’API di HeroForge nei tuoi progetti, contatta Sky Castle Studio all’indirizzo support@heroforge.com."
+      },
+      "maxContexts": {
+        "name": "Limite di ritratti simultanei",
+        "hint": "Numero massimo di ritratti visualizzabili contemporaneamente. Più alto è il numero, maggiore sarà il carico. WebGL ha un limite di 16 entità, ma anche altre schede e applicazioni possono usare queste risorse, causando errori."
+      }
+    },
+    "portrait-preview": {
+      "save-pose": "Salva posa",
+      "toggle-rotate": "Attiva/disattiva rotazione automatica",
+      "camera-position-saved": "Posizione della telecamera salvata"
+    },
+    "notifications": {
+      "maxContextExceeded": "Hai raggiunto il limite massimo di ritratti 3D visualizzabili contemporaneamente e il più vecchio è stato chiuso. Puoi modificare il limite nelle impostazioni del modulo."
+    }
+  }
 }

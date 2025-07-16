@@ -1,100 +1,100 @@
 {
-	"tm": {
-		"announceLabel": "Метки хода",
-		"settings": {
-			"button": {
-				"name": "Настройки метки хода",
-				"label": "Метка хода"
-			},
-			"formTitles": {
-				"settings": "Настройки метки хода"
-			},
-			"formHeaders": {
-				"imageOptions": "Настройки изображения метки",
-				"onDeckImageOptions": "On Deck Marker Image Options",
-				"turnAnnounce": "Объявление ходов",
-				"startMarker": "Начальная метка",
-				"save": "Сохранить настройки"
-			},
-			"turnMarkerEnabled": {
-				"name": "Включить метки хода"
-			},
-			"ratio": {
-				"name": "Соотношение сторон",
-				"hint": "По отношению к размеру токена"
-			},
-			"animate": {
-				"name": "Анимировать метку?",
-				"hint": "Метка будет вращаться (для отображения изменений нужно начать новый бой)."
-			},
-			"interval": {
-				"name": "Скорость вращения",
-				"hint": "Как быстро будет вращаться метка (рекомендуется значение от 10 до 200)"
-			},
-			"image": {
-				"name": "Изображение метки"
-			},
-			"onDeckMarkerEnabled": {
-				"name": "Enable On Deck Marker"
-			},
-			"deckImage": {
-				"name": "On Deck Marker Image"
-			},
-			"customDeckImage": {
-				"name": "Custom On Deck Image Path",
-				"hint": "Use a custom image instead (leave blank to use a built in image)"
-			},
-			"customDeckImagePreview": {
-				"name": "On Deck Marker Preview"
-			},
-			"deckRatio": {
-				"name": "On Deck Image Ratio",
-				"hint": "As compared to the token size."
-			},
-			"deckAnimate": {
-				"name": "Animate Deck Marker?",
-				"hint": "Use rotation animation on Deck marker. (changes may not be visible until a new combat is started)"
-			},
-			"deckPlayersOnly": {
-				"name": "Only use on deck marker for players?",
-				"hint": "Skips npc for on deck marker if enabled"
-			},
-			"announcedActors": {
-				"name": "Объявлять актёров",
-				"hint": "Кого объявлять в чате"
-			},
-			"announceTokenName": {
-				"name": "Использовать имя токена",
-				"hint": "Если включено, будет использовано имя токена вместо имени актёра"
-			},
-			"announceTurnMarkerAlias": {
-				"name": "Уведомление от Turn Marker",
-				"hint": "Если включено, сообщения чата будут выводиться от лица модуля Turn Marker вместо актёра"
-			},
-			"announcePlayerNames": {
-				"name": "Объявлять имена игроков",
-				"hint": "Если включено, в чат будут выводиться имена игроков, управляющих актёром"
-			},
-			"customImage": {
-				"name": "Путь к изображению",
-				"hint": "Своё изображение для метки хода (оставьте пустым для стандартного)"
-			},
-			"announce": {
-				"name": "Объявлять ходы",
-				"hint": "При включении в чат будет отправляться сообщение с напоминанием о ходе."
-			},
-			"announceImage": {
-				"name": "Отображать токен",
-				"hint": "Если включено, то в объявлении хода будет показан токен"
-			},
-			"startEnabled": {
-				"name": "Включить начальную метку",
-				"hint": "Если включено, то на месте начала хода будет отображаться метка"
-			},
-			"startImage": {
-				"name": "Путь к изображению",
-				"hint": "Своё изображение для начальной метки (оставьте пустым для стандартного)"
-			}
-		}
-	}
+  "tm": {
+    "announceLabel": "Indicatori del turno",
+    "settings": {
+      "button": {
+        "name": "Impostazioni dell'indicatore di turno",
+        "label": "Indicatore di turno"
+      },
+      "formTitles": {
+        "settings": "Impostazioni dell'indicatore di turno"
+      },
+      "formHeaders": {
+        "imageOptions": "Impostazioni immagine dell'indicatore",
+        "onDeckImageOptions": "Impostazioni immagine On Deck",
+        "turnAnnounce": "Annuncio dei turni",
+        "startMarker": "Indicatore iniziale",
+        "save": "Salva impostazioni"
+      },
+      "turnMarkerEnabled": {
+        "name": "Abilita indicatore di turno"
+      },
+      "ratio": {
+        "name": "Rapporto dimensioni",
+        "hint": "Rispetto alla dimensione del token"
+      },
+      "animate": {
+        "name": "Animare l'indicatore?",
+        "hint": "L'indicatore ruoterà (per vedere i cambiamenti, avvia un nuovo combattimento)."
+      },
+      "interval": {
+        "name": "Velocità di rotazione",
+        "hint": "Velocità di rotazione dell'indicatore (valore consigliato tra 10 e 200)"
+      },
+      "image": {
+        "name": "Immagine dell'indicatore"
+      },
+      "onDeckMarkerEnabled": {
+        "name": "Abilita indicatore On Deck"
+      },
+      "deckImage": {
+        "name": "Immagine dell'indicatore On Deck"
+      },
+      "customDeckImage": {
+        "name": "Percorso immagine On Deck personalizzata",
+        "hint": "Usa un'immagine personalizzata (lascia vuoto per usare quella predefinita)"
+      },
+      "customDeckImagePreview": {
+        "name": "Anteprima immagine On Deck"
+      },
+      "deckRatio": {
+        "name": "Rapporto dimensioni immagine On Deck",
+        "hint": "Rispetto alla dimensione del token."
+      },
+      "deckAnimate": {
+        "name": "Animare l'indicatore On Deck?",
+        "hint": "Usa animazione di rotazione per l'indicatore On Deck (i cambiamenti potrebbero non essere visibili fino all'inizio di un nuovo combattimento)"
+      },
+      "deckPlayersOnly": {
+        "name": "Usare indicatore On Deck solo per i giocatori?",
+        "hint": "Ignora gli NPC se abilitato"
+      },
+      "announcedActors": {
+        "name": "Annunciare gli attori",
+        "hint": "Chi annunciare nella chat"
+      },
+      "announceTokenName": {
+        "name": "Usare il nome del token",
+        "hint": "Se abilitato, verrà usato il nome del token invece del nome dell'attore"
+      },
+      "announceTurnMarkerAlias": {
+        "name": "Notifica da Turn Marker",
+        "hint": "Se abilitato, i messaggi in chat verranno inviati a nome del modulo Turn Marker invece che dell'attore"
+      },
+      "announcePlayerNames": {
+        "name": "Annunciare i nomi dei giocatori",
+        "hint": "Se abilitato, i nomi dei giocatori che controllano l'attore verranno mostrati in chat"
+      },
+      "customImage": {
+        "name": "Percorso immagine",
+        "hint": "Immagine personalizzata per l'indicatore di turno (lascia vuoto per usare quella predefinita)"
+      },
+      "announce": {
+        "name": "Annunciare i turni",
+        "hint": "Se abilitato, verrà inviato un messaggio in chat come promemoria del turno"
+      },
+      "announceImage": {
+        "name": "Mostrare il token",
+        "hint": "Se abilitato, il token verrà mostrato nell'annuncio del turno"
+      },
+      "startEnabled": {
+        "name": "Abilita indicatore iniziale",
+        "hint": "Se abilitato, verrà mostrato un indicatore nel punto di inizio del turno"
+      },
+      "startImage": {
+        "name": "Percorso immagine",
+        "hint": "Immagine personalizzata per l'indicatore iniziale (lascia vuoto per usare quella predefinita)"
+      }
+    }
+  }
 }

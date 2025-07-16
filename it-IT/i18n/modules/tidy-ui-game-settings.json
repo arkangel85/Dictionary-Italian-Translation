@@ -1,25 +1,25 @@
 {
-	"TidyUI.moduleSettingsActive": {
-		"name": "Всегда переключать на настройки модулей",
-		"hint": "Если вы часто пользуетесь Настройками модулей, то можете включить эту опцию, чтобы эта вкладка была выбрана по умолчанию."
-	},
-	"TidyUI.hideDisableAll": {
-		"name": "Скрыть кнопку 'Отключить все модули'",
-		"hint": "Отметьте, чтобы скрыть кнопку 'Отключить все модули' и предотвратить случайное нажатие."
-	},
-	"TidyUI.uncheckAll": "Отключить все модули кроме Tidy UI",
-	"TidyUI.checkAll": "Включить все модули",
-	"TidyUI.export": "Экспорт списка активных модулей",
-	"TidyUI.import": "Импорт списка модулей",
-	"TidyUI.toClipboard": "Копировать как текст",
-	"TidyUI.toFile": "Сохранить как JSON",
-	"TidyUI.fromFile": "Импорт JSON",
-	"TidyUI.activate": "Активировать модули",
-	"TidyUI.close": "Закрыть окно",
-	"TidyUI.notice": "Список модулей скопирован в буфер обмена",
-	"TidyUI.paste": "Вставьте ваш список модулей в это поле (текстовый формат) или загрузите JSON для активации модулей.",
-	"TidyUI.search": "Начните ввод для поиска модуля",
-	"TidyUI.clear": "Очистить поле поиска",
-	"TidyUI.warning": "Внимание:",
-	"TidyUI.instruction": "Для того, чтобы импортировать ваш список модулей требуется загрузить файл JSON. Копирование в виде текста полезно только для Discord и подобного, но это устаревший формат и мы рекомендуем использовать JSON."
+  "TidyUI.moduleSettingsActive": {
+    "name": "Passa sempre a Impostazioni Moduli",
+    "hint": "Se usi spesso le Impostazioni dei moduli, puoi abilitare questa opzione per selezionare questa scheda come predefinita."
+  },
+  "TidyUI.hideDisableAll": {
+    "name": "Nascondi il pulsante 'Disattiva tutti i moduli'",
+    "hint": "Spunta per nascondere il pulsante 'Disattiva tutti i moduli' ed evitare clic accidentali."
+  },
+  "TidyUI.uncheckAll": "Disattiva tutti i moduli tranne Tidy UI",
+  "TidyUI.checkAll": "Attiva tutti i moduli",
+  "TidyUI.export": "Esporta l'elenco dei moduli attivi",
+  "TidyUI.import": "Importa l'elenco dei moduli",
+  "TidyUI.toClipboard": "Copia come testo",
+  "TidyUI.toFile": "Salva come JSON",
+  "TidyUI.fromFile": "Importa JSON",
+  "TidyUI.activate": "Attiva i moduli",
+  "TidyUI.close": "Chiudi la finestra",
+  "TidyUI.notice": "L'elenco dei moduli è stato copiato negli appunti",
+  "TidyUI.paste": "Incolla il tuo elenco moduli in questo campo (formato testo) o carica un JSON per attivarli.",
+  "TidyUI.search": "Inizia a digitare per cercare un modulo",
+  "TidyUI.clear": "Pulisci il campo di ricerca",
+  "TidyUI.warning": "Attenzione:",
+  "TidyUI.instruction": "Per importare l'elenco dei moduli è necessario caricare un file JSON. Il formato testo è utile solo per Discord o simili, ma è obsoleto: si consiglia l'uso del JSON."
 }

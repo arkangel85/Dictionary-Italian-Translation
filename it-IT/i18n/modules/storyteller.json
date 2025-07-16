@@ -1,29 +1,29 @@
 {
-	"I18N.MAINTAINERS": ["Xbozon"],
+	"I18N.MAINTAINERS": ["Arkangel"],
 
-	"STORYTELLER.BaseJournalEntry": "Стандартный бланк",
-	"STORYTELLER.StoryEntry": "Бланк истории",
-	"STORYTELLER.FullscreenStoryEntry": "(BETA) Полноэкранная история",
+"STORYTELLER.BaseJournalEntry": "Voce standard del diario",
+"STORYTELLER.StoryEntry": "Voce della storia",
+"STORYTELLER.FullscreenStoryEntry": "(BETA) Storia a schermo intero",
 
-	"JOURNAL.ActionConfigure": "Настройки",
+"JOURNAL.ActionConfigure": "Impostazioni",
 
-	"STORYTELLER.CopyID": "Копирование макроса истории",
-	"STORYTELLER.CopyIDMessage": "Макрос для вызова истории был скопирован в буфер.",
-	"STORYTELLER.Journal": "Журналы",
-	"STORYTELLER.Stories": "Истории",
-	"STORYTELLER.ChangeImage": "Нажмите для выбора изображения",
-	"STORYTELLER.CantCreateFolder": "Создание папок пока не поддерживается. Ожидайте в будущих обновлениях!",
-	"STORYTELLER.BookOpenSound": "Включение звука открытия книги",
-	"STORYTELLER.BookOpenSoundHint": "Индивидуально для каждого участника",
-	"STORYTELLER.StoryName": "Название истории:",
+"STORYTELLER.CopyID": "Copia macro della storia",
+"STORYTELLER.CopyIDMessage": "La macro per avviare la storia è stata copiata negli appunti.",
+"STORYTELLER.Journal": "Diari",
+"STORYTELLER.Stories": "Storie",
+"STORYTELLER.ChangeImage": "Fai clic per selezionare un'immagine",
+"STORYTELLER.CantCreateFolder": "La creazione di cartelle non è ancora supportata. In arrivo nei prossimi aggiornamenti!",
+"STORYTELLER.BookOpenSound": "Attiva suono apertura libro",
+"STORYTELLER.BookOpenSoundHint": "Impostazione individuale per ogni partecipante",
+"STORYTELLER.StoryName": "Titolo della storia:",
 
-	"STORYTELLER.Settings.Theme": "Изменения темы истории",
-	"STORYTELLER.Settings.ThemeHint": "Изменение темы оформления для всех участников",
-	"STORYTELLER.Settings.ThemeBook": "Книга",
-	"STORYTELLER.Settings.ThemeNewspaper": "Газета",
-	"STORYTELLER.Settings.Size": "Размер истории на экране",
-	"STORYTELLER.Settings.SizeHint": "100% занимает почти всю высоту экрана, 80% занимает не более 80% высоты экрана",
+"STORYTELLER.Settings.Theme": "Tema della storia",
+"STORYTELLER.Settings.ThemeHint": "Modifica il tema grafico per tutti i partecipanti",
+"STORYTELLER.Settings.ThemeBook": "Libro",
+"STORYTELLER.Settings.ThemeNewspaper": "Giornale",
+"STORYTELLER.Settings.Size": "Dimensione della storia sullo schermo",
+"STORYTELLER.Settings.SizeHint": "100% occupa quasi tutta l’altezza dello schermo, 80% non più dell’80% dell’altezza dello schermo",
 
-	"STORYTELLER.Settings.EnableScroll": "Включить прокрутку внутри книги",
-	"STORYTELLER.Settings.EnableScrollHint": "БЕТА. Это выглядит не очень хорошо, но иногда функциональность важнее внешнего вида. Опция позволяет прокручивать содержимое страниц."
+"STORYTELLER.Settings.EnableScroll": "Attiva scorrimento all'interno del libro",
+"STORYTELLER.Settings.EnableScrollHint": "BETA. L’aspetto non è perfetto, ma a volte la funzionalità è più importante. Questa opzione consente di scorrere il contenuto delle pagine."
 }

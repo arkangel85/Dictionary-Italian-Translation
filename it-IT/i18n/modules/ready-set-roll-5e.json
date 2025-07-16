@@ -1,103 +1,103 @@
 {
-	"rsr5e": {
-		"settings": {
-			"enableSkillQuickRoll.name": "Быстрые броски навыков",
-			"enableSkillQuickRoll.hint": "При нажатии на навык будет автоматически произведена проверка вместо стандартного окна броска. Стандартное окно можно вызвать удержанием клавиши 'Пропуск окна'.",
-			"enableAbilityQuickRoll.name": "Быстрые броски характеристик",
-			"enableAbilityQuickRoll.hint": "При нажатии на характеристику или испытание будет автоматически произведена проверка вместо стандартного окна броска. Стандартное окно можно вызвать удержанием клавиши 'Пропуск окна'.",
-			"enableToolQuickRoll.name": "Быстрые броски инструментов",
-			"enableToolQuickRoll.hint": "При нажатии на инструмент будет автоматически произведена проверка вместо стандартного окна броска. Стандартное окно можно вызвать удержанием клавиши 'Пропуск окна'.",
-			"enableActivityQuickRoll.name": "Быстрые броски функций",
-			"enableActivityQuickRoll.hint": "При нажатии на функцию предмета будет автоматически произведена проверка вместо стандартного окна броска. Стандартное окно можно вызвать удержанием клавиши 'Пропуск окна'.",
-			"enableVanillaQuickRoll.name": "Включение модификации стандартных бросков",
-			"enableVanillaQuickRoll.hint": "При выводе стандартного броска RSR применит функциональность и стилистику модуля. Эта настройка будет применяться к любым стандартным броскам, даже к тем, которые делаются в обход быстрого броска, удерживая клавишу 'Пропуск окна'.",
-			"alwaysRollMulti.name": "Всегда бросать несколько костей",
-			"alwaysRollMulti.hint": "При выводе быстрого броска, всегда бросать две кости, даже если преимущество/помеха не были применены.",
-			"manualDamageMode.name": "Бросать урон вручную",
-			"manualDamageMode.hint": "При выводе быстрого броска, не бросать урон автоматически. Вместо этого на карточке чата будет отображаться кнопка для броска урона.",
-			"aggregateDamage.name": "Объединение типов урона",
-			"aggregateDamage.hint": "При выводе быстрых бросков, складывать все части урона одного типа в одно поле.",
-			"enableD20Icons.name": "Отображение D20 для быстрых бросков",
-			"enableD20Icons.hint": "При выводе быстрого броска, будет отображаться иконка с натуральным значением броска рядом с конечным результатом.",
-			"enableDiceReroll.name": "Включение переброса костей",
-			"enableDiceReroll.hint": "При выводе быстрого броска появится возможность щелкнуть по определенной кости в карточке чата, чтобы перебросить эту кость.",
-			"enableOverlayButtons.name": "Включение дополнительных кнопок",
-			"enableOverlayButtons.hint": "При выводе быстрого броска, на карточку чата будут добавлены дополнительные кнопки урона/лечения.",
-			"enableDamageButtons.name": "Отображение кнопок нанесения урона",
-			"enableDamageButtons.hint": "При выводе быстрого броска с уроном, на карточке чата будут отображаться кнопки, позволяющие наносить урон токену.",
-			"alwaysShowButtons.name": "Всегда отображать кнопки урона",
-			"alwaysShowButtons.hint": "При выводе быстрого броска, кнопки урона будут видны всегда, а не только при наведении на карточку чата.",
-			"applyDamageTo.name": "Получение урона/лечения",
-			"applyDamageTo.hint": "Определяет какие токены получают урон или лечение при нажатии на дополнительные кнопки на карточках чата.",
-			"confirmRetroAdv.name": "Особое ретроактивное преимущество",
-			"confirmRetroAdv.hint": "Отображать окно подтверждение при ретроактивном изменении броска на преимущество или помеху.",
-			"confirmRetroCrit.name": "Подтверждение ретроактивного крит. урона",
-			"confirmRetroCrit.hint": "Отображать окно подтверждение при ретроактивном изменении броска на критический урон."
-		},
-		"choices": {
-			"rollModifierMode": {
-				"shiftAdv": "Shift ➔ Преимущество, Ctrl/Cmd ➔ Помеха",
-				"ctrlAdv": "Ctrl/Cmd ➔ Преимущество, Shift ➔ Помеха"
-			},
-			"apply": {
-				"0": "Выбранные токены",
-				"1": "Нацеленные токены",
-				"2": "Выбранные и нацеленные",
-				"3": "Приоритет выбранных токенов",
-				"4": "Приоритет нацеленных токенов"
-			},
-			"manual": {
-				"0": "Никогда",
-				"1": "Только броски атаки",
-				"2": "Всегда"
-			}
-		},
-		"sheet": {
-			"tab": {
-				"title": "Быстрый бросок",
-				"section": {
-					"defaultRoll": "Настройки броска по умолчанию",
-					"alternateRoll": "Настройки альтернативного броска"
-				},
-				"subsection": {
-					"main": "Основное",
-					"damage": "Броски урона"
-				}
-			},
-			"placeholder": {
-				"context": "Контекст",
-				"label": "Название"
-			}
-		},
-		"chat": {
-			"buttons": {
-				"damageFull": "Нанести полный урон выбранным токенам",
-				"damageHalf": "Нанести половину урона выбранным токенам",
-				"damageQuarter": "Нанести четверть урона выбранным токенам",
-				"damageDouble": "Нанести двойной урон выбранным токенам",
-				"healing": "Исцелить выбранные токены",
-				"healingTemp": "Добавить временные ПЗ выбранным токенам",
-				"rollCrit": "Бросок критического урона",
-				"rollAdvantage": "Бросок с преимуществом",
-				"rollDisadvantage": "Бросок с помехой",
-				"repeat": "Повторить быстрый бросок."
-			},
-			"prompts": {
-				"retroCrit": "Улучшить до критического?",
-				"retroAdv": "Бросок с {target}?"
-			}
-		},
-		"messages": {
-			"error": {
-				"incorrectTargetState": "Не удалось преобразовать бросок в {state}, т.к. это некорректный вариант (преимущество или помеха).",
-				"rollIsNullOrUndefined": "Бросок вернул значение null или undefined.",
-				"termIsNullOrUndefined": "Формула вернула значение null или undefined.",
-				"applyDamageNoPermission": "У вас нет прав для нанесения урона этому токену.",
-				"applyDamageNoTokens": "Нет выбранных или нацеленных токенов для нанесения урона."
-			},
-			"warning": {
-				"emptyDamageField": "Одно или несколько значений урона этого предмета не заполнены. Перед броском убедитесь, что все поля урона заполнены."
-			}
-		}
-	}
+  "rsr5e": {
+    "settings": {
+      "enableSkillQuickRoll.name": "Tiri rapidi di abilità",
+      "enableSkillQuickRoll.hint": "Cliccando su un’abilità verrà eseguito automaticamente un tiro, invece di aprire la finestra standard. Per aprire la finestra standard, tieni premuto il tasto 'Salta finestra'.",
+      "enableAbilityQuickRoll.name": "Tiri rapidi di caratteristiche",
+      "enableAbilityQuickRoll.hint": "Cliccando su una caratteristica o su un tiro salvezza verrà eseguito automaticamente un tiro. La finestra standard può essere aperta tenendo premuto 'Salta finestra'.",
+      "enableToolQuickRoll.name": "Tiri rapidi con strumenti",
+      "enableToolQuickRoll.hint": "Cliccando su uno strumento verrà eseguito automaticamente un tiro. Per la finestra standard, tieni premuto 'Salta finestra'.",
+      "enableActivityQuickRoll.name": "Tiri rapidi delle funzionalità",
+      "enableActivityQuickRoll.hint": "Cliccando su una funzionalità dell’oggetto verrà eseguito automaticamente un tiro. La finestra standard si apre tenendo premuto 'Salta finestra'.",
+      "enableVanillaQuickRoll.name": "Abilita modifica dei tiri standard",
+      "enableVanillaQuickRoll.hint": "Anche i tiri standard avranno lo stile e la funzionalità del modulo RSR. Si applica anche se il tiro è fatto saltando il rapido (tasto 'Salta finestra').",
+      "alwaysRollMulti.name": "Tirare sempre più dadi",
+      "alwaysRollMulti.hint": "Nei tiri rapidi, lancia sempre due dadi anche se vantaggio/svantaggio non sono applicati.",
+      "manualDamageMode.name": "Tiro danni manuale",
+      "manualDamageMode.hint": "Nei tiri rapidi, non tirare automaticamente il danno. Verrà mostrato un pulsante sulla carta in chat per farlo manualmente.",
+      "aggregateDamage.name": "Unifica i tipi di danno",
+      "aggregateDamage.hint": "Nei tiri rapidi, somma i danni dello stesso tipo in un unico campo.",
+      "enableD20Icons.name": "Mostra D20 nei tiri rapidi",
+      "enableD20Icons.hint": "Nei tiri rapidi, mostra un'icona con il valore naturale accanto al risultato finale.",
+      "enableDiceReroll.name": "Abilita rilancio dei dadi",
+      "enableDiceReroll.hint": "Consente di cliccare su un dado nella chat per rilanciarlo.",
+      "enableOverlayButtons.name": "Abilita pulsanti aggiuntivi",
+      "enableOverlayButtons.hint": "Aggiunge pulsanti extra di danno/cura sulla carta in chat nei tiri rapidi.",
+      "enableDamageButtons.name": "Mostra pulsanti di danno",
+      "enableDamageButtons.hint": "Mostra pulsanti per infliggere danno direttamente al token nella carta chat con danni.",
+      "alwaysShowButtons.name": "Mostra sempre pulsanti di danno",
+      "alwaysShowButtons.hint": "I pulsanti di danno saranno sempre visibili, non solo al passaggio del mouse.",
+      "applyDamageTo.name": "Applicazione danno/cura",
+      "applyDamageTo.hint": "Determina a quali token verrà applicato il danno o la cura tramite i pulsanti nella carta chat.",
+      "confirmRetroAdv.name": "Conferma vantaggio retroattivo",
+      "confirmRetroAdv.hint": "Mostra una finestra di conferma quando si applica vantaggio/svantaggio retroattivamente.",
+      "confirmRetroCrit.name": "Conferma critico retroattivo",
+      "confirmRetroCrit.hint": "Mostra una finestra di conferma quando si modifica retroattivamente il tiro in un colpo critico."
+    },
+    "choices": {
+      "rollModifierMode": {
+        "shiftAdv": "Shift ➔ Vantaggio, Ctrl/Cmd ➔ Svantaggio",
+        "ctrlAdv": "Ctrl/Cmd ➔ Vantaggio, Shift ➔ Svantaggio"
+      },
+      "apply": {
+        "0": "Token selezionati",
+        "1": "Token mirati",
+        "2": "Selezionati e mirati",
+        "3": "Priorità ai selezionati",
+        "4": "Priorità ai mirati"
+      },
+      "manual": {
+        "0": "Mai",
+        "1": "Solo tiri d'attacco",
+        "2": "Sempre"
+      }
+    },
+    "sheet": {
+      "tab": {
+        "title": "Tiro rapido",
+        "section": {
+          "defaultRoll": "Impostazioni di tiro predefinite",
+          "alternateRoll": "Impostazioni tiro alternativo"
+        },
+        "subsection": {
+          "main": "Principale",
+          "damage": "Tiri per danno"
+        }
+      },
+      "placeholder": {
+        "context": "Contesto",
+        "label": "Nome"
+      }
+    },
+    "chat": {
+      "buttons": {
+        "damageFull": "Infliggi danno pieno ai token selezionati",
+        "damageHalf": "Infliggi metà danno ai token selezionati",
+        "damageQuarter": "Infliggi un quarto di danno ai token selezionati",
+        "damageDouble": "Infliggi doppio danno ai token selezionati",
+        "healing": "Cura i token selezionati",
+        "healingTemp": "Aggiungi PF temporanei ai token selezionati",
+        "rollCrit": "Tiro per danno critico",
+        "rollAdvantage": "Tiro con vantaggio",
+        "rollDisadvantage": "Tiro con svantaggio",
+        "repeat": "Ripeti il tiro rapido"
+      },
+      "prompts": {
+        "retroCrit": "Aggiornare a critico?",
+        "retroAdv": "Tiro con {target}?"
+      }
+    },
+    "messages": {
+      "error": {
+        "incorrectTargetState": "Impossibile trasformare il tiro in {state}, poiché non è un'opzione valida (vantaggio o svantaggio).",
+        "rollIsNullOrUndefined": "Il tiro ha restituito null o undefined.",
+        "termIsNullOrUndefined": "La formula ha restituito null o undefined.",
+        "applyDamageNoPermission": "Non hai i permessi per infliggere danno a questo token.",
+        "applyDamageNoTokens": "Nessun token selezionato o mirato su cui applicare danno."
+      },
+      "warning": {
+        "emptyDamageField": "Uno o più campi di danno per questo oggetto non sono compilati. Assicurati che tutti i danni siano inseriti prima del tiro."
+      }
+    }
+  }
 }

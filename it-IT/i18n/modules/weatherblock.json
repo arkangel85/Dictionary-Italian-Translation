@@ -1,5 +1,5 @@
 {
-	"weatherblock.sceneconfig.invertMask.name": "Инверсия блокирования погоды",
-	"weatherblock.sceneconfig.invertMask.hint": "Вместо того, чтобы блокировать погоду внутри полигона, погода будет отображаться только внутри него.",
-	"weatherblock.drawingconfig.blockWeather.name": "Блокирование погоды"
+"weatherblock.sceneconfig.invertMask.name": "Inversione blocco meteo",
+"weatherblock.sceneconfig.invertMask.hint": "Invece di bloccare il meteo all'interno del poligono, il meteo sarà visibile solo al suo interno.",
+"weatherblock.drawingconfig.blockWeather.name": "Blocco meteo"
 }

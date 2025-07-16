@@ -1,6 +1,6 @@
 {
-	"simpleDiceRoller.maxDiceCount.name": "Максимум костей за бросок",
-	"simpleDiceRoller.maxDiceCount.hint": "Максимальное число костей, которые можно бросить через Simple Dice Roller.",
-	"simpleDiceRoller.enableFateDice.name": "Включить кости Fate",
-	"simpleDiceRoller.enableFateDice.hint": "Если вы не знаете, что значит кость Fate, то не включайте это."
+  "simpleDiceRoller.maxDiceCount.name": "Numero massimo di dadi per tiro",
+  "simpleDiceRoller.maxDiceCount.hint": "Numero massimo di dadi che possono essere lanciati tramite Simple Dice Roller.",
+  "simpleDiceRoller.enableFateDice.name": "Abilita dadi Fate",
+  "simpleDiceRoller.enableFateDice.hint": "Se non sai cosa sono i dadi Fate, ti consigliamo di non attivare questa opzione."
 }
