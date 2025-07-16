@@ -4,8 +4,8 @@
   <img src="https://img.shields.io/badge/FVTT-v13-brightgreen" alt="FVTT v13 badge">
 </p>
 
-<p>
-  <img src="https://via.placeholder.com/800x400.png?text=Immagine+segnaposto+per+Foundry+VTT" alt="Logo Foundry VTT con bandiera italiana">
+<p style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/arkangel85/FoundryVTT-italian/refs/heads/main/it-IT/logo.png" alt="Logo Foundry VTT con bandiera italiana" style="width: 300px;">
 </p>
 
 <p>
