@@ -40,42 +40,51 @@
 <p>Attualmente il modulo traduce l'interfaccia principale di Foundry VTT, oltre a:</p>
 
 <h3>Sistemi</h3>
-<ul>
-  <li>13th Age</li>
-  <li>AGE System</li>
-  <li>Age of Sigmar: Soulbound</li>
-  <li>Alien (Alieno)</li>
-  <li>Blades in the Dark (Lame nell’Oscurità)</li>
-  <li>Call of Cthulhu (Il Richiamo di Cthulhu)</li>
-  <li>City of Mist (Città della Nebbia)</li>
-  <li>Coriolis (Coriolis)</li>
-  <li>Cyberpunk RED</li>
-  <li>Death in Space</li>
-  <li>Delta Green</li>
-  <li>Dungeon Crawl Classics</li>
-  <li>Dungeon World (Mondo dei Dungeon)</li>
-  <li>Dungeons & Dragons 5</li>
-  <li>Forbidden Lands (Terre Proibite)</li>
-  <li>Genesys / Star Wars FFG</li>
-  <li>GUMSHOE (INVESTIGATORE)</li>
-  <li>Ironsworn / Starforged</li>
-  <li>Mausritter</li>
-  <li>Mouseguard</li>
-  <li>Mutants Year Zero (Mutanti. Punto di Origine)</li>
-  <li>Old-School Essentials</li>
-  <li>Pathfinder 1e</li>
-  <li>Savage Worlds (Diario dell’Avventuriero)</li>
-  <li>Shadow of the Demon Lord</li>
-  <li>Star Trek Adventures (Star Trek)</li>
-  <li>Starfinder + Beginner Box</li>
-  <li>Tales from the Loop (Segreti dell’Ecosfera)</li>
-  <li>The One Ring 2e</li>
-  <li>The Witcher (The Witcher)</li>
-  <li>Traveler / Cepheus Engine</li>
-  <li>Vaesen (Creatura)</li>
-  <li>Vampire V5 (Vampiri: La Masquerade)</li>
-  <li><a href="#">Warhammer Fantasy Roleplay 4</a></li>
-</ul>
+<table>
+  <tr>
+    <td>
+
+- [13th Age](#)  
+- [AGE System](#)  
+- [Age of Sigmar: Soulbound](#)  
+- [Alien (Alieno)](#)  
+- [Blades in the Dark (Lame nell’Oscurità)](#)  
+- [Call of Cthulhu (Il Richiamo di Cthulhu)](#)  
+- [City of Mist (Città della Nebbia)](#)  
+- [Coriolis (Coriolis)](#)  
+- [Cyberpunk RED](#)  
+- [Death in Space](#)  
+- [Delta Green](#)  
+- [Dungeon Crawl Classics](#)  
+- [Dungeon World (Mondo dei Dungeon)](#)    
+- [Forbidden Lands (Terre Proibite)](#)  
+- [Genesys / Star Wars FFG](#)  
+- [GUMSHOE (INVESTIGATORE)](#)
+- [Ironsworn / Starforged](#) 
+
+</td>
+<td>
+ 
+- [Mausritter](#)  
+- [Mouseguard](#)  
+- [Mutants Year Zero (Mutanti. Punto di Origine)](#)  
+- [Old-School Essentials](#)  
+- [Pathfinder 1e](#)  
+- [Savage Worlds (Diario dell’Avventuriero)](#)  
+- [Shadow of the Demon Lord](#)  
+- [Star Trek Adventures (Star Trek)](#)  
+- [Starfinder + Beginner Box](#)  
+- [Tales from the Loop (Segreti dell’Ecosfera)](#)  
+- [The One Ring 2e](#)  
+- [The Witcher (The Witcher)](#)  
+- [Traveler / Cepheus Engine](#)  
+- [Vaesen (Creatura)](#)  
+- [Vampire V5 (Vampiri: La Masquerade)](#)  
+- [Warhammer Fantasy Roleplay 4](#)
+
+</td>
+  </tr>
+</table>
 
 <h3>Moduli</h3>
 
