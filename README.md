@@ -163,7 +163,7 @@
 - [Metric System for D&D5e](https://foundryvtt.com/packages/metric-system-dnd5e)  
 - [Midi Quality of Life Improvements](https://foundryvtt.com/packages/midi-qol)  
 - [Minimal UI](https://foundryvtt.com/packages/minimal-ui)  
-- [Monarch | Foundry Virtual Tabletop]([#](https://foundryvtt.com/packages/monarch))  
+- [Monarch | Foundry Virtual Tabletop](https://foundryvtt.com/packages/monarch)  
 - [Monk's Active Tile Triggers](https://foundryvtt.com/packages/monks-active-tiles)  
 - [Monk's Bloodsplats](https://foundryvtt.com/packages/monks-bloodsplats)  
 - [Monk's Combat Details](https://foundryvtt.com/packages/monks-combat-details)  
