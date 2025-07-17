@@ -29,7 +29,7 @@
   <li>Spunta la casella accanto a <em>"Dictionary: Italian Translation"</em> e clicca su <strong>Salva impostazioni</strong>.</li>
 </ol>
 
-<p><strong>Nota:</strong> alcuni sistemi possono anche richiedere i moduli <em>Babele</em> e <em>libWrapper</em> per la traduzione dei contenuti delle compendium.</p>
+<p><strong>Nota:</strong> alcuni sistemi possono anche richiedere i moduli <em>Babele</em> e <em>libWrapper</em> per la traduzione dei contenuti dei compendi.</p>
 
 <hr>
 
