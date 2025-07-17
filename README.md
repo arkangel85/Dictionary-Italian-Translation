@@ -184,8 +184,7 @@
 <td>
 
 - [Pings](https://foundryvtt.com/packages/pings/)  
-- [PnP - Pointer and Pings](https://foundryvtt.com/packages/pointer)  
-- [PnP - Pointer and Pings](https://foundryvtt.com/packages/pointer)  
+- [PnP - Pointer and Pings](https://foundryvtt.com/packages/pointer)   
 - [Polyglot](https://foundryvtt.com/packages/polyglot)  
 - [PopOut!](https://foundryvtt.com/packages/popout)  
 - [Portal](https://foundryvtt.com/packages/portal)  
