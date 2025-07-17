@@ -244,5 +244,5 @@
 
 <h3>Comunità</h3>
 <p>
-  Unisciti al nostro <a href="#">server Discord</a>, dove puoi fare domande su Foundry VTT, proporre richieste di traduzione e discutere di GDR.
+  Unisciti al nostro <a href="https://discord.gg/Vrq4Mpkvgr">server Discord</a>, dove puoi fare domande su Foundry VTT, proporre richieste di traduzione e discutere di GDR.
 </p>
