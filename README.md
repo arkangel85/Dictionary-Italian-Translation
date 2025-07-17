@@ -18,8 +18,8 @@
 
 <ol>
   <li>Nel menu principale, nella scheda <strong>Add-on Modules</strong> clicca su <strong>Install Module</strong></li>
-  <li>Inserisci nel filtro "traduzione italiana", nell’elenco dovrebbe comparire il modulo <em>"Italian Translation | Traduzione Italiana"</em>. Clicca su <strong>Install</strong></li>
-  <li>Vai alla scheda <strong>Configuration</strong> e cambia <strong>Default Language</strong> in <em>"Italian - Italian Translation"</em>. Clicca su <strong>Save Changes</strong>.</li>
+  <li>Inserisci nel filtro "italian", nell’elenco dovrebbe comparire il modulo <em>"Dictionary: Italian Translation"</em>. Clicca su <strong>Install</strong></li>
+  <li>Vai alla scheda <strong>Configuration</strong> e cambia <strong>Default Language</strong> in <em>"Dictionary: Italian Translation"</em>. Clicca su <strong>Save Changes</strong>.</li>
 </ol>
 
 <p><strong>Va eseguito ogni volta per ogni mondo:</strong></p>
