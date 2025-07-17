@@ -26,7 +26,7 @@
 
 <ol>
   <li>All'interno del gioco, vai alla scheda <strong>Impostazioni di gioco</strong> e clicca su <strong>Gestione moduli</strong>.</li>
-  <li>Spunta la casella accanto a <em>"Italian Translation | Traduzione Italiana"</em> e clicca su <strong>Salva impostazioni</strong>.</li>
+  <li>Spunta la casella accanto a <em>"Dictionary: Italian Translation"</em> e clicca su <strong>Salva impostazioni</strong>.</li>
 </ol>
 
 <p><strong>Nota:</strong> alcuni sistemi possono anche richiedere i moduli <em>Babele</em> e <em>libWrapper</em> per la traduzione dei contenuti delle compendium.</p>
