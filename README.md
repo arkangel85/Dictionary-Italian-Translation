@@ -1,4 +1,4 @@
-<h1>Traduzione italiana per Foundry VTT</h1>
+<h1>Traduzione Italiana per Foundry VTT</h1>
 
 <p>
   <img src="https://img.shields.io/badge/FVTT-v13-brightgreen" alt="FVTT v13 badge">
