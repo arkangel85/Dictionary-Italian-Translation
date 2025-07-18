@@ -1,1736 +1,1736 @@
 {
-	"Advantage": "Преимущество",
-	"Average": "Средняя",
-	"Cancel": "Отмена",
-	"Difficult": "Сложная",
-	"Disadvantage": "Помеха",
-	"Easy": "Легкая",
-	"Formidable": "Внушительная",
-	"Impossible": "Невозможная",
-	"Normal": "Обычная",
-	"Routine": "Рутина",
-	"Simple": "Элементарная",
-	"VeryDifficult": "Очень сложная",
-	"TWODSIX": {
-		"ActiveEffects": {
-			"DeleteEffect": "Убрать активный эффект",
-			"ConfirmDelete": "Вы уверены, что хотите удалить эффект?",
-			"BaseValue": "Base",
-			"Modifiers": "Modifiers",
-			"EffectLabel": "Effect Label",
-			"Source": "Source",
-			"Duration": "Duration",
-			"Condition": "Condition",
-			"UnknownSource": "Unknown Source",
-			"EffectEnable": "Enable Effect",
-			"EffectDisable": "Disable Effect",
-			"Controls": "Controls",
-			"NewEffect": "New Effect",
-			"CreateEffect": "Create Effect",
-			"Add": "Add",
-			"IncludingEffects": "Including active effects:"
-		},
-		"Damage": {
-			"DealDamage": "Нанести урон",
-			"Damage": "Урон",
-			"AP": "ББ",
-			"TotalDamage": "Общий урон",
-			"Characteristics": "Характеристики",
-			"Max": "Макс.",
-			"Mod": "Мод.",
-			"Dmg": "Урон",
-			"Current": "Текущий",
-			"ResultingStat": "Итоговое значение",
-			"UnallocatedDamage": "Нераспределённый урон",
-			"CharacterIsDead": "Персонаж мёртв",
-			"DealDamageTo": "Нанести урон _ACTOR_NAME_",
-			"DamageFormula": "Формула урона",
-			"NoRegularDamage": "Без обычного урона",
-			"CanBeBlocked": "Can be blocked",
-			"CanBeParried": "Can be parried"
-		},
-		"DamageType": {
-			"Acid": "Acid",
-			"Ballistic": "Ballistic",
-			"Disintegrate": "Disintegrate",
-			"Electrical": "Electrical",
-			"Entangle": "Entangle",
-			"Fire": "Fire",
-			"Laser": "Laser",
-			"Melee": "Melee",
-			"Plasma": "Plasma",
-			"Poison": "Poison",
-			"Stun": "Stun"
-		},
-		"Dialogs": {
-			"ROFPickerTitle": "Выберите режим стрельбы",
-			"ROFSingle": "Одиночный",
-			"ROFBurst": "Короткими очередями",
-			"ROFFull": "Длинными очередями",
-			"ROFDoubleTap": "Double Tap",
-			"ReplaceMacroCommand": "Update Macro Command"
-		},
-		"Actor": {
-			"Age": "Возраст",
-			"CharacterImage": "Портрет персонажа",
-			"CharacterName": "Имя персонажа",
-			"CharacterNames": "Character Names",
-			"Characteristics": {
-				"DEX": "ЛОВ",
-				"EDU": "ОБР",
-				"END": "ВНС",
-				"INT": "ИНТ",
-				"PSI": "ПСИ",
-				"SOC": "СОЦ",
-				"STR": "СИЛ",
-				"LFB": "ЗДР",
-				"STA": "СТК",
-				"CTM": "ЗРЖ",
-				"ALT1": "АЛЬТ1",
-				"ALT2": "АЛЬТ2",
-				"ALT3": "АЛЬТ3"
-			},
-			"CharacteristicEdit": "Переключить редактирование аббревиатур характеристик",
-			"Chassis": "Chassis",
-			"OperationalTime": "Operational Time",
-			"Price": "Price",
-			"LocomotionType": "Locomotion Type",
-			"DeleteOwnedItem": "Удалить предмет",
-			"Finances": {
-				"CASH_ON_HAND": "НА РУКАХ",
-				"DEBT": "ДОЛГ",
-				"FINANCIAL_NOTES": "БУХГАЛТЕРИЯ",
-				"LIVING_COSTS": "РАСХОДЫ НА ПРОЖИВАНИЕ",
-				"PENSION": "ПЕНСИЯ",
-				"SHIP_PAYMENTS_MONTHLY": "ЕЖЕМ. ВЫПЛАТЫ ЗА КОРАБЛЬ"
-			},
-			"Gender": "Пол",
-			"HeroPoints": "Пункты героизма",
-			"Hits": "Попадания",
-			"healing": "healing",
-			"damage": "damage",
-			"Applied": "Applied",
-			"Contamination": "Заражение",
-			"Lifeblood": "Здоровье",
-			"Stamina": "Стойкость",
-			"Endurance": "Выносливость",
-			"RadiationExposure": "Облучение радиацией",
-			"Rads": "Rads",
-			"HomeWorld": "Родной мир",
-			"Nationality": "Национальность",
-			"Info": {
-				"ALLIES": "СОЮЗНИКИ",
-				"BIOGRAPHY": "БИОГРАФИЯ",
-				"CONTACTS": "КОНТАКТЫ",
-				"DESCRIPTION": "ОПИСАНИЕ",
-				"ENEMIES": "ВРАГИ",
-				"XP": "EXPERIENCE POINTS",
-				"Points": "points",
-				"Available": "Available",
-				"TotalEarned": "Total Earned"
-			},
-			"Items": {
-				"Amount": "Количество",
-				"ARMOR": "БРОНЯ",
-				"ATTACHMENTS": "ATTACHMENTS",
-				"Attachments": "Attachments",
-				"AUGMENTS": "АУГМЕНТЫ",
-				"Augments": "Augments",
-				"Ammo": "Боеп.",
-				"Armor": "Броня",
-				"Parry": "Parry",
-				"EffectiveArmor": "Действующая броня",
-				"CONSUMABLES": "РАСХОДНИКИ",
-				"Count": "Число",
-				"CreateItem": "Создать предмет",
-				"Damage": "Урон",
-				"DeleteItem": "Удалить предмет",
-				"DisplayStored": "Displaying stored items",
-				"HideStored": "Hiding stored items",
-				"EQUIPMENT": "СНАРЯЖЕНИЕ",
-				"EQUIPMENT_TOOLS": "EQUIPMENT & TOOLS",
-				"STORAGE_JUNK": "STORAGE & JUNK",
-				"EditItem": "Изменить предмет",
-				"Effect": "Эффект",
-				"Location": "Место",
-				"EquippedLocation": "Equipped Location",
-				"Name": "Название",
-				"QuantityToTransfer": "Кол-во для передачи",
-				"Qty": "Кол.",
-				"Range": "Дист.",
-				"Refill": "Восполнение",
-				"Reload": "Перезарядка",
-				"SPELLS": "ЗАКЛИНАНИЯ",
-				"Spells": "Заклинания",
-				"ShortDescr": "Краткое описание",
-				"LocationState": {
-					"equipped": "Equipped",
-					"ship": "Ship",
-					"backpack": "Backpack",
-					"vehicle": "Vehicle",
-					"base": "Base",
-					"core": "Core (backpack and equipped only)",
-					"default": "Default (backpack, equipped and ship)",
-					"all": "All"
-				},
-				"Subtype": "Тип",
-				"TRAITS": "ЧЕРТЫ",
-				"Traits": "Черты",
-				"Transfer": "Передать предметы",
-				"TL": "ТУ",
-				"TechLevel": "Тех. уровень",
-				"Value": "Цена",
-				"WEAPONS": "ОРУЖИЕ",
-				"Weapons": "Оружие",
-				"Weight": "Вес"
-			},
-			"Notes": {
-				"NOTES": "ЛИЧНЫЕ ЗАМЕТКИ",
-				"Notes": "Личные заметки"
-			},
-			"Rolling": "Бросок",
-			"Skills": {
-				"AddSkill": "Skill",
-				"DeleteItem": "Удалить навык",
-				"EditItem": "Изменить навык",
-				"EditOrRemove": "Управление",
-				"BaseLevel": "Base Level",
-				"AdjLevel": "Adj. Level",
-				"Level": "Ур.",
-				"Modifier": "Мод.",
-				"SkillName": "Название",
-				"Total": "Всего",
-				"Untrained": "Нетренирован",
-				"NoGroup": "No Group",
-				"SkillRollTooltip": "Показывать настройки проверки по умолчанию. Shift+ЛКМ совершает проверку навыков без модификаторов со сложностью 6 или 8.",
-				"InvertedSkillRollTooltip": "Проверки навыков совершаются без модификаторов со сложностью 8. Shift+ЛКМ открывает окно настроек проверки.",
-				"JOAT": "Мастер на все руки",
-				"Timeframe": {
-					"none": "---",
-					"secs": "секунды",
-					"mins": "минуты",
-					"hrs": "часы",
-					"days": "дни",
-					"weeks": "недели",
-					"months": "месяца",
-					"rounds": "раунд"
-				}
-			},
-			"Species": "Вид",
-			"Tabs": {
-				"Finances": "Финансы",
-				"Info": "Инфо",
-				"Inventory": "Инвентарь",
-				"Notes": "Заметки",
-				"Effects": "Effects",
-				"Skills": "Навыки",
-				"FinancesTabTooltip": "Cash on Hand, Debt, Pension, Living Costs, etc.",
-				"InfoTabTooltip": "Traits, Description, Contacts, and Biography",
-				"InventoryTabTooltip": "Weapons, Armor, Augments, Equipment & Tools, Consumables and Attachements",
-				"NotesTabTooltip": "Traveller Notes",
-				"EffectsTabTooltip": "Active Effects",
-				"SkillsTabTooltip": "Traveller Skills"
-			},
-			"UnknownActorType": "Неизвестный тип актёра",
-			"using": "исп.",
-			"Movement": {
-				"MovementConfig": "Настройка скорости движения",
-				"MovementConfigHint": "Настройте скорость передвижения и специальные атрибуты передвижения существа.",
-				"MovementWalk": "Шаг",
-				"MovementBurrow": "Рытьё",
-				"MovementClimb": "Лазание",
-				"MovementHover": "Парение",
-				"MovementFly": "Полёт",
-				"MovementSwim": "Плавание",
-				"MovementUnits": "Единицы",
-				"DistFt": "Футы",
-				"DistKm": "Километры",
-				"DistM": "Метры",
-				"DistMi": "Мили",
-				"DistPc": "Парсеки",
-				"DistGU": "Единицы сетки",
-				"MovementRate": "Скорость движения"
-			},
-			"CharDisplay": {
-				"Core": "Core",
-				"Base": "Базовый",
-				"Alternate": "Альтернативный",
-				"All": "Все"
-			}
-		},
-		"Animal": {
-			"Niche": "Niche",
-			"NicheType": {
-				"Herbivore": "Herbivore",
-				"Omnivore": "Omnivore",
-				"Carnivore": "Carnivore",
-				"Scavenger": "Scavenger",
-				"Other": "Other"
-			},
-			"Type": "Type",
-			"Subtype": {
-				"Filter": "Filter",
-				"Intermittent": "Intermittent",
-				"Grazer": "Grazer",
-				"Gatherer": "Gatherer",
-				"Hunter": "Hunter",
-				"Eater": "Eater",
-				"Pouncer": "Pouncer",
-				"Chaser": "Chaser",
-				"Trapper": "Trapper",
-				"Killer": "Killer",
-				"Hijacker": "Hijacker",
-				"Intimidator": "Intimidator",
-				"CarrionEater": "Carrion-Eater",
-				"Reducer": "Reducer",
-				"Siren": "Siren"
-			},
-			"Locations": {
-				"CityUrban": "City or Urban",
-				"PlainsGrassland": "Plains or Grassland",
-				"HillsMountains": "Hills or Mountains",
-				"DesertBadlands": "Desert or Badlands",
-				"SwampAquatic": "Swamp or Aquatic",
-				"ForestJungle": "Forest or Jungle"
-			},
-			"Location": "Location",
-			"AnimalNotes": "Animal Notes",
-			"RobotNotes": "Robot Notes",
-			"AttackWeapons": "Attacks / Weapons",
-			"Reaction": "Reaction Roll",
-			"Attack": "Attack",
-			"Flee": "Flee",
-			"AttacksMessage": "Animal attacks party!",
-			"FleesMessage": "Animal flees from party!",
-			"NoReactionMessage": "Animal does not react",
-			"MoraleRoll": "Morale Roll",
-			"MoraleDM": "Morale DM",
-			"Retreat": "Retreat",
-			"FightingWithdrawal": "Fighting Withdrawl",
-			"KeepFighting": "Keep Fighting",
-			"Advance": "Advance",
-			"FightToTheDeath": "Fight to The Death!"
-		},
-		"Chat": {
-			"Roll": {
-				"Difficulty": "Сложность",
-				"Mode": "Режим",
-				"OtherModifiers": "Другие модификаторы",
-				"Type": "Тип",
-				"RollDetails": "Подробности броска",
-				"Timeframe": "Временные рамки",
-				"RollFormula": "Формула броска",
-				"Units": "Единицы измерения",
-				"taskDuration": "Для выполнения задания требуется _TIME_ _UNITS_.",
-				"RollModifiers": "Roll Modifiers",
-				"SkillModifier": "Skill Level",
-				"ItemModifier": "Item Bonus",
-				"Rof": "Rate-of-Fire",
-				"Wounds": "Wounds",
-				"Encumbered": "Encumbered",
-				"CharacteristicModifier": "Characteristic Modifier",
-				"Conditions": "Condition Modifiers",
-				"DodgeParry": "Dodge/Parry Modifier",
-				"Other": "Custom DM",
-				"Modifier": "Modifier",
-				"Description": "Description",
-				"DM": "DM",
-				"TargetModifier": "Target DM",
-				"OverrideAuto": "Override Auto",
-				"Characteristic": "Characteristic",
-				"Condition": "Condition",
-				"Attack": "Attack",
-				"ActiveEffect": "Active Effect",
-				"Attachments": "Attach./Consm.",
-				"WeaponsHandling": "Weapons Handling",
-				"WeaponsRange": "Weapon Range",
-				"ArmorModifier": "Armor Modifier",
-				"Chain": "Chain / Assisted Roll",
-				"Bonus": "Bonus",
-				"WithChainBonus": "with Chain / Assist bonus",
-				"WinsRoll": "wins contested / opposed roll.",
-				"TiedRoll": "Tied contested / opposed roll. No winner.",
-				"GMUtils": "GM Utilities",
-				"RequestRoll": "Request Roll",
-				"RequestRollClip": "<div class='toolclip'><video src='systems/twodsix/assets/toolclips/requestRollToolClip.webm' autoplay muted loop></video><h4>Request Roll</h4><p>Select any Tokens from which you would like to request a skill roll. A pop-up dialog opens where you can select the particulars of the roll.</p><p class='faint'>Disable Toolclips in the Settings</p></div>",
-				"GMRequestsRoll": "GM requests a _TYPE_ roll.",
-				"normal": "normal",
-				"AbilityCheck": "Ability / Characteristic Check",
-				"ApplyDamage": "Apply Damage",
-				"ApplyDestructiveDamage": "Apply Destructive Damage (10x)",
-				"ApplyReducedDamage": "Apply Scale Reduced Damage (0.1x)",
-				"ApplyHealing": "Apply Healing",
-				"DegreesOfSuccess": {
-					"ExceptionalFailure": "Exceptional Failure",
-					"Failure": "Failure",
-					"AverageFailure": "Average Failure",
-					"MarginalFailure": "Marginal Failure",
-					"MarginalSuccess": "Marginal Success",
-					"AverageSuccess": "Average Success",
-					"Success": "Success",
-					"ExceptionalSuccess": "Exceptional Success",
-					"none": "None",
-					"CE": "Cepheus Engine",
-					"other": "Other"
-				},
-				"RangeModifierTypes": {
-					"none": "None",
-					"singleBand": "Single Value",
-					"doubleBand": "Double Value",
-					"CE_Bands": "Cepheus Engine Bands",
-					"CT_Bands": "Classic Traveller Bands",
-					"CU_Bands": "Cepheus Universal Bands"
-				},
-				"WeaponRangeTypes": {
-					"closeQuarters": "Close Quarters",
-					"CQ": "CQ",
-					"extendedReach": "Extended Reach",
-					"reach": "Reach",
-					"thrown": "Thrown",
-					"pistol": "Pistol",
-					"rifle": "Rifle",
-					"shotgun": "Shotgun",
-					"assaultWeapon": "Assault Weapon",
-					"AW": "AW",
-					"rocket": "Rocket",
-					"none": "None",
-					"hands": "Hands",
-					"claws": "Claws",
-					"teeth": "Teeth",
-					"horns": "Horns",
-					"hooves": "Hooves",
-					"stinger": "Stinger",
-					"thrasher": "Thrasher",
-					"club": "Club",
-					"dagger": "Dagger",
-					"blade": "Blade",
-					"foil": "Foil",
-					"cutlass": "Cutlass",
-					"sword": "Sword",
-					"broadsword": "Broadsword",
-					"bayonet": "Bayonet",
-					"spear": "Spear",
-					"halberd": "Halberd",
-					"pike": "Pike",
-					"cudgel": "Cudgel",
-					"bodyPistol": "Body Pistol",
-					"autoPistol": "Automatic Pistol",
-					"revolver": "Revolver",
-					"carbine": "Carbine",
-					"autoRifle": "Automatic Rifle",
-					"submachinegun": "Submachinegun",
-					"laserCarbine": "Laser Carbine",
-					"laserRifle": "Laser Rifle",
-					"thras": "Thras",
-					"cutl": "Cutl",
-					"brdswd": "Brdswrd",
-					"bynt": "Bynt",
-					"halb": "Halb",
-					"bPistl": "Bpistl",
-					"aPistl": "Apistl",
-					"AR": "AR",
-					"subm": "Subm",
-					"LC": "LC",
-					"LR": "LR",
-					"custom": "Custom",
-					"cust": "Cust",
-					"personal": "Personal",
-					"pers": "Pers.",
-					"close": "Close",
-					"short": "Short",
-					"medium": "Medium",
-					"long": "Long",
-					"veryLong": "Very Long",
-					"vLong": "v.Long",
-					"distant": "Distant",
-					"thr": "Thr."
-				},
-				"RangeBandTypes": {
-					"personal": "Personal",
-					"close": "Close",
-					"short": "Short",
-					"medium": "Medium",
-					"long": "Long",
-					"veryLong": "Very Long",
-					"distant": "Distant",
-					"none": "None"
-				},
-				"ArmorTypes": {
-					"nothing": "Nothing",
-					"jack": "Jack",
-					"mesh": "Mesh",
-					"cloth": "Cloth",
-					"reflec": "Reflec",
-					"ablat": "Ablat",
-					"combat": "Combat"
-				},
-				"Dice": "Dice"
-			}
-		},
-		"Table": {
-			"TableResults": "Table Results"
-		},
-		"Create": "Создать",
-		"Handlebars": {
-			"CantShowCharacteristic": "Вам нужно заново выбрать характеристики для навыков, отмеченных XXX. Извините..."
-		},
-		"Items": {
-			"Encumbrance": "Вес",
-			"Enc": "Вес",
-			"DocumentReference": "Источник",
-			"Link": "Link",
-			"DeleteReference": "Delete Reference",
-			"Armor": {
-				"Armor": "Броня",
-				"PrimaryArmor": "Primary Armor",
-				"SecondaryArmor": "Вторичная броня",
-				"TotalArmor": "Total Armor",
-				"RadProt": "Защита от радиации",
-				"IsPowered": "Силовая броня",
-				"Nonstackable": "Non-stackable",
-				"SecondaryArmorProtectionTypes": "Secondary Protection Types",
-				"ArmorProtectionTypes": "Protection Types",
-				"armorDM": "DM",
-				"ArmorModifier": "Armor Modifier",
-				"ArmorType": "Armor Type",
-				"WearingReflec": "Wearing Reflec"
-			},
-			"Augmentation": {
-				"Arms": "Руки",
-				"AugEffect": "Эффект",
-				"AugLocation": "Augment Location",
-				"FullBody": "Всё тело",
-				"Head": "Голова",
-				"Legs": "Ноги",
-				"Torso": "Туловище",
-				"None": "None",
-				"ValueCr": "Цена в Кр"
-			},
-			"Component": {
-				"Ammunition": "Ammunition",
-				"componentName": "Компонент",
-				"accomodations": "accommodations",
-				"armament": "вооружение",
-				"armor": "броня",
-				"bridge": "мостик",
-				"cargo": "груз",
-				"computer": "компьютер",
-				"dock": "dock",
-				"drive": "двигатель",
-				"drone": "дрон",
-				"electronics": "электроника",
-				"fuel": "топливо",
-				"hull": "корпус",
-				"mount": "крепление",
-				"power": "питание",
-				"sensor": "сенсор",
-				"shield": "щит",
-				"software": "программа",
-				"storage": "хранилище",
-				"vehicle": "vehicle & craft",
-				"other": "прочее",
-				"otherExternal": "прочее - внешнее",
-				"otherInternal": "прочее - внутреннее",
-				"operational": "работает",
-				"damaged": "повреждён",
-				"destroyed": "уничтожен",
-				"off": "отключён",
-				"powerDraw": "Power Draw",
-				"powerGenerated": "Power Generated",
-				"Power": "Питание",
-				"status": "Статус",
-				"rating": "Рейтинг",
-				"Range": "Дистанция",
-				"totalQuantity": "Всего",
-				"availableQuantity": "Доступное количество",
-				"damage": "Урон",
-				"RadiationDamage": "Радиационный урон",
-				"hits": "Попадание",
-				"SustainedHits": "Sustained Hits",
-				"weightIsPct": "Вес в процентах?",
-				"purchasePrice": "Цена покупки",
-				"isIllegal": "Незаконный?",
-				"unitWeight": "Вес единицы",
-				"pctDisplacement": "% Массы смещения",
-				"CargoItem": "Предмет груза",
-				"CargoLocation": "Расположение груза",
-				"Price": "Цена",
-				"Value": "Цена",
-				"GeneratesPower": "Генерирует питание?",
-				"IsRefined": "Очищенный?",
-				"Features": "Особенности / черты",
-				"PricingBasis": "Цена на",
-				"perUnit": "МКр за единицу",
-				"perCompTon": "МКр за тонну компонента",
-				"perHullTon": "МКр на тонну корпуса",
-				"per100HullTon": "MCr per 100 hull tons",
-				"pctHull": "Процент базового значения корпуса",
-				"pctHullPerUnit": "Percent of base hull value per unit",
-				"isBaseHull": "Является базовым корпусом?",
-				"RollModifier": "Модификатор Броска",
-				"DM": "МБ",
-				"Hardened": "Hardened?",
-				"hardened": "Hardened",
-				"Hd": "Hd",
-				"isPopup": "Is a Pop-up?",
-				"isExtended": "Is Pop-up extended?",
-				"extended": "extended",
-				"retracted": "retracted",
-				"Displacement": "Displacement",
-				"Description": "Description",
-				"ComponentType": "Component Type",
-				"powerPerUnit": "per unit",
-				"powerPerCompTon": "per component ton",
-				"powerPerHullTon": "per hull ton",
-				"installedCost": "Installed Cost (MCr)",
-				"techLevel": "Tech Level",
-				"diceModifier": "Dice Modifier",
-				"displacementWeight": "Displacement Weight (d-tons)",
-				"PowerUsed": "Power Consumed or Generated (+)",
-				"Quantity": "Quantity",
-				"AttackDamage": "Attack Damage",
-				"numberHits": "Number of Hits",
-				"opStatus": "Operational Status"
-			},
-			"Equipment": {
-				"AssignSkill": "Назначить навык",
-				"AssociatedSkillName": "Associated Skill Name(s)",
-				"Description": "Описание",
-				"ItemName": "Название предмета",
-				"Location": "Место",
-				"Price": "Цена",
-				"Quantity": "Количество",
-				"ShortDescription": "Краткое описание",
-				"SkillModifier": "Roll/Dice Modifier",
-				"TL": "ТУ",
-				"Weight": "Вес",
-				"isAttachment": "Attachment?",
-				"NewAttachment": "New Attachment",
-				"BonusDamage": "Bonus Damage",
-				"PriorType": "Prior Item Type"
-			},
-			"Items": {
-				"AssignArmor": "Сделать бронёй",
-				"AssignAugment": "Сделать аугментом",
-				"AssignEquipment": "Сделать снаряжением",
-				"AssignJunk": "Сделать хламом",
-				"AssignTool": "Сделать инструментом",
-				"AssignWeapon": "Сделать оружием",
-				"AssignConsumable": "Сделать расходником",
-				"AssignComputer": "Assign Computer",
-				"Inventory": "Инвентарь",
-				"ItemType": "Тип",
-				"MoveStorage": "Переместить",
-				"New": "Новый",
-				"Storage": "Хранилище",
-				"Junk": "Junk"
-			},
-			"Skills": {
-				"DEX": "ЛОВ",
-				"EDU": "ОБР",
-				"END": "ВНС",
-				"INT": "ИНТ",
-				"Level": "Уровень",
-				"Modifier": "Модификатор",
-				"NONE": "---",
-				"PSI": "ПСИ",
-				"SOC": "СОЦ",
-				"STR": "СИЛ",
-				"SkillName": "Название навыка",
-				"SimplifiedSkillName": "Аббревиатура навыка",
-				"SimplifiedSkillNameDescription": "Используется в формулах бросков, вроде @skills._SKILL_NAME_.<br>@skills._SKILL_NAME__ равняется нулю, если навыка не существует или он меньше нуля.",
-				"LFB": "ЗДР",
-				"STA": "ВНС",
-				"HIT": "HIT",
-				"ALT1": "АЛТ1",
-				"ALT2": "АЛТ2",
-				"ALT3": "ALT3",
-				"TrainingNotes": "Учебные заметки",
-				"NumberOfSkills": "Количество навыков",
-				"SkillRanks": "Ранг навыка",
-				"GroupLabel": "Group Label",
-				"Melee Combat": "Melee Combat"
-			},
-			"Traits": {
-				"Prerequisite": "Критерии",
-				"TraitName": "Название черты",
-				"CreateEffect": "Create Effect",
-				"DeleteEffect": "Delete Effect",
-				"EditEffect": "Edit Effects",
-				"CreateTrait": "Create Trait",
-				"DeleteTrait": "Delete Trait",
-				"ShortDescAndEffects": "Short description and list of effects"
-			},
-			"Tool": {
-				"Bonus": "Бонус"
-			},
-			"Consumable": {
-				"Types": {
-					"air": "Воздух",
-					"drugs": "Лекарства",
-					"food": "Пища",
-					"fuel": "Горючее",
-					"magazine": "Обойма",
-					"power_cell": "Энергоячейка",
-					"software": "Software",
-					"processor": "Processor",
-					"suite": "Electronics Suite",
-					"other": "Другое"
-				},
-				"Size": "Размер",
-				"Subtype": "Тип",
-				"Count": "Число",
-				"Bandwidth": "Bandwidth",
-				"ArmorPiercing": "Бронебойность",
-				"AmmoRangeModifier": "Range Modifier (% change to base range)",
-				"DropConsumablesHere": "Вы можете перенести расходники сюда.",
-				"DropAttachmentsHere": "You can drop attachments here.",
-				"RemoveConsumable": "Удалить расходник",
-				"RemoveConsumableFrom": "Удалить расходник _CONSUMABLE_NAME_ из _ITEM_NAME_?",
-				"SelectConsumable": "Select Consumable",
-				"ActiveConsumable": "Active Consumable",
-				"SoftwareActive": "Software Active?",
-				"SoftwareOn": "Software Active",
-				"SoftwareOff": "Software Inactive"
-			},
-			"Weapon": {
-				"Ammo": "Боеприпас",
-				"Damage": "Урон",
-				"Range": "Дальность",
-				"lawLevel": "Законность",
-				"rangeBand": "Диапазон",
-				"weaponType": "Тип оружия",
-				"damageType": "Тип урона",
-				"rateOfFire": "Скорострельность/Авто X",
-				"doubleTap": "Double Tap",
-				"recoil": "Отдача",
-				"UseAsAmmunitionForAttack": "Использовать боеприпасы для атак",
-				"MagazineCost": "Цена обоймы/энергоячейки",
-				"ArmorPiercing": "Бронебойность",
-				"ParryAV": "Parry AV",
-				"ShieldAV": "Shield AV",
-				"isShield": "Acts as a shield",
-				"Features": "Особенности / черты",
-				"Unarmed": "Без оружия",
-				"UnarmedDescription": "Безоружная атака",
-				"HandlingModifiers": "Handling Modifiers",
-				"Magazine": "Magazine",
-				"Modifiers": "Modifiers",
-				"Attack": "Attack",
-				"Consumables": "Consumables",
-				"DefaultMagazine": "Default Magazine Size",
-				"HandlingExample": "e.g., DEX 6/-3 10/+4",
-				"MeleeRangeModifier": "Melee Range DM",
-				"CustomModifier": {
-					"range": "Custom Range Modifier",
-					"armor": "Custom Armor Modifier"
-				}
-			},
-			"Spells": {
-				"CircleSchool": "Школа/Круг Заклинания",
-				"Duration": "Длительность",
-				"SpellName": "Название заклинания",
-				"Level": "Уровень",
-				"sorcerySkill": "Волшебство"
-			},
-			"Computer": {
-				"ProcessingPower": "Processing Power"
-			}
-		},
-		"Target": {
-			"AreaEffect": "Area of Effect",
-			"Target": "Target",
-			"None": "none",
-			"Radius": "radius",
-			"Sphere": "sphere",
-			"Cylinder": "cylinder",
-			"Cone": "cone",
-			"Square": "square",
-			"Cube": "cube",
-			"Line": "line",
-			"Wall": "wall",
-			"Width": "Width",
-			"Units": "Units",
-			"TypeArea": "Area Type"
-		},
-		"Ship": {
-			"Actions": "Действия",
-			"ActionType": "Тип действия",
-			"ActionRollFormula": "Формула броска действия",
-			"Unknown": "неизвестный",
-			"ActorLacksSkill": "_ACTOR_NAME_ не имеет навыка _SKILL_",
-			"ActorMustBeSelectedForAction": "Так как имеется несколько актеров, выберите того кто делает действие",
-			"AddShipPosition": "Добавить позицию на корабле",
-			"Avail": "Доступ.",
-			"Available": "Доступно",
-			"AvailableCargoWeight": "Доступный вес груза",
-			"CantDropActorIfPositionIsNotOnShip": "Вы не можете поставить Путника на позицию корабля, которая не находится на корабле",
-			"CannotParseArgument": "Cannot Parse Position Action String",
-			"Cargo": "Груз",
-			"CargoWeight": "Общий вес груза",
-			"CARGONOTES": "ГРУЗОВЫЕ ЗАМЕТКИ",
-			"COMPONENTS": "КОМПОНЕНТЫ",
-			"COMMONFUNDS": "COMMON FUNDS",
-			"CombatPosition": "Combat Position",
-			"CreateAction": "Создать действие",
-			"Crew": {
-				"ADMIN": "АДМИНИСТРАЦИЯ",
-				"ASTROGATOR": "АСТРОГАТОР",
-				"BROKER": "ПОСРЕДНИК",
-				"CAPTAIN": "КАПИТАН",
-				"ENGINEER": "ИНЖЕНЕР",
-				"GUNNER": "ЗЕНИТЧИК",
-				"MAINTENANCE": "РЕМОНТНИК",
-				"MARINE": "ПЕХОТИНЕЦ",
-				"MEDIC": "МЕДИК",
-				"OTHER": "ДРУГИЕ",
-				"PILOT": "ПИЛОТ",
-				"STEWARD": "СТЮАРД"
-			},
-			"Damage": "Damage",
-			"Deckplan": "План палубы",
-			"Defense": "Defense",
-			"DeleteAction": "Удалить действие",
-			"Designation": "Designation",
-			"Displacement": "Смещение",
-			"Drives": "Двигатели",
-			"FINANCENOTES": "БУХГАЛТЕРИЯ",
-			"SHIPVALUE": "ЦЕНА КОРАБЛЯ",
-			"Fuel": "Топливо",
-			"RefinedFuel": "Переработанное топливо",
-			"UnrefinedFuel": "Сырое топливо",
-			"Gs": "G",
-			"InvalidDocumentForShipPosition": "Этот тип документа недопустим для позиций корабля. Сюда можно перенести только навыки.",
-			"IsMassProduced": "Корабль Серийно Выпускается",
-			"JDrive": "J-Двиг.",
-			"Jump": "Прыжок",
-			"MacroSkill": "Макрос/Навык",
-			"Component": "Component to use",
-			"MakesChatRollAction": "Использует действие _ACTION_NAME_ из позиции _POSITION_NAME_",
-			"ActionHits": "Попадает, используя _WHILE_USING_ с эффектом _EFFECT_VALUE_",
-			"ActionHitsAndDamage": "Попадает, используя _WHILE_USING_ с эффектом _EFFECT_VALUE_ нанося стандартный урон _DAMAGE_TOTAL_",
-			"ActionMisses": "Промахивается, используя _WHILE_USING_ с эффектом _EFFECT_VALUE_",
-			"RadiationDamageOf": "и радиационный урон",
-			"WhileUsing": "используя",
-			"MaintPM": "Ежемесячное обслуживание",
-			"MANIFEST": "ДЕКЛАРАЦИЯ",
-			"MAX": "МАКС.",
-			"MDrive": "М-Двиг.",
-			"Name": "Имя",
-			"NewAction": "Новое действие",
-			"NoActorsForAction": "Нет доступных актеров для действия",
-			"Operations": "Operations",
-			"Order": "Порядок",
-			"Overdrive": "Перегрузка",
-			"Parsecs": "Парсеки",
-			"pc": "пк",
-			"PositionName": "Название позиции",
-			"Power": "Питание",
-			"PowerManagement": "Управление питанием",
-			"PowerWeightManagement": "Управление питания и веса",
-			"PP": "ОП",
-			"RemoveTraveller": "Убрать путника с корабля",
-			"Sensors": "Сенсоры",
-			"ShipHull": "Корпус корабля",
-			"SHIPNOTES": "ЗАМЕТКИ КОРАБЛЯ",
-			"Storage": "Хранение",
-			"Systems": "Системы",
-			"Tabs": {
-				"Cargo": "Груз",
-				"Components": "Компоненты",
-				"Crew": "Экипаж",
-				"Finance": "Финансы",
-				"Locker": "Сейф",
-				"Notes": "Заметки",
-				"ShipPositions": "Позиции"
-			},
-			"Thrust": "Тяга",
-			"tons": "тонны",
-			"dtons": "d-tons",
-			"Travellers": "Путники",
-			"USED": "ИСПОЛ.",
-			"Vehicles": "Транспорт",
-			"Weapons": "Орудия",
-			"MCr": "МКр",
-			"ShipValue": "Цена корабля",
-			"MortgagePerMonth": "Платеж по кредиту",
-			"MaintenancePerMonth": "Цена Обслуживания",
-			"CrPerMonth": "Кр/месяц",
-			"Chat": "Chat",
-			"UseAComponent": "Fire weapon",
-			"executeMacro": "Macro",
-			"SkillRoll": "Skill",
-			"chatPlaceholder": "Chat Message",
-			"skillPlaceholder": "Skill/CHR 8+",
-			"firePlaceholder": "Skill/CHR 8+",
-			"macroPlaceholder": "Macro name",
-			"skillTooltip": "Possible options:\nSkill\nSkill|Alternative Skill 1|...\nSkills/ATR\nSkills/ 8+\nSkills/ATR 8+\nSkills/ATR|ATR2",
-			"fireTooltip": "Possible options:\nSkill\nSkill|Alternative Skill 1|...\nSkills/ATR\nSkills/ 8+\nSkills/ATR|ATR2 8+",
-			"MacroTooltip": "Macro Name",
-			"chatTooltip": "Ahoy!",
-			"ExecuteMacro": "Execute Macro",
-			"None": "None"
-		},
-		"Vehicle": {
-			"SystemStatus": "Статус системы",
-			"Cargo": "Груз",
-			"CargoNotes": "Заметки",
-			"CargoCapacity": "Вместимость",
-			"Speed": "Скорость",
-			"Range": "Дальность",
-			"Spaces": "Spaces",
-			"Agility": "Ловкость",
-			"systems": {
-				"cargo": "Груз",
-				"cockpit": "Копот",
-				"computers": "Компьютеры",
-				"electronics": "Электроника",
-				"limbs": "Манипуляторы",
-				"propulsion": "Движение",
-				"powerPlant": "Силовая установка",
-				"sensors": "Сенсоры",
-				"weapons": "Орудия"
-			},
-			"crew": {
-				"operators": "Операторы",
-				"passengers": "Пассажиры"
-			},
-			"Movement": "Скорость",
-			"Crew": "Команда",
-			"Weight": "Вес",
-			"Armor": "Броня",
-			"Hull": "Корпус",
-			"Structure": "Структура",
-			"Protection": "Защита",
-			"skillToOperate": "Навык для управления",
-			"Weapons": "Орудия",
-			"Components": "Components",
-			"OpenVehicle": "Открытый транспорт",
-			"techLevel": "ТУ",
-			"Cost": "Стоимость",
-			"Traits": "Черты",
-			"ArmorHull": "Броня и Корпус",
-			"Regular": "Обычный",
-			"Critical": "Критический",
-			"Thresholds": "Пороги",
-			"ProtectionType": {
-				"ArmorOnly": "Только Броня",
-				"Threshold": "Порог",
-				"ArmorHullStruc": "Броня, Корпус и Структура"
-			},
-			"ShippingSize": "Shipping Size"
-		},
-		"SpaceObject": {
-			"Notes": "Notes",
-			"Damage": "Damage",
-			"Information": "Information",
-			"Features": "Features",
-			"Thrust": "Thrust",
-			"rounds": "round(s)",
-			"RoundsActive": "Rounds Active"
-		},
-		"Resource": {
-			"Value": "Value",
-			"Min": "Min",
-			"Max": "Max",
-			"Label": "Label"
-		},
-		"Migration": {
-			"Completed": "Миграция Twodsix System до версии {version} завершена!",
-			"DoNotClose": "Происходит миграция Migrating Twodsix до версии {version}. Не закрывайте игру.",
-			"MigrationError0.6.25": "Ошибка миграции: не удалось конвертировать цену ${name}, она была ${price} и стала 0."
-		},
-		"No": "Нет",
-		"Rolls": {
-			"AdjustedDamage": "Урон изменён эффектом:",
-			"Cancel": "Отмена",
-			"DamageUsing": "Урон с",
-			"Effect": "Эффект",
-			"ToggleDetails": "Toggle Details",
-			"Roll": "Бросок",
-			"RollChain": "Chain / Assisted Roll",
-			"RollOpposed": "Opposed Roll",
-			"Rolling": "Бросок",
-			"With": "с",
-			"resultShows": "отображает",
-			"sum": "сумму",
-			"using": "использует {characteristic}",
-			"Wounds": "Ранения",
-			"AttackDM": "МБ атаки",
-			"Damage": "Damage",
-			"BonusDamage": "Бонусный урон",
-			"BurstDamage": "Burst Damage",
-			"Burst": "Burst",
-			"Auto": "Auto",
-			"FullAuto": "Full Auto",
-			"DoubleTap": "Double Tap",
-			"Single": "Single",
-			"Timeframe": "Время",
-			"RollInitiative": "Бросок инициативы",
-			"characteristic": "characteristic",
-			"ROF": "ROF",
-			"RollDamage": "Roll Damage",
-			"DodgeParry": "Dodge/Parry",
-			"Attachments": "Attch/Cons",
-			"WeaponsHandling": "Weapons Handling",
-			"SelectSkill": "Select Skill",
-			"SkillName": "Skill Name",
-			"MakesOpposedRoll": "Makes an opposed / contested roll.",
-			"MakesChainRoll": "Makes a chain / assisted roll.",
-			"MakesParryRoll": "Makes a melee combat skill check to parry attack with",
-			"MakesUncRoll": "Rolls to remain conscious."
-		},
-		"Settings": {
-			"absoluteBonusValueForEachTimeIncrement": {
-				"hint": "Оставьте пустую для использования обычного (+/-1). Сейчас не используется.",
-				"name": "Какие бонусы/штрафы выдавать за каждое изменение в задаче."
-			},
-			"absoluteCriticalEffectValue": {
-				"hint": "Сбрасывается на 99, означает что эффект не работает",
-				"name": "Этот эффект нужен на случай критически успешного/провального броска (в цвете зеленого/красного)."
-			},
-			"shortSTR": {
-				"hint": "Short name for strength characteristic. It should be four characters or fewer.",
-				"name": "Short name for strength characteristic"
-			},
-			"shortDEX": {
-				"hint": "Short name for dexterity characteristic. It should be four characters or fewer.",
-				"name": "Short name for dexterity characteristic"
-			},
-			"shortEND": {
-				"hint": "Short name for endurance characteristic. It should be four characters or fewer.",
-				"name": "Short name for endurance characteristic"
-			},
-			"shortINT": {
-				"hint": "Short name for intelligence characteristic. It should be four characters or fewer.",
-				"name": "Short name for intelligence characteristic"
-			},
-			"shortSOC": {
-				"hint": "Short name for social standing characteristic. It should be four characters or fewer.",
-				"name": "Short name for social standing characteristic"
-			},
-			"shortEDU": {
-				"hint": "Short name for education characteristic. It should be four characters or fewer.",
-				"name": "Short name for education characteristic"
-			},
-			"shortPSI": {
-				"hint": "Short name for psionic strength characteristic. It should be four characters or fewer.",
-				"name": "Short name for psionic strength characteristic"
-			},
-			"alternativeShort1": {
-				"hint": "Аббревиатура для первой альтернативной характеристики. Оно должно быть не больше четырех символов.",
-				"name": "Аббревиатура для альтернативной характеристики 1"
-			},
-			"alternativeShort2": {
-				"hint": "Аббревиатура для второй альтернативной характеристики. Оно должно быть не больше четырех символов.",
-				"name": "Аббревиатура для альтернативной характеристики 2"
-			},
-			"alternativeShort3": {
-				"hint": "Short name for third alternative characteristic. It should be four characters or fewer.",
-				"name": "Short name for alternative characteristic 3"
-			},
-			"autofireRulesUsed": {
-				"hint": "Выберите используемый вариант правил длинной/короткой очереди.",
-				"name": "Выберите используемый вариант правил длинной/короткой очереди."
-			},
-			"automateDamageRollOnHit": {
-				"hint": "выбран=Бросает урон, измененный эффектом броска. не выбран=Не бросает урон.",
-				"name": "Автоматически бросает урон на проверке навыков при попадании (эффект > 0) с предметами которые наносят урон."
-			},
-			"criticalNaturalAffectsEffect": {
-				"hint": "вкл=При успехе натуральная 2 будет иметь эффект -1, а 12 – эффект 0; выкл=Использовать стандартные правила",
-				"name": "Имеет ли натуральные 2 или 12 особое влияние на успех/провал."
-			},
-			"defaultTokenSettings": {
-				"hint": "Автоматически выставляет рекомендованные параметры токена-прототипа для новых актёров.",
-				"name": "Настройки токена-прототипа по умолчанию"
-			},
-			"difficultiesAsTargetNumber": {
-				"hint": "вкл=Целевые значения; выкл=Модификаторы сложности",
-				"name": "Использовать целевые значения вместо модификаторов сложности."
-			},
-			"difficultyListUsed": {
-				"hint": "Выберите вариант правил для сложности.",
-				"name": "Вариант правил для сложности"
-			},
-			"effectOrTotal": {
-				"hint": "checked=Show effect (i.e. roll+modifiers-target number, usually 6 or 8), unchecked=Show total (i.e. roll+modifiers)",
-				"name": "Show effect or total roll value for skill and characteristic rolls."
-			},
-			"ExperimentalFeatures": {
-				"hint": "checked=Boldly use ugly and buggy experimental features that just maybe won't delete your game world, unchecked=Hide them like any sane person would",
-				"name": "Show ugly, buggy and unfinished features. I.e., kind of like all the other features that are not hidden by this flag. :)"
-			},
-			"hideUntrainedSkills": {
-				"continue": "Желаете продолжить?",
-				"hint": "checked=Show pseudo-skill 'Untrained' instead of all untrained skills. unchecked=Show all untrained skills",
-				"name": "Hide all untrained skills, instead show a single pseudo-skill named 'Untrained'. This also makes it so new skills are added at 0 instead of the untrained skill value.",
-				"warning": "Внимание!",
-				"warningReset": "After saving the system settings all skills using the pseudo-skill Untrained will be permanently reset to using no skill.This action cannot be undone.",
-				"warningUpdateWeapon": "After saving the system settings all actors' weapons that do not have a skill will be updated to use the pseudo-skill Untrained.This action cannot be undone."
-			},
-			"initiativeFormula": {
-				"hint": "Например: \"2d6 + @characteristics.dexterity.mod\"",
-				"name": "Формула инициативы"
-			},
-			"armorDamageFormula": {
-				"hint": "Use VTT roll math without dice terms '@damage'/'@effectiveArmor' are replaced with the damage/effective armor. default behaviour: \"@damage-@effectiveArmor\"",
-				"name": "Armor damage reduction formula"
-			},
-			"invertSkillRollShiftClick": {
-				"hint": "Clicking on a skill roll or dragging damage to a character normally shows a dialog, shift-clicking applies default values (Average skill roll or automatic damage distribution). Checking this box swaps this behavior.",
-				"name": "Invert behavior for shift-clicking for skill rolls and shift-dragging for taking damage"
-			},
-			"lifebloodInsteadOfCharacteristics": {
-				"hint": "Показывать ВНС и Здоровье (использует СИЛ за укрытиями) как характеристики. Полезно для Cepheus Atom, Barbaric! и др.",
-				"name": "Показывать ВНС и Здоровье (СИЛ) как характеристики."
-			},
-			"maxSkillLevel": {
-				"hint": "Оставьте пустым, чтобы использовать стандартный (9).",
-				"name": "Максимальный уровень навыка"
-			},
-			"modifierForZeroCharacteristic": {
-				"hint": "Оставьте пустым, чтобы использовать стандартный (-2). Не пересчитывает автоматически для существующих персонажей.",
-				"name": "Модификатор характеристики, равной нулю."
-			},
-			"ruleset": {
-				"hint": "Настройки будут оптимизированы под выбранные правила. Имейте ввиду, что правила выше имеют наилучшую поддержку. Смотрите https://github.com/xdy/twodsix-foundryvtt/blob/master/docs/docs.md для подробностей. Правила, относящиеся к набору правил, отмечены зеленой рамкой. Любые изменения в настройках, установленных набором правил, будут отмечены оранжевой рамкой.",
-				"name": "Правила"
-			},
-			"settingsInterface": {
-				"debugSettings": {
-					"hint": "Configure/View the debugging and experimental features settings.",
-					"intro": "Experimental & Debugging Settings",
-					"name": "Experimental & Debugging Settings"
-				},
-				"displaySettings": {
-					"hint": "Настройка внешнего вида.",
-					"intro": "Настройки отображения",
-					"name": "Настройки отображения"
-				},
-				"itemSettings": {
-					"hint": "Выбор свойств, отображаемых на предметах.",
-					"intro": "Настройки предмета",
-					"name": "Настройки предмета"
-				},
-				"rulesetSettings": {
-					"hint": "Настройка игровых правил",
-					"intro": "Текущие правила",
-					"modified": "изменено",
-					"name": "Расширенные настройки правил"
-				}
-			},
-			"shipInitiativeFormula": {
-				"hint": "Like: \"2d6\"",
-				"name": "Формула инициативы корабля"
-			},
-			"showAlternativeCharacteristics": {
-				"hint": " Core: six basic chararcteristics (STR, DEX, END, INT, EDU, and SOC).  Base: core six plus PSI. Alternative: core six plus two Alternative characteristics. All: core six plus PSI plus three Alternative characteristics.",
-				"name": "Выберите показываемые характеристики"
-			},
-			"showContaminationBelowLifeblood": {
-				"hint": "Показывать Заражение под Здоровьем. Полезно только если включена опция 'Показывать ВНС и Здоровье',",
-				"name": "Показывать Заражение под Здоровьем."
-			},
-			"ShowDamageType": {
-				"hint": "Отображать поле типа урона. Иначе оно будет скрыто.",
-				"name": "Show the 'Damage Type' field on weapon (and spell) sheets"
-			},
-			"showHeroPoints": {
-				"hint": "Показывать счётчик пунктов Героизма в бланке персонажа.",
-				"name": "Включить пункты Героизма"
-			},
-			"usePDFPagerForRefs": {
-				"hint": "Use with PDF Pager to show references.  The format must be '[code name] [page number]'. If setting is false, url links to references are used instead.",
-				"name": "Use PDF-Pager module to show references"
-			},
-			"ShowLawLevel": {
-				"hint": "checked=Show the 'Law Level' field, unchecked=Hide it",
-				"name": "Отображать поле уровня законности на оружии"
-			},
-			"showLifebloodStamina": {
-				"hint": "Отображать Здоровье и Стойкость на бланке персонажа. Урон будет применяться к этим характеристикам. Полезно для Cepheus Deluxe.",
-				"name": "Отображать и наносить урон Здоровью и Стойкости."
-			},
-			"ShowRangeBandAndHideRange": {
-				"hint": "checked=Shows 'Range Band', unchecked=Shows 'Range'",
-				"name": "Отображать 'Диапазон дистанций' и *скрывать* 'Дистанцию' на оружии и персонажах"
-			},
-			"ShowRateOfFire": {
-				"hint": "checked=Show the 'Rate of Fire' field, unchecked=Hide it",
-				"name": "Отображать поле Скорострельность на бланках оружия"
-			},
-			"ShowRecoil": {
-				"hint": "checked=Show the 'Recoil' field, unchecked=Hide it",
-				"name": "Show the 'Recoil' field on weapon sheets"
-			},
-			"ShowDoubleTap": {
-				"hint": "checked=Show the 'Double Tap' field, unchecked=Hide it",
-				"name": "Show the 'Double Tap' field on weapon sheets"
-			},
-			"showSingleComponentColumn": {
-				"hint": "Show the ship components list as a single row.",
-				"name": "Ship components listed as single row"
-			},
-			"showBandwidth": {
-				"hint": "Show the used and available bandwidth for computers and software.",
-				"name": "Ship computing bandwidth"
-			},
-			"ShowWeaponType": {
-				"hint": "checked=Show the 'Weapon Type' field, unchecked=Hide it",
-				"name": "Show the 'Weapon Type' field on weapon sheets"
-			},
-			"showWeightUsage": {
-				"hint": "На бланке корабля будет отображаться вес вместо управления питанием",
-				"name": "Отображать вес вместо питания на бланке корабля"
-			},
-			"systemMigrationVersion": {
-				"hint": "Records the schema version for the Twodsix system. (Don't modify this unless you know what you are doing)",
-				"name": "Версия схемы системы"
-			},
-			"termForAdvantage": {
-				"hint": "Don't use the same as for termForDisadvantage...",
-				"name": "What you want to call rolls with advantage (3d6kh2)."
-			},
-			"termForDisadvantage": {
-				"hint": "Don't use the same as for termForAdvantage...",
-				"name": "What you want to call rolls with disadvantage (3d6kl2)."
-			},
-			"useFoundryStandardStyle": {
-				"default": "Оформление Twodsix",
-				"foundry": "Оформление Foundry",
-				"hint": "Будет использовано стандартное оформление Foundry, что может помочь сделать некоторые модули более совместимыми с Twodsix",
-				"name": "Использовать оформление Foundry"
-			},
-			"useModuleFixStyle": {
-				"hint": "Modifies CSS style to correct identified style issues for certain modules when using the Twodsix style.  It doesn't work when using Foundry default style.",
-				"name": "Correct some css style issues due to modules and default Twodsix style."
-			},
-			"useShipAutoCalcs": {
-				"hint": "When enabled, the ship summary power, weight, bandwidth, and price statistics are calculated based on component vaules. Otherwise, values are input by user.",
-				"name": "Automatically calculate summary ship power, weight, bandwidth, and price values"
-			},
-			"useSystemDefaultTokenIcon": {
-				"hint": "Будет использована иконка токена Foundry VTT (человек в капюшоне) вместо иконки из Twodsix при создании нового актёра. Включите эту опцию, чтобы портрет актёра автоматически устанавливался в качестве изображения токена (иначе иконку токена надо будет изменять отдельно).",
-				"name": "Использовать иконку токена Foundry вместо Twodsix для новых актёров."
-			},
-			"useWoundedStatusIndicators": {
-				"hint": "Uses status indicators to indicate wounded status and automatically roll unconsciousness saves on serious wounds. Roll modifiers below are applied to all rolls.",
-				"name": "Display wounded status indicators and apply roll modifiers"
-			},
-			"minorWoundsRollModifier": {
-				"hint": "Модификатор всех бросков актёра с незначительными ранениями (отрицательные значения вычитаются из броска).",
-				"name": "Модификатор бросков незначительных ранений"
-			},
-			"seriousWoundsRollModifier": {
-				"hint": "Модификатор всех бросков актёра с серьёзными ранениями (отрицательные значения вычитаются из броска).",
-				"name": "Модификатор бросков серьёзных ранений"
-			},
-			"weightModifierForWornArmor": {
-				"hint": "Factor to multiply the weight value of a armor if it is currently equipped.",
-				"name": "Factor to multiply the weight value of a equipped armor."
-			},
-			"useProseMirror": {
-				"hint": "Use the embedded HTML editor for larger input blocks.",
-				"name": "Use ProseMirror editor for larger input blocks."
-			},
-			"showIcons": {
-				"hint": "Использовать иконки вместо тексты для информации в биографии. Иконки всегда будут отображаться для здоровья и стойкости.",
-				"name": "Use icons for biographical information."
-			},
-			"maxComponentHits": {
-				"hint": "The number of hits at which the component is destroyed",
-				"name": "Maximum hits for a component."
-			},
-			"mortgagePayment": {
-				"hint": "Делитель цены корабля для определения ежемесячных платежей в течении 40 лет. Значение 240 означает, что цена корабля будет поделена на 240, то есть число месяцев в 40 годах.",
-				"name": "Условия выплаты по кредиту"
-			},
-			"massProductionDiscount": {
-				"hint": "The cost savings for ship construction due to being mass produced. A value of 0.1 means that 10% is deducted from the base price of the ship.",
-				"name": "Скидка на корабли массового производства"
-			},
-			"reverseHealingOrder": {
-				"hint": "Healing using token bar input heals in the same order that auto damage occurs. The first characteristic damaged is also the first healed.  If this setting is false, healing starts with last characterisic and works backwards.",
-				"name": "Reverse characteristic healing order"
-			},
-			"maxEncumbrance": {
-				"hint": "Formula to calculate maximum encumbrance for actor.",
-				"name": "Формула максимальной нагруженности"
-			},
-			"allowDropOnIcon": {
-				"hint": "Items can be dropped and added to actors directly on top of icon without opening actor sheet.  Duplicate items increase inventory quantity.  Chat damage items will apply damage.",
-				"name": "Разрешить перенос предметов на иконки"
-			},
-			"defaultMovement": {
-				"hint": "Стандартное перемещение/ходьба для новых путников (обычно как малое действие), например 10 за 10 м.",
-				"name": "Скорость ходьбы по умолчанию"
-			},
-			"defaultMovementUnits": {
-				"hint": "Стандартная единица перемещения/ходьбы для новых путников (обычно как малое действие), например м для 10м.",
-				"name": "The default movement units for the walk rate"
-			},
-			"useEncumbrance": {
-				"hint": "Use encumbrance rules (if they exist) when displaying movement with drag ruler.",
-				"name": "Use system encumbrance rules for drag ruler"
-			},
-			"addEffectForShipDamage": {
-				"hint": "The ship attack effect value is added to the damage roll.",
-				"name": "Add effect to ship damage"
-			},
-			"autoAddUnarmed": {
-				"hint": "When checked (true), the unarmed weapon will be automatically added to the inventory for new actors (per rules settings).",
-				"name": "Automatically add unarmed weapon to new actors"
-			},
-			"unarmedDamage": {
-				"hint": "Dice formula for unarmed damage used when Unarmed is automatically added to actors.",
-				"name": "Формула урона без оружия"
-			},
-			"showTimeframe": {
-				"hint": "Add timeframe options to skill / characteristic rolls/",
-				"name": "Show Timeframe in Roll Dialog"
-			},
-			"showStatusIcons": {
-				"hint": "Overlay condition icons on side of actor images on sheets.",
-				"name": "Показать иконки состояний в листе путешественника "
-			},
-			"showHullAndArmor": {
-				"hint": "option to choose information in protection area of vehicle sheets.  Options are armor only (a plain text box), thresholds (roll values for regular and critical hits) and armor, hull, structre (table of three damage fields).",
-				"name": "Значение защиты в листе транспорта"
-			},
-			"addEffectToDamage": {
-				"hint": "This option adds the roll effect to the damage roll.",
-				"name": "Add effect when rolling damage"
-			},
-			"addEffectToManualDamage": {
-				"hint": "This option adds the effect from the most recent chat message to a manual damage roll.  Above setting (Add effect when rolling damage) must be enabled",
-				"name": "Add effect when rolling manual damage"
-			},
-			"showRangeSpeedNoUnits": {
-				"hint": "Omit the range and speed units (e.g. km/hr) on vehicle sheet.",
-				"name": "Не показывать скорость и дальность"
-			},
-			"showInitiativeButton": {
-				"hint": "Показать кнопку броска инициативы в листе персонажа в разделе навыков",
-				"name": "Показать кнопку броска инициативы"
-			},
-			"showSkillCountsRanks": {
-				"hint": "Show a count of the number of trained skills and the sum of the levels (rank) at the bottom of the skills tab.",
-				"name": "Show Skills Count and Ranks on Traveller Sheet"
-			},
-			"showComponentSummaryIcons": {
-				"hint": "Show summary icons for components below ship image.",
-				"name": "Show Component Summary Icons"
-			},
-			"showSpells": {
-				"hint": "Показать лист заклинаний в листе персонажа",
-				"name": "Отображение заклинаний"
-			},
-			"sorcerySkill": {
-				"hint": "The name of the default skill used for spellcasting / sorcery.",
-				"name": "Default sorcery skill name"
-			},
-			"useNationality": {
-				"hint": "Display nationality field instead of home world field on actor sheet.",
-				"name": "Display nationality rather than home world"
-			},
-			"animalsUseHits": {
-				"hint": "Animals have only one damage statistic: hits.",
-				"name": "Animals use hits for damage"
-			},
-			"animalsUseLocations": {
-				"hint": "Animals are described by location found instead of type and niche.",
-				"name": "Animals use location instead of type"
-			},
-			"displayReactionMorale": {
-				"hint": "Show reaction and morale information on animal sheet.",
-				"name": "Show animal reaction and morale"
-			},
-			"robotsUseHits": {
-				"hint": "Robots have only one damage statistic: hits.",
-				"name": "Robots use hits for damage"
-			},
-			"showComponentRating": {
-				"hint": "Show rating field on ship component item sheet.",
-				"name": "Show component rating"
-			},
-			"showComponentDM": {
-				"hint": "Show DM field on ship component item sheet.",
-				"name": "Show component DM"
-			},
-			"useEncumbranceStatusIndicators": {
-				"hint": "Uses status indicators to indicate encumbered status. Roll modifiers below are applied to all physical characteristic rolls.",
-				"name": "Display encumbrance status indicators and apply roll modifiers"
-			},
-			"encumbranceFraction": {
-				"hint": "The fraction applied to the maximum encumbrance formula to indicate actor is encumbered.  For example, a value of 0.5 would mean the actor becomes encumbered when carried weight exceeds one half of maximum encumbrance.",
-				"name": "Fraction of maximum encumbrance when encumbrance roll modifier applies"
-			},
-			"encumbranceModifier": {
-				"hint": "The number to add to the physical (STR, END, DEX) characteristic modifier when encumbered. For example, -1 indicates one should be subtracted for all rolls involving physical characterisitcs.",
-				"name": "Roll modifier using physical characteristics when actor is encumbered"
-			},
-			"transferDroppedItems": {
-				"hint": "Overrides the default Foundry behavior of copying on drag-drop to transfering items (items removed from source actor) when drag-dropping equipment between actors.",
-				"name": "Transfer rather than copy dropped equipment on actors"
-			},
-			"allowDragDropOfListsActor": {
-				"hint": "Allow items in lists for Actors (i.e. Travellers, Animals, and Robots) to be moved by drag and drop rather than sorting alphabetically.",
-				"name": "Allow Drag-Drop in Actor Lists"
-			},
-			"allowDragDropOfListsShip": {
-				"hint": "Allow items in lists for Ships and Vehicles to be moved by drag and drop rather than sorting alphabetically.",
-				"name": "Allow Drag-Drop in Ship and Vehicle Lists"
-			},
-			"useDodgeParry": {
-				"hint": "Add a roll penalty that reflects a target's ability to dodge / parry.  A target must be selected and the skill name for the weapon's action must match.",
-				"name": "Use Dodge / Parry Attack Modifers"
-			},
-			"showModifierDetails": {
-				"hint": "Show roll moddifier values in roll flavor line, e.g. STR(+1) versus STR.",
-				"name": "Display roll modifiers in chat roll text"
-			},
-			"defaultColor": {
-				"hint": "Change the theme main color. Delete value to reset.",
-				"name": "Set Default Color"
-			},
-			"lightColor": {
-				"hint": "Change the theme highlight color. Delete value to reset.",
-				"name": "Set Highlight Color"
-			},
-			"damageStatColor": {
-				"hint": "Change the color of characteristic damage on the actor sheet. Delete value to reset.",
-				"name": "Set Characteristic Damage Color"
-			},
-			"battleColor": {
-				"hint": "Change the theme color for the shi battle sheet. Delete value to reset.",
-				"name": "Set Battle Sheet Color"
-			},
-			"useItemActiveEffects": {
-				"hint": "Use Item Active Effects.  WARNING: may result is odd system behavior.",
-				"name": "Use Item Active Effects"
-			},
-			"showFeaturesInChat": {
-				"hint": "Show item features text at bottom of chat messages for rolls.",
-				"name": "Show Item Features in Chat"
-			},
-			"showHitsChangesInChat": {
-				"hint": "Show a whispered chat message to GM when damage/healing is appled to an actor.",
-				"name": "Show damage / healing chat message to GM"
-			},
-			"encumbFractionOneSquare": {
-				"hint": "This is a Drag Ruler module setting to set the one 'square' movement limit.  The fraction applied to the maximum encumbrance formula. It only applies when the OTHER ruleset is in use.",
-				"name": "Fraction of maximum encumbrance for 1.5m/5ft of movement"
-			},
-			"encumbFraction75pct": {
-				"hint": "This is a Drag Ruler module setting to set the 75 percent movement limit.  The fraction applied to the maximum encumbrance formula. It only applies when the OTHER ruleset is in use.",
-				"name": "Fraction of maximum encumbrance for 75 percent movement rate"
-			},
-			"useTabbedViews": {
-				"hint": "Use a tabbbed sheet for longer item sheets and system settings rather than a flat sheet.",
-				"name": "Use tabbed views for weapons sheets, component sheets, and system settings"
-			},
-			"damageTypeOptions": {
-				"hint": "A comma separated list that specifies the allowable damage types. Note that using CU ruleset overrides this setting.",
-				"name": "Damage and Protection Types"
-			},
-			"animalTypesIndependentofNiche": {
-				"hint": "Animals may have any type, indpependent of the niche chosen.",
-				"name": "Animal Types Are Independent of Niche"
-			},
-			"reduceStatusIcons": {
-				"hint": "Remove unneeded status conditions from default Foundry that don't apply to a science fiction setting, e.g. cursed. WARNING: changing this setting from true (checked) to false (unchecked) will reload the world.",
-				"name": "Simplify default condition icon list for a science fiction setting"
-			},
-			"overrideDamageRoll": {
-				"hint": "Set the automatic damage roll to a world scope and override client settings.  WARNING: Requires all clients to reload when setting changed.",
-				"name": "Override automatic damage rolls for clients to GM setting."
-			},
-			"autoDamageTarget": {
-				"hint": "Automatically damage a targeted actor without showing the damage pop-up on a sucessful attack roll.",
-				"name": "Auto Damage Targets"
-			},
-			"useDegreesOfSuccess": {
-				"hint": "Show degrees of success.  The 'Other' setting uses exceptional, marginal, and average descriptions for success & failure. The 'Cepheus Engine' setting does not use the marginal descriptor (per rules).  The 'None' setting omits all success or failure descriptions.",
-				"name": "Show degrees of success for non-attack rolls"
-			},
-			"overrideSuccessWithNaturalCrit": {
-				"hint": "Override the degree of success to be exceptional on a natural 2 or 12 - independent of effect.",
-				"name": "Override degree of success on critical roll (2 or 12)"
-			},
-			"showTotalArmor": {
-				"hint": "Display the total armor value (primary + secondary values) instead of the secondary armor value for Traveller sheet.",
-				"name": "Display total armor value on Traveller"
-			},
-			"showItemIconsInChat": {
-				"hint": "Show the item or skill icon in chat message when making a roll",
-				"name": "Show Item Image in Chat"
-			},
-			"defaultDamageOptions": "Ballistic, Bludgeoning, Corrosive, EMP, Energy, Fire, Laser, Piercing, Poison, Plasma, Psionic, Rad, Slashing, Smoke, Stun",
-			"menuLabels": {
-				"general": "General",
-				"roll": "Rolls",
-				"characteristics": "Characteristics",
-				"formulas": "Formulas",
-				"damage": "Damage",
-				"movement": "Movement",
-				"encumbrance": "Encumbrance",
-				"wounds": "Wounds",
-				"ship": "Ship",
-				"animals_robots": "Animals & Robots",
-				"weapon": "Weapon",
-				"token": "Token",
-				"actor": "Actor",
-				"dragDrop": "Drag & Drop",
-				"style": "Style"
-			},
-			"useMaxArmorValue": {
-				"hint": "Use the maximum armor value to determine protection if more than one armor layer is being worn.  The default (false) adds all the armor values for each layer worn. WARNING: Requires all clients to reload when setting changed.",
-				"name": "Use max armor value rather than sum when wearing multiple layers"
-			},
-			"showActorReferences": {
-				"hint": "Display pdf references (using pdf pager module) or url links on all actor sheets.",
-				"name": "Show PDF References or URL links on actor sheets"
-			},
-			"maxSpellLevel": {
-				"hint": "Maximum spell level that can be used in a spell roll.",
-				"name": "Maximum Spell Level"
-			},
-			"showAllCharWithTable": {
-				"hint": "Use a table, instead of hex graphics, when displaying characteristics (when selected characteristics to display is all). Foundry Standard Style always uses table.",
-				"name": "Use table when displaying all characteristics"
-			},
-			"showTLonItemsTab": {
-				"hint": "Displays the items tech level after the name for compendium item lists and items listed in the items tab.",
-				"name": "Display Tech Level in Compendium and Item Tab lists"
-			},
-			"omitPSIifZero": {
-				"hint": "Hides psionic strength characteristic if value set to zero.",
-				"name": "Omit PSI characteristic from actor sheets if value zero"
-			},
-			"omitALTifZero": {
-				"hint": "Hides alternative characteristics if value set to zero.",
-				"name": "Omit ALT characteristics from actor sheets if value zero"
-			},
-			"rangeModifierType": {
-				"hint": "Type of modifier to use for ranged weapons. Single Range Value (e.g. XX, for MgT2). Double Range Value (e.g. XX/YY for CD, CDEE, CQ, etc.). Range Bands by weapon type (e.g. 'Shotgun' for CE and MgT1).",
-				"name": "Range Modifier Types for Weapons"
-			},
-			"equippedToggleStates": {
-				"hint": "Equipment location toggle states to use for actor sheet. Core: backpack and equipped only, Default: backpack, equipped and ship, All: backpack, equipped, vehicle, ship, and base",
-				"name": "Allowable equipment locations for actor sheet"
-			},
-			"targetDMList": {
-				"hint": "A comma separated list of target difficulty modifiers.  The list has the format of 'label1 number1, label2 number2...'.  For example, 'Obscure -1, Prone (melee) +1, Prone (Ranged) -1'.",
-				"name": "List of target modifiers"
-			},
-			"meleeRange": {
-				"hint": "The distance where combat is in melee range.  Typically one grid unit or less (e.g. 1.5m).",
-				"name": "Melee combat range"
-			},
-			"showSkillGroups": {
-				"hint": "Group skills on actor sheet by group labels.",
-				"name": "Group skills by labels"
-			},
-			"NoDuplicatesOnHotbar": {
-				"hint": "Prevent duplicate item macros when drag-dropping items onto hotbar",
-				"name": "No duplicate item macros on hotbar"
-			},
-			"jDriveLabel": {
-				"hint": "The display label for the jump drive on the power management settings",
-				"name": "Jump Drive Label"
-			},
-			"showCost": {
-				"hint": "List the ship component's cost in MCr for the single-line component list on the ship sheet.",
-				"name": "Display Cost"
-			},
-			"chainBonus": {
-				"hint": "The roll DM for chain rolls (or aiding another) based on the previous roll's effect.  This configuration string is formated as comma separated integers.  The sequence is based on effect values:  <=-6, -5 to -2, -1, 0 , 1 to 5, >=6.  So for Cepheus Engine, the configuration string would be '-2, -1, -1, 1, 1, 2'. Note if there are not six integers entered the chain bonus is zero.",
-				"name": "Assisted/Chain Roll DM"
-			},
-			"defaultActorSheetWidth": {
-				"hint": "The default Traveller sheet width when opening after startup - in pixels.  WARNING: changing this setting will reload the world.",
-				"name": "Default Width of Traveller Sheet"
-			},
-			"defaultActorSheetHeight": {
-				"hint": "The default Traveller sheet height when opening after startup - in pixels. WARNING: changing this setting will reload the world.",
-				"name": "Default Height of Traveller Sheet"
-			},
-			"showAttachmentsList": {
-				"hint": "Automatically expand attachments lists for items on the Traveller sheet.",
-				"name": "Display Item Attachment Lists on Traveller Sheet"
-			},
-			"showConsumablesList": {
-				"hint": "Automatically expand consumables lists for items on the Traveller sheet.",
-				"name": "Display Item Consumables Lists on Traveller Sheet"
-			},
-			"showCombatPosition": {
-				"hint": "Show combat position value on Battle Sheet",
-				"name": "Display Combat Position"
-			},
-			"componentsIgnored": {
-				"hint": "A list of non-cargo components to omit from 'Damage' section of Battle Sheet",
-				"name": "Components Ignored for Damage Tracking"
-			}
-		},
-		"CloseAndCreateNew": "Закрыть и создать",
-		"Copy": "Копировать",
-		"Yes": "Да",
-		"Name": "Название",
-		"itemTypes": {
-			"equipment": "снаряжение",
-			"weapon": "оружие",
-			"armor": "броня",
-			"augment": "аугмент",
-			"storage": "хранилище",
-			"tool": "инструмент",
-			"junk": "мусор",
-			"skills": "навыки",
-			"skill": "навык",
-			"consumable": "расходник",
-			"trait": "черта",
-			"spell": "заклинание",
-			"component": "компонент",
-			"computer": "computer",
-			"unknown": "unknown",
-			"ship_position": "position"
-		},
-		"speeds": {
-			"walk": "ходьба",
-			"dash": "рывок",
-			"run": "бег",
-			"jump": "прыжок"
-		},
-		"Errors": {
-			"NoSkillForSkillRoll": "Вы пытаетесь пройти проверку навыка, не выбрав навык.",
-			"NoCharacteristicForRoll": "Вы пытались совершить проверку характеристики без выбора характеристики",
-			"NoROFForAttack": "У этого оружия не указана скорострельность",
-			"TooFewToReload": "Не хватает _NAME_ для _REFILL_ACTION_",
-			"NoAmmo": "Не достаточно боеприпасов. Перезарядитесь перед стрельбой!",
-			"EmptyConsumable": "Не осталось ресурсов для использования. Вам нужно пополнить их!",
-			"OnlyOwnedItems": "Можно перенести только предметы во владении актёра",
-			"SkillsConsumables": "Навыки не могут иметь расходники",
-			"DraggingSomething": "Попытка перенести что-то, что нельзя перенести.",
-			"OnlyDropItems": "Вы можете перенести только предметы",
-			"OnlyDropConsumables": "Только расходники могут быть перенесены на предмет.",
-			"DropFailedWith": "Перенос не удался из-за _ERROR_MSG_",
-			"CouldNotFindItem": "Не удаётся найти предмет с id: _ITEM_ID_",
-			"DraggedCompendiumIsNotItem": "Переносимый из библиотеки объект не является предметом.",
-			"InvalidRollFormula": "Некорректная формула урона",
-			"CantPlaceTemplate": "Error placing AOE measured Template.",
-			"TraitsandSkillsNoConsumables": "Spells, Traits and Skills can't have consumables.",
-			"InvalidRangeBand": "Weapon type and/or range band not allowed for ruleset.",
-			"InvalidWeaponArmor": "Weapon type and/or Armor type not allowed for ruleset.",
-			"CantDropAttachOnConsumables": "Can't drop attachements on consumables."
-		},
-		"Warnings": {
-			"ActorMissingItem": "У актёра под вашим управлением нет предмета с id: _ITEM_ID_",
-			"MaxStatVal": "Значение превышает максимальное для характеристики",
-			"StatValBelowZero": "Значение не может быть ниже нуля",
-			"DecreaseEnduranceFirst": "Выносливость/Стойкость должна быть понижена перед другими характеристиками",
-			"CantAutoDamage": "Автоматический урон по кораблю или транспорту не поддерживается",
-			"CantDropOnToken": "Перенос предметов на токен корабля или транспорта не поддерживается ",
-			"CantDragOntoActor": "Этот предмет не может быть добавлен этому актёру",
-			"CantDragActorOntoActor": "Can only drag actor reference onto an active ProseMirror text box.",
-			"PDFPagerNotInstalled": "PDF Pager must be installed to use source links.",
-			"NoSpecfiedLink": "Документ и страница не указаны для этой ссылки.",
-			"NoTargetFound": "No target for dropping found.",
-			"LackPermissionToDamage": "У вас недостаточно прав для целевого актёра.",
-			"MultipleActorsFound": "Обнаружено несколько актёров. Не удалось нанести урон.",
-			"EncumbranceFormulaInvalid": "Формула нагрузки некорректная. Значение установлено на ноль.",
-			"ActorHasInitiativeAlready": "Actor already has initiative.",
-			"NoActiveToken": "Актер не имеет активного токена на сцене",
-			"InvalidReactionInputs": "Reaction roll cannot be made as attack and flee inputs are invalid.",
-			"AnimalsCantHoldPositions": "Animals cant be placed in ship positions",
-			"CantEditCreateInCargo": "Can not edit or create effects while in cargo",
-			"NoActorSelected": "An actor must be selected or controlled",
-			"NoSkillSelected": "Must select a skill to make a roll",
-			"NoDamageForWeapon": "This weapon has not specified the damage it does.",
-			"ActionWarningNoToken": "No targets selected for action.",
-			"CantEditEffect": "Can't edit effect for item that is embedded in non-Actor.",
-			"CantCreateEffect": "Can't create an effect for item that is embedded in non-Actor.",
-			"CantDeleteEffect": "Can't delete an effect for item that is embedded in non-Actor.",
-			"PlayerDoesNotHavePermission": "Player does not have permission to execute macro.",
-			"MacroNotFound": "Macro with name, _MACRO_NAME_, not found.",
-			"NoDamageToApply": "Damage or healing values must greater than zero.",
-			"MissingUntrainedSkill": "Actor is missing untrained skill. Reload application to fix.",
-			"TooManyTargets": "More targets than the number of attacks, targets will be chosen in order selected.",
-			"WearingMultipleLayers": "Multiple armor layers equipped while wearing non-stackable armor.",
-			"ResetEffectForManualDamage": "Effects not included in damage rolls.  Resetting effects in manual rolls to false.",
-			"tableNotFound": "Cannot find RollTable in Journal Entry Link.",
-			"typeMismatch": "RollTable link/UUID in Journal Entry is not a RollTable.",
-			"MacroNameExists": "Macro by that name exists, but command is different.  Update to the new command?",
-			"TooManyLayersOnTarget": "Target is wearing too many layers of armor",
-			"ActorOverloaded": "Current actor is carrying more than its capacity.",
-			"NoJournalFound": "Can't find linked Journal Entry",
-			"CantFindMeleeSkill": "Can't find Melee Combat skill",
-			"CantFindMeleeWeapon": "Can't find an equipped melee weapon to parry",
-			"CantFindShield": "Can't find an equipped shield to block"
-		}
-	},
-	"TYPES": {
-		"Item": {
-			"backpack": "Backpack",
-			"container": "Container",
-			"consumable": "Consumable",
-			"equipment": "Equipment",
-			"spell": "Spell",
-			"tool": "Tool",
-			"weapon": "Weapon",
-			"armor": "Armor",
-			"skill": "Skill",
-			"component": "Component",
-			"computer": "Computer",
-			"augment": "Augment",
-			"storage": "Storage",
-			"junk": "Junk",
-			"skills": "Skill",
-			"trait": "Trait",
-			"ship_position": "Ship Position",
-			"backpackPl": "Backpacks",
-			"containerPl": "Containers",
-			"consumablePl": "Consumables",
-			"equipmentPl": "Equipment",
-			"spellPl": "Spells",
-			"toolPl": "Tools",
-			"weaponPl": "Weapons",
-			"armorPl": "Armors",
-			"skillPl": "Skills",
-			"componentPl": "Components",
-			"computerPl": "Computers",
-			"augmentPl": "Augments",
-			"storagePl": "Storage",
-			"junkPl": "Junk",
-			"skillsPl": "Skills",
-			"traitPl": "Traits",
-			"ship_positionPl": "Ship Positions"
-		},
-		"Actor": {
-			"traveller": "Traveller",
-			"ship": "Ship",
-			"vehicle": "Vehicle",
-			"animal": "Animal",
-			"robot": "Robot",
-			"space-object": "Space Object",
-			"travellerPl": "Travellers",
-			"shipPl": "Ships",
-			"vehiclePl": "Vehicles",
-			"animalPl": "Animals",
-			"space-objectPl": "Space Objects",
-			"robotPl": "Robots"
-		}
-	},
-	"EFFECT": {
-		"StatusWounded": "Wounded",
-		"StatusEncumbered": "Encumbered",
-		"StatusDead": "Dead",
-		"StatusUnconscious": "Unconscious",
-		"StatusAiming": "Aiming",
-		"StatusFatigued": "Fatigued",
-		"StatusInCover": "In Cover",
-		"StatusThrust": "Thrust",
-		"StatusInvisible": "Stealthed",
-		"StatusIrradiated": "Irradiated",
-		"StatusTargetLock": "Target Lock"
-	}
+  "Advantage": "Vantaggio",
+  "Average": "Media",
+  "Cancel": "Annulla",
+  "Difficult": "Difficile",
+  "Disadvantage": "Svantaggio",
+  "Easy": "Facile",
+  "Formidable": "Formidabile",
+  "Impossible": "Impossibile",
+  "Normal": "Normale",
+  "Routine": "Routine",
+  "Simple": "Elementare",
+  "VeryDifficult": "Molto difficile",
+  "TWODSIX": {
+    "ActiveEffects": {
+      "DeleteEffect": "Rimuovi effetto attivo",
+      "ConfirmDelete": "Sei sicuro di voler eliminare l'effetto?",
+      "BaseValue": "Base",
+      "Modifiers": "Modificatori",
+      "EffectLabel": "Etichetta effetto",
+      "Source": "Fonte",
+      "Duration": "Durata",
+      "Condition": "Condizione",
+      "UnknownSource": "Fonte sconosciuta",
+      "EffectEnable": "Abilita effetto",
+      "EffectDisable": "Disabilita effetto",
+      "Controls": "Controlli",
+      "NewEffect": "Nuovo effetto",
+      "CreateEffect": "Crea effetto",
+      "Add": "Aggiungi",
+      "IncludingEffects": "Inclusi effetti attivi:"
+    },
+    "Damage": {
+      "DealDamage": "Infliggi danno",
+      "Damage": "Danno",
+      "AP": "PR",
+      "TotalDamage": "Danno totale",
+      "Characteristics": "Caratteristiche",
+      "Max": "Max",
+      "Mod": "Mod.",
+      "Dmg": "Danno",
+      "Current": "Attuale",
+      "ResultingStat": "Valore risultante",
+      "UnallocatedDamage": "Danno non assegnato",
+      "CharacterIsDead": "Il personaggio è morto",
+      "DealDamageTo": "Infliggi danno a _ACTOR_NAME_",
+      "DamageFormula": "Formula del danno",
+      "NoRegularDamage": "Nessun danno normale",
+      "CanBeBlocked": "Può essere bloccato",
+      "CanBeParried": "Può essere parato"
+    },
+    "DamageType": {
+      "Acid": "Acido",
+      "Ballistic": "Balistico",
+      "Disintegrate": "Disintegrazione",
+      "Electrical": "Elettrico",
+      "Entangle": "Intrappolamento",
+      "Fire": "Fuoco",
+      "Laser": "Laser",
+      "Melee": "Mischia",
+      "Plasma": "Plasma",
+      "Poison": "Veleno",
+      "Stun": "Stordimento"
+    },
+    "Dialogs": {
+      "ROFPickerTitle": "Seleziona modalità di fuoco",
+      "ROFSingle": "Singolo",
+      "ROFBurst": "Raffiche brevi",
+      "ROFFull": "Raffiche lunghe",
+      "ROFDoubleTap": "Doppio colpo",
+      "ReplaceMacroCommand": "Aggiorna comando macro"
+    },
+    "Actor": {
+      "Age": "Età",
+      "CharacterImage": "Immagine del personaggio",
+      "CharacterName": "Nome del personaggio",
+      "CharacterNames": "Nomi dei personaggi",
+      "Characteristics": {
+        "DEX": "DES",
+        "EDU": "EDU",
+        "END": "RES",
+        "INT": "INT",
+        "PSI": "PSI",
+        "SOC": "SOC",
+        "STR": "FOR",
+        "LFB": "VIT",
+        "STA": "STM",
+        "CTM": "RIG",
+        "ALT1": "ALT1",
+        "ALT2": "ALT2",
+        "ALT3": "ALT3"
+      },
+      "CharacteristicEdit": "Attiva/disattiva modifica abbreviazioni caratteristiche",
+      "Chassis": "Chassis",
+      "OperationalTime": "Tempo operativo",
+      "Price": "Prezzo",
+      "LocomotionType": "Tipo di locomozione",
+      "DeleteOwnedItem": "Elimina oggetto",
+      "Finances": {
+        "CASH_ON_HAND": "CONTANTI",
+        "DEBT": "DEBITO",
+        "FINANCIAL_NOTES": "NOTE FINANZIARIE",
+        "LIVING_COSTS": "SPESE VITA",
+        "PENSION": "PENSIONE",
+        "SHIP_PAYMENTS_MONTHLY": "RATE MENSILI NAVE"
+      },
+      "Gender": "Genere",
+      "HeroPoints": "Punti eroe",
+      "Hits": "Colpi",
+      "healing": "cura",
+      "damage": "danno",
+      "Applied": "Applicato",
+      "Contamination": "Contaminazione",
+      "Lifeblood": "Vita",
+      "Stamina": "Stamina",
+      "Endurance": "Resistenza",
+      "RadiationExposure": "Esposizione a radiazioni",
+      "Rads": "Rad",
+      "HomeWorld": "Mondo natale",
+      "Nationality": "Nazionalità",
+      "Info": {
+        "ALLIES": "ALLEATI",
+        "BIOGRAPHY": "BIOGRAFIA",
+        "CONTACTS": "CONTATTI",
+        "DESCRIPTION": "DESCRIZIONE",
+        "ENEMIES": "NEMICI",
+        "XP": "PUNTI ESPERIENZA",
+        "Points": "punti",
+        "Available": "Disponibili",
+        "TotalEarned": "Totale guadagnato"
+      },
+      "Items": {
+        "Amount": "Quantità",
+        "ARMOR": "ARMATURA",
+        "ATTACHMENTS": "ACCESSORI",
+        "Attachments": "Accessori",
+        "AUGMENTS": "AUMENTI",
+        "Augments": "Aumenti",
+        "Ammo": "Muniz.",
+        "Armor": "Armatura",
+        "Parry": "Parata",
+        "EffectiveArmor": "Armatura effettiva",
+        "CONSUMABLES": "CONSUMABILI",
+        "Count": "Conteggio",
+        "CreateItem": "Crea oggetto",
+        "Damage": "Danno",
+        "DeleteItem": "Elimina oggetto",
+        "DisplayStored": "Mostra oggetti archiviati",
+        "HideStored": "Nascondi oggetti archiviati",
+        "EQUIPMENT": "EQUIPAGGIAMENTO",
+        "EQUIPMENT_TOOLS": "EQUIPAGGIAMENTO & STRUMENTI",
+        "STORAGE_JUNK": "STIVAGGIO & CIANFRUSAGLIE",
+        "EditItem": "Modifica oggetto",
+        "Effect": "Effetto",
+        "Location": "Posizione",
+        "EquippedLocation": "Posizione equipaggiata",
+        "Name": "Nome",
+        "QuantityToTransfer": "Quantità da trasferire",
+        "Qty": "Qtà",
+        "Range": "Gittata",
+        "Refill": "Ricarica",
+        "Reload": "Ricaricare",
+        "SPELLS": "INCANTESIMI",
+        "Spells": "Incantesimi",
+        "ShortDescr": "Descrizione breve",
+        "LocationState": {
+          "equipped": "Equipaggiato",
+          "ship": "Nave",
+          "backpack": "Zaino",
+          "vehicle": "Veicolo",
+          "base": "Base",
+          "core": "Core (solo zaino ed equipaggiato)",
+          "default": "Predefinito (zaino, equipaggiato e nave)",
+          "all": "Tutti"
+        },
+        "Subtype": "Sottotipo",
+        "TRAITS": "TRATTI",
+        "Traits": "Tratti",
+        "Transfer": "Trasferisci oggetti",
+        "TL": "LT",
+        "TechLevel": "Livello tecnologico",
+        "Value": "Valore",
+        "WEAPONS": "ARMI",
+        "Weapons": "Armi",
+        "Weight": "Peso"
+      },
+      "Notes": {
+        "NOTES": "NOTE PERSONALI",
+        "Notes": "Note personali"
+      },
+      "Rolling": "Tiro",
+      "Skills": {
+        "AddSkill": "Abilità",
+        "DeleteItem": "Elimina abilità",
+        "EditItem": "Modifica abilità",
+        "EditOrRemove": "Gestione",
+        "BaseLevel": "Livello base",
+        "AdjLevel": "Livello aggiustato",
+        "Level": "Liv.",
+        "Modifier": "Modificatore",
+        "SkillName": "Nome",
+        "Total": "Totale",
+        "Untrained": "Non addestrato",
+        "NoGroup": "Nessun gruppo",
+        "SkillRollTooltip": "Mostra impostazioni predefinite del tiro. Shift+clic esegue tiro abilità senza modificatori con difficoltà 6 o 8.",
+        "InvertedSkillRollTooltip": "I tiri abilità sono senza modificatori con difficoltà 8. Shift+clic apre le impostazioni del tiro.",
+        "JOAT": "Tuttofare",
+        "Timeframe": {
+          "none": "---",
+          "secs": "secondi",
+          "mins": "minuti",
+          "hrs": "ore",
+          "days": "giorni",
+          "weeks": "settimane",
+          "months": "mesi",
+          "rounds": "round"
+        }
+      },
+      "Species": "Specie",
+      "Tabs": {
+        "Finances": "Finanze",
+        "Info": "Info",
+        "Inventory": "Inventario",
+        "Notes": "Note",
+        "Effects": "Effetti",
+        "Skills": "Abilità",
+        "FinancesTabTooltip": "Contanti, debiti, pensione, costi di vita, ecc.",
+        "InfoTabTooltip": "Tratti, descrizione, contatti e biografia",
+        "InventoryTabTooltip": "Armi, armature, aumenti, equipaggiamento, consumabili e accessori",
+        "NotesTabTooltip": "Note del Viaggiatore",
+        "EffectsTabTooltip": "Effetti attivi",
+        "SkillsTabTooltip": "Abilità del Viaggiatore"
+      },
+      "UnknownActorType": "Tipo di attore sconosciuto",
+      "using": "usa",
+      "Movement": {
+        "MovementConfig": "Configurazione movimento",
+        "MovementConfigHint": "Configura la velocità di movimento e gli attributi speciali della creatura.",
+        "MovementWalk": "Camminare",
+        "MovementBurrow": "Scavare",
+        "MovementClimb": "Arrampicare",
+        "MovementHover": "Librarsi",
+        "MovementFly": "Volare",
+        "MovementSwim": "Nuotare",
+        "MovementUnits": "Unità",
+        "DistFt": "Piedi",
+        "DistKm": "Chilometri",
+        "DistM": "Metri",
+        "DistMi": "Miglia",
+        "DistPc": "Parsec",
+        "DistGU": "Unità griglia",
+        "MovementRate": "Velocità di movimento"
+      },
+      "CharDisplay": {
+        "Core": "Base",
+        "Base": "Di base",
+        "Alternate": "Alternativo",
+        "All": "Tutti"
+      }
+    },
+    "Animal": {
+      "Niche": "Nicchia",
+      "NicheType": {
+        "Herbivore": "Erbivoro",
+        "Omnivore": "Onnivoro",
+        "Carnivore": "Carnivoro",
+        "Scavenger": "Spazzino",
+        "Other": "Altro"
+      },
+      "Type": "Tipo",
+      "Subtype": {
+        "Filter": "Filtratore",
+        "Intermittent": "Intermittente",
+        "Grazer": "Brucatore",
+        "Gatherer": "Raccoglitore",
+        "Hunter": "Cacciatore",
+        "Eater": "Mangiatori",
+        "Pouncer": "Aggressore",
+        "Chaser": "Inseguitore",
+        "Trapper": "Trappolatore",
+        "Killer": "Assassino",
+        "Hijacker": "Predone",
+        "Intimidator": "Intimidatore",
+        "CarrionEater": "Necrofago",
+        "Reducer": "Riduttore",
+        "Siren": "Sirena"
+      },
+      "Locations": {
+        "CityUrban": "Città o Area urbana",
+        "PlainsGrassland": "Pianure o Praterie",
+        "HillsMountains": "Colline o Montagne",
+        "DesertBadlands": "Deserto o Terre brulle",
+        "SwampAquatic": "Palude o Acquatico",
+        "ForestJungle": "Foresta o Giungla"
+      },
+      "Location": "Posizione",
+      "AnimalNotes": "Note sull'animale",
+      "RobotNotes": "Note sul robot",
+      "AttackWeapons": "Attacchi / Armi",
+      "Reaction": "Tiro di reazione",
+      "Attack": "Attacca",
+      "Flee": "Fugge",
+      "AttacksMessage": "L'animale attacca il gruppo!",
+      "FleesMessage": "L'animale fugge dal gruppo!",
+      "NoReactionMessage": "L'animale non reagisce",
+      "MoraleRoll": "Tiro morale",
+      "MoraleDM": "Modificatore di morale",
+      "Retreat": "Ritirata",
+      "FightingWithdrawal": "Ritirata combattente",
+      "KeepFighting": "Continua a combattere",
+      "Advance": "Avanza",
+      "FightToTheDeath": "Combatti fino alla morte!"
+    },
+    "Chat": {
+      "Roll": {
+        "Difficulty": "Difficoltà",
+        "Mode": "Modalità",
+        "OtherModifiers": "Altri modificatori",
+        "Type": "Tipo",
+        "RollDetails": "Dettagli del tiro",
+        "Timeframe": "Periodo di tempo",
+        "RollFormula": "Formula del tiro",
+        "Units": "Unità di misura",
+        "taskDuration": "Per completare l'incarico servono _TIME_ _UNITS_.",
+        "RollModifiers": "Modificatori del tiro",
+        "SkillModifier": "Livello abilità",
+        "ItemModifier": "Bonus oggetto",
+        "Rof": "Cadenza di fuoco",
+        "Wounds": "Ferite",
+        "Encumbered": "Sovraccarico",
+        "CharacteristicModifier": "Modificatore caratteristica",
+        "Conditions": "Modificatori condizione",
+        "DodgeParry": "Modificatore schivata/parata",
+        "Other": "DM personalizzato",
+        "Modifier": "Modificatore",
+        "Description": "Descrizione",
+        "DM": "DM",
+        "TargetModifier": "DM bersaglio",
+        "OverrideAuto": "Sostituisci automatico",
+        "Characteristic": "Caratteristica",
+        "Condition": "Condizione",
+        "Attack": "Attacco",
+        "ActiveEffect": "Effetto attivo",
+        "Attachments": "Accessori/Consumabili",
+        "WeaponsHandling": "Maneggevolezza armi",
+        "WeaponsRange": "Gittata arma",
+        "ArmorModifier": "Modificatore armatura",
+        "Chain": "Tiro concatenato/assistito",
+        "Bonus": "Bonus",
+        "WithChainBonus": "con bonus concatenato/assistito",
+        "WinsRoll": "vince il tiro contrapposto.",
+        "TiedRoll": "Tiro contrapposto in parità. Nessun vincitore.",
+        "GMUtils": "Strumenti del GM",
+        "RequestRoll": "Richiedi tiro",
+        "RequestRollClip": "<div class='toolclip'><video src='systems/twodsix/assets/toolclips/requestRollToolClip.webm' autoplay muted loop></video><h4>Richiedi Tiro</h4><p>Seleziona i Token da cui vuoi richiedere un tiro abilità. Si aprirà una finestra dove potrai scegliere i dettagli del tiro.</p><p class='faint'>Disattiva le clip degli strumenti nelle Impostazioni</p></div>",
+        "GMRequestsRoll": "Il GM richiede un tiro di tipo _TYPE_.",
+        "normal": "normale",
+        "AbilityCheck": "Controllo abilità/caratteristica",
+        "ApplyDamage": "Applica danno",
+        "ApplyDestructiveDamage": "Applica danno distruttivo (10x)",
+        "ApplyReducedDamage": "Applica danno ridotto su scala (0.1x)",
+        "ApplyHealing": "Applica guarigione",
+        "DegreesOfSuccess": {
+          "ExceptionalFailure": "Fallimento eccezionale",
+          "Failure": "Fallimento",
+          "AverageFailure": "Fallimento medio",
+          "MarginalFailure": "Fallimento marginale",
+          "MarginalSuccess": "Successo marginale",
+          "AverageSuccess": "Successo medio",
+          "Success": "Successo",
+          "ExceptionalSuccess": "Successo eccezionale",
+          "none": "Nessuno",
+          "CE": "Cepheus Engine",
+          "other": "Altro"
+        },
+        "RangeModifierTypes": {
+          "none": "Nessuno",
+          "singleBand": "Valore singolo",
+          "doubleBand": "Valore doppio",
+          "CE_Bands": "Fasce Cepheus Engine",
+          "CT_Bands": "Fasce Classic Traveller",
+          "CU_Bands": "Fasce Cepheus Universal"
+        },
+        "WeaponRangeTypes": {
+          "closeQuarters": "Corpo a corpo ravvicinato",
+          "CQ": "CR",
+          "extendedReach": "Portata estesa",
+          "reach": "Portata",
+          "thrown": "Da lancio",
+          "pistol": "Pistola",
+          "rifle": "Fucile",
+          "shotgun": "Fucile a pompa",
+          "assaultWeapon": "Arma d'assalto",
+          "AW": "AA",
+          "rocket": "Razzo",
+          "none": "Nessuno",
+          "hands": "Mani",
+          "claws": "Artigli",
+          "teeth": "Denti",
+          "horns": "Corna",
+          "hooves": "Zoccoli",
+          "stinger": "Pungiglione",
+          "thrasher": "Flagellatore",
+          "club": "Randello",
+          "dagger": "Pugnale",
+          "blade": "Lama",
+          "foil": "Fioretto",
+          "cutlass": "Sciabola",
+          "sword": "Spada",
+          "broadsword": "Spadone",
+          "bayonet": "Baionetta",
+          "spear": "Lancia",
+          "halberd": "Alabarda",
+          "pike": "Picca",
+          "cudgel": "Mazza",
+          "bodyPistol": "Pistola tascabile",
+          "autoPistol": "Pistola automatica",
+          "revolver": "Rivoltella",
+          "carbine": "Carabina",
+          "autoRifle": "Fucile automatico",
+          "submachinegun": "Mitraglietta",
+          "laserCarbine": "Carabina laser",
+          "laserRifle": "Fucile laser",
+          "thras": "Flag.",
+          "cutl": "Sciab.",
+          "brdswd": "Spad.",
+          "bynt": "Baio.",
+          "halb": "Alab.",
+          "bPistl": "P.Tas.",
+          "aPistl": "P.Auto.",
+          "AR": "F.Aut.",
+          "subm": "Mitr.",
+          "LC": "C.Las.",
+          "LR": "F.Las.",
+          "custom": "Personalizzato",
+          "cust": "Pers.",
+          "personal": "Personale",
+          "pers": "Pers.",
+          "close": "Ravvicinata",
+          "short": "Corta",
+          "medium": "Media",
+          "long": "Lunga",
+          "veryLong": "Molto lunga",
+          "vLong": "M.Lunga",
+          "distant": "Lontana",
+          "thr": "Lancio"
+        },
+        "RangeBandTypes": {
+          "personal": "Personale",
+          "close": "Ravvicinata",
+          "short": "Corta",
+          "medium": "Media",
+          "long": "Lunga",
+          "veryLong": "Molto lunga",
+          "distant": "Lontana",
+          "none": "Nessuna"
+        },
+        "ArmorTypes": {
+          "nothing": "Nessuna",
+          "jack": "Giacchetto",
+          "mesh": "Maglia",
+          "cloth": "Tessuto",
+          "reflec": "Riflettente",
+          "ablat": "Ablativa",
+          "combat": "Da combattimento"
+        },
+        "Dice": "Dadi"
+      }
+    },
+    "Table": {
+      "TableResults": "Risultati tabella"
+    },
+    "Create": "Crea",
+    "Handlebars": {
+      "CantShowCharacteristic": "Devi riselezionare le caratteristiche per le abilità contrassegnate con XXX. Ci dispiace..."
+    },
+    "Items": {
+      "Encumbrance": "Peso",
+      "Enc": "Peso",
+      "DocumentReference": "Fonte",
+      "Link": "Link",
+      "DeleteReference": "Elimina riferimento",
+      "Armor": {
+        "Armor": "Armatura",
+        "PrimaryArmor": "Armatura primaria",
+        "SecondaryArmor": "Armatura secondaria",
+        "TotalArmor": "Armatura totale",
+        "RadProt": "Protezione radiazioni",
+        "IsPowered": "Armatura potenziata",
+        "Nonstackable": "Non cumulabile",
+        "SecondaryArmorProtectionTypes": "Tipi di protezione secondaria",
+        "ArmorProtectionTypes": "Tipi di protezione",
+        "armorDM": "DM",
+        "ArmorModifier": "Modificatore armatura",
+        "ArmorType": "Tipo armatura",
+        "WearingReflec": "Indossa Riflettente"
+      },
+      "Augmentation": {
+        "Arms": "Braccia",
+        "AugEffect": "Effetto",
+        "AugLocation": "Posizione potenziamento",
+        "FullBody": "Corpo intero",
+        "Head": "Testa",
+        "Legs": "Gambe",
+        "Torso": "Torso",
+        "None": "Nessuno",
+        "ValueCr": "Prezzo in Cr"
+      },
+      "Component": {
+        "Ammunition": "Munizioni",
+        "componentName": "Componente",
+        "accomodations": "alloggi",
+        "armament": "armamento",
+        "armor": "armatura",
+        "bridge": "ponte di comando",
+        "cargo": "carico",
+        "computer": "computer",
+        "dock": "attracco",
+        "drive": "motore",
+        "drone": "drone",
+        "electronics": "elettronica",
+        "fuel": "carburante",
+        "hull": "scafo",
+        "mount": "montaggio",
+        "power": "energia",
+        "sensor": "sensore",
+        "shield": "scudo",
+        "software": "software",
+        "storage": "stoccaggio",
+        "vehicle": "veicolo e mezzo",
+        "other": "altro",
+        "otherExternal": "altro - esterno",
+        "otherInternal": "altro - interno",
+        "operational": "operativo",
+        "damaged": "danneggiato",
+        "destroyed": "distrutto",
+        "off": "spento",
+        "powerDraw": "Consumo energetico",
+        "powerGenerated": "Energia generata",
+        "Power": "Energia",
+        "status": "Stato",
+        "rating": "Valutazione",
+        "Range": "Portata",
+        "totalQuantity": "Totale",
+        "availableQuantity": "Quantità disponibile",
+        "damage": "Danno",
+        "RadiationDamage": "Danno da radiazioni",
+        "hits": "Colpi",
+        "SustainedHits": "Colpi sostenuti",
+        "weightIsPct": "Peso in percentuale?",
+        "purchasePrice": "Prezzo di acquisto",
+        "isIllegal": "Illegale?",
+        "unitWeight": "Peso unitario",
+        "pctDisplacement": "% Spostamento massa",
+        "CargoItem": "Oggetto carico",
+        "CargoLocation": "Posizione carico",
+        "Price": "Prezzo",
+        "Value": "Valore",
+        "GeneratesPower": "Genera energia?",
+        "IsRefined": "Raffinato?",
+        "Features": "Caratteristiche / tratti",
+        "PricingBasis": "Prezzo per",
+        "perUnit": "MCr per unità",
+        "perCompTon": "MCr per tonnellata componente",
+        "perHullTon": "MCr per tonnellata scafo",
+        "per100HullTon": "MCr per 100 tonnellate di scafo",
+        "pctHull": "Percentuale del valore base dello scafo",
+        "pctHullPerUnit": "Percentuale del valore base per unità",
+        "isBaseHull": "È lo scafo base?",
+        "RollModifier": "Modificatore tiro",
+        "DM": "DM",
+        "Hardened": "Rinforzato?",
+        "hardened": "Rinforzato",
+        "Hd": "Rin.",
+        "isPopup": "È a scomparsa?",
+        "isExtended": "Estensione a scomparsa?",
+        "extended": "esteso",
+        "retracted": "ritratto",
+        "Displacement": "Spostamento",
+        "Description": "Descrizione",
+        "ComponentType": "Tipo di componente",
+        "powerPerUnit": "per unità",
+        "powerPerCompTon": "per tonnellata di componente",
+        "powerPerHullTon": "per tonnellata di scafo",
+        "installedCost": "Costo installazione (MCr)",
+        "techLevel": "Livello tecnologico",
+        "diceModifier": "Modificatore dado",
+        "displacementWeight": "Peso spostamento (tonn. spost.)",
+        "PowerUsed": "Energia consumata o generata (+)",
+        "Quantity": "Quantità",
+        "AttackDamage": "Danno d’attacco",
+        "numberHits": "Numero colpi",
+        "opStatus": "Stato operativo"
+      },
+      "Equipment": {
+        "AssignSkill": "Assegna abilità",
+        "AssociatedSkillName": "Nome abilità associata",
+        "Description": "Descrizione",
+        "ItemName": "Nome oggetto",
+        "Location": "Posizione",
+        "Price": "Prezzo",
+        "Quantity": "Quantità",
+        "ShortDescription": "Descrizione breve",
+        "SkillModifier": "Modificatore tiro/dado",
+        "TL": "LT",
+        "Weight": "Peso",
+        "isAttachment": "Accessorio?",
+        "NewAttachment": "Nuovo accessorio",
+        "BonusDamage": "Bonus danno",
+        "PriorType": "Tipo oggetto precedente"
+      },
+      "Items": {
+        "AssignArmor": "Imposta come armatura",
+        "AssignAugment": "Imposta come potenziamento",
+        "AssignEquipment": "Imposta come equipaggiamento",
+        "AssignJunk": "Imposta come cianfrusaglia",
+        "AssignTool": "Imposta come strumento",
+        "AssignWeapon": "Imposta come arma",
+        "AssignConsumable": "Imposta come consumabile",
+        "AssignComputer": "Assegna computer",
+        "Inventory": "Inventario",
+        "ItemType": "Tipo",
+        "MoveStorage": "Sposta",
+        "New": "Nuovo",
+        "Storage": "Magazzino",
+        "Junk": "Cianfrusaglia"
+      },
+      "Skills": {
+        "DEX": "DES",
+        "EDU": "EDU",
+        "END": "RES",
+        "INT": "INT",
+        "Level": "Livello",
+        "Modifier": "Modificatore",
+        "NONE": "---",
+        "PSI": "PSI",
+        "SOC": "SOC",
+        "STR": "FOR",
+        "SkillName": "Nome abilità",
+        "SimplifiedSkillName": "Abbreviazione abilità",
+        "SimplifiedSkillNameDescription": "Usato nelle formule di tiro, es. @skills._NOME_ABILITÀ_.<br>@skills._NOME_ABILITÀ_ è zero se l’abilità non esiste o è negativa.",
+        "LFB": "VIT",
+        "STA": "STM",
+        "HIT": "COLP",
+        "ALT1": "ALT1",
+        "ALT2": "ALT2",
+        "ALT3": "ALT3",
+        "TrainingNotes": "Note di addestramento",
+        "NumberOfSkills": "Numero di abilità",
+        "SkillRanks": "Grado abilità",
+        "GroupLabel": "Etichetta gruppo",
+        "Melee Combat": "Combattimento corpo a corpo"
+      },
+      "Traits": {
+        "Prerequisite": "Requisiti",
+        "TraitName": "Nome tratto",
+        "CreateEffect": "Crea effetto",
+        "DeleteEffect": "Elimina effetto",
+        "EditEffect": "Modifica effetti",
+        "CreateTrait": "Crea tratto",
+        "DeleteTrait": "Elimina tratto",
+        "ShortDescAndEffects": "Descrizione breve e lista effetti"
+      },
+      "Tool": {
+        "Bonus": "Bonus"
+      },
+      "Consumable": {
+        "Types": {
+          "air": "Aria",
+          "drugs": "Farmaci",
+          "food": "Cibo",
+          "fuel": "Carburante",
+          "magazine": "Caricatore",
+          "power_cell": "Cella energetica",
+          "software": "Software",
+          "processor": "Processore",
+          "suite": "Suite elettronica",
+          "other": "Altro"
+        },
+        "Size": "Dimensione",
+        "Subtype": "Sottotipo",
+        "Count": "Conteggio",
+        "Bandwidth": "Banda",
+        "ArmorPiercing": "Penetrazione armatura",
+        "AmmoRangeModifier": "Modificatore gittata (% rispetto alla base)",
+        "DropConsumablesHere": "Puoi trascinare qui i consumabili.",
+        "DropAttachmentsHere": "Puoi trascinare qui gli accessori.",
+        "RemoveConsumable": "Rimuovi consumabile",
+        "RemoveConsumableFrom": "Rimuovere il consumabile _CONSUMABLE_NAME_ da _ITEM_NAME_?",
+        "SelectConsumable": "Seleziona consumabile",
+        "ActiveConsumable": "Consumabile attivo",
+        "SoftwareActive": "Software attivo?",
+        "SoftwareOn": "Software attivo",
+        "SoftwareOff": "Software inattivo"
+      },
+      "Weapon": {
+        "Ammo": "Munizioni",
+        "Damage": "Danno",
+        "Range": "Gittata",
+        "lawLevel": "Livello di legalità",
+        "rangeBand": "Fascia di distanza",
+        "weaponType": "Tipo di arma",
+        "damageType": "Tipo di danno",
+        "rateOfFire": "Cadenza di fuoco/Auto X",
+        "doubleTap": "Doppio colpo",
+        "recoil": "Rinculo",
+        "UseAsAmmunitionForAttack": "Usa munizioni per attacchi",
+        "MagazineCost": "Costo caricatore/cella energetica",
+        "ArmorPiercing": "Penetrazione armatura",
+        "ParryAV": "Valore parata",
+        "ShieldAV": "Valore scudo",
+        "isShield": "Funziona come scudo",
+        "Features": "Caratteristiche / tratti",
+        "Unarmed": "Disarmato",
+        "UnarmedDescription": "Attacco a mani nude",
+        "HandlingModifiers": "Modificatori di maneggevolezza",
+        "Magazine": "Caricatore",
+        "Modifiers": "Modificatori",
+        "Attack": "Attacco",
+        "Consumables": "Consumabili",
+        "DefaultMagazine": "Dimensione predefinita caricatore",
+        "HandlingExample": "es. DES 6/-3 10/+4",
+        "MeleeRangeModifier": "Modificatore distanza corpo a corpo",
+        "CustomModifier": {
+          "range": "Modificatore personalizzato di gittata",
+          "armor": "Modificatore personalizzato armatura"
+        }
+      },
+      "Spells": {
+        "CircleSchool": "Cerchio/Scuola della magia",
+        "Duration": "Durata",
+        "SpellName": "Nome incantesimo",
+        "Level": "Livello",
+        "sorcerySkill": "Magia"
+      },
+      "Computer": {
+        "ProcessingPower": "Potenza di calcolo"
+      }
+    },
+    "Target": {
+      "AreaEffect": "Effetto ad area",
+      "Target": "Bersaglio",
+      "None": "Nessuno",
+      "Radius": "Raggio",
+      "Sphere": "Sfera",
+      "Cylinder": "Cilindro",
+      "Cone": "Cono",
+      "Square": "Quadrato",
+      "Cube": "Cubo",
+      "Line": "Linea",
+      "Wall": "Muro",
+      "Width": "Larghezza",
+      "Units": "Unità",
+      "TypeArea": "Tipo di area"
+    },
+    "Ship": {
+      "Actions": "Azioni",
+      "ActionType": "Tipo di azione",
+      "ActionRollFormula": "Formula del tiro dell'azione",
+      "Unknown": "sconosciuto",
+      "ActorLacksSkill": "_ACTOR_NAME_ non ha l'abilità _SKILL_",
+      "ActorMustBeSelectedForAction": "Poiché ci sono più attori, seleziona chi esegue l'azione",
+      "AddShipPosition": "Aggiungi posizione sulla nave",
+      "Avail": "Disp.",
+      "Available": "Disponibile",
+      "AvailableCargoWeight": "Peso carico disponibile",
+      "CantDropActorIfPositionIsNotOnShip": "Non puoi assegnare un Viaggiatore a una posizione non presente sulla nave",
+      "CannotParseArgument": "Impossibile interpretare la stringa dell'azione di posizione",
+      "Cargo": "Carico",
+      "CargoWeight": "Peso totale carico",
+      "CARGONOTES": "NOTE SUL CARICO",
+      "COMPONENTS": "COMPONENTI",
+      "COMMONFUNDS": "FONDI COMUNI",
+      "CombatPosition": "Posizione di combattimento",
+      "CreateAction": "Crea azione",
+      "Crew": {
+        "ADMIN": "AMMINISTRAZIONE",
+        "ASTROGATOR": "ASTROGATTORE",
+        "BROKER": "INTERMEDIARIO",
+        "CAPTAIN": "CAPITANO",
+        "ENGINEER": "INGEGNERE",
+        "GUNNER": "ARTIGLIERE",
+        "MAINTENANCE": "MANUTENTORE",
+        "MARINE": "MARINE",
+        "MEDIC": "MEDICO",
+        "OTHER": "ALTRO",
+        "PILOT": "PILOTA",
+        "STEWARD": "STEWARD"
+      },
+      "Damage": "Danno",
+      "Deckplan": "Piano della nave",
+      "Defense": "Difesa",
+      "DeleteAction": "Elimina azione",
+      "Designation": "Designazione",
+      "Displacement": "Dislocamento",
+      "Drives": "Motori",
+      "FINANCENOTES": "NOTE FINANZIARIE",
+      "SHIPVALUE": "VALORE DELLA NAVE",
+      "Fuel": "Carburante",
+      "RefinedFuel": "Carburante raffinato",
+      "UnrefinedFuel": "Carburante grezzo",
+      "Gs": "G",
+      "InvalidDocumentForShipPosition": "Questo tipo di documento non è valido per le posizioni della nave. Solo abilità possono essere assegnate.",
+      "IsMassProduced": "Nave prodotta in serie",
+      "JDrive": "Motore J",
+      "Jump": "Salto",
+      "MacroSkill": "Macro/Abilità",
+      "Component": "Componente da usare",
+      "MakesChatRollAction": "Esegue l'azione _ACTION_NAME_ dalla posizione _POSITION_NAME_",
+      "ActionHits": "Colpisce, usando _WHILE_USING_ con effetto _EFFECT_VALUE_",
+      "ActionHitsAndDamage": "Colpisce, usando _WHILE_USING_ con effetto _EFFECT_VALUE_ infliggendo danno standard _DAMAGE_TOTAL_",
+      "ActionMisses": "Manca, usando _WHILE_USING_ con effetto _EFFECT_VALUE_",
+      "RadiationDamageOf": "e danno da radiazione",
+      "WhileUsing": "usando",
+      "MaintPM": "Manutenzione mensile",
+      "MANIFEST": "MANIFESTO",
+      "MAX": "MAX",
+      "MDrive": "Motore M",
+      "Name": "Nome",
+      "NewAction": "Nuova azione",
+      "NoActorsForAction": "Nessun attore disponibile per l'azione",
+      "Operations": "Operazioni",
+      "Order": "Ordine",
+      "Overdrive": "Sovraccarico",
+      "Parsecs": "Parsec",
+      "pc": "pc",
+      "PositionName": "Nome posizione",
+      "Power": "Energia",
+      "PowerManagement": "Gestione energia",
+      "PowerWeightManagement": "Gestione energia e peso",
+      "PP": "PE",
+      "RemoveTraveller": "Rimuovi viaggiatore dalla nave",
+      "Sensors": "Sensori",
+      "ShipHull": "Scafo della nave",
+      "SHIPNOTES": "NOTE DELLA NAVE",
+      "Storage": "Magazzino",
+      "Systems": "Sistemi",
+      "Tabs": {
+        "Cargo": "Carico",
+        "Components": "Componenti",
+        "Crew": "Equipaggio",
+        "Finance": "Finanza",
+        "Locker": "Armadietto",
+        "Notes": "Note",
+        "ShipPositions": "Posizioni nave"
+      },
+      "Thrust": "Spinta",
+      "tons": "tonnellate",
+      "dtons": "d-ton",
+      "Travellers": "Viaggiatori",
+      "USED": "USATO",
+      "Vehicles": "Veicoli",
+      "Weapons": "Armi",
+      "MCr": "MCr",
+      "ShipValue": "Valore della nave",
+      "MortgagePerMonth": "Mutuo mensile",
+      "MaintenancePerMonth": "Costo manutenzione",
+      "CrPerMonth": "Cr/mese",
+      "Chat": "Chat",
+      "UseAComponent": "Spara arma",
+      "executeMacro": "Macro",
+      "SkillRoll": "Abilità",
+      "chatPlaceholder": "Messaggio chat",
+      "skillPlaceholder": "Abilità/CAR 8+",
+      "firePlaceholder": "Abilità/CAR 8+",
+      "macroPlaceholder": "Nome macro",
+      "skillTooltip": "Opzioni possibili:\nAbilità\nAbilità|Abilità alternativa 1|...\nAbilità/CAR\nAbilità/ 8+\nAbilità/CAR 8+\nAbilità/CAR|CAR2",
+      "fireTooltip": "Opzioni possibili:\nAbilità\nAbilità|Abilità alternativa 1|...\nAbilità/CAR\nAbilità/ 8+\nAbilità/CAR|CAR2 8+",
+      "MacroTooltip": "Nome macro",
+      "chatTooltip": "Ahoy!",
+      "ExecuteMacro": "Esegui macro",
+      "None": "Nessuna"
+    },
+    "Vehicle": {
+      "SystemStatus": "Stato del sistema",
+      "Cargo": "Carico",
+      "CargoNotes": "Note",
+      "CargoCapacity": "Capacità di carico",
+      "Speed": "Velocità",
+      "Range": "Autonomia",
+      "Spaces": "Spazi",
+      "Agility": "Agilità",
+      "systems": {
+        "cargo": "Carico",
+        "cockpit": "Cabina di pilotaggio",
+        "computers": "Computer",
+        "electronics": "Elettronica",
+        "limbs": "Manipolatori",
+        "propulsion": "Propulsione",
+        "powerPlant": "Reattore",
+        "sensors": "Sensori",
+        "weapons": "Armi"
+      },
+      "crew": {
+        "operators": "Operatori",
+        "passengers": "Passeggeri"
+      },
+      "Movement": "Movimento",
+      "Crew": "Equipaggio",
+      "Weight": "Peso",
+      "Armor": "Corazza",
+      "Hull": "Scafo",
+      "Structure": "Struttura",
+      "Protection": "Protezione",
+      "skillToOperate": "Abilità richiesta per guidare",
+      "Weapons": "Armi",
+      "Components": "Componenti",
+      "OpenVehicle": "Veicolo aperto",
+      "techLevel": "Livello tecnologico",
+      "Cost": "Costo",
+      "Traits": "Tratti",
+      "ArmorHull": "Corazza e Scafo",
+      "Regular": "Normale",
+      "Critical": "Critico",
+      "Thresholds": "Soglie",
+      "ProtectionType": {
+        "ArmorOnly": "Solo corazza",
+        "Threshold": "Soglia",
+        "ArmorHullStruc": "Corazza, Scafo e Struttura"
+      },
+      "ShippingSize": "Dimensioni per spedizione"
+    },
+    "SpaceObject": {
+      "Notes": "Note",
+      "Damage": "Danni",
+      "Information": "Informazioni",
+      "Features": "Caratteristiche",
+      "Thrust": "Spinta",
+      "rounds": "round",
+      "RoundsActive": "Round attivi"
+    },
+    "Resource": {
+      "Value": "Valore",
+      "Min": "Minimo",
+      "Max": "Massimo",
+      "Label": "Etichetta"
+    },
+    "Migration": {
+      "Completed": "Migrazione Twodsix System alla versione {version} completata!",
+      "DoNotClose": "Migrazione Twodsix in corso alla versione {version}. Non chiudere la partita.",
+      "MigrationError0.6.25": "Errore di migrazione: impossibile convertire il prezzo di ${name}, era ${price} ed è diventato 0."
+    },
+    "No": "No",
+    "Rolls": {
+      "AdjustedDamage": "Danno modificato da effetto:",
+      "Cancel": "Annulla",
+      "DamageUsing": "Danno con",
+      "Effect": "Effetto",
+      "ToggleDetails": "Mostra dettagli",
+      "Roll": "Tiro",
+      "RollChain": "Tiro concatenato / assistito",
+      "RollOpposed": "Tiro contrapposto",
+      "Rolling": "Lancio del dado",
+      "With": "con",
+      "resultShows": "mostra",
+      "sum": "somma",
+      "using": "usa {characteristic}",
+      "Wounds": "Ferite",
+      "AttackDM": "DM attacco",
+      "Damage": "Danno",
+      "BonusDamage": "Danno bonus",
+      "BurstDamage": "Danno a raffica",
+      "Burst": "Raffica",
+      "Auto": "Auto",
+      "FullAuto": "Auto completa",
+      "DoubleTap": "Doppio colpo",
+      "Single": "Singolo",
+      "Timeframe": "Durata",
+      "RollInitiative": "Tiro per iniziativa",
+      "characteristic": "caratteristica",
+      "ROF": "CdF",
+      "RollDamage": "Tira danno",
+      "DodgeParry": "Schivata/Parata",
+      "Attachments": "Access./Cons.",
+      "WeaponsHandling": "Maneggevolezza armi",
+      "SelectSkill": "Seleziona abilità",
+      "SkillName": "Nome abilità",
+      "MakesOpposedRoll": "Esegue un tiro contrapposto.",
+      "MakesChainRoll": "Esegue un tiro concatenato / assistito.",
+      "MakesParryRoll": "Esegue un tiro abilità corpo a corpo per parare con",
+      "MakesUncRoll": "Tira per rimanere cosciente."
+    },
+    "Settings": {
+      "absoluteBonusValueForEachTimeIncrement": {
+        "hint": "Lascia vuoto per usare il valore standard (+/-1). Attualmente non utilizzato.",
+        "name": "Bonus/malus per ogni variazione temporale del compito."
+      },
+      "absoluteCriticalEffectValue": {
+        "hint": "Impostato a 99 significa che l'effetto non è attivo",
+        "name": "Effetto da applicare in caso di successo o fallimento critico (verde/rosso)."
+      },
+      "shortSTR": {
+        "hint": "Abbreviazione per la caratteristica Forza. Deve avere quattro caratteri o meno.",
+        "name": "Abbreviazione Forza"
+      },
+      "shortDEX": {
+        "hint": "Abbreviazione per la caratteristica Destrezza. Deve avere quattro caratteri o meno.",
+        "name": "Abbreviazione Destrezza"
+      },
+      "shortEND": {
+        "hint": "Abbreviazione per la caratteristica Resistenza. Deve avere quattro caratteri o meno.",
+        "name": "Abbreviazione Resistenza"
+      },
+      "shortINT": {
+        "hint": "Abbreviazione per la caratteristica Intelligenza. Deve avere quattro caratteri o meno.",
+        "name": "Abbreviazione Intelligenza"
+      },
+      "shortSOC": {
+        "hint": "Abbreviazione per la caratteristica Status sociale. Deve avere quattro caratteri o meno.",
+        "name": "Abbreviazione Status sociale"
+      },
+      "shortEDU": {
+        "hint": "Abbreviazione per la caratteristica Istruzione. Deve avere quattro caratteri o meno.",
+        "name": "Abbreviazione Istruzione"
+      },
+      "shortPSI": {
+        "hint": "Abbreviazione per la caratteristica Forza psionica. Deve avere quattro caratteri o meno.",
+        "name": "Abbreviazione Forza psionica"
+      },
+      "alternativeShort1": {
+        "hint": "Abbreviazione per la prima caratteristica alternativa. Deve essere lunga al massimo quattro caratteri.",
+        "name": "Abbreviazione caratteristica alternativa 1"
+      },
+      "alternativeShort2": {
+        "hint": "Abbreviazione per la seconda caratteristica alternativa. Deve essere lunga al massimo quattro caratteri.",
+        "name": "Abbreviazione caratteristica alternativa 2"
+      },
+      "alternativeShort3": {
+        "hint": "Abbreviazione per la terza caratteristica alternativa. Deve essere lunga al massimo quattro caratteri.",
+        "name": "Abbreviazione caratteristica alternativa 3"
+      },
+      "autofireRulesUsed": {
+        "hint": "Seleziona le regole usate per raffiche lunghe/corte.",
+        "name": "Regole per raffiche lunghe/corte"
+      },
+      "automateDamageRollOnHit": {
+        "hint": "selezionato=Tira danno modificato dall'effetto. non selezionato=Non tira il danno.",
+        "name": "Tira automaticamente il danno su colpo riuscito per oggetti che infliggono danno."
+      },
+      "criticalNaturalAffectsEffect": {
+        "hint": "attivo=Il 2 naturale dà effetto -1, il 12 effetto 0. disattivo=Usa le regole standard",
+        "name": "Il 2 o 12 naturale influisce su successo/fallimento?"
+      },
+      "defaultTokenSettings": {
+        "hint": "Applica automaticamente i parametri raccomandati per il token prototipo di nuovi attori.",
+        "name": "Impostazioni token predefinite"
+      },
+      "difficultiesAsTargetNumber": {
+        "hint": "attivo=Usa valori bersaglio. disattivo=Usa modificatori di difficoltà",
+        "name": "Usa valori bersaglio invece dei modificatori di difficoltà."
+      },
+      "difficultyListUsed": {
+        "hint": "Seleziona la variante delle regole di difficoltà.",
+        "name": "Regole di difficoltà usate"
+      },
+      "effectOrTotal": {
+        "hint": "selezionato=Mostra effetto (tiro+modificatori-valore bersaglio). non selezionato=Mostra il totale (tiro+modificatori)",
+        "name": "Mostra effetto o totale per tiri di abilità e caratteristiche"
+      },
+      "ExperimentalFeatures": {
+        "hint": "selezionato=Mostra funzionalità sperimentali brutte e buggate che potrebbero non distruggere il tuo mondo di gioco. non selezionato=Nascondile come farebbe chiunque di sensato.",
+        "name": "Mostra funzioni brutte, buggate e incomplete (come tutte le altre, dopotutto)"
+      },
+      "hideUntrainedSkills": {
+        "continue": "Vuoi continuare?",
+        "hint": "selezionato=Mostra abilità fittizia 'Non addestrato'. non selezionato=Mostra tutte le abilità non addestrate",
+        "name": "Nascondi tutte le abilità non addestrate e mostra solo 'Non addestrato'. Le nuove abilità saranno create con valore 0.",
+        "warning": "Attenzione!",
+        "warningReset": "Dopo il salvataggio, tutte le abilità che usavano 'Non addestrato' verranno reimpostate. Questa azione è irreversibile.",
+        "warningUpdateWeapon": "Dopo il salvataggio, tutte le armi senza abilità useranno 'Non addestrato'. Questa azione è irreversibile."
+      },
+      "initiativeFormula": {
+        "hint": "Per esempio: \"2d6 + @characteristics.dexterity.mod\"",
+        "name": "Formula dell'iniziativa"
+      },
+      "armorDamageFormula": {
+        "hint": "Usa la sintassi VTT per i tiri. '@damage'/'@effectiveArmor' saranno sostituiti dai valori reali. Default: \"@damage-@effectiveArmor\"",
+        "name": "Formula riduzione danno da armatura"
+      },
+      "invertSkillRollShiftClick": {
+        "hint": "Clic normale mostra dialogo. Shift-clic usa valori predefiniti. Spunta questa casella per invertire il comportamento.",
+        "name": "Inverti comportamento Shift-clic per tiri e danni"
+      },
+      "lifebloodInsteadOfCharacteristics": {
+        "hint": "Mostra VNS e Salute (usa FOR per coperture) come caratteristiche. Utile per Cepheus Atom, Barbaric! ecc.",
+        "name": "Mostra VNS e Salute (FOR) come caratteristiche"
+      },
+      "maxSkillLevel": {
+        "hint": "Lascia vuoto per usare il massimo standard (9).",
+        "name": "Livello massimo abilità"
+      },
+      "modifierForZeroCharacteristic": {
+        "hint": "Lascia vuoto per usare il valore standard (-2). Non si applica retroattivamente ai personaggi esistenti.",
+        "name": "Modificatore per caratteristica pari a zero"
+      },
+      "ruleset": {
+        "hint": "Le impostazioni saranno adattate al regolamento selezionato. Le regole più supportate sono evidenziate. Vedi https://github.com/xdy/twodsix-foundryvtt/blob/master/docs/docs.md per dettagli. Le regole incluse nel regolamento sono evidenziate in verde. Le modifiche saranno in arancione.",
+        "name": "Regolamento"
+      },
+      "settingsInterface": {
+        "debugSettings": {
+          "hint": "Configura o visualizza le impostazioni di debug e sperimentali.",
+          "intro": "Impostazioni sperimentali e debug",
+          "name": "Impostazioni sperimentali e debug"
+        },
+        "displaySettings": {
+          "hint": "Configura l'aspetto dell'interfaccia.",
+          "intro": "Impostazioni visualizzazione",
+          "name": "Impostazioni visualizzazione"
+        },
+        "itemSettings": {
+          "hint": "Scegli quali proprietà mostrare sugli oggetti.",
+          "intro": "Impostazioni oggetti",
+          "name": "Impostazioni oggetti"
+        },
+        "rulesetSettings": {
+          "hint": "Configura le regole del gioco",
+          "intro": "Regole attuali",
+          "modified": "modificato",
+          "name": "Impostazioni avanzate delle regole"
+        }
+      },
+      "shipInitiativeFormula": {
+        "hint": "Esempio: \"2d6\"",
+        "name": "Formula dell'iniziativa nave"
+      },
+      "showAlternativeCharacteristics": {
+        "hint": "Core: sei caratteristiche base (FOR, DES, RES, INT, ISTRU, SOC). Base: le sei più PSI. Alternative: le sei più due alternative. Tutto: le sei più PSI più tre alternative.",
+        "name": "Caratteristiche da mostrare"
+      },
+      "showContaminationBelowLifeblood": {
+        "hint": "Mostra la Contaminazione sotto la Salute. Utile solo se è attivo 'Mostra VNS e Salute'.",
+        "name": "Mostra Contaminazione sotto la Salute"
+      },
+      "ShowDamageType": {
+        "hint": "Mostra il campo 'Tipo di Danno'. Altrimenti sarà nascosto.",
+        "name": "Mostra il campo 'Tipo di Danno' nelle armi e incantesimi"
+      },
+      "showHeroPoints": {
+        "hint": "Mostra il contatore dei Punti Eroici nella scheda del personaggio.",
+        "name": "Abilita i Punti Eroici"
+      },
+      "usePDFPagerForRefs": {
+        "hint": "Usa con il modulo PDF Pager per mostrare i riferimenti. Il formato deve essere '[nome codice] [numero pagina]'. Se disattivato, verranno usati link URL.",
+        "name": "Usa PDF-Pager per i riferimenti"
+      },
+      "ShowLawLevel": {
+        "hint": "selezionato=Mostra il campo 'Livello Legalità', non selezionato=Nascondilo",
+        "name": "Mostra il campo 'Livello Legalità' nelle armi"
+      },
+      "showLifebloodStamina": {
+        "hint": "Mostra Salute e Resistenza nella scheda del personaggio. I danni saranno applicati a queste caratteristiche. Utile per Cepheus Deluxe.",
+        "name": "Mostra e usa Salute e Resistenza"
+      },
+      "ShowRangeBandAndHideRange": {
+        "hint": "selezionato=Mostra 'Banda di distanza', non selezionato=Mostra 'Distanza'",
+        "name": "Mostra 'Banda di distanza' e *nascondi* 'Distanza' su armi e personaggi"
+      },
+      "ShowRateOfFire": {
+        "hint": "selezionato=Mostra il campo 'Cadenza di Fuoco', non selezionato=Nascondilo",
+        "name": "Mostra 'Cadenza di Fuoco' nella scheda armi"
+      },
+      "ShowRecoil": {
+        "hint": "selezionato=Mostra il campo 'Rinculo', non selezionato=Nascondilo",
+        "name": "Mostra il campo 'Rinculo' nella scheda armi"
+      },
+      "ShowDoubleTap": {
+        "hint": "selezionato=Mostra il campo 'Doppio Colpo', non selezionato=Nascondilo",
+        "name": "Mostra il campo 'Doppio Colpo' nella scheda armi"
+      },
+      "showSingleComponentColumn": {
+        "hint": "Mostra la lista componenti della nave in una singola riga.",
+        "name": "Componenti nave su una sola riga"
+      },
+      "showBandwidth": {
+        "hint": "Mostra banda usata e disponibile per computer e software.",
+        "name": "Banda di calcolo della nave"
+      },
+      "ShowWeaponType": {
+        "hint": "selezionato=Mostra il campo 'Tipo Arma', non selezionato=Nascondilo",
+        "name": "Mostra il campo 'Tipo Arma' nella scheda armi"
+      },
+      "showWeightUsage": {
+        "hint": "Nella scheda nave verrà mostrato il peso invece della gestione energetica",
+        "name": "Mostra il peso invece dell'energia nella scheda nave"
+      },
+      "systemMigrationVersion": {
+        "hint": "Registra la versione dello schema per il sistema Twodsix. (Non modificare se non sai cosa stai facendo)",
+        "name": "Versione schema sistema"
+      },
+      "termForAdvantage": {
+        "hint": "Non usare lo stesso termine di termForDisadvantage...",
+        "name": "Nome da usare per tiri con vantaggio (3d6kh2)"
+      },
+      "termForDisadvantage": {
+        "hint": "Non usare lo stesso termine di termForAdvantage...",
+        "name": "Nome da usare per tiri con svantaggio (3d6kl2)"
+      },
+      "useFoundryStandardStyle": {
+        "default": "Stile Twodsix",
+        "foundry": "Stile Foundry",
+        "hint": "Verrà usato lo stile standard di Foundry, utile per compatibilità con alcuni moduli.",
+        "name": "Usa stile Foundry"
+      },
+      "useModuleFixStyle": {
+        "hint": "Modifica il CSS per correggere problemi di stile con alcuni moduli usando lo stile Twodsix. Non funziona con lo stile Foundry.",
+        "name": "Correggi problemi di stile dovuti a moduli e stile Twodsix"
+      },
+      "useShipAutoCalcs": {
+        "hint": "Se attivo, potenza, peso, banda e prezzo nave saranno calcolati dai componenti. Altrimenti vanno inseriti manualmente.",
+        "name": "Calcola automaticamente potenza, peso, banda e prezzo nave"
+      },
+      "useSystemDefaultTokenIcon": {
+        "hint": "Verrà usata l'icona predefinita di Foundry VTT (uomo incappucciato) invece di quella Twodsix per nuovi attori. Abilita per usare il ritratto dell'attore come immagine del token.",
+        "name": "Usa icona token di Foundry invece di Twodsix per nuovi attori"
+      },
+      "useWoundedStatusIndicators": {
+        "hint": "Usa indicatori di stato per le ferite e tira automaticamente per coscienza in caso di ferite gravi. I modificatori si applicano a tutti i tiri.",
+        "name": "Mostra indicatori di ferite e applica modificatori ai tiri"
+      },
+      "minorWoundsRollModifier": {
+        "hint": "Modificatore a tutti i tiri per attori con ferite lievi (valori negativi si sottraggono).",
+        "name": "Modificatore per ferite lievi"
+      },
+      "seriousWoundsRollModifier": {
+        "hint": "Modificatore a tutti i tiri per attori con ferite gravi (valori negativi si sottraggono).",
+        "name": "Modificatore per ferite gravi"
+      },
+      "weightModifierForWornArmor": {
+        "hint": "Fattore di moltiplicazione del peso dell'armatura se indossata.",
+        "name": "Fattore moltiplicativo del peso armatura indossata"
+      },
+      "useProseMirror": {
+        "hint": "Usa l'editor HTML integrato per blocchi di testo più grandi.",
+        "name": "Usa editor ProseMirror per blocchi di testo"
+      },
+      "showIcons": {
+        "hint": "Usa icone invece del testo per info biografiche. Le icone saranno sempre mostrate per Salute e Resistenza.",
+        "name": "Usa icone per informazioni biografiche"
+      },
+      "maxComponentHits": {
+        "hint": "Numero massimo di colpi dopo il quale il componente è distrutto",
+        "name": "Colpi massimi per componente"
+      },
+      "mortgagePayment": {
+        "hint": "Divisore del prezzo della nave per calcolare le rate mensili su 40 anni. 240 significa prezzo diviso per 240 (mesi in 40 anni).",
+        "name": "Condizioni di pagamento del mutuo"
+      },
+      "massProductionDiscount": {
+        "hint": "Sconto sul costo di costruzione della nave dovuto alla produzione di massa. 0.1 significa sconto del 10% sul prezzo base.",
+        "name": "Sconto produzione di massa nave"
+      },
+      "reverseHealingOrder": {
+        "hint": "La guarigione tramite barra token segue lo stesso ordine dei danni: la prima caratteristica danneggiata è la prima a guarire. Se disattivato, guarisce dall'ultima alla prima.",
+        "name": "Inverti ordine di guarigione delle caratteristiche"
+      },
+      "maxEncumbrance": {
+        "hint": "Formula per calcolare l'ingombro massimo per un attore.",
+        "name": "Formula per ingombro massimo"
+      },
+      "allowDropOnIcon": {
+        "hint": "Gli oggetti possono essere trascinati direttamente sull’icona dell’attore senza aprire la scheda. Oggetti duplicati aumentano la quantità. Il danno da chat sarà applicato.",
+        "name": "Permetti trascinamento oggetti sull’icona"
+      },
+      "defaultMovement": {
+        "hint": "Movimento/camminata standard per nuovi personaggi (es. 10 ogni 10 m).",
+        "name": "Velocità di camminata predefinita"
+      },
+      "defaultMovementUnits": {
+        "hint": "Unità di misura per il movimento predefinito (es. m per 10m).",
+        "name": "Unità predefinita per la camminata"
+      },
+      "useEncumbrance": {
+        "hint": "Usa le regole di ingombro (se presenti) con il drag ruler.",
+        "name": "Usa regole di ingombro con il drag ruler"
+      },
+      "addEffectForShipDamage": {
+        "hint": "L’effetto dell’attacco nave viene aggiunto al tiro danno.",
+        "name": "Aggiungi effetto al danno nave"
+      },
+      "autoAddUnarmed": {
+        "hint": "Se attivo, l'arma 'a mani nude' verrà aggiunta automaticamente all'inventario dei nuovi attori (in base alle impostazioni delle regole).",
+        "name": "Aggiungi arma disarmata ai nuovi attori"
+      },
+      "unarmedDamage": {
+        "hint": "Formula di dadi per il danno a mani nude da aggiungere automaticamente agli attori.",
+        "name": "Formula per danno disarmato"
+      },
+      "showTimeframe": {
+        "hint": "Aggiunge le opzioni di intervallo temporale ai tiri di abilità/caratteristica.",
+        "name": "Mostra tempo nell’interfaccia di tiro"
+      },
+      "showStatusIcons": {
+        "hint": "Mostra icone di stato sul lato dell’immagine attore nella scheda.",
+        "name": "Mostra icone di stato nella scheda personaggio"
+      },
+      "showHullAndArmor": {
+        "hint": "Scegli che tipo di protezione mostrare nella scheda veicolo: solo armatura, soglie o tabella con armatura, scafo e struttura.",
+        "name": "Tipo di protezione mostrata nella scheda veicolo"
+      },
+      "addEffectToDamage": {
+        "hint": "Aggiunge l'effetto del tiro al danno.",
+        "name": "Aggiungi effetto al tiro danno"
+      },
+      "addEffectToManualDamage": {
+        "hint": "Aggiunge l’effetto dell’ultimo messaggio in chat al tiro danno manuale. Richiede l’opzione precedente attiva.",
+        "name": "Aggiungi effetto al danno manuale"
+      },
+      "showRangeSpeedNoUnits": {
+        "hint": "Non mostrare unità di velocità/distanza (es. km/h) nella scheda veicolo.",
+        "name": "Nascondi unità di velocità e distanza"
+      },
+      "showInitiativeButton": {
+        "hint": "Mostra pulsante per tiro iniziativa nella scheda personaggio nella sezione abilità.",
+        "name": "Mostra pulsante per tiro iniziativa"
+      },
+      "showSkillCountsRanks": {
+        "hint": "Mostra il conteggio delle abilità allenate e la somma dei loro livelli nella scheda.",
+        "name": "Mostra conteggio e livelli abilità"
+      },
+      "showComponentSummaryIcons": {
+        "hint": "Mostra icone riepilogo componenti sotto l’immagine della nave.",
+        "name": "Mostra icone riassuntive componenti nave"
+      },
+      "showSpells": {
+        "hint": "Mostra la scheda incantesimi nel personaggio.",
+        "name": "Mostra incantesimi"
+      },
+      "sorcerySkill": {
+        "hint": "Nome predefinito dell’abilità usata per lanciare incantesimi.",
+        "name": "Nome abilità incantesimi predefinita"
+      },
+      "useNationality": {
+        "hint": "Mostra campo nazionalità al posto di mondo d'origine nella scheda.",
+        "name": "Mostra nazionalità invece di mondo natale"
+      },
+      "animalsUseHits": {
+        "hint": "Gli animali hanno solo una statistica per i danni: colpi.",
+        "name": "Gli animali usano 'colpi' per il danno"
+      },
+      "animalsUseLocations": {
+        "hint": "Gli animali sono descritti in base alla posizione trovata, invece che per tipo o nicchia.",
+        "name": "Gli animali usano la posizione invece del tipo"
+      },
+      "displayReactionMorale": {
+        "hint": "Mostra reazione e morale nella scheda animale.",
+        "name": "Mostra reazione e morale degli animali"
+      },
+      "robotsUseHits": {
+        "hint": "I robot hanno una sola statistica per il danno: colpi.",
+        "name": "I robot usano 'colpi' per il danno"
+      },
+      "showComponentRating": {
+        "hint": "Mostra campo 'valutazione' nella scheda componente nave.",
+        "name": "Mostra valutazione componente"
+      },
+      "showComponentDM": {
+        "hint": "Mostra campo 'MB' nella scheda componente nave.",
+        "name": "Mostra modificatore componente"
+      },
+      "useEncumbranceStatusIndicators": {
+        "hint": "Usa indicatori per lo stato di sovraccarico. I modificatori seguenti si applicano a tutti i tiri fisici.",
+        "name": "Mostra stato sovraccarico e applica modificatori"
+      },
+      "encumbranceFraction": {
+        "hint": "Frazione del peso massimo trasportabile che determina lo stato di sovraccarico. Es: 0.5 significa che si è sovraccarichi superando metà del massimo.",
+        "name": "Frazione per applicare penalità da sovraccarico"
+      },
+      "encumbranceModifier": {
+        "hint": "Modificatore ai tiri di caratteristiche fisiche (FOR, RES, DES) se sovraccarico. Es: -1 per sottrarre 1.",
+        "name": "Modificatore tiri fisici con sovraccarico"
+      },
+      "transferDroppedItems": {
+        "hint": "Sostituisce il comportamento di copia di Foundry con trasferimento (rimuove dal personaggio di origine) quando si trascinano oggetti tra attori.",
+        "name": "Trasferisci invece di copiare gli oggetti trascinati"
+      },
+      "allowDragDropOfListsActor": {
+        "hint": "Permette di spostare oggetti nelle liste di Attori (Esploratori, Animali, Robot) con drag&drop invece che in ordine alfabetico.",
+        "name": "Permetti Drag&Drop nelle liste attori"
+      },
+      "allowDragDropOfListsShip": {
+        "hint": "Permette di spostare oggetti nelle liste di Navi e Veicoli con drag&drop invece che in ordine alfabetico.",
+        "name": "Permetti Drag&Drop in Navi e Veicoli"
+      },
+      "useDodgeParry": {
+        "hint": "Applica penalità che riflettono la capacità di schivare/parare. Serve selezionare un bersaglio e che il nome abilità combaci con l’azione dell’arma.",
+        "name": "Usa modificatori di attacco da schivata/parata"
+      },
+      "showModifierDetails": {
+        "hint": "Mostra i valori dei modificatori nei testi dei tiri in chat (es. FOR(+1) invece di FOR).",
+        "name": "Mostra dettagli dei modificatori nei tiri"
+      },
+      "defaultColor": {
+        "hint": "Cambia il colore principale del tema. Elimina per ripristinare.",
+        "name": "Imposta colore principale"
+      },
+      "lightColor": {
+        "hint": "Cambia il colore di evidenziazione del tema. Elimina per ripristinare.",
+        "name": "Imposta colore evidenziato"
+      },
+      "damageStatColor": {
+        "hint": "Cambia il colore del danno alle caratteristiche nella scheda. Elimina per ripristinare.",
+        "name": "Colore del danno alle caratteristiche"
+      },
+      "battleColor": {
+        "hint": "Cambia il colore del tema per la scheda battaglia nave. Elimina per ripristinare.",
+        "name": "Colore scheda battaglia nave"
+      },
+      "useItemActiveEffects": {
+        "hint": "Usa gli Effetti Attivi sugli oggetti. ATTENZIONE: potrebbe causare comportamenti strani.",
+        "name": "Usa Effetti Attivi oggetto"
+      },
+      "showFeaturesInChat": {
+        "hint": "Mostra il testo delle caratteristiche dell’oggetto in fondo ai messaggi di tiro in chat.",
+        "name": "Mostra caratteristiche oggetto in chat"
+      },
+      "showHitsChangesInChat": {
+        "hint": "Mostra messaggi sussurrati al GM quando viene inflitto/rimosso danno a un attore.",
+        "name": "Mostra danno/guarigione in chat per il GM"
+      },
+      "encumbFractionOneSquare": {
+        "hint": "Impostazione per il modulo Drag Ruler. Frazione dell’ingombro massimo per limitare il movimento a un quadrato (vale solo con regole OTHER).",
+        "name": "Frazione ingombro massimo per 1.5m/5ft di movimento"
+      },
+      "encumbFraction75pct": {
+        "hint": "Impostazione per Drag Ruler per limitare il movimento al 75%. Frazione applicata alla formula di ingombro massimo. Vale solo con regole OTHER.",
+        "name": "Frazione per movimento al 75% dell’ingombro massimo"
+      },
+      "useTabbedViews": {
+        "hint": "Usa una scheda a tab per schede oggetto lunghe e impostazioni sistema invece di una piatta.",
+        "name": "Usa visuali a tab per armi, componenti e impostazioni"
+      },
+      "damageTypeOptions": {
+        "hint": "Lista separata da virgole dei tipi di danno consentiti. Le regole CU sovrascrivono questa impostazione.",
+        "name": "Tipi di Danno e Protezione"
+      },
+      "animalTypesIndependentofNiche": {
+        "hint": "Gli animali possono avere qualsiasi tipo, indipendentemente dalla nicchia scelta.",
+        "name": "Tipi Animali indipendenti dalla Nicchia"
+      },
+      "reduceStatusIcons": {
+        "hint": "Rimuove condizioni di stato inutili di Foundry (es. maledetto). ATTENZIONE: il cambio da attivo a disattivo ricaricherà il mondo.",
+        "name": "Semplifica le icone di condizione per ambienti sci-fi"
+      },
+      "overrideDamageRoll": {
+        "hint": "Imposta il tiro danno automatico a livello mondo e sovrascrive le impostazioni client. ATTENZIONE: richiede ricarica di tutti i client.",
+        "name": "Sovrascrivi danni automatici con impostazione GM"
+      },
+      "autoDamageTarget": {
+        "hint": "Applica danno automatico al bersaglio selezionato senza popup dopo tiro riuscito.",
+        "name": "Danno automatico ai bersagli"
+      },
+      "useDegreesOfSuccess": {
+        "hint": "Mostra i gradi di successo. 'Other' usa eccezionale, marginale e medio. 'Cepheus Engine' non usa marginale. 'None' omette tutto.",
+        "name": "Mostra gradi di successo per tiri non di attacco"
+      },
+      "overrideSuccessWithNaturalCrit": {
+        "hint": "Sovrascrive il grado di successo in eccezionale con un 2 o 12 naturale (critico), indipendentemente dall’effetto.",
+        "name": "Sovrascrivi grado di successo con critico naturale"
+      },
+      "showTotalArmor": {
+        "hint": "Mostra il valore totale di armatura (primaria + secondaria) invece della sola secondaria nella scheda Traveller.",
+        "name": "Mostra valore totale armatura nella scheda Traveller"
+      },
+      "showItemIconsInChat": {
+        "hint": "Mostra l’icona dell’oggetto o abilità nel messaggio chat durante un tiro",
+        "name": "Mostra immagine oggetto in chat"
+      },
+      "defaultDamageOptions": "Balistico, Contundente, Corrosivo, EMP, Energetico, Fuoco, Laser, Perforante, Veleno, Plasma, Psionico, Radiazione, Tagliente, Fumo, Stordente",
+      "menuLabels": {
+        "general": "Generale",
+        "roll": "Tiri",
+        "characteristics": "Caratteristiche",
+        "formulas": "Formule",
+        "damage": "Danni",
+        "movement": "Movimento",
+        "encumbrance": "Ingombro",
+        "wounds": "Ferite",
+        "ship": "Nave",
+        "animals_robots": "Animali & Robot",
+        "weapon": "Arma",
+        "token": "Token",
+        "actor": "Attore",
+        "dragDrop": "Drag & Drop",
+        "style": "Stile"
+      },
+      "useMaxArmorValue": {
+        "hint": "Usa il valore massimo di armatura se si indossano più strati. Predefinito: somma i valori. ATTENZIONE: richiede ricarica di tutti i client.",
+        "name": "Usa valore massimo armatura invece della somma"
+      },
+      "showActorReferences": {
+        "hint": "Mostra riferimenti PDF (modulo pdf pager) o link URL nella scheda attore.",
+        "name": "Mostra riferimenti PDF o link URL nella scheda attore"
+      },
+      "maxSpellLevel": {
+        "hint": "Livello massimo di incantesimo usabile in un tiro.",
+        "name": "Livello massimo incantesimo"
+      },
+      "showAllCharWithTable": {
+        "hint": "Usa una tabella invece dei grafici esagonali per mostrare caratteristiche (quando sono tutte visibili). Lo stile Foundry usa sempre la tabella.",
+        "name": "Usa tabella per mostrare tutte le caratteristiche"
+      },
+      "showTLonItemsTab": {
+        "hint": "Mostra il livello tecnologico accanto al nome degli oggetti nel compendio o nella scheda oggetti.",
+        "name": "Mostra livello tecnologico nelle liste oggetti"
+      },
+      "omitPSIifZero": {
+        "hint": "Nasconde la caratteristica psionica se il valore è zero.",
+        "name": "Nascondi PSI nella scheda attore se zero"
+      },
+      "omitALTifZero": {
+        "hint": "Nasconde le caratteristiche alternative se il valore è zero.",
+        "name": "Nascondi ALT nella scheda attore se zero"
+      },
+      "rangeModifierType": {
+        "hint": "Tipo di modificatore per armi a distanza. Singolo valore (XX), doppio valore (XX/YY), o intervalli per tipo di arma.",
+        "name": "Tipo modificatore di distanza per armi"
+      },
+      "equippedToggleStates": {
+        "hint": "Stati di equipaggiamento disponibili nella scheda attore. Core: zaino e indossato, Default: zaino, indossato e nave, All: zaino, indossato, veicolo, nave, base.",
+        "name": "Stati equipaggiamento disponibili nella scheda attore"
+      },
+      "targetDMList": {
+        "hint": "Lista separata da virgole di modificatori di difficoltà. Formato: 'etichetta1 numero1, etichetta2 numero2'. Es: 'Oscurità -1, Prono (mischia) +1'.",
+        "name": "Lista modificatori bersaglio"
+      },
+      "meleeRange": {
+        "hint": "Distanza per considerare il combattimento corpo a corpo. Tipicamente una griglia o meno (es. 1.5m).",
+        "name": "Distanza corpo a corpo"
+      },
+      "showSkillGroups": {
+        "hint": "Raggruppa le abilità per etichette nella scheda attore.",
+        "name": "Raggruppa abilità per etichette"
+      },
+      "NoDuplicatesOnHotbar": {
+        "hint": "Previene duplicati di macro oggetto sulla barra trascinando lo stesso oggetto più volte.",
+        "name": "Nessun duplicato macro oggetti sulla hotbar"
+      },
+      "jDriveLabel": {
+        "hint": "Etichetta visuale per il motore salto nelle impostazioni di gestione energia.",
+        "name": "Etichetta Motore Salto"
+      },
+      "showCost": {
+        "hint": "Mostra il costo del componente nave (in MCr) nella lista a riga singola nella scheda nave.",
+        "name": "Mostra costo"
+      },
+      "chainBonus": {
+        "hint": "Modificatore per tiri concatenati in base all’effetto del tiro precedente. Formato: sei numeri separati da virgole. Es: '-2, -1, -1, 1, 1, 2'. Meno di sei valori = bonus zero.",
+        "name": "Modificatore tiri concatenati/assistiti"
+      },
+      "defaultActorSheetWidth": {
+        "hint": "Larghezza predefinita della scheda Traveller all’apertura (in pixel). ATTENZIONE: cambia ricarica il mondo.",
+        "name": "Larghezza predefinita scheda Traveller"
+      },
+      "defaultActorSheetHeight": {
+        "hint": "Altezza predefinita della scheda Traveller all’apertura (in pixel). ATTENZIONE: cambia ricarica il mondo.",
+        "name": "Altezza predefinita scheda Traveller"
+      },
+      "showAttachmentsList": {
+        "hint": "Espande automaticamente la lista allegati per gli oggetti nella scheda Traveller.",
+        "name": "Mostra lista allegati oggetti nella scheda Traveller"
+      },
+      "showConsumablesList": {
+        "hint": "Espande automaticamente la lista consumabili per gli oggetti nella scheda Traveller.",
+        "name": "Mostra lista consumabili oggetti nella scheda Traveller"
+      },
+      "showCombatPosition": {
+        "hint": "Mostra la posizione di combattimento nella scheda battaglia.",
+        "name": "Mostra posizione di combattimento"
+      },
+      "componentsIgnored": {
+        "hint": "Lista di componenti (non cargo) da escludere dalla sezione 'Danno' della scheda Battaglia.",
+        "name": "Componenti ignorati per monitoraggio danni"
+      }
+    },
+    "CloseAndCreateNew": "Chiudi e crea nuovo",
+    "Copy": "Copia",
+    "Yes": "Sì",
+    "Name": "Nome",
+    "itemTypes": {
+      "equipment": "equipaggiamento",
+      "weapon": "arma",
+      "armor": "armatura",
+      "augment": "aumento",
+      "storage": "stoccaggio",
+      "tool": "strumento",
+      "junk": "ciarpame",
+      "skills": "abilità",
+      "skill": "abilità",
+      "consumable": "consumabile",
+      "trait": "tratto",
+      "spell": "incantesimo",
+      "component": "componente",
+      "computer": "computer",
+      "unknown": "sconosciuto",
+      "ship_position": "posizione"
+    },
+    "speeds": {
+      "walk": "camminata",
+      "dash": "scatto",
+      "run": "corsa",
+      "jump": "salto"
+    },
+    "Errors": {
+      "NoSkillForSkillRoll": "Stai cercando di effettuare un tiro abilità senza aver selezionato un'abilità.",
+      "NoCharacteristicForRoll": "Hai tentato di effettuare un tiro caratteristica senza selezionare una caratteristica",
+      "NoROFForAttack": "Questa arma non ha una cadenza di fuoco indicata",
+      "TooFewToReload": "Non ci sono abbastanza _NAME_ per _REFILL_ACTION_",
+      "NoAmmo": "Munizioni insufficienti. Ricarica prima di sparare!",
+      "EmptyConsumable": "Risorse esaurite. Devi ricaricarle!",
+      "OnlyOwnedItems": "Solo gli oggetti in possesso dell'attore possono essere trasferiti",
+      "SkillsConsumables": "Le abilità non possono avere consumabili",
+      "DraggingSomething": "Tentativo di trascinare un oggetto non trasferibile.",
+      "OnlyDropItems": "Puoi trascinare solo oggetti",
+      "OnlyDropConsumables": "Solo i consumabili possono essere trasferiti su un oggetto.",
+      "DropFailedWith": "Trasferimento fallito per _ERROR_MSG_",
+      "CouldNotFindItem": "Impossibile trovare oggetto con id: _ITEM_ID_",
+      "DraggedCompendiumIsNotItem": "L'oggetto trascinato dal compendio non è un oggetto valido.",
+      "InvalidRollFormula": "Formula di danno non valida",
+      "CantPlaceTemplate": "Errore nel posizionamento dell'area di effetto (AOE).",
+      "TraitsandSkillsNoConsumables": "Incantesimi, tratti e abilità non possono avere consumabili.",
+      "InvalidRangeBand": "Tipo arma e/o fascia distanza non permessa dal regolamento.",
+      "InvalidWeaponArmor": "Tipo arma e/o tipo armatura non permesso dal regolamento.",
+      "CantDropAttachOnConsumables": "Non è possibile aggiungere allegati ai consumabili."
+    },
+    "Warnings": {
+      "ActorMissingItem": "L'attore sotto il tuo controllo non ha l'oggetto con id: _ITEM_ID_",
+      "MaxStatVal": "Il valore supera il massimo consentito per la caratteristica",
+      "StatValBelowZero": "Il valore non può essere inferiore a zero",
+      "DecreaseEnduranceFirst": "L'Endurance/Stamina deve essere ridotta prima delle altre caratteristiche",
+      "CantAutoDamage": "Danno automatico non supportato per navi o veicoli",
+      "CantDropOnToken": "Trascinamento su token di nave o veicolo non supportato",
+      "CantDragOntoActor": "Questo oggetto non può essere aggiunto a questo attore",
+      "CantDragActorOntoActor": "Puoi trascinare un attore solo su un campo ProseMirror attivo.",
+      "PDFPagerNotInstalled": "PDF Pager deve essere installato per usare i link alle fonti.",
+      "NoSpecfiedLink": "Documento e pagina non specificati per questo collegamento.",
+      "NoTargetFound": "Nessun bersaglio trovato per il trascinamento.",
+      "LackPermissionToDamage": "Non hai i permessi per infliggere danno a questo attore.",
+      "MultipleActorsFound": "Trovati più attori. Impossibile infliggere danno.",
+      "EncumbranceFormulaInvalid": "Formula di ingombro non valida. Valore impostato a zero.",
+      "ActorHasInitiativeAlready": "L'attore ha già l'iniziativa.",
+      "NoActiveToken": "L'attore non ha un token attivo sulla scena",
+      "InvalidReactionInputs": "Tiro reazione non possibile: input attacco o fuga non validi.",
+      "AnimalsCantHoldPositions": "Gli animali non possono occupare posizioni su navi",
+      "CantEditCreateInCargo": "Non è possibile modificare o creare effetti nel carico",
+      "NoActorSelected": "Devi selezionare o controllare un attore",
+      "NoSkillSelected": "Devi selezionare un'abilità per effettuare il tiro",
+      "NoDamageForWeapon": "Questa arma non ha un danno specificato.",
+      "ActionWarningNoToken": "Nessun bersaglio selezionato per l'azione.",
+      "CantEditEffect": "Impossibile modificare effetto di un oggetto non ancorato a un attore.",
+      "CantCreateEffect": "Impossibile creare effetto per un oggetto non ancorato a un attore.",
+      "CantDeleteEffect": "Impossibile eliminare effetto per un oggetto non ancorato a un attore.",
+      "PlayerDoesNotHavePermission": "Il giocatore non ha il permesso per eseguire la macro.",
+      "MacroNotFound": "Macro con nome _MACRO_NAME_ non trovata.",
+      "NoDamageToApply": "Il valore di danno o guarigione deve essere maggiore di zero.",
+      "MissingUntrainedSkill": "All'attore manca l'abilità non addestrata. Ricarica l'applicazione per risolvere.",
+      "TooManyTargets": "Più bersagli rispetto al numero di attacchi, verranno usati i primi selezionati.",
+      "WearingMultipleLayers": "Stai indossando più strati di armatura non cumulabili.",
+      "ResetEffectForManualDamage": "Gli effetti non sono inclusi nei danni. Ripristino a falso per tiri manuali.",
+      "tableNotFound": "Tabella di tiro non trovata nel collegamento al diario.",
+      "typeMismatch": "Il collegamento UUID del diario non è una tabella di tiro.",
+      "MacroNameExists": "Una macro con lo stesso nome esiste già, ma il comando è diverso. Aggiornare al nuovo comando?",
+      "TooManyLayersOnTarget": "Il bersaglio indossa troppi strati di armatura",
+      "ActorOverloaded": "L'attore attuale trasporta più del suo limite di carico.",
+      "NoJournalFound": "Collegamento al diario non trovato",
+      "CantFindMeleeSkill": "Abilità di combattimento corpo a corpo non trovata",
+      "CantFindMeleeWeapon": "Nessuna arma corpo a corpo equipaggiata per parare",
+      "CantFindShield": "Nessuno scudo equipaggiato per bloccare"
+    }
+  },
+  "TYPES": {
+    "Item": {
+      "backpack": "Zaino",
+      "container": "Contenitore",
+      "consumable": "Consumabile",
+      "equipment": "Equipaggiamento",
+      "spell": "Incantesimo",
+      "tool": "Strumento",
+      "weapon": "Arma",
+      "armor": "Armatura",
+      "skill": "Abilità",
+      "component": "Componente",
+      "computer": "Computer",
+      "augment": "Aumento",
+      "storage": "Stoccaggio",
+      "junk": "Ciarpame",
+      "skills": "Abilità",
+      "trait": "Tratto",
+      "ship_position": "Posizione Nave",
+      "backpackPl": "Zaini",
+      "containerPl": "Contenitori",
+      "consumablePl": "Consumabili",
+      "equipmentPl": "Equipaggiamenti",
+      "spellPl": "Incantesimi",
+      "toolPl": "Strumenti",
+      "weaponPl": "Armi",
+      "armorPl": "Armature",
+      "skillPl": "Abilità",
+      "componentPl": "Componenti",
+      "computerPl": "Computer",
+      "augmentPl": "Aumenti",
+      "storagePl": "Stoccaggi",
+      "junkPl": "Ciarpame",
+      "skillsPl": "Abilità",
+      "traitPl": "Tratti",
+      "ship_positionPl": "Posizioni Nave"
+    },
+    "Actor": {
+      "traveller": "Viaggiatore",
+      "ship": "Nave",
+      "vehicle": "Veicolo",
+      "animal": "Animale",
+      "robot": "Robot",
+      "space-object": "Oggetto Spaziale",
+      "travellerPl": "Viaggiatori",
+      "shipPl": "Navi",
+      "vehiclePl": "Veicoli",
+      "animalPl": "Animali",
+      "space-objectPl": "Oggetti Spaziali",
+      "robotPl": "Robot"
+    }
+  },
+  "EFFECT": {
+    "StatusWounded": "Ferito",
+    "StatusEncumbered": "Appesantito",
+    "StatusDead": "Morto",
+    "StatusUnconscious": "Incosciente",
+    "StatusAiming": "Mira",
+    "StatusFatigued": "Affaticato",
+    "StatusInCover": "Al Riparo",
+    "StatusThrust": "Spinta",
+    "StatusInvisible": "Invisibile",
+    "StatusIrradiated": "Irradiato",
+    "StatusTargetLock": "Bersaglio Agganciato"
+  }
 }
