@@ -1,756 +1,755 @@
 {
-	"IRONSWORN": {
-		"Ironsworn": "Ironsworn",
-		"Starforged": "Starforged",
-		"YourWorldTruths": "Ваш мир: Истины",
-		"TruthsAreOptional": "Определение истин является необязательным шагом. Вы можете сделать это позже в настройках системы.",
-		"TruthQuestStarter": "Начальная миссия:",
-		"QuestStarter": "Начальная миссия",
-		"SaveYourTruths": "Сохранение истин",
-		"CustomTruth": "Своя истина",
-		"RandomizeAll": "Всё случайно",
-		"Roll": "Бросок",
-		"SendToChat": "Отправить в чат: <i>{move}</i>",
-		"CopyTextToClipboard": "Скопировать в буфер",
-		"ClipboardDisabled": "Ваш браузер не разрешает копирование в буфер через незащищённый HTTP протокол. Для этой функции нужен SSL (HTTPS).",
-		"Adds": "Модификатор",
-		"Versus": "против",
-		"CappedAt10": "Значение действия ограничено 10",
-		"Strong_hit": "Полный успех",
-		"Strong_hit_match": "Полный успех с дублем!",
-		"On_a_strong_hit": "При полном успехе",
-		"Weak_hit": "Частичный успех",
-		"On_a_weak_hit": "При частичном успехе",
-		"Miss": "Провал",
-		"Miss_match": "Провал с дублем!",
-		"On_a_miss": "При провале",
-		"MarkProgress": "Отметка прогресса",
-		"ProgressMove": "Ход прогресса",
-		"PROGRESS": {
-			"Current": "{score} прогресса ({ticks} отметок)",
-			"Ticks": "{ticks} отметок",
-			"BOX": {
-				"1": "1 ячейка",
-				"2": "2 ячейки",
-				"3": "3 ячейки"
-			},
-			"TICK": {
-				"1": "1 отметка",
-				"2": "2 отметки",
-				"3": "3 отметки",
-				"4": "4 отметки"
-			}
-		},
-		"MarkLegacy": "Отметить {amount} на шкале прогресса {legacy}",
-		"UnmarkProgress": "Снятие прогресса",
-		"ProgressRoll": "Проверка прогресса",
-		"MakeAProgressRoll": "Проверка прогресса с прогрессом {score}",
-		"StarProgress": "Если активен, этот предмет будет отображаться на вкладке 'Наследие'.",
-		"CHALLENGERANK": {
-			"Troublesome": "Трудная",
-			"Dangerous": "Опасная",
-			"Formidable": "Грозная",
-			"Extreme": "Запредельная",
-			"Epic": "Эпическая"
-		},
-		"Stat": "Характеристика",
-		"Stats": "Характеристики",
-		"OracleTable": {
-			"ColumnLabel": {
-				"Roll": "Бросок",
-				"RollRange": "Диапазон броска",
-				"DiceRollResult": "результат броска {dice}",
-				"Result": "Результат"
-			}
-		},
-		"roll +x": "бросок +{stat}",
-		"Roll +x": "Бросок +{stat}",
-		"roll method": {
-			"All": "бросок всех из {statList}",
-			"Any": {
-				"2": "бросок +{stat1} или +{stat2}",
-				"fallback": "бросок одной из {statList}"
-			},
-			"Highest": {
-				"2": "бросок наивысшей из +{stat1} или +{stat2}",
-				"fallback": "бросок наивысшей из {statList}"
-			},
-			"Lowest": {
-				"2": "бросок наименьшей из +{stat1} или +{stat2}",
-				"fallback": "бросок наименьшей из {statList}"
-			}
-		},
-		"Momentum": "потенциал",
-		"Health": "здоровье",
-		"Spirit": "дух",
-		"Supply": "ресурсы",
-		"Edge": "острие",
-		"Heart": "сердце",
-		"Iron": "железо",
-		"Shadow": "тень",
-		"Wits": "разум",
-		"XP": "Опыт",
-		"NoBonds": "Нет уз",
-		"Legacies": "Наследие",
-		"LEGACY": {
-			"Bonds": "Узы",
-			"Discoveries": "Открытия",
-			"Quests": "Миссии"
-		},
-		"Clock": "Счётчик",
-		"Segments": "Сегменты",
-		"Impacts": "Воздействия",
-		"IMPACT": {
-			"Custom": "Особое воздействие",
-			"CATEGORY": {
-				"Misfortunes": "Ненастья",
-				"LastingEffects": "Длительные эффекты",
-				"Burdens": "Бремя",
-				"Vehicle": "Текущий транспорт"
-			},
-			"Wounded": "ранение",
-			"Shaken": "потрясение",
-			"Unprepared": "неготовность",
-			"Permanentlyharmed": "физическая травма",
-			"Traumatized": "душевная травма",
-			"Tormented": "мучение",
-			"Doomed": "обречённость",
-			"Indebted": "задолженность",
-			"Cursed": "проклятие",
-			"Battered": "поломка"
-		},
-		"Debilities": "Слабости",
-		"DEBILITY": {
-			"Custom": "Особая слабость",
-			"CATEGORY": {
-				"Conditions": "Состояния",
-				"Banes": "Травмы",
-				"Burdens": "Бремя"
-			},
-			"Wounded": "ранение",
-			"Unprepared": "неготовность",
-			"Shaken": "потрясение",
-			"Encumbered": "перегруженность",
-			"Maimed": "увечье",
-			"Corrupted": "осквернение",
-			"Cursed": "проклятие",
-			"Tormented": "мучение"
-		},
-		"Conditions": "Состояния",
-		"Condition": "Состояние",
-		"ConditionMarkedOnOne": "У {name} теперь {condition}",
-		"ConditionMarkedOnMany": "{condition} у:",
-		"Reroll": "Повторная проверка",
-		"Connections": "Связи",
-		"Connection": "Связь",
-		"MOVES": {
-			"Adventure": "Ходы приключения",
-			"Combat": "Ходы боя",
-			"Connection": "Ходы связи",
-			"Custom": "Свои ходы",
-			"Delve": "Ходы спуска",
-			"Exploration": "Ходы исследования",
-			"Fate": "Ходы судьбы",
-			"Failure": "Ходы провала",
-			"Legacy": "Ходы наследия",
-			"Quest": "Ходы миссии",
-			"Rarity": "Ходы редкости",
-			"Recover": "Ходы восстановления",
-			"Relationship": "Ходы отношения",
-			"Scene Challenge": "Ходы испытания сцены",
-			"Session": "Ходы встречи",
-			"Suffer": "Ходы потери",
-			"Threat": "Ходы угрозы",
-			"Threshold": "Ходы порога"
-		},
-		"Failure": "Провал",
-		"Threat": "Угроза",
-		"Rarity": "Редкость",
-		"LocationType": "Тип места",
-		"RollForDetails": "Сформировать особенности места",
-		"RandomName": "Случайное имя",
-		"ResolveChallenge": "Пройти испытание",
-		"ResolveChallengeDisabled": "Выбери две итоговые кости испытания",
-		"BurnForUpgrade": "Сожжение потенциала: <strong>{type}</strong>",
-		"BurnMomentumAndResetTo": "Сжечь {value} потенциала и сбросить до {resetValue}",
-		"MomentumBurnt": "Сожжение потенциала",
-		"NegativeMomentumCancel": "Отрицательный потенциал отменил кость действия",
-		"Pronouns": "Местоимения",
-		"Callsign": "Прозвище",
-		"Characteristics": "Описание",
-		"Summary": "Сводка",
-		"Category": "Категория",
-		"Color": "Цвет",
-		"Requirement": "Требования",
-		"Trigger": "Условие",
-		"FullText": "Полный текст",
-		"Field": "Поле",
-		"Fields": "Поля",
-		"Label": "Название",
-		"Value": "Значение",
-		"Abilities": "Способности",
-		"Ability": "Способность",
-		"Options": "Варианты",
-		"Option": "Вариант",
-		"Track": "Шкала",
-		"Enabled": "Включено",
-		"ChallengeRank": "Уровень испытания",
-		"Completed": "Завершено",
-		"NotCompleted": "Не завершено",
-		"Foes": "Враги",
-		"Foe": "Враг",
-		"Edit": "Изменение",
-		"OpenCompendium": "Открыть библиотеку",
-		"ConfirmDelete": "Вы уверены? Это нельзя отменить.",
-		"RequiresLocationType": "Этот оракул требует место с выбранным типом.",
-		"RollOracleTable": "Бросок оракула: <i>{title}</i>",
-		"RollMove": "Бросок хода: <i>{title}</i>",
-		"PageReference": "стр. {page}",
-		"PlanetType": "Тип планеты",
-		"RandomPlanetType": "Случайный тип планеты",
-		"SettlementType": "Тип поселения",
-		"RandomSettlementType": "Случайный тип поселения",
-		"StarType": "Тип звезды",
-		"RandomStarType": "Случайный тип звезды",
-		"DerelictType": "Тип реликта",
-		"RandomDerelictType": "Случайный тип реликта",
-		"VaultType": "Тип хранилища",
-		"RandomVaultType": "Случайный тип хранилища",
-		"First": "первый",
-		"Second": "второй",
-		"Third": "третий",
-		"Fourth": "четвёртый",
-		"Fifth": "пятый",
-		"StarforgedTools": "Инструменты Starforged",
-		"IronswornTools": "Инструменты Ironsworn",
-		"Region": "Регион",
-		"RegionTip": "Это задаёт регион по умолчанию для мест в этой сцене и влияет на исход некоторых оракулов мест.",
-		"REGION": {
-			"Terminus": "Терминал",
-			"Outlands": "Пограничье",
-			"Expanse": "Предел"
-		},
-		"RotateCCW": "Поворот против часовой стрелки",
-		"RotateCW": "Поворот по часовой стрелки",
-		"RollDialog": {
-			"AdvancedRollOptions": "Дополнительные настройки",
-			"PresetActionDie": "Определённая кость действия",
-			"PresetChallengeDice": "Определённая кость испытания",
-			"PredeterminedOutcome": "Определённый результат",
-			"ExtraChallengeDice": "Доп. кость испытания"
-		},
-		"ChatAlert": {
-			"Muted": "Шепот сообщений участнику, который вызвал их",
-			"Unmuted": "Трансляция сообщений всем участникам",
-			"ToggleMute": "Переключение заглушения",
-			"Renamed": "Переименовано в {name}",
-			"renamed": "переименовано в {name}",
-			"Added": "Добавлено {name}",
-			"Deleted": "Удалено {name}",
-			"MarkedXP": "Отмечено {amt} ОП",
-			"UnmarkedXP": "Снято {amt} ОП",
-			"AdjustedStat": "{amt} {stat} (теперь {val})",
-			"MarkedCondition": "Получает состояние {condition}",
-			"ClearedCondition": "Избавляется от состояния {condition}",
-			"MarkedImpact": "Получает воздействие {impact}",
-			"ClearedImpact": "Избавляется от воздействия {impact}",
-			"MarkedDebility": "Получает слабость {debility}",
-			"ClearedDebility": "Избавляется от слабости {debility}",
-			"RankChanged": "Уровень изменён с {old} на {new}",
-			"rankChanged": "уровень изменён с {old} на {new}",
-			"ProgressAdvanced": "Прогресс повышен",
-			"progressAdvanced": "прогресс повышен",
-			"ProgressReduced": "Прогресс понижен",
-			"progressReduced": "прогресс понижен",
-			"MarkedAbility": "{pos} отмечено",
-			"UnmarkedAbility": "{pos} больше не отмечено",
-			"MarkedOption": "{name} отмечено",
-			"SetField": "{name} теперь {val}",
-			"AddBond": "Добавлены узы",
-			"LostBond": "Потеряны узы",
-			"completedMarked": "отмечено завершённым",
-			"completedUnmarked": "отмечено незавершённым",
-			"clockAdvancedOneSegment": "счётчик заполняется до {new}⁄{max}",
-			"clockAdvancedTwoSegments": "счётчик заполняется на {change} сегмента до {new}⁄{max}",
-			"clockAdvancedManySegments": "счётчик заполняется на {change} сегментов до {new}⁄{max}",
-			"clockCompletedOneSegment": "счётчик заполняется до {new}⁄{max} — счётчик заполнен!",
-			"clockCompletedTwoSegments": "счётчик заполняется на {change} сегмента до {new}⁄{max} — счётчик заполнен!",
-			"clockCompletedManySegments": "счётчик заполняется на {change} сегментов до {new}⁄{max} — счётчик заполнен!",
-			"clockSet": "счётчик выставлен на {new}⁄{max}"
-		},
-		"Settings": {
-			"Theme": {
-				"Name": "Вид: тема оформления",
-				"Hint": "Определяет внешний вид элементов интерфейса. Требуется перезагрузка.",
-				"Ironsworn": "Ironsworn",
-				"Starforged": "Starforged"
-			},
-			"ColorScheme": {
-				"Name": "Вид: цветовая схема",
-				"Hint": "Каждый участник может выбрать себе цветовую схему.",
-				"Zinc": "Цинк",
-				"Phosphor": "Фосфор"
-			},
-			"Tools": {
-				"Name": "Инструменты персонажа",
-				"Hint": "Ходы и оракулы, отображающиеся при открытии бланка персонажа.",
-				"Sheet": "Согласно бланку"
-			},
-			"SharedSupply": {
-				"Name": "Общая шкала ресурсов",
-				"Hint": "Если включено, изменение любых общих шкал персонажа/ресурсов, также изменить эти шкалы у других актёров."
-			},
-			"LogChanges": {
-				"Name": "Вести журнал изменений",
-				"Hint": "Если включено, изменения показателей персонажа будут отображаться в чате."
-			},
-			"PromptTruths": {
-				"Name": "Окно настроек при запуске",
-				"Hint": "При запуске будет отображаться окно настроек."
-			},
-			"ConfigurationDialog": {
-				"Label": "Окно настроек",
-				"Name": "Окно настроек",
-				"Hint": "Выбор между элементами интерфейса Ironsworn и Starforged."
-			},
-			"ISTruthsDialog": {
-				"Label": "Истины Ironsworn",
-				"Name": "Истины Ironsworn",
-				"Hint": "Открытие окна настроек истин мира Ironsworn."
-			},
-			"SFTruthsDialog": {
-				"Label": "Истины Starforged",
-				"Name": "Истины Starforged",
-				"Hint": "Открытие окна настроек истин мира Starforged."
-			},
-			"SFBeta": {
-				"Name": "Отображение бета-контента Starforged",
-				"Hint": "Включение не до конца протестированных функций."
-			},
-			"DataforgedIronswornMoves": {
-				"Name": "(Бета) Новый интерфейс ходов Ironsworn",
-				"Hint": "Если включено, будет использован новый интерфейс ходов и оракулов, как в бланке Starforged."
-			},
-			"ProgressMarkAnimation": {
-				"Name": "Включение анимации отметок прогресса",
-				"Hint": "Косметическое изменение отметок прогресса на шкалах."
-			}
-		},
-		"First Start": {
-			"Welcome": "Добро пожаловать",
-			"Intro": "Выберите вашу основную систему. Это определит тип бланков персонажей, ходы, оракулы и прочие элементы игры.",
-			"SettingTruths": "Истины мира",
-			"SettingTruth": "Истина мира"
-		},
-		"Tours": {
-			"ChatMessage": "<h3>Добро пожаловать в Ironsworn!</h3><p>Если вы впервые используете эту систему, то можете пройти интерактивный экскурс:</p> <button id=\"ironsworn-tour-chat-button\"> <i class=\"fas fa-person-hiking\"></i> Запуск экскурса </button>",
-			"Welcome": {
-				"Title": "Добро пожаловать в Ironsworn",
-				"Description": "Обзор систем Ironsworn и Starforged",
-				"WelcomeTitle": "Добро пожаловать",
-				"WelcomeContent": "<p>Welcome to Ironsworn &amp; Starforged! This tour will help you find where all the things are that will help you set up and play your game.</p><p>At this point you will have seen the game-selection dialog, which configures the default character sheet, moves, and oracles. Let&#39;s look at where the other system features can be found.</p>",
-				"ActorTabTitle": "Creating a Character",
-				"ActorTabContent": "<p>At some point, you&#39;ll want to create a character. To do that, navigate to the &quot;<i class=\"fas fa-user\"></i> Actors&quot; tab and click this button.</p>",
-				"CharacterCreateTitle": "Creating a Character",
-				"CharacterCreateContent": "<p>This button will create a primary character, which is all you need to get started. As your game progresses, you may need the other types here to organize things.</p>",
-				"CompendiumTitle": "Maps",
-				"CompendiumContent": "<p>You&#39;ll probably want a map of the Ironlands or a sector of the Forge. You can create your own scene for this, or you can use one of ours. Open one of these compendiums and drag a map to your &quot;<i class=\"fas fa-map\"></i> Scenes&quot; area.</p>",
-				"OracleToolTitle": "Oracles",
-				"OracleToolContent": "<p>No game of Ironsworn or Starforged would be complete without oracles. This button will pop up a window with all the oracles in your chosen game. The oracles are also available from the character sheet.</p>",
-				"ToursTitle": "Next Steps",
-				"ToursContent": "<p>That&#39;s it for now! For more information on other topics, check out the Tour Management area in the settings tabs. And if you want to get in contact, check out the <code>#foundry-vtt</code> channel in the <a href=\"https://discord.gg/8bRuZwK\">Ironsworn Discord</a>.</p><p>Enjoy!</p>"
-			},
-			"ISCharacter": {
-				"SheetTitle": "Character Sheet",
-				"SheetContent": "<p>This is the player character sheet. It can help you manage your character&#39;s attributes, resources, assets, and vows.</p>",
-				"EditButtonTitle": "Edit Button",
-				"EditButtonContent": "<p>The &quot;<i class=\"fa-solid fa-edit\"></i> Edit&quot; button in the title bar is used to switch between interaction and edit modes for this character.</p>",
-				"StatsTitle": "Character Stats",
-				"StatsContent": "<p>These are your character&#39;s basic attributes, which tell you something about their personality, but also tell you that when they&#39;re trying certain kinds of actions, the story will tend to go better for them.</p><p>To roll against these stats, click on one of them. A dialog will open, allowing you to add bonuses and confirm the roll.</p><p><strong>EDIT MODE</strong> allows you to adjust these numbers.</p>",
-				"ResourcesTitle": "Resources",
-				"ResourcesContent": "<p>On the side here we have the three basic resources: Health, Spirit, and Supply. You can adjust the levels of these resources by clicking on the new value.</p><p>You can also make rolls by clicking on the resource&#39;s name.</p>",
-				"MomentumTitle": "Momentum",
-				"MomentumContent": "<p>On the other side is the momentum tracker. You can set your character&#39;s momentum by clicking on one of the numbers, and if you have debilities marked, one or more of the highest values will be disabled.</p><p>Hover over the &quot;<i class=\"fa-solid fa-fire\"></i> MOMENTUM&quot; title for a preview of what burning your momentum will do, and click it to perform the burn.</p>",
-				"ConditionsTitle": "Conditions",
-				"ConditionsContent": "<p>Down at the bottom of the sheet are your character&#39;s conditions, banes, and burdens. Checking these will affect your maximum momentum. There are also two boxes for you to enter custom conditions.</p>",
-				"CharacterTabTitle": "Character Tab",
-				"CharacterTabContent": "<p>In the center area are a series of tabs. The first one is the &quot;Character&quot; tab, where you track most of the details you need for an Ironsworn character.</p>",
-				"BondsTitle": "Bonds",
-				"BondsContent": "<p>At the top-left are your bonds. This displays how many bonds your character has made during their adventures. Click the <i class=\"fa-solid fa-edit\"></i> button to add or remove bonds, and keep notes about them. Click the <svg fill=\"currentColor\" height=\"1em\" width=\"1em\" role=\"img\" aria-hidden=\"true\" class=\"icon\"><use href=\"#ironsworn-d10-tilt\"></use></svg> button to roll the <em>Write Your Epilogue</em> move.</p>",
-				"AssetsTitle": "Assets",
-				"AssetsContent": "<p>The Assets area is where your character&#39;s assets are displayed and managed. You can click on any asset here to expand its display and show its marked abilities. Click the &quot;<i class=\"fa-solid fa-edit\"></i>&quot; icon to open a detail sheet for any asset.</p><p><strong>EDIT MODE</strong> displays buttons for deleting and reordering assets.</p><p>The &quot;<i class=\"fa-solid fa-book-atlas\"></i> Assets&quot; button at the bottom opens the asset browser. From there, you can drag any asset onto your character sheet to add it to your game.</p>",
-				"ProgressTitle": "Progress",
-				"ProgressContent": "<p>The Progress area displays your character&#39;s current vows and other progress items. You can add a new blank item by clicking the &quot;+Vow&quot; or &quot;+Progress&quot; buttons at the bottom, or you can open the &quot;<i class=\"fa-solid fa-book-atlas\"></i> Foes&quot; compendium and drag an enemy into the list.</p><p>Each item shows current progress, and has controls for marking ticks and making a progress roll. <strong>EDIT MODE</strong> adds buttons for reordering items, adjusting progress ticks, and marking an item as complete, which hides it in the section at the bottom of the tab.</p>",
-				"NotesTabTitle": "Notes Tab",
-				"NotesTabContent": "<p>The Notes tab is just for you. Keep track of your narrative here (or use journal entries), note down what kind of gear you&#39;re carrying, jot down the scars you&#39;ve earned on your way.</p>",
-				"EndTitle": "Character Sheet",
-				"EndContent": "<p>That&#39;s all for now. Look for the <i class=\"fa-solid fa-circle-question\"></i> button in other sheet title bars for more information on how they work.</p>"
-			},
-			"SFCharacter": {
-				"Title": "Starforged Character Sheet",
-				"Description": "The PC sheet for a Starforged character",
-				"SheetTitle": "Character Sheet",
-				"SheetContent": "<p>This is the player character sheet. It can help you manage your character&#39;s attributes, resources, assets, and vows.</p>",
-				"EditButtonTitle": "Edit Button",
-				"EditButtonContent": "<p>The &quot;<i class=\"fa-solid fa-edit\"></i> Edit&quot; button in the title bar is used to switch between interaction and edit modes for this character.</p>",
-				"StatsTitle": "Character Stats",
-				"StatsContent": "<p>These are your character&#39;s basic attributes, which tell you something about their personality, but also tell you that when they&#39;re trying certain kinds of actions, the story will tend to go better for them.</p><p>To roll against these stats, click on one of them. A dialog will open, allowing you to add bonuses and confirm the roll.</p><p><strong>EDIT MODE</strong> allows you to adjust these numbers.</p>",
-				"ResourcesTitle": "Resources",
-				"ResourcesContent": "<p>On the side here we have the three basic resources: Health, Spirit, and Supply. You can adjust the levels of these resources by clicking on the new value.</p><p>You can also make rolls by clicking on the resource&#39;s name.</p>",
-				"MomentumTitle": "Momentum",
-				"MomentumContent": "<p>On the other side is the momentum tracker. You can set your character&#39;s momentum by clicking on one of the numbers, and if you have debilities marked, one or more of the highest values will be disabled.</p><p>Hover over the &quot;<i class=\"fa-solid fa-fire\"></i> MOMENTUM&quot; title for a preview of what burning your momentum will do, and click it to perform the burn.</p>",
-				"ImpactsTitle": "Impacts",
-				"ImpactsContent": "<p>Down at the bottom of the sheet are your character&#39;s impacts. Checking these will affect your maximum momentum. There are also two boxes for you to enter custom impacts.</p><p>If there is a vehicle in the game with Battered or Cursed marked, that impact will be highlighted here to remind you that it should apply while you&#39;re on that vehicle.</p>",
-				"LegaciesTabTitle": "Legacies Tab",
-				"LegaciesTabContent": "<p>In the center area are a series of tabs. The first one is the &quot;Legacies&quot; tab, where you track your three primary Starforged legacies. Also appearing here will be any &quot;starred&quot; items from the Progress or Connections tabs.</p><p>To advance a legacy, click the &quot;<i class=\"fa-solid fa-caret-right\"></i>&quot; button on the right. When enough legacy boxes are filled, XP boxes will appear; simply click them to expend XP. <strong>EDIT MODE</strong> also displays buttons for removing legacy ticks if you accidentally marked too many.</p>",
-				"AssetsTabTitle": "Assets Tab",
-				"AssetsTabContent": "<p>The Assets tab is where your character&#39;s assets are displayed and managed. You can click on any asset here to expand its display and show its marked abilities. Click the &quot;<i class=\"fa-solid fa-edit\"></i>&quot; icon to open a detail sheet for any asset.</p><p><strong>EDIT MODE</strong> displays buttons for deleting and reordering assets.</p><p>The &quot;<i class=\"fa-solid fa-book-atlas\"></i> Assets&quot; button at the bottom opens the asset browser. From there, you can drag any asset onto your character sheet to add it to your game.</p>",
-				"ProgressTabTitle": "Progress Tab",
-				"ProgressTabContent": "<p>The Progress tab displays your character&#39;s current vows and other progress items. You can add a new blank item by clicking the &quot;+Vow&quot; or &quot;+Progress&quot; buttons at the bottom, or you can open the &quot;<i class=\"fa-solid fa-book-atlas\"></i> Foes&quot; compendium and drag an enemy into the list.</p><p>Each item shows current progress, and has controls for marking ticks and making a progress roll. Use the &quot;<i class=\"fa-solid fa-star\"></i>&quot; button to also display an item in the Legacies tab.</p><p><strong>EDIT MODE</strong> adds buttons for reordering items, adjusting progress ticks, and marking an item as complete, which hides it in the section at the bottom of the tab.</p>",
-				"ConnectionsTabTitle": "Connections Tab",
-				"ConnectionsTabContent": "<p>Connections are tracked separately from other progress items, and can be found in this tab. Otherwise this behaves the same as the Progress tab.</p>",
-				"NotesTabTitle": "Notes Tab",
-				"NotesTabContent": "<p>The Notes tab is just for you. Keep track of your narrative here (or use journal entries), note down what kind of gear you&#39;re carrying, jot down the scars you&#39;ve earned on your way.</p>",
-				"EndTitle": "Character Sheet",
-				"EndContent": "<p>That&#39;s all for now. Look for the <i class=\"fa-solid fa-circle-question\"></i> button in other sheet title bars for more information on how they work.</p>"
-			},
-			"MoveSheet": {
-				"Title": "",
-
-				"SheetTitle": "Move/Oracle Sheet",
-				"SheetContent": "<p>This is the window that provides easy access to moves and oracles.</p>",
-				"MoveCategoryTitle": "Move Categories",
-				"MoveCategoryContent": "<p>Click on a category title to expand that category and show all of the moves. Click on one of the moves to expand its description.</p>",
-				"MoveButtonsTitle": "Move Shortcuts",
-				"MoveButtonsContent": "<p>Up here you&#39;ll see shortcut buttons.</p><p>The first one is a shortcut to &quot;roll this move,&quot; and will open the rolling dialog with some details pre-filled for you. It&#39;s only available if this move has a roll associated with it -- some, like Pay the Price, do not have an action/challenge roll, so this button will be disabled.</p><p>The second one is a shortcut to &quot;roll the oracle,&quot; and immediately rolls on an oracle table. It&#39;s only available if the move has exactly one oracle to roll.</p><p>The third one sends a copy of the description to the chat sidebar.</p>",
-				"MoveLinkTitle": "Move Links",
-				"MoveLinkContent": "<p>Clicking on a link to another move will expand it and scroll it into view.</p>",
-				"OraclesTabTitle": "Oracles Tab",
-				"OraclesTabContent": "<p>The second tab displays oracles, random tables to spark your inspiration.</p>",
-				"OracleCategoryTitle": "Oracle Tree",
-				"OracleCategoryContent": "<p>The oracles are organized into a directory structure. Click anywhere on a category line to expand it and display its contents.</p>",
-				"OracleRowTitle": "Oracle Controls",
-				"OracleRowContent": "<p>Click the <i class=\"fas fa-eye\"></i> icon to display a preview of the oracle table, or click anywhere else on the line to draw a result from the table and display it in chat.</p>",
-				"OracleChatMessageTitle": "Oracle Results",
-				"OracleChatMessageContent": "<p>When you roll an oracle, a chat card is displayed. The highlighted row is the rolled result, and the adjacent rolls are also displayed.</p><p>If you hover your mouse over the message, you&#39;ll see buttons appear, which let you copy a result&#39;s text to your clipboard, or re-roll on the same oracle table.</p>",
-				"EndTitle": "Move Sheet",
-				"EndContent": "<p>That&#39;s all for now. Look for the <i class=\"fa-solid fa-circle-question\"></i> button in other sheet title bars for more information on how they work.</p>"
-			}
-		},
-		"WorldTruths": {
-			"The Old World": {
-				"name": "The Old World",
-				"option1": "The savage clans called the Skulde invaded the kingdoms of the Old World. Our armies fell. Most were killed or taken into slavery. Those who escaped set sail aboard anything that would float. After an arduous months-long voyage, the survivors made landfall upon the Ironlands.",
-				"quest1": "You are a descendant of the Skulde. Because of your heritage, your family has long borne the distrust of your fellow Ironlanders. Now, a small force of Skulde have landed on our shores. Are they the harbinger of an invasion? Where do your loyalties lie?",
-				"option2": "The sickness moved like a horrible wave across the Old World, killing all in its path. Thousands fled aboard ships. However, the plague could not be outrun. On many ships, the disease was contained through ruthless measures—tossing overboard any who exhibited the slightest symptom. Other ships were forever lost. In the end, those who survived found the Ironlands and made it their new home. Some say we will forever be cursed by those we left behind.",
-				"quest2": "A settlement is stricken by disease. Though this sickness bears some similarities to the Old World plague, it doesn’t kill its victims. Instead, it changes them. How does this disease manifest? Why do you swear to seek out a cure?",
-				"option3": "The Old World could no longer sustain us. We were too large in number. We had felled the forests. Our crops withered in the barren ground. The cities and villages overflowed with desperate, hungry people. Petty kings battled for scraps. We cast our fate to the sea and found the Ironlands. A new world. A fresh start.",
-				"quest3": "Decades ago, the exodus ended. Since then, no ships have sailed here from the Old World. Until now. Word comes of a single ship, newly arrived across the vast ocean, grounded on the rocks of the Barrier Islands. When you hear the name of this ship, you swear to uncover the fate of its passengers. Why is it so important to you?"
-			},
-			"Iron": {
-				"name": "Iron",
-				"option1": "The imposing hills and mountains of the Ironlands are rich in iron ore. Most prized of all is the star-forged black iron.",
-				"quest1": "The caravan, bound for the distant southlands, left the mining settlement last season but never arrived at its destination. It carried a bounty of black iron. Why is finding this lost caravan so important to you?",
-				"option2": "The weather is bleak. Rain and wind sweep in from the ocean. The winters are long and bitter. One of the first settlers complained, \"Only those made of iron dare live in this foul place\" – and thus our land was named.",
-				"quest2": "The harvest fell short. The unrelenting snows left the village isolated. The food is running out. What will you do to see these people through this harsh season?",
-				"option3": "Inscrutable metal pillars are found throughout the land. They are iron gray, and smooth as river stone. No one knows their purpose. Some say they are as old as the world. Some, such as the Iron Priests, worship them and swear vows upon them. Most make the warding sign and hurry along their way when they happen across one. The pillars do not tarnish, and even the sharpest blade cannot mark them.",
-				"quest3": "Your dreams are haunted by visions of a pillar which stands in an unfamiliar landscape. What do you see? Why are you sworn to seek it out?"
-			},
-			"Legacies": {
-				"name": "Legacies",
-				"option1": "We are the first humans to walk these lands.",
-				"quest1": "In the writings of one of the first settlers, there is a description of a glade in the heart of the Deep Wilds. The spirits of this place are said to grant a miraculous blessing. What boon does it bestow?",
-				"option2": "Other humans sailed here from the Old World untold years ago, but all that is left of them is a savage, feral people we call the broken. Is their fate to become our own?",
-				"quest2": "You find a child—one of the broken. It is wounded, and hunted by others of its kind. Do you protect it, even at the risk of inviting the wrath of the broken tribes?",
-				"option3": "Before the Ironlanders, before even the firstborn, another people lived here. Their ancient ruins are found throughout the Ironlands.",
-				"quest3": "Miners uncovered an underground ruin. Thereafter, the people of the settlement are haunted by strange dreams. The ruins call to them, they say. Several have disappeared in that dark, ancient place – including someone important to you."
-			},
-			"Communities": {
-				"name": "Сообщества",
-				"option1": "We are few in number in this accursed land. Most rarely have contact with anyone outside our own small steading or village, and strangers are viewed with deep suspicion.",
-				"quest1": "In the dead of winter, a desperate man arrives at a snowbound steading. He is wounded, hungry, and nearly frozen to death. His family has been taken. By whom? Will you brave the merciless winter to save them?",
-				"option2": "We live in communities called circles. These are settlements ranging in size from a steading with a few families to a village of several hundred. Some circles belong to nomadic folk. Some powerful circles might include a cluster of settlements. We trade (and sometimes feud) with other circles.",
-				"quest2": "A decades-long feud between two circles has flared into open conflict. What is the cause of this dispute? Do you join in the fight, or swear to put a stop to it?",
-				"option3": "We have forged the Ironlands into a home. Villages within the Havens are connected by well-trod roads. Trade caravans travel between settlements in the Havens and those in outlying regions. Even so, much of this land is untamed.",
-				"quest3": "Caravans are forced to pay for passage along a trade road. This payment, one-quarter of the goods carried, leaves several communities without sufficient winter stores. Who is making these demands? How will you set things right?"
-			},
-			"Leaders": {
-				"name": "Leaders",
-				"option1": "Leadership is as varied as the people. Some communities are governed by the head of a powerful family. Or, they have a council of elders who make decisions and settle disputes. In others, the priests hold sway. For some, it is duels in the circle that decide.",
-				"quest1": "You have vivid reoccurring dreams of an Ironlands city. It has strong stone walls, bustling markets, and a keep on a high hill. And so many people! Nowhere in the Ironlands does such a city exist. In your dreams, you are the ruler of this city. Somehow, no matter how long it takes, you must make this vision a reality.",
-				"option2": "Each of our communities has its own leader, called an overseer. Every seventh spring, the people affirm their current overseer or choose a new one. Some overseers wear the iron circlet reluctantly, while others thirst for power and gain it through schemes or threats.",
-				"quest2": "An overseer has fallen ill. She is sure to die without help, and the illness is unknown to the village healer. Poison, or perhaps even foul magic, is suspected. The families in the community are now at each other’s throats as they position their preferred candidates to take up the iron circlet. Will you discover the truth of the overseer’s illness and restore her to health?",
-				"option3": "Numerous clan-chiefs rule over petty domains. Most are intent on becoming the one true king. Their squabbles will be our undoing.",
-				"quest3": "You secretly possess one-half of the True Crown, an Old World relic. Centuries ago, this crown was broken in two when an assassin’s axe split the head of the supreme ruler. You are descended from that lineage. Who gave you this relic? Will you find the other half of the broken crown and attempt to unite the clans under your rule? Or, do you see another use for it?"
-			},
-			"Defense": {
-				"name": "Defense",
-				"option1": "Here in the Ironlands, supplies are too precious, and the lands are too sparsely populated, to support organized fighting forces. When a community is threatened, the people stand together to protect their own.",
-				"quest1": "A settlement is unable, or unwilling, to defend itself against an imminent threat. Why? What peril do they face? What will you do to protect them?",
-				"option2": "The wardens are our soldiers, guards, and militia. They serve their communities by standing sentry, patrolling surrounding lands, and organizing defenses in times of crisis. Most have strong ties to their community. Others, called free wardens, are wandering mercenaries who hire on to serve a community or protect caravans.",
-				"quest2": "You come upon a dying warden. She tells you of an important mission, and charges you with its completion. \"Swear to me,\" she says, reaching out with a bloodied hand to give you an object crucial to the quest. What is it?",
-				"option3": "Our warbands are rallied to strike at our enemies or defend our holdings. Though not nearly as impressive as the armies that once marched across the Old World, these forces are as well-trained and equipped as their communities can manage. The banners of the warbands are adorned with depictions of their Old World history and Ironland victories.",
-				"quest3": "A warband was wiped out in a battle against an overwhelming enemy. What is your connection to this band? Who defeated them? Will you carry their banner on a quest for vengeance, or do you vow to see it brought home to a place of honor?"
-			},
-			"Mysticism": {
-				"name": "Mysticism",
-				"option1": "Some still find comfort in the old ways. They call on mystics to divine the fortune of their newborn, or ask them to perform rituals to invoke a bountiful harvest. Others act out of fear against those who they suspect of having power. However, most folk believe true magic—if it ever existed—is lost to us now.",
-				"quest1": "Someone close to you is accused of cursing a settlement, causing fields to go fallow and cattle to become sick. What is the evidence of this? Will you defend this person and uncover the true cause of the settlement’s troubles?",
-				"option2": "Magic is rare and dangerous, but those few who wield the power are truly gifted.",
-				"quest2": "You have heard stories of someone who wields true power. They live in an isolated settlement far away. Who told you of this mystic? Are they feared or respected? Why do you swear to seek them out?",
-				"option3": "Magic courses through this land as the rivers flow through the hills. The power is there for those who choose to harness it, and even the common folk often know a helpful ritual or two.",
-				"quest3": "Someone you love walked the paths of power, and succumbed to it. Who are they? Why did they fall into darkness? Where are they now? Do you seek to save them or defeat them?"
-			},
-			"Religion": {
-				"name": "Religion",
-				"option1": "A few Ironlanders still make signs or mumble prayers out of habit or tradition, but most believe the gods long ago abandoned us.",
-				"quest1": "A charismatic Ironlander, encouraging her followers to renounce the vestiges of Old World religions, proposes a new path for this new world. What doctrine does she teach? What does she seek to achieve? Are you sworn to aid or stop her?",
-				"option2": "The people honor old gods and new. In this harsh land, a prayer is a simple but powerful comfort.",
-				"quest2": "An Ironlander is determined to make a pilgrimage into dangerous lands. What holy place do they seek? Why do you swear to aid them on this journey? Who seeks to stop them and why?",
-				"option3": "Our gods are many. They make themselves known through manifestations and miracles. Some say they even secretly walk among us. The priests convey the will of the gods and hold sway over many communities.",
-				"quest3": "You bear the mark of a god. What is it? The priests declare this as a sign you are chosen to fulfill a destiny. Do you accept this fate, and swear to see it through, or are you determined to see it undone? What force opposes you?"
-			},
-			"Firstborn": {
-				"name": "Firstborn",
-				"option1": "The firstborn have passed into legend. Some say the remnants of the old tribes still dwell in deep forests or high mountains. Most believe they were never anything more than myth.",
-				"quest1": "Someone obsessed with the firstborn wants to find evidence of their existence. This will require an expedition into the far reaches of the Ironlands. What is your role in this mission?",
-				"option2": "The firstborn live in isolation and are fiercely protective of their own lands.",
-				"quest2": "The elf, outcast from his kind, lives with Ironlanders. Over time, he became a part of the community. Now, he is dying. He yearns to return to his people before he passes. Does he seek absolution or justice? Why do you swear to help him? What force opposes his return?",
-				"option3": "The firstborn hold sway in the Ironlands. The elves of the deep forests and the giants of the hills tolerate us and even trade with us—for now. Ironlanders fear the day they decide we are no longer welcome here.",
-				"quest3": "Humans and giants are on the brink of war. What has happened? Who do you side with? Can anything be done to defuse the situation?"
-			},
-			"Beasts": {
-				"name": "Beasts",
-				"option1": "The beasts of old are nothing but legend. A few who travel into the deep forests and high mountains return with wild tales of monstrous creatures, but they are obviously delusional. No such things exist.",
-				"quest1": "You were witness to an attack by what you thought was an animal of monstrous proportions. No one believes you. In fact, you are accused of the murder you blame on this beast. How can you prove your innocence? Can you even trust your own memories of the event?",
-				"option2": "Monstrous beasts stalk the wild areas of the Ironlands.",
-				"quest2": "A prominent Ironlander is consumed with the need to bring vengeance upon a specific beast. What makes this creature distinctive? How did it earn the wrath of this Ironlander? Do you aid this person in their quest, or act to prevent their blind hate from destroying more than just the beast?",
-				"option3": "Beasts of all sorts roam the Ironlands. They dwell primarily in the reaches, but range into the settled lands to hunt. There, they often prey on cattle, but attacks on travelers, caravans, or even settlements are not uncommon.",
-				"quest3": "Professional slayers earn their keep by killing beasts. This particular slayer, famed throughout the Ironlands for her numerous kills, has gone missing on a hunt. Did she finally meet her match, or is something more nefarious at play. What is your connection to her?"
-			},
-			"Horrors": {
-				"name": "Horrors",
-				"option1": "Nothing but stories to frighten children.",
-				"quest1": "The murders began last season. Local gossip suggests they are the work of a vengeful horror, but there may be more mundane forces at work. What is your connection to these killings? What will you do to stop them?",
-				"option2": "We are wary of dark forests and deep waterways, for monsters lurk in those places. In the depths of the long-night, when all is wreathed in darkness, only fools venture beyond their homes.",
-				"quest2": "You bear the scars of an attack by a horror. What was it? Are those scars physical, emotional, or both? How do you seek to make yourself whole again?",
-				"option3": "The dead do not rest in the Ironlands. At night we light torches, scatter salt, and post sentries at the gate. It is not enough. They are coming.",
-				"quest3": "A group of Ironlanders establish a settlement in a territory cursed by a malevolent horror. What evil plagues this land? Why are the Ironlanders so intent on settling here? Will you aid them, or attempt to force them to give up this foolish undertaking?"
-			}
-		},
-		"OracleCategories": {
-			"Access": "Проход",
-			"Action and Theme": "Действие и тема",
-			"Ask the Oracle": "Спросить оракула",
-			"Basic Form": "Базовая форма",
-			"Challenge Rank": "Уровень испытания",
-			"Chaotic": "Хаос",
-			"Character Creation": "Создание персонажа",
-			"Character Name": "Имя персонажа",
-			"Character": "Персонаж",
-			"Characters": "Персонажи",
-			"Combat Event": "Событие боя",
-			"Community": "Общество",
-			"Core": "Основное",
-			"Creatures": "Существа",
-			"Delve the Depths": "Спуск в глубины",
-			"Derelicts": "Реликты",
-			"Desert": "Пустыня",
-			"Engineering": "Инженерия",
-			"Factions": "Организации",
-			"Feature": "Особенность",
-			"Fortified": "Укрепление",
-			"Furnace": "Кузня",
-			"Grave": "Могила",
-			"Haunted": "Кошмар",
-			"Ice": "Лёд",
-			"Infested": "Заражение",
-			"Inhabited": "Обитель",
-			"Interior": "Интерьер",
-			"Ironlander": "Железногорец",
-			"Jovian": "Газовый гигант",
-			"Jungle": "Джунгли",
-			"Living": "Жильё",
-			"Location Themes": "Темы места",
-			"Mechanical": "Механика",
-			"Medical": "Медицина",
-			"Misc": "Другое",
-			"Mission": "Миссия",
-			"Moves": "Ходы",
-			"Monstrosity": "Монстр",
-			"Name": "Имя",
-			"Ocean": "Океан",
-			"Operations": "Управление",
-			"Opportunity": "Возможность",
-			"Other": "Другое",
-			"Peril": "Опасность",
-			"Place": "Место",
-			"Planets": "Планеты",
-			"Population": "Население",
-			"Production": "Производство",
-			"Quick Name": "Быстрое имя",
-			"Research": "Исследование",
-			"Rocky": "Скалы",
-			"Ruined": "Руины",
-			"Sacred": "Святилище",
-			"Sanctum": "Святилище",
-			"Sector Name": "Название сектора",
-			"Settlement": "Поселение",
-			"Settlements": "Поселения",
-			"Shattered": "Осколки",
-			"Sighting": "Достопримечательность",
-			"Site Name": "Название места",
-			"Site Nature": "Природа места",
-			"Space": "Космос",
-			"Starships": "Звездолёты",
-			"Tainted": "Заражение",
-			"Threat": "Угроза",
-			"Trap": "Ловушка",
-			"Turning Point": "Поворотная точка",
-			"Type": "Тип",
-			"Vaults": "Хранилища",
-			"Vital": "Обитель",
-			"Zones": "Зоны",
-			"Custom": "Свои оракулы"
-		},
-		"Asset Categories": {
-			"Custom": "Свои активы",
-			"Ironsworn": {
-				"Companion": {
-					"Title": "Спутник",
-					"Description": "Companions are your NPC helpers. When you acquire a companion, give them a name and envision their appearance and personality. If they don’t have a starting ability, choose one. Upgrading a companion enables additional abilities.\n\nCompanions utilize a health track and may suffer harm as a result of one of your moves. When your companion takes damage, make the [Companion Endure Harm](Ironsworn/Moves/Suffer/Companion_Endure_Harm) move (page 94) to determine the outcome. See page 43 to learn more."
-				},
-				"Path": {
-					"Title": "Путь",
-					"Description": "Paths represent your background, interests, training, and skills. They provide mechanical and narrative advantages, but also reflect who you are and how you interact with the world. For example, a **Ritualist** would likely have a different outlook than a **Veteran**. Choosing both those paths can reflect an evolution of your character or an interesting background."
-				},
-				"Combat Talent": {
-					"Title": "Боевой талант",
-					"Description": "*Ironsworn* characters are assumed to be skilled fighters. Even without a combat talent, you can wield weapons and perform combat moves (page 78). A combat talent reflects a particular area of expertise, and gives you additional options and bonuses.\n\nCombat talent assets typically require you to wield a specific weapon, as noted in the asset text. For example, if you are a **Shield-Bearer** and don’t have a shield at the ready, you can’t use the asset’s abilities."
-				},
-				"Ritual": {
-					"Title": "Ритуал",
-					"Description": "Magic in *Ironsworn* is cast through rituals which help support your actions or act as unique moves. Like all assets, rituals can be selected as you gain experience and can be upgraded over time to make them more flexible or powerful.\n\nAll rituals utilize a move as their default marked ability. You must make this move and the associated action roll to trigger the effect. Any secondary abilities you gain by upgrading the asset are dependent on performing the ritual described as the default ability."
-				}
-			},
-			"Starforged": {
-				"Command Vehicle": {
-					"Title": "Командирский транспорт",
-					"Description": "The **command vehicle** is your interstellar STARSHIP. It is a default asset for your character, taken when you begin your campaign. If you are playing with others, this is a shared asset; each of you may use the STARSHIP's abilities while aboard the craft.\n\nThe command vehicle has an integrity meter and starts at 5 integrity. When your STARSHIP takes a hit, make the @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Withstand Damage} move to see what happens."
-				},
-				"Module": {
-					"Title": "Модуль",
-					"Description": "**Modules** are linked to your STARSHIP and offer additional options and advantages when aboard that vehicle.\n\nThese assets are earned and managed by a single character. They can be shared with allies, but only if it's practical for them to make use of it (not everyone may know how to use a RESEARCH LAB).\n\nWhen you @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Withstand Damage} and score a miss, you can mark a module as broken to offset further danger for your STARSHIP. Flip the card over to indicate its broken state. A broken module cannot be used until you successfully @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Repair} it."
-				},
-				"Support Vehicle": {
-					"Title": "Вспомогательный транспорт",
-					"Description": "**Support vehicles** complement your command vehicle for planetside or short-range operations. If you are playing with others, one of you might serve as the pilot or owner of a support vehicle, but anyone on board can use its abilities as appropriate to the situation.\n\nAs with the command vehicle, your support vehicles have integrity meters. The maximum integrity varies based on the type of vehicle. When a support vehicle faces a damaging situation or environment, you must @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Withstand Damage} to see how it fares."
-				},
-				"Path": {
-					"Title": "Путь",
-					"Description": "**Paths** are your background, interests, training, skills, powers, and key equipment. They provide mechanical and narrative advantages, but also reflect who you are and how you interact with the world. When you create your character in the next chapter, you'll select at least two paths to get started.\n\nSome paths represent your skill with a signature weapon style or piece of equipment. If you see a requirement at the top of the asset card, such as “If you wield a bladed weapon…,” the asset is only usable when taking action using that item."
-				},
-				"Companion": {
-					"Title": "Спутник",
-					"Description": "**Companions** are NPC helpers. When you gain a companion, give them a name and envision their look and personality.\n\nCompanions utilize a health meter that can be reduced if an outcome puts them in harm's way. When your companion faces harm, make the @Compendium[foundry-ironsworn.starforgedmoves.d34cdf2408cd22b6]{Companion Takes a Hit} move. When their health is at 0, they are in danger of being killed or destroyed."
-				},
-				"Deed": {
-					"Title": "Деяние",
-					"Description": "**Deeds** represent the notable achievement and situations of your story, and how those events change your character.\n\nDeeds have a requirement listed at the top of the card, phrased as “Once you \\[blank\\].” You may not spend experience to acquire a deed until you fulfill the requirement, and you cannot choose a deed when creating your character."
-				}
-			}
-		},
-		"ROLLTABLE": {
-			"TypeOracle": "Оракул"
-		},
-		"ROLLTABLES": {
-			"TypeOracle": "Оракулы"
-		},
-		"SCENE": {
-			"TypeSector": "Сектор"
-		},
-		"SCENES": {
-			"TypeSector": "Сектора"
-		},
-		"ACTOR": {
-			"SheetCompact": "Компактный",
-			"SheetFoe": "Враг",
-			"SheetStarforgedLocation": "Место Starforged",
-			"SubtypeDerelict": "Реликт",
-			"SubtypePlanet": "Планета",
-			"SubtypeSettlement": "Поселение",
-			"SubtypeStar": "Звёздный объект",
-			"SubtypeVault": "Хранилище предтечей",
-			"TypeCharacter": "Персонаж",
-			"TypeFoe": "Персонаж ведущего",
-			"TypeLocation": "Место",
-			"TypeShared": "Общий бланк",
-			"TypeDelveSite": "Место спуска",
-			"TypeStarship": "Звездолёт"
-		},
-		"ACTORS": {
-			"SubtypeDerelict": "Реликты",
-			"SubtypePlanet": "Планеты",
-			"SubtypeSettlement": "Поселения",
-			"SubtypeStar": "Звёздные объекты",
-			"SubtypeVault": "Хранилища предтечей",
-			"TypeCharacter": "Персонажи",
-			"TypeFoe": "Персонажи ведущего",
-			"TypeLocation": "Места",
-			"TypeDelveSite": "Места спуска",
-			"TypeStarship": "Звездолёты"
-		},
-		"ITEM": {
-			"SubtypeConnection": "Связь",
-			"SubtypeProgress": "Прогресс",
-			"SubtypeVow": "Клятва",
-			"TypeAsset": "Актив",
-			"TypeBond": "Узы",
-			"TypeBondset": "Группа уз",
-			"TypeDelveDomain": "Домен места",
-			"TypeDelveTheme": "Тема места",
-			"TypeDelveThemeOrDomain": "Site theme/domain",
-			"TypeMove": "Ход",
-			"TypeProgressTrack": "Шкала прогресса"
-		},
-		"ITEMS": {
-			"SubtypeConnection": "Связи",
-			"SubtypeProgress": "Прогресс",
-			"SubtypeVow": "Клятвы",
-			"TypeAsset": "Активы",
-			"TypeBond": "Узы",
-			"TypeBondset": "Группы уз",
-			"TypeDelveDomain": "Домены мест",
-			"TypeDelveTheme": "Темы мест",
-			"TypeMove": "Ходы",
-			"TypeProgressTrack": "Шкалы прогресса"
-		},
-		"JOURNALENTRYPAGE": {
-			"TypeProgressTrack": "Шкала прогресса",
-			"TypeTruth": "Истина мира",
-			"TypeTruthClassic": "Истина мира Ironsworn",
-			"TypeTruthStarforged": "Истина мира Starforged"
-		},
-		"JOURNALENTRYPAGES": {
-			"TypeProgressTrack": "Шкалы прогресса",
-			"TypeTruth": "Истины мира",
-			"TypeTruthClassic": "Истины мира Ironsworn",
-			"TypeTruthStarforged": "Истины мира Starforged"
-		},
-		"DELVESITE": {
-			"Danger": "Угроза",
-			"Dangers": "Угрозы",
-			"Denizen": "Обитатель",
-			"Denizens": "Обитатели",
-			"Feature": "Особенность",
-			"Features": "Особенности",
-			"FREQUENCY": {
-				"VeryCommon": "Повсеместное",
-				"Common": "Распространённое",
-				"Uncommon": "Необычное",
-				"Rare": "Редкое",
-				"Unforeseen": "Мифическое"
-			}
-		}
-	}
+  "IRONSWORN": {
+    "Ironsworn": "Ironsworn",
+    "Starforged": "Starforged",
+    "YourWorldTruths": "Il tuo mondo: Verità",
+    "TruthsAreOptional": "Definire le verità è un passaggio facoltativo. Puoi farlo in seguito dalle impostazioni del sistema.",
+    "TruthQuestStarter": "Missione iniziale:",
+    "QuestStarter": "Missione iniziale",
+    "SaveYourTruths": "Salva le verità",
+    "CustomTruth": "Verità personalizzata",
+    "RandomizeAll": "Tutto casuale",
+    "Roll": "Tiro",
+    "SendToChat": "Invia in chat: <i>{move}</i>",
+    "CopyTextToClipboard": "Copia negli appunti",
+    "ClipboardDisabled": "Il tuo browser non consente la copia negli appunti tramite protocollo HTTP non sicuro. Questa funzione richiede SSL (HTTPS).",
+    "Adds": "Modificatore",
+    "Versus": "contro",
+    "CappedAt10": "Il valore dell'azione è limitato a 10",
+    "Strong_hit": "Successo pieno",
+    "Strong_hit_match": "Successo pieno con doppio!",
+    "On_a_strong_hit": "Con un successo pieno",
+    "Weak_hit": "Successo parziale",
+    "On_a_weak_hit": "Con un successo parziale",
+    "Miss": "Fallimento",
+    "Miss_match": "Fallimento con doppio!",
+    "On_a_miss": "Con un fallimento",
+    "MarkProgress": "Segna progresso",
+    "ProgressMove": "Mossa di progresso",
+    "PROGRESS": {
+      "Current": "{score} progresso ({ticks} segni)",
+      "Ticks": "{ticks} segni",
+      "BOX": {
+        "1": "1 casella",
+        "2": "2 caselle",
+        "3": "3 caselle"
+      },
+      "TICK": {
+        "1": "1 segno",
+        "2": "2 segni",
+        "3": "3 segni",
+        "4": "4 segni"
+      }
+    },
+    "MarkLegacy": "Segna {amount} nella traccia eredità {legacy}",
+    "UnmarkProgress": "Rimuovi progresso",
+    "ProgressRoll": "Tiro di progresso",
+    "MakeAProgressRoll": "Effettua un tiro di progresso con {score} progresso",
+    "StarProgress": "Se attivo, questo elemento verrà mostrato nella scheda 'Eredità'.",
+    "CHALLENGERANK": {
+      "Troublesome": "Problematico",
+      "Dangerous": "Pericoloso",
+      "Formidable": "Formidabile",
+      "Extreme": "Estremo",
+      "Epic": "Epico"
+    },
+    "Stat": "Caratteristica",
+    "Stats": "Caratteristiche",
+    "OracleTable": {
+      "ColumnLabel": {
+        "Roll": "Tiro",
+        "RollRange": "Intervallo tiro",
+        "DiceRollResult": "risultato del tiro {dice}",
+        "Result": "Risultato"
+      }
+    },
+    "roll +x": "tiro +{stat}",
+    "Roll +x": "Tiro +{stat}",
+    "roll method": {
+      "All": "tira tutti da {statList}",
+      "Any": {
+        "2": "tiro +{stat1} o +{stat2}",
+        "fallback": "tiro da uno di {statList}"
+      },
+      "Highest": {
+        "2": "tiro dal più alto tra +{stat1} o +{stat2}",
+        "fallback": "tiro dal più alto di {statList}"
+      },
+      "Lowest": {
+        "2": "tiro dal più basso tra +{stat1} o +{stat2}",
+        "fallback": "tiro dal più basso di {statList}"
+      }
+    },
+    "Momentum": "slancio",
+    "Health": "salute",
+    "Spirit": "spirito",
+    "Supply": "provviste",
+    "Edge": "lama",
+    "Heart": "cuore",
+    "Iron": "ferro",
+    "Shadow": "ombra",
+    "Wits": "ingegno",
+    "XP": "Esperienza",
+    "NoBonds": "Nessun legame",
+    "Legacies": "Eredità",
+    "LEGACY": {
+      "Bonds": "Legami",
+      "Discoveries": "Scoperte",
+      "Quests": "Missioni"
+    },
+    "Clock": "Contatore",
+    "Segments": "Segmenti",
+    "Impacts": "Impatto",
+    "IMPACT": {
+      "Custom": "Impatto personalizzato",
+      "CATEGORY": {
+        "Misfortunes": "Disgrazie",
+        "LastingEffects": "Effetti duraturi",
+        "Burdens": "Fardelli",
+        "Vehicle": "Veicolo attuale"
+      },
+      "Wounded": "ferito",
+      "Shaken": "scosso",
+      "Unprepared": "impreparato",
+      "Permanentlyharmed": "danno permanente",
+      "Traumatized": "traumatizzato",
+      "Tormented": "tormentato",
+      "Doomed": "condannato",
+      "Indebted": "indebitato",
+      "Cursed": "maledetto",
+      "Battered": "danneggiato"
+    },
+    "Debilities": "Debolezze",
+    "DEBILITY": {
+      "Custom": "Debolezza personalizzata",
+      "CATEGORY": {
+        "Conditions": "Condizioni",
+        "Banes": "Menomazioni",
+        "Burdens": "Fardelli"
+      },
+      "Wounded": "ferito",
+      "Unprepared": "impreparato",
+      "Shaken": "scosso",
+      "Encumbered": "appesantito",
+      "Maimed": "mutilato",
+      "Corrupted": "corrotto",
+      "Cursed": "maledetto",
+      "Tormented": "tormentato"
+    },
+    "Conditions": "Condizioni",
+    "Condition": "Condizione",
+    "ConditionMarkedOnOne": "{name} ora ha la condizione {condition}",
+    "ConditionMarkedOnMany": "{condition} su:",
+    "Reroll": "Ritira",
+    "Connections": "Connessioni",
+    "Connection": "Connessione",
+    "MOVES": {
+      "Adventure": "Mosse di avventura",
+      "Combat": "Mosse di combattimento",
+      "Connection": "Mosse di connessione",
+      "Custom": "Mosse personalizzate",
+      "Delve": "Mosse di discesa",
+      "Exploration": "Mosse di esplorazione",
+      "Fate": "Mosse del destino",
+      "Failure": "Mosse di fallimento",
+      "Legacy": "Mosse di eredità",
+      "Quest": "Mosse di missione",
+      "Rarity": "Mosse di rarità",
+      "Recover": "Mosse di recupero",
+      "Relationship": "Mosse di relazione",
+      "Scene Challenge": "Mosse di sfida di scena",
+      "Session": "Mosse di sessione",
+      "Suffer": "Mosse di sofferenza",
+      "Threat": "Mosse di minaccia",
+      "Threshold": "Mosse di soglia"
+    },
+    "Failure": "Fallimento",
+    "Threat": "Minaccia",
+    "Rarity": "Rarità",
+    "LocationType": "Tipo di luogo",
+    "RollForDetails": "Genera i dettagli del luogo",
+    "RandomName": "Nome casuale",
+    "ResolveChallenge": "Affronta la sfida",
+    "ResolveChallengeDisabled": "Seleziona due dadi della sfida per continuare",
+    "BurnForUpgrade": "Brucia slancio: <strong>{type}</strong>",
+    "BurnMomentumAndResetTo": "Brucia {value} slancio e ripristina a {resetValue}",
+    "MomentumBurnt": "Slancio bruciato",
+    "NegativeMomentumCancel": "Slancio negativo ha annullato il dado azione",
+    "Pronouns": "Pronomi",
+    "Callsign": "Nomignolo",
+    "Characteristics": "Caratteristiche",
+    "Summary": "Riepilogo",
+    "Category": "Categoria",
+    "Color": "Colore",
+    "Requirement": "Requisiti",
+    "Trigger": "Condizione",
+    "FullText": "Testo completo",
+    "Field": "Campo",
+    "Fields": "Campi",
+    "Label": "Etichetta",
+    "Value": "Valore",
+    "Abilities": "Abilità",
+    "Ability": "Abilità",
+    "Options": "Opzioni",
+    "Option": "Opzione",
+    "Track": "Traccia",
+    "Enabled": "Abilitato",
+    "ChallengeRank": "Grado della Sfida",
+    "Completed": "Completato",
+    "NotCompleted": "Non completato",
+    "Foes": "Nemici",
+    "Foe": "Nemico",
+    "Edit": "Modifica",
+    "OpenCompendium": "Apri compendio",
+    "ConfirmDelete": "Sei sicuro? Questa azione è irreversibile.",
+    "RequiresLocationType": "Questo oracolo richiede un luogo con tipo selezionato.",
+    "RollOracleTable": "Tiro dell'oracolo: <i>{title}</i>",
+    "RollMove": "Tiro dell'azione: <i>{title}</i>",
+    "PageReference": "pag. {page}",
+    "PlanetType": "Tipo di pianeta",
+    "RandomPlanetType": "Tipo di pianeta casuale",
+    "SettlementType": "Tipo di insediamento",
+    "RandomSettlementType": "Tipo di insediamento casuale",
+    "StarType": "Tipo di stella",
+    "RandomStarType": "Tipo di stella casuale",
+    "DerelictType": "Tipo di relitto",
+    "RandomDerelictType": "Tipo di relitto casuale",
+    "VaultType": "Tipo di deposito",
+    "RandomVaultType": "Tipo di deposito casuale",
+    "First": "primo",
+    "Second": "secondo",
+    "Third": "terzo",
+    "Fourth": "quarto",
+    "Fifth": "quinto",
+    "StarforgedTools": "Strumenti Starforged",
+    "IronswornTools": "Strumenti Ironsworn",
+    "Region": "Regione",
+    "RegionTip": "Definisce la regione predefinita per i luoghi in questa scena e influenza l’esito di alcuni oracoli.",
+    "REGION": {
+      "Terminus": "Terminale",
+      "Outlands": "Confini",
+      "Expanse": "Distese"
+    },
+    "RotateCCW": "Ruota in senso antiorario",
+    "RotateCW": "Ruota in senso orario",
+    "RollDialog": {
+      "AdvancedRollOptions": "Opzioni avanzate di tiro",
+      "PresetActionDie": "Dado azione predefinito",
+      "PresetChallengeDice": "Dadi sfida predefiniti",
+      "PredeterminedOutcome": "Risultato predeterminato",
+      "ExtraChallengeDice": "Dado sfida extra"
+    },
+    "ChatAlert": {
+      "Muted": "Messaggio sussurrato al giocatore che l'ha attivato",
+      "Unmuted": "Messaggio visibile a tutti i giocatori",
+      "ToggleMute": "Attiva/disattiva silenzio",
+      "Renamed": "Rinominato in {name}",
+      "renamed": "rinominato in {name}",
+      "Added": "Aggiunto {name}",
+      "Deleted": "Eliminato {name}",
+      "MarkedXP": "{amt} PE assegnati",
+      "UnmarkedXP": "{amt} PE rimossi",
+      "AdjustedStat": "{amt} {stat} (ora {val})",
+      "MarkedCondition": "Ha ricevuto la condizione {condition}",
+      "ClearedCondition": "Ha rimosso la condizione {condition}",
+      "MarkedImpact": "Ha ricevuto l’impatto {impact}",
+      "ClearedImpact": "Ha rimosso l’impatto {impact}",
+      "MarkedDebility": "Ha ricevuto la debolezza {debility}",
+      "ClearedDebility": "Ha rimosso la debolezza {debility}",
+      "RankChanged": "Grado cambiato da {old} a {new}",
+      "rankChanged": "grado cambiato da {old} a {new}",
+      "ProgressAdvanced": "Progresso aumentato",
+      "progressAdvanced": "progresso aumentato",
+      "ProgressReduced": "Progresso ridotto",
+      "progressReduced": "progresso ridotto",
+      "MarkedAbility": "{pos} marcata",
+      "UnmarkedAbility": "{pos} non più marcata",
+      "MarkedOption": "{name} selezionato",
+      "SetField": "{name} impostato a {val}",
+      "AddBond": "Legami aggiunti",
+      "LostBond": "Legami persi",
+      "completedMarked": "segnato come completato",
+      "completedUnmarked": "segnato come non completato",
+      "clockAdvancedOneSegment": "indicatore avanzato a {new}⁄{max}",
+      "clockAdvancedTwoSegments": "indicatore avanzato di {change} segmento a {new}⁄{max}",
+      "clockAdvancedManySegments": "indicatore avanzato di {change} segmenti a {new}⁄{max}",
+      "clockCompletedOneSegment": "indicatore avanzato a {new}⁄{max} — completato!",
+      "clockCompletedTwoSegments": "indicatore avanzato di {change} segmento a {new}⁄{max} — completato!",
+      "clockCompletedManySegments": "indicatore avanzato di {change} segmenti a {new}⁄{max} — completato!",
+      "clockSet": "indicatore impostato a {new}⁄{max}"
+    },
+    "Settings": {
+      "Theme": {
+        "Name": "Aspetto: tema",
+        "Hint": "Determina lo stile dell’interfaccia. È necessario riavviare.",
+        "Ironsworn": "Ironsworn",
+        "Starforged": "Starforged"
+      },
+      "ColorScheme": {
+        "Name": "Aspetto: schema colori",
+        "Hint": "Ogni giocatore può selezionare uno schema colore personale.",
+        "Zinc": "Zinco",
+        "Phosphor": "Fosforo"
+      },
+      "Tools": {
+        "Name": "Strumenti del personaggio",
+        "Hint": "Azioni e oracoli mostrati nell'apertura della scheda personaggio.",
+        "Sheet": "Secondo scheda"
+      },
+      "SharedSupply": {
+        "Name": "Traccia risorse condivisa",
+        "Hint": "Se attivata, modificare le risorse condivise influenzerà anche gli altri personaggi."
+      },
+      "LogChanges": {
+        "Name": "Registra modifiche",
+        "Hint": "Se attivato, le modifiche ai valori del personaggio saranno visibili in chat."
+      },
+      "PromptTruths": {
+        "Name": "Finestra iniziale di configurazione",
+        "Hint": "All'avvio verrà mostrata la finestra delle impostazioni."
+      },
+      "ConfigurationDialog": {
+        "Label": "Finestra delle impostazioni",
+        "Name": "Finestra delle impostazioni",
+        "Hint": "Permette di scegliere tra l’interfaccia di Ironsworn e Starforged."
+      },
+      "ISTruthsDialog": {
+        "Label": "Verità di Ironsworn",
+        "Name": "Verità di Ironsworn",
+        "Hint": "Apre la finestra di configurazione delle verità del mondo Ironsworn."
+      },
+      "SFTruthsDialog": {
+        "Label": "Verità di Starforged",
+        "Name": "Verità di Starforged",
+        "Hint": "Apre la finestra di configurazione delle verità del mondo Starforged."
+      },
+      "SFBeta": {
+        "Name": "Mostra contenuti beta di Starforged",
+        "Hint": "Attiva funzionalità ancora in fase di test."
+      },
+      "DataforgedIronswornMoves": {
+        "Name": "(Beta) Nuova interfaccia mosse Ironsworn",
+        "Hint": "Se attivato, usa la nuova interfaccia per mosse e oracoli simile a quella di Starforged."
+      },
+      "ProgressMarkAnimation": {
+        "Name": "Animazione marcatori di progresso",
+        "Hint": "Cambia l’aspetto estetico dei segni sulle tracce di progresso."
+      }
+    },
+    "First Start": {
+      "Welcome": "Benvenuto",
+      "Intro": "Scegli il tuo sistema principale. Questo determinerà il tipo di schede personaggio, mosse, oracoli e altri elementi di gioco.",
+      "SettingTruths": "Verità del mondo",
+      "SettingTruth": "Verità del mondo"
+    },
+    "Tours": {
+      "ChatMessage": "<h3>Benvenuto in Ironsworn!</h3><p>Se è la tua prima volta con questo sistema, puoi seguire un tour interattivo:</p> <button id=\"ironsworn-tour-chat-button\"> <i class=\"fas fa-person-hiking\"></i> Avvia il tour </button>",
+      "Welcome": {
+        "Title": "Benvenuto in Ironsworn",
+        "Description": "Panoramica dei sistemi Ironsworn e Starforged",
+        "WelcomeTitle": "Benvenuto",
+        "WelcomeContent": "<p>Benvenuto in Ironsworn &amp; Starforged! Questo tour ti aiuterà a trovare tutte le funzionalità per configurare e giocare la tua campagna.</p><p>A questo punto dovresti aver visto la finestra di selezione del gioco, che imposta il foglio personaggio, le mosse e gli oracoli di default. Vediamo ora dove trovare le altre funzionalità del sistema.</p>",
+        "ActorTabTitle": "Creazione del Personaggio",
+        "ActorTabContent": "<p>Prima o poi vorrai creare un personaggio. Per farlo, vai alla scheda &quot;<i class=\"fas fa-user\"></i> Attori&quot; e clicca su questo pulsante.</p>",
+        "CharacterCreateTitle": "Creazione del Personaggio",
+        "CharacterCreateContent": "<p>Questo pulsante crea un personaggio principale, tutto ciò che ti serve per iniziare. Con il progredire della storia, potresti aver bisogno anche degli altri tipi di attori per organizzare tutto.</p>",
+        "CompendiumTitle": "Mappe",
+        "CompendiumContent": "<p>Probabilmente vorrai una mappa delle Terre del Ferro o di un settore della Forgia. Puoi crearne una tu oppure usarne una già pronta. Apri uno di questi compendi e trascina una mappa nell'area &quot;<i class=\"fas fa-map\"></i> Scene&quot;.</p>",
+        "OracleToolTitle": "Oracoli",
+        "OracleToolContent": "<p>Nessuna partita a Ironsworn o Starforged è completa senza oracoli. Questo pulsante apre una finestra con tutti gli oracoli del gioco scelto. Gli oracoli sono disponibili anche dalla scheda personaggio.</p>",
+        "ToursTitle": "Prossimi Passi",
+        "ToursContent": "<p>Per ora è tutto! Per ulteriori informazioni su altri argomenti, controlla l’area di gestione dei tour nelle schede delle impostazioni. Se vuoi entrare in contatto, visita il canale <code>#foundry-vtt</code> su <a href=\"https://discord.gg/8bRuZwK\">Discord di Ironsworn</a>.</p><p>Buon divertimento!</p>"
+      },
+      "ISCharacter": {
+        "SheetTitle": "Scheda del Personaggio",
+        "SheetContent": "<p>Questa è la scheda del personaggio giocante. Serve a gestire attributi, risorse, risorse speciali e voti del tuo personaggio.</p>",
+        "EditButtonTitle": "Pulsante Modifica",
+        "EditButtonContent": "<p>Il pulsante &quot;<i class=\"fa-solid fa-edit\"></i> Modifica&quot; nella barra del titolo consente di passare dalla modalità di interazione alla modalità di modifica.</p>",
+        "StatsTitle": "Statistiche del Personaggio",
+        "StatsContent": "<p>Questi sono gli attributi base del tuo personaggio: rappresentano la sua personalità e influenzano gli esiti delle azioni. Per lanciare contro una statistica, cliccaci sopra. Si aprirà un dialogo dove potrai aggiungere bonus e confermare il tiro.</p><p><strong>MODALITÀ MODIFICA</strong> ti permette di modificare questi valori.</p>",
+        "ResourcesTitle": "Risorse",
+        "ResourcesContent": "<p>Sul lato trovi le tre risorse di base: Salute, Spirito e Scorte. Clicca sul valore per modificarlo. Puoi anche lanciare tiri cliccando sul nome della risorsa.</p>",
+        "MomentumTitle": "Potenziale",
+        "MomentumContent": "<p>Dall’altro lato trovi il tracciatore del potenziale. Clicca su un numero per impostarlo. Se hai debolezze attive, alcuni valori saranno disattivati. Passa il mouse sopra &quot;<i class=\"fa-solid fa-fire\"></i> POTENZIALE&quot; per vedere cosa comporta bruciarlo, poi clicca per farlo.</p>",
+        "ConditionsTitle": "Condizioni",
+        "ConditionsContent": "<p>In fondo alla scheda ci sono le condizioni, le sciagure e i fardelli. Se attivate, limitano il potenziale massimo. Puoi anche inserire due condizioni personalizzate.</p>",
+        "CharacterTabTitle": "Scheda Personaggio",
+        "CharacterTabContent": "<p>Al centro trovi una serie di schede. La prima è &quot;Personaggio&quot;, dove tracci la maggior parte dei dettagli per un personaggio di Ironsworn.</p>",
+        "BondsTitle": "Legami",
+        "BondsContent": "<p>In alto a sinistra ci sono i tuoi legami. Mostrano quanti ne hai costruiti nel corso dell’avventura. Clicca su <i class=\"fa-solid fa-edit\"></i> per aggiungere o rimuovere legami e scrivere note. Clicca su <svg fill=\"currentColor\" height=\"1em\" width=\"1em\" role=\"img\" aria-hidden=\"true\" class=\"icon\"><use href=\"#ironsworn-d10-tilt\"></use></svg> per tirare la mossa <em>Scrivi il tuo epilogo</em>.</p>",
+        "AssetsTitle": "Risorse Speciali",
+        "AssetsContent": "<p>Qui puoi vedere e gestire le risorse speciali del tuo personaggio. Clicca su una per espanderla e vedere le abilità selezionate. Clicca l’icona &quot;<i class=\"fa-solid fa-edit\"></i>&quot; per aprire la scheda dettagliata.</p><p><strong>MODALITÀ MODIFICA</strong> mostra i pulsanti per eliminare o riordinare le risorse.</p><p>Il pulsante &quot;<i class=\"fa-solid fa-book-atlas\"></i> Risorse&quot; in basso apre il browser. Da lì puoi trascinare risorse sulla scheda personaggio.</p>",
+        "ProgressTitle": "Progresso",
+        "ProgressContent": "<p>Quest’area mostra i voti e gli altri tracciati di progresso. Usa i pulsanti &quot;+Voto&quot; o &quot;+Progresso&quot; per aggiungerne uno, oppure trascina un nemico dal compendio &quot;<i class=\"fa-solid fa-book-atlas\"></i> Nemici&quot;. Ogni elemento mostra il progresso attuale, con i controlli per segni e tiri di progresso. <strong>MODALITÀ MODIFICA</strong> aggiunge pulsanti per riordinare, regolare i segni e completare l’elemento.</p>",
+        "NotesTabTitle": "Scheda Note",
+        "NotesTabContent": "<p>Le note sono per te. Tieni traccia della tua storia, annota l’equipaggiamento, le cicatrici e tutto ciò che vuoi ricordare.</p>",
+        "EndTitle": "Scheda Personaggio",
+        "EndContent": "<p>Per ora è tutto. Cerca il pulsante <i class=\"fa-solid fa-circle-question\"></i> su altre schede per ulteriori informazioni su come funzionano.</p>"
+      },
+      "SFCharacter": {
+        "Title": "Scheda del Personaggio Starforged",
+        "Description": "La scheda PG per un personaggio Starforged",
+        "SheetTitle": "Scheda del Personaggio",
+        "SheetContent": "<p>Questa è la scheda del personaggio giocante. Ti aiuta a gestire attributi, risorse, risorse speciali e voti del tuo personaggio.</p>",
+        "EditButtonTitle": "Pulsante Modifica",
+        "EditButtonContent": "<p>Il pulsante &quot;<i class=\"fa-solid fa-edit\"></i> Modifica&quot; nella barra del titolo serve a passare dalla modalità interazione a quella modifica per questo personaggio.</p>",
+        "StatsTitle": "Statistiche del Personaggio",
+        "StatsContent": "<p>Questi sono gli attributi di base del tuo personaggio: raccontano la sua personalità e determinano le probabilità di successo nelle azioni. Per tirare su una statistica, cliccaci sopra. Si aprirà un dialogo per aggiungere bonus e confermare il tiro.</p><p><strong>MODALITÀ MODIFICA</strong> permette di modificare questi valori.</p>",
+        "ResourcesTitle": "Risorse",
+        "ResourcesContent": "<p>Sul lato trovi le tre risorse principali: Salute, Spirito e Scorte. Puoi modificarle cliccando sul nuovo valore.</p><p>Puoi anche lanciare tiri cliccando sul nome della risorsa.</p>",
+        "MomentumTitle": "Potenziale",
+        "MomentumContent": "<p>Dall’altro lato trovi il tracciatore del potenziale. Clicca su un numero per impostarlo. Se hai debolezze attive, uno o più dei valori massimi saranno disabilitati.</p><p>Passa il mouse su &quot;<i class=\"fa-solid fa-fire\"></i> POTENZIALE&quot; per vedere cosa comporta bruciarlo, poi clicca per farlo.</p>",
+        "ImpactsTitle": "Impatto",
+        "ImpactsContent": "<p>In fondo alla scheda trovi gli impatti del tuo personaggio. Se attivi, influenzano il potenziale massimo. Sono presenti anche due campi per inserire impatti personalizzati.</p><p>Se nel gioco c’è un veicolo con “Danneggiato” o “Maledetto”, verrà evidenziato qui come promemoria del suo effetto.</p>",
+        "LegaciesTabTitle": "Scheda Eredità",
+        "LegaciesTabContent": "<p>Nell’area centrale ci sono varie schede. La prima è &quot;Eredità&quot;, dove segui le tre eredità principali di Starforged. Verranno mostrati anche gli elementi contrassegnati come preferiti da Progressi o Connessioni.</p><p>Per avanzare un’eredità, clicca il pulsante &quot;<i class=\"fa-solid fa-caret-right\"></i>&quot; a destra. Quando avrai riempito abbastanza caselle, appariranno quelle XP: cliccaci sopra per usarle. <strong>MODALITÀ MODIFICA</strong> mostra anche i pulsanti per rimuovere segni se ne hai messi troppi per errore.</p>",
+        "AssetsTabTitle": "Scheda Risorse",
+        "AssetsTabContent": "<p>Qui vengono visualizzate e gestite le risorse speciali del personaggio. Clicca su una per espanderla e mostrare le abilità segnate. Clicca sull’icona &quot;<i class=\"fa-solid fa-edit\"></i>&quot; per aprire la scheda dettagliata.</p><p><strong>MODALITÀ MODIFICA</strong> mostra pulsanti per eliminare e riordinare le risorse.</p><p>Il pulsante &quot;<i class=\"fa-solid fa-book-atlas\"></i> Risorse&quot; in basso apre il browser delle risorse. Da lì puoi trascinare qualsiasi risorsa sulla scheda personaggio per aggiungerla al gioco.</p>",
+        "ProgressTabTitle": "Scheda Progresso",
+        "ProgressTabContent": "<p>Mostra i voti attivi e altri elementi di progresso. Puoi aggiungerne uno cliccando su &quot;+Voto&quot; o &quot;+Progresso&quot;, oppure trascinando un nemico dal compendio &quot;<i class=\"fa-solid fa-book-atlas\"></i> Nemici&quot;.</p><p>Ogni voce mostra il progresso attuale, con controlli per segnare avanzamenti e fare tiri di progresso. Usa il pulsante &quot;<i class=\"fa-solid fa-star\"></i>&quot; per visualizzarla anche nella scheda Eredità.</p><p><strong>MODALITÀ MODIFICA</strong> mostra pulsanti per riordinare, regolare i segni e completare l’elemento (che sarà nascosto in fondo alla scheda).</p>",
+        "ConnectionsTabTitle": "Scheda Connessioni",
+        "ConnectionsTabContent": "<p>Le connessioni sono tracciate separatamente dagli altri elementi di progresso e si trovano in questa scheda. Funzionano allo stesso modo della scheda Progresso.</p>",
+        "NotesTabTitle": "Scheda Note",
+        "NotesTabContent": "<p>La scheda Note è solo per te. Tieni traccia della narrazione, annota cosa porti con te, scrivi le cicatrici accumulate lungo la strada.</p>",
+        "EndTitle": "Scheda del Personaggio",
+        "EndContent": "<p>Per ora è tutto. Cerca il pulsante <i class=\"fa-solid fa-circle-question\"></i> nelle altre schede per ulteriori spiegazioni.</p>"
+      },
+      "MoveSheet": {
+        "Title": "",
+        "SheetTitle": "Scheda Mosse/Oracoli",
+        "SheetContent": "<p>Questa è la finestra che dà accesso rapido a mosse e oracoli.</p>",
+        "MoveCategoryTitle": "Categorie di Mosse",
+        "MoveCategoryContent": "<p>Clicca sul titolo di una categoria per espanderla e vedere tutte le mosse. Clicca su una mossa per espanderne la descrizione.</p>",
+        "MoveButtonsTitle": "Scorciatoie Mosse",
+        "MoveButtonsContent": "<p>Qui in alto trovi dei pulsanti di scorciatoia.</p><p>Il primo serve a &quot;lanciare questa mossa&quot; e apre la finestra di tiro precompilata. È disponibile solo se la mossa ha un tiro associato — alcune, come “Pagare il Prezzo”, non hanno tiri, quindi sarà disattivato.</p><p>Il secondo serve a &quot;lanciare l’oracolo&quot; e tira subito su una tabella. È disponibile solo se la mossa ha un singolo oracolo.</p><p>Il terzo invia una copia della descrizione nella chat laterale.</p>",
+        "MoveLinkTitle": "Collegamenti tra Mosse",
+        "MoveLinkContent": "<p>Cliccando su un link a un’altra mossa, questa verrà espansa e scorrerà in primo piano.</p>",
+        "OraclesTabTitle": "Scheda Oracoli",
+        "OraclesTabContent": "<p>La seconda scheda mostra gli oracoli, tabelle casuali per stimolare l’ispirazione.</p>",
+        "OracleCategoryTitle": "Struttura degli Oracoli",
+        "OracleCategoryContent": "<p>Gli oracoli sono organizzati in una struttura ad albero. Clicca su una riga per espanderla e vedere i contenuti.</p>",
+        "OracleRowTitle": "Controlli Oracolo",
+        "OracleRowContent": "<p>Clicca sull’icona <i class=\"fas fa-eye\"></i> per una anteprima della tabella, oppure clicca altrove sulla riga per estrarre un risultato da mostrare in chat.</p>",
+        "OracleChatMessageTitle": "Risultati Oracolo",
+        "OracleChatMessageContent": "<p>Quando lanci un oracolo, compare una carta in chat. La riga evidenziata è il risultato tirato, con anche i valori vicini mostrati.</p><p>Passando il mouse sul messaggio compariranno pulsanti per copiare il testo o rilanciare sulla stessa tabella.</p>",
+        "EndTitle": "Scheda Mosse",
+        "EndContent": "<p>Per ora è tutto. Cerca il pulsante <i class=\"fa-solid fa-circle-question\"></i> nelle altre schede per ulteriori spiegazioni.</p>"
+      }
+    },
+    "WorldTruths": {
+      "The Old World": {
+        "name": "Il Vecchio Mondo",
+        "option1": "I clan selvaggi detti Skulde invasero i regni del Vecchio Mondo. I nostri eserciti caddero. La maggior parte fu uccisa o ridotta in schiavitù. I pochi fuggitivi si imbarcarono su qualsiasi cosa galleggiasse. Dopo un lungo e arduo viaggio, i sopravvissuti approdarono nelle Terre del Ferro.",
+        "quest1": "Sei un discendente degli Skulde. A causa della tua eredità, la tua famiglia è sempre stata vista con sospetto dagli altri abitanti delle Terre del Ferro. Ora, una piccola forza di Skulde è sbarcata sulle nostre coste. Sono il preludio di un’invasione? Da che parte starai?",
+        "option2": "La malattia si diffuse come un’onda mortale attraverso il Vecchio Mondo, uccidendo tutto ciò che trovava. Migliaia fuggirono in nave. Tuttavia, la peste era inarrestabile. Su molte navi, la malattia fu contenuta con metodi spietati—gettando in mare chiunque mostrasse il minimo sintomo. Altre navi non fecero mai ritorno. Alla fine, i sopravvissuti giunsero alle Terre del Ferro. Alcuni dicono che saremo per sempre maledetti da chi abbiamo abbandonato.",
+        "quest2": "Un insediamento è colpito da una malattia. Sebbene ricordi la peste del Vecchio Mondo, non uccide. Cambia le persone. Come si manifesta? Perché giuri di trovare una cura?",
+        "option3": "Il Vecchio Mondo non poteva più sostenerci. Eravamo troppi. Avevamo abbattuto le foreste. I raccolti appassivano nel terreno sterile. Le città erano sovraffollate e affamate. I re combattevano per gli avanzi. Affidammo il nostro destino al mare e giungemmo nelle Terre del Ferro. Un nuovo mondo. Un nuovo inizio.",
+        "quest3": "Decenni fa, l’esodo terminò. Da allora, nessuna nave è giunta dal Vecchio Mondo. Fino ad ora. Si dice che una sola nave sia arrivata, incagliata sulle Isole Barriera. Quando senti il nome della nave, giuri di scoprire cosa sia accaduto ai suoi passeggeri. Perché è così importante per te?"
+      },
+      "Iron": {
+        "name": "Ferro",
+        "option1": "Le colline e le montagne delle Terre del Ferro sono ricche di minerale. Il più prezioso di tutti è il ferro nero forgiato dalle stelle.",
+        "quest1": "La carovana, diretta verso le lontane terre del sud, partì dalla colonia mineraria la scorsa stagione ma non arrivò mai. Trasportava un carico di ferro nero. Perché è così importante per te ritrovarla?",
+        "option2": "Il clima è cupo. Pioggia e vento arrivano dall’oceano. Gli inverni sono lunghi e rigidi. Uno dei primi coloni disse: \"Solo chi è fatto di ferro può vivere in questo luogo maledetto\" – e così fu battezzata la nostra terra.",
+        "quest2": "Il raccolto è stato scarso. Le nevi implacabili hanno isolato il villaggio. Le scorte si stanno esaurendo. Cosa farai per aiutare queste persone a sopravvivere all’inverno?",
+        "option3": "Enigmatici pilastri metallici si trovano in tutto il territorio. Grigi come il ferro, lisci come pietre di fiume. Nessuno conosce la loro origine. Alcuni dicono che siano antichi quanto il mondo. Gli Iron Priests li venerano, giurando su di essi. Gli altri fanno un gesto scaramantico e se ne vanno. Non si ossidano, né possono essere scalfiti.",
+        "quest3": "I tuoi sogni sono tormentati da visioni di un pilastro in una terra sconosciuta. Cosa vedi? Perché giuri di trovarlo?"
+      },
+      "Legacies": {
+        "name": "Eredità",
+        "option1": "Siamo i primi umani a camminare su queste terre.",
+        "quest1": "Negli scritti di uno dei primi coloni, si parla di una radura nel cuore delle Terre Selvagge. Gli spiriti di quel luogo concedono una benedizione miracolosa. Qual è questo dono?",
+        "option2": "Altri umani salparono verso queste terre molto tempo fa, ma tutto ciò che resta di loro è un popolo selvaggio che chiamiamo i distrutti. È questo il nostro destino?",
+        "quest2": "Hai trovato un bambino—uno dei distrutti. È ferito e braccato dai suoi simili. Lo proteggerai, rischiando l’ira delle tribù selvagge?",
+        "option3": "Prima degli Ironlander, prima ancora dei primi nati, un altro popolo viveva qui. Le loro antiche rovine sono sparse per tutto il territorio.",
+        "quest3": "I minatori hanno scoperto una rovina sotterranea. Da allora, gli abitanti dell’insediamento sono perseguitati da sogni inquietanti. Dicono di sentire un richiamo. Molti sono spariti—compreso qualcuno a te caro."
+      },
+      "Communities": {
+        "name": "Comunità",
+        "option1": "Siamo pochi in questa terra maledetta. La maggior parte ha contatti solo con la propria piccola fattoria o villaggio, e gli estranei sono visti con profondo sospetto.",
+        "quest1": "Nel pieno dell'inverno, un uomo disperato arriva in una fattoria isolata dalla neve. È ferito, affamato e quasi congelato. La sua famiglia è stata rapita. Da chi? Avrai il coraggio di affrontare l'inverno implacabile per salvarli?",
+        "option2": "Viviamo in comunità chiamate cerchie. Sono insediamenti che variano da poche famiglie a villaggi con centinaia di persone. Alcune cerchie appartengono a popoli nomadi. Le più potenti possono includere più insediamenti. Commerciare (e a volte litigare) con altre cerchie è comune.",
+        "quest2": "Una faida decennale tra due cerchie è esplosa in un conflitto aperto. Qual è la causa della disputa? Ti unirai alla lotta o giurerai di fermarla?",
+        "option3": "Abbiamo forgiato le Terre del Ferro in una casa. I villaggi dei Rifugi sono collegati da strade battute. Le carovane commerciali viaggiano tra i Rifugi e le regioni più remote. Tuttavia, gran parte di questa terra rimane selvaggia.",
+        "quest3": "Le carovane sono costrette a pagare un pedaggio su una strada commerciale. Questo tributo, pari a un quarto delle merci, lascia molte comunità senza scorte per l'inverno. Chi impone queste richieste? Come farai giustizia?"
+      },
+      "Leaders": {
+        "name": "Leader",
+        "option1": "La leadership varia tanto quanto le persone. Alcune comunità sono guidate dal capo di una potente famiglia. Altre hanno un consiglio di anziani. In certi casi comandano i sacerdoti. In altri, è un duello nel cerchio a decidere.",
+        "quest1": "Hai sogni ricorrenti e vividi di una città nelle Terre del Ferro. Ha forti mura di pietra, mercati affollati e un castello in cima a una collina. E così tante persone! Ma nessuna città simile esiste realmente. Nei tuoi sogni, tu sei il sovrano. In qualche modo, a qualsiasi costo, devi rendere reale questa visione.",
+        "option2": "Ogni nostra comunità ha un proprio leader, chiamato supervisore. Ogni sette primavere, il popolo conferma il supervisore attuale o ne sceglie uno nuovo. Alcuni lo fanno a malincuore, altri bramano il potere e lo ottengono con intrighi o minacce.",
+        "quest2": "Una supervisora è caduta malata. Morirà senza aiuto, e il guaritore del villaggio non conosce questa malattia. Si sospetta veleno, o persino magia oscura. Le famiglie sono già in lotta per imporre il proprio candidato. Scoprirai la verità e la salverai?",
+        "option3": "Numerosi capi-clan governano piccoli domini. La maggior parte brama diventare l’unico vero re. Le loro lotte ci condurranno alla rovina.",
+        "quest3": "In segreto possiedi metà della Corona Vera, una reliquia del Vecchio Mondo. Secoli fa, fu spezzata da un'ascia che uccise il sovrano supremo. Sei suo discendente. Chi ti ha dato questa reliquia? Cercherai l’altra metà per unificare i clan o ne farai un altro uso?"
+      },
+      "Defense": {
+        "name": "Difesa",
+        "option1": "Nelle Terre del Ferro, le risorse sono troppo preziose e la popolazione troppo esigua per mantenere eserciti. Quando una comunità è minacciata, ci si difende insieme.",
+        "quest1": "Un insediamento è incapace, o riluttante, a difendersi da un pericolo imminente. Perché? Quale minaccia affrontano? Cosa farai per proteggerli?",
+        "option2": "I guardiani sono i nostri soldati, pattugliatori e miliziani. Difendono le comunità, organizzano le difese, e sorvegliano i dintorni. Alcuni sono legati alla propria terra, altri sono mercenari erranti, chiamati guardiani liberi.",
+        "quest2": "Ti imbatti in una guardiana morente. Ti parla di una missione importante e ti affida il compito. «Giura su di me», dice, porgendoti con la mano insanguinata un oggetto cruciale. Cos'è?",
+        "option3": "Le nostre bande di guerra si radunano per colpire i nemici o difendere i nostri territori. Non sono potenti come gli eserciti del Vecchio Mondo, ma sono addestrate e ben equipaggiate. I loro stendardi portano i segni delle glorie passate.",
+        "quest3": "Una banda di guerra è stata annientata da un nemico schiacciante. Qual è il tuo legame con loro? Chi li ha distrutti? Porterai il loro stendardo in cerca di vendetta, o lo riporterai in patria con onore?"
+      },
+      "Mysticism": {
+        "name": "Misticismo",
+        "option1": "Alcuni trovano ancora conforto nelle vecchie vie. Chiedono ai mistici di predire il futuro o di compiere rituali per ottenere raccolti abbondanti. Altri, per paura, agiscono contro chi sospettano abbia poteri. Tuttavia, molti credono che la vera magia—se mai è esistita—sia ormai perduta.",
+        "quest1": "Qualcuno a te caro è accusato di aver maledetto un villaggio, rendendo sterili i campi e malati i capi di bestiame. Qual è la prova? Difenderai questa persona e scoprirai la vera causa?",
+        "option2": "La magia è rara e pericolosa, ma chi la possiede è davvero dotato.",
+        "quest2": "Hai sentito parlare di qualcuno con poteri veri. Vive in un insediamento isolato. Chi ti ha parlato di lui? È temuto o rispettato? Perché giuri di trovarlo?",
+        "option3": "La magia scorre attraverso questa terra come i fiumi tra le colline. È lì, per chi osa afferrarla. Anche il popolo comune conosce qualche rituale utile.",
+        "quest3": "Qualcuno che ami ha percorso la via del potere e ne è stato corrotto. Chi è? Perché è caduto nell’oscurità? Dov'è ora? Cerchi di salvarlo o fermarlo?"
+      },
+      "Religion": {
+        "name": "Religione",
+        "option1": "Pochi abitanti delle Terre del Ferro ancora fanno gesti o mormorano preghiere per abitudine o tradizione, ma la maggior parte crede che gli dèi ci abbiano abbandonato da tempo.",
+        "quest1": "Una carismatica abitante delle Terre del Ferro, che invita i suoi seguaci a rinunciare ai residui delle religioni del Vecchio Mondo, propone un nuovo cammino per questo nuovo mondo. Quale dottrina insegna? Qual è il suo obiettivo? Hai giurato di aiutarla o di fermarla?",
+        "option2": "La gente onora gli dèi antichi e quelli nuovi. In questa terra dura, una preghiera è un conforto semplice ma potente.",
+        "quest2": "Un abitante delle Terre del Ferro è determinato a compiere un pellegrinaggio in terre pericolose. Quale luogo sacro cerca? Perché giuri di accompagnarlo in questo viaggio? Chi cerca di fermarlo e perché?",
+        "option3": "I nostri dèi sono molti. Si manifestano attraverso miracoli e apparizioni. Alcuni dicono che camminino tra noi in segreto. I sacerdoti comunicano la volontà degli dèi e governano molte comunità.",
+        "quest3": "Porti il segno di un dio. Qual è? I sacerdoti dichiarano che sei stato scelto per compiere un destino. Accetti questo fato e giuri di realizzarlo, o cerchi di opporviti? Quale forza ti ostacola?"
+      },
+      "Firstborn": {
+        "name": "Primogeniti",
+        "option1": "I primogeniti sono ormai leggenda. Alcuni dicono che i resti delle antiche tribù vivano ancora nelle foreste profonde o sulle alte montagne. Ma la maggior parte crede che siano sempre stati solo un mito.",
+        "quest1": "Qualcuno ossessionato dai primogeniti vuole trovare prove della loro esistenza. Servirà una spedizione nelle zone più remote delle Terre del Ferro. Qual è il tuo ruolo in questa missione?",
+        "option2": "I primogeniti vivono in isolamento e difendono con ferocia le proprie terre.",
+        "quest2": "Un elfo, esiliato dal suo popolo, vive con gli abitanti delle Terre del Ferro. Con il tempo è diventato parte della comunità. Ora sta morendo. Desidera tornare tra i suoi prima di morire. Cerca perdono o giustizia? Perché giuri di aiutarlo? Quale forza si oppone al suo ritorno?",
+        "option3": "I primogeniti hanno potere sulle Terre del Ferro. Gli elfi delle foreste profonde e i giganti delle colline ci tollerano e perfino commerciano con noi – per ora. Ma temiamo il giorno in cui decideranno che non siamo più i benvenuti.",
+        "quest3": "Umani e giganti sono sull’orlo della guerra. Cosa è successo? Da che parte stai? Si può fare qualcosa per evitare il conflitto?"
+      },
+      "Beasts": {
+        "name": "Bestie",
+        "option1": "Le bestie antiche sono solo leggende. Alcuni che si spingono nelle foreste profonde o sulle alte montagne tornano con storie assurde di creature mostruose, ma chiaramente sono deliranti. Tali cose non esistono.",
+        "quest1": "Hai assistito a un attacco da parte di quella che credevi una bestia di proporzioni mostruose. Nessuno ti crede. Anzi, ti accusano dell’omicidio che attribuisci a quella creatura. Come potrai dimostrare la tua innocenza? Puoi davvero fidarti dei tuoi stessi ricordi?",
+        "option2": "Bestie mostruose si aggirano nelle aree selvagge delle Terre del Ferro.",
+        "quest2": "Un noto abitante delle Terre del Ferro è consumato dal desiderio di vendicarsi contro una bestia specifica. Cosa rende questa creatura unica? Come ha guadagnato il suo odio? Aiuterai questa persona o tenterai di fermare il suo odio cieco prima che causi ancora più distruzione?",
+        "option3": "Bestie di ogni sorta vagano per le Terre del Ferro. Vivono soprattutto nelle regioni più selvagge, ma si spingono anche nei territori abitati per cacciare. Attaccano spesso bestiame, ma anche viaggiatori, carovane e persino insediamenti.",
+        "quest3": "I cacciatori professionisti guadagnano uccidendo bestie. Una in particolare, famosa per le sue molte uccisioni, è scomparsa durante una caccia. Ha incontrato finalmente il suo destino o c'è qualcosa di più oscuro dietro la sua scomparsa? Qual è il tuo legame con lei?"
+      },
+      "Horrors": {
+        "name": "Orrori",
+        "option1": "Solo storie per spaventare i bambini.",
+        "quest1": "Gli omicidi sono cominciati la scorsa stagione. Le voci locali dicono che siano opera di un orrore vendicativo, ma potrebbero esserci spiegazioni più terrene. Qual è il tuo legame con questi delitti? Cosa farai per fermarli?",
+        "option2": "Siamo diffidenti verso le foreste oscure e le acque profonde, dove si dice si nascondano mostri. Nelle notti lunghe, quando tutto è avvolto nell’oscurità, solo gli sciocchi escono di casa.",
+        "quest2": "Porti le cicatrici di un attacco da parte di un orrore. Di che tipo erano? Sono cicatrici fisiche, emotive, o entrambe? Come cerchi di guarire e ritrovare te stesso?",
+        "option3": "I morti non riposano nelle Terre del Ferro. Di notte accendiamo torce, spargiamo sale e mettiamo sentinelle alle porte. Non basta. Stanno arrivando.",
+        "quest3": "Un gruppo di abitanti delle Terre del Ferro ha fondato un insediamento in un territorio maledetto da un orrore malevolo. Quale male infesta questa terra? Perché insistono a stabilirsi lì? Li aiuterai o tenterai di convincerli a rinunciare a questa impresa folle?"
+      }
+    },
+    "OracleCategories": {
+      "Access": "Accesso",
+      "Action and Theme": "Azione e Tema",
+      "Ask the Oracle": "Chiedi all'Oracolo",
+      "Basic Form": "Forma Base",
+      "Challenge Rank": "Livello della Sfida",
+      "Chaotic": "Caotico",
+      "Character Creation": "Creazione del Personaggio",
+      "Character Name": "Nome del Personaggio",
+      "Character": "Personaggio",
+      "Characters": "Personaggi",
+      "Combat Event": "Evento di Combattimento",
+      "Community": "Comunità",
+      "Core": "Base",
+      "Creatures": "Creature",
+      "Delve the Depths": "Esplora le Profondità",
+      "Derelicts": "Relitti",
+      "Desert": "Deserto",
+      "Engineering": "Ingegneria",
+      "Factions": "Fazioni",
+      "Feature": "Caratteristica",
+      "Fortified": "Fortificato",
+      "Furnace": "Forgia",
+      "Grave": "Tomba",
+      "Haunted": "Infestato",
+      "Ice": "Ghiaccio",
+      "Infested": "Infestato",
+      "Inhabited": "Abitato",
+      "Interior": "Interni",
+      "Ironlander": "Abitante delle Terre del Ferro",
+      "Jovian": "Gioviano",
+      "Jungle": "Giungla",
+      "Living": "Alloggio",
+      "Location Themes": "Temi del Luogo",
+      "Mechanical": "Meccanico",
+      "Medical": "Medicina",
+      "Misc": "Varie",
+      "Mission": "Missione",
+      "Moves": "Mosse",
+      "Monstrosity": "Mostruosità",
+      "Name": "Nome",
+      "Ocean": "Oceano",
+      "Operations": "Operazioni",
+      "Opportunity": "Opportunità",
+      "Other": "Altro",
+      "Peril": "Pericolo",
+      "Place": "Luogo",
+      "Planets": "Pianeti",
+      "Population": "Popolazione",
+      "Production": "Produzione",
+      "Quick Name": "Nome Rapido",
+      "Research": "Ricerca",
+      "Rocky": "Roccia",
+      "Ruined": "Rovine",
+      "Sacred": "Sacrale",
+      "Sanctum": "Santuario",
+      "Sector Name": "Nome del Settore",
+      "Settlement": "Insediamento",
+      "Settlements": "Insediamenti",
+      "Shattered": "Frantumato",
+      "Sighting": "Avvistamento",
+      "Site Name": "Nome del Sito",
+      "Site Nature": "Natura del Sito",
+      "Space": "Spazio",
+      "Starships": "Astronavi",
+      "Tainted": "Contaminato",
+      "Threat": "Minaccia",
+      "Trap": "Trappola",
+      "Turning Point": "Punto di Svolta",
+      "Type": "Tipo",
+      "Vaults": "Cripte",
+      "Vital": "Essenziale",
+      "Zones": "Zone",
+      "Custom": "Oracoli Personalizzati"
+    },
+    "Asset Categories": {
+      "Custom": "Risorse Personalizzate",
+      "Ironsworn": {
+        "Companion": {
+          "Title": "Compagno",
+          "Description": "I compagni sono i tuoi aiutanti PNG. Quando acquisisci un compagno, dagli un nome e immagina il suo aspetto e la sua personalità. Se non hanno un'abilità iniziale, scegline una. Migliorare un compagno abilita abilità aggiuntive.\n\nI compagni utilizzano una barra della salute e possono subire danni in seguito a una delle tue mosse. Quando il tuo compagno subisce danni, esegui la mossa [Sopportare il Danno del Compagno](Ironsworn/Moves/Suffer/Companion_Endure_Harm) (pagina 94) per determinare l'esito. Vedi pagina 43 per saperne di più."
+        },
+        "Path": {
+          "Title": "Percorso",
+          "Description": "I percorsi rappresentano il tuo passato, i tuoi interessi, la tua formazione e le tue abilità. Forniscono vantaggi meccanici e narrativi, ma riflettono anche chi sei e come interagisci con il mondo. Per esempio, un **Ritualista** avrebbe probabilmente una visione del mondo diversa da un **Veterano**. Scegliere entrambi i percorsi può riflettere un'evoluzione del tuo personaggio o un background interessante."
+        },
+        "Combat Talent": {
+          "Title": "Talento da Combattimento",
+          "Description": "I personaggi di *Ironsworn* sono considerati combattenti esperti. Anche senza un talento da combattimento, puoi usare armi ed eseguire mosse di combattimento (pagina 78). Un talento da combattimento riflette un'area specifica di competenza e ti dà opzioni e bonus aggiuntivi.\n\nLe risorse di talento da combattimento richiedono in genere l'uso di un'arma specifica, come indicato nel testo della risorsa. Per esempio, se sei un **Porta-Scudo** e non hai uno scudo pronto, non puoi usare le abilità della risorsa."
+        },
+        "Ritual": {
+          "Title": "Rituale",
+          "Description": "La magia in *Ironsworn* viene lanciata attraverso rituali che supportano le tue azioni o agiscono come mosse uniche. Come tutte le risorse, i rituali possono essere selezionati man mano che acquisisci esperienza e possono essere migliorati nel tempo per renderli più flessibili o potenti.\n\nTutti i rituali utilizzano una mossa come abilità predefinita segnata. Devi eseguire questa mossa e il relativo tiro d’azione per attivarne l’effetto. Le eventuali abilità secondarie che ottieni migliorando la risorsa dipendono dall'esecuzione del rituale descritto come abilità predefinita."
+        }
+      },
+      "Starforged": {
+        "Command Vehicle": {
+          "Title": "Veicolo di Comando",
+          "Description": "Il **veicolo di comando** è la tua ASTRONAVE interstellare. È una risorsa predefinita del tuo personaggio, presa quando inizi la tua campagna. Se giochi con altri, è una risorsa condivisa; ognuno di voi può usare le abilità dell'ASTRONAVE mentre si trova a bordo.\n\nIl veicolo di comando ha un indicatore di integrità e parte con 5 integrità. Quando la tua ASTRONAVE subisce un colpo, esegui la mossa @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistere al Danno} per vedere cosa succede."
+        },
+        "Module": {
+          "Title": "Modulo",
+          "Description": "**I moduli** sono collegati alla tua ASTRONAVE e offrono opzioni e vantaggi aggiuntivi quando sei a bordo del veicolo.\n\nQueste risorse sono guadagnate e gestite da un singolo personaggio. Possono essere condivise con alleati, ma solo se è pratico per loro farne uso (non tutti sanno usare un LABORATORIO DI RICERCA).\n\nQuando esegui @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistere al Danno} e ottieni un fallimento, puoi segnare un modulo come rotto per ridurre il pericolo per la tua ASTRONAVE. Capovolgi la carta per indicare lo stato rotto. Un modulo rotto non può essere usato finché non lo ripari con successo usando @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Riparare}."
+        },
+        "Support Vehicle": {
+          "Title": "Veicolo di Supporto",
+          "Description": "**I veicoli di supporto** completano il tuo veicolo di comando per operazioni planetarie o a corto raggio. Se giochi con altri, uno di voi potrebbe essere il pilota o proprietario del veicolo di supporto, ma chiunque a bordo può usare le sue abilità, se appropriato alla situazione.\n\nCome il veicolo di comando, i tuoi veicoli di supporto hanno indicatori di integrità. L'integrità massima varia in base al tipo di veicolo. Quando un veicolo di supporto affronta una situazione o un ambiente dannoso, devi eseguire @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistere al Danno} per vedere come se la cava."
+        },
+        "Path": {
+          "Title": "Percorso",
+          "Description": "**I percorsi** sono il tuo background, interessi, formazione, abilità, poteri ed equipaggiamento chiave. Forniscono vantaggi meccanici e narrativi, ma riflettono anche chi sei e come interagisci con il mondo. Quando crei il tuo personaggio nel prossimo capitolo, selezionerai almeno due percorsi per iniziare.\n\nAlcuni percorsi rappresentano la tua abilità con uno stile d’arma caratteristico o un equipaggiamento. Se vedi un requisito in cima alla carta della risorsa, come “Se impugni un’arma da taglio...”, la risorsa è utilizzabile solo quando esegui un’azione con quell’oggetto."
+        },
+        "Companion": {
+          "Title": "Compagno",
+          "Description": "**I compagni** sono aiutanti PNG. Quando ottieni un compagno, dagli un nome e immagina il suo aspetto e la sua personalità.\n\nI compagni hanno un indicatore di salute che può ridursi se un esito li mette in pericolo. Quando il tuo compagno subisce danni, esegui la mossa @Compendium[foundry-ironsworn.starforgedmoves.d34cdf2408cd22b6]{Il Compagno Subisce un Colpo}. Quando la sua salute è a 0, rischia di essere ucciso o distrutto."
+        },
+        "Deed": {
+          "Title": "Impresa",
+          "Description": "**Le imprese** rappresentano i risultati notevoli e le situazioni della tua storia, e come questi eventi cambiano il tuo personaggio.\n\nLe imprese hanno un requisito elencato in cima alla carta, espresso come “Quando tu \\[blank\\].” Non puoi spendere esperienza per acquisire un’impresa finché non soddisfi il requisito, e non puoi scegliere un’impresa durante la creazione del personaggio."
+        }
+      }
+    },
+    "ROLLTABLE": {
+      "TypeOracle": "Oracolo"
+    },
+    "ROLLTABLES": {
+      "TypeOracle": "Oracoli"
+    },
+    "SCENE": {
+      "TypeSector": "Settore"
+    },
+    "SCENES": {
+      "TypeSector": "Settori"
+    },
+    "ACTOR": {
+      "SheetCompact": "Compatto",
+      "SheetFoe": "Nemico",
+      "SheetStarforgedLocation": "Luogo Starforged",
+      "SubtypeDerelict": "Relitto",
+      "SubtypePlanet": "Pianeta",
+      "SubtypeSettlement": "Insediamento",
+      "SubtypeStar": "Oggetto Stellare",
+      "SubtypeVault": "Cripta degli Antichi",
+      "TypeCharacter": "Personaggio",
+      "TypeFoe": "Personaggio del GM",
+      "TypeLocation": "Luogo",
+      "TypeShared": "Scheda Condivisa",
+      "TypeDelveSite": "Sito di Esplorazione",
+      "TypeStarship": "Astronave"
+    },
+    "ACTORS": {
+      "SubtypeDerelict": "Relitti",
+      "SubtypePlanet": "Pianeti",
+      "SubtypeSettlement": "Insediamenti",
+      "SubtypeStar": "Oggetti Stellari",
+      "SubtypeVault": "Cripte degli Antichi",
+      "TypeCharacter": "Personaggi",
+      "TypeFoe": "Personaggi del GM",
+      "TypeLocation": "Luoghi",
+      "TypeDelveSite": "Siti di Esplorazione",
+      "TypeStarship": "Astronavi"
+    },
+    "ITEM": {
+      "SubtypeConnection": "Connessione",
+      "SubtypeProgress": "Avanzamento",
+      "SubtypeVow": "Voto",
+      "TypeAsset": "Risorsa",
+      "TypeBond": "Legame",
+      "TypeBondset": "Gruppo di Legami",
+      "TypeDelveDomain": "Dominio del Sito",
+      "TypeDelveTheme": "Tema del Sito",
+      "TypeDelveThemeOrDomain": "Tema/Dominio del Sito",
+      "TypeMove": "Mossa",
+      "TypeProgressTrack": "Tracciato di Avanzamento"
+    },
+    "ITEMS": {
+      "SubtypeConnection": "Connessioni",
+      "SubtypeProgress": "Avanzamenti",
+      "SubtypeVow": "Voti",
+      "TypeAsset": "Risorse",
+      "TypeBond": "Legami",
+      "TypeBondset": "Gruppi di Legami",
+      "TypeDelveDomain": "Domini dei Luoghi",
+      "TypeDelveTheme": "Temi dei Luoghi",
+      "TypeMove": "Mosse",
+      "TypeProgressTrack": "Tracciati di Avanzamento"
+    },
+    "JOURNALENTRYPAGE": {
+      "TypeProgressTrack": "Tracciato di Avanzamento",
+      "TypeTruth": "Verità del Mondo",
+      "TypeTruthClassic": "Verità del Mondo Ironsworn",
+      "TypeTruthStarforged": "Verità del Mondo Starforged"
+    },
+    "JOURNALENTRYPAGES": {
+      "TypeProgressTrack": "Tracciati di Avanzamento",
+      "TypeTruth": "Verità del Mondo",
+      "TypeTruthClassic": "Verità del Mondo Ironsworn",
+      "TypeTruthStarforged": "Verità del Mondo Starforged"
+    },
+    "DELVESITE": {
+      "Danger": "Minaccia",
+      "Dangers": "Minacce",
+      "Denizen": "Abitante",
+      "Denizens": "Abitanti",
+      "Feature": "Caratteristica",
+      "Features": "Caratteristiche",
+      "FREQUENCY": {
+        "VeryCommon": "Molto Comune",
+        "Common": "Comune",
+        "Uncommon": "Non Comune",
+        "Rare": "Raro",
+        "Unforeseen": "Imprevedibile"
+      }
+    }
+  }
 }
