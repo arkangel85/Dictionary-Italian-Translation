@@ -1,1294 +1,1294 @@
 {
-	"Shadowrun6ActorSheetNPC": "Bla",
-	"shadowrun6-eden.Shadowrun6ActorSheetNPC": "Blubb",
-	"ACTOR": {
-		"TypeCritter": "Существо",
-		"TypeNpc": "Пешка/персонаж ведущего",
-		"TypePlayer": "Персонаж игрока",
-		"TypeSpirit": "Дух",
-		"TypeVehicle": "Транспорт/дрон"
-	},
-	"ITEM": {
-		"TypeAdeptpower": "Adept Power",
-		"TypeCritterpower": "Critter Power",
-		"TypeComplexform": "Complex Form",
-		"TypeContact": "Contact",
-		"TypeEcho": "Echo",
-		"TypeGear": "Gear",
-		"TypeLifestyle": "Lifestyle",
-		"TypeMartialartstyle": "Martial Art Style",
-		"TypeMartialarttech": "Martial Art Technique",
-		"TypeMetamagic": "Metamagic",
-		"TypeQuality": "Quality",
-		"TypeRitual": "Ritual",
-		"TypeSin": "SIN",
-		"TypeSkill": "Экспертные знания/Языки",
-		"TypeSpell": "Spell",
-		"TypeWeapon": "Weapon"
-	},
-	"QUALITY_CATEGORIES": {
-		"ADVANTAGE": "Advantage",
-		"DISADVANTAGE": "Disadvantage"
-	},
-	"TYPES": {
-		"Actor": {
-			"Critter": "Существо",
-			"NPC": "Пешка/персонаж ведущего",
-			"Player": "Персонаж игрока",
-			"Spirit": "Дух",
-			"Vehicle": "Транспорт/дрон"
-		},
-		"Item": {
-			"adeptpower": "Adept Power",
-			"critterpower": "Critter Power",
-			"complexform": "Complex Form",
-			"contact": "Contact",
-			"echo": "Echo",
-			"gear": "Gear",
-			"lifestyle": "Lifestyle",
-			"martialartstyle": "Martial Art Style",
-			"martialarttech": "Martial Art Technique",
-			"metamagic": "Metamagic",
-			"quality": "Quality",
-			"ritual": "Ritual",
-			"sin": "SIN",
-			"skill": "Экспертное знание/Язык",
-			"spell": "Заклинание",
-			"weapon": "Оружие"
-		}
-	},
-	"attrib": {
-		"agi": "Проворство",
-		"agi_short": "ПРВ",
-		"bod": "Тело",
-		"bod_short": "ТЕЛ",
-		"cha": "Харизма",
-		"cha_short": "Хар",
-		"dr": "Значение защиты",
-		"dr_short": "ЗЗ",
-		"edg": "Преимущество",
-		"edg_short": "ПРМ",
-		"ess": "Сущность",
-		"ess_short": "СУЩ",
-		"ini": "Инициатива",
-		"ini_short": "ИНИ",
-		"inia": "В Астрале",
-		"inia_short": "А.ИНИ",
-		"inim": "В Матрице",
-		"inim_short": "М.ИНИ",
-		"int": "Интуиция",
-		"int_short": "ИНТ",
-		"log": "Логика",
-		"log_short": "ЛОГ",
-		"mag": "Магия",
-		"mag_short": "МАГ",
-		"rea": "Реакция",
-		"rea_short": "РКЦ",
-		"res": "Резонанс",
-		"res_short": "РЕЗ",
-		"str": "Сила",
-		"str_short": "СИЛ",
-		"wil": "Воля",
-		"wil_short": "ВОЛ"
-	},
-	"label.skill": "Навык",
-	"section.attributes": "Характеристики",
-	"shadowrun6": {
-		"actor": {
-			"actions": "Действия",
-			"actions_major": "Major",
-			"actions_minor": "Minor",
-			"initiative": "Инициатива",
-			"initiative_astral": "Инициатива в Астрале",
-			"metatype": "Метатип",
-			"name": "Имя",
-			"nav": {
-				"basics": "Основное",
-				"biography": "Досье",
-				"combat": "Бой",
-				"description": "Описание",
-				"equip": "Снаряжение",
-				"input": "Input",
-				"magic": "Магия",
-				"matrix": "Матрица",
-				"overview": "Обзор",
-				"skills": "Навыки",
-				"vehicles": "Транспорт"
-			},
-			"skills": "Навыки",
-			"spells": "Заклинания"
-		},
-		"adeptpower": {
-			"activation": "Activation",
-			"activation_major": "Major Action",
-			"activation_minor": "Minor Action",
-			"activation_passive": "Passive",
-			"cost": "Cost",
-			"haslevel": "Has level",
-			"pp": "PP",
-			"perLevel": "per level"
-		},
-		"critterpower": {
-			"actiontitle": "Action",
-			"action": {
-				"auto": "Auto",
-				"major": "Major",
-				"minor": "Minor"
-			}
-		},
-		"attack_rating": {
-			"astral": "Mana Att. Rtg",
-			"matrix": "Matrix Att. Rtg.",
-			"physical": "Physical Att. Rtg",
-			"social": "Social Att. Rtg.",
-			"vehicle": "Vehicle Att. Rtg."
-		},
-		"combat": {
-			"togglePhysical": "Use physical initiative",
-			"toggleMatrix": "Use matrix initiative",
-			"toggleAstral": "Use astral initiative"
-		},
-		"complexform": {
-			"duration": "Duration",
-			"fading": "Fade Value",
-			"none": "None",
-			"oppAttr1": "Opposing Attr. 1",
-			"oppAttr2": "Opposing Attr. 2",
-			"skill": "Навык",
-			"threshold": "Threshold"
-		},
-		"contact": {
-			"rating_short": "Rtg",
-			"rating": "Rating",
-			"loyalty": "Loyalty",
-			"loyalty_short": "Loy",
-			"type": "Type"
-		},
-		"defense": {
-			"astral": "Defense: Astral Combat",
-			"drain": "Resist Drain",
-			"fading": "Resist Fading",
-			"damage_astral": "Resist Astral Dmg",
-			"damage_physical": "Resist Physical Dmg",
-			"physical": "Defense: Attacks",
-			"spells_direct": "Defense: Direct Spells",
-			"spells_indirect": "Defense: Ind. Spells",
-			"spells_other": "Defense: Ind. Spells",
-			"toxin": "Resist Toxin"
-		},
-		"defense_rating": {
-			"label": "Defense Rating",
-			"astral": "Mana Def. Rtg",
-			"matrix": "Matrix Def. Rtg.",
-			"physical": "Physical Def. Rtg",
-			"social": "Social Def. Rtg.",
-			"vehicle": "Vehicle Def. Rtg."
-		},
-		"derived": {
-			"composure": "Composure",
-			"defense_rating": "Defense Rating",
-			"judge_intentions": "Judge Intentions",
-			"lift_carry": "Lift / Carry",
-			"memory": "Memory",
-			"matrix_perception": "Matrix Perception",
-			"heal": {
-				"physical": "Physical Healing",
-				"stun": "Mental Healing"
-			}
-		},
-		"edge_action": {
-			"anticipation": "Anticipation",
-			"big_speech": "Big Speech",
-			"bring_the_drama": "Bring the Drama",
-			"called_shot_disarm": "Called Shot - Disarm",
-			"called_shot_vitals": "Called Shot - Vitals",
-			"fire_from_cover": "Fire from Cover",
-			"knockout_blow": "Knockout Blow",
-			"shank": "Shank"
-		},
-		"edge_boost": {
-			"add_edge_pool": "Add Edge to your dice pool",
-			"buy_auto_hit": "Buy one automatic hit",
-			"count_2_glitch": "Count 2s as glitches for the target",
-			"create_special": "Create special effect",
-			"edge_action": "Edge Action - (1-5)",
-			"heal_1_physic": "Heal 1 point of Physical damage",
-			"heal_1_stun": "Heal one box of Stun damage",
-			"negate_1_edge": "Negate 1 Edge of a foe",
-			"plus_1_roll": "+1 to a single die",
-			"plus_3_ini": "Add 3 to your Initiative Score",
-			"reroll_failed": "Reroll all failed dice",
-			"reroll_one": "Reroll one die"
-		},
-		"gear": {
-			"subtype": {
-				"ACCESSORY": "Accessories",
-				"AMMUNITION": "Ammunition",
-				"ARMOR_BODY": "Armor",
-				"ARMOR_SOCIAL": "Armored clothing",
-				"ARMOR_CLOTHES": "Normal clothing",
-				"ARMOR_HELMET": "Helmets",
-				"ARMOR_SHIELD": "Shields",
-				"ASSAULT_CANNON": "Assault Cannon",
-				"ATVS": "ATVs",
-				"AUDIO": "Auditory Devices",
-				"AUDIO_ENHANCEMENT": "Audio Enhancements",
-				"BIKES": "Bikes",
-				"BIOTECH": "Биотехнология",
-				"BIOWARE_COSMETICS": "Cosmetic Bioware",
-				"BIOWARE_CULTURED": "Cultured Bioware",
-				"BIOWARE_STANDARD": "Normal Bioware",
-				"BIOWARE_IMPLANT_WEAPON": "Bioimplantweapon",
-				"BLADES": "Blades",
-				"BOATS": "Boats",
-				"BOWS": "Bows",
-				"BREAKING": "Breaking",
-				"BTL": "BTLs",
-				"CANNONS_LAUNCHERS": "Cannons & Launchers",
-				"CARS": "Cars",
-				"CLOSE_COMBAT": "Close Combat",
-				"CLUBS": "Clubs",
-				"COMMLINK": "Commlink",
-				"COMMUNICATION": "Communication and Jamming",
-				"CROSSBOWS": "Crossbows",
-				"CYBER_BODYWARE": "Cyber Bodyware",
-				"CYBER_COSMETICS": "Cosmetic Cyberware",
-				"CYBER_EARWARE": "Earware",
-				"CYBER_EYEWARE": "Eyeware",
-				"CYBER_HEADWARE": "Headware",
-				"CYBER_IMPLANT_WEAPON": "Cyber Implant Weapon",
-				"CYBER_LIMB_ACCESSORY": "Cyberlimb Accessories",
-				"CYBER_LIMB_ENHANCEMENT": "Cyberlimb Enhancements",
-				"CYBER_LIMBS": "Cyberlimbs",
-				"CYBERDECK": "Cyberdeck",
-				"CYBERJACK": "Cyberjack",
-				"DRUGS": "Drugs",
-				"ELECTRONIC_ACCESSORIES": "Electronic Accessories",
-				"EXPLOSIVES": "Explosives",
-				"FIREARMS": "Firearms",
-				"FIREARMS_ACCESSORY": "Weapon Accessories",
-				"FIXED_WING": "Fixed Wings",
-				"FOCI_ENCHANTING": "Enchanting Foci",
-				"FOCI_METAMAGIC": "Metamagic Foci",
-				"FOCI_POWER": "Power-Foci",
-				"FOCI_QI": "Qi-Foci",
-				"FOCI_SPELL": "Spell Foci",
-				"FOCI_SPIRIT": "Spirit Foci",
-				"FOCI_WEAPON": "Weapon Foci",
-				"GENOM_CHANGES": "Genom Changes",
-				"EXOTIC_METAGENETICS": "Exotic Metagenetics",
-				"MICRO_ENVIRONADAPT": "Micro-Environmental Adaption",
-				"COMPLEMENTAL_GENETICS": "Complemental Genetics",
-				"GRAPPLE_GUN": "Grapple Gun",
-				"GRAV": "Gravitational Drive Vehicles",
-				"GRENADES": "Grenades",
-				"GRENADES_MINI": "Mini-Grenades",
-				"HOLDOUTS": "Holdouts",
-				"HOVERCRAFT": "Hovercraft",
-				"ID_CREDIT": "ID and Credsticks",
-				"IMAGING": "Imaging",
-				"INDUSTRIAL_CHEMICALS": "Industrial Chemicals",
-				"INSTRUMENT": "Instruments",
-				"INSTRUMENT_ACCESSORY": "Instrument Accessories",
-				"LARGE_DRONES": "Large Drones",
-				"LAUNCHERS": "Launchers",
-				"LAV": "Low Altitude Vehicles (VectorThrust)",
-				"LTAV": "Lighter Than Air Vehicles",
-				"LIVING_PERSONA": "Living Persona",
-				"MACHINE_GUNS": "Machine Guns",
-				"MACHINE_PISTOLS": "Machine Pistols",
-				"MAGICAL_FORMULA": "Magical Formula",
-				"MAGIC_SUPPLIES": "Magical Supplies",
-				"MICRODRONES": "Microdrones",
-				"MINIDRONES": "Minidrones",
-				"MEDIUM_DRONES": "Medium Drones",
-				"PREPARATION": "Preparations",
-				"PREPARATION_EXTENDED": "Preparations (extended potency)",
-				"MISSILES": "Missiles",
-				"MODIFICATION": "Modifications",
-				"MOD_LAYOUT": "Layout Mods",
-				"MOD_CORE": "Core Mods",
-				"MOD_TIRES": "Tires",
-				"MOD_HANDLING": "Handling Mods",
-				"MOD_TRAILER": "Trailers and Sidecars",
-				"MOD_INTERIOR": "Seating and Cargo Mods",
-				"MOD_CARGO": "CF Mods",
-				"MOD_FORM": "Forms",
-				"MOD_ARMOR": "Foundations",
-				"MOD_ELEMENTS": "Elements",
-				"MOD_ACC": "Acceleration Mods",
-				"MOD_EFFICIENCY": "Efficiency Mods",
-				"MOD_SPEED": "Speed Mods",
-				"MOD_COAT": "Electronic Skin Coatings",
-				"MOD_MISC": "Miscellaneous Electronic Mods",
-				"MOD_PILOT": "Pilot Mods",
-				"MOD_MOUNT": "Weapon Mounts",
-				"MOD_RACK": "Drone Racks",
-				"MOD_OTHERS": "Other Hardpoint Mods",
-				"MOD_PROPULSION": "Secondary Propulsion Systems",
-				"NANOWARE_HARD": "HardNanoware-Systeme",
-				"NANOWARE_SOFT": "SoftNanoware-Systeme",
-				"NANO_CYBERWARE": "Nano-Cyberware",
-				"NANOTECH_EQUIPMENT": "Nanotech Equipment",
-				"OPTICAL": "Optical",
-				"OTHER_PROGRAMS": "Other Programs",
-				"OTHER_CLOSE": "Other Melee Weapons",
-				"OTHER_SPECIAL": "Special Weapons",
-				"PISTOLS_HEAVY": "Heavy Pistols",
-				"PISTOLS_LIGHT": "Light Pistols",
-				"PROJECTILES": "Projectiles",
-				"RFID": "RFID",
-				"#RIFLES": "Rifles",
-				"RIFLE_ASSAULT": "Assault Rifles",
-				"RIFLE_HUNTING": "Hunting Rifles",
-				"RIFLE_SNIPER": "Sniper Rifles",
-				"RIGGER_CONSOLE": "Rigger Console",
-				"ROCKETS": "Rockets",
-				"ROTORCRAFT": "Rotorcraft",
-				"SECURITY": "Security",
-				"SENSOR": "Sensors",
-				"SENSOR_HOUSING": "Sensor Housing",
-				"SHOTGUNS": "Shotguns",
-				"SKILLSOFT": "Софт навыка",
-				"SLAP_PATCHES": "Slap-Patches",
-				"SMALL_DRONES": "Small Drones",
-				"SNIPER_RIFLES": "Sniper Rifles",
-				"SOFTWARE": "Software",
-				"SPACECRAFT": "Spacecrafts",
-				"SPECIAL_WEAPONS": "Special Weapons",
-				"SUBMACHINE_GUNS": "Submachine Guns",
-				"SUBMARINES": "Submarines",
-				"SURVIVAL_GEAR": "Survival",
-				"SYMBIONTS": "Symbionts",
-				"TAC_NET": "Tactical Network",
-				"TASERS": "Taser",
-				"THROWERS": "Throwers",
-				"THROWING": "Throwing weapons",
-				"TRANSGENETICS": "Transgenetics",
-				"TACNET_PROGRAM": "TAC-NetProgram",
-				"TOOLS": "Tools",
-				"PLACEHOLDERS": "Standard Goods",
-				"TOXINS": "Toxins",
-				"TRUCKS": "Pickup Trucks",
-				"TRACKED": "Tracked Vehicles",
-				"SPECIAL_VEHICLES": "Special Vehicles",
-				"UNARMED": "Unarmed",
-				"VANS": "Vans and Cargo Trucks",
-				"VEHICLE_ACCESSORY": "Vehicle Accessories",
-				"VISION_ENHANCEMENT": "Vision Enhancement",
-				"VTOL": "VTOL/VSTOL",
-				"WALKER": "Walker",
-				"WEAPON_SECURITY": "Weapon Security Option",
-				"WHIPS": "Whips",
-				"LMG": "Light Machine Gun",
-				"MMG": "Medium Machine Gun (min.strength 3)",
-				"HMG": "Heavy Machine Gun (min. strength 5)",
-				"HACKING_PROGRAM": "Hackingprograms",
-				"BASIC_PROGRAM": "Basicprograms",
-				"RIGGER_PROGRAM": "Riggerprograms",
-				"AUTOSOFT": "Autosofts",
-				"GROUND": "Ground Drones",
-				"ANTHRO": "Antropomorph Drones",
-				"AIR": "Air Drones",
-				"AQUATIC": "Aquatic Drones",
-				"AMMO_TASER": "Taser",
-				"AMMO_LIGHT": "Holdout/Light Pistol/Machine Pistol",
-				"AMMO_HEAVY": "Heavy Pistol/Sub MachineGun",
-				"AMMO_RIFLES": "Rifle",
-				"AMMO_DARTS": "Injection Dart",
-				"AMMO_CANNONS": "Assault Cannon",
-				"AMMO_DMSO": "DMSO-Gelpack",
-				"AMMO_MACHINE_GUN": "Maschine Gun",
-				"AMMO_INJECTION_BOLT": "Injection Bolt",
-				"AMMO_BOLT": "Bolt"
-			}
-		},
-		"initiative": {
-			"astral": "Astral",
-			"physical": "Физическая",
-			"matrix": "Matrix"
-		},
-		"item": {
-			"accessories": "Accessories",
-			"ammunition": "Ammo",
-			"attackvalues": "Attack rtg.",
-			"availability": "Avail.",
-			"capacity": "Capacity",
-			"category": "Category",
-			"damage": "Урон",
-			"defencerating": "Defence rtg",
-			"description": "Description",
-			"essence": "Essence",
-			"feature": "Features",
-			"firemode": {
-				"BF": "Burst Fire",
-				"FA": "Full Auto",
-				"SA": "Semi Automatic",
-				"SS": "Single Shot"
-			},
-			"mastyle": {
-				"category": {
-					"grappling": "Grappling",
-					"mobility": "Mobility",
-					"ranged": "Ranged",
-					"striking": "Striking",
-					"weapon": "Weapon"
-				}
-			},
-			"mode": "Modes",
-			"mode_bf": "BF",
-			"mode_fa": "FA",
-			"mode_sa": "SA",
-			"mode_ss": "SS",
-			"natural": "Nat. armor",
-			"physical_damage": "P",
-			"physical_special_damage": "S",
-			"price": "Price",
-			"skill": "Навык",
-			"skillspec": "Специализация",
-			"social": "Social",
-			"stun_damage": "S",
-			"subtype": "Subtype",
-			"type": "Type",
-			"vehicle": {
-				"armor.long": "Armor",
-				"armor.short": "A",
-				"rigRating.long": "Control Rig",
-				"sensor.long": "Sensor",
-				"sensor.short": "S"
-			}
-		},
-		"itemtype": {
-			"ACCESSORY": "Аксессуар",
-			"AMMUNITION": "Патроны",
-			"ARMOR": "Броня",
-			"ARMOR_ADDITION": "Модификация брони",
-			"BIOLOGY": "Биология",
-			"BIOWARE": "Биоимплант",
-			"CHEMICALS": "Chemicals",
-			"CYBERWARE": "Cyberware",
-			"DRONES": "Drones",
-			"ELECTRONICS": "Electronics",
-			"GENETICS": "GENETICS",
-			"MAGICAL": "MAGICAL",
-			"NANOWARE": "NANOWARE",
-			"SURVIVAL": "Survival gear",
-			"TOOLS": "TOOLS",
-			"VEHICLES": "Vehicles",
-			"WEAPON_CLOSE_COMBAT": "Weapon, Close Combat",
-			"WEAPON_FIREARMS": "Weapon, Firearms",
-			"WEAPON_RANGED": "Weapon, Projectiles",
-			"WEAPON_SPECIAL": "Weapon, Special"
-		},
-		"label": {
-			"accessories": "Accessories",
-			"adepts": "Adepts",
-			"action": "Action",
-			"actionduration": {
-				"minor.short": "Mi",
-				"major.short": "Ma"
-			},
-			"attack_rating": "Attack Rating",
-			"attack_rating_short": "AR",
-			"attribute": "Характеристика",
-			"base": "Base",
-			"column": {
-				"action": "Action",
-				"count": "Cnt",
-				"name": "Name",
-				"rating": "Rtg."
-			},
-			"attack.short": "A",
-			"sleaze.short": "S",
-			"dataproc.short": "D",
-			"firewall.short": "F",
-			"devicerating.short": "DR",
-			"d6": "D6",
-			"damage": "Урон",
-			"damage_short": "Dmg",
-			"defense_rating": "Defense Rating",
-			"delete": "Delete",
-			"device_mode": "Device Mode",
-			"devRating": "Device rtg.",
-			"dice": "Dice",
-			"edit": "Edit",
-			"expertise": "Мастерство",
-			"extended_test": "Extended Test",
-			"faster": "Accelerate",
-			"features": "Features",
-			"firemode_current": "Current Firemode",
-			"firemodes": "Firemodes",
-			"force": "Force",
-			"gender": "Пол",
-			"legality.illegal.short": "I",
-			"legality.legal.short": "L",
-			"level": "Has levels",
-			"mages": "Mages",
-			"max": "Maximum",
-			"modifications": "Modifications",
-			"modifier": "Adj.",
-			"name": "Name",
-			"none": "-",
-			"not_present": "not present",
-			"offroad": "Off-Road",
-			"onroad": "On-Road",
-			"points": "Points",
-			"pool": "Pool",
-			"poolmod": "Pool modifier",
-			"programs.short": "P",
-			"progSlots": "Prog. slots",
-			"rating1": "Rating 1",
-			"rating2": "Rating 2",
-			"rating3": "Rating 3",
-			"soaked": "Soaked {soaked} of {threshold} damage",
-			"slower": "Decelerate",
-			"specialization": "Специализация",
-			"threshold": "Threshold",
-			"value": "Value",
-			"wilddie": "Wild Die"
-		},
-		"lifestyle": {
-			"cost": "Cost",
-			"paid": "Paid",
-			"type": "Type",
-			"sin": "Linked SIN",
-			"street": "Street",
-			"squatter": "Squatter",
-			"low": "Low",
-			"middle": "Middle",
-			"high": "High",
-			"luxury": "Luxury"
-		},
-		"matrixaction": {
-			"backdoor_entry": "Backdoor Entry",
-			"brute_force": "Brute Force",
-			"change_icon": "Change Icon",
-			"check_os": "Check OS",
-			"control_device": "Control Device",
-			"crack_file": "Crack File",
-			"crash_program": "Crash Program",
-			"data_spike": "Dataspike",
-			"disarm_data_bomb": "Disarm Data Bomb",
-			"edit_file": "Edit File",
-			"encrypt_file": "Encrypt File",
-			"enter_host": "Enter Host",
-			"erase_matrix_signature": "Erase Matrix Sign.",
-			"format_device": "Format Device",
-			"full_matrix_defense": "Full Matrix Defense",
-			"hash_check": "Hash Check",
-			"hide": "Hide",
-			"jack_out": "Jack Out",
-			"jam_signals": "Jam Signals",
-			"jump_rigged": "Jump Into Rigged D.",
-			"matrix_perception": "Matrix Perception",
-			"matrix_search": "Matrix Search",
-			"probe": "Probe",
-			"reboot_device": "Reboot Device",
-			"reconfigure": "Reconf. Matrix Attr.",
-			"send_message": "Send Message",
-			"set_data_bomb": "Set Data Bomb",
-			"snoop": "Snoop",
-			"spoof_command": "Spoof Command",
-			"switch_ifmode": "Switch Interface Mode",
-			"tarpit": "Tarpit",
-			"trace_icon": "Trace Icon"
-		},
-		"matrixini": {
-			"ar": "AR",
-			"vrcold": "VR",
-			"vrhot": "VR Hot"
-		},
-		"monitor": {
-			"matrix": "Матрица",
-			"physical": "Здоровье",
-			"stun": "Оглушение",
-			"overflow": "Избыток"
-		},
-		"mortype": {
-			"adept": "Адепт",
-			"aspectedmagician": "Аспектный",
-			"magician": "Маг",
-			"mundane": "Простак",
-			"mysticadept": "Мистический",
-			"technomancer": "Техномант"
-		},
-		"newitem": {
-			"adeptpower": "Name your power",
-			"ammunition": "Hot stuff ammo",
-			"armor": "Something trendy",
-			"biology": "Biohazard",
-			"bodyware": "Some cool enhancement",
-			"chemicals": "The good stuff",
-			"complexform": "How complex do you like it?",
-			"contact": "Who you gonna call? Ghostbusters!",
-			"critterpower": "What's so special about it?",
-			"cyberware": "Some cool cyber enhancement",
-			"drones": "My Flying Eye",
-			"electronics": "Nerd toy",
-			"focus": "Something to stay focussed",
-			"lifestyle": "Card board box or suite?",
-			"martialartstyle": "What's your style?",
-			"martialarttech": "Technique, which technique?",
-			"matrix": "Check out my deck!",
-			"metamagic": "What have you learned?",
-			"quality": "What is your feat?",
-			"ritual": "Singing Hallelujah",
-			"sin": "Who are you? Who, who, who, who",
-			"skill": {
-				"knowledge": "Твоя нердская тема",
-				"language": "Тарабарщина"
-			},
-			"spell": "Abracadabra",
-			"survival": "Handy swiss army knife",
-			"vehicles": "Awesome ride",
-			"weapon": "Named weapons are much cooler",
-			"weaponclose": "Something heavy"
-		},
-		"npc": {
-			"subtype": {
-				"npc": "NPC",
-				"critter": "Critter",
-				"spirit": "Spirit",
-				"sprite": "Sprite"
-			},
-			"gruntrules": "Является пешкой",
-			"mortype": "Магия/Резонанс"
-		},
-		"numerical": {
-			"base": "осн",
-			"baseString": "Base Value",
-			"max": "Max",
-			"mod": "кор"
-		},
-		"programtype": {
-			"basic": "Basic programs",
-			"hacking": "Hacking programs"
-		},
-		"program": {
-			"baby_monitor": {
-				"name": "Baby Monitor",
-				"desc": "Tells you your current Overwatch Score without needing an action."
-			},
-			"browse": {
-				"name": "Browse",
-				"desc": "When doing Matrix searches, gain 1 Edge that is either spent immediately on that action or disappears."
-			},
-			"configurator": {
-				"name": "Configurator",
-				"desc": "Store alternate deck configuration, swap to it instead of changing two attributes."
-			},
-			"edit": {
-				"name": "Edit",
-				"desc": "When doing Edit File action, gain 1 Edge that must be immediately spent or else it vanishes."
-			},
-			"encryption": {
-				"name": "Encryption",
-				"desc": "+2 dice when doing Encrypt File action"
-			},
-			"signal_scrubber": {
-				"name": "Signal Scrubber",
-				"desc": "Reduce noise level by 2"
-			},
-			"toolbox": {
-				"name": "Toolbox",
-				"desc": "+1 to Data Processing"
-			},
-			"virtual_machine": {
-				"name": "Virtual Machine",
-				"desc": "2 extra program slots; take 1 extra box of unresisted Matrix damage when attacked"
-			},
-			"armor": {
-				"name": "Armor",
-				"desc": "+2 to Defense Rating."
-			},
-			"biofeedback": {
-				"name": "Biofeedback",
-				"desc": "Causes Stun (if target is in cold-sim) or Physical (if target is in hot-sim) damage with Matrix attack. This program is linked to the Attack attribute."
-			},
-			"biofeedback_filter": {
-				"name": "Biofeedback Filter",
-				"desc": "Allow Device Rating or Body roll to soak Matrix damage."
-			},
-			"blackout": {
-				"name": "Blackout",
-				"desc": "Like Biofeedback, but Stun damage only. This program is linked to the Attack attribute."
-			},
-			"decryption": {
-				"name": "Decryption",
-				"desc": "+2 dice on Crack File action"
-			},
-			"defuse": {
-				"name": "Defuse",
-				"desc": "Allow Device Rating or Body roll to soak damage from Data Bomb."
-			},
-			"exploit": {
-				"name": "Exploit",
-				"desc": "Reduce Defense Rating of hacking target by 2."
-			},
-			"fork": {
-				"name": "Fork",
-				"desc": "Hit two targets with a single Matrix action without splitting dice pools."
-			},
-			"lockdown": {
-				"name": "Lockdown",
-				"desc": "Cause link-lock when you do Matrix damage."
-			},
-			"overclock": {
-				"name": "Overclock",
-				"desc": "Add two dice to a Matrix action. One of them must be the wild die."
-			},
-			"stealth": {
-				"name": "Stealth",
-				"desc": "When performing a Hide action, gain 1 Edge that must be spent as part of the action or vanish. This program is linked to the Sleaze attribute."
-			},
-			"trace": {
-				"name": "Trace",
-				"desc": "When performing a Trace Icon action, gain 1 Edge that must be spent as part of the action or vanish. This program is linked to the Sleaze attribute."
-			}
-		},
-		"qualityedit": {
-			"category": "Category",
-			"description": "Description",
-			"explain": "Explanation",
-			"name": "Name",
-			"new": "New"
-		},
-		"ritualfeatures": {
-			"anchored": "Anchored",
-			"material_link": "Material Link",
-			"minion": "Minion",
-			"spell": "Spell",
-			"spotter": "Spotter"
-		},
-		"roll": {
-			"accumulated": "Accumulated",
-			"actionText": {
-				"attack_target_multiple": "Attacking multiple targets with {name}",
-				"attack_target_none": "Attacking target with {name}",
-				"attack_target_one": "Attacking {target} with {name}",
-				"cast_target_multiple": "Casting {name} on multiple targets",
-				"cast_target_none": "Casting {name}",
-				"cast_target_one": "Casting {name} on {target}",
-				"skill": "Проверка навыка",
-				"thread": "Threading {name}",
-				"defense": {
-					"physical": "Defend against physical attack",
-					"spells_direct": "Defend direct combat spells",
-					"spells_indirect": "Defend indirect combat spells"
-				},
-				"soak": {
-					"drain": "Resist {damage} Drain",
-					"fading": "Resist {damage} Fading",
-					"damage_physical": "Resist {damage} Physical Damage",
-					"damage_stun": "Resist {damage} Stun Damage"
-				}
-			},
-			"apply_damage": "Apply damage",
-			"ar_0": "Close",
-			"ar_1": "Near",
-			"ar_2": "Medium",
-			"ar_3": "Far",
-			"ar_4": "Extreme",
-			"attack": "Attack",
-			"attackRating": "Attack Rating",
-			"bf_type": "Type",
-			"bf": {
-				"narrow_burst": "Narrow Burst",
-				"wide_burst": "Wide Burst"
-			},
-			"button": {
-				"defense": "Roll Defense",
-				"drain": "Resist Drain",
-				"soak": "Soak damage"
-			},
-			"configure": "Configure your roll",
-			"criticalglitch": "Critical glitch",
-			"heal_apply": "Heal",
-			"damage": "Урон:",
-			"damage_apply": "Apply damage",
-			"defRating": "Defense: ",
-			"edge": {
-				"gain_player": "{name} gets {value} Edge",
-				"gain_player_capped": "{name} would {value} Edge, but cannot get more than {capped}",
-				"getting": "Getting Edge",
-				"no_gain": "No one gets Edge",
-				"situational": "Situational Edge",
-				"spending": "Spending Edge"
-			},
-			"edge_perform": "Do it",
-			"edgegain": "Edge-Gain (max): ",
-			"edgegain_player": " (Player)",
-			"exp": "Мастерство",
-			"explode": "Explode",
-			"fa_area": "Area",
-			"firemode": "Firemode",
-			"failure": "Failure",
-			"failedDefense": "You got hit and now it is going to hurt",
-			"failedSoak": "You got damage:",
-			"glitch": "Glitch",
-			"hits_bought": "Hits bought",
-			"hits": "hits",
-			"mode": "Mode",
-			"modifier": "Pool modifier",
-			"noedgegain": "No edge gain",
-			"nosuccess": "hits, threshold: ",
-			"notarget": "No target selected",
-			"pool": "Pool",
-			"range": "Distance",
-			"spec": "Специализация",
-			"spell": {
-				"ampUp": {
-					"1": "Damage+1, Drain+2",
-					"2": "Damage+2, Drain+4",
-					"title": "Amp up"
-				},
-				"incArea": {
-					"1": "Radius +2m, Drain+1",
-					"2": "Radius +4m, Drain+2",
-					"3": "Radius +6m, Drain+3",
-					"4": "Radius +8m, Drain+4",
-					"title": "Increase Area"
-				},
-				"title": "Adjust the spell"
-			},
-			"subject": "Chatmessage",
-			"success": "Success",
-			"successes": "hits",
-			"successfulDefense": "You successfully avoided being hit",
-			"successfulSoak": "You managed to ignore the damage",
-			"target": "Target",
-			"threshold": "Threshold",
-			"weapon": "Define your attack",
-			"wilddie": "Use wild die",
-			"with": "with"
-		},
-		"rollType": {
-			"bought": "Buy hits",
-			"normal": "Roll dice"
-		},
-		"section": {
-			"adeptpowers": {
-				"add": "Add new power",
-				"column.points": "PP",
-				"title": "Adept Powers"
-			},
-			"ammo": "Ammunition",
-			"ammo_add": "Add ammunition",
-			"armor": {
-				"add": "Add new armor",
-				"column": {
-					"action": "Action",
-					"defense": "DR",
-					"name": "Name",
-					"social": "Social"
-				},
-				"title": "Armor"
-			},
-			"biology": "Биология",
-			"bodyware": {
-				"add": "Add new bioware or cyberware",
-				"column.capacity": "Cap.",
-				"column.essence": "Ess.",
-				"footer.total_essence": "Remaining Essence",
-				"title": "Augmentations"
-			},
-			"chemicals": "Chemicals",
-			"complexforms": {
-				"add": "Add new complex form",
-				"column.duration": "Dur",
-				"column.fade": "Fade",
-				"title": "Complex Forms"
-			},
-			"contacts": {
-				"add": "Add new contact",
-				"title": "Contacts"
-			},
-			"critterpowers": {
-				"add": "Add critter power",
-				"title": "Powers"
-			},
-			"defense": "Defenses & Resistances",
-			"derived": "Derived Values",
-			"drones": {
-				"add": "Add new drone",
-				"title": "Drones"
-			},
-			"electronics": "Electronics",
-			"echo": {
-				"add": "Add new echo",
-				"title": "Echoes"
-			},
-			"initiative": "Initiative",
-			"martialarts": {
-				"add": "Add new style",
-				"tech_add": "Add new technique",
-				"title": "Martial Arts"
-			},
-			"focus": {
-				"add": "Add new focus",
-				"column.rating": "Lv",
-				"title": "Foci"
-			},
-			"lifestyles": {
-				"add": "Add new lifestyle",
-				"title": "Lifestyles"
-			},
-			"gear": {
-				"title": "Gear"
-			},
-			"matrix_base": {
-				"overwatch": "Overwatch"
-			},
-			"matrix_actions": {
-				"title": "Matrix Actions"
-			},
-			"matrix_combat": {
-				"title": "Matrixcombat"
-			},
-			"matrix_devices": {
-				"add": "Add new matrix device",
-				"column": {
-					"action": "Action",
-					"devRating": "Dev.R.",
-					"name": "Name"
-				},
-				"title": "Matrix Devices"
-			},
-			"metamagic": {
-				"add": "Add new metamagic",
-				"title": "Metamagics"
-			},
-			"notes": {
-				"title": "Notes"
-			},
-			"persona": {
-				"distribute": "Distribute",
-				"title": "Persona"
-			},
-			"qualities": "Qualities",
-			"qualities_add": "Add",
-			"rituals": {
-				"add": "Add new ritual",
-				"column.threshold": "Thresh.",
-				"title": "Rituals"
-			},
-			"sins": {
-				"add": "Add new SIN",
-				"title": "SINS"
-			},
-			"skills.action": "Навыки",
-			"skills.knowledge": "Экспертные знания",
-			"skills.knowledge_add": "Новое экспертное знание",
-			"skills.language": "Языковые навыки",
-			"skills.language-level": {
-				"expert": "Эксперт",
-				"native": "Родной",
-				"normal": "Обычный",
-				"special": "Знаток"
-			},
-			"skills.language_add": "Новый языковой навык",
-			"spells": {
-				"add": "Add new spell",
-				"column.alchemic": "Alch.",
-				"column.drain": "Drain",
-				"column.range": "Range",
-				"title": "Spells"
-			},
-			"survival": "Survival",
-			"vehicles": {
-				"add": "Add new vehicle",
-				"column": {
-					"handling": "Han",
-					"acc": "Acc",
-					"spdi": "S.Int",
-					"tspd": "Speed",
-					"bod": "Bod",
-					"arm": "Arm",
-					"pil": "Pil",
-					"sen": "Sen",
-					"sea": "Sea",
-					"vtype": "Type"
-				},
-				"title": "Vehicles"
-			},
-			"vehicleskills": {
-				"brain": "Мозговой интерфейс",
-				"operations": "Управление"
-			},
-			"weapon": {
-				"add": "Add new weapon",
-				"close": "Melee Weapons",
-				"ranged": "Ranged Weapons",
-				"special": "Special Weapons",
-				"title": "Weapons"
-			}
-		},
-		"settings": {
-			"maxEdgePerRound": {
-				"hint": "Defines the maximum egde a player or NPC can gain per turn.",
-				"name": "Max. Edge per turn"
-			},
-			"importToCompendium": {
-				"hint": "Define if imported NPCs should be added as actors or as entries to the NPCs compendium",
-				"name": "Import to compendium"
-			},
-			"defaultThreshold": {
-				"hint": "Defines the default threshold used for any skill check",
-				"name": "Default Threshold"
-			}
-		},
-		"sin": {
-			"quality": "Quality",
-			"real_sin": "Real SIN",
-			"anyone": "Anyone",
-			"rough_match": "Rough match",
-			"good_match": "Good match",
-			"superficially_plausible": "Superficially plausible",
-			"highly_plausible": "High plausible",
-			"second_life": "Second life"
-		},
-		"special": {
-			"astral": {
-				"astral_combat": "Astral Combat",
-				"astral_signatures": "Astral Signatures",
-				"emotional_stress": "Emotional Stress",
-				"spirit_types": "Spirit Types"
-			},
-			"athletics": {
-				"archery": "Archery",
-				"climbing": "Climbing",
-				"flying": "Flying",
-				"gymnastics": "Gymnastics",
-				"sprinting": "Sprinting",
-				"swimming": "Swimming",
-				"throwing": "Throwing"
-			},
-			"biotech": {
-				"biotechnology": "Биотехнологии",
-				"cybertechnology": "Cybertechnology",
-				"first_aid": "First Aid",
-				"medicine": "Medicine"
-			},
-			"close_combat": {
-				"blades": "Blades",
-				"clubs": "Clubs",
-				"unarmed": "Unarmed Combat"
-			},
-			"con": {
-				"acting": "Acting",
-				"disguise": "Disguise",
-				"impersonation": "Impersonation",
-				"performance": "Performance"
-			},
-			"conjuring": {
-				"banishing": "Banishing",
-				"summoning": "Summoning"
-			},
-			"cracking": {
-				"cybercombat": "Cybercombat",
-				"electronic_warfare": "Electronic Warface",
-				"hacking": "Hacking"
-			},
-			"electronics": {
-				"computer": "Computer",
-				"hardware": "Hardware",
-				"software": "Software",
-				"complex_forms": "Complex Forms"
-			},
-			"enchanting": {
-				"alchemy": "Alchemy",
-				"artificing": "Artificing",
-				"disenchanting": "Disenchanting"
-			},
-			"engineering": {
-				"aeronautics_mechanic": "Aeronautics Mechanic",
-				"armorer": "Armorer",
-				"automotive_mechanic": "Automotive Mechanic",
-				"demolitions": "Demolitions",
-				"gunnery": "Gunnery",
-				"industrial_mechanic": "Industrial Mechanic",
-				"lockpicking": "Lockpicking",
-				"nautical_mechanic": "Nautical Mechanic"
-			},
-			"exotic_weapons": {},
-			"firearms": {
-				"assault_cannons": "Assault Cannons",
-				"holdouts": "Holdouts",
-				"machine_pistols": "Machine Pistols",
-				"pistols_heavy": "Heavy Pistols",
-				"pistols_light": "Light Pistols",
-				"rifles": "Rifles",
-				"shotguns": "Shotguns",
-				"submachine_guns": "Submachine Guns",
-				"tasers": "Taser"
-			},
-			"influence": {
-				"etiquette": "Etiquette",
-				"instruction": "Instruction",
-				"intimidation": "Intimidation",
-				"leadership": "Leadership",
-				"negotiation": "Negotiation"
-			},
-			"outdoors": {
-				"navigation": "Navigation",
-				"survival": "Survival",
-				"tracking_desert": "Environment Desert",
-				"tracking_other": "Environment Other",
-				"tracking_urban": "Environment Urban",
-				"tracking_woods": "Environment Woods"
-			},
-			"perception": {
-				"aural": "Aural",
-				"perception_desert": "Environment Desert",
-				"perception_other": "Environment Other",
-				"perception_urban": "Environment Urban",
-				"perception_woods": "Environment Woods",
-				"scent": "Scent",
-				"tactile": "Tactile",
-				"taste": "Taste",
-				"visual": "Visual"
-			},
-			"piloting": {
-				"aircraft": "Aircraft",
-				"ground_craft": "Ground Craft",
-				"watercraft": "Watercraft"
-			},
-			"sorcery": {
-				"counterspelling": "Counterspelling",
-				"ritual_spellcasting": "Ritual Spellcasting",
-				"spellcasting": "Spellcasting"
-			},
-			"stealth": {
-				"camouflage": "Camouflage",
-				"disguise": "Disguise",
-				"palming": "Palming",
-				"sneaking": "Sneaking"
-			},
-			"tasking": {
-				"compiling": "Compiling",
-				"decompiling": "Decompiling",
-				"registering": "Registering"
-			}
-		},
-		"spell": {
-			"area": "Area",
-			"category": "Category",
-			"category_combat": "Combat",
-			"category_detection": "Detection",
-			"category_health": "Health",
-			"category_illusion": "Illusion",
-			"category_manipulation": "Manipulation",
-			"damage": "Урон",
-			"damage_physical": "Physical",
-			"damage_physical_short": "P",
-			"damage_physical_special": "Physical, Special",
-			"damage_physical_special_short": "P, Special",
-			"damage_short": "Dmg",
-			"damage_stun": "Stun",
-			"damage_stun_short": "S",
-			"damage_stun_special": "Stun, Special",
-			"damage_stun_special_short": "S, Special",
-			"direct": "Direct",
-			"drain": "Drain",
-			"drain_short": "DV",
-			"duration": "Duration",
-			"duration_instantaneous": "Instantaneous",
-			"duration_instantaneous_short": "I",
-			"duration_immediate": "Immediate",
-			"duration_immediate_short": "I",
-			"duration_limited": "Limited",
-			"duration_permanent": "Permanent",
-			"duration_permanent_short": "P",
-			"duration_short": "Dur.",
-			"duration_special": "Special",
-			"duration_special_short": "Spec",
-			"duration_sustained": "Sustained",
-			"duration_sustained_short": "S",
-			"duration_always": "Always",
-			"duration_always_short": "A",
-			"isOpposed": "Is Opposed",
-			"range": "Range",
-			"range_line_of_sight": "Line of sight",
-			"range_line_of_sight_area": "Line of sight (area)",
-			"range_line_of_sight_area_short": "LOS(A)",
-			"range_line_of_sight_short": "LOS",
-			"range_self": "Self",
-			"range_self_area": "Self (Area)",
-			"range_self_area_short": "S(A)",
-			"range_self_short": "Self",
-			"range_touch": "Touch",
-			"range_touch_short": "T",
-			"type": "Type",
-			"type_mana": "Mana",
-			"type_mana_short": "Man",
-			"type_physical": "Physical",
-			"type_physical_short": "Phy",
-			"withEssence": "Against Essence"
-		},
-		"spellfeatures": {
-			"area": "Area",
-			"direct": "Direct Combat",
-			"indirect": "Indirect Combat",
-			"sense_multi": "Multi-Sense",
-			"sense_single": "Single-Sense"
-		},
-		"spirittype": {
-			"air": "Air",
-			"beasts": "Beasts",
-			"earth": "Earth",
-			"fire": "Fire",
-			"kin": "Kin",
-			"plant": "Plant",
-			"water": "Water"
-		},
-		"tradition": {
-			"attribute": "Характеристика традиции"
-		},
-		"vehicle": {
-			"action_label": "Handling / Vehicle Attack or Defense",
-			"mode_label": "Mode",
-			"mode": {
-				"manual": "Manual",
-				"riggedAR": "Jumped in (AR)",
-				"riggedVR": "Jumped in (VR)",
-				"rcc": "via RCC (To Do)",
-				"autonomous": "Автономный"
-			},
-			"skill": {
-				"piloting": "Пилотирование"
-			},
-			"type": {
-				"groundcraft": "Наземный транспорт",
-				"watercraft": "Водный транспорт",
-				"aircraft": "Воздушный транспорт"
-			}
-		},
-		"weapon": {
-			"damage": "DV",
-			"attackRating": "Attack Rtg.",
-			"firemodes": "Modes",
-			"ammo": "Патроны"
-		}
-	},
-	"skill": {
-		"astral": "Астрал",
-		"athletics": "Атлетика",
-		"biotech": "Биотехнологии",
-		"close_combat": "Ближний бой",
-		"con": "Обман",
-		"conjuring": "Воплощение",
-		"cracking": "Взлом",
-		"electronics": "Электроника",
-		"enchanting": "Зачарование",
-		"engineering": "Инженерное дело",
-		"exotic_weapons": "Экзотическое оружие",
-		"firearms": "Стрельба",
-		"influence": "Убеждение",
-		"outdoors": "Ориентирование",
-		"perception": "Внимание",
-		"piloting": "Пилотирование",
-		"sorcery": "Колдовство",
-		"stealth": "Скрытность",
-		"tasking": "Многозадачность"
-	}
+  "Shadowrun6ActorSheetNPC": "Scheda PNG Shadowrun6",
+  "shadowrun6-eden.Shadowrun6ActorSheetNPC": "Scheda PNG Eden",
+  "ACTOR": {
+    "TypeCritter": "Creatura",
+    "TypeNpc": "PNG/Personaggio del Master",
+    "TypePlayer": "Personaggio del Giocatore",
+    "TypeSpirit": "Spirito",
+    "TypeVehicle": "Veicolo/Drone"
+  },
+  "ITEM": {
+    "TypeAdeptpower": "Potere da Adepto",
+    "TypeCritterpower": "Potere da Creatura",
+    "TypeComplexform": "Forma Complessa",
+    "TypeContact": "Contatto",
+    "TypeEcho": "Eco",
+    "TypeGear": "Equipaggiamento",
+    "TypeLifestyle": "Stile di Vita",
+    "TypeMartialartstyle": "Stile di Arti Marziali",
+    "TypeMartialarttech": "Tecnica di Arti Marziali",
+    "TypeMetamagic": "Metamagia",
+    "TypeQuality": "Qualità",
+    "TypeRitual": "Rituale",
+    "TypeSin": "SIN",
+    "TypeSkill": "Conoscenza Esperta/Lingua",
+    "TypeSpell": "Incantesimo",
+    "TypeWeapon": "Arma"
+  },
+  "QUALITY_CATEGORIES": {
+    "ADVANTAGE": "Vantaggio",
+    "DISADVANTAGE": "Svantaggio"
+  },
+  "TYPES": {
+    "Actor": {
+      "Critter": "Creatura",
+      "NPC": "PNG/Personaggio del Master",
+      "Player": "Personaggio del Giocatore",
+      "Spirit": "Spirito",
+      "Vehicle": "Veicolo/Drone"
+    },
+    "Item": {
+      "adeptpower": "Potere da Adepto",
+      "critterpower": "Potere da Creatura",
+      "complexform": "Forma Complessa",
+      "contact": "Contatto",
+      "echo": "Eco",
+      "gear": "Equipaggiamento",
+      "lifestyle": "Stile di Vita",
+      "martialartstyle": "Stile di Arti Marziali",
+      "martialarttech": "Tecnica di Arti Marziali",
+      "metamagic": "Metamagia",
+      "quality": "Qualità",
+      "ritual": "Rituale",
+      "sin": "SIN",
+      "skill": "Conoscenza Esperta/Lingua",
+      "spell": "Incantesimo",
+      "weapon": "Arma"
+    }
+  },
+  "attrib": {
+    "agi": "Agilità",
+    "agi_short": "AGI",
+    "bod": "Corpo",
+    "bod_short": "COR",
+    "cha": "Carisma",
+    "cha_short": "CAR",
+    "dr": "Valore Difesa",
+    "dr_short": "VD",
+    "edg": "Vantaggio",
+    "edg_short": "VAN",
+    "ess": "Essenza",
+    "ess_short": "ESS",
+    "ini": "Iniziativa",
+    "ini_short": "INI",
+    "inia": "In Astrale",
+    "inia_short": "A.INI",
+    "inim": "In Matrice",
+    "inim_short": "M.INI",
+    "int": "Intuizione",
+    "int_short": "INT",
+    "log": "Logica",
+    "log_short": "LOG",
+    "mag": "Magia",
+    "mag_short": "MAG",
+    "rea": "Reazione",
+    "rea_short": "REA",
+    "res": "Risonanza",
+    "res_short": "RIS",
+    "str": "Forza",
+    "str_short": "FOR",
+    "wil": "Volontà",
+    "wil_short": "VOL"
+  },
+  "label.skill": "Abilità",
+  "section.attributes": "Attributi",
+  "shadowrun6": {
+    "actor": {
+      "actions": "Azioni",
+      "actions_major": "Azione Maggiore",
+      "actions_minor": "Azione Minore",
+      "initiative": "Iniziativa",
+      "initiative_astral": "Iniziativa Astrale",
+      "metatype": "Metatipo",
+      "name": "Nome",
+      "nav": {
+        "basics": "Basi",
+        "biography": "Biografia",
+        "combat": "Combattimento",
+        "description": "Descrizione",
+        "equip": "Equipaggiamento",
+        "input": "Input",
+        "magic": "Magia",
+        "matrix": "Matrice",
+        "overview": "Panoramica",
+        "skills": "Abilità",
+        "vehicles": "Veicoli"
+      },
+      "skills": "Abilità",
+      "spells": "Incantesimi"
+    },
+    "adeptpower": {
+      "activation": "Attivazione",
+      "activation_major": "Azione Maggiore",
+      "activation_minor": "Azione Minore",
+      "activation_passive": "Passiva",
+      "cost": "Costo",
+      "haslevel": "Ha Livelli",
+      "pp": "PP",
+      "perLevel": "per livello"
+    },
+    "critterpower": {
+      "actiontitle": "Azione",
+      "action": {
+        "auto": "Automatico",
+        "major": "Maggiore",
+        "minor": "Minore"
+      }
+    },
+    "attack_rating": {
+      "astral": "Val. Attacco Mana",
+      "matrix": "Val. Attacco Matrice",
+      "physical": "Val. Attacco Fisico",
+      "social": "Val. Attacco Sociale",
+      "vehicle": "Val. Attacco Veicolo"
+    },
+    "combat": {
+      "togglePhysical": "Usa Iniziativa Fisica",
+      "toggleMatrix": "Usa Iniziativa Matrice",
+      "toggleAstral": "Usa Iniziativa Astrale"
+    },
+    "complexform": {
+      "duration": "Durata",
+      "fading": "Valore Svanimento",
+      "none": "Nessuna",
+      "oppAttr1": "Attributo Contrapposto 1",
+      "oppAttr2": "Attributo Contrapposto 2",
+      "skill": "Abilità",
+      "threshold": "Soglia"
+    },
+    "contact": {
+      "rating_short": "Val",
+      "rating": "Valutazione",
+      "loyalty": "Lealtà",
+      "loyalty_short": "Lea",
+      "type": "Tipo"
+    },
+    "defense": {
+      "astral": "Difesa: Combattimento Astrale",
+      "drain": "Resistenza al Drenaggio",
+      "fading": "Resistenza allo Svanimento",
+      "damage_astral": "Resistenza Danni Astrali",
+      "damage_physical": "Resistenza Danni Fisici",
+      "physical": "Difesa: Attacchi",
+      "spells_direct": "Difesa: Incantesimi Diretti",
+      "spells_indirect": "Difesa: Incantesimi Indiretti",
+      "spells_other": "Difesa: Altri Incantesimi",
+      "toxin": "Resistenza alle Tossine"
+    },
+    "defense_rating": {
+      "label": "Valore Difesa",
+      "astral": "Val. Difesa Mana",
+      "matrix": "Val. Difesa Matrice",
+      "physical": "Val. Difesa Fisica",
+      "social": "Val. Difesa Sociale",
+      "vehicle": "Val. Difesa Veicolo"
+    },
+    "derived": {
+      "composure": "Autocontrollo",
+      "defense_rating": "Valore di Difesa",
+      "judge_intentions": "Valuta le Intenzioni",
+      "lift_carry": "Sollevare / Trasportare",
+      "memory": "Memoria",
+      "matrix_perception": "Percezione Matrice",
+      "heal": {
+        "physical": "Guarigione Fisica",
+        "stun": "Guarigione Mentale"
+      }
+    },
+    "edge_action": {
+      "anticipation": "Anticipazione",
+      "big_speech": "Gran Discorso",
+      "bring_the_drama": "Porta il Dramma",
+      "called_shot_disarm": "Colpo Mirato - Disarmare",
+      "called_shot_vitals": "Colpo Mirato - Punti Vitali",
+      "fire_from_cover": "Spara da Riparo",
+      "knockout_blow": "Colpo del KO",
+      "shank": "Pugnalata"
+    },
+    "edge_boost": {
+      "add_edge_pool": "Aggiungi Vantaggio alla tua riserva di dadi",
+      "buy_auto_hit": "Compra un colpo automatico",
+      "count_2_glitch": "Conta i 2 come errori per il bersaglio",
+      "create_special": "Crea effetto speciale",
+      "edge_action": "Azione di Vantaggio - (1-5)",
+      "heal_1_physic": "Cura 1 punto di danno Fisico",
+      "heal_1_stun": "Cura 1 punto di danno Mentale",
+      "negate_1_edge": "Annulla 1 Vantaggio di un nemico",
+      "plus_1_roll": "+1 a un singolo dado",
+      "plus_3_ini": "Aggiungi 3 al tuo punteggio di Iniziativa",
+      "reroll_failed": "Ritira tutti i dadi falliti",
+      "reroll_one": "Ritira un dado"
+    },
+    "gear": {
+      "subtype": {
+        "ACCESSORY": "Accessori",
+        "AMMUNITION": "Munizioni",
+        "ARMOR_BODY": "Armatura",
+        "ARMOR_SOCIAL": "Abiti Corazzati",
+        "ARMOR_CLOTHES": "Abiti Normali",
+        "ARMOR_HELMET": "Elmetti",
+        "ARMOR_SHIELD": "Scudi",
+        "ASSAULT_CANNON": "Cannone d'Assalto",
+        "ATVS": "Quad",
+        "AUDIO": "Dispositivi Acustici",
+        "AUDIO_ENHANCEMENT": "Miglioramenti Acustici",
+        "BIKES": "Moto",
+        "BIOTECH": "Biotecnologia",
+        "BIOWARE_COSMETICS": "Bioware Cosmetica",
+        "BIOWARE_CULTURED": "Bioware Coltivata",
+        "BIOWARE_STANDARD": "Bioware Normale",
+        "BIOWARE_IMPLANT_WEAPON": "Arma Bioimpiantata",
+        "BLADES": "Lame",
+        "BOATS": "Barche",
+        "BOWS": "Archi",
+        "BREAKING": "Scasso",
+        "BTL": "BTL",
+        "CANNONS_LAUNCHERS": "Cannoni e Lanciarazzi",
+        "CARS": "Auto",
+        "CLOSE_COMBAT": "Corpo a Corpo",
+        "CLUBS": "Mazzi",
+        "COMMLINK": "Commlink",
+        "COMMUNICATION": "Comunicazione e Disturbi",
+        "CROSSBOWS": "Balestre",
+        "CYBER_BODYWARE": "Cyber Corpo",
+        "CYBER_COSMETICS": "Cyberware Cosmetico",
+        "CYBER_EARWARE": "Cyber Orecchie",
+        "CYBER_EYEWARE": "Cyber Occhi",
+        "CYBER_HEADWARE": "Cyber Testa",
+        "CYBER_IMPLANT_WEAPON": "Arma Impiantata",
+        "CYBER_LIMB_ACCESSORY": "Accessori Arti Cibernetici",
+        "CYBER_LIMB_ENHANCEMENT": "Miglioramenti Arti Cibernetici",
+        "CYBER_LIMBS": "Arti Cibernetici",
+        "CYBERDECK": "Cyberdeck",
+        "CYBERJACK": "Cyberjack",
+        "DRUGS": "Droghe",
+        "ELECTRONIC_ACCESSORIES": "Accessori Elettronici",
+        "EXPLOSIVES": "Esplosivi",
+        "FIREARMS": "Armi da Fuoco",
+        "FIREARMS_ACCESSORY": "Accessori per Armi",
+        "FIXED_WING": "Aerei ad Ala Fissa",
+        "FOCI_ENCHANTING": "Foci di Incantamento",
+        "FOCI_METAMAGIC": "Foci Metamagici",
+        "FOCI_POWER": "Foci di Potere",
+        "FOCI_QI": "Foci Qi",
+        "FOCI_SPELL": "Foci di Incantesimi",
+        "FOCI_SPIRIT": "Foci Spiritici",
+        "FOCI_WEAPON": "Foci d'Arma",
+        "GENOM_CHANGES": "Modifiche Genetiche",
+        "EXOTIC_METAGENETICS": "Metagenetica Esotica",
+        "MICRO_ENVIRONADAPT": "Adattamento Microambientale",
+        "COMPLEMENTAL_GENETICS": "Genetica Complementare",
+        "GRAPPLE_GUN": "Pistola Rampino",
+        "GRAV": "Veicoli a Gravità",
+        "GRENADES": "Granate",
+        "GRENADES_MINI": "Mini-Granate",
+        "HOLDOUTS": "Tascabili",
+        "HOVERCRAFT": "Hovercraft",
+        "ID_CREDIT": "ID e Credstick",
+        "IMAGING": "Immagini",
+        "INDUSTRIAL_CHEMICALS": "Chimica Industriale",
+        "INSTRUMENT": "Strumenti",
+        "INSTRUMENT_ACCESSORY": "Accessori per Strumenti",
+        "LARGE_DRONES": "Droni Grandi",
+        "LAUNCHERS": "Lanciarazzi",
+        "LAV": "Veicoli a Bassa Quota (Spinta Vettoriale)",
+        "LTAV": "Veicoli Più Leggeri dell'Aria",
+        "LIVING_PERSONA": "Persona Vivente",
+        "MACHINE_GUNS": "Mitragliatrici",
+        "MACHINE_PISTOLS": "Pistole Mitragliatrici",
+        "MAGICAL_FORMULA": "Formula Magica",
+        "MAGIC_SUPPLIES": "Forniture Magiche",
+        "MICRODRONES": "Microdroni",
+        "MINIDRONES": "Minidroni",
+        "MEDIUM_DRONES": "Droni Medi",
+        "PREPARATION": "Preparazioni",
+        "PREPARATION_EXTENDED": "Preparazioni (potenziate)",
+        "MISSILES": "Missili",
+        "MODIFICATION": "Modifiche",
+        "MOD_LAYOUT": "Modifiche di Struttura",
+        "MOD_CORE": "Modifiche Nucleari",
+        "MOD_TIRES": "Pneumatici",
+        "MOD_HANDLING": "Modifiche alla Guida",
+        "MOD_TRAILER": "Rimorchi e Carrelli",
+        "MOD_INTERIOR": "Sedili e Carico",
+        "MOD_CARGO": "Modifiche al Carico",
+        "MOD_FORM": "Modifiche alla Forma",
+        "MOD_ARMOR": "Corazze",
+        "MOD_ELEMENTS": "Elementi",
+        "MOD_ACC": "Accelerazione",
+        "MOD_EFFICIENCY": "Efficienza",
+        "MOD_SPEED": "Velocità",
+        "MOD_COAT": "Rivestimenti Elettronici",
+        "MOD_MISC": "Modifiche Elettroniche Varie",
+        "MOD_PILOT": "Pilota",
+        "MOD_MOUNT": "Attacchi per Armi",
+        "MOD_RACK": "Supporti per Droni",
+        "MOD_OTHERS": "Modifiche Aggiuntive",
+        "MOD_PROPULSION": "Propulsori Secondari",
+        "NANOWARE_HARD": "Nanoware Dura",
+        "NANOWARE_SOFT": "Nanoware Morbida",
+        "NANO_CYBERWARE": "Nano-Cyberware",
+        "NANOTECH_EQUIPMENT": "Equipaggiamento Nanotecnologico",
+        "OPTICAL": "Ottico",
+        "OTHER_PROGRAMS": "Altri Programmi",
+        "OTHER_CLOSE": "Altre Armi da Mischia",
+        "OTHER_SPECIAL": "Armi Speciali",
+        "PISTOLS_HEAVY": "Pistole Pesanti",
+        "PISTOLS_LIGHT": "Pistole Leggere",
+        "PROJECTILES": "Proiettili",
+        "RFID": "RFID",
+        "#RIFLES": "Fucili",
+        "RIFLE_ASSAULT": "Fucili d'Assalto",
+        "RIFLE_HUNTING": "Fucili da Caccia",
+        "RIFLE_SNIPER": "Fucili di Precisione",
+        "RIGGER_CONSOLE": "Console da Rigger",
+        "ROCKETS": "Razzi",
+        "ROTORCRAFT": "Elicotteri",
+        "SECURITY": "Sicurezza",
+        "SENSOR": "Sensori",
+        "SENSOR_HOUSING": "Contenitori per Sensori",
+        "SHOTGUNS": "Fucili a Pompa",
+        "SKILLSOFT": "Software di Abilità",
+        "SLAP_PATCHES": "Cerotti Veloci",
+        "SMALL_DRONES": "Droni Piccoli",
+        "SNIPER_RIFLES": "Fucili da Cecchino",
+        "SOFTWARE": "Software",
+        "SPACECRAFT": "Navicelle Spaziali",
+        "SPECIAL_WEAPONS": "Armi Speciali",
+        "SUBMACHINE_GUNS": "Mitragliette",
+        "SUBMARINES": "Sommergibili",
+        "SURVIVAL_GEAR": "Sopravvivenza",
+        "SYMBIONTS": "Simbionti",
+        "TAC_NET": "Rete Tattica",
+        "TASERS": "Taser",
+        "THROWERS": "Lanciaproiettili",
+        "THROWING": "Armi da Lancio",
+        "TRANSGENETICS": "Transgenetica",
+        "TACNET_PROGRAM": "Programma Rete Tattica",
+        "TOOLS": "Attrezzi",
+        "PLACEHOLDERS": "Merci Standard",
+        "TOXINS": "Tossine",
+        "TRUCKS": "Camioncini",
+        "TRACKED": "Veicoli Cingolati",
+        "SPECIAL_VEHICLES": "Veicoli Speciali",
+        "UNARMED": "Disarmato",
+        "VANS": "Furgoni e Camion da Carico",
+        "VEHICLE_ACCESSORY": "Accessori per Veicoli",
+        "VISION_ENHANCEMENT": "Miglioramenti Visivi",
+        "VTOL": "VTOL/VSTOL",
+        "WALKER": "Mech Bipedi",
+        "WEAPON_SECURITY": "Sicurezza Arma",
+        "WHIPS": "Fruste",
+        "LMG": "Mitragliatrice Leggera",
+        "MMG": "Mitragliatrice Media (forza min. 3)",
+        "HMG": "Mitragliatrice Pesante (forza min. 5)",
+        "HACKING_PROGRAM": "Programmi di Hacking",
+        "BASIC_PROGRAM": "Programmi Base",
+        "RIGGER_PROGRAM": "Programmi da Rigger",
+        "AUTOSOFT": "Autosofware",
+        "GROUND": "Droni Terrestri",
+        "ANTHRO": "Droni Antropomorfi",
+        "AIR": "Droni Aerei",
+        "AQUATIC": "Droni Acquatici",
+        "AMMO_TASER": "Taser",
+        "AMMO_LIGHT": "Pistola Leggera / Tascabile / Mitragliatrice",
+        "AMMO_HEAVY": "Pistola Pesante / Mitraglietta",
+        "AMMO_RIFLES": "Fucile",
+        "AMMO_DARTS": "Dardo Iniettore",
+        "AMMO_CANNONS": "Cannone d'Assalto",
+        "AMMO_DMSO": "Gelpack DMSO",
+        "AMMO_MACHINE_GUN": "Mitragliatrice",
+        "AMMO_INJECTION_BOLT": "Bullone Iniettore",
+        "AMMO_BOLT": "Bullone"
+      }
+    },
+    "initiative": {
+      "astral": "Astrale",
+      "physical": "Fisica",
+      "matrix": "Matrice"
+    },
+    "item": {
+      "accessories": "Accessori",
+      "ammunition": "Munizioni",
+      "attackvalues": "Val. attacco",
+      "availability": "Disp.",
+      "capacity": "Capacità",
+      "category": "Categoria",
+      "damage": "Danno",
+      "defencerating": "Val. difesa",
+      "description": "Descrizione",
+      "essence": "Essenza",
+      "feature": "Caratteristiche",
+      "firemode": {
+        "BF": "Fuoco a Raffica",
+        "FA": "Fuoco Automatico",
+        "SA": "Semi-Automatico",
+        "SS": "Colpo Singolo"
+      },
+      "mastyle": {
+        "category": {
+          "grappling": "Presa",
+          "mobility": "Mobilità",
+          "ranged": "Distanza",
+          "striking": "Colpo",
+          "weapon": "Arma"
+        }
+      },
+      "mode": "Modalità",
+      "mode_bf": "FR",
+      "mode_fa": "FA",
+      "mode_sa": "SA",
+      "mode_ss": "CS",
+      "natural": "Armatura nat.",
+      "physical_damage": "F",
+      "physical_special_damage": "S",
+      "price": "Prezzo",
+      "skill": "Abilità",
+      "skillspec": "Specializzazione",
+      "social": "Sociale",
+      "stun_damage": "S",
+      "subtype": "Sottotipo",
+      "type": "Tipo",
+      "vehicle": {
+        "armor.long": "Armatura",
+        "armor.short": "A",
+        "rigRating.long": "Interfaccia Veicolo",
+        "sensor.long": "Sensore",
+        "sensor.short": "S"
+      }
+    },
+    "itemtype": {
+      "ACCESSORY": "Accessorio",
+      "AMMUNITION": "Munizioni",
+      "ARMOR": "Armatura",
+      "ARMOR_ADDITION": "Modifica Armatura",
+      "BIOLOGY": "Biologia",
+      "BIOWARE": "Bioimpianto",
+      "CHEMICALS": "Sostanze Chimiche",
+      "CYBERWARE": "Cyberware",
+      "DRONES": "Droni",
+      "ELECTRONICS": "Elettronica",
+      "GENETICS": "Genetica",
+      "MAGICAL": "Magico",
+      "NANOWARE": "Nanoware",
+      "SURVIVAL": "Equip. Sopravvivenza",
+      "TOOLS": "Strumenti",
+      "VEHICLES": "Veicoli",
+      "WEAPON_CLOSE_COMBAT": "Arma, Corpo a Corpo",
+      "WEAPON_FIREARMS": "Arma, da Fuoco",
+      "WEAPON_RANGED": "Arma, Proiettili",
+      "WEAPON_SPECIAL": "Arma, Speciale"
+    },
+    "label": {
+      "accessories": "Accessori",
+      "adepts": "Adepti",
+      "action": "Azione",
+      "actionduration": {
+        "minor.short": "Mi",
+        "major.short": "Ma"
+      },
+      "attack_rating": "Valore Attacco",
+      "attack_rating_short": "VA",
+      "attribute": "Attributo",
+      "base": "Base",
+      "column": {
+        "action": "Azione",
+        "count": "Qtà",
+        "name": "Nome",
+        "rating": "Val."
+      },
+      "attack.short": "A",
+      "sleaze.short": "S",
+      "dataproc.short": "D",
+      "firewall.short": "F",
+      "devicerating.short": "VD",
+      "d6": "D6",
+      "damage": "Danno",
+      "damage_short": "Dmg",
+      "defense_rating": "Valore Difesa",
+      "delete": "Elimina",
+      "device_mode": "Modalità Dispositivo",
+      "devRating": "Val. Dispositivo",
+      "dice": "Dadi",
+      "edit": "Modifica",
+      "expertise": "Competenza",
+      "extended_test": "Test Esteso",
+      "faster": "Accelera",
+      "features": "Caratteristiche",
+      "firemode_current": "Modo di Fuoco Attuale",
+      "firemodes": "Modi di Fuoco",
+      "force": "Forza",
+      "gender": "Genere",
+      "legality.illegal.short": "I",
+      "legality.legal.short": "L",
+      "level": "Ha livelli",
+      "mages": "Maghi",
+      "max": "Massimo",
+      "modifications": "Modifiche",
+      "modifier": "Mod.",
+      "name": "Nome",
+      "none": "-",
+      "not_present": "non presente",
+      "offroad": "Fuoristrada",
+      "onroad": "Strada",
+      "points": "Punti",
+      "pool": "Riserva",
+      "poolmod": "Mod. Riserva",
+      "programs.short": "P",
+      "progSlots": "Slot Programmi",
+      "rating1": "Valutazione 1",
+      "rating2": "Valutazione 2",
+      "rating3": "Valutazione 3",
+      "soaked": "Assorbiti {soaked} su {threshold} danni",
+      "slower": "Rallenta",
+      "specialization": "Specializzazione",
+      "threshold": "Soglia",
+      "value": "Valore",
+      "wilddie": "Dado Jolly"
+    },
+    "lifestyle": {
+      "cost": "Costo",
+      "paid": "Pagato",
+      "type": "Tipo",
+      "sin": "SIN Collegato",
+      "street": "Strada",
+      "squatter": "Abusivo",
+      "low": "Basso",
+      "middle": "Medio",
+      "high": "Alto",
+      "luxury": "Lusso"
+    },
+    "matrixaction": {
+      "backdoor_entry": "Ingresso Non Autorizzato",
+      "brute_force": "Forza Bruta",
+      "change_icon": "Cambia Icona",
+      "check_os": "Controlla OS",
+      "control_device": "Controlla Dispositivo",
+      "crack_file": "Forza File",
+      "crash_program": "Arresta Programma",
+      "data_spike": "Punta Dati",
+      "disarm_data_bomb": "Disinnesca Bomba Dati",
+      "edit_file": "Modifica File",
+      "encrypt_file": "Cripta File",
+      "enter_host": "Entra Host",
+      "erase_matrix_signature": "Cancella Firma Matrice",
+      "format_device": "Formatta Dispositivo",
+      "full_matrix_defense": "Difesa Totale Matrice",
+      "hash_check": "Verifica Hash",
+      "hide": "Nascondi",
+      "jack_out": "Disconnessione",
+      "jam_signals": "Interferisci Segnali",
+      "jump_rigged": "Collegati al Veicolo",
+      "matrix_perception": "Percezione Matrice",
+      "matrix_search": "Ricerca Matrice",
+      "probe": "Sonda",
+      "reboot_device": "Riavvia Dispositivo",
+      "reconfigure": "Riconfigura Attributi Matrice",
+      "send_message": "Invia Messaggio",
+      "set_data_bomb": "Imposta Bomba Dati",
+      "snoop": "Spia",
+      "spoof_command": "Comando Falso",
+      "switch_ifmode": "Cambia Modalità Interfaccia",
+      "tarpit": "Trappola",
+      "trace_icon": "Traccia Icona"
+    },
+    "matrixini": {
+      "ar": "RA",
+      "vrcold": "RV",
+      "vrhot": "RV Caldo"
+    },
+    "monitor": {
+      "matrix": "Matrice",
+      "physical": "Salute",
+      "stun": "Stordimento",
+      "overflow": "Eccesso"
+    },
+    "mortype": {
+      "adept": "Adep",
+      "aspectedmagician": "Mago Assegnato",
+      "magician": "Mago",
+      "mundane": "Non Risvegliato",
+      "mysticadept": "Adep Mistico",
+      "technomancer": "Tecnomante"
+    },
+    "newitem": {
+      "adeptpower": "Dai un nome al tuo potere",
+      "ammunition": "Munizioni da paura",
+      "armor": "Qualcosa di alla moda",
+      "biology": "Pericolo biologico",
+      "bodyware": "Un miglioramento fighissimo",
+      "chemicals": "Roba buona",
+      "complexform": "Quanto complessa ti piace?",
+      "contact": "Chi chiami? Gli Acchiappafantasmi!",
+      "critterpower": "Cosa ha di speciale?",
+      "cyberware": "Un potenziamento cibernetico figo",
+      "drones": "Il mio occhio volante",
+      "electronics": "Giocattolo da nerd",
+      "focus": "Per restare concentrati",
+      "lifestyle": "Cartone o suite?",
+      "martialartstyle": "Qual è il tuo stile?",
+      "martialarttech": "Tecnica, quale tecnica?",
+      "matrix": "Guarda il mio deck!",
+      "metamagic": "Cosa hai imparato?",
+      "quality": "Qual è la tua dote?",
+      "ritual": "Cantando Alleluia",
+      "sin": "Chi sei? Chi, chi, chi, chi",
+      "skill": {
+        "knowledge": "Il tuo argomento nerd",
+        "language": "Lingua strana"
+      },
+      "spell": "Abracadabra",
+      "survival": "Coltellino svizzero multiuso",
+      "vehicles": "Un mezzo spettacolare",
+      "weapon": "Un'arma col nome è più figa",
+      "weaponclose": "Qualcosa di pesante"
+    },
+    "npc": {
+      "subtype": {
+        "npc": "PNG",
+        "critter": "Creatura",
+        "spirit": "Spirito",
+        "sprite": "Spirito Tecnologico"
+      },
+      "gruntrules": "È una pedina",
+      "mortype": "Magia/Risonanza"
+    },
+    "numerical": {
+      "base": "base",
+      "baseString": "Valore Base",
+      "max": "Max",
+      "mod": "mod"
+    },
+    "programtype": {
+      "basic": "Programmi di base",
+      "hacking": "Programmi di hacking"
+    },
+    "program": {
+      "baby_monitor": {
+        "name": "Monitor Bambino",
+        "desc": "Ti dice il tuo punteggio Overwatch attuale senza richiedere un'azione."
+      },
+      "browse": {
+        "name": "Naviga",
+        "desc": "Durante una ricerca in Matrice, guadagni 1 Punto Vantaggio da usare subito o lo perdi."
+      },
+      "configurator": {
+        "name": "Configuratore",
+        "desc": "Memorizza una configurazione alternativa del deck e permetti il passaggio a essa senza cambiare due attributi."
+      },
+      "edit": {
+        "name": "Modifica",
+        "desc": "Durante l'azione Modifica File, ottieni 1 Punto Vantaggio da usare subito o svanisce."
+      },
+      "encryption": {
+        "name": "Crittografia",
+        "desc": "+2 dadi nell'azione Crittografa File"
+      },
+      "signal_scrubber": {
+        "name": "Filtro Segnale",
+        "desc": "Riduce il rumore di 2"
+      },
+      "toolbox": {
+        "name": "Cassetta Attrezzi",
+        "desc": "+1 a Elaborazione Dati"
+      },
+      "virtual_machine": {
+        "name": "Macchina Virtuale",
+        "desc": "2 slot programma extra; subisci 1 casella in più di danno Matrice non resistito se attaccato"
+      },
+      "armor": {
+        "name": "Armatura",
+        "desc": "+2 al Valore di Difesa."
+      },
+      "biofeedback": {
+        "name": "Biofeedback",
+        "desc": "Infligge Stordimento (cold-sim) o Danno Fisico (hot-sim) con attacco Matrice. Legato all’attributo Attacco."
+      },
+      "biofeedback_filter": {
+        "name": "Filtro Biofeedback",
+        "desc": "Permette tiro su Valore Dispositivo o Corpo per assorbire danno Matrice."
+      },
+      "blackout": {
+        "name": "Blackout",
+        "desc": "Come Biofeedback, ma infligge solo danni da Stordimento. Legato ad Attacco."
+      },
+      "decryption": {
+        "name": "Decrittazione",
+        "desc": "+2 dadi all'azione Forza File"
+      },
+      "defuse": {
+        "name": "Disinnesca",
+        "desc": "Permette tiro su Valore Dispositivo o Corpo per assorbire danno da Bomba Dati."
+      },
+      "exploit": {
+        "name": "Sfrutta",
+        "desc": "Riduce il Valore di Difesa del bersaglio di hacking di 2."
+      },
+      "fork": {
+        "name": "Fork",
+        "desc": "Colpisce due bersagli con una singola azione Matrice senza dividere la riserva di dadi."
+      },
+      "lockdown": {
+        "name": "Blocco Totale",
+        "desc": "Causa blocco del collegamento quando infliggi danno in Matrice."
+      },
+      "overclock": {
+        "name": "Overclock",
+        "desc": "Aggiungi due dadi a un'azione Matrice. Uno deve essere il dado jolly."
+      },
+      "stealth": {
+        "name": "Furtività",
+        "desc": "Durante l'azione Nascondi, ottieni 1 Punto Vantaggio da spendere subito o lo perdi. Legato all’attributo Inganno."
+      },
+      "trace": {
+        "name": "Traccia",
+        "desc": "Durante l'azione Traccia Icona, ottieni 1 Punto Vantaggio da spendere subito o lo perdi. Legato all’attributo Inganno."
+      }
+    },
+    "qualityedit": {
+      "category": "Categoria",
+      "description": "Descrizione",
+      "explain": "Spiegazione",
+      "name": "Nome",
+      "new": "Nuovo"
+    },
+    "ritualfeatures": {
+      "anchored": "Ancorato",
+      "material_link": "Legame Materiale",
+      "minion": "Servitore",
+      "spell": "Incantesimo",
+      "spotter": "Osservatore"
+    },
+    "roll": {
+      "accumulated": "Accumulato",
+      "actionText": {
+        "attack_target_multiple": "Attacco multiplo con {name}",
+        "attack_target_none": "Attacco con {name}",
+        "attack_target_one": "Attacco {target} con {name}",
+        "cast_target_multiple": "Lancio {name} su bersagli multipli",
+        "cast_target_none": "Lancio {name}",
+        "cast_target_one": "Lancio {name} su {target}",
+        "skill": "Tiro abilità",
+        "thread": "Intreccio {name}",
+        "defense": {
+          "physical": "Difende da attacco fisico",
+          "spells_direct": "Difende da incantesimi diretti",
+          "spells_indirect": "Difende da incantesimi indiretti"
+        },
+        "soak": {
+          "drain": "Resiste a {damage} Drenaggio",
+          "fading": "Resiste a {damage} Svanimento",
+          "damage_physical": "Resiste a {damage} Danno Fisico",
+          "damage_stun": "Resiste a {damage} Danno da Stordimento"
+        }
+      },
+      "apply_damage": "Applica danno",
+      "ar_0": "Ravvicinata",
+      "ar_1": "Vicino",
+      "ar_2": "Media",
+      "ar_3": "Lontano",
+      "ar_4": "Estrema",
+      "attack": "Attacco",
+      "attackRating": "Valore Attacco",
+      "bf_type": "Tipo",
+      "bf": {
+        "narrow_burst": "Raffica Stretta",
+        "wide_burst": "Raffica Larga"
+      },
+      "button": {
+        "defense": "Tira Difesa",
+        "drain": "Resisti al Drenaggio",
+        "soak": "Assorbi il danno"
+      },
+      "configure": "Configura il tiro",
+      "criticalglitch": "Disastro Critico",
+      "heal_apply": "Cura",
+      "damage": "Danno:",
+      "damage_apply": "Applica danno",
+      "defRating": "Difesa: ",
+      "edge": {
+        "gain_player": "{name} guadagna {value} Punto Vantaggio",
+        "gain_player_capped": "{name} guadagnerebbe {value} ma il massimo è {capped}",
+        "getting": "Acquisizione Vantaggio",
+        "no_gain": "Nessuno guadagna Vantaggio",
+        "situational": "Vantaggio Situazionale",
+        "spending": "Spesa Vantaggio"
+      },
+      "edge_perform": "Fallo",
+      "edgegain": "Guadagno Vantaggio (max): ",
+      "edgegain_player": " (Giocatore)",
+      "exp": "Competenza",
+      "explode": "Esplosione",
+      "fa_area": "Area",
+      "firemode": "Modo di Fuoco",
+      "failure": "Fallimento",
+      "failedDefense": "Hai subito un colpo, e farà male",
+      "failedSoak": "Hai subito danni:",
+      "glitch": "Errore",
+      "hits_bought": "Successi acquistati",
+      "hits": "successi",
+      "mode": "Modalità",
+      "modifier": "Modificatore riserva",
+      "noedgegain": "Nessun guadagno Vantaggio",
+      "nosuccess": "successi, soglia: ",
+      "notarget": "Nessun bersaglio selezionato",
+      "pool": "Riserva",
+      "range": "Distanza",
+      "spec": "Specializzazione",
+      "spell": {
+        "ampUp": {
+          "1": "Danno+1, Drenaggio+2",
+          "2": "Danno+2, Drenaggio+4",
+          "title": "Potenzia"
+        },
+        "incArea": {
+          "1": "Raggio +2m, Drenaggio+1",
+          "2": "Raggio +4m, Drenaggio+2",
+          "3": "Raggio +6m, Drenaggio+3",
+          "4": "Raggio +8m, Drenaggio+4",
+          "title": "Aumenta l'Area"
+        },
+        "title": "Regola l'incantesimo"
+      },
+      "subject": "Messaggio in chat",
+      "success": "Successo",
+      "successes": "successi",
+      "successfulDefense": "Hai evitato il colpo con successo",
+      "successfulSoak": "Hai ignorato il danno",
+      "target": "Bersaglio",
+      "threshold": "Soglia",
+      "weapon": "Definisci l'attacco",
+      "wilddie": "Usa dado jolly",
+      "with": "con"
+    },
+    "rollType": {
+      "bought": "Acquista successi",
+      "normal": "Tira dadi"
+    },
+    "section": {
+      "adeptpowers": {
+        "add": "Aggiungi nuovo potere",
+        "column.points": "PP",
+        "title": "Poteri da Adepto"
+      },
+      "ammo": "Munizioni",
+      "ammo_add": "Aggiungi munizioni",
+      "armor": {
+        "add": "Aggiungi nuova armatura",
+        "column": {
+          "action": "Azione",
+          "defense": "VD",
+          "name": "Nome",
+          "social": "Sociale"
+        },
+        "title": "Armature"
+      },
+      "biology": "Biologia",
+      "bodyware": {
+        "add": "Aggiungi nuovo bio/cyberware",
+        "column.capacity": "Cap.",
+        "column.essence": "Ess.",
+        "footer.total_essence": "Essenza residua",
+        "title": "Potenziamenti"
+      },
+      "chemicals": "Sostanze chimiche",
+      "complexforms": {
+        "add": "Aggiungi nuova forma complessa",
+        "column.duration": "Dur.",
+        "column.fade": "Svan.",
+        "title": "Forme Complesse"
+      },
+      "contacts": {
+        "add": "Aggiungi nuovo contatto",
+        "title": "Contatti"
+      },
+      "critterpowers": {
+        "add": "Aggiungi potere da creatura",
+        "title": "Poteri"
+      },
+      "defense": "Difese e Resistenze",
+      "derived": "Valori Derivati",
+      "drones": {
+        "add": "Aggiungi nuovo drone",
+        "title": "Droni"
+      },
+      "electronics": "Elettronica",
+      "echo": {
+        "add": "Aggiungi nuovo eco",
+        "title": "Echi"
+      },
+      "initiative": "Iniziativa",
+      "martialarts": {
+        "add": "Aggiungi nuovo stile",
+        "tech_add": "Aggiungi nuova tecnica",
+        "title": "Arti Marziali"
+      },
+      "focus": {
+        "add": "Aggiungi nuovo focus",
+        "column.rating": "Liv.",
+        "title": "Foci"
+      },
+      "lifestyles": {
+        "add": "Aggiungi nuovo stile di vita",
+        "title": "Stili di Vita"
+      },
+      "gear": {
+        "title": "Equipaggiamento"
+      },
+      "matrix_base": {
+        "overwatch": "Sorveglianza"
+      },
+      "matrix_actions": {
+        "title": "Azioni Matrice"
+      },
+      "matrix_combat": {
+        "title": "Combattimento in Matrice"
+      },
+      "matrix_devices": {
+        "add": "Aggiungi nuovo dispositivo Matrice",
+        "column": {
+          "action": "Azione",
+          "devRating": "Val.D.",
+          "name": "Nome"
+        },
+        "title": "Dispositivi Matrice"
+      },
+      "metamagic": {
+        "add": "Aggiungi nuova metamagia",
+        "title": "Metamagie"
+      },
+      "notes": {
+        "title": "Note"
+      },
+      "persona": {
+        "distribute": "Distribuisci",
+        "title": "Persona"
+      },
+      "qualities": "Qualità",
+      "qualities_add": "Aggiungi",
+      "rituals": {
+        "add": "Aggiungi nuovo rituale",
+        "column.threshold": "Soglia",
+        "title": "Rituali"
+      },
+      "sins": {
+        "add": "Aggiungi nuovo SIN",
+        "title": "SIN"
+      },
+      "skills.action": "Abilità",
+      "skills.knowledge": "Conoscenze Esperte",
+      "skills.knowledge_add": "Nuova conoscenza esperta",
+      "skills.language": "Competenze linguistiche",
+      "skills.language-level": {
+        "expert": "Esperto",
+        "native": "Madrelingua",
+        "normal": "Normale",
+        "special": "Studioso"
+      },
+      "skills.language_add": "Nuova lingua",
+      "spells": {
+        "add": "Aggiungi nuovo incantesimo",
+        "column.alchemic": "Alch.",
+        "column.drain": "Drenaggio",
+        "column.range": "Raggio",
+        "title": "Incantesimi"
+      },
+      "survival": "Sopravvivenza",
+      "vehicles": {
+        "add": "Aggiungi nuovo veicolo",
+        "column": {
+          "handling": "Man.",
+          "acc": "Acc",
+          "spdi": "Int. Vel.",
+          "tspd": "Velocità",
+          "bod": "Corpo",
+          "arm": "Arm.",
+          "pil": "Pil.",
+          "sen": "Sens.",
+          "sea": "Mare",
+          "vtype": "Tipo"
+        },
+        "title": "Veicoli"
+      },
+      "vehicleskills": {
+        "brain": "Interfaccia Neurale",
+        "operations": "Comandi"
+      },
+      "weapon": {
+        "add": "Aggiungi nuova arma",
+        "close": "Armi da Mischia",
+        "ranged": "Armi da Distanza",
+        "special": "Armi Speciali",
+        "title": "Armi"
+      }
+    },
+    "settings": {
+      "maxEdgePerRound": {
+        "hint": "Definisce il numero massimo di Vantaggi che un giocatore o PNG può ottenere per turno.",
+        "name": "Max. Vantaggi per turno"
+      },
+      "importToCompendium": {
+        "hint": "Definisce se gli NPC importati devono essere aggiunti come attori o voci nel compendio PNG.",
+        "name": "Importa nel compendio"
+      },
+      "defaultThreshold": {
+        "hint": "Definisce la soglia predefinita per ogni tiro di abilità",
+        "name": "Soglia predefinita"
+      }
+    },
+    "sin": {
+      "quality": "Qualità",
+      "real_sin": "SIN Reale",
+      "anyone": "Chiunque",
+      "rough_match": "Compatibilità approssimativa",
+      "good_match": "Buona compatibilità",
+      "superficially_plausible": "Plausibile superficialmente",
+      "highly_plausible": "Altamente plausibile",
+      "second_life": "Seconda vita"
+    },
+    "special": {
+      "astral": {
+        "astral_combat": "Combattimento Astrale",
+        "astral_signatures": "Tracce Astrali",
+        "emotional_stress": "Stress Emotivo",
+        "spirit_types": "Tipi di Spiriti"
+      },
+      "athletics": {
+        "archery": "Tiro con l'Arco",
+        "climbing": "Arrampicata",
+        "flying": "Volo",
+        "gymnastics": "Ginnastica",
+        "sprinting": "Scatto",
+        "swimming": "Nuoto",
+        "throwing": "Lancio"
+      },
+      "biotech": {
+        "biotechnology": "Biotecnologie",
+        "cybertechnology": "Cibernetica",
+        "first_aid": "Primo Soccorso",
+        "medicine": "Medicina"
+      },
+      "close_combat": {
+        "blades": "Lame",
+        "clubs": "Mazze",
+        "unarmed": "Combattimento a Mani Nude"
+      },
+      "con": {
+        "acting": "Recitazione",
+        "disguise": "Travestimento",
+        "impersonation": "Impersonificazione",
+        "performance": "Performance"
+      },
+      "conjuring": {
+        "banishing": "Bando",
+        "summoning": "Evocazione"
+      },
+      "cracking": {
+        "cybercombat": "Combattimento Cibernetico",
+        "electronic_warfare": "Guerra Elettronica",
+        "hacking": "Hacking"
+      },
+      "electronics": {
+        "computer": "Informatica",
+        "hardware": "Hardware",
+        "software": "Software",
+        "complex_forms": "Forme Complesse"
+      },
+      "enchanting": {
+        "alchemy": "Alchimia",
+        "artificing": "Creazione Magica",
+        "disenchanting": "Disincanto"
+      },
+      "engineering": {
+        "aeronautics_mechanic": "Meccanica Aeronautica",
+        "armorer": "Armaiolo",
+        "automotive_mechanic": "Meccanica Automobilistica",
+        "demolitions": "Demolizioni",
+        "gunnery": "Artiglieria",
+        "industrial_mechanic": "Meccanica Industriale",
+        "lockpicking": "Scassinamento",
+        "nautical_mechanic": "Meccanica Nautica"
+      },
+      "exotic_weapons": {},
+      "firearms": {
+        "assault_cannons": "Cannoni d'Assalto",
+        "holdouts": "Pistole Nascoste",
+        "machine_pistols": "Pistole Mitragliatrici",
+        "pistols_heavy": "Pistole Pesanti",
+        "pistols_light": "Pistole Leggere",
+        "rifles": "Fucili",
+        "shotguns": "Fucili a Pompa",
+        "submachine_guns": "Mitragliette",
+        "tasers": "Taser"
+      },
+      "influence": {
+        "etiquette": "Etichetta",
+        "instruction": "Insegnamento",
+        "intimidation": "Intimidazione",
+        "leadership": "Comando",
+        "negotiation": "Negoziazione"
+      },
+      "outdoors": {
+        "navigation": "Navigazione",
+        "survival": "Sopravvivenza",
+        "tracking_desert": "Ambiente Deserto",
+        "tracking_other": "Altro Ambiente",
+        "tracking_urban": "Ambiente Urbano",
+        "tracking_woods": "Ambiente Bosco"
+      },
+      "perception": {
+        "aural": "Udito",
+        "perception_desert": "Ambiente Deserto",
+        "perception_other": "Altro Ambiente",
+        "perception_urban": "Ambiente Urbano",
+        "perception_woods": "Ambiente Bosco",
+        "scent": "Olfatto",
+        "tactile": "Tatto",
+        "taste": "Gusto",
+        "visual": "Vista"
+      },
+      "piloting": {
+        "aircraft": "Velivoli",
+        "ground_craft": "Veicoli Terrestri",
+        "watercraft": "Imbarcazioni"
+      },
+      "sorcery": {
+        "counterspelling": "Controincantesimo",
+        "ritual_spellcasting": "Lancio Rituale",
+        "spellcasting": "Lancio Incantesimi"
+      },
+      "stealth": {
+        "camouflage": "Mimetizzazione",
+        "disguise": "Travestimento",
+        "palming": "Nascondere Oggetti",
+        "sneaking": "Infiltrazione"
+      },
+      "tasking": {
+        "compiling": "Compilazione",
+        "decompiling": "Decompilazione",
+        "registering": "Registrazione"
+      }
+    },
+    "spell": {
+      "area": "Area",
+      "category": "Categoria",
+      "category_combat": "Combattimento",
+      "category_detection": "Rilevamento",
+      "category_health": "Salute",
+      "category_illusion": "Illusione",
+      "category_manipulation": "Manipolazione",
+      "damage": "Danno",
+      "damage_physical": "Fisico",
+      "damage_physical_short": "F",
+      "damage_physical_special": "Fisico, Speciale",
+      "damage_physical_special_short": "F, Spec",
+      "damage_short": "Danno",
+      "damage_stun": "Stordimento",
+      "damage_stun_short": "S",
+      "damage_stun_special": "Stordimento, Speciale",
+      "damage_stun_special_short": "S, Spec",
+      "direct": "Diretto",
+      "drain": "Drenaggio",
+      "drain_short": "DV",
+      "duration": "Durata",
+      "duration_instantaneous": "Istantanea",
+      "duration_instantaneous_short": "I",
+      "duration_immediate": "Immediata",
+      "duration_immediate_short": "I",
+      "duration_limited": "Limitata",
+      "duration_permanent": "Permanente",
+      "duration_permanent_short": "P",
+      "duration_short": "Dur.",
+      "duration_special": "Speciale",
+      "duration_special_short": "Spec",
+      "duration_sustained": "Prolungata",
+      "duration_sustained_short": "P",
+      "duration_always": "Sempre",
+      "duration_always_short": "S",
+      "isOpposed": "Contrapposto",
+      "range": "Raggio",
+      "range_line_of_sight": "Linea di vista",
+      "range_line_of_sight_area": "Linea di vista (area)",
+      "range_line_of_sight_area_short": "LDV(A)",
+      "range_line_of_sight_short": "LDV",
+      "range_self": "Sé",
+      "range_self_area": "Sé (Area)",
+      "range_self_area_short": "S(A)",
+      "range_self_short": "Sé",
+      "range_touch": "Tocco",
+      "range_touch_short": "T",
+      "type": "Tipo",
+      "type_mana": "Mana",
+      "type_mana_short": "Man",
+      "type_physical": "Fisico",
+      "type_physical_short": "Fis",
+      "withEssence": "Contro Essenza"
+    },
+    "spellfeatures": {
+      "area": "Area",
+      "direct": "Combattimento Diretto",
+      "indirect": "Combattimento Indiretto",
+      "sense_multi": "Multi-sensoriale",
+      "sense_single": "Monosensoriale"
+    },
+    "spirittype": {
+      "air": "Aria",
+      "beasts": "Bestie",
+      "earth": "Terra",
+      "fire": "Fuoco",
+      "kin": "Parente",
+      "plant": "Pianta",
+      "water": "Acqua"
+    },
+    "tradition": {
+      "attribute": "Caratteristica della Tradizione"
+    },
+    "vehicle": {
+      "action_label": "Manovrabilità / Attacco o Difesa del Veicolo",
+      "mode_label": "Modalità",
+      "mode": {
+        "manual": "Manuale",
+        "riggedAR": "Pilotato (RA)",
+        "riggedVR": "Pilotato (RV)",
+        "rcc": "via RCC (Da fare)",
+        "autonomous": "Autonomo"
+      },
+      "skill": {
+        "piloting": "Pilotaggio"
+      },
+      "type": {
+        "groundcraft": "Veicolo Terrestre",
+        "watercraft": "Veicolo Acquatico",
+        "aircraft": "Veicolo Aereo"
+      }
+    },
+    "weapon": {
+      "damage": "DV",
+      "attackRating": "Valore d'Attacco",
+      "firemodes": "Modalità",
+      "ammo": "Munizioni"
+    }
+  },
+  "skill": {
+    "astral": "Astrale",
+    "athletics": "Atletica",
+    "biotech": "Biotecnologie",
+    "close_combat": "Combattimento Ravvicinato",
+    "con": "Inganno",
+    "conjuring": "Evocazione",
+    "cracking": "Intrusione",
+    "electronics": "Elettronica",
+    "enchanting": "Incantamento",
+    "engineering": "Ingegneria",
+    "exotic_weapons": "Armi Esotiche",
+    "firearms": "Armi da Fuoco",
+    "influence": "Influenza",
+    "outdoors": "Sopravvivenza/Orientamento",
+    "perception": "Percezione",
+    "piloting": "Pilotaggio",
+    "sorcery": "Stregoneria",
+    "stealth": "Furtività",
+    "tasking": "Gestione Spiriti/Droni"
+  }
 }
