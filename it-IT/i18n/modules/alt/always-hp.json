@@ -1,14 +1,14 @@
 {
-	"ALWAYSHP": {
-		"DeathSavingThrowFail": "Спасбросок от смерти, Провал",
-		"DeathSavingThrowPass": "Спасбросок от смерти, Успех",
-		"add-defeated": {
-			"hint": "При нажатии на кнопку черепа для обнуления хитов, также добавлять статус побеждённого.",
-			"name": "Статус побеждённого при нуле хитов"
-		},
-		"clear-savingthrows": {
-			"hint": "Автоматический сброс спасбросков от смерти при исцелении.",
-			"name": "Сброс спасбросков от смерти"
-		}
-	}
+  "ALWAYSHP": {
+    "DeathSavingThrowFail": "Tiro salvezza contro la morte, Fallimento",
+    "DeathSavingThrowPass": "Tiro salvezza contro la morte, Successo",
+    "add-defeated": {
+      "hint": "Quando si preme il pulsante del teschio per azzerare i PF, aggiunge anche lo stato di sconfitto.",
+      "name": "Stato di sconfitto a 0 PF"
+    },
+    "clear-savingthrows": {
+      "hint": "Ripristino automatico dei tiri salvezza contro la morte quando il personaggio viene curato.",
+      "name": "Ripristina i TS contro la morte"
+    }
+  }
 }

@@ -1,12 +1,12 @@
 {
-	"HPBAR": {
-		"HeaderBonus": "Бонус хитов",
-		"MaxNegativeColor": "Цвет отрицательных хитов",
-		"MaxPositiveColor": "Цвет положительных хитов",
-		"TempColor": "Цвет временных хитов",
-		"ThemeConfigTitle": "Тема шкалы хитов"
-	},
-	"SETTINGS": {
-		"HPBarThemeConfigHint": "Измените вид шкалы хитов."
-	}
+  "HPBAR": {
+    "HeaderBonus": "Bonus ai punti ferita",
+    "MaxNegativeColor": "Colore dei punti ferita negativi",
+    "MaxPositiveColor": "Colore dei punti ferita positivi",
+    "TempColor": "Colore dei punti ferita temporanei",
+    "ThemeConfigTitle": "Tema della barra dei punti ferita"
+  },
+  "SETTINGS": {
+    "HPBarThemeConfigHint": "Modifica l'aspetto della barra dei punti ferita."
+  }
 }

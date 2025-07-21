@@ -1,51 +1,51 @@
 {
-	"tokenActionHud": {
-		"dnd5e": {
-			"1stLevelSpells": "1-й уровень",
-			"2ndLevelSpells": "2-й уровень",
-			"3rdLevelSpells": "3-й уровень",
-			"4thLevelSpells": "4-й уровень",
-			"5thLevelSpells": "5-й уровень",
-			"6thLevelSpells": "6-й уровень",
-			"7thLevelSpells": "7-й уровень",
-			"8thLevelSpells": "8-й уровень",
-			"9thLevelSpells": "9-й уровень",
-			"cantrips": "Заговоры",
-			"channelDivinity": "Проведение божественности",
-			"deathSave": "Спасброски от смерти",
-			"eldritchInvocations": "Таинственные воззвания",
-			"elementalDisciplines": "Стихийные практики",
-			"kiAbilities": "Магия ци",
-			"maneuvers": "Приёмы",
-			"pactBoons": "Предметы договора",
-			"saves": "Спасброски",
-			"settings": {
-				"categoriseAttributes": {
-					"choices": {
-						"checksSavesSkills": "Проверки/спасброски/навыки"
-					},
-					"hint": "Сортировка характеристик и навыков на параметры, способности/навыки и проверки/спасброски"
-				},
-				"ignorePassiveFeats": {
-					"hint": "Если включено, пассивные способности будут скрыты.",
-					"name": "Скрытие пассивных способностей"
-				},
-				"showAllNonpreparableSpells": {
-					"hint": "Если выключено, то заклинания, вроде заговоров , врождённых и неограниченных заклинаний должны быть 'подготовлены' для отображения в HUD."
-				},
-				"splitAbilities": {
-					"hint": "Если включено, характеристики будут разделены на проверки и спасброски.",
-					"name": "Отображение проверок характеристик и спасброски раздельно"
-				}
-			},
-			"veryRare": "Очень редкий"
-		},
-		"saves": "Спасброски",
-		"settings": {
-			"showSavesCategory": {
-				"hint": "Отображение категории спасбросков в HUD",
-				"name": "Отображение спасбросков"
-			}
-		}
-	}
+  "tokenActionHud": {
+    "dnd5e": {
+      "1stLevelSpells": "Incantesimi di 1° livello",
+      "2ndLevelSpells": "Incantesimi di 2° livello",
+      "3rdLevelSpells": "Incantesimi di 3° livello",
+      "4thLevelSpells": "Incantesimi di 4° livello",
+      "5thLevelSpells": "Incantesimi di 5° livello",
+      "6thLevelSpells": "Incantesimi di 6° livello",
+      "7thLevelSpells": "Incantesimi di 7° livello",
+      "8thLevelSpells": "Incantesimi di 8° livello",
+      "9thLevelSpells": "Incantesimi di 9° livello",
+      "cantrips": "Trucchetti",
+      "channelDivinity": "Canalizzazione della divinità",
+      "deathSave": "Tiri salvezza contro la morte",
+      "eldritchInvocations": "Invocazioni arcane",
+      "elementalDisciplines": "Discipline elementali",
+      "kiAbilities": "Abilità Ki",
+      "maneuvers": "Manovre",
+      "pactBoons": "Doni del patto",
+      "saves": "Tiri salvezza",
+      "settings": {
+        "categoriseAttributes": {
+          "choices": {
+            "checksSavesSkills": "Controlli/Salvezza/Abilità"
+          },
+          "hint": "Organizza gli attributi e le abilità in parametri, abilità/capacità e controlli/salvezze"
+        },
+        "ignorePassiveFeats": {
+          "hint": "Se abilitato, le capacità passive verranno nascoste.",
+          "name": "Nascondi capacità passive"
+        },
+        "showAllNonpreparableSpells": {
+          "hint": "Se disabilitato, incantesimi come trucchetti, innati e illimitati devono essere 'preparati' per essere mostrati nell'HUD."
+        },
+        "splitAbilities": {
+          "hint": "Se abilitato, gli attributi verranno separati in controlli e tiri salvezza.",
+          "name": "Mostra controlli e salvezze separatamente"
+        }
+      },
+      "veryRare": "Molto raro"
+    },
+    "saves": "Tiri salvezza",
+    "settings": {
+      "showSavesCategory": {
+        "hint": "Mostra la categoria dei tiri salvezza nell'HUD",
+        "name": "Mostra tiri salvezza"
+      }
+    }
+  }
 }

@@ -1,17 +1,17 @@
 {
-	"combatbooster": {
-		"settings": {
-			"currentHp": {
-				"hint": "Путь к данным текущих хитам актёра",
-				"text": "Текущие хиты"
-			},
-			"markDefeated": {
-				"hint": "Автоматически отмечать NPC побеждёнными при 0 хитов"
-			},
-			"maxHp": {
-				"hint": "Путь к данным максимальных хитов актёра",
-				"text": "Максимальные хиты"
-			}
-		}
-	}
+  "combatbooster": {
+    "settings": {
+      "currentHp": {
+        "hint": "Percorso ai dati dei punti ferita attuali dell'attore",
+        "text": "Punti ferita attuali"
+      },
+      "markDefeated": {
+        "hint": "Segna automaticamente gli NPC come sconfitti quando i PF sono a 0"
+      },
+      "maxHp": {
+        "hint": "Percorso ai dati dei punti ferita massimi dell'attore",
+        "text": "Punti ferita massimi"
+      }
+    }
+  }
 }

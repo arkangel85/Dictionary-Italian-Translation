@@ -1,24 +1,24 @@
 {
-	"dnd5e-system-customizer": {
-		"CustomizerApp": {
-			"tabs": {
-				"hitDieTypes": {
-					"add": "Добавить тип кости хитов",
-					"hint": "Настройка типов костей хитов",
-					"hitDieName": "Тип кости хитов",
-					"name": "Кости хитов"
-				},
-				"misc": {
-					"hitPointsAbility": "Характеристика хитов"
-				},
-				"spellLevels": {
-					"add": "Добавить уровень заклинаний",
-					"hint": "Настройка уровней заклинаний",
-					"name": "Уровни заклинаний",
-					"spellLevelAbbreviation": "Номер уровня заклинаний",
-					"spellLevelName": "Название уровня заклинаний"
-				}
-			}
-		}
-	}
+  "dnd5e-system-customizer": {
+    "CustomizerApp": {
+      "tabs": {
+        "hitDieTypes": {
+          "add": "Aggiungi tipo di dado vita",
+          "hint": "Configurazione dei tipi di dado vita",
+          "hitDieName": "Tipo di dado vita",
+          "name": "Dadi vita"
+        },
+        "misc": {
+          "hitPointsAbility": "Caratteristica dei punti ferita"
+        },
+        "spellLevels": {
+          "add": "Aggiungi livello incantesimi",
+          "hint": "Configurazione dei livelli degli incantesimi",
+          "name": "Livelli degli incantesimi",
+          "spellLevelAbbreviation": "Numero del livello incantesimi",
+          "spellLevelName": "Nome del livello incantesimi"
+        }
+      }
+    }
+  }
 }

@@ -1,86 +1,86 @@
 {
-	"TIDY5E": {
-		"AbbrSavingThrow": "Спасбросок",
-		"Environment": "Местность",
-		"Exhaustion3": "Помеха при бросках атаки и спасбросках",
-		"Exhaustion4": "Максимум хитов снижен вдвое",
-		"LevelBumpTooltip": "При сотворении заклинания вы можете свободно сотворить его на один уровень выше.",
-		"RestL": "Продолжительный отдых",
-		"Settings": {
-			"AllowCantripToBePreparedOnContext": {
-				"hint": "Опциональное правило \"Формулы заговоров\" из книги Tashas Cauldron of Everything позволяет волшебникам подготавливать заговоры после продолжительного отдыха так же, как уровневые заклинания.",
-				"name": "Разрешить подготавливать заговоры при нажатии ПКМ"
-			},
-			"AllowHpConfigOverride": {
-				"name": "Разрешить перезапись хитов"
-			},
-			"AllowHpMaxOverride": {
-				"name": "Разрешить перезапись максимальных хитов персонажа"
-			},
-			"CustomExhaustionEffect": {
-				"warning": "Не найден актёр для применения эффекта истощения!"
-			},
-			"CustomExhaustionIcon": {
-				"hint": "Введите относительный путь к иконке истощения (напр.: modules/tidy5e-sheet/images/exhaustion.svg). Работает только если Эффекты истощения выставлены на \"tidy 5e\".",
-				"name": "Особая иконка истощения"
-			},
-			"EnableSpellLevelButtons": {
-				"hint": "Заменяет выпадающий список уровня заклинания кнопками.",
-				"name": "Включение кнопок уровней заклинаний"
-			},
-			"ExhaustionDisabled": {
-				"hint": "Если вы не используете истощение в вашей игре, можно полностью отключить эту шкалу.",
-				"name": "Отключение шкалы истощения"
-			},
-			"ExhaustionEffects": {
-				"default": "Без автоматизации эффектов истощения",
-				"hint": "Выберите как будут автоматизированы эффекты, связанные со степенями истощения (для проверок с помехой требуется Midi QOL)",
-				"name": "Автоматизация эффектов истощения"
-			},
-			"ExhaustionOnHover": {
-				"hint": "Истощение будет отображаться только при наведении на портрет.",
-				"name": "Отображение истощения при наведении"
-			},
-			"HiddenDeathSaves": {
-				"hint": "Спасброски от смерти и их результаты будут видны только GM",
-				"name": "Скрытие спасбросок от смерти от игроков"
-			},
-			"HideIfZero": {
-				"hint": "Если истощение или вдохновение отсутствуют, то они будут скрыты и отображены при наведении.",
-				"name": "Скрытие истощения и вдохновения при 0"
-			},
-			"HpBar": {
-				"hint": "Цветная шкала хитов под портретом будет скрыта (числовые значение останутся).",
-				"name": "Отключение шкалы хитов"
-			},
-			"HpOverlay": {
-				"hint": "Наложение шкалы хитов поверх портрета будет отключено для этого типа актёров.",
-				"name": "Скрытие наложения хитов"
-			},
-			"HpOverlayBorder": {
-				"hint": "Значение на которое будет смещено наложение хитов по отношению к рамке портрета.",
-				"name": "Смещение затенения хитов"
-			},
-			"LazyHpAndExpEnable": {
-				"hint": "С лёгкостью добавляйте и отнимайте хиты и опыт с автоматической конвертацией без перерасхода. Позволяет вводить значения, такие как: \"+10\", \"-10\", \"=10\", \"010\""
-			},
-			"LazyHpForceHpValueLimit1": {
-				"name": "Принудительно (ТОЛЬКО со стороны бланка) запретить текущим хитам превышать максимальные хиты + максимальные временных хиты (hp.value <= hp.max + hp.tempmax)"
-			},
-			"LazyHpForceHpValueLimit2": {
-				"hint": "Эта настройка включает логику расчёта для добавления временных хитов, требуя от игроков заполнять поле временных хитов (hp.temp) вместо увеличения текущих хитов в соответствующем поле (hp.value). Дабы избежать противоречий, по-умолчанию эта опция выключена, чтобы соответствовать стандартному поведению бланка. Если включено, гарантируется, что текущие хиты (hp.value <= hp.max) увеличивают временные хиты (hp.temp) в соответствующим количестве, если hp.value > hp.max, при этом всегда соблюдая hp.temp <= hp.tempmax.",
-				"name": "Принудительно (ТОЛЬКО со стороны бланка) запретить текущим хитам превышать максимальные хиты, и вместо этого добавлять временные хиты (hp.value <= hp.max && hp.temp <= hp.tempmax)"
-			},
-			"LockHpMaxChanges": {
-				"hint": "Блокирует ввод максимальных хиты на бланке для всех игроков, кроме GM. Все прочие модули, которые используют эти поля, будут работать исправно.",
-				"name": "Заблокировать изменение максимума хитов для всех, кроме GM"
-			},
-			"TabHomebrewRules": {
-				"labelHBUpcastFreeSpell": "Свободное сотворение на уровень выше"
-			},
-			"TabLocks": {
-				"hint2": "Обратите внимание, что это не надёжная блокировка, так как игроки могут обойти ограничения, поэтому эта опция не является ответом на злонамеренное поведение игроков. Она предназначена для игр с неопытными игроками (в отношении D&D и/или умения пользоваться компьютерами), чтобы не дать им допустить ошибки (например, нечаянно добавить/убрать владение спасброском)."
-			}
-		}
-	}
+  "TIDY5E": {
+    "AbbrSavingThrow": "TS",
+    "Environment": "Ambiente",
+    "Exhaustion3": "Svantaggio ai tiri per colpire e ai tiri salvezza",
+    "Exhaustion4": "Punti ferita massimi dimezzati",
+    "LevelBumpTooltip": "Quando lanci un incantesimo, puoi liberamente lanciarlo a un livello superiore di uno.",
+    "RestL": "Riposo lungo",
+    "Settings": {
+      "AllowCantripToBePreparedOnContext": {
+        "hint": "La regola opzionale \"Formule dei trucchetti\" dal manuale Calderone di Tasha per Tutto consente ai maghi di preparare trucchetti dopo un riposo lungo proprio come gli incantesimi di livello.",
+        "name": "Permetti di preparare i trucchetti con clic destro"
+      },
+      "AllowHpConfigOverride": {
+        "name": "Consenti la sovrascrittura dei punti ferita"
+      },
+      "AllowHpMaxOverride": {
+        "name": "Consenti la sovrascrittura dei punti ferita massimi"
+      },
+      "CustomExhaustionEffect": {
+        "warning": "Attore per l'applicazione dell'effetto di esaurimento non trovato!"
+      },
+      "CustomExhaustionIcon": {
+        "hint": "Inserisci il percorso relativo all’icona di esaurimento (es: modules/tidy5e-sheet/images/exhaustion.svg). Funziona solo se gli effetti di esaurimento sono impostati su \"tidy 5e\".",
+        "name": "Icona personalizzata per l’esaurimento"
+      },
+      "EnableSpellLevelButtons": {
+        "hint": "Sostituisce il menu a discesa del livello incantesimo con pulsanti.",
+        "name": "Abilita i pulsanti per i livelli degli incantesimi"
+      },
+      "ExhaustionDisabled": {
+        "hint": "Se non usi l’esaurimento nella tua campagna, puoi disattivare completamente questa barra.",
+        "name": "Disattiva la barra dell’esaurimento"
+      },
+      "ExhaustionEffects": {
+        "default": "Nessuna automazione per gli effetti di esaurimento",
+        "hint": "Scegli come automatizzare gli effetti relativi ai livelli di esaurimento (per svantaggio ai controlli è richiesto Midi QOL)",
+        "name": "Automazione degli effetti di esaurimento"
+      },
+      "ExhaustionOnHover": {
+        "hint": "L’esaurimento verrà mostrato solo quando si passa il mouse sul ritratto.",
+        "name": "Mostra esaurimento al passaggio del mouse"
+      },
+      "HiddenDeathSaves": {
+        "hint": "I tiri salvezza contro la morte e i loro risultati saranno visibili solo al GM",
+        "name": "Nascondi i TS contro la morte ai giocatori"
+      },
+      "HideIfZero": {
+        "hint": "Se l’esaurimento o l’ispirazione sono a 0, verranno nascosti e mostrati solo al passaggio del mouse.",
+        "name": "Nascondi esaurimento e ispirazione se a 0"
+      },
+      "HpBar": {
+        "hint": "La barra colorata dei punti ferita sotto il ritratto sarà nascosta (i valori numerici rimarranno visibili).",
+        "name": "Nascondi la barra dei PF"
+      },
+      "HpOverlay": {
+        "hint": "La sovrapposizione dei punti ferita sopra il ritratto sarà disattivata per questo tipo di attore.",
+        "name": "Nascondi sovrapposizione dei PF"
+      },
+      "HpOverlayBorder": {
+        "hint": "Valore di spostamento della sovrapposizione dei PF rispetto al bordo del ritratto.",
+        "name": "Offset dell’ombreggiatura dei PF"
+      },
+      "LazyHpAndExpEnable": {
+        "hint": "Aggiungi o rimuovi facilmente PF e PE con conversione automatica evitando errori. Permette input come: \"+10\", \"-10\", \"=10\", \"010\""
+      },
+      "LazyHpForceHpValueLimit1": {
+        "name": "Forza (SOLO lato scheda) il limite massimo dei PF a PF massimi + PF temporanei (hp.value <= hp.max + hp.tempmax)"
+      },
+      "LazyHpForceHpValueLimit2": {
+        "hint": "Questa impostazione abilita la logica per l’aggiunta di PF temporanei, richiedendo ai giocatori di usare il campo hp.temp invece di aumentare hp.value direttamente. Per evitare conflitti, è disattivata di default. Se attivata, garantisce che hp.value <= hp.max e che eventuali eccessi vengano applicati a hp.temp, sempre rispettando hp.temp <= hp.tempmax.",
+        "name": "Forza (SOLO lato scheda) hp.value <= hp.max e aggiunta dei PF temporanei (hp.temp <= hp.tempmax)"
+      },
+      "LockHpMaxChanges": {
+        "hint": "Blocca la modifica dei PF massimi nella scheda per tutti tranne il GM. Gli altri moduli che usano questi campi continueranno a funzionare.",
+        "name": "Blocca la modifica dei PF massimi (solo GM)"
+      },
+      "TabHomebrewRules": {
+        "labelHBUpcastFreeSpell": "Lancio libero a livello superiore"
+      },
+      "TabLocks": {
+        "hint2": "Attenzione: non è una protezione infallibile, i giocatori potrebbero aggirarla. È pensata per impedire errori accidentali da parte di giocatori inesperti (di D&D o informatica), ad esempio rimuovere per sbaglio una competenza ai TS."
+      }
+    }
+  }
 }

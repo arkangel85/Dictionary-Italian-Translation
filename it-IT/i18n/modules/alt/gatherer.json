@@ -1,10 +1,10 @@
 {
-	"gatherer": {
-		"settings": {
-			"resourceValue": {
-				"name": "Значение ресурса для проверки",
-				"hint": "Значение для проверки возможности сбора. В случае D&D5e это будет '0', то есть проверка того, что хиты равны 0."
-			}
-		}
-	}
+  "gatherer": {
+    "settings": {
+      "resourceValue": {
+        "name": "Valore della risorsa da controllare",
+        "hint": "Valore utilizzato per verificare la possibilità di raccolta. In D&D5e, ad esempio, sarà '0', cioè si controlla che i PF siano pari a 0."
+      }
+    }
+  }
 }

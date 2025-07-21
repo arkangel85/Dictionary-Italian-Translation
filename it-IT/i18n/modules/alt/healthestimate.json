@@ -1,44 +1,44 @@
 {
-	"healthEstimate": {
-		"core": {
-			"addTemp": {
-				"hint": "Временные хиты будут суммированы с обычными при оценке общих хитов.",
-				"name": "Учитывать временные хиты"
-			},
-			"breakOnZeroMaxHP": {
-				"name": "Скрывать на токенах без максимальных хитов"
-			},
-			"custom": {
-				"FractionHP": {
-					"hint": "Ваша система может использовать особый путь к атрибуту. Измените этот параметр (например на actor.system.health), если оценка хитов не отображается. ",
-					"name": "Путь атрибута хитов"
-				},
-				"FractionMath": {
-					"choices": {
-						"0": "(Текущие хиты)/(Максимальные хиты)",
-						"1": "(Максимальные хиты - Текущие хиты)/(Максимальные хиты)"
-					},
-					"hint": "Расчёты хитов в вашей системе могут отличаться от стандартных. Выберите формулу для расчёта стадий хитов. "
-				}
-			},
-			"keybinds": {
-				"dontMarkDead": {
-					"hint": "NPC не будут становиться мёртвыми, когда их хиты понижается до 0 (вместо этого они будут Без сознания). Эта опция работает только, если включено {setting}."
-				},
-				"hideEstimatesAndNames": {
-					"hint": "Скрывать оценку хитов и имена выбранных токенов."
-				}
-			}
-		},
-		"custom-system-builder": {
-			"tempHP": {
-				"name": "Путь атрибута временных хитов"
-			}
-		},
-		"starfinder": {
-			"addStamina": {
-				"hint": "Если включено, Живучесть будет суммироваться с хитами при оценке."
-			}
-		}
-	}
+  "healthEstimate": {
+    "core": {
+      "addTemp": {
+        "hint": "I PF temporanei verranno sommati a quelli normali nella stima totale dei punti ferita.",
+        "name": "Considera i PF temporanei"
+      },
+      "breakOnZeroMaxHP": {
+        "name": "Nascondi su token senza PF massimi"
+      },
+      "custom": {
+        "FractionHP": {
+          "hint": "Il tuo sistema potrebbe usare un percorso speciale per l'attributo. Modifica questo parametro (es. actor.system.health) se la stima dei PF non appare.",
+          "name": "Percorso attributo dei PF"
+        },
+        "FractionMath": {
+          "choices": {
+            "0": "(PF attuali)/(PF massimi)",
+            "1": "(PF massimi - PF attuali)/(PF massimi)"
+          },
+          "hint": "Il calcolo dei PF nel tuo sistema potrebbe differire da quello standard. Scegli la formula per calcolare le soglie dei PF."
+        }
+      },
+      "keybinds": {
+        "dontMarkDead": {
+          "hint": "Gli NPC non verranno marcati come morti quando scendono a 0 PF (verranno indicati come Incoscienti). Questa opzione funziona solo se è abilitata {setting}."
+        },
+        "hideEstimatesAndNames": {
+          "hint": "Nascondi la stima dei PF e i nomi dei token selezionati."
+        }
+      }
+    },
+    "custom-system-builder": {
+      "tempHP": {
+        "name": "Percorso attributo PF temporanei"
+      }
+    },
+    "starfinder": {
+      "addStamina": {
+        "hint": "Se attivo, la Resistenza verrà sommata ai PF nella stima totale."
+      }
+    }
+  }
 }

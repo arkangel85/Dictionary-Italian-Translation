@@ -1,8 +1,8 @@
 {
-	"ACTIVEAURAS": {
-		"FORM_SaveDC": "СЛ спасброска",
-		"FORM_SaveEnable": "Тип спасброска",
-		"SaveNotify": "${tokenName} прошёл спасброска ${oldEffectDataLabel}",
-		"removeDeadHint": "Когда хиты токена достигает 0, удалять с него все ауры"
-	}
+  "ACTIVEAURAS": {
+    "FORM_SaveDC": "CD del tiro salvezza",
+    "FORM_SaveEnable": "Tipo di tiro salvezza",
+    "SaveNotify": "${tokenName} ha superato il tiro salvezza contro ${oldEffectDataLabel}",
+    "removeDeadHint": "Quando i PF del token raggiungono 0, rimuovere tutte le aure"
+  }
 }
