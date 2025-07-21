@@ -1,138 +1,138 @@
 {
-	"label": "Ходы следопыта",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "A Safe Place",
-			"name": "Безопасное место",
-			"description": "Когда вы <b>назначаете дозор на ночь</b>, все получают +1 к <i>несению дозора</i>."
-		},
-		{
-			"id": "A Safer Place",
-			"name": "Действительно безопасное место",
-			"description": "Когда вы <b>назначаете дозор на ночь</b>, все получают +1 к <i>несению дозора</i>. После ночи в лагере, где вы назначали дозор, все получают +1 на следующий ход."
-		},
-		{
-			"id": "Animal Companion",
-			"name": "Животное-спутник",
-			"description": "<p>У вас есть сверхъестественная связь с верным четвероногим (или крылатым) другом. Вы не можете разговаривать с ним непосредственно, однако оно всегда будет действовать согласно вашим желаниям. Придумайте имя и выберите, к какому виду оно относится:</p><p><i>Волк, пума, медведь, орёл, пёс, ястреб, кот, сова, голубь, крыса, мул.</i></p><p>Выберите основные характеристики:</p><ul><li>Свирепость +2, Ум +1, Броня 1, Инстинкты +1;</li><li>Свирепость +2, Ум +2, Броня 0, Инстинкты +1;</li><li>Свирепость +1, Ум +2, Броня 1, Инстинкты +1;</li><li>Свирепость +3, Ум +1, Броня 1, Инстинкты +2.</li></ul><p>Выберите столько сильных сторон, сколько Свирепости у животного:</p><p><i>Быстрое, крепкое, огромное, спокойное, быстро осваивается, быстрые рефлексы, неутомимое, маскировка, беспощадное, устрашающее, острые чувства, скрытность.</i></p><p>Ваше животное обучено сражаться с другими людьми. Выберите столько умений, сколько у него Ума:</p><p><i>Охота, поиск, разведка, охрана, битва с чудовищами, выступление, труд, путешествия.</i></p><p>Выберите столько слабостей, сколько Инстинктов у животного:</p><p><i>Капризное, дикое, медлительное, увечное, жуткое, невнимательное, упрямое, хромое.</i></p>"
-		},
-		{
-			"id": "Blot Out The Sun",
-			"name": "Туча стрел",
-			"description": "<b><i>Делая залп</i></b>, вы можете потратить дополнительную единицу боезапаса до броска. За каждую потраченную единицу можете выбрать дополнительную цель. Бросок хода, как и бросок урона, делается один раз."
-		},
-		{
-			"id": "Called Shot",
-			"name": "Снайперский выстрел",
-			"description": "Когда вы атакуете издалека врага, которого застали врасплох или неспособного защититься, вы можете просто нанести урон, а можете, выбрав цель, сделать бросок и приложить ЛОВ:",
-			"success": "Выберите один из вариантов и нанесите урон.",
-			"partial": "Выберите один из вариантов, но без нанесения урона.",
-			"choices": "<ul><li>Голова: противник оглушён и не придёт в себя еще несколько мгновений.</li><li>Руки: противник роняет то, что держал в руках.</li><li>Ноги: противник начинает хромать и передвигается медленнее.</li></ul>"
-		},
-		{
-			"id": "Camouflage",
-			"name": "Маскировка",
-			"description": "Когда вы <b>прячетесь на природе</b>, пока вы неподвижны — вас не заметят."
-		},
-		{
-			"id": "Command",
-			"name": "Команда",
-			"description": "<p>Когда животное помогает вам в чём-то, что оно умеет, то...</p><ul><li>...если вы вдвоём нападаете на одну цель, добавьте Свирепость животного к вашему урону.</li><li>...если вы <i>идёте по следу</i>, добавьте его Ум к вашему броску.</li><li>...если вы получаете урон, добавьте его Броню к вашей.</li><li>...если вы <i>изучаете обстановку</i>, добавьте его Ум к вашему броску.</li><li>...если вы <i>договариваетесь</i>, добавьте его Ум к вашему броску.</li><li>...если кто-то <i>мешает вам</i>, добавьте Инстинкт животного к броску мешающего</li></ul>"
-		},
-		{
-			"id": "Familiar Prey",
-			"name": "Знакомая добыча",
-			"description": "Когда вы <b><i>копаетесь в памяти</i></b> в поисках знаний о каком-то монстре, используйте МДР, а не ИНТ."
-		},
-		{
-			"id": "Follow Me",
-			"name": "Следуй за мной",
-			"description": "Когда вы <b><i>отправляетесь в опасное путешествие</i></b>, вы можете взять две роли. Каждая требует отдельного броска."
-		},
-		{
-			"id": "God Amidst The Wastes",
-			"name": "Птица божия",
-			"description": "Посвятите себя божеству (возьмите одно из имеющихся или придумайте новое). Вы получаете жреческие ходы <i>молитва</i> и <i>прочитать заклинание</i>, а по части заклинаний вы, по сути, становитесь жрецом первого уровня. С каждым новым уровнем ваш уровень жреческих способностей также увеличивается на 1."
-		},
-		{
-			"id": "Half-elven",
-			"name": "Полуэльф",
-			"description": "В ваш род затесался эльф (или человек), и его кровь проявляется. Вы получаете стартовый ход эльфа, если ваш герой — человек, и наоборот."
-		},
-		{
-			"id": "Hunt & Track",
-			"name": "Выследить",
-			"description": "Когда вы идёте по следам существа, бросьте+МДР.",
-			"success": "<p>Вы не теряете след, пока существо заметно не сменит направление или способ передвижения, а также выбираете один вариант:</p><ul><li>Вы узнаёте полезную информацию цели. Спросите ведущего.</li><li>Вы понимаете, почему след оборвался.</li></ul>",
-			"partial": "Вы не теряете след, пока существо заметно не сменит направление или способ передвижения."
-		},
-		{
-			"id": "Hunter’s Prey",
-			"name": "Моя добыча",
-			"description": "Когда вы <b><i>копаетесь в памяти</i> насчёт знаний о каком-либо монстре</b>, приложите МДР, а не ИНТ. На 12+ вы вдобавок можете задать ведущему любой вопрос об этом монстре."
-		},
-		{
-			"id": "Man’s Best Friend",
-			"name": "Друг человека",
-			"description": "Если вы <b>позволяете животному-спутнику принять удар, предназначенный вам</b>, никто не получает урона, но свирепость животного опускается до 0. Если она уже равна 0, вы не можете использовать этот ход. Если вы оба отдохнёте несколько часов, Свирепость восстановится."
-		},
-		{
-			"id": "Observant",
-			"name": "Наблюдатель",
-			"description": "Когда вы <b>предпринимаете успешную попытку выследить кого-то</b>, можете задать ведущему вопрос об этом существе. Вопрос берётся из списка вопросов <i>изучения обстановки</i>."
-		},
-		{
-			"id": "Smaug’s Belly",
-			"name": "Прореха в чешуе Смога",
-			"description": "Когда вы <b>знаете уязвимое место цели</b>, ваши стрелы приобретают свойство <i>пробивание 2</i>."
-		},
-		{
-			"id": "Special Trick",
-			"name": "Особый трюк",
-			"description": "Выберите ход другого класса. <b>Пока ваше животное-спутник с вами</b>, вы можете совместно выполнить этот ход."
-		},
-		{
-			"id": "Strider",
-			"name": "Странник",
-			"description": "Когда вы <b><i>отправляетесь в опасное путешествие</i></b>, вы можете взять две роли. Сделайте по два броска на каждую и выберите лучший результат в каждом случае."
-		},
-		{
-			"id": "Unnatural Ally",
-			"name": "Необычный спутник",
-			"description": "Ваш спутник — не обычное животное, а монстр. Опишите его. Оно получает +2 к свирепости и +1 к инстинкту, плюс новое умение."
-		},
-		{
-			"id": "Viper’s Fangs",
-			"name": "Клыки гадюки",
-			"description": "<b>Если у вас два оружия и вы атакуете противника обоими одновременно</b>, добавьте [[/roll 1d8]] урона оружием в неосновной руке."
-		},
-		{
-			"id": "Viper’s Strike",
-			"name": "Укус гадюки",
-			"description": "<b>Если у вас два оружия и вы атакуете противника обоими одновременно</b>, добавьте [[/roll 1d4]] урона оружием в неосновной руке."
-		},
-		{
-			"id": "Well-trained",
-			"name": "Хорошо обученный",
-			"description": "Выберите еще одно умение для вашего животного-спутника."
-		},
-		{
-			"id": "Wild Empathy",
-			"name": "Дикая эмпатия",
-			"description": "Вы можете говорить с животными и понимать их."
-		},
-		{
-			"id": "Wild Speech",
-			"name": "Дикий язык",
-			"description": "Вы можете разговаривать с любым существом, кроме планарных и волшебных созданий, и понимать его."
-		}
-	]
+  "label": "Mosse del ranger",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "A Safe Place",
+      "name": "Posto sicuro",
+      "description": "Quando <b>organizzi un turno di guardia notturna</b>, tutti ricevono +1 a <i>fare la guardia</i>."
+    },
+    {
+      "id": "A Safer Place",
+      "name": "Un posto veramente sicuro",
+      "description": "Quando <b>organizzi un turno di guardia notturna</b>, tutti ricevono +1 a <i>fare la guardia</i>. Dopo aver passato la notte nel campo con la tua guardia, tutti ottengono +1 alla prossima mossa."
+    },
+    {
+      "id": "Animal Companion",
+      "name": "Compagno animale",
+      "description": "<p>Hai un legame soprannaturale con un fedele amico a quattro zampe (o alato). Non potete parlare direttamente, ma agirà sempre secondo i tuoi desideri. Scegli un nome e una specie:</p><p><i>Lupo, puma, orso, aquila, cane, falco, gatto, gufo, colombo, ratto, mulo.</i></p><p>Scegli le sue statistiche:</p><ul><li>Ferocia +2, Intelletto +1, Armatura 1, Istinto +1;</li><li>Ferocia +2, Intelletto +2, Armatura 0, Istinto +1;</li><li>Ferocia +1, Intelletto +2, Armatura 1, Istinto +1;</li><li>Ferocia +3, Intelletto +1, Armatura 1, Istinto +2.</li></ul><p>Scegli tanti punti di forza quant’è la Ferocia dell’animale:</p><p><i>Veloce, robusto, enorme, calmo, si adatta in fretta, riflessi pronti, instancabile, mimetico, spietato, intimidatorio, sensi acuti, furtivo.</i></p><p>Il tuo animale è addestrato a combattere contro gli umani. Scegli tanti addestramenti quant’è il suo Intelletto:</p><p><i>Caccia, ricerca, esplorazione, guardia, lotta contro mostri, esibizione, lavoro, viaggio.</i></p><p>Scegli tante debolezze quant’è il suo Istinto:</p><p><i>Capriccioso, selvaggio, lento, menomato, inquietante, distratto, testardo, zoppicante.</i></p>"
+    },
+    {
+      "id": "Blot Out The Sun",
+      "name": "Pioggia di frecce",
+      "description": "<b><i>Quando fai una salva</i></b>, puoi spendere munizioni extra prima del tiro. Per ogni unità spesa scegli un bersaglio aggiuntivo. Il tiro per la mossa e i danni si fanno una sola volta."
+    },
+    {
+      "id": "Called Shot",
+      "name": "Colpo mirato",
+      "description": "Quando attacchi da lontano un nemico colto di sorpresa o incapace di difendersi, puoi infliggere danno normalmente oppure scegliere un bersaglio e tirare+DES:",
+      "success": "Scegli un'opzione ed infliggi danno.",
+      "partial": "Scegli un'opzione ma non infliggi danno.",
+      "choices": "<ul><li>Testa: il nemico è stordito per qualche istante.</li><li>Braccia: il nemico lascia cadere ciò che impugnava.</li><li>Gambe: il nemico zoppica e si muove lentamente.</li></ul>"
+    },
+    {
+      "id": "Camouflage",
+      "name": "Mimetismo",
+      "description": "Quando <b>ti nascondi in natura</b>, finché resti immobile non potrai essere notato."
+    },
+    {
+      "id": "Command",
+      "name": "Comando",
+      "description": "<p>Quando il tuo animale ti aiuta in qualcosa che sa fare...</p><ul><li>...se attaccate lo stesso bersaglio, aggiungi la sua Ferocia ai tuoi danni.</li><li>...se <i>segui tracce</i>, aggiungi la sua Intelligenza al tiro.</li><li>...se subisci danni, aggiungi la sua Armatura alla tua.</li><li>...se <i>esamini la zona</i>, aggiungi la sua Intelligenza al tiro.</li><li>...se <i>negozi</i>, aggiungi la sua Intelligenza al tiro.</li><li>...se qualcuno <i>ti ostacola</i>, aggiungi il suo Istinto al tiro dell’ostacolante.</li></ul>"
+    },
+    {
+      "id": "Familiar Prey",
+      "name": "Preda familiare",
+      "description": "Quando <b><i>peschi nei ricordi</i></b> su un mostro, usa SAG invece di INT."
+    },
+    {
+      "id": "Follow Me",
+      "name": "Seguitemi",
+      "description": "Quando <b><i>inizi un viaggio pericoloso</i></b>, puoi ricoprire due ruoli. Ogni ruolo richiede un tiro separato."
+    },
+    {
+      "id": "God Amidst The Wastes",
+      "name": "Protetto dagli dei",
+      "description": "Dedica te stesso a una divinità (scegline una esistente o inventane una). Ottieni le mosse del chierico <i>Preghiera</i> e <i>Lettura di incantesimi</i> e conti come un chierico di 1° livello per quanto riguarda gli incantesimi. Ad ogni nuovo livello aumenti anche il tuo livello da chierico di +1."
+    },
+    {
+      "id": "Half-elven",
+      "name": "Mezzo-elfo",
+      "description": "Hai sangue elfico (o umano) nelle vene. Se sei umano, ottieni una mossa iniziale da elfo, e viceversa."
+    },
+    {
+      "id": "Hunt & Track",
+      "name": "Caccia e inseguimento",
+      "description": "Quando segui le tracce di una creatura, tira+SAG.",
+      "success": "<p>Non perdi le tracce finché la creatura non cambia visibilmente percorso o metodo di spostamento. Inoltre, scegli una opzione:</p><ul><li>Ottieni informazioni utili sulla creatura. Chiedi al GM.</li><li>Capisci perché le tracce si interrompono.</li></ul>",
+      "partial": "Non perdi le tracce finché la creatura non cambia visibilmente percorso o metodo di spostamento."
+    },
+    {
+      "id": "Hunter’s Prey",
+      "name": "La mia preda",
+      "description": "Quando <b><i>peschi nei ricordi</i> su un mostro</b>, usa SAG invece di INT. Con un 12+ puoi fare al GM qualsiasi domanda su quel mostro."
+    },
+    {
+      "id": "Man’s Best Friend",
+      "name": "Il miglior amico",
+      "description": "Se <b>permetti al tuo compagno animale di subire un colpo al posto tuo</b>, nessuno subisce danni, ma la Ferocia dell’animale scende a 0. Se è già a 0, non puoi usare questa mossa. Dopo alcune ore di riposo, la Ferocia si ripristina."
+    },
+    {
+      "id": "Observant",
+      "name": "Osservatore",
+      "description": "Quando <b>segui con successo qualcuno</b>, puoi fare una domanda su quella creatura al GM, scegliendola dalla lista di <i>esamina la zona</i>."
+    },
+    {
+      "id": "Smaug’s Belly",
+      "name": "Punto debole",
+      "description": "Quando <b>conosci il punto debole del bersaglio</b>, le tue frecce ottengono <i>Penetrazione 2</i>."
+    },
+    {
+      "id": "Special Trick",
+      "name": "Trucchetto speciale",
+      "description": "Scegli una mossa di un’altra classe. <b>Finché il tuo compagno animale è con te</b>, puoi eseguirla insieme a lui."
+    },
+    {
+      "id": "Strider",
+      "name": "Passo leggero",
+      "description": "Quando <b><i>inizi un viaggio pericoloso</i></b>, puoi ricoprire due ruoli. Tira due volte per ciascuno e prendi il risultato migliore."
+    },
+    {
+      "id": "Unnatural Ally",
+      "name": "Alleato insolito",
+      "description": "Il tuo compagno non è un animale comune, ma un mostro. Descrivilo. Ottiene +2 Ferocia, +1 Istinto e una nuova abilità."
+    },
+    {
+      "id": "Viper’s Fangs",
+      "name": "Zanne di vipera",
+      "description": "<b>Se hai due armi e colpisci con entrambe</b>, aggiungi [[/roll 1d8]] danni con l’arma secondaria."
+    },
+    {
+      "id": "Viper’s Strike",
+      "name": "Morso di vipera",
+      "description": "<b>Se hai due armi e colpisci con entrambe</b>, aggiungi [[/roll 1d4]] danni con l’arma secondaria."
+    },
+    {
+      "id": "Well-trained",
+      "name": "Ben addestrato",
+      "description": "Scegli una nuova abilità per il tuo compagno animale."
+    },
+    {
+      "id": "Wild Empathy",
+      "name": "Empatia selvatica",
+      "description": "Puoi parlare con gli animali e capirli."
+    },
+    {
+      "id": "Wild Speech",
+      "name": "Lingua selvaggia",
+      "description": "Puoi parlare e capire qualsiasi creatura non magica o extraplanare."
+    }
+  ]
 }

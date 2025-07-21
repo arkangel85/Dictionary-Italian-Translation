@@ -1,38 +1,38 @@
 {
-	"label": "Ходы ведущего/Принципы",
-	"mapping": {
-		"name": "name"
-	},
-	"entries": [
-		{
-			"id": "Principals",
-			"name": "Принципы",
-			"pages": {
-				"Principals": {
-					"name": "Принципы",
-					"text": "<ul><li>Рисуйте карты, оставляя белые пятна.</li><li>Обращайтесь к персонажам, а не к игрокам.</li><li>Погрузитесь в фантастическое.</li><li>Делайте ходы, следующие из повествования.</li><li>Не произносите названия ходов вслух.</li><li>Вдохните жизнь в каждого монстра.</li><li>Дайте каждому персонажу имя.</li><li>Задавайте вопросы и руководствуйтесь ответами.</li><li>Будьте фанатом персонажей игроков.</li><li>Помните об опасности.</li><li>Начинайте с повествования и заканчивайте им.</li><li>Мыслите за рамками текущей сцены.</li></ul>"
-				}
-			}
-		},
-		{
-			"id": "GM Moves",
-			"name": "Ходы ведущего",
-			"pages": {
-				"GM Moves": {
-					"name": "Ходы ведущего",
-					"text": "<ul><li>Используйте ход монстра, угрозы или места.</li><li>Откройте неприятную истину.</li><li>Покажите признаки надвигающейся угрозы.</li><li>Нанесите урон.</li><li>Расходуйте их запасы.</li><li>Оберните их ход против них.</li><li>Разделите их.</li><li>Предоставьте возможность, подходящую классу.</li><li>Покажите недостаток их класса, расы или снаряжения.</li><li>Предоставьте возможность, просто так или за цену.</li><li>Поставьте кого-то в сложную ситуацию.</li><li>Опишите возможные последствия или цену и переспросите.</li></ul>"
-				}
-			}
-		},
-		{
-			"id": "Dungeon Moves",
-			"name": "Ходы подземелья",
-			"pages": {
-				"Dungeon Moves": {
-					"name": "Ходы подземелья",
-					"text": "<ul><li>Измените окружение.</li><li>Укажите на надвигающуюся угрозу.</li><li>Введите новую фракцию или вид существ.</li><li>Используйте опасность фракции или вида существ.</li><li>Заставьте вернуться назад.</li><li>Предложите богатства за цену.</li><li>Бросьте вызов одному из персонажей.</li></ul>"
-				}
-			}
-		}
-	]
+  "label": "Mosse del Master / Principi",
+  "mapping": {
+    "name": "name"
+  },
+  "entries": [
+    {
+      "id": "Principals",
+      "name": "Principi",
+      "pages": {
+        "Principals": {
+          "name": "Principi",
+          "text": "<ul><li>Disegna mappe lasciando zone bianche.</li><li>Rivolgiti ai personaggi, non ai giocatori.</li><li>Immergiti nel fantastico.</li><li>Fai mosse che scaturiscono dalla narrazione.</li><li>Non nominare mai le mosse ad alta voce.</li><li>Dai vita a ogni mostro.</li><li>Dai un nome a ogni personaggio.</li><li>Fai domande e segui le risposte.</li><li>Sii il fan dei personaggi dei giocatori.</li><li>Ricorda sempre il pericolo.</li><li>Inizia e termina con la narrazione.</li><li>Pensa oltre la scena attuale.</li></ul>"
+        }
+      }
+    },
+    {
+      "id": "GM Moves",
+      "name": "Mosse del Master",
+      "pages": {
+        "GM Moves": {
+          "name": "Mosse del Master",
+          "text": "<ul><li>Usa la mossa di un mostro, una minaccia o un luogo.</li><li>Rivela una verità scomoda.</li><li>Mostra segni di una minaccia imminente.</li><li>Infliggi danno.</li><li>Consuma le loro risorse.</li><li>Rivolta la loro mossa contro di loro.</li><li>Dividili.</li><li>Offri un'opportunità adatta alla loro classe.</li><li>Mostra un limite della loro classe, razza o equipaggiamento.</li><li>Offri un'opportunità, gratuitamente o a un costo.</li><li>Metti qualcuno in una situazione difficile.</li><li>Descrivi le conseguenze o il prezzo e chiedi cosa fanno.</li></ul>"
+        }
+      }
+    },
+    {
+      "id": "Dungeon Moves",
+      "name": "Mosse del Dungeon",
+      "pages": {
+        "Dungeon Moves": {
+          "name": "Mosse del Dungeon",
+          "text": "<ul><li>Modifica l'ambiente.</li><li>Indica una minaccia imminente.</li><li>Introduci una nuova fazione o tipo di creatura.</li><li>Usa la minaccia di una fazione o creatura.</li><li>Costringili a tornare indietro.</li><li>Offri ricchezze a un prezzo.</li><li>Lancia una sfida diretta a un personaggio.</li></ul>"
+        }
+      }
+    }
+  ]
 }

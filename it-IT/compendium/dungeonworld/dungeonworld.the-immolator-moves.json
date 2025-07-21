@@ -1,133 +1,133 @@
 {
-	"label": "Ходы испепелителя",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Burning Brand",
-			"name": "Огненное Клеймо",
-			"description": "Когда вы <b>создаёте оружие из чистого пламени</b>, бросьте +ТЕЛ. Можете использовать ИНТ вместо СИЛ или ЛОВ для атак этим оружием. У оружие всегда есть свойства <i>огненный, касание, опасный,</i> запас 3. Каждая атака отнимает один запас.",
-			"success": "Выберите два свойства из списка.",
-			"partial": "Выберите одно свойство из списка.",
-			"choices": "<ul><li>рука (дальность)</li><li>метательное, близко</li><li>+1 к урону</li><li>удалите свойство опасный</li></ul>"
-		},
-		{
-			"id": "Burning Bridges",
-			"name": "Сжигая мосты",
-			"description": "Когда вы <b>должны совершить <i>последний вздох</i></b>, вместо этого можете стереть одну из ваших уз. Это навсегда уменьшает максимальное кол-во уз вашего персонажа. Вы живы и у вас [[/roll 1d6]] ОЗ. Если уз больше не осталось — делайте <i>последний вздох</i> по обычным правилам."
-		},
-		{
-			"id": "Burning Ring Of Fire",
-			"name": "Пылающее кольцо",
-			"description": "Когда вы <b>подпитываете согласного персонажа силой вашего пламени</b>, бросьте+ХАР. Эта связь (при успехе) не может быть разорвана немагическими средствами.",
-			"success": "Вы связаны, можете чувствовать друг друга и делиться эмоциями на любом расстоянии.",
-			"partial": "Связь нестабильна и опасна: если вы получаете травму, её получит другой (и наоборот).",
-			"failure": "Вы оба стираете все узы между вами. Можете записать новые узы с этим персонажем в <i>конце сессии</i>."
-		},
-		{
-			"id": "Burns Half As Long",
-			"name": "Сгорает вдвое быстрее",
-			"description": "Когда вы <b>жертвуете победой в уплату огням судьбы</b>, примите любой успешный бросок с результатом 10+ как провал."
-		},
-		{
-			"id": "Burns Twice As Bright",
-			"name": "Горит вдвое ярче",
-			"description": "Когда вы <b>источаете огни судьбы</b>, можете считать проваленный бросок за 7-9, а если результат был 7-9 — как будто это 10+. Это может быть как ваш бросок, так и другого игрока. Скажите ведущему, чего вы за это лишились: эмоций, воспоминания, частички себя. Нельзя использовать этот ход снова, пока не будет использован ход <i>сгорает вдвое быстрее</i>."
-		},
-		{
-			"id": "Fanning The Flames",
-			"name": "Играть с огнём",
-			"description": "Вы можете <i>подогревать интерес</i> группы людей — с десяток или около того."
-		},
-		{
-			"id": "Fighting Fire with Fire",
-			"name": "Клин клином",
-			"description": "Когда вам <b>причинили урон</b> (после вычета брони), внутренний огонь может помочь. Бросьте [[/roll 1d4]] и либо добавьте результат к запасу <i>огненного клейма</i> (если активно), либо отнимите результат от урона."
-		},
-		{
-			"id": "Firebrand",
-			"name": "Подогревать интерес",
-			"description": "Когда вы представляете новую идею персонажу ведущего, бросьте+ХАР.",
-			"success": "Он поверит и заразится идеей.",
-			"partial": "Его пыл утихнет через день или два.",
-			"failure": "Он открыто высказывает своё негодование."
-		},
-		{
-			"id": "From Hell’s Heart",
-			"name": "Адское Пламя",
-			"description": "Когда вы <b>создаёте огонь любым своим ходом</b>, можете по желанию заменить его на чёрное пламя из самих глубин ада. Это пламя не обжигает жаром, а выжигает саму душу, игнорируя броню. Бездушным существам нельзя нанести вред этим пламенем."
-		},
-		{
-			"id": "Give Me Fuel, Give Me Fire",
-			"name": "Дай огня",
-			"description": "Когда вы <b>пристально смотрите кому-то в глаза</b>, можете спросить у игрока, отвечающего за этого персонажа: «Что питает огонь твоих желаний?» Игрок (или ведущий) должен ответить честно, даже если персонаж сам не осознает ответа или пытался его скрыть."
-		},
-		{
-			"id": "Hand Crafted",
-			"name": "Ручное изготовление",
-			"description": "Вы можете использовать руки вместо инструментов и огнём создавать металлические объекты. Обычное оружие и броня, украшения — всему можно придать форму. Вы также можете расплавить эти вещи, но без спокойной обстановки, возможно, придётся <i>спастись от угрозы</i>."
-		},
-		{
-			"id": "Lore Of Flame",
-			"name": "Мудрость пламени",
-			"description": "Когда вы <b>пристально смотрите в огонь в поисках ответов</b>, бросьте+МДР. В случае успеха ведущий расскажет вам что-то новое и интересное о текущей ситуации.",
-			"success": "Он опишет всё в деталях.",
-			"partial": "Он даст общее представление. Если вы уже знаете всё, что можно, он скажет об этом."
-		},
-		{
-			"id": "Moth To The Flame",
-			"name": "Как мотылёк на огонь",
-			"description": "Когда вы подавляете слабый разум своим внутренним пламенем, бросьте+МДР.",
-			"success": "Воля цели подавлена, она последует за вами и сделает, что вы скажете, пока что-то её не напугает или не застанет врасплох.",
-			"partial": "Эффекта хватит, чтобы отвлечь ее или сбить с толку.",
-			"failure": "Цель взволнована и расстроена, ваш огонь зажёг искры её скрытых желаний."
-		},
-		{
-			"id": "Ogdru Jahad",
-			"name": "Огдру Джахад",
-			"description": "Получите ход волшебника <i>ритуал</i>. Ведущий всегда будет говорить, что нужно принести в жертву, чтобы получить желаемый эффект."
-		},
-		{
-			"id": "Sick Burn",
-			"name": "Болезненный ожог",
-			"description": "Когда вы оскорбляете персонажа ведущего, бросьте+ХАР.",
-			"success": "Вы не оставляете ему пространства для манёвра: он проглатывает ваше оскорбление, как и осуждение окружающих.",
-			"partial": "Вы перешли черту: когда-нибудь он вам отомстит.",
-			"failure": "Вы зашли слишком далеко и нарвались на проблемы здесь и сейчас."
-		},
-		{
-			"id": "The Enkindler",
-			"name": "Возжигатель",
-			"description": "Когда вы воодушевляете других на храбрые действия, бросьте+ХАР.",
-			"success": "Они лишаются страха и сомнения, моментально набираясь храбрости.",
-			"partial": "Эффект не продержится долго, они захотят отступить и скрыться через пару мгновений.",
-			"failure": "Они напуганы вашим присутствием."
-		},
-		{
-			"id": "This Killing Fire",
-			"name": "Всепожирающее пламя",
-			"description": "Добавьте следующие свойства как варианты выбора при использовании <i>огненного клейма</i>: <i>мощное, месиво, удар копья, близко, далеко</i>."
-		},
-		{
-			"id": "Watch The World Burn",
-			"name": "Гори оно всё огнём",
-			"description": "Когда вы <b>открываете брешь на огненный план и вызываете из его недр бурю</b>, скажите ведущему, чем вы жертвуете, и бросьте+МДР. Небосвод низвергает огненный дождь на область, сопоставимую с маленькой деревней. Всё и вся в области получает соответствующие повреждения.",
-			"success": "Вы в любой момент можете прекратить шторм.",
-			"partial": "Огонь вырывается из-под вашего контроля и распространяется в другие места, подхватываемый ветрами.",
-			"failure": "Нечто злое, разумное и голодное высвобождается в ваш мир вместе с огненным штормом."
-		},
-		{
-			"id": "Zuko Style",
-			"name": "Стиль Зуко",
-			"description": "Когда вы <b>подчиняете пламя своей воле</b> бросьте+МДР.",
-			"success": "Оно подчиняется, принимая угодную вам форму, и двигается согласно вашему желанию, пока есть топливо для горения.",
-			"partial": "Пламя горит лишь несколько мгновений."
-		}
-	]
+  "label": "Mosse dell'Incendiario",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Burning Brand",
+      "name": "Marchio Infuocato",
+      "description": "Quando <b>crei un’arma fatta di pura fiamma</b>, tira+COS. Puoi usare INT al posto di FOR o DES per attaccare con quest’arma. L’arma ha sempre le proprietà <i>infuocata, contatto, pericolosa</i> e ha 3 cariche. Ogni attacco consuma una carica.",
+      "success": "Scegli due proprietà dall’elenco.",
+      "partial": "Scegli una proprietà dall’elenco.",
+      "choices": "<ul><li>portata (mano)</li><li>lanciabile, vicino</li><li>+1 ai danni</li><li>rimuovi la proprietà pericolosa</li></ul>"
+    },
+    {
+      "id": "Burning Bridges",
+      "name": "Bruciare i Ponti",
+      "description": "Quando <b>devi compiere il <i>ultimo respiro</i></b>, puoi invece cancellare uno dei tuoi legami. Questo riduce permanentemente il tuo numero massimo di legami. Rimani vivo con [[/roll 1d6]] PF. Se non hai più legami, effettua <i>ultimo respiro</i> normalmente."
+    },
+    {
+      "id": "Burning Ring Of Fire",
+      "name": "Anello di Fuoco",
+      "description": "Quando <b>nutri un personaggio consenziente con il tuo fuoco interiore</b>, tira+CAR. Il legame (se ha successo) non può essere spezzato senza magia.",
+      "success": "Siete connessi: potete percepirvi e condividere emozioni a qualsiasi distanza.",
+      "partial": "Il legame è instabile e pericoloso: se uno subisce una ferita, la subisce anche l’altro.",
+      "failure": "Entrambi cancellate ogni legame reciproco. Potete crearne di nuovi <i>alla fine della sessione</i>."
+    },
+    {
+      "id": "Burns Half As Long",
+      "name": "Brucia a Metà",
+      "description": "Quando <b>sacrifici una vittoria al fuoco del destino</b>, considera ogni 10+ come un fallimento."
+    },
+    {
+      "id": "Burns Twice As Bright",
+      "name": "Brucia Due Volte Più Forte",
+      "description": "Quando <b>irradi i fuochi del destino</b>, puoi considerare un fallimento come 7–9, oppure un 7–9 come un 10+. Vale anche per i tiri altrui. Dichiara al GM cosa hai perso: emozioni, un ricordo, una parte di te. Non puoi riusare questa mossa finché non usi <i>Brucia a Metà</i>."
+    },
+    {
+      "id": "Fanning The Flames",
+      "name": "Attizzare le Fiamme",
+      "description": "Puoi <i>risvegliare l’interesse</i> di un gruppo di una decina di persone."
+    },
+    {
+      "id": "Fighting Fire with Fire",
+      "name": "Combattere con il Fuoco",
+      "description": "Quando <b>subisci danno</b> (dopo la riduzione armatura), il tuo fuoco interiore può aiutarti. Tira [[/roll 1d4]] e aggiungilo alla riserva del <i>Marchio Infuocato</i> (se attivo) oppure sottrai quel numero ai danni subiti."
+    },
+    {
+      "id": "Firebrand",
+      "name": "Pungolo Infuocato",
+      "description": "Quando proponi un’idea nuova a un PNG, tira+CAR.",
+      "success": "Ci crede e si lascia coinvolgere.",
+      "partial": "La passione svanisce dopo un giorno o due.",
+      "failure": "Reagisce con disapprovazione esplicita."
+    },
+    {
+      "id": "From Hell’s Heart",
+      "name": "Fiamma Infernale",
+      "description": "Quando <b>generi fiamme con una mossa</b>, puoi decidere che siano nere e infernali. Non bruciano fisicamente, ma corrodono l’anima e ignorano l’armatura. Non danneggiano creature prive di anima."
+    },
+    {
+      "id": "Give Me Fuel, Give Me Fire",
+      "name": "Dammi il Fuoco",
+      "description": "Quando <b>guardi qualcuno negli occhi</b>, puoi chiedere al giocatore: «Cosa alimenta il fuoco dei tuoi desideri?». Deve rispondere sinceramente, anche se il personaggio non lo sa o vuole nasconderlo."
+    },
+    {
+      "id": "Hand Crafted",
+      "name": "Forgiato a Mano",
+      "description": "Puoi usare le mani come strumenti e plasmare oggetti metallici con il fuoco. Puoi creare armi, armature, gioielli e simili. Puoi anche fonderli. Se sei in pericolo o di fretta, potresti dover <i>sfuggire a una minaccia</i>."
+    },
+    {
+      "id": "Lore Of Flame",
+      "name": "Sapienza delle Fiamme",
+      "description": "Quando <b>scruti il fuoco in cerca di risposte</b>, tira+SAG. In caso di successo, il GM ti rivela qualcosa di utile e interessante.",
+      "success": "Il GM fornisce dettagli precisi.",
+      "partial": "Hai una vaga intuizione. Se sai già tutto, il GM te lo dice."
+    },
+    {
+      "id": "Moth To The Flame",
+      "name": "Come una Falena",
+      "description": "Quando sopraffai una mente debole con il tuo fuoco interiore, tira+SAG.",
+      "success": "La volontà della creatura è annullata: ti seguirà e obbedirà finché non verrà spaventata o distratta.",
+      "partial": "Basta a distrarla o confonderla.",
+      "failure": "È turbata: il tuo fuoco ha risvegliato i suoi desideri nascosti."
+    },
+    {
+      "id": "Ogdru Jahad",
+      "name": "Ogdru Jahad",
+      "description": "Ottieni la mossa del mago <i>rituale</i>. Il GM ti dirà sempre cosa devi sacrificare per ottenere l’effetto desiderato."
+    },
+    {
+      "id": "Sick Burn",
+      "name": "Bruciatura Umiliante",
+      "description": "Quando insulti un PNG, tira+CAR.",
+      "success": "Rimane senza parole, sentendo il giudizio degli altri.",
+      "partial": "Hai esagerato: prima o poi si vendicherà.",
+      "failure": "Hai passato il limite: ora hai un problema immediato."
+    },
+    {
+      "id": "The Enkindler",
+      "name": "L’Incendiario",
+      "description": "Quando ispiri gli altri a compiere atti eroici, tira+CAR.",
+      "success": "Superano la paura, pieni di coraggio.",
+      "partial": "L’effetto svanisce presto: vogliono ritirarsi o scappare.",
+      "failure": "La tua presenza li spaventa."
+    },
+    {
+      "id": "This Killing Fire",
+      "name": "Fiamma Letale",
+      "description": "Aggiungi queste proprietà come opzioni per il <i>Marchio Infuocato</i>: <i>potente, straziante, impatto, vicino, lontano</i>."
+    },
+    {
+      "id": "Watch The World Burn",
+      "name": "Vedere il Mondo Bruciare",
+      "description": "Quando <b>apri un varco sul Piano del Fuoco e scateni una tempesta</b>, dichiara al GM cosa sacrifichi e tira+SAG. Una pioggia infuocata devasta un’area grande quanto un villaggio.",
+      "success": "Puoi fermare la tempesta in qualsiasi momento.",
+      "partial": "Il fuoco si diffonde incontrollato, spinto dai venti.",
+      "failure": "Qualcosa di malvagio, intelligente e affamato entra nel tuo mondo insieme alla tempesta."
+    },
+    {
+      "id": "Zuko Style",
+      "name": "Stile Zuko",
+      "description": "Quando <b>plasmi il fuoco con la tua volontà</b>, tira+SAG.",
+      "success": "Si muove come desideri e prende la forma voluta finché ha combustibile.",
+      "partial": "Brucia solo per qualche istante."
+    }
+  ]
 }

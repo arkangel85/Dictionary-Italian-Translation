@@ -1,143 +1,143 @@
 {
-	"label": "Ходы друида",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Balance",
-			"name": "Равновесие",
-			"description": "Когда вы <b>наносите урон</b>, вы получаете равновесие 1. Касаясь кого-то и взывая к духам жизни, вы можете потратить равновесие, чтобы исцелить цель. Каждая единица равновесия позволяет исцелить 1к4 ОЗ."
-		},
-		{
-			"id": "Barkskin",
-			"name": "Кожа-кора",
-			"description": "Вы получаете +1 к броне, если ваши ступни касаются земли."
-		},
-		{
-			"id": "Blood and Thunder",
-			"name": "Кровь и гром",
-			"description": "<b>В обличье любого опасного животного</b> ваш урон возрастает до к10."
-		},
-		{
-			"id": "Born of the Soil",
-			"name": "Дитя земли",
-			"description": "<p>Сильные и древние духи местности, где вы обучались магии, отметили вас как своего. Куда бы вы не отправились, они остаются с вами и позволяют принимать свой облик. Выберите один вариант из списка ниже. Это земля, с которой у вас есть гармоничная связь.</p> <p>Превращаясь, можете принять облик любого животного из выбранной местности:</p> <ul> <li>Великий лес;</li> <li>Шепчущие равнины;</li> <li>Бескрайняя пустыня;</li> <li>Зловонные топи;</li> <li>Устье реки;</li> <li>Подземные глубины;</li> <li>Сапфировые острова;</li> <li>Открытое море;</li> <li>Облачные горы;</li> <li>Ледяной север;</li> <li>Выжженная пустошь.</li> </ul> <p>Выберите метку: черту, которая выдает в вас дитя земли и говорит о вашей связи с духами. Это может быть черта, присущая животному, вроде пятен леопарда или рогов, или что-то иное: волосы, похожие на листья, блестящие как лед глаза. Метка остаётся в любом облике.</p>"
-		},
-		{
-			"id": "By Nature Sustained",
-			"name": "Природа питает",
-			"description": "Вам не нужно есть или пить. Если в ходе сказано «используйте паёк», не обращайте на это внимания."
-		},
-		{
-			"id": "Chimera",
-			"name": "Химера",
-			"description": "Вы можете принять обличье существа, состоящего из частей тела разных животных (до трёх). Например, медведя с орлиными крыльями и головой барана. Части каждого животного дают вам особый ход. В остальном химера подчиняется тем же правилам, что другие облики."
-		},
-		{
-			"id": "Communion of Whispers",
-			"name": "Шёпот духов",
-			"description": "Если вы <b>хорошо изучили духов местности и взываете к ним</b>, бросьте+МДР. Вам будет послано видение, важное для вас, ваших союзников и духов рядом.",
-			"success": "Видение будет ясным и полезным.",
-			"partial": "Видение будет туманным и невнятным.",
-			"failure": "Видение печалит, пугает или ранит вас. Ведущий опишет, что вы увидели. Получите -1 на следующий ход."
-		},
-		{
-			"id": "Doppleganger's Dance",
-			"name": "Танец двойника",
-			"description": "Вы можете <i>постигать сущность</i> индивидов — людей, эльфов и других, — чтобы принять их обличье. Вы можете скрыть свою метку, но тогда получите -1 ко всем броскам, пока не вернётесь в обычный облик."
-		},
-		{
-			"id": "Elemental Mastery",
-			"name": "Властелин стихий",
-			"description": "Когда вы взываете к духам стихий огня, воды, земли или воздуха, чтобы они исполнили ваше поручение, бросьте+МДР.",
-			"success": "Выберите два варианта из списка ниже.",
-			"partial": "Выберите один.",
-			"failure": "При провале ваш призыв оборачивается каким-либо катаклизмом.",
-			"choices": "<ul><li>Духи исполняют вашу просьбу.</li><li>Вы не платите цену, которую требует Природа.</li><li>Вы сохраняете контроль</li></ul>"
-		},
-		{
-			"id": "Embracing No Form",
-			"name": "Свободный от обличий",
-			"description": "Когда вы <b>превращаетесь</b>, бросьте 1к4 и прибавьте это число к запасу."
-		},
-		{
-			"id": "Eyes of the Tiger",
-			"name": "Глаза тигра",
-			"description": "Оставив метку на теле животного (глиной, грязью или кровью), вы обретаете способность видеть его глазами независимо от расстояния между вами. Чтобы создать новую метку, необходимо избавиться от старой."
-		},
-		{
-			"id": "Formcrafter",
-			"name": "Мастер превращений",
-			"description": "Превращаясь, выберите характеристику: пока вы находитесь в этом обличье, вы получаете +1 на все броски с этой характеристикой. Ведущий, в свою очередь, тоже выбирает одну из ваших характеристик: вы получаете -1 на все броски с ней, пока находитесь в этом обличье."
-		},
-		{
-			"id": "Formshaper",
-			"name": "Гений превращений",
-			"description": "<b>Принимая обличье животного</b>, вы можете поднять броню на 1 или повысить наносимый урон на 1к4. Выберите одно, когда превращаетесь. "
-		},
-		{
-			"id": "Hunter's Brother",
-			"name": "Брат охотника",
-			"description": "Выберите один ход из бланка следопыта."
-		},
-		{
-			"id": "Red of Tooth and Claw",
-			"name": "Зубы и когти в крови",
-			"description": "<b>В обличье любого опасного животного</b> ваш урон возрастает до к8."
-		},
-		{
-			"id": "Shapeshifter",
-			"name": "Превращение",
-			"description": "<p>Когда вы <b>взываете к духам</b>, чтобы поменять свой облик, бросьте+МДР.</p> <p>Вы (со всеми вещами) можете превратиться в любое животное, которое водится в ваших землях, или сущность которого вы изучили. Вы перенимаете все сильные и слабые стороны животного: когти, крылья, жабры, способность дышать под водой (и неспособность дышать воздухом). Ваши характеристики остаются, хотя условия для некоторых ходов будет сложнее создать: домашней кошке с огром не тягаться. Ведущий также назовёт один или несколько ходов, доступных вашему новому обличью. Потратьте один запас, чтобы сделать такой ход. Когда запас заканчивается, вы возвращаетесь в свою обычное обличье. Вы также можете сделать это в любой момент, потратив весь оставшийся запас.</p> <p><i>Ходы животного описывают его обычное поведение, вроде «позвать стаю», «растоптать» или «улететь». Потратив запас, вы даёте волю его природным инстинктам и просто делает ход. Например, если вы потратили запас, чтобы улететь, то вы улетаете прочь. </i></p>",
-			"success": "Вы получаете запас 3.",
-			"partial": "Вы получаете запас 2.",
-			"failure": "Вы получаете последствия, который назовет ведущий, и запас 1."
-		},
-		{
-			"id": "Shed",
-			"name": "Укрытие",
-			"description": "<b>Когда вы получаете урон, будучи в обличье животного</b>, вы можете отменить нанесённый урон, вернувшись в свой истинный облик."
-		},
-		{
-			"id": "Spirit Tongue",
-			"name": "Язык духов",
-			"description": "Хрюканье, лай, чириканье — голоса диких животных вам понятны, как человеческая речь. Вы можете понять любое животное, обитающее в ваших землях или чью сущность вы постигли."
-		},
-		{
-			"id": "Stalker's Sister",
-			"name": "Сестра ловчего",
-			"description": "Выберите один ход следопыта."
-		},
-		{
-			"id": "Studied Essence",
-			"name": "Постижение сущности",
-			"description": "Когда вы <b>проводите какое-то время за изучением духа животного</b>, можете добавить его вид к числу тех, в кого вы можете превращаться."
-		},
-		{
-			"id": "The Druid Sleep",
-			"name": "Сон друида",
-			"description": "Взяв этот ход, вы можете создать гармоничную связь с новой землёй, если проведёте там некоторое время в покое и безопасности. Сделать это можно лишь один раз, и ведущий скажет, сколько времени это займёт и какова будет цена. С этого момента вы — дитя и этой земли тоже."
-		},
-		{
-			"id": "Thing-talker",
-			"name": "Голоса неживого",
-			"description": "Вашему взору доступны духи песка, камней и морских волн. Вы можете применять <i>превращение</i>, <i>язык духов</i> и <i>постижение сущности</i> к неодушевлённым природным предметам (камням, растениям и существам, сделанным из них). Обличья того, кто слышит голоса неживого, могут быть точными копиями вещей, в которые он превращается, или в них могут угадываться очертания фигуры друида."
-		},
-		{
-			"id": "Weather Weaver",
-			"name": "Власть над погодой",
-			"description": "<b>Если на восходе персонаж находится под открытым небом</b>, ведущий спросит вас, какая сегодня будет погода. Ответьте, и сказанное сбудется."
-		},
-		{
-			"id": "World-talker",
-			"name": "Язык мира",
-			"description": "Вашему взору доступны лекала, по которым создан мир. Вы можете применять ходы <i>говорить с духами</i>, <i>постичь сущность</i>, <i>превращение</i> по отношению к первородным элементам: огню, воде, воздуху и земле."
-		}
-	]
+  "label": "Mosse del Druido",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Balance",
+      "name": "Equilibrio",
+      "description": "Quando <b>infliggi danni</b>, ottieni 1 punto equilibrio. Toccando qualcuno e invocando gli spiriti della vita, puoi spendere equilibrio per curarlo. Ogni punto consente di curare 1d4 PF."
+    },
+    {
+      "id": "Barkskin",
+      "name": "Pelle di Corteccia",
+      "description": "Ottieni +1 all’armatura se i tuoi piedi toccano il suolo."
+    },
+    {
+      "id": "Blood and Thunder",
+      "name": "Sangue e Tuono",
+      "description": "<b>Quando assumi la forma di un animale pericoloso</b>, il tuo danno aumenta a d10."
+    },
+    {
+      "id": "Born of the Soil",
+      "name": "Figlio della Terra",
+      "description": "<p>Gli spiriti antichi della terra dove hai appreso la magia ti hanno segnato come loro. Ovunque tu vada, ti accompagnano e ti permettono di assumere forma animale. Scegli una zona tra:</p> <ul> <li>Grande foresta</li><li>Pianure sussurranti</li><li>Deserto sconfinato</li><li>Paludi fetide</li><li>Foce del fiume</li><li>Abissi sotterranei</li><li>Isole zaffiro</li><li>Mare aperto</li><li>Montagne tra le nuvole</li><li>Nord gelato</li><li>Terre bruciate</li></ul><p>Puoi assumere la forma di qualunque animale di quella zona.</p><p>Scegli un segno visibile che mostri la tua natura e il legame con gli spiriti: potrebbe essere una caratteristica animale (macchie da leopardo, corna) o altro (capelli a foglia, occhi come il ghiaccio). Il segno resta in ogni forma."
+    },
+    {
+      "id": "By Nature Sustained",
+      "name": "Nutrito dalla Natura",
+      "description": "Non hai bisogno di cibo o acqua. Se una mossa richiede di consumare provviste, ignorala."
+    },
+    {
+      "id": "Chimera",
+      "name": "Chimera",
+      "description": "Puoi assumere la forma di una creatura composta da parti di tre animali diversi. Es.: orso con ali d’aquila e testa di montone. Ogni parte ti conferisce una mossa speciale. Le regole per la chimera sono le stesse degli altri animali."
+    },
+    {
+      "id": "Communion of Whispers",
+      "name": "Comunione dei Sussurri",
+      "description": "Se <b>conosci bene gli spiriti locali e li invochi</b>, tira+SAG. Riceverai una visione importante per te, i tuoi alleati e gli spiriti vicini.",
+      "success": "La visione è chiara e utile.",
+      "partial": "La visione è vaga e confusa.",
+      "failure": "La visione ti addolora, spaventa o ferisce. Il GM descriverà cosa vedi. Subisci -1 alla prossima mossa."
+    },
+    {
+      "id": "Doppleganger's Dance",
+      "name": "Danza del Doppio",
+      "description": "Puoi <i>comprendere l’essenza</i> di individui (umani, elfi, ecc.) per assumerne l’aspetto. Puoi nascondere il tuo segno, ma ottieni -1 a tutti i tiri finché non torni alla forma normale."
+    },
+    {
+      "id": "Elemental Mastery",
+      "name": "Padronanza Elementale",
+      "description": "Quando invochi gli spiriti di fuoco, acqua, terra o aria perché compiano un tuo volere, tira+SAG.",
+      "success": "Scegli due opzioni tra le seguenti.",
+      "partial": "Scegli una.",
+      "failure": "Il tuo richiamo provoca una catastrofe.",
+      "choices": "<ul><li>Gli spiriti esaudiscono la tua richiesta.</li><li>Non paghi il prezzo richiesto dalla Natura.</li><li>Mantieni il controllo.</li></ul>"
+    },
+    {
+      "id": "Embracing No Form",
+      "name": "Libero da Ogni Forma",
+      "description": "Quando <b>ti trasformi</b>, tira 1d4 e aggiungilo alla riserva."
+    },
+    {
+      "id": "Eyes of the Tiger",
+      "name": "Occhi della Tigre",
+      "description": "Tracciando un segno (con argilla, fango o sangue) su un animale, puoi vedere con i suoi occhi ovunque si trovi. Per creare un nuovo segno devi distruggere il precedente."
+    },
+    {
+      "id": "Formcrafter",
+      "name": "Artigiano delle Forme",
+      "description": "Quando ti trasformi, scegli una caratteristica: ottieni +1 a tutti i tiri con quella caratteristica. Il GM sceglie un’altra tua caratteristica: ottieni -1 ai tiri relativi finché resti trasformato."
+    },
+    {
+      "id": "Formshaper",
+      "name": "Genio delle Forme",
+      "description": "<b>Assumendo la forma animale</b>, puoi aumentare l’armatura di 1 o il danno di 1d4. Scegli al momento della trasformazione."
+    },
+    {
+      "id": "Hunter's Brother",
+      "name": "Fratello del Cacciatore",
+      "description": "Scegli una mossa dal foglio del Ranger."
+    },
+    {
+      "id": "Red of Tooth and Claw",
+      "name": "Denti e Artigli Insanguinati",
+      "description": "<b>Quando assumi la forma di un animale pericoloso</b>, il tuo danno diventa d8."
+    },
+    {
+      "id": "Shapeshifter",
+      "name": "Mutamento di Forma",
+      "description": "<p>Quando <b>invochi gli spiriti</b> per cambiare forma, tira+SAG.</p><p>Puoi trasformarti in qualunque animale delle tue terre o che hai studiato. Ottieni caratteristiche e limiti fisici dell’animale (artigli, ali, branchie, ecc.). Le tue caratteristiche restano, ma certe mosse saranno più difficili. Il GM ti dirà una o più mosse disponibili nella nuova forma. Ogni uso consuma 1 punto riserva. Quando la riserva finisce, torni umano, oppure puoi farlo tu spendendo tutta la riserva restante.</p><p><i>Le mosse animali rappresentano istinti naturali, come “fuggire”, “chiamare il branco”, ecc. Spendendo riserva, agisci come farebbe la creatura. Es.: spendi 1 punto per volare via e lo fai.</i></p>",
+      "success": "Ottieni riserva 3.",
+      "partial": "Ottieni riserva 2.",
+      "failure": "Ottieni ciò che dice il GM e riserva 1."
+    },
+    {
+      "id": "Shed",
+      "name": "Mutare Pelle",
+      "description": "<b>Quando subisci danni in forma animale</b>, puoi annullarli tornando alla forma umana."
+    },
+    {
+      "id": "Spirit Tongue",
+      "name": "Lingua degli Spiriti",
+      "description": "Grugniti, abbai, cinguettii: comprendi ogni animale delle tue terre o che hai studiato, come se parlasse una lingua umana."
+    },
+    {
+      "id": "Stalker's Sister",
+      "name": "Sorella del Predatore",
+      "description": "Scegli una mossa del Ranger."
+    },
+    {
+      "id": "Studied Essence",
+      "name": "Essenza Studiata",
+      "description": "Quando <b>studi a lungo uno spirito animale</b>, puoi aggiungere la sua forma a quelle in cui puoi trasformarti."
+    },
+    {
+      "id": "The Druid Sleep",
+      "name": "Sonno del Druido",
+      "description": "Prendendo questa mossa, puoi creare un legame con nuove terre se vi trascorri tempo in pace e sicurezza. Può essere fatto una sola volta. Il GM ti dirà quanto tempo richiede e che prezzo comporta. Da quel momento, sei figlio anche di quella terra."
+    },
+    {
+      "id": "Thing-talker",
+      "name": "Voce dell’Inanimato",
+      "description": "Vedi gli spiriti di sabbia, pietra e onde. Puoi usare <i>mutamento di forma</i>, <i>lingua degli spiriti</i> e <i>essenza studiata</i> anche su oggetti naturali inanimati (rocce, piante, creature fatte di essi). Le forme che assumi possono sembrare oggetti o mostrare i tuoi lineamenti."
+    },
+    {
+      "id": "Weather Weaver",
+      "name": "Controlla il Clima",
+      "description": "<b>Se all’alba ti trovi all’aperto</b>, il GM ti chiederà che tempo farà oggi. La tua risposta si avvererà."
+    },
+    {
+      "id": "World-talker",
+      "name": "Linguaggio del Mondo",
+      "description": "Vedi le trame su cui è costruito il mondo. Puoi usare <i>parlare con gli spiriti</i>, <i>studiare l’essenza</i> e <i>mutamento di forma</i> sugli elementi primordiali: fuoco, acqua, aria e terra."
+    }
+  ]
 }

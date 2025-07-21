@@ -1,143 +1,143 @@
 {
-	"label": "Ходы волшебника",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Arcane Armor",
-			"name": "Волшебная броня",
-			"description": "Пока у вас есть хоть <b>одно готовое заклинание уровня 1+</b>, у вас +4 к броне."
-		},
-		{
-			"id": "Arcane Ward",
-			"name": "Волшебный оберег",
-			"description": "Пока у вас есть <b>хоть одно готовое заклинание уровня 1+</b>, у вас +2 к броне."
-		},
-		{
-			"id": "Cast a Spell",
-			"name": "Сотворить заклинание",
-			"description": "<p>Когда вы <b>творите подготовленное заклинание</b>, бросьте+ИНТ.</p><p>Поддержка длительных заклинаний дает штраф на броски заклинаний.</p>",
-			"success": "Заклинание сотворено и не стирается из вашей памяти.",
-			"partial": "Вы также творите заклинание, но выбираете один из вариантов:\n<ul>\n<li>Вы привлекаете нежелательное внимание или оказываетесь в сложном положении. Ведущий расскажет подробности.</li>\n<li>Заклинание искажает ткань реальности — вы получаете штраф -1 на сотворение заклинаний, пока не подготовите их снова.</li>\n<li>Сотворённое заклинание забывается, его нужно вновь подготовить.</li>\n</ul>"
-		},
-		{
-			"id": "Counterspell",
-			"name": "Отражение заклинаний",
-			"description": "Когда вы <b>пытаетесь отразить заклинание, которое иначе вас заденет</b>, выберите одно из приготовленных заклинаний и используйте его энергию для защиты: бросьте+ИНТ.",
-			"success": "Вы успешно блокируете заклинание.",
-			"partial": "Вы успешно блокируете заклинание, но заклинание, вы использованное для зашиты, стирается у вас из памяти. Блок защищает лишь вас; если магия имела иные цели, то она действует на них, как обычно."
-		},
-		{
-			"id": "Empowered Magic",
-			"name": "Усиление магии",
-			"description": "Когда вы <b>творите заклинание</b>, на 10+ можете выбрать одно последствие из списка на 7–9, и за это выбрать дополнительный эффект из списка ниже:",
-			"choises": "<ul>\n<li>Действенность заклинания максимальна;</li>\n<li>Количество целей заклинания удваивается.</li>\n</ul>"
-		},
-		{
-			"id": "Enchanter",
-			"name": "Знаток чар",
-			"description": "Если вы <b>можете провести некоторое время за изучением волшебного предмета в безопасной обстановке</b>, можете спросить ведущего, как этот предмет действует. Ведущий ответит вам честно."
-		},
-		{
-			"id": "Enchanter's Soul",
-			"name": "Душа чар",
-			"description": "Если у вас <b>есть возможность провести некоторое время в месте силы (в безопасности) и волшебный предмет</b>, можете зарядить этот предмет, усилив его. Ведущий определит, в чем именно это выражается."
-		},
-		{
-			"id": "Ethereal Tether",
-			"name": "Незримая связь",
-			"description": "Вы умеете создавать незримую связь с другим существом (добровольцем или обездвиженной жертвой). Нужно лишь провести некоторое время с объектом чар, после чего вы сможете чувствовать то, что чувствует цель, и <i>изучать обстановку</i> вокруг цели, невзирая на расстояние между вами. Если связь создана с добровольцем, то он может общаться с вами, будто вы находитесь в одной комнате."
-		},
-		{
-			"id": "Expanded Spellbook",
-			"name": "Расширенная книга заклинаний",
-			"description": "Добавьте в книгу новое заклинание из списка любого класса."
-		},
-		{
-			"id": "Fount of Knowledge",
-			"name": "Что написано пером",
-			"description": "Если вы <b>копаетесь в памяти на предмет сведений о чём-то</b>, о чём остальные не имеют даже понятия, получите +1."
-		},
-		{
-			"id": "Greater Empowered Magic",
-			"name": "Великое усиление магии",
-			"description": "Когда вы <b>творите заклинание</b>, на 10+ вы можете выбрать один вариант из списка последствий для результатов 7–9. В таком случае вы можете также выбрать один из вариантов, указанных ниже. На 12+ вы можете выбрать эффект, ничем не жертвуя при этом:\n<ul>\n<li>Действенность заклинания максимальна;</li>\n<li>Количество целей заклинания удваивается.</li>\n</ul>"
-		},
-		{
-			"id": "Highly Logical",
-			"name": "Железная логика",
-			"description": "<b>Анализируя окружающую среду с помощью чистой дедукции</b>, вы можете изучать обстановку, используя ИНТ, а не МДР. На 12+ вы можете задать ведущему любые три вопроса, не обязательно из списка."
-		},
-		{
-			"id": "Know-It-All",
-			"name": "Всезнайка",
-			"description": "Когда <b>персонажи других игроков приходит к вам за советом</b>, изложите им свое мнение по вопросу. Если они последуют вашему совету, то получают +1 на следующий ход, а вы записываете опыт."
-		},
-		{
-			"id": "Logical",
-			"name": "Логика",
-			"description": "Если вы <b>анализируете окружающую среду с помощью чистой дедукции</b>, вы можете изучать обстановку, используя ИНТ, а не МДР."
-		},
-		{
-			"id": "Master",
-			"name": "Мастер",
-			"description": "Выберите одно заклинание в дополнение к тому, что дал вам <i>талант</i>. Подготавливая его, считайте, что уровень этого заклинания ниже на 1."
-		},
-		{
-			"id": "Mystical Puppet Strings",
-			"name": "Нити марионетки",
-			"description": "Когда вы <b>контролируете чьи-то действия магией</b>, впоследствии цель не помнит, что вы заставляли её делать, и не держит на вас зла."
-		},
-		{
-			"id": "Prepare Spells",
-			"name": "Подготовка заклинаний",
-			"description": "Когда вы <b>проводите около часа за изучением книги заклинаний</b>, то вы:\n<ul>\n<li>Теряете все подготовленные заклинания.</li>\n<li>Готовите новые; их уровни в сумме не могут превышать ваш уровень +1.</li>\n<li>Готовите фокусы. Они не учитываются при подсчёте суммы уровней заклинаний.</li>\n</ul>"
-		},
-		{
-			"id": "Prodigy",
-			"name": "Талант",
-			"description": "Выберите заклинание. Подготавливая его, считайте, что уровень этого заклинания ниже на 1."
-		},
-		{
-			"id": "Protective Counter",
-			"name": "Поле отражения",
-			"description": "Вы можете отражать заклинания от себя и видимых союзников. Если заклинание направленно на нескольких союзников, вы должны отразить его (и сделать нужные броски) для каждого по отдельности."
-		},
-		{
-			"id": "Quick Study",
-			"name": "Быстрое обучение",
-			"description": "Когда вы <b>видите какое-то волшебное заклинание в действии</b>, спросите у ведущего его название и эффекты. Вы получаете +1, если действуете, активно пользуясь полученными сведениями."
-		},
-		{
-			"id": "Ritual",
-			"name": "Ритуал",
-			"description": "Если вы <b>используете место силы для сотворения мощной магии</b>, скажите ведущему, какой результат хотите получить. Он достижим всегда, но ведущий может поставить перед вами от одного до четырех условий из списка:\n<ul>\n<li>Ритуал займёт несколько дней/недель/месяцев.</li>\n<li>Вначале вы должны _____________.</li>\n<li>Вам нужна помощь от ___________.</li>\n<li>На это уйдёт много денег.</li>\n<li>Результат будет лишь слабым подобием задуманного.</li>\n<li>Вы и ваши союзники рискуете _____________.</li>\n<li>Вам нужно снять зачарование с ____________, чтобы сделать это.</li>\n</ul>"
-		},
-		{
-			"id": "Self-Powered",
-			"name": "Собственная сила",
-			"description": "Если у вас есть время и компоненты для магического обряда, вы можете создать ваше собственное место силы. Опишите ведущему, какой силой вы планируете его наделить и каким образом вы привязываете эту силу к месту. Ведущий, в свою очередь, называет вам один из видов существ, чей интерес привлекает ваша работа."
-		},
-		{
-			"id": "Spell Augmentation",
-			"name": "Энергия заклинания",
-			"description": "Когда вы <b>наносите урон существу</b>, вы можете усилить этот урон магической энергией — завершите одно из длительных заклинаний и добавьте его уровень к нанесённому урону."
-		},
-		{
-			"id": "Spell Defense",
-			"name": "Магическая защита",
-			"description": "Прервите любое длительное заклинание, чтобы, использовав его остаточную энергию, вычесть его уровень из только что нанесённого вам урона."
-		},
-		{
-			"id": "Spellbook",
-			"name": "Книга заклинаний",
-			"description": "Вы выучили несколько заклинаний и записали их к себе книгу. Вы начинаете игру с тремя заклинаниями первого уровня и всеми фокусами. Получив новый уровень, вы записываете в книгу новое заклинание вашего уровня или ниже. Книга заклинаний имеет вес 1."
-		}
-	]
+  "label": "Mosse del mago",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Arcane Armor",
+      "name": "Armatura arcana",
+      "description": "Finché hai <b>almeno un incantesimo di livello 1+</b> preparato, ottieni +4 all’armatura."
+    },
+    {
+      "id": "Arcane Ward",
+      "name": "Scudo arcano",
+      "description": "Finché hai <b>almeno un incantesimo di livello 1+</b> preparato, ottieni +2 all’armatura."
+    },
+    {
+      "id": "Cast a Spell",
+      "name": "Lanciare un incantesimo",
+      "description": "<p>Quando <b>lanci un incantesimo preparato</b>, tira+INT.</p><p>Sostenere incantesimi duraturi impone una penalità ai tiri per incantesimi.</p>",
+      "success": "L'incantesimo è lanciato con successo e non viene dimenticato.",
+      "partial": "Lanci comunque l’incantesimo, ma scegli una delle seguenti opzioni:\n<ul>\n<li>Attiri attenzioni indesiderate o ti ritrovi in una situazione difficile. Il GM ti dirà i dettagli.</li>\n<li>L’incantesimo distorce la realtà: subisci -1 ai tiri per incantesimi finché non li prepari di nuovo.</li>\n<li>Dimentichi l’incantesimo lanciato e dovrai prepararlo di nuovo.</li>\n</ul>"
+    },
+    {
+      "id": "Counterspell",
+      "name": "Controincantesimo",
+      "description": "Quando <b>provi a respingere un incantesimo che altrimenti ti colpirebbe</b>, scegli uno degli incantesimi preparati e usane l’energia per proteggerti: tira+INT.",
+      "success": "Blocchi con successo l’incantesimo.",
+      "partial": "Blocchi con successo l’incantesimo, ma l’incantesimo usato per la difesa viene dimenticato. Lo scudo protegge solo te; se la magia aveva altri bersagli, li colpisce come di consueto."
+    },
+    {
+      "id": "Empowered Magic",
+      "name": "Magia potenziata",
+      "description": "Quando <b>lanci un incantesimo</b>, con un 10+ puoi scegliere una delle conseguenze di un 7–9, e ottenere anche uno dei seguenti effetti aggiuntivi:",
+      "choises": "<ul>\n<li>L’effetto dell’incantesimo è al massimo della sua efficacia;</li>\n<li>Il numero dei bersagli dell’incantesimo è raddoppiato.</li>\n</ul>"
+    },
+    {
+      "id": "Enchanter",
+      "name": "Incantatore",
+      "description": "Se <b>hai tempo per studiare un oggetto magico in un luogo sicuro</b>, puoi chiedere al GM come funziona. Il GM ti darà una risposta sincera."
+    },
+    {
+      "id": "Enchanter's Soul",
+      "name": "Anima dell'incantatore",
+      "description": "Se <b>hai accesso a un luogo di potere e un oggetto magico</b>, puoi incantarlo e potenziarlo. Il GM ti dirà in cosa consiste l’effetto."
+    },
+    {
+      "id": "Ethereal Tether",
+      "name": "Legame etereo",
+      "description": "Sai creare un legame invisibile con un’altra creatura (volontaria o immobilizzata). Dopo aver passato del tempo con il bersaglio, puoi percepire ciò che sente e <i>osservare l’ambiente</i> attorno a lei, a prescindere dalla distanza. Se è volontario, può anche comunicare con te come se foste nella stessa stanza."
+    },
+    {
+      "id": "Expanded Spellbook",
+      "name": "Libro degli incantesimi esteso",
+      "description": "Aggiungi al tuo grimorio un nuovo incantesimo dalla lista di un’altra classe."
+    },
+    {
+      "id": "Fount of Knowledge",
+      "name": "La penna è più potente",
+      "description": "Quando <b>attingi alla memoria su qualcosa</b> che gli altri non conoscono, ottieni +1."
+    },
+    {
+      "id": "Greater Empowered Magic",
+      "name": "Grande potenziamento magico",
+      "description": "Quando <b>lanci un incantesimo</b>, con un 10+ puoi scegliere una delle conseguenze dei risultati 7–9 e anche uno dei seguenti effetti. Con un 12+ puoi scegliere uno di questi effetti senza dover pagare alcun prezzo:\n<ul>\n<li>L’effetto dell’incantesimo è al massimo della sua efficacia;</li>\n<li>Il numero dei bersagli dell’incantesimo è raddoppiato.</li>\n</ul>"
+    },
+    {
+      "id": "Highly Logical",
+      "name": "Logica ferrea",
+      "description": "<b>Analizzando l’ambiente con pura deduzione</b>, puoi <i>studiare la situazione</i> usando INT invece che SAG. Con un 12+, puoi porre al GM tre domande a tua scelta, anche non incluse nella lista."
+    },
+    {
+      "id": "Know-It-All",
+      "name": "Sapientone",
+      "description": "Quando <b>gli altri personaggi ti chiedono consiglio</b>, condividi la tua opinione. Se seguono il tuo consiglio, ottengono +1 alla prossima mossa e tu guadagni esperienza."
+    },
+    {
+      "id": "Logical",
+      "name": "Logico",
+      "description": "Se <b>analizzi l’ambiente con pura deduzione</b>, puoi <i>studiare la situazione</i> usando INT invece di SAG."
+    },
+    {
+      "id": "Master",
+      "name": "Maestro",
+      "description": "Scegli un incantesimo in aggiunta a quello fornito da <i>Talento</i>. Quando lo prepari, considera il suo livello inferiore di 1."
+    },
+    {
+      "id": "Mystical Puppet Strings",
+      "name": "Fili mistici",
+      "description": "Quando <b>controlli le azioni altrui con la magia</b>, il bersaglio non ricorda ciò che hai fatto fare e non ti porta rancore."
+    },
+    {
+      "id": "Prepare Spells",
+      "name": "Preparare incantesimi",
+      "description": "Quando <b>passi circa un’ora a studiare il tuo grimorio</b>, allora:\n<ul>\n<li>Perdi tutti gli incantesimi preparati.</li>\n<li>Prepara nuovi incantesimi; la somma dei livelli non può superare il tuo livello +1.</li>\n<li>Prepara i cantrip. Non contano nel totale dei livelli preparati.</li>\n</ul>"
+    },
+    {
+      "id": "Prodigy",
+      "name": "Talento",
+      "description": "Scegli un incantesimo. Quando lo prepari, considera il suo livello inferiore di 1."
+    },
+    {
+      "id": "Protective Counter",
+      "name": "Contro difensivo",
+      "description": "Puoi deviare incantesimi diretti verso di te o verso alleati visibili. Se colpisce più alleati, devi deviarlo (e tirare) separatamente per ognuno."
+    },
+    {
+      "id": "Quick Study",
+      "name": "Studio rapido",
+      "description": "Quando <b>vedi un incantesimo all’opera</b>, chiedi al GM il nome e gli effetti. Ottieni +1 se agisci sfruttando queste informazioni."
+    },
+    {
+      "id": "Ritual",
+      "name": "Rituale",
+      "description": "Se <b>usi un luogo di potere per compiere un potente incantesimo</b>, spiega al GM che risultato desideri ottenere. È sempre possibile, ma il GM può scegliere fino a quattro condizioni tra:\n<ul>\n<li>Il rituale richiede giorni/settimane/mesi.</li>\n<li>Prima devi ____________.</li>\n<li>Hai bisogno dell’aiuto di ____________.</li>\n<li>Ti costerà un sacco di denaro.</li>\n<li>Il risultato sarà solo un’imitazione del desiderato.</li>\n<li>Tu e i tuoi alleati rischiate ____________.</li>\n<li>Devi annullare un altro incantesimo su ____________ per procedere.</li>\n</ul>"
+    },
+    {
+      "id": "Self-Powered",
+      "name": "Fonte di potere personale",
+      "description": "Se hai tempo e componenti per un rituale magico, puoi creare un tuo luogo di potere. Spiega al GM che tipo di potere vuoi infondere e come lo leghi al luogo. Il GM ti dirà quale tipo di creatura ne sarà attratta."
+    },
+    {
+      "id": "Spell Augmentation",
+      "name": "Potenziamento magico",
+      "description": "Quando <b>infliggi danni a una creatura</b>, puoi amplificarli con energia magica: termina un tuo incantesimo duraturo e aggiungine il livello ai danni inflitti."
+    },
+    {
+      "id": "Spell Defense",
+      "name": "Difesa magica",
+      "description": "Interrompi un tuo incantesimo duraturo per usarne l’energia residua e sottrarne il livello ai danni appena subiti."
+    },
+    {
+      "id": "Spellbook",
+      "name": "Grimorio",
+      "description": "Hai studiato e trascritto vari incantesimi nel tuo grimorio. Parti con tre incantesimi di 1° livello e tutti i cantrip. Ogni volta che sali di livello, aggiungi un incantesimo di quel livello o inferiore. Il grimorio pesa 1."
+    }
+  ]
 }

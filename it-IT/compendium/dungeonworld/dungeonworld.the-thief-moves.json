@@ -1,140 +1,140 @@
 {
-	"label": "Ходы вора",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Alchemist",
-			"name": "Алхимик",
-			"description": "<p>При наличии времени на сбор материалов и безопасного места для работы, вы можете создать три дозы яда, которым раньше пользовались. Также вы можете описать действие яда, который хотите создать. Сделать это можно всегда, но ведущий поставит одно или несколько условий:</p><ul><li>Яд работает только в определённых условиях.</li><li>Вы можете создать только слабое подобие того, что задумали.</li><li>Он действует не сразу.</li><li>У него есть очевидное побочное действие.</li></ul>"
-		},
-		{
-			"id": "Backstab",
-			"name": "Удар в спину",
-			"description": "Когда вы атакуете в ближнем бою беззащитного или застигнутого врасплох врага, можете выбрать: нанести урон, как обычно, или бросить+ЛОВ.",
-			"success": "Выберите два пункта из списка.",
-			"partial": "Выберите один пункт из списка.",
-			"choices": "<ul><li>Противник не связывает вас ближним боем.</li><li>Вы наносите дополнительные [[/roll 1d6]] урона.</li><li>Вы получаете +1 к следующему ходу для себя или союзника.</li><li>Вы уменьшите его броню на 1 до тех пор, пока он её не починит.</li></ul>"
-		},
-		{
-			"id": "Brewer",
-			"name": "Зельевар",
-			"description": "При наличии времени на сбор материалов и безопасного места для работы, вы можете создать три дозы яда, которым пользовались до этого."
-		},
-		{
-			"id": "Cautious",
-			"name": "Осторожность",
-			"description": "Когда вы <b>занимаетесь ловушками</b>, то всегда получаете 1 запас дополнительно, даже на 6-."
-		},
-		{
-			"id": "Cheap Shot",
-			"name": "Подлый удар",
-			"description": "Если вы <b>используете оружие с дальностью <i>рука</i> или свойством <i>точное</i></b>, ваш удар в спину получает бонус [[/roll 1d6]] к урону."
-		},
-		{
-			"id": "Connections",
-			"name": "Полезные связи",
-			"description": "Когда вы просите о чём-то представителей местного преступного мира, бросьте+ХАР.",
-			"success": "Кто-то готов вас выручить.",
-			"partial": "Придётся обойтись чем-то похожим, или за вами остаётся должок."
-		},
-		{
-			"id": "Dirty Fighter",
-			"name": "Грязная драка",
-			"description": "Если вы <b>используете оружие с дальностью <i>рука</i> или свойством <i>точное</i></b>, ваш удар в спину получает бонус [[/roll 1d8]] к урону, а другие атаки — +[[/roll 1d4]]. "
-		},
-		{
-			"id": "Disguise",
-			"name": "Маскировка",
-			"description": "При наличии времени и нужных материалов вы можете замаскироваться под любое существо вашей комплекции. Действия могут вас выдать, но лицо — никогда."
-		},
-		{
-			"id": "Envenom",
-			"name": "Отравить",
-			"description": "Вы заставите самый капризный яд работать, даже на острие булавки. Если вы умеете пользоваться ядом, который необходимо принимать внутрь, то вы можете нанести его на клинок без потери эффекта."
-		},
-		{
-			"id": "Escape Route",
-			"name": "Пути отхода",
-			"description": "Когда вы в гуще событий и пора уносить ноги, назовите путь отхода, которым воспользуетесь, и бросьте+ЛОВ.",
-			"success": "Вы благополучно сбегаете.",
-			"partial": "Побег вам чего-нибудь да стоит: придётся что-то оставить или, наоборот, взять с собой. Ведущий скажет что. Или вы можете отказаться от мыслей о побеге и остаться."
-		},
-		{
-			"id": "Evasion",
-			"name": "Уклонение",
-			"description": "<b>Если, <i>спасаясь от угрозы</i>, вы получаете 12+</b>, вам не просто удаётся спастись, вы делаете это с блеском! Ведущий даст вам шанс порисоваться, показать свое мастерство или получить преимущество в будущем."
-		},
-		{
-			"id": "Extremely Cautious",
-			"name": "Огромная осторожность",
-			"description": "Когда вы <b>занимаетесь ловушками</b>, то всегда получаете +1 запас, даже на 6-. На 12+ вы получаете запас 3, и в следующий раз, когда вы окажетесь в паре шагов от ловушки, ведущий скажет, что делает эта ловушка, на что она реагирует, кто установил её и как вы можете использовать её с толком."
-		},
-		{
-			"id": "Flexible Morals",
-			"name": "Гибкая мораль",
-			"description": "Когда кто-то определяет ваше мировоззрение, можете назвать любое."
-		},
-		{
-			"id": "Heist",
-			"name": "Ограбление",
-			"description": "<p>Когда вы <b>тщательно планируете кражу чего-либо</b>, назовите вещи, которые планируете стащить, и задайте ведущему приведённые ниже вопросы. Когда вы и ваши союзники действуете согласно ответам, то вы все получаете +1 на следующий ход. </p><ul><li>Кто заметит отсутствие этой вещи?</li><li>Какое наше основное препятствие?</li><li>Кто будет пытаться её вернуть?</li><li>Кто еще хочет её заполучить?</li></ul>"
-		},
-		{
-			"id": "Poison Master",
-			"name": "Мастер-отравитель",
-			"description": "Применив яд однажды, вы не подвергаете себя риску, используя его повторно, и добавляете его к числу ядов, которыми умеете пользоваться."
-		},
-		{
-			"id": "Poisoner",
-			"name": "Отравитель",
-			"description": "<p>Вы умеете хранить и применять яды. Выберите один яд из списка ниже: вы можете использовать его без вреда для себя и получаете три его дозы на первом уровне. Также вы можете сварить 3 дозы этого яда бесплатно при наличии времени на сбор материалов и безопасного места для работы. Есть яды для приёма внутрь, их добавляют в еду или питьё цели. Контактному яду нужно коснуться тела, например с помощью клинка.</p><ul><li>Тагитовое масло (принимать внутрь): цель погружается в дрёму.</li><li>Кроволист (контактный): цель получает штраф -[[/roll 1d4]] к урону, пока не вылечится.</li><li>Златокорень (принимать внутрь): отравленный сочтёт своим союзником следующее существо, которое увидит, пока что-то не заставит цель изменить мнение.</li><li>Змеиные слёзы (контактный): Каждый, кто наносит урон жертве этого яда, делает два броска урона и выбирает лучший результат.</li></ul>"
-		},
-		{
-			"id": "Serious Underdog",
-			"name": "Очень везучий гадёныш",
-			"description": "Вы получаете +1 к броне. Когда противники превосходят вас числом, этот бонус повышается до +2."
-		},
-		{
-			"id": "Shoot First",
-			"name": "Первый выстрел",
-			"description": "Вас не застать врасплох. Даже когда враг нападает неожиданно, вы действуете первым."
-		},
-		{
-			"id": "Strong Arm, True Aim",
-			"name": "Твёрдая рука, острый глаз",
-			"description": "Вы можете <i>дать залп</i>, <b>метнув оружие ближнего боя</b>. Что брошено, то потеряно (по крайней мере, пока вы это не подберёте): вы никогда не можете выбрать трату боезапаса на 7–9."
-		},
-		{
-			"id": "Trap Expert",
-			"name": "Специалист по ловушкам",
-			"description": "Когда вы <b>внимательно исследуете опасное место</b>, бросьте+ЛОВ. Пока вы исследуете местность, вы можете потратить его, чтобы задать вопросы ниже.",
-			"success": "Получите запас 3.",
-			"partial": "Получите запас 1.",
-			"choices": "<ul><li>Есть ли здесь ловушка и что заставит её сработать?</li><li>Что сделает ловушка, если сработает?</li><li>Что еще интересного тут спрятано?</li></ul>"
-		},
-		{
-			"id": "Tricks Of The Trade",
-			"name": "Ловкость рук",
-			"description": "<b>Запуская руку в чей-то карман или обезвреживая ловушку</b>, бросьте+ЛОВ.",
-			"success": "У вас всё получается.",
-			"partial": "У вас всё получается, но вы либо вызываете подозрения, либо подвергаетесь опасности, либо должны пожертвовать чем-то. Ведущий назовёт два последствия; выберите одно."
-		},
-		{
-			"id": "Underdog",
-			"name": "Везучий гадёныш",
-			"description": "Когда <b>противники превосходят вас числом</b>, вы получаете +1 к броне."
-		},
-		{
-			"id": "Wealth And Taste",
-			"name": "Вкус к роскоши",
-			"description": "<b>Хвастаясь самой ценной из своих вещей</b>, выберите кого-то из наблюдателей. Он сделает всё, чтобы заполучить вашу вещь или похожую."
-		}
-	]
+  "label": "Mosse del ladro",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Alchemist",
+      "name": "Alchimista",
+      "description": "<p>Se hai tempo per raccogliere materiali e un luogo sicuro dove lavorare, puoi creare tre dosi di un veleno che hai già usato. Puoi anche descrivere l’effetto di un nuovo veleno che vuoi creare. Puoi farlo sempre, ma il GM potrà scegliere una o più condizioni:</p><ul><li>Il veleno funziona solo in certe condizioni.</li><li>Puoi crearne solo una versione debole.</li><li>Ha effetto ritardato.</li><li>Ha un evidente effetto collaterale.</li></ul>"
+    },
+    {
+      "id": "Backstab",
+      "name": "Pugnalata alle spalle",
+      "description": "Quando attacchi in mischia un nemico indifeso o colto di sorpresa, puoi scegliere: infliggere danni normalmente o tirare+DES.",
+      "success": "Scegli due opzioni dalla lista.",
+      "partial": "Scegli una opzione dalla lista.",
+      "choices": "<ul><li>Il nemico non ti blocca in mischia.</li><li>Infliggi [[/roll 1d6]] danni extra.</li><li>Ottieni +1 alla prossima mossa tua o di un alleato.</li><li>Riduci la sua armatura di 1 finché non la ripara.</li></ul>"
+    },
+    {
+      "id": "Brewer",
+      "name": "Preparatore",
+      "description": "Se hai tempo per raccogliere materiali e un luogo sicuro dove lavorare, puoi creare tre dosi di un veleno che hai già usato."
+    },
+    {
+      "id": "Cautious",
+      "name": "Cauto",
+      "description": "Quando <b>maneggi trappole</b>, ottieni sempre 1 riserva aggiuntiva, anche con un 6-."
+    },
+    {
+      "id": "Cheap Shot",
+      "name": "Colpo vile",
+      "description": "Se <b>usi un'arma con portata <i>mano</i> o proprietà <i>precisa</i></b>, la tua pugnalata alle spalle infligge [[/roll 1d6]] danni extra."
+    },
+    {
+      "id": "Connections",
+      "name": "Contatti utili",
+      "description": "Quando chiedi aiuto al crimine locale, tira+CAR.",
+      "success": "Qualcuno è disposto ad aiutarti.",
+      "partial": "Dovrai accontentarti di qualcosa di simile, o restare in debito."
+    },
+    {
+      "id": "Dirty Fighter",
+      "name": "Lotta sporca",
+      "description": "Se <b>usi un'arma con portata <i>mano</i> o proprietà <i>precisa</i></b>, la tua pugnalata alle spalle infligge [[/roll 1d8]] danni extra, e le altre attacchi ottengono +[[/roll 1d4]]."
+    },
+    {
+      "id": "Disguise",
+      "name": "Travestimento",
+      "description": "Se hai tempo e materiali adatti, puoi mascherarti da qualsiasi creatura della tua taglia. I tuoi comportamenti possono tradirti, ma non il volto."
+    },
+    {
+      "id": "Envenom",
+      "name": "Avvelenare",
+      "description": "Puoi far funzionare anche il veleno più esigente, persino da una spilla. Se sai usare un veleno da ingerire, puoi applicarlo su una lama senza perderne l’efficacia."
+    },
+    {
+      "id": "Escape Route",
+      "name": "Via di fuga",
+      "description": "Quando sei nel bel mezzo del caos e devi scappare, dichiara la tua via di fuga e tira+DES.",
+      "success": "Fuggi senza problemi.",
+      "partial": "La fuga ti costa qualcosa: dovrai lasciare o prendere qualcosa. Il GM ti dirà cosa. Oppure puoi decidere di restare."
+    },
+    {
+      "id": "Evasion",
+      "name": "Elusione",
+      "description": "<b>Se, <i>fuggendo da un pericolo</i>, ottieni 12+</b>, non solo ti salvi, ma lo fai con stile! Il GM ti darà occasione di metterti in mostra o ottenere un vantaggio futuro."
+    },
+    {
+      "id": "Extremely Cautious",
+      "name": "Estrema cautela",
+      "description": "Quando <b>maneggi trappole</b>, ottieni sempre +1 riserva, anche con un 6-. Con un 12+, ottieni 3 riserve e alla prossima trappola vicina il GM ti dirà: cosa fa, come scatta, chi l’ha piazzata e come puoi usarla a tuo vantaggio."
+    },
+    {
+      "id": "Flexible Morals",
+      "name": "Moralità flessibile",
+      "description": "Quando qualcuno cerca di definire il tuo allineamento, puoi dichiararne uno qualsiasi."
+    },
+    {
+      "id": "Heist",
+      "name": "Colpo grosso",
+      "description": "<p>Quando <b>pianifichi un furto con cura</b>, dichiara l’oggetto da rubare e poni al GM le domande seguenti. Quando agisci in base alle risposte, tu e gli alleati ottenete +1 alla prossima mossa.</p><ul><li>Chi noterà la scomparsa dell’oggetto?</li><li>Qual è il nostro ostacolo principale?</li><li>Chi cercherà di riprenderlo?</li><li>Chi altro lo desidera?</li></ul>"
+    },
+    {
+      "id": "Poison Master",
+      "name": "Maestro dei veleni",
+      "description": "Dopo aver usato un veleno una volta, puoi riutilizzarlo senza rischi e lo aggiungi alla lista di quelli che sai usare."
+    },
+    {
+      "id": "Poisoner",
+      "name": "Velenista",
+      "description": "<p>Sai conservare e usare veleni. Scegli un veleno tra i seguenti: puoi usarlo senza rischi e ne ottieni tre dosi al livello 1. Puoi crearne 3 dosi gratuitamente se hai tempo e un posto sicuro. I veleni da ingerire vanno nascosti nel cibo o nella bevanda. Quelli da contatto devono toccare la pelle, ad esempio tramite una lama.</p><ul><li>Olio di Tagita (da ingerire): la vittima cade in un sonno profondo.</li><li>Foglia di sangue (da contatto): la vittima subisce -[[/roll 1d4]] ai danni finché non guarisce.</li><li>Radice dorata (da ingerire): la vittima considererà come alleato la prossima creatura che vede, finché qualcosa non la fa cambiare idea.</li><li>Lacrime di serpente (da contatto): chiunque danneggi la vittima tira due volte per i danni e sceglie il risultato migliore.</li></ul>"
+    },
+    {
+      "id": "Serious Underdog",
+      "name": "Canaglia fortunata",
+      "description": "Ottieni +1 armatura. Se i nemici sono in superiorità numerica, il bonus sale a +2."
+    },
+    {
+      "id": "Shoot First",
+      "name": "Colpisci per primo",
+      "description": "Non puoi essere colto di sorpresa. Anche se l’attacco nemico è improvviso, agisci per primo."
+    },
+    {
+      "id": "Strong Arm, True Aim",
+      "name": "Mano ferma, mira sicura",
+      "description": "Puoi <i>scagliare un colpo</i> <b>lanciando un'arma da mischia</b>. Ma ciò che lanci è perso (almeno finché non lo recuperi): non puoi mai scegliere di spendere munizioni con un 7–9."
+    },
+    {
+      "id": "Trap Expert",
+      "name": "Esperto di trappole",
+      "description": "Quando <b>esplori attentamente un luogo pericoloso</b>, tira+DES. Durante l’esplorazione, puoi spendere riserve per porre queste domande:",
+      "success": "Ottieni 3 riserve.",
+      "partial": "Ottieni 1 riserva.",
+      "choices": "<ul><li>C’è una trappola e cosa la fa scattare?</li><li>Cosa succede se scatta?</li><li>Cos’altro di interessante è nascosto qui?</li></ul>"
+    },
+    {
+      "id": "Tricks Of The Trade",
+      "name": "Mani veloci",
+      "description": "<b>Quando borseggi qualcuno o disinneschi una trappola</b>, tira+DES.",
+      "success": "Riesci nell’intento.",
+      "partial": "Riesci, ma susciti sospetti, corri un rischio o devi sacrificare qualcosa. Il GM propone due conseguenze, tu ne scegli una."
+    },
+    {
+      "id": "Underdog",
+      "name": "Canaglia",
+      "description": "Quando <b>i nemici ti superano in numero</b>, ottieni +1 all’armatura."
+    },
+    {
+      "id": "Wealth And Taste",
+      "name": "Gusto per il lusso",
+      "description": "<b>Quando ti vanti del tuo oggetto più prezioso</b>, scegli un osservatore: farà di tutto per ottenerlo o trovare qualcosa di simile."
+    }
+  ]
 }

@@ -1,151 +1,151 @@
 {
-	"label": "Ходы варвара",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "A Good Day To Die",
-			"name": "Хороший день, чтобы умереть",
-			"description": "До тех пор, пока значение ваших ОЗ меньше значения вашего ТЕЛ (модификатора), или если у вас 1 ОЗ, получите постоянный +1 на броски."
-		},
-		{
-			"id": "Appetite For Destruction",
-			"name": "Жажда разрушения",
-			"description": "Выберите ход из листа персонажа воина, барда или вора. Вы не можете брать мультикласовые ходы из этих буклетов."
-		},
-		{
-			"id": "Eye for Weakness",
-			"name": "Чую слабину",
-			"description": "Когда вы <b><i>изучаете обстановку</i></b>, добавьте «Что здесь слабое и уязвимое?» к списку вопросов."
-		},
-		{
-			"id": "For The Blood God",
-			"name": "Кровь Богу Крови",
-			"description": "Вы следуете старым традициям жертвоприношений. Выберите что-то ценное для вашего бога (духов предков, тотема и т.д.) Это может быть золото, кровь, кости и тому подобное. Когда вы <b>жертвуете этими вещами во время обряда или ритуала</b>, бросьте+МДР.",
-			"success": "Ведущий предоставит вам провидение о текущей проблеме или даст иное преимущество.",
-			"partial": "Жертвы недостаточно, и боги возьмут часть вашей плоти в уплату, но так же предоставят провидение или преимущество.",
-			"failure": "Вы вызвали на себя гнев переменчивых божеств."
-		},
-		{
-			"id": "Full Plate and Packing Steel",
-			"name": "Закован по уши в доспехи",
-			"description": "Вы игнорируете свойство <i>неудобные</i> у доспехов."
-		},
-		{
-			"id": "Healthy Distrust",
-			"name": "Здоровое недоверие",
-			"description": "Когда <b>нечистая магия смертных вынуждает вас <i>спасаться от угрозы</i></b>, считайте свой результат 6- как 7-9."
-		},
-		{
-			"id": "Herculean Appetites",
-			"name": "Геркулесовы аппетиты",
-			"description": "Кто-то удовлетворится вкусом вина или властью над парой слуг. Но вам этого мало. Выберите из списка два пункта, которых вы жаждете. Когда вы <b>преследуете цель, способную утолить один из ваших аппетитов</b>, во время бросков ходов вместо 2d6 используйте 1d6 + 1d8. Если результат на d6 выше, чем на d8, ведущий предоставит осложнение или опасность, которая появилась на пути ваших необдуманных стремлений.\n<ul>\n<li>Чистое разрушение</li>\n<li>Власть над другими</li>\n<li>Земные удовольствия</li>\n<li>Завоевания</li>\n<li>Богатство и имущество</li>\n<li>Триумф и слава</li>\n</ul>"
-		},
-		{
-			"id": "Indestructible Hunger",
-			"name": "Неутолимый голод",
-			"description": "Когда вы <b>получаете урон</b>, можете вместо урона выбрать постоянный штраф -1 на броски, пока вы не утолите один из своих аппетитов. Если у вас уже есть этот штраф, взять его второй раз нельзя."
-		},
-		{
-			"id": "Khan Of Khans",
-			"name": "Хан Ханов",
-			"description": "Ваши наёмники готовы принять утоление одного из ваших аппетитов вместо оплаты."
-		},
-		{
-			"id": "Kill 'Em All",
-			"name": "Вали их всех",
-			"description": "Возьмите ещё один ход из листа персонажа воина, барда или вора. Вы не можете брать мультикласовые ходы из этих буклетов."
-		},
-		{
-			"id": "Mark Of Might",
-			"name": "Символ могущества",
-			"description": "Когда вы <b>берёте этот ход и беспрепятственно тратите какое-то время, придаваясь воспоминаниям о былых победах</b>, можете отобразить их величие в личном символе могущества (длинная коса с вплетёнными колокольчиками, ритуальное шрамирование, татуировки и т.д.). Любой разумный смертный, увидев этот символ, инстинктивно поймёт, что имеет дело с силой, с которой нужно считаться, и будет относится к вам соответствующе."
-		},
-		{
-			"id": "More! Always More!",
-			"name": "Ещё! Мне всё мало!",
-			"description": "Когда вы <b>удовлетворяете аппетит в высшей мере</b> (уничтожаете что-то уникальное и значительное, обретаете небывалую славу, богатство, власть), можете решить, что избавились от этого аппетита. Вычеркните его из списка и отметьте опыт. Вы всё так же можете преследовать эти цели, но вас больше не сжигает неутолимая жажда. Выберите новый аппетит взамен вычеркнутого из списка или придумайте свой."
-		},
-		{
-			"id": "Musclebound",
-			"name": "Гора мышц",
-			"description": "Когда вы <b>используете оружие</b>, оно приобретает свойства <i>мощное</i> и <i>месиво</i>."
-		},
-		{
-			"id": "My Love For You Is Like A Truck",
-			"name": "Сногсшибательный эффект",
-			"description": "Когда вы <b>проявляете свою силу</b>, назовите свидетеля этого события, на которого вы произвели особое впечатление. Получите +1 на следующую попытку <i>договориться</i> с этим персонажем."
-		},
-		{
-			"id": "On The Move",
-			"name": "Сломя голову",
-			"description": "Когда вы <b><i>спасаетесь от угрозы</i>, вызванной движением</b> (падение с узкого моста, прорыв сквозь ряды вооружённой охраны), получите +1 на бросок."
-		},
-		{
-			"id": "Samson",
-			"name": "Самсон",
-			"description": "Вы можете взять травму, чтобы мгновенно избежать ментальных или физических оков."
-		},
-		{
-			"id": "Smash!",
-			"name": "Хрясь!",
-			"description": "Когда вы <b>делаете ход <i>руби и кромсай</i></b>, на 12+ нанесите урон и обозначьте что-то, чем физически обладает ваш оппонент (оружие, позиция, конечность) — он лишится этого."
-		},
-		{
-			"id": "Still Hungry",
-			"name": "Всё ещё голоден",
-			"description": "Выберите ещё один аппетит."
-		},
-		{
-			"id": "The One Who Knocks",
-			"name": "Я тот, кто стучит",
-			"description": "Когда вы <b><i>спасаетесь от угрозы</i></b>, на 12+ оберните опасность против нее самой. Ведущий опишет, как это произошло."
-		},
-		{
-			"id": "The Upper Hand",
-			"name": "Хозяин положения",
-			"description": "Вы получаете +1 на бросок последнего вздоха. Когда вы совершаете последний вздох, на 7-9 вы предлагаете сделку Смерти за вашу жизнь, и если она принимает предложение, вы возвращаетесь к жизни. Если нет — вы умираете."
-		},
-		{
-			"id": "Unencumbered, Unharmed",
-			"name": "Непреклонный и неуязвимый",
-			"description": "Если вы <b>не перегружены и не носите доспехи или щит</b>, добавьте +1 брони."
-		},
-		{
-			"id": "Usurper",
-			"name": "Узурпатор",
-			"description": "Когда вы <b>превосходите чем-то человека у власти</b>, получите +1 на следующий бросок против его подчинённых, подпевал и лизоблюдов."
-		},
-		{
-			"id": "War Cry",
-			"name": "Боевой клич",
-			"description": "Когда вы <b>вступаете в битву, демонстрируя свою силу</b>, бросьте+ХАР.",
-			"success": "Получите оба пункта",
-			"partial": "Выберите одно",
-			"choices": "<ul>\n<li>Ваши союзники воодушевлены и получают +1 на следующий бросок.</li>\n<li>Ваши враги напуганы и действуют соответствующе (избегают вас, прячутся, атакуют из страха).</li>\n</ul>"
-		},
-		{
-			"id": "What Are You Waiting For?",
-			"name": "Чего же ты ждешь?",
-			"description": "Когда вы <b>бросаете вызов своим врагам</b>, бросьте+ТЕЛ.",
-			"success": "Они видят в вас главную угрозу, и будут игнорировать ваших компаньонов, а вы получаете постоянный +2 к урону по этим врагам.",
-			"partial": "Только часть ваших врагов (самые слабые или безрассудные) поддаются вашей провокации."
-		},
-		{
-			"id": "What Is Best In Life",
-			"name": "Что самое лучшее в жизни?",
-			"description": "В <i>конце сессии</i> отметьте опыт, если во время приключения вы сокрушили врагов, или до них дошёл слух о горькой судьбе их соратников."
-		},
-		{
-			"id": "Wide-Wanderer",
-			"name": "Широко шагая",
-			"description": "Вы исходили мир вдоль и поперёк. Когда вы <b>прибываете куда-то</b>, спросите ведущего о важных местных традициях, ритуалах и т. д. Ведущий даст необходимую информацию."
-		}
-	]
+  "label": "Mosse del Barbaro",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "A Good Day To Die",
+      "name": "Un buon giorno per morire",
+      "description": "Finché i tuoi PF sono inferiori al tuo modificatore di COS, o se hai solo 1 PF, ottieni un +1 fisso a tutti i tiri."
+    },
+    {
+      "id": "Appetite For Destruction",
+      "name": "Appetito per la distruzione",
+      "description": "Scegli una mossa dal libretto del Guerriero, del Bardo o del Ladro. Non puoi scegliere mosse multiclass da quei libretti."
+    },
+    {
+      "id": "Eye for Weakness",
+      "name": "Occhio per la debolezza",
+      "description": "Quando <b><i>esamini l’ambiente</i></b>, aggiungi “Cosa qui è debole o vulnerabile?” all’elenco delle domande."
+    },
+    {
+      "id": "For The Blood God",
+      "name": "Sangue al Dio del Sangue",
+      "description": "Segui le antiche tradizioni sacrificali. Scegli qualcosa di prezioso per la tua divinità (spiriti ancestrali, totem, ecc.). Può essere oro, sangue, ossa… Quando <b>offri questi oggetti durante un rituale</b>, tira+SAG.",
+      "success": "Il GM ti darà una visione sulla situazione attuale o un vantaggio.",
+      "partial": "Il sacrificio non basta: gli dei prendono parte della tua carne in cambio, ma ti offrono comunque una visione o vantaggio.",
+      "failure": "Hai attirato l’ira degli dei capricciosi."
+    },
+    {
+      "id": "Full Plate and Packing Steel",
+      "name": "Corazzato fino ai denti",
+      "description": "Ignori la proprietà <i>scomodo</i> delle armature."
+    },
+    {
+      "id": "Healthy Distrust",
+      "name": "Sano sospetto",
+      "description": "Quando <b>la magia corrotta dei mortali ti costringe a <i>evitare un pericolo</i></b>, considera un 6- come un 7-9."
+    },
+    {
+      "id": "Herculean Appetites",
+      "name": "Appetiti erculei",
+      "description": "Qualcuno si accontenta del vino o del potere. Tu no. Scegli due desideri dalla lista. Quando <b>insegui un obiettivo che potrebbe soddisfare uno dei tuoi appetiti</b>, tira 1d6+1d8 invece di 2d6. Se il d6 è più alto del d8, il GM introdurrà una complicazione o un pericolo legato alla tua ossessione.\n<ul>\n<li>Distruzione pura</li>\n<li>Dominare gli altri</li>\n<li>Piaceri terreni</li>\n<li>Conquista</li>\n<li>Ricchezza e beni</li>\n<li>Trionfo e gloria</li>\n</ul>"
+    },
+    {
+      "id": "Indestructible Hunger",
+      "name": "Fame indistruttibile",
+      "description": "Quando <b>subisci danni</b>, puoi invece scegliere di ottenere un -1 permanente a tutti i tiri finché non soddisfi uno dei tuoi appetiti. Non puoi avere questo malus più di una volta alla volta."
+    },
+    {
+      "id": "Khan Of Khans",
+      "name": "Khan dei Khan",
+      "description": "I tuoi mercenari accetteranno la soddisfazione di uno dei tuoi appetiti al posto della paga."
+    },
+    {
+      "id": "Kill 'Em All",
+      "name": "Uccidili tutti",
+      "description": "Prendi un’altra mossa dal libretto del Guerriero, Bardo o Ladro. Non puoi scegliere mosse multiclass da quei libretti."
+    },
+    {
+      "id": "Mark Of Might",
+      "name": "Segno di potere",
+      "description": "Quando <b>prendi questa mossa e ti dedichi senza distrazioni a ricordare le tue glorie passate</b>, puoi manifestarle in un simbolo personale di potere (come una treccia con campanelli, cicatrici rituali, tatuaggi...). Chiunque lo veda capisce istintivamente che sei qualcuno con cui non si scherza."
+    },
+    {
+      "id": "More! Always More!",
+      "name": "Ancora! Sempre di più!",
+      "description": "Quando <b>soddisfi completamente un appetito</b> (distruggi qualcosa di unico, ottieni gloria o ricchezza straordinaria), puoi decidere di eliminarlo dalla lista. Ottieni esperienza. Puoi comunque perseguire quegli scopi, ma non sarai più tormentato dal desiderio. Scegli un nuovo appetito al suo posto, o inventane uno."
+    },
+    {
+      "id": "Musclebound",
+      "name": "Montagna di muscoli",
+      "description": "Quando <b>usi un'arma</b>, ottiene le proprietà <i>potente</i> e <i>devastante</i>."
+    },
+    {
+      "id": "My Love For You Is Like A Truck",
+      "name": "Ti ho fatto effetto",
+      "description": "Quando <b>mostri la tua forza</b>, indica uno dei testimoni: ottieni +1 al prossimo tentativo di <i>negoziare</i> con quella persona."
+    },
+    {
+      "id": "On The Move",
+      "name": "Sempre in corsa",
+      "description": "Quando <b><i>eviti un pericolo legato al movimento</i></b> (cadere da un ponte, sfondare linee nemiche...), ottieni +1 al tiro."
+    },
+    {
+      "id": "Samson",
+      "name": "Sansone",
+      "description": "Puoi subire una ferita per liberarti istantaneamente da catene fisiche o mentali."
+    },
+    {
+      "id": "Smash!",
+      "name": "Spacca!",
+      "description": "Quando <b>usi <i>colpisci e affetta</i></b> e fai 12+, infliggi danno e scegli qualcosa che possiede fisicamente il tuo avversario (arma, posizione, arto): lo perde."
+    },
+    {
+      "id": "Still Hungry",
+      "name": "Ancora affamato",
+      "description": "Scegli un altro appetito."
+    },
+    {
+      "id": "The One Who Knocks",
+      "name": "Io sono il pericolo",
+      "description": "Quando <b><i>eviti un pericolo</i></b> e fai 12+, la minaccia si ritorce contro se stessa. Il GM ti dirà come."
+    },
+    {
+      "id": "The Upper Hand",
+      "name": "Vantaggio sulle Tenebre",
+      "description": "Ottieni +1 al tiro del <i>ultimo respiro</i>. Se fai 7–9, puoi proporre un patto alla Morte: se accetta, vivi. Se no, muori."
+    },
+    {
+      "id": "Unencumbered, Unharmed",
+      "name": "Libero e illeso",
+      "description": "Se <b>non sei sovraccarico e non indossi armatura o scudo</b>, ottieni +1 armatura."
+    },
+    {
+      "id": "Usurper",
+      "name": "Usurpatore",
+      "description": "Quando <b>superi qualcuno al potere</b>, ottieni +1 al prossimo tiro contro i suoi sottoposti, adulatori o leccapiedi."
+    },
+    {
+      "id": "War Cry",
+      "name": "Grido di guerra",
+      "description": "Quando <b>entri in battaglia esibendo la tua forza</b>, tira+CAR.",
+      "success": "Ottieni entrambi gli effetti.",
+      "partial": "Scegli uno solo.",
+      "choices": "<ul>\n<li>I tuoi alleati sono ispirati: +1 al prossimo tiro.</li>\n<li>I nemici sono spaventati: evitano, si nascondono, attaccano per paura.</li>\n</ul>"
+    },
+    {
+      "id": "What Are You Waiting For?",
+      "name": "Che stai aspettando?",
+      "description": "Quando <b>sfidi apertamente i tuoi nemici</b>, tira+COS.",
+      "success": "Ti vedono come la minaccia principale e ignorano gli alleati. Ottieni +2 fisso al danno contro questi nemici.",
+      "partial": "Solo parte dei nemici (i più deboli o impulsivi) cade nella provocazione."
+    },
+    {
+      "id": "What Is Best In Life",
+      "name": "Il meglio della vita",
+      "description": "Alla <i>fine della sessione</i>, ottieni esperienza se hai schiacciato i tuoi nemici o se la notizia della disfatta dei loro compagni li ha raggiunti."
+    },
+    {
+      "id": "Wide-Wanderer",
+      "name": "Viaggiatore instancabile",
+      "description": "Hai girato il mondo in lungo e in largo. Quando <b>arrivi in un posto</b>, chiedi al GM informazioni su usanze locali, riti, ecc. Lui ti darà le risposte necessarie."
+    }
+  ]
 }

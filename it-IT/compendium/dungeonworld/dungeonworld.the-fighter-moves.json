@@ -1,134 +1,134 @@
 {
-	"label": "Ходы воина",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Armor Mastery",
-			"name": "Мастер защиты",
-			"description": "Когда вы <b>принимаете основной удар на доспех либо щит</b>, вы не получаете урона, однако должны уменьшить величину брони вашего доспеха (или щита) на 1 каждый раз, когда совершаете этот маневр. Если броня предмета опускается до 0, то предмет уничтожен."
-		},
-		{
-			"id": "Armored",
-			"name": "Привычный к доспехам",
-			"description": "Вы игнорируете свойство <i>неуклюжий</i>, которое накладывает броня."
-		},
-		{
-			"id": "Armored Perfection",
-			"name": "Идеальная защита",
-			"description": "Когда вы <b>принимаете удар на доспех или щит</b>, то не получаете урона и делаете следующий ход против атаковавшего с +1, но должны снизить броню доспеха или щита (ваш выбор) на 1 каждый раз, когда делаете этот ход. Если броня предмета опускается до 0, предмет уничтожен."
-		},
-		{
-			"id": "Bend Bars, Lift Gates",
-			"name": "Гнуть прутья, ломать двери",
-			"description": "Когда вы <b>пытаетесь разрушить неодушевленное препятствие грубой силой</b>, бросьте+СИЛ.",
-			"success": "Выберите три варианта из списка.",
-			"partial": "Выберите два варианта из списка.",
-			"choises": "<ul><li>Всё удалось сделать быстро.</li><li>Ничего ценного не повреждено.</li><li>Вы сделали это без лишнего шума.</li><li>Вы без особых усилий можете починить, что сломали.</li></ul>"
-		},
-		{
-			"id": "Blacksmith",
-			"name": "Кузнец",
-			"description": "Когда у вас есть доступ к кузнице, можете наделить свое знаковое оружие волшебными свойствами другого оружия. Последнее будет уничтожено."
-		},
-		{
-			"id": "Bloodthirsty",
-			"name": "Кровожадный",
-			"description": "Вы получаете бонус +[[/roll 1d8]] к наносимому урону."
-		},
-		{
-			"id": "Evil Eye",
-			"name": "Дурной глаз",
-			"description": "<p>В начале битвы бросьте+ХАР.</p><p>Если вы посмотрите в глаза персонажа ведущего, находящегося рядом, и потратите запас, он застынет на месте или отступит, и не сможет ничего делать, пока вы не отведете взгляд.</p>",
-			"success": "Ваш запас — 2.",
-			"partial": "Ваш запас — 1.",
-			"failure": "Противники считают вас главной угрозой."
-		},
-		{
-			"id": "Eye For Weaponry",
-			"name": "Знаток оружия",
-			"description": "Рассматривая оружие противника, вы можете выяснить у ведущего, сколько урона оно наносит."
-		},
-		{
-			"id": "Heirloom",
-			"name": "Наследие",
-			"description": "Когда вы <b>слушаете духов, обитающих в вашем знаковом оружии</b>, они посылают вам озарение о текущей ситуации. В свою очередь, они могут задать вам несколько вопросов. Бросьте+ХАР.",
-			"success": "Ведущий опишет ясное видение.",
-			"partial": "Видение будет неточным и запутанным."
-		},
-		{
-			"id": "Improved Weapon",
-			"name": "Лучшее оружие",
-			"description": "Наделите знаковое оружие еще одним свойством."
-		},
-		{
-			"id": "Interrogator",
-			"name": "Допрос",
-			"description": "Когда вы <b><i>договариваетесь</i>, используя в качестве рычага воздействия угрозу физического насилия</b>, вы можете использовать СИЛ, а не ХАР."
-		},
-		{
-			"id": "Iron Hide",
-			"name": "Железная шкура",
-			"description": "Вы получаете +1 к броне."
-		},
-		{
-			"id": "Merciless",
-			"name": "Безжалостный",
-			"description": "Вы получаете бонус +[[/roll 1d4]] к наносимому урону."
-		},
-		{
-			"id": "Multiclass Dabbler",
-			"name": "Мультикласс: дилетант",
-			"description": "Возьмите один ход другого класса, но будто ваш уровень ниже на 1."
-		},
-		{
-			"id": "Multiclass Initiate",
-			"name": "Мультикласс: посвящённый",
-			"description": "Возьмите один ход другого класса, но будто ваш уровень ниже на 1."
-		},
-		{
-			"id": "Scent Of Blood",
-			"name": "Запах крови",
-			"description": "Если вы <i>рубите и кромсаете</i>, ваша следующая атака по той же цели нанесет +[[/roll 1d4]] урона."
-		},
-		{
-			"id": "Seeing Red",
-			"name": "Взгляд убийцы",
-			"description": "Изучая обстановку во время битвы, вы получаете +1 к броску этого хода."
-		},
-		{
-			"id": "Signature Weapon",
-			"name": "Знаковое оружие",
-			"description": "<p><i>Ваше знаковое оружие — особая вещь. Вы не можете его потерять, исключая случаи, когда другой исход немыслим (и даже тогда вы можете попытаться его вернуть).</i></p><p>Это ваше оружие. На свете много подобных ему, но это — ваше. Это ваш лучший друг. Вы — его хозяин, а оно — хозяин вашей жизни. Без вас это оружие бесполезно, равно как вы без него. Носите его с честью.</p><p>Выберите оружие из списка (каждое имеет вес 2):</p><ul><li>Меч</li><li>Топор</li><li>Молот</li><li>Копьё</li><li>Цеп</li><li>Кулаки</li></ul><p>Выберите подходящую длину вашего оружия:</p><ul><li>Рука</li><li>Взмах меча</li><li>Удар копья</li></ul><p>Выберите два особых свойства:</p><ul><li>Крюки и шипы. Бонус +1 к урону, однако вес увеличивается на 1.</li><li>Острое. Пробивание +2.</li><li>Идеально сбалансированное. Добавьте свойство точное.</li><li>Зазубренное лезвие. +1 к урону.</li><li>Светится, когда рядом существа определённого типа (ваш выбор).</li><li>Огромные размеры. Добавьте свойства мощное и месиво.</li><li>Универсальное. Выберите вторую длину.</li><li>Мастерская работа. Вес -1.</li></ul><p>Выберите, как оно выглядит:</p><ul><li>Древнее</li><li>Безупречное</li><li>Богато украшенное</li><li>Закалённое в крови</li><li>Мрачное</li></ul>"
-		},
-		{
-			"id": "Steel Hide",
-			"name": "Стальная шкура",
-			"description": "Вы получаете +2 к броне."
-		},
-		{
-			"id": "Superior Warrior",
-			"name": "Великий воитель",
-			"description": "Когда вы, <i>рубя и кромсая</i>, получаете 12+, вы не просто наносите урон и избегаете ответного удара, но и впечатляете до глубины души, лишаете мужества или приводите в ужас вашего противника."
-		},
-		{
-			"id": "Taste Of Blood",
-			"name": "Вкус крови",
-			"description": "Если вы <b><i>рубите и кромсаете</i></b>, ваша следующая атака по той же цели наносит +[[/roll 1d8]] урона."
-		},
-		{
-			"id": "Through Death’s Eyes",
-			"name": "Глазами смерти",
-			"description": "<p><b>В начале боя</b> бросьте+МДР.</p><p>Назвать можно только персонажа ведущего, не игрока. Если существует даже крошечный шанс, что видение сбудется, ведущий должен сделать это.</p>",
-			"success": "Назовите того, кто переживёт бой, <i>и</i> того, кто погибнет.",
-			"partial": "Назовите того, кто переживёт бой, <i>или</i> того, кто погибнет.",
-			"failure": "Вы видите собственную смерть и получаете -1 на все ходы, пока битва не закончится."
-		}
-	]
+  "label": "Mosse del Guerriero",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Armor Mastery",
+      "name": "Maestro della Difesa",
+      "description": "Quando <b>assorbi un colpo diretto con la tua armatura o scudo</b>, non subisci danni, ma devi ridurre la corazza della tua armatura (o scudo) di 1 ogni volta che usi questa manovra. Se la corazza scende a 0, l’oggetto è distrutto."
+    },
+    {
+      "id": "Armored",
+      "name": "Abituato all’Armatura",
+      "description": "Ignori la proprietà <i>ingombrante</i> dell’armatura."
+    },
+    {
+      "id": "Armored Perfection",
+      "name": "Difesa Perfetta",
+      "description": "Quando <b>assorbi un colpo con l’armatura o lo scudo</b>, non subisci danni e ottieni +1 al prossimo tiro contro l’attaccante. Tuttavia, devi ridurre la corazza dell’armatura o dello scudo (a tua scelta) di 1 ogni volta che usi questa manovra. Se la corazza scende a 0, l’oggetto è distrutto."
+    },
+    {
+      "id": "Bend Bars, Lift Gates",
+      "name": "Piegare Sbarre, Forzare Porte",
+      "description": "Quando <b>cerchi di distruggere un ostacolo inanimato con la forza bruta</b>, tira+FOR.",
+      "success": "Scegli tre opzioni dall’elenco.",
+      "partial": "Scegli due opzioni dall’elenco.",
+      "choises": "<ul><li>Lo fai rapidamente.</li><li>Non danneggi nulla di prezioso.</li><li>Lo fai senza fare troppo rumore.</li><li>Puoi riparare facilmente ciò che hai rotto.</li></ul>"
+    },
+    {
+      "id": "Blacksmith",
+      "name": "Fabbro",
+      "description": "Quando hai accesso a una forgia, puoi trasferire proprietà magiche da un’arma a un’altra, fondendole nella tua arma distintiva. L’arma originale viene distrutta."
+    },
+    {
+      "id": "Bloodthirsty",
+      "name": "Assetato di Sangue",
+      "description": "Ottieni un bonus di +[[/roll 1d8]] ai danni inflitti."
+    },
+    {
+      "id": "Evil Eye",
+      "name": "Occhio Maligno",
+      "description": "<p>All’inizio della battaglia, tira+CAR.</p><p>Se guardi negli occhi un PNG vicino e spendi una riserva, esso resta paralizzato o indietreggia, incapace di agire finché non distogli lo sguardo.</p>",
+      "success": "La tua riserva è 2.",
+      "partial": "La tua riserva è 1.",
+      "failure": "I nemici ti identificano come minaccia principale."
+    },
+    {
+      "id": "Eye For Weaponry",
+      "name": "Occhio per le Armi",
+      "description": "Osservando l’arma di un nemico, puoi chiedere al GM quanti danni infligge."
+    },
+    {
+      "id": "Heirloom",
+      "name": "Retaggio",
+      "description": "Quando <b>ascolti gli spiriti nella tua arma distintiva</b>, ti inviano visioni legate alla situazione attuale. A volte, però, ti faranno domande. Tira+CAR.",
+      "success": "Il GM ti descrive una visione chiara.",
+      "partial": "La visione è confusa e ambigua."
+    },
+    {
+      "id": "Improved Weapon",
+      "name": "Arma Migliorata",
+      "description": "La tua arma distintiva guadagna una proprietà speciale aggiuntiva."
+    },
+    {
+      "id": "Interrogator",
+      "name": "Interrogatore",
+      "description": "Quando <b><i>contratti</i> usando la minaccia della forza fisica</b>, puoi usare FOR al posto di CAR."
+    },
+    {
+      "id": "Iron Hide",
+      "name": "Pelle di Ferro",
+      "description": "Ottieni +1 all’armatura."
+    },
+    {
+      "id": "Merciless",
+      "name": "Senza Pietà",
+      "description": "Ottieni un bonus di +[[/roll 1d4]] ai danni inflitti."
+    },
+    {
+      "id": "Multiclass Dabbler",
+      "name": "Multiclasse: Dilettante",
+      "description": "Scegli una mossa di un’altra classe, trattando il tuo livello come inferiore di 1."
+    },
+    {
+      "id": "Multiclass Initiate",
+      "name": "Multiclasse: Iniziato",
+      "description": "Scegli una mossa di un’altra classe, trattando il tuo livello come inferiore di 1."
+    },
+    {
+      "id": "Scent Of Blood",
+      "name": "Odore di Sangue",
+      "description": "Se usi <i>colpisci e affetta</i>, il tuo prossimo attacco alla stessa creatura infligge +[[/roll 1d4]] danni."
+    },
+    {
+      "id": "Seeing Red",
+      "name": "Sguardo da Assassino",
+      "description": "Quando <i>analizzi la situazione</i> durante il combattimento, ottieni +1 al tiro."
+    },
+    {
+      "id": "Signature Weapon",
+      "name": "Arma Distintiva",
+      "description": "<p><i>La tua arma distintiva è unica. Può essere persa solo in casi estremi, ma anche allora puoi tentare di recuperarla.</i></p><p>È la tua arma. Ce ne sono molte simili al mondo, ma questa è tua. È il tuo migliore amico. Tu sei il suo padrone, e lei è la padrona della tua vita. Senza di te è inutile, e senza di lei lo sei tu. Portala con onore.</p><p>Scegli un’arma dalla lista (peso 2 ciascuna):</p><ul><li>Spada</li><li>Ascia</li><li>Martello</li><li>Lancia</li><li>Mazza ferrata</li><li>Pugni</li></ul><p>Scegli la lunghezza dell’arma:</p><ul><li>Mano</li><li>Colpo di spada</li><li>Portata di lancia</li></ul><p>Scegli due proprietà speciali:</p><ul><li>Uncinata e spinata. +1 ai danni, peso +1.</li><li>Affilata. Penetrazione armatura +2.</li><li>Bilanciata. Aggiunge la proprietà preciso.</li><li>Lama seghettata. +1 ai danni.</li><li>Brilla in presenza di un tipo di creatura (scegli tu).</li><li>Enorme. Aggiunge potente e devastante.</li><li>Versatile. Scegli una seconda lunghezza.</li><li>Fatta a regola d’arte. Peso -1.</li></ul><p>Scegli l’aspetto:</p><ul><li>Antica</li><li>Impeccabile</li><li>Riccamente decorata</li><li>Intrisa di sangue</li><li>Oscura</li></ul>"
+    },
+    {
+      "id": "Steel Hide",
+      "name": "Pelle d’Acciaio",
+      "description": "Ottieni +2 all’armatura."
+    },
+    {
+      "id": "Superior Warrior",
+      "name": "Guerriero Superiore",
+      "description": "Quando, usando <i>colpisci e affetta</i>, ottieni un 12+, non solo infliggi danno senza subire contrattacchi, ma impressioni profondamente, spezzi il morale o spaventi il tuo avversario."
+    },
+    {
+      "id": "Taste Of Blood",
+      "name": "Sapore di Sangue",
+      "description": "Se <b><i>colpisci e affetta</i></b>, il tuo prossimo attacco alla stessa creatura infligge +[[/roll 1d8]] danni."
+    },
+    {
+      "id": "Through Death’s Eyes",
+      "name": "Attraverso gli Occhi della Morte",
+      "description": "<p><b>All’inizio della battaglia</b>, tira+SAG.</p><p>Puoi nominare solo PNG. Se esiste anche solo una remota possibilità che la visione si realizzi, il GM deve agire di conseguenza.</p>",
+      "success": "Nomina chi sopravvivrà <i>e</i> chi morirà.",
+      "partial": "Nomina chi sopravvivrà <i>oppure</i> chi morirà.",
+      "failure": "Vedi la tua morte e subisci -1 a tutte le mosse finché la battaglia non è finita."
+    }
+  ]
 }
