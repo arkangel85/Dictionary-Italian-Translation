@@ -1,0 +1,84 @@
+{
+  "label": "Incantesimi",
+  "mapping": {
+    "description": "system.description",
+    "tag": "system.tag"
+  },
+  "entries": {
+    "Be Understood": {
+      "name": "Cuore Aperto",
+      "description": "<p><strong>Effetto:</strong> Rende le intenzioni dell'incantatore comprensibili a [DICE] creature di altre specie per [DICE] turni.</p>\n<p><strong>Ricarica:</strong> Fare un dono volontario a una creatura di un'altra specie.</p>",
+      "tag": ""
+    },
+    "Catnip": {
+      "name": "Erba Gatta",
+      "description": "<p><strong>Effetto:</strong> Trasforma un oggetto in un'esca irresistibile per qualsiasi gatto. Dura [DICE] turni.</p>\n<p><strong>Ricarica:</strong> Donare al gatto qualcosa che desidera veramente.</p>",
+      "tag": ""
+    },
+    "Darkness": {
+      "name": "Oscurità",
+      "description": "<p><strong>Effetto:</strong> Crea una sfera di buio assoluto con diametro pari a [SUM] <strong>x 2 pollici</strong> per [DICE] turni.</p>\n<p><strong>Ricarica:</strong> Lasciare esposto per tre giorni in un luogo privo di luce.</p>",
+      "tag": ""
+    },
+    "Fear": {
+      "name": "Paura",
+      "description": "<p><strong>Effetto:</strong> [DICE] creature ricevono la condizione «Spaventato».</p>\n<p><strong>Ricarica:</strong> Subire la condizione «Spaventato» da una creatura ostile mentre si tiene in zampa l’incantesimo.</p>",
+      "tag": ""
+    },
+    "Fireball": {
+      "name": "Palla di Fuoco",
+      "description": "<p><strong>Effetto: </strong>Lancia una palla di fuoco fino a 24 pollici di distanza. Infligge [SUM] + [DICE] danni a tutte le creature in un raggio di 6 pollici.</p>\n<p><strong>Ricarica:</strong> Indurire nel cuore di una fiamma viva per tre giorni e tre notti.</p>",
+      "tag": ""
+    },
+    "Ghost Beetle": {
+      "name": "Scarabeo Fantasma",
+      "description": "<p><strong>Effetto:</strong> Evoca uno scarabeo spettrale che può trasportare 6 slot di equipaggiamento per [DICE] <strong>x 6</strong> turni.</p>\n<p><strong>Ricarica:</strong> Sepolto in un cimitero di insetti per tre notti.</p>",
+      "tag": ""
+    },
+    "Grease": {
+      "name": "Scivolata",
+      "description": "<p><strong>Effetto:</strong> Copre un’area di [DICE] <strong>x 6 pollici</strong> con un liquido scivoloso e infiammabile. Le creature in quell'area devono superare un tiro salvezza su <strong>destrezza</strong> o cadere.</p>\n<p><strong>Ricarica:</strong> Ricoprire completamente l’incantesimo con grasso animale. Lasciare finché non marcisce del tutto.</p>",
+      "tag": ""
+    },
+    "Grow": {
+      "name": "Crescita",
+      "description": "<p><strong>Effetto:</strong> Ingrandisce una creatura di [DICE] <strong>+ 1</strong> volte rispetto alla sua taglia originale per 1 turno.</p>\n<p><strong>Ricarica:</strong> Lasciare per tre giorni in cima a un albero molto alto.</p>",
+      "tag": ""
+    },
+    "Heal": {
+      "name": "Guarigione",
+      "description": "<p><strong>Effetto:</strong> Cura [SUM] danni alla <strong>forza</strong> e rimuove la carta condizione «Ferito» da una creatura.</p>\n<p><strong>Ricarica:</strong> Ferirsi volontariamente e spargere sangue sulla tavoletta. L’incantatore subisce [[/r d6]] danni alla forza, ignorando la protezione totale.</p>",
+      "tag": ""
+    },
+    "Invisibility": {
+      "name": "Invisibilità",
+      "description": "<p><strong>Effetto:</strong> Rende una creatura invisibile per [DICE] turni. Ogni movimento riduce la durata di 1 turno.</p>\n<p><strong>Ricarica:</strong> Passare un’intera giornata senza aprire gli occhi, tenendo l’incantesimo.</p>",
+      "tag": ""
+    },
+    "Invisible Ring": {
+      "name": "Anello Invisibile",
+      "description": "<p><strong>Effetto:</strong> Crea un campo di forza a forma di anello con raggio [DICE] <strong>x 6 pollici</strong>. È invisibile e immobile. Dura [DICE] turni.</p>\n<p><strong>Ricarica:</strong> Costruire un anello di ferro delle stesse dimensioni dell'ultimo incantesimo, farci passare l’incantesimo e poi fondere l’anello.</p>",
+      "tag": ""
+    },
+    "Knock": {
+      "name": "Scasso",
+      "description": "<p><strong>Effetto:</strong> Apre una porta o un forziere come se il topo avesse superato un tiro salvezza su <strong>forza</strong> con CD <strong>10 +</strong> [DICE] <strong>x 4</strong>.</p>\n<p><strong>Ricarica:</strong> Mettere l’incantesimo in una scatola chiusa, poi metterla in un'altra scatola chiusa, e di nuovo in un’altra scatola chiusa. Lasciare per tre giorni.</p>",
+      "tag": ""
+    },
+    "Light": {
+      "name": "Luce",
+      "description": "<p><strong>Effetto:</strong> Costringe [DICE] creature a fare un tiro salvezza su <strong>volontà</strong> — se falliscono, sono stordite. Oppure crea una luce equivalente a una lampada per [SUM] turni.</p>\n<p><strong>Ricarica:</strong> Usare la tavoletta dell’incantesimo per catturare il primo raggio all’alba e l’ultimo al tramonto per tre giorni consecutivi.</p>",
+      "tag": ""
+    },
+    "Magic Missile": {
+      "name": "Dardo Magico",
+      "description": "<p><strong>Effetto:</strong> Infligge [SUM] + [DICE] danni a una creatura visibile.</p>\n<p><strong>Ricarica:</strong> Gettare la tavoletta dell’incantesimo da un’altezza di almeno 30 piedi e toccarla entro un turno.</p>",
+      "tag": ""
+    },
+    "Restore": {
+      "name": "Ripristino",
+      "description": "<p><strong>Effetto:</strong> Rimuove la carta condizione «Sfinito» o «Spaventato» da [DICE] <strong>+ 1 </strong> creature.</p>\n<p><strong>Ricarica:</strong> Sepolto per tre giorni in un prato tranquillo o sulla riva di un fiume.</p>",
+      "tag": ""
+    }
+  }
+}

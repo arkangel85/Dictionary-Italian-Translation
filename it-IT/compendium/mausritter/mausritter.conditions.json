@@ -1,0 +1,68 @@
+{
+  "label": "Stati",
+  "mapping": {
+    "description": "system.description",
+    "clear": "system.clear",
+    "desc": "system.desc",
+    "color": "system.color"
+  },
+  "entries": {
+    "Custom": {
+      "name": "Personalizzato",
+      "description": "",
+      "color": "Salmon"
+    },
+    "Drained": {
+      "name": "Prosciugato",
+      "description": "Condizione grave. Assegnala ai topi che falliscono una prova durante il lancio di un incantesimo.",
+      "desc": "Svantaggio ai tiri salvezza di volontà",
+      "clear": "Riposo completo",
+      "color": "IndianRed"
+    },
+    "Exhausted": {
+      "name": "Sfinito",
+      "description": "La condizione più comune. Assegnala ai topi che non hanno riposato durante il viaggio o che hanno fallito una prova fisica.",
+      "clear": "Riposo prolungato",
+      "color": "Salmon"
+    },
+    "Frightened": {
+      "name": "Spaventato",
+      "description": "Assegnala ai topi che hanno affrontato creature particolarmente inquietanti o magia.",
+      "desc": "Tiro salvezza di volontà per avvicinarsi alla fonte della paura",
+      "clear": "Pausa",
+      "color": "Salmon"
+    },
+    "Hungry": {
+      "name": "Affamato",
+      "description": "Assegnala ai topi che non hanno consumato una razione durante la giornata.",
+      "clear": "Pastarello",
+      "color": "Salmon"
+    },
+    "Injured": {
+      "name": "Ferito",
+      "description": "Condizione grave. Assegnala ai topi che hanno subito danni critici o ferite gravi.",
+      "desc": "Svantaggio ai tiri salvezza di forza e destrezza",
+      "clear": "Riposo completo",
+      "color": "IndianRed"
+    },
+    "Crow Song": {
+      "name": "Canto del corvo",
+      "desc": "Aggiungi un canto dalla lista"
+    },
+    "Knows One Spell": {
+      "name": "Conosce un incantesimo",
+      "desc": "Sostituiscilo con un incantesimo"
+    },
+    "Critical Damage": {
+      "name": "Danno critico"
+    },
+    "Spectral": {
+      "name": "Spettrale",
+      "desc": "Può essere colpito solo da armi d’argento o magiche"
+    },
+    "Ghostly Power": {
+      "name": "Poteri spettrali",
+      "desc": "Aggiungi un potere dalla lista"
+    }
+  }
+}

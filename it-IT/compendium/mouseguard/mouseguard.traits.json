@@ -1,0 +1,293 @@
+{
+  "label": "Caratteristiche",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Alert",
+      "name": "Vigile",
+      "description": "<p>La maggior parte degli abitanti di Moshviaz guadagna da vivere raccogliendo provviste. Questi topi esplorano le foreste circostanti alla ricerca di scorte da rivendere in città. Fuori dalle mura cittadine, devono restare vigili: potrebbero essere divorati da predatori o restare bloccati fuori durante un temporale. Questa costante vigilanza spesso si trasforma in eccessiva sospettosità o addirittura paranoia.</p>"
+    },
+    {
+      "id": "Bigpaw",
+      "name": "Zampone",
+      "description": "<p>I topi con questa caratteristica sono bravi nei compiti fisici che richiedono zampe grandi e forti. Tuttavia, sono piuttosto goffi quando si tratta di lavori di precisione o delicatezza.</p>"
+    },
+    {
+      "id": "Bitter",
+      "name": "Pessimista",
+      "description": "<p>Alcuni topi hanno visto troppe cose nella loro vita. Credono che qualunque cosa facciano, non cambierà nulla. Questo modo di vedere il mondo li protegge dalle delusioni, ma li corrode interiormente. Fanno fatica a guardare la vita con ottimismo.</p>"
+    },
+    {
+      "id": "Bodyguard",
+      "name": "Guardia del corpo",
+      "description": "<p>Questi topi sono addestrati a proteggere gli altri dai pericoli fisici e sanno come mettere in sicurezza un luogo. Una guardia del corpo può essere estremamente utile, ma a volte la sua protezione può risultare eccessiva o d'intralcio.</p>"
+    },
+    {
+      "id": "Bold",
+      "name": "Spericolato",
+      "description": "<p>Lo spericolato agisce senza pensare alla propria sicurezza. Azioni rischiose e decisioni impulsive sono il suo marchio di fabbrica. Non è incline alla pianificazione o alla prudenza.</p>"
+    },
+    {
+      "id": "Brave",
+      "name": "Coraggioso",
+      "description": "<p>Questi topi non esitano di fronte all’ignoto. Sono affascinati da storie su luoghi lontani e avventure pericolose. Un coraggioso non sopporta di essere chiamato codardo: è il modo più rapido per farlo infuriare.</p>"
+    },
+    {
+      "id": "Calm",
+      "name": "Calmo",
+      "description": "<p>Un topo calmo è difficile da far arrabbiare. Questi personaggi cercano di controllare ogni emozione che possa turbare la loro serenità. Tuttavia, una calma eccessiva può farli abbassare la guardia e non accorgersi di pericoli imminenti.</p>"
+    },
+    {
+      "id": "Clever",
+      "name": "Intelligente",
+      "description": "<p>Questi topi sono utili in qualsiasi impresa. Sono orientati alla risoluzione dei problemi. Tuttavia, ci sono molte storie su topi troppo furbi che hanno finito per complicarsi la vita da soli.</p>"
+    },
+    {
+      "id": "Compassionate",
+      "name": "Compassionevole",
+      "description": "<p>I topi compassionevoli riescono a vedere le cose dal punto di vista degli altri e a comprenderne le motivazioni. Questo è utile in molte situazioni, ma può essere un ostacolo quando occorre agire con durezza e decisione.</p>"
+    },
+    {
+      "id": "Cunning",
+      "name": "Astuto",
+      "description": "<p>Questi topi amano ingannare e tramare. Sono molto sicuri di sé, ma se vengono scoperti, non esitano a ricorrere a mezzi disonorevoli per difendersi.</p>"
+    },
+    {
+      "id": "Curious",
+      "name": "Curioso",
+      "description": "<p>Un topo curioso è sempre pronto a imparare qualcosa di nuovo e si interessa a tutto ciò che lo circonda. A Lockhaven si dice: “La curiosità ha ucciso il topolino”. È bene non dimenticare mai questo detto.</p>"
+    },
+    {
+      "id": "Deep Ear",
+      "name": "Orecchio fino",
+      "description": "<p>Questi topi hanno un udito eccezionale, ma per questo sono anche molto sensibili ai rumori forti, improvvisi e al frastuono delle grandi città.</p>"
+    },
+    {
+      "id": "Defender",
+      "name": "Difensore",
+      "description": "<p>Durante la Guerra d’Inverno del 1149, molti topi dovettero combattere per difendere la propria casa e i propri cari. Non avevano un addestramento militare adeguato e spesso mancavano di rifornimenti. Ora conoscono bene il valore della libertà e della sicurezza.</p>"
+    },
+    {
+      "id": "Determined",
+      "name": "Determinato",
+      "description": "<p>Questi topi concentrano tutte le loro forze e attenzioni sul raggiungimento del loro obiettivo. Sebbene sia una qualità utile, un’eccessiva determinazione può portarli ad avere una visione distorta o limitata della realtà.</p>"
+    },
+    {
+      "id": "Driven",
+      "name": "Irremovibile",
+      "description": "<p>Questi topi seguono le proprie convinzioni a ogni costo. Tuttavia, se non stanno attenti, il prezzo della loro ostinazione potrebbe essere molto alto.</p>"
+    },
+    {
+      "id": "Early Riser",
+      "name": "Mattiniero",
+      "description": "<p>Questo topo si sveglia prima degli altri. All’alba è già attivo e pieno di energia, mentre gli altri stanno ancora sbadigliando. Naturalmente, la sera viene colto dal sonno molto prima degli altri.</p>"
+    },
+    {
+      "id": "Extrovert",
+      "name": "Estroverso",
+      "description": "<p>Amano socializzare con altri topi e fare nuove conoscenze. Conducono una vita pubblica attiva e sono piuttosto noti, il che li rende facilmente riconoscibili e rintracciabili, anche quando non lo desiderano.</p>"
+    },
+    {
+      "id": "Fat",
+      "name": "Grassottello",
+      "description": "<p>La vita nelle Terre non è facile, ma alcuni topi riescono a vivere agiatamente. Spesso accade vicino a una panetteria o una pasticceria...</p>"
+    },
+    {
+      "id": "Fearful",
+      "name": "Timoroso",
+      "description": "<p>A Noccioleti si diceva: “Topo pauroso è topo saggio”. In altre parole, se qualcuno sembra pericoloso, è meglio scappare piuttosto che verificare il pericolo. Questo atteggiamento aiuta a sopravvivere nei luoghi selvaggi, ma è poco adatto alla vita civile o alla buona società.</p>"
+    },
+    {
+      "id": "Fearless",
+      "name": "Impavido",
+      "description": "<p>I combattenti impavidi affrontano il nemico senza pensare a se stessi. Tuttavia, a volte dimenticano che, prima di essere eroici, è bene assicurarsi di poter vincere e che non ci siano trappole lungo il cammino.</p>"
+    },
+    {
+      "id": "Fiery",
+      "name": "Appassionato",
+      "description": "<p>Questo topo sa come trascinare gli altri, ma è anche molto emotivo e può facilmente lasciarsi trasportare dalla rabbia.</p>"
+    },
+    {
+      "id": "Generous",
+      "name": "Generoso",
+      "description": "<p>Questi topi hanno sempre qualcosa da offrire agli altri, anche se questo significa dare via l’ultima cosa che possiedono.</p>"
+    },
+    {
+      "id": "Graceful",
+      "name": "Agile",
+      "description": "<p>Alcuni topi nascono con un ottimo equilibrio e movimenti aggraziati. Quando agiscono, ricordano un predatore furtivo o un uccellino rapido. Tuttavia, devono evitare lesioni fisiche, che comprometterebbero la loro dote principale.</p>"
+    },
+    {
+      "id": "Guard's Honor",
+      "name": "Onore della Guardia",
+      "description": "<p>Chi è cresciuto o vive a Lockhaven ha un legame speciale con la Guardia dei Topi. Conoscono bene l’organizzazione, i bisogni e i sacrifici della Guardia. I guardiani rispettano chi condivide la loro vita e si fidano di loro più che di altri. Ma basta un solo tradimento per essere espulsi da Lockhaven o addirittura esiliati dalle Terre.</p>"
+    },
+    {
+      "id": "Hard Worker",
+      "name": "Stacanovista",
+      "description": "<p>I topi di Pljuschi sono famosi per la loro etica del lavoro. Nessuno lavora più duramente e a lungo di loro. Tuttavia, raramente si prendono una pausa, rischiando di lavorare fino allo sfinimento e, a volte, fino alla tomba.</p>"
+    },
+    {
+      "id": "Independent",
+      "name": "Indipendente",
+      "description": "<p>Gli abitanti di Mednolesja sono noti per il loro carattere indipendente. Amano fare tutto da soli e a modo loro. Pensano che troppe zampe siano solo d'intralcio.</p>"
+    },
+    {
+      "id": "Innocent",
+      "name": "Innocente",
+      "description": "<p>Questo topo è così onesto e semplice che è difficile dirgli di no. Tuttavia, la sua ingenuità può ritorcersi contro di lui, poiché il mondo che lo circonda è molto più pericoloso di quanto creda.</p>"
+    },
+    {
+      "id": "Inquisitive",
+      "name": "Scrupoloso",
+      "description": "<p>I topi studiosi di Podjelnik sono noti per la loro sete di conoscenza e curiosità incessante. Cercano il significato e la verità in ogni cosa. Naturalmente, questo li mette spesso nei guai.</p>"
+    },
+    {
+      "id": "Jaded",
+      "name": "Cinico",
+      "description": "<p>Alcuni topi, temprati dalle difficoltà, diventano emotivamente freddi. Questo atteggiamento li protegge dalle decisioni avventate spinte da idealismo o giovanile impeto, ma impedisce loro di accogliere nuove idee.</p>"
+    },
+    {
+      "id": "Leader",
+      "name": "Leader",
+      "description": "<p>La Guardia ha sempre bisogno di leader forti. Hanno la rara qualità di ispirare e guidare gli altri. I topi li ascoltano anche quando danno solo consigli, non solo quando comandano. È però fondamentale che non abusino del loro potere e sappiano anche obbedire agli ordini.</p>"
+    },
+    {
+      "id": "Longtail",
+      "name": "Codalunga",
+      "description": "<p>A volte un topo nasce con una coda insolitamente lunga. Con il tempo, può imparare a usarla in modo utile e creativo. Tuttavia, una coda lunga può creare parecchi problemi: può impigliarsi, essere calpestata o inciampata, o rimanere incastrata ovunque.</p>"
+    },
+    {
+      "id": "Lost",
+      "name": "Senza senso dell'orientamento",
+      "description": "<p>Alcuni topi sono completamente privi del senso dell’orientamento. Sono totalmente inadatti a fare le guide o i tracciatori, ma allo stesso tempo è estremamente difficile rintracciarli o trovarli.</p>"
+    },
+    {
+      "id": "Natural Bearings",
+      "name": "Viaggiatore",
+      "description": "<p>L'opposto totale del topo senza senso dell’orientamento. Il viaggiatore sa sempre dove si trova e dove sta andando. Ha un costante desiderio di spostarsi, e si sente a disagio se resta troppo tempo nello stesso posto, specialmente nei villaggi di topi o nelle grandi città.</p>"
+    },
+    {
+      "id": "Nimble",
+      "name": "Agile",
+      "description": "<p>Questi topi sono abili nel saltare e arrampicarsi. Tuttavia, quando non sono al centro dell’attenzione, possono essere goffi come chiunque altro, se non di più.</p>"
+    },
+    {
+      "id": "Nocturnal",
+      "name": "Notturno",
+      "description": "<p>Alcuni topi vivono principalmente di notte. Mentre gli altri dormono, loro sono svegli e attivi. Di notte pensano meglio. Vedono benissimo al buio. Naturalmente, se si va a trovarli in pieno giorno, li si troverà profondamente addormentati.</p>"
+    },
+    {
+      "id": "Oldfur",
+      "name": "Vecchiopelo",
+      "description": "<p>La vita di questo topo è al tramonto e le sue condizioni fisiche non sono delle migliori. Di solito è però un pozzo di saggezza delle generazioni passate.</p>"
+    },
+    {
+      "id": "Open-Minded",
+      "name": "Di vedute aperte",
+      "description": "<p>Gli abitanti della Tana d’Ardesia hanno visioni liberali e progressiste. Sono sempre pronti ad accogliere nuove idee. Questa visione si riflette nel loro sistema di governo democratico e nella varietà di scuole e programmi educativi.</p>"
+    },
+    {
+      "id": "Quick-Witted",
+      "name": "Pronto di riflessi",
+      "description": "<p>Questo topo agisce d’istinto, senza perdere tempo a riflettere o calcolare. È spesso un vantaggio, ma in situazioni che richiedono cautela e pianificazione può diventare un problema.</p>"
+    },
+    {
+      "id": "Quiet",
+      "name": "Silenzioso",
+      "description": "<p>Tutti i topi sono silenziosi per natura, ma questi lo sono ancora di più. Parlano, lavorano e camminano in modo estremamente silenzioso. Alcuni amano così tanto la quiete da avere difficoltà ad adattarsi quando devono parlare con qualcuno.</p>"
+    },
+    {
+      "id": "Rational",
+      "name": "Razionale",
+      "description": "<p>Le scuole di Podjelnik insegnano a pensare in modo lucido e razionale. I topi che vi studiano ragionano in modo logico e convincente. Ma si perdono se lasciano che le emozioni prendano il sopravvento sulla logica e il buon senso.</p>"
+    },
+    {
+      "id": "Scarred",
+      "name": "Segnato dalle cicatrici",
+      "description": "<p>Chi ha combattuto nella Guerra contro le donnole spesso porta molte cicatrici. Sono forti di corpo e spirito, e poche cose riescono a spaventarli. Ma ciò che hanno vissuto li ha segnati profondamente, sia fuori che dentro.</p>"
+    },
+    {
+      "id": "Sharp-Eyed",
+      "name": "Occhio di lince",
+      "description": "<p>Compagni preziosi, perfetti per fare esploratori o cacciatori. Tuttavia, dopo una giornata intera a scrutare cespugli e fili d’erba, tendono a diventare un po’ irritabili.</p>"
+    },
+    {
+      "id": "Sharptooth",
+      "name": "Denti aguzzi",
+      "description": "<p>Alcuni topi hanno denti naturalmente affilati e non esitano a usarli in combattimento o in situazioni opportune. Stridono e schioccano i denti di continuo. A volte lo fanno persino nel sonno, tenendo svegli chi gli sta attorno.</p>"
+    },
+    {
+      "id": "Short",
+      "name": "Bassetto",
+      "description": "<p>Alcuni topi sono più bassi della media. Sembrano nati per infilarsi tra le fessure strette o raggiungere luoghi difficili. Ma per loro prendere una tazza da una mensola alta può essere una vera sfida.</p>"
+    },
+    {
+      "id": "Skeptical",
+      "name": "Scettico",
+      "description": "<p>Gli scettici cercano bugie e inganni in ogni cosa, il che non è sempre negativo. Tuttavia, possono spingersi troppo oltre e accusare di menzogna anche chi dice solo la verità.</p>"
+    },
+    {
+      "id": "Skinny",
+      "name": "Mingherlino",
+      "description": "<p>Non avere peso in eccesso è un bene, ma non bisogna dimenticare la salute e una dieta equilibrata.</p>"
+    },
+    {
+      "id": "Steady Paws",
+      "name": "Zampe d’oro",
+      "description": "<p>A Drevograd molti topi hanno le “zampe d’oro”. La città vanta un’altissima cultura del lavoro qualificato, soprattutto nella metallurgia. Alcuni fabbri stimano tanto le proprie zampe da assicurarle presso le banche locali.</p>"
+    },
+    {
+      "id": "Stoic",
+      "name": "Stoico",
+      "description": "<p>Questo topo non si lamenta mai delle difficoltà della vita. Le accetta e va avanti. Purtroppo, questo atteggiamento lo porta ad allontanarsi emotivamente dagli altri, rendendo difficile mostrare affetto, amore o compassione.</p>"
+    },
+    {
+      "id": "Stubborn",
+      "name": "Testardo",
+      "description": "<p>È bene difendere ciò in cui si crede. Tuttavia, ostinarsi troppo può far pensare agli altri che siate ingovernabili o semplicemente poco collaborativi.</p>"
+    },
+    {
+      "id": "Suspicious",
+      "name": "Diffidente",
+      "description": "<p>Nei Territori, non sempre i topi vanno d’accordo. Intrighi e complotti non sono rari. Un topo diffidente è sempre all’erta. E ovviamente può trovare un complotto anche dove non c’è proprio nulla.</p>"
+    },
+    {
+      "id": "Tall",
+      "name": "Altino",
+      "description": "<p>Quasi tutti i topi dei Territori hanno la stessa altezza. Raramente una madre può vantarsi di un cucciolo nato più grande. L’altezza aiuta per prendere il barattolo di marmellata dalla mensola o calmare i fratelli, ma non aiuta quando bisogna nascondersi in un posto stretto.</p>"
+    },
+    {
+      "id": "Thoughtful",
+      "name": "Riflessivo",
+      "description": "<p>Questo topo analizza tutte le opzioni e possibilità prima di decidere o agire. Una qualità utilissima quando c’è tempo per pianificare, ma completamente inutile quando si deve agire d’istinto.</p>"
+    },
+    {
+      "id": "Tough",
+      "name": "Robusto",
+      "description": "<p>Alcuni topi sono più forti e resistenti di altri per natura. Guariscono meglio dalle ferite e si ammalano di rado. Questa “eccezionalità” li porta a sopravvalutarsi e quindi diventano facili da manipolare facendo leva sul loro ego.</p>"
+    },
+    {
+      "id": "Weather Sense",
+      "name": "Sensibile al meteo",
+      "description": "<p>Alcuni topi nascono particolarmente sensibili ai cambiamenti del tempo, altri lo diventano con l’esperienza. Sentono la variazione meteorologica in tutto il corpo (le ossa fanno male!). Ovviamente, vengono spesso accusati di portare brutto tempo proprio perché lo prevedono con precisione.</p>"
+    },
+    {
+      "id": "Wise",
+      "name": "Saggio",
+      "description": "<p>La saggezza è ormai una dote rara tra i topi di ogni età. Molti giudicano in modo superficiale e dimenticano le lezioni del passato. Un topo saggio vede la verità e agisce con rettitudine, ma deve sempre combattere l’arroganza e l’orgoglio che possono nascere da tale saggezza.</p>"
+    },
+    {
+      "id": "Wolf's Snout",
+      "name": "Fiuto del lupo",
+      "description": "<p>Alcuni topi hanno un olfatto straordinariamente acuto. Si dice che abbiano il “fiuto del lupo” – un grande complimento, dato che i lupi sono considerati i più temuti nemici dei topi. È una dote utilissima per la caccia, ma chi la possiede deve stare attento a non diventare selvaggio e simile a un lupo.</p>"
+    },
+    {
+      "id": "Young",
+      "name": "Giovane",
+      "description": "<p>Questo topo è sempre pieno di energia e appare giovane anche se non lo è. È in salute, raramente si stanca o si ammala. Tuttavia, l’entusiasmo giovanile si accompagna spesso a impazienza adolescenziale.</p>"
+    }
+  ]
+}

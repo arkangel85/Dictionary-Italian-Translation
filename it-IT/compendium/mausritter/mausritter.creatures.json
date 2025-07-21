@@ -1,0 +1,68 @@
+{
+  "label": "Creature",
+  "mapping": {
+    "items": {
+      "path": "items",
+      "converter": "fromPack"
+    },
+    "wants": "system.description.disposition",
+    "notes": "system.notes"
+  },
+  "entries": {
+    "Cat": {
+      "name": "Gatto",
+      "notes": "Ha le dimensioni di una banda da guerra.",
+      "wants": "essere servito. Se i topi le giurano fedeltà e pagano un riscatto, risparmierà loro la vita."
+    },
+    "Centipede": {
+      "name": "Millepiedi",
+      "notes": "Se infligge un colpo critico, il suo veleno ha effetto: infligge 1d12 danni alla forza.",
+      "wants": "camminare e divorare"
+    },
+    "Crow": {
+      "name": "Corvo",
+      "notes": "Vola a una velocità 3 volte superiore al movimento normale, conosce due canzoni.",
+      "wants": "proteggere luoghi sacri segreti da chi potrebbe far loro del male"
+    },
+    "Faerie": {
+      "name": "Fata",
+      "notes": "Conosce un incantesimo.",
+      "wants": "realizzare i bizzarri piani della Regina delle Fate"
+    },
+    "Frog": {
+      "name": "Rana",
+      "notes": "Se infligge un colpo critico, salta fuori dalla portata. Agisce sempre per prima, se non colta di sorpresa, salta al doppio della velocità normale.",
+      "wants": "concludere valorosamente la propria spedizione"
+    },
+    "Ghost": {
+      "name": "Fantasma",
+      "notes": "Se infligge un colpo critico, si impossessa della vittima. Può essere colpito solo da armi d’argento o magiche.",
+      "wants": "liberarsi del dolore che lo lega al mondo dei mortali"
+    },
+    "Mouse": {
+      "name": "Topo",
+      "notes": "",
+      "wants": "sentirsi al sicuro"
+    },
+    "Owl": {
+      "name": "Gufo",
+      "notes": "Vola a una velocità 3 volte superiore al movimento normale. Conosce due incantesimi.",
+      "wants": "raccogliere conoscenze rare e incantesimi"
+    },
+    "Rat": {
+      "name": "Ratto",
+      "notes": "",
+      "wants": "ottenere ricchezza facile, rubandola ai deboli"
+    },
+    "Snake": {
+      "name": "Serpente",
+      "notes": "Se infligge un colpo critico, inghiotte la vittima intera e infligge 1d4 danni alla forza per round finché il personaggio non viene salvato o fugge.",
+      "wants": "dormire tranquillamente"
+    },
+    "Spider": {
+      "name": "Ragno",
+      "notes": "Se infligge un colpo critico, avvolge la vittima nella ragnatela.",
+      "wants": "nutrire i suoi piccoli"
+    }
+  }
+}

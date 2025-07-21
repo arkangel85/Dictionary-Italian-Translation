@@ -1,0 +1,516 @@
+{
+  "label": "Abilità - SRD",
+  "mapping": {
+    "category": "data.category"
+  },
+  "entries": {
+    "Analytic Taste": {
+      "name": "Gusto analitico",
+      "category": "Esotiche"
+    },
+    "Anthropology": {
+      "name": "Antropologia",
+      "category": "Scientifiche"
+    },
+    "Archaeology": {
+      "name": "Archeologia",
+      "category": "Scientifiche"
+    },
+    "Architecture": {
+      "name": "Architettura",
+      "category": "Scientifiche"
+    },
+    "Art History": {
+      "name": "Storia dell'arte",
+      "category": "Scientifiche"
+    },
+    "Artillery": {
+      "name": "Artiglieria",
+      "category": "Specialistiche"
+    },
+    "Astronomy": {
+      "name": "Astronomia",
+      "category": "Scientifiche"
+    },
+    "Athletics": {
+      "name": "Atletica",
+      "category": "Fisiche"
+    },
+    "Aura Reading": {
+      "name": "Lettura dell'aura",
+      "category": "Esotiche"
+    },
+    "Authority": {
+      "name": "Autorità",
+      "category": "Interpersonali"
+    },
+    "Ballistics": {
+      "name": "Balistica",
+      "category": "Applicate"
+    },
+    "Battlefield": {
+      "name": "Campo di battaglia",
+      "category": "Specialistiche"
+    },
+    "Belle-Lettres": {
+      "name": "Calligrafia",
+      "category": "Scientifiche"
+    },
+    "Bonhomie": {
+      "name": "Cordialità",
+      "category": "Interpersonali"
+    },
+    "Botany": {
+      "name": "Botanica",
+      "category": "Scientifiche"
+    },
+    "Bullshit Detector": {
+      "name": "Perspicacia",
+      "category": "Interpersonali"
+    },
+    "Bureaucracy": {
+      "name": "Burocrazia",
+      "category": "Interpersonali"
+    },
+    "Burglary": {
+      "name": "Rapina",
+      "category": "Specialistiche"
+    },
+    "Business Affairs": {
+      "name": "Affari",
+      "category": "Interpersonali"
+    },
+    "Camping": {
+      "name": "Campeggio",
+      "category": "Applicate"
+    },
+    "Charm": {
+      "name": "Fascino",
+      "category": "Interpersonali"
+    },
+    "Chemistry": {
+      "name": "Chimica",
+      "category": "Applicate"
+    },
+    "Chronal Stability": {
+      "name": "Stabilità temporale",
+      "category": "Esotiche"
+    },
+    "Comparative Religion": {
+      "name": "Religioni comparate",
+      "category": "Scientifiche"
+    },
+    "Composure": {
+      "name": "Compostezza",
+      "category": "Interpersonali"
+    },
+    "Conceal": {
+      "name": "Occultamento",
+      "category": "Specialistiche"
+    },
+    "Cop Talk": {
+      "name": "Gergo poliziesco",
+      "category": "Interpersonali"
+    },
+    "Counterinsurgency": {
+      "name": "Controinsurrezione",
+      "category": "Applicate"
+    },
+    "Craft": {
+      "name": "Artigianato",
+      "category": "Applicate"
+    },
+    "Cryptography": {
+      "name": "Crittografia",
+      "category": "Applicate"
+    },
+    "Culture": {
+      "name": "Cultura",
+      "category": "Scientifiche"
+    },
+    "Data Retrieval": {
+      "name": "Recupero dati",
+      "category": "Applicate"
+    },
+    "Disguise": {
+      "name": "Travestimento",
+      "category": "Specialistiche"
+    },
+    "Document Analysis": {
+      "name": "Analisi documentale",
+      "category": "Applicate"
+    },
+    "Driving": {
+      "name": "Guida",
+      "category": "Specialistiche"
+    },
+    "Electronic Surveillance": {
+      "name": "Sorveglianza elettronica",
+      "category": "Applicate"
+    },
+    "Evidence Collection": {
+      "name": "Raccolta prove",
+      "category": "Applicate"
+    },
+    "Explosive Devices": {
+      "name": "Esplosivi",
+      "category": "Applicate"
+    },
+    "Explosives": {
+      "name": "Esplosivi",
+      "category": "Specialistiche"
+    },
+    "Farming": {
+      "name": "Agricoltura",
+      "category": "Applicate"
+    },
+    "Fashion": {
+      "name": "Moda",
+      "category": "Scientifiche"
+    },
+    "Fighting": {
+      "name": "Combattimento",
+      "category": "Fisiche"
+    },
+    "Filch": {
+      "name": "Borseggio",
+      "category": "Specialistiche"
+    },
+    "Fingerprinting": {
+      "name": "Dattiloscopia",
+      "category": "Applicate"
+    },
+    "First Aid": {
+      "name": "Primo soccorso",
+      "category": "Specialistiche"
+    },
+    "Flattery": {
+      "name": "Adulazione",
+      "category": "Interpersonali"
+    },
+    "Fleeing": {
+      "name": "Fuga",
+      "category": "Fisiche"
+    },
+    "Flirting": {
+      "name": "Civetteria",
+      "category": "Interpersonali"
+    },
+    "Forensic Accounting": {
+      "name": "Contabilità forense",
+      "category": "Scientifiche"
+    },
+    "Forensic Anthropology": {
+      "name": "Antropologia forense",
+      "category": "Applicate"
+    },
+    "Forensic Entomology": {
+      "name": "Entomologia forense",
+      "category": "Applicate"
+    },
+    "Forensic Psychology": {
+      "name": "Psicologia forense",
+      "category": "Scientifiche"
+    },
+    "Forgery": {
+      "name": "Falsificazione",
+      "category": "Applicate"
+    },
+    "Gambling": {
+      "name": "Giochi d'azzardo",
+      "category": "Interpersonali"
+    },
+    "Geology": {
+      "name": "Geologia",
+      "category": "Scientifiche"
+    },
+    "Hacking": {
+      "name": "Hacking",
+      "category": "Applicate"
+    },
+    "Health": {
+      "name": "Salute",
+      "category": "Fisiche"
+    },
+    "High Society": {
+      "name": "Alta società",
+      "category": "Interpersonali"
+    },
+    "History": {
+      "name": "Storia",
+      "category": "Scientifiche"
+    },
+    "Hunting": {
+      "name": "Caccia",
+      "category": "Applicate"
+    },
+    "Hypnosis": {
+      "name": "Ipnosi",
+      "category": "Interpersonali"
+    },
+    "Impersonate": {
+      "name": "Impersonificazione",
+      "category": "Interpersonali"
+    },
+    "Infiltration": {
+      "name": "Infiltrazione",
+      "category": "Fisiche"
+    },
+    "Inspiration": {
+      "name": "Ispirazione",
+      "category": "Interpersonali"
+    },
+    "Insurgency": {
+      "name": "Insurrezione",
+      "category": "Specialistiche"
+    },
+    "Interrogation": {
+      "name": "Interrogatorio",
+      "category": "Interpersonali"
+    },
+    "Intimidation": {
+      "name": "Intimidazione",
+      "category": "Interpersonali"
+    },
+    "Intuition": {
+      "name": "Intuizione",
+      "category": "Applicate"
+    },
+    "Languages": {
+      "name": "Lingue",
+      "category": "Scientifiche"
+    },
+    "Law": {
+      "name": "Giurisprudenza",
+      "category": "Scientifiche"
+    },
+    "Leadership": {
+      "name": "Leadership",
+      "category": "Interpersonali"
+    },
+    "Linguistics": {
+      "name": "Linguistica",
+      "category": "Scientifiche"
+    },
+    "Locksmith": {
+      "name": "Scassinatore",
+      "category": "Applicate"
+    },
+    "Mechanics": {
+      "name": "Meccanica",
+      "category": "Specialistiche"
+    },
+    "Medic": {
+      "name": "Pronto soccorso",
+      "category": "Specialistiche"
+    },
+    "Medical Expertise": {
+      "name": "Medicina",
+      "category": "Applicate"
+    },
+    "Military History": {
+      "name": "Storia militare",
+      "category": "Scientifiche"
+    },
+    "Military Tactics": {
+      "name": "Tattiche militari",
+      "category": "Scientifiche"
+    },
+    "Morale": {
+      "name": "Morale",
+      "category": "Interpersonali"
+    },
+    "Mutant Power: Blood Spray": {
+      "name": "Potere Mutante: Spruzzo di sangue",
+      "category": "Esotiche"
+    },
+    "Natural History": {
+      "name": "Storia naturale",
+      "category": "Scientifiche"
+    },
+    "Negotiation": {
+      "name": "Negoziazione",
+      "category": "Interpersonali"
+    },
+    "Network": {
+      "name": "Rete di contatti",
+      "category": "Specialistiche"
+    },
+    "Notice": {
+      "name": "Osservazione",
+      "category": "Applicate"
+    },
+    "Occult Studies": {
+      "name": "Studi occulti",
+      "category": "Scientifiche"
+    },
+    "Oral History": {
+      "name": "Tradizione orale",
+      "category": "Interpersonali"
+    },
+    "Outdoor Survival": {
+      "name": "Sopravvivenza",
+      "category": "Applicate"
+    },
+    "Painting": {
+      "name": "Pittura",
+      "category": "Applicate"
+    },
+    "Paradox Prevention": {
+      "name": "Prevenzione dei paradossi",
+      "category": "Applicate"
+    },
+    "Pathology": {
+      "name": "Anatomia patologica",
+      "category": "Scientifiche"
+    },
+    "Pathway Amplification": {
+      "name": "Amplificazione del percorso",
+      "category": "Esotiche"
+    },
+    "People Person": {
+      "name": "Persona socievole",
+      "category": "Interpersonali"
+    },
+    "Photography": {
+      "name": "Fotografia",
+      "category": "Applicate"
+    },
+    "Piloting": {
+      "name": "Pilotaggio",
+      "category": "Specialistiche"
+    },
+    "Poetry": {
+      "name": "Poesia",
+      "category": "Scientifiche"
+    },
+    "Political Science": {
+      "name": "Scienze politiche",
+      "category": "Scientifiche"
+    },
+    "Politics": {
+      "name": "Politica",
+      "category": "Interpersonali"
+    },
+    "Preparedness": {
+      "name": "Prontezza",
+      "category": "Interpersonali"
+    },
+    "Public Relations": {
+      "name": "Relazioni pubbliche",
+      "category": "Interpersonali"
+    },
+    "Reality Anchor": {
+      "name": "Ancora della realtà",
+      "category": "Esotiche"
+    },
+    "Reassurance": {
+      "name": "Rassicurazione",
+      "category": "Interpersonali"
+    },
+    "Research": {
+      "name": "Ricerca",
+      "category": "Scientifiche"
+    },
+    "Respect": {
+      "name": "Incoraggiamento",
+      "category": "Interpersonali"
+    },
+    "Riding": {
+      "name": "Equitazione",
+      "category": "Fisiche"
+    },
+    "Salt of the Earth": {
+      "name": "Integrità",
+      "category": "Interpersonali"
+    },
+    "Science!": {
+      "name": "Scienze esatte",
+      "category": "Applicate"
+    },
+    "Scrounging": {
+      "name": "Accattonaggio",
+      "category": "Interpersonali"
+    },
+    "Scuffling": {
+      "name": "Rissa",
+      "category": "Fisiche"
+    },
+    "Sculpture": {
+      "name": "Scultura",
+      "category": "Applicate"
+    },
+    "Sense Trouble": {
+      "name": "Percezione del pericolo",
+      "category": "Interpersonali"
+    },
+    "Shooting": {
+      "name": "Tiro",
+      "category": "Fisiche"
+    },
+    "Shrink": {
+      "name": "Fuga",
+      "category": "Interpersonali"
+    },
+    "Society": {
+      "name": "Società",
+      "category": "Interpersonali"
+    },
+    "Spying": {
+      "name": "Spionaggio",
+      "category": "Applicate"
+    },
+    "Stability": {
+      "name": "Autocontrollo",
+      "category": "Interpersonali"
+    },
+    "Streetwise": {
+      "name": "Fiuto da strada",
+      "category": "Interpersonali"
+    },
+    "Surveillance": {
+      "name": "Sorveglianza",
+      "category": "Specialistiche"
+    },
+    "Taunt": {
+      "name": "Provocazione",
+      "category": "Interpersonali"
+    },
+    "Terrain": {
+      "name": "Terreno",
+      "category": "Applicate"
+    },
+    "Textual Analysis": {
+      "name": "Analisi del testo",
+      "category": "Scientifiche"
+    },
+    "Timecraft": {
+      "name": "Tecniche temporali",
+      "category": "Scientifiche"
+    },
+    "Tradecraft": {
+      "name": "Tecniche d’intelligence",
+      "category": "Interpersonali"
+    },
+    "Traffic Analysis": {
+      "name": "Analisi del traffico",
+      "category": "Applicate"
+    },
+    "Traps and Bombs": {
+      "name": "Trappole e esplosivi",
+      "category": "Specialistiche"
+    },
+    "Trivia": {
+      "name": "Erudizione",
+      "category": "Scientifiche"
+    },
+    "Unobtrusiveness": {
+      "name": "Discrezione",
+      "category": "Specialistiche"
+    },
+    "Viroware Enhancement: Dominator": {
+      "name": "Viroware Enhancement: Dominator",
+      "category": "Esotiche"
+    }
+  }
+}

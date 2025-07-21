@@ -1,0 +1,233 @@
+{
+  "label": "Difetti di base",
+  "entries": {
+    "All Thumbs": {
+      "name": "Mani di burro",
+      "description": "<p>–2 alle prove per usare dispositivi meccanici ed elettronici.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Anemic": {
+      "name": "Anemia",
+      "description": "<p>–2 alle prove di resistenza per contrastare l’affaticamento.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Arrogant": {
+      "name": "Arroganza",
+      "description": "<p>Fa di tutto per dimostrare la propria eccezionalità.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Bad Eyes": {
+      "name": "Vista debole",
+      "description": "<p>–1 (minore) o –2 (maggiore) alle prove basate sulla vista. Gli occhiali annullano il malus, ma se il personaggio subisce danni, c’è il 50% di probabilità che si rompano.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Bad Luck": {
+      "name": "Sfortuna",
+      "description": "<p>Inizia ogni incontro con una Tessera in meno.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Big Mouth": {
+      "name": "Bocca larga",
+      "description": "<p>Svela spesso informazioni importanti.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Blind": {
+      "name": "Cecità",
+      "description": "<p>–6 a tutte le prove che richiedono la vista (in compenso il personaggio riceve un tratto aggiuntivo).</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Bloodthirsty": {
+      "name": "Sete di sangue",
+      "description": "<p>Non perde occasione per finire un avversario.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Can't Swim": {
+      "name": "Non sa nuotare",
+      "description": "<p>–2 alle prove di nuoto (Atletica); ogni pollice di movimento in acqua conta come 3 pollici di terra.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Cautious": {
+      "name": "Pignolo",
+      "description": "<p>Il personaggio è eccessivamente cauto e tende a pianificare a lungo.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Clueless": {
+      "name": "Smarrito",
+      "description": "<p>–1 alle prove di Conoscenza e Percezione.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Clumsy": {
+      "name": "Gofo",
+      "description": "<p>–2 alle prove di Atletica e Furtività.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Code of Honor": {
+      "name": "Codice d’onore",
+      "description": "<p>Si comporta sempre con dignità e mantiene la parola data.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Curious": {
+      "name": "Curiosità",
+      "description": "<p>Il personaggio vuole sapere tutto su tutto.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Death Wish": {
+      "name": "Desiderio di morte",
+      "description": "<p>Persegue un grande scopo anche a costo della propria vita.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Delusional": {
+      "name": "Illusione",
+      "description": "<p>Convinto di qualcosa che non corrisponde alla realtà oggettiva.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Doubting Thomas": {
+      "name": "Tommaso dubbioso",
+      "description": "<p>Non crede nel soprannaturale e quindi agisce con imprudenza.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Driven": {
+      "name": "Ossessione",
+      "description": "<p>Il personaggio è ossessionato da un grande obiettivo.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Elderly": {
+      "name": "Vecchiaia",
+      "description": "<p>Passo e corsa diminuiti di 1; –1 alle prove di Agilità, Forza e Costituzione; il personaggio ottiene però 5 punti aggiuntivi da spendere in miglioramenti di Abilità basate sull’Ingegno.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Enemy": {
+      "name": "Nemico",
+      "description": "<p>Il personaggio è perseguitato da un avversario.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Greedy": {
+      "name": "Avarizia",
+      "description": "<p>Troppo ossessionato da denaro e proprietà.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Habit": {
+      "name": "Cattiva abitudine",
+      "description": "<p>Ha una dipendenza; senza la dose successiva accumula livelli di Fatica.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Hard of Hearing": {
+      "name": "Ipoacusia",
+      "description": "<p>–4 alle prove di Percezione uditiva (minore); in caso di sordità completa (maggiore), il fallimento è automatico.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Heroic": {
+      "name": "Eroismo",
+      "description": "<p>Aiuta sempre chi è nel bisogno.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Hesitant": {
+      "name": "Esitazione",
+      "description": "<p>In combattimento riceve due carte azione e sceglie quella con valore minore (il jolly rimane valido).</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Illiterate": {
+      "name": "Analphabetismo",
+      "description": "<p>Non sa leggere né scrivere.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Impulsive": {
+      "name": "Impulsività",
+      "description": "<p>Agisce prima di pensare.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Jealous": {
+      "name": "Invidia",
+      "description": "<p>Desidera ciò che hanno gli altri.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Loyal": {
+      "name": "Leale",
+      "description": "<p>Amico e alleato incredibilmente affidabile.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Mean": {
+      "name": "Carattere scontroso",
+      "description": "<p>–1 alle prove di Persuasione.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Mild Mannered": {
+      "name": "Modestia",
+      "description": "<p>–2 alle prove di Intimidazione.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Mute": {
+      "name": "Muto",
+      "description": "<p>Incapace di parlare.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Obese": {
+      "name": "Obesità",
+      "description": "<p>Taglia +1, Passo –1, Corsa d4. La Forza è considerata un livello inferiore per il carico minimo.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Obligation": {
+      "name": "Obblighi",
+      "description": "<p>Impegnato nei propri doveri da 20 (minore) a 40 (maggiore) ore a settimana.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "One Arm": {
+      "name": "Manca un braccio",
+      "description": "<p>–4 a tutte le azioni che richiedono entrambe le mani (es. Atletica).</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "One Eye": {
+      "name": "Manca un occhio",
+      "description": "<p>–2 a tutte le azioni a distanza di 5” (10 yarde) o più.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Outsider": {
+      "name": "Straniero",
+      "description": "<p>Non è del posto. –2 alle prove di Persuasione. Se maggiore, nessun diritto di cittadinanza e potenziali problemi sociali.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Overconfident": {
+      "name": "Sovrastima",
+      "description": "<p>Convinto di poter fare qualsiasi cosa.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Pacifist": {
+      "name": "Pacifista",
+      "description": "<p>Combatte solo per difesa (minore) o non combatte affatto (maggiore).</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Phobia": {
+      "name": "Fobia",
+      "description": "<p>–1 o –2 a tutte le prove in presenza dell’oggetto della paura.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Poverty": {
+      "name": "Miseria",
+      "description": "<p>Riceve la metà delle risorse iniziali e spende denaro costantemente durante il gioco.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Quirk": {
+      "name": "Peculiarità",
+      "description": "<p>Stranezza innocua o fastidiosa.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Ruthless": {
+      "name": "Spietatezza",
+      "description": "<p>Calpesta chiunque si frapponga.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Secret": {
+      "name": "Segreto",
+      "description": "<p>Il personaggio nasconde un oscuro segreto.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Shamed": {
+      "name": "Disonore",
+      "description": "<p>Nel passato v’è stato qualcosa di vergognoso.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Slow": {
+      "name": "Zoppia",
+      "description": "<p>Passo –1, Corsa una categoria inferiore. Se maggiore, –2 al Passo e a tutte le prove di Atletica. Non cumulabile con Rapidità.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Small": {
+      "name": "Piccolezza",
+      "description": "<p>Taglia e Resistenza –1. La Taglia non può scendere sotto –1.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Stubborn": {
+      "name": "Ostinatezza",
+      "description": "<p>Riluttante ad ammettere errori e resta sulle proprie posizioni.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Suspicious": {
+      "name": "Sospettoso",
+      "description": "<p>Non si fida di nessuno. Se maggiore, –2 alle prove di Aiutare il personaggio.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Thin Skinned": {
+      "name": "Delicatezza",
+      "description": "<p>–2 alla Resistenza agli Scherni (minore) o –4 (maggiore).</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Timid": {
+      "name": "Timidezza",
+      "description": "<p>–2 alle prove di Resistenza alla Paura e Intimidazione.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Tongue-Tied": {
+      "name": "Balbuzie",
+      "description": "<p>–1 alle prove di Intimidazione, Persuasione e Scherno.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Ugly": {
+      "name": "Bruttezza",
+      "description": "<p>–1 o –2 alle prove di Persuasione.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Vengeful": {
+      "name": "Vendicativo",
+      "description": "<p>Determinate a vendicarsi per ogni torto. Se maggiore, tende a infliggere gravi danni.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Vow": {
+      "name": "Giuramento",
+      "description": "<p>Ha fatto un giuramento e lo rispetta.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Wanted": {
+      "name": "Ricercato",
+      "description": "<p>È ricercato dalle autorità.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Young": {
+      "name": "Gioventù",
+      "description": "<p>Se minore: 4 punti Caratteristica, 10 punti Abilità, 1 Tessera extra per incontro. Se maggiore: 3 punti Caratteristica, 10 punti Abilità, difetto ‘Piccolezza’ e 2 Tessere extra per incontro.</p><p>La descrizione completa del difetto è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione in russo <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    }
+  }
+}

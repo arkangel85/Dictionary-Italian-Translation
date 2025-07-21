@@ -1,0 +1,541 @@
+{
+  "label": "Caratteristiche di Base",
+  "entries": {
+    "Ace": {
+      "name": "Asso",
+      "description": "<p>Ignora fino a 2 punti di penalità alle prove di guida, pilotaggio e navigazione; può spendere tessere per far superare al suo veicolo le prove di integrità.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Acrobat": {
+      "name": "Acrobata",
+      "description": "<p>Rilancio gratuito delle prove di Atletica (Acrobazia).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Alertness": {
+      "name": "Vigilanza",
+      "description": "<p>+2 alle prove di Percezione.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Ambidextrous": {
+      "name": "Ambidestro",
+      "description": "<p>Ignora la penalità di –2 quando effettua prove usando la mano non dominante.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Arcane Background": {
+      "name": "Retaggio Arcano",
+      "description": "<p>Permette di accedere a un dono mistico tra quelli elencati nel Capitolo 5.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Arcane Resistance": {
+      "name": "Resistenza Arcana",
+      "description": "<p>–2 a tutte le prove mistico-avversarie rivolte al personaggio; il danno magico è ridotto di 2.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Aristocrat": {
+      "name": "Aristocratico",
+      "description": "<p>+2 alle prove di Contatto Sociale e di Percezione negli ambienti nobiliari.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Artificer": {
+      "name": "Artefice",
+      "description": "<p>Consente di creare oggetti soprannaturali.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Assassin": {
+      "name": "Assassino",
+      "description": "<p>+2 al danno se il bersaglio è vulnerabile o colto di sorpresa.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Attractive": {
+      "name": "Avvenente",
+      "description": "<p>+1 alle prove di Intrattenimento e Persuasione.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Beast Bond": {
+      "name": "Legame Animale",
+      "description": "<p>Il personaggio può spendere tessere per controllare le azioni di un animale compagno.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Beast Master": {
+      "name": "Domatore di Bestie",
+      "description": "<p>Gli animali mostrano affetto verso il personaggio e gli è assegnato un animale compagno.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Berserk": {
+      "name": "Berserker",
+      "description": "<p>Quando è scioccato o ferito, può entrare in ira: Forza +1, Resistenza +2, ignora 1 livello di penalità da ferite; al fallimento critico percuote bersaglio casuale. Ogni 5 round accumula un livello di Fatica. Per fermare la furia può tentare una prova di Mente con –2.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Block": {
+      "name": "Parata",
+      "description": "<p>+1 alla Difesa; i nemici spendono 1 punto in più quando attaccano in gruppo.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Bolster": {
+      "name": "Ispirare",
+      "description": "<p>Un successo in Abilità di inganno permette di rimuovere lo stato Distratto o Vulnerabile da un alleato.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Brave": {
+      "name": "Coraggioso",
+      "description": "<p>+2 alle prove di Resistenza alla Paura, –2 alle prove sulla Tabella del Terrore.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Brawler": {
+      "name": "Pugile",
+      "description": "<p>+1 alla Resistenza, danno senza armi +d4 (o scala di danno incrementata).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Brawny": {
+      "name": "Robusto",
+      "description": "<p>Taglia e Resistenza +1; la Forza conta un livello superiore per carichi e equipaggiamento.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Bruiser": {
+      "name": "Spaccaossa",
+      "description": "<p>Resistenza +2; il danno delle armi da mischia aumenta di una categoria.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Brute": {
+      "name": "Bruto",
+      "description": "<p>L’Atletica si basa sulla Forza anziché sulla Destrezza; gittata dei lanci +1 (vicina), +2 (media), +4 (lontana).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Calculating": {
+      "name": "Calcolatore",
+      "description": "<p>Ignora fino a 2 punti di penalità a un’azione nel round se la carta è 5 o meno.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Champion": {
+      "name": "Campione",
+      "description": "<p>+2 al danno contro creature soprannaturali malvagie (o buone).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Channeling": {
+      "name": "Canalizzazione",
+      "description": "<p>Se l’attivazione di un potere ottiene uno slancio, il costo in Punti Potere diminuisce di 1.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Charismatic": {
+      "name": "Carismatico",
+      "description": "<p>Rilancio gratuito delle prove di Persuasione.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Chi": {
+      "name": "Chi",
+      "description": "<p>Una volta per combattimento, può rilanciare un fallimento in mischia, forzare il nemico a rilanciare un successo o aggiungere d6 al danno senza armi.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Combat Acrobat": {
+      "name": "Acrobata Combattente",
+      "description": "<p>Tutti gli attacchi subiti hanno –1 di precisione se non sono sorprendenti.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Combat Reflexes": {
+      "name": "Riflessi di Combattimento",
+      "description": "<p>+2 alle prove per recuperare da Shock o Stordimento.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Command": {
+      "name": "Comando",
+      "description": "<p>+1 al recupero da Shock e Stordimento per tutti gli alleati nel raggio di comando.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Command Presence": {
+      "name": "Presenza Imponente",
+      "description": "<p>Il raggio di comando aumenta a 10\" (20 yarde).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Common Bond": {
+      "name": "Spirito di Squadra",
+      "description": "<p>Il personaggio può trasferire tessere agli altri membri del gruppo.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Concentration": {
+      "name": "Concentrazione",
+      "description": "<p>Raddoppia la durata di tutti gli effetti non istantanei dei poteri.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Connections": {
+      "name": "Contatti",
+      "description": "<p>Una volta per incontro, i contatti del personaggio possono fornire aiuto o informazioni.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Counterattack": {
+      "name": "Controattacco",
+      "description": "<p>Una volta per turno, può effettuare un attacco gratuito contro chi fallisce una prova di mischia.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Danger Sense": {
+      "name": "Sesto Senso",
+      "description": "<p>+2 alle prove di Percezione per individuare imboscate e pericoli simili.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Dead Shot": {
+      "name": "Colpo Mortale",
+      "description": "<p>Se la carta è un Jolly, il primo successo in Atletica (lancio) o Tiro infligge danno doppio.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Dodge": {
+      "name": "Schivata",
+      "description": "<p>–2 agli attacchi a distanza rivolti al personaggio.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Double Tap": {
+      "name": "Doppio Colpo",
+      "description": "<p>+1 alle prove di attacco e danno con armi a fuoco semiautomatiche per ogni proiettile extra speso.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Elan": {
+      "name": "Slancio",
+      "description": "<p>+2 al risultato di una prova rilanciata mediante tessera.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Expert": {
+      "name": "Esperto",
+      "description": "<p>Il livello attuale e massimo di un’abilità aumenta di un grado aggiuntivo.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Extra Effort": {
+      "name": "Sforzo Extra",
+      "description": "<p>Migliora un risultato di Talento di +1 spendendo 1 Punto Potere o di +2 spendendo 3 Punti Potere.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Extraction": {
+      "name": "Sganciarsi",
+      "description": "<p>Un avversario perde l’attacco libero quando il personaggio esce dal corpo a corpo con lui.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Fame": {
+      "name": "Fama",
+      "description": "<p>+1 alle prove di Persuasione se il personaggio è riconosciuto (Percezione); paga il doppio per le esibizioni.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Famous": {
+      "name": "Fama+",
+      "description": "<p>+2 alle prove di Persuasione se il personaggio è riconosciuto; paga cinque volte tanto per le esibizioni.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Fast Healer": {
+      "name": "Guaritore Rapido",
+      "description": "<p>+2 alle prove di Resistenza per il recupero naturale; le prove si effettuano ogni 3 giorni.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Feint": {
+      "name": "Finta",
+      "description": "<p>Permette di scegliere se l’avversario deve resistere a un’Inganno in mischia usando Destrezza o Mente.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Fervor": {
+      "name": "Fervore",
+      "description": "<p>Gli alleati nel raggio di comando ottengono +1 al danno quando usano l’abilità Mischia.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Filthy Rich": {
+      "name": "Ricchissimo+",
+      "description": "<p>Capitale iniziale quintuplicato e reddito annuo di $500.000.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "First Strike": {
+      "name": "Colpo Preventivo",
+      "description": "<p>Una volta per round può effettuare un attacco gratuito quando un nemico entra nel suo raggio di mischia.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Fleet-Footed": {
+      "name": "Agile di Piede",
+      "description": "<p>Passo +2, corsa aumenta di un livello.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Followers": {
+      "name": "Seguaci Fedeli",
+      "description": "<p>Il personaggio acquisisce cinque seguaci leali.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Free Runner": {
+      "name": "Scattista",
+      "description": "<p>Ignora il terreno accidentato e ottiene +2 alle prove di Atletica (incluso Arrampicata) durante le inseguimenti a piedi.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Frenzy": {
+      "name": "Frenesia",
+      "description": "<p>Può spendere uno sforzo eccezionale per aggiungere una seconda d20 alla prova di Mischia in un attacco per turno.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Gadgeteer": {
+      "name": "Gadgettaro",
+      "description": "<p>Spende 3 Punti Potere per creare un dispositivo che imita un potere mistico.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Giant Killer": {
+      "name": "Uccidi Giganti",
+      "description": "<p>+1d6 al danno se il bersaglio è almeno tre taglie superiori.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Great Luck": {
+      "name": "Grande Fortuna",
+      "description": "<p>Riceve +2 tessere all’inizio di ogni incontro.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Hard To Kill": {
+      "name": "Duro a Morire",
+      "description": "<p>Le penalità da ferite non si applicano alle prove di Resistenza quando il personaggio sta sanguinando.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Harder To Kill": {
+      "name": "Quasi Immortale",
+      "description": "<p>Quando muore, tira un d6: se esce pari, rimane in fin di vita e sopravvive.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Healer": {
+      "name": "Guaritore",
+      "description": "<p>+2 alle prove di Guarigione, magica o mundane.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Hold The Line!": {
+      "name": "Fermate la Linea!",
+      "description": "<p>+1 alla Resistenza degli alleati nel raggio di comando.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Holy/Unholy Warrior": {
+      "name": "Guerriero Sacro/Empio",
+      "description": "<p>Spende Punti Potere per ottenere da +1 fino a +4 alla Resistenza per turno.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Humiliate": {
+      "name": "Umiliare",
+      "description": "<p>Rilancio gratuito delle prove di Scherno.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Arcane Resistance": {
+      "name": "Resistenza Arcana+",
+      "description": "<p>–4 a tutte le prove mistico-avversarie; il danno magico è ridotto di 4.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Block": {
+      "name": "Parata+",
+      "description": "<p>+2 alla Difesa; i nemici spendono 2 punti in più quando attaccano in gruppo.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Counterattack": {
+      "name": "Controattacco+",
+      "description": "<p>Può rispondere fino a tre volte per round con un attacco gratuito su chi fallisce una prova di Mischia.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Dodge": {
+      "name": "Schivata+",
+      "description": "<p>+2 alle prove di Schivata.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Extraction": {
+      "name": "Sganciarsi+",
+      "description": "<p>Tre avversari perdono l’attacco d’opportunità quando il personaggio esce dal corpo a corpo.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved First Strike": {
+      "name": "Colpo Preventivo+",
+      "description": "<p>Può effettuare un attacco gratuito su tre nemici quando entrano nel suo raggio di mischia.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Frenzy": {
+      "name": "Frenesia+",
+      "description": "<p>Aggiunge una terza d20 alla prova di Mischia in un attacco per turno come sforzo eccezionale.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Level Headed": {
+      "name": "Sangue Freddo+",
+      "description": "<p>Tira tre carte azione e ne sceglie una come eccezionale.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Nerves of Steel": {
+      "name": "Nervi d’Acciaio+",
+      "description": "<p>Ignora 2 punti di penalità da ferite.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Rapid Fire": {
+      "name": "Fuoco Rapido+",
+      "description": "<p>Può effettuare due attacchi a distanza per turno; la velocità di fuoco dell’arma aumenta di 1.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Rapid Recharge": {
+      "name": "Recupero Potere+",
+      "description": "<p>Recupera 20 Punti Potere all’ora.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Sweep": {
+      "name": "Colpo Circolare+",
+      "description": "<p>Non colpisce più gli alleati.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improved Trademark Weapon": {
+      "name": "Arma Distintiva+",
+      "description": "<p>+2 alle prove con un’arma specifica; +2 alla Difesa se l’arma è pronta.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Improvisational Fighter": {
+      "name": "Combattente Improvvisato",
+      "description": "<p>Ignora la penalità –2 quando usa armi improvvisate.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Inspire": {
+      "name": "Ispirare",
+      "description": "<p>Una volta per turno, una prova di Leadership permette di assistere tutti i tiri di un parametro scelto nel raggio di comando (azione eccezionale).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Investigator": {
+      "name": "Investigatore",
+      "description": "<p>+2 alle prove di Ricerca Informazioni e Percezione (ricerca indizi).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Iron Jaw": {
+      "name": "Mandibola di Ferro",
+      "description": "<p>+2 alle prove di Resistenza e di Tenacia per evitare il KO.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Iron Will": {
+      "name": "Volontà d’Acciaio+",
+      "description": "<p>Ora +2 si applica anche al resistere ai poteri e a rimuovere i loro effetti.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Jack-of-all-Trades": {
+      "name": "Tuttologo",
+      "description": "<p>Un successo in Mente permette di acquisire temporaneamente un'abilità d4 (d6 in caso di Critico).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Killer Instinct": {
+      "name": "Istinto Omicida",
+      "description": "<p>Rilancio gratuito di qualsiasi Inganno già iniziato.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Level Headed": {
+      "name": "Sangue Freddo",
+      "description": "<p>Ogni round il personaggio pesca due carte azione e ne sceglie una.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Linguist": {
+      "name": "Poliglotta",
+      "description": "<p>Possiede d6 in un numero di lingue pari a metà del valore di Mente.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Liquid Courage": {
+      "name": "Coraggio Liquido",
+      "description": "<p>Sotto l’effetto dell’alcol la Resistenza sale di un gradino, ignora 1 livello di penalità da ferite; subisce –1 a Destrezza, Mente e alle abilità correlate.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Luck": {
+      "name": "Fortuna",
+      "description": "<p>+1 tessera all’inizio di ogni incontro.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Marksman": {
+      "name": "Tiratore Scelto",
+      "description": "<p>Ignora fino a 2 punti di penalità per distanza, copertura, tiro mirato, dimensione del bersaglio o velocità, o aggiunge +1 alle prove di Atletica (Getto) e Tiro. Deve restare fermo e usare armi con velocità di fuoco ≤1.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Martial Artist": {
+      "name": "Artista Marziale",
+      "description": "<p>Le estremità sono considerate armi naturali. +1 a Mischia e +d4 a danno (incrementa di un gradino se già presente).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Martial Warrior": {
+      "name": "Guerriero Marziale+",
+      "description": "<p>+2 a Mischia e il dado extra di danno sale di un gradino.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Master": {
+      "name": "Maestro++",
+      "description": "<p>Il dado parametro selvaggio diventa d10.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Master Tactician": {
+      "name": "Tattico+",
+      "description": "<p>Riceve due carte azione addizionali.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Master of Arms": {
+      "name": "Maestro d’Armi+",
+      "description": "<p>+2 alla Difesa; il dado extra di danno da Mischia diventa d10.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "McGyver": {
+      "name": "Improvvisatore",
+      "description": "<p>Può assemblare rapidamente congegni improvvisati da materiali di fortuna.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Menacing": {
+      "name": "Minaccioso",
+      "description": "<p>+2 alle prove di Intimidire.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Mentalist": {
+      "name": "Mentalista",
+      "description": "<p>+2 ai contrasti Psionici.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Mighty Blow": {
+      "name": "Colpo Potente",
+      "description": "<p>Se la carta azione è un Joker, la prima prova di Mischia andata a segno infligge danno doppio.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Mr. Fix It": {
+      "name": "Signor Ripara",
+      "description": "<p>+2 alle prove di Riparazione; in caso di Critico il lavoro richiede la metà del tempo.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Natural Leader": {
+      "name": "Leader Nato",
+      "description": "<p>Può applicare le caratteristiche di Comando anche alle Carte Selvagge.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Nerves of Steel": {
+      "name": "Nervi d’Acciaio",
+      "description": "<p>Ignora 1 punto di penalità da ferite.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "New Powers": {
+      "name": "Nuovi Poteri",
+      "description": "<p>Il personaggio apprende due nuovi poteri.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "No Mercy": {
+      "name": "Nessuna Pietà",
+      "description": "<p>+2 al danno se si spende una tessera per rilanciare.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Power Points": {
+      "name": "Punti Potere",
+      "description": "<p>Il personaggio riceve 5 Punti Potere aggiuntivi (una sola volta per livello).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Power Surge": {
+      "name": "Surge di Potere",
+      "description": "<p>Se la carta azione è un Joker, il personaggio recupera 10 Punti Potere.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Professional": {
+      "name": "Professionista",
+      "description": "<p>Il valore attuale e massimo del parametro aumentano di un gradino.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Provoke": {
+      "name": "Provocare",
+      "description": "<p>Se resiste con successo a una provocazione o un’intimidazione con Critico, l’avversario diventa Distratto.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Quick": {
+      "name": "Rapido",
+      "description": "<p>Può ripescare la carta azione se ottiene 5 o meno.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Rabble-Rouser": {
+      "name": "Istigatore",
+      "description": "<p>Una volta per turno, un Inganno basato su Intimidire o Scherno colpisce tutti gli avversari nella zona media (azione eccezionale).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Rapid Fire": {
+      "name": "Fuoco Rapido",
+      "description": "<p>Per un attacco a distanza per turno, la velocità di fuoco dell’arma aumenta di 1.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Rapid Recharge": {
+      "name": "Ricarica Rapida",
+      "description": "<p>Recupera 10 Punti Potere all’ora.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Reliable": {
+      "name": "Affidabile",
+      "description": "<p>Rilancio gratuito delle prove di Aiuto.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Retort": {
+      "name": "Ribattuta",
+      "description": "<p>Se resiste con Critico a Scherno o Intimidire, l’avversario subisce Distrazione.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Rich": {
+      "name": "Benestante",
+      "description": "<p>Capitale iniziale triplicato e reddito annuo di $150.000.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Rock and Roll!": {
+      "name": "Rock and Roll!",
+      "description": "<p>Ignora le penalità da rinculo usando armi con velocità di fuoco ≥2 se non si muove nello stesso turno.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Scavenger": {
+      "name": "Spazzino",
+      "description": "<p>Una volta per scena può trovare improvvisamente l’oggetto di cui ha bisogno.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Scholar": {
+      "name": "Studioso",
+      "description": "<p>+2 alle prove di Conoscenze.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Sidekick": {
+      "name": "Comparsa",
+      "description": "<p>Il personaggio ottiene un Comparsa (Carta Selvaggia).</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Soldier": {
+      "name": "Soldato",
+      "description": "<p>Il livello di Forza conta un gradino in più per carico e armatura; rilancio gratuito di Resistenza contro Pericoli Naturali.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Soul Drain": {
+      "name": "Svuotamento d’Anima",
+      "description": "<p>Recupera 5 Punti Potere a costo di un livello di Affaticamento.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Steady Hands": {
+      "name": "Mani Salde",
+      "description": "<p>Ignora penalità per appoggio instabile; penalità da corsa ridotta a –1.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Streetwise": {
+      "name": "Senso della Strada",
+      "description": "<p>+2 alle prove di Consapevolezza e Legami Sociali nel mondo criminale.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Strong Willed": {
+      "name": "Volontà d’Acciaio",
+      "description": "<p>+2 alle prove di Mente e Cuore quando si resiste agli Inganni.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Sweep": {
+      "name": "Colpo Circolare",
+      "description": "<p>Una volta per turno come azione eccezionale, il personaggio può colpire tutti i bersagli entro la portata dell’arma. Se l’arma non è a due mani, applica una penalità di −2.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Tactician": {
+      "name": "Tattico",
+      "description": "<p>Ogni turno ottiene una carta azione addizionale, che può assegnare a un alleato entro il raggio di comando.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Thief": {
+      "name": "Ladro",
+      "description": "<p>+1 alle prove di Furtività, Atletica (Arrampicarsi) e Nascondersi in ambiente urbano.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Tough As Nails": {
+      "name": "Duro come la Pietra",
+      "description": "<p>Resiste a 4 ferite prima di trovarsi a morte imminente.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Tougher Than Nails": {
+      "name": "Più Duro della Pietra",
+      "description": "<p>Resiste a 5 ferite prima di trovarsi a morte imminente.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Trademark Weapon": {
+      "name": "Arma Distintiva",
+      "description": "<p>+1 alle prove di Atletica (Getto), Tiro o Mischia con un’arma specifica; +1 alla Difesa se l’arma è pronta.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Two-Fisted": {
+      "name": "Due Pugni",
+      "description": "<p>Il personaggio può effettuare una prova di Mischia con l’arma nella seconda mano senza penalità per azione multipla.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Two-Gun Kid": {
+      "name": "Due Pistole",
+      "description": "<p>Il personaggio può effettuare una prova di Tiro o Atletica (Getto) con l’arma nella seconda mano senza penalità per azione multipla.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Very Attractive": {
+      "name": "Molto Attraente",
+      "description": "<p>+2 alle prove di Interpretare e Persuasione.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Weapon Master": {
+      "name": "Maestro d’Armi",
+      "description": "<p>+1 alla Difesa; il dado extra di danno da Mischia diventa d8.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Wizard": {
+      "name": "Mago",
+      "description": "<p>Per 1 Punto Potere il personaggio può modificare l’effetto di un potere.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Woodsman": {
+      "name": "Esperto del Bosco",
+      "description": "<p>+2 alle prove di Sopravvivenza e Furtività in ambiente selvaggio.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Work The Crowd": {
+      "name": "Gestire la Folla",
+      "description": "<p>Quando usa la caratteristica Gestire la Folla, tira un dado extra e può aiutare un terzo alleato.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    },
+    "Work The Room": {
+      "name": "Condurre la Stanza",
+      "description": "<p>Una volta per turno, usando Aiuto con Interpretare o Persuadere, il personaggio tira un dado extra e applica il risultato a un secondo alleato. Azione eccezionale.</p><p>La descrizione completa delle caratteristiche è disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell’edizione russa <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell’avventuriero</a>.</p>"
+    }
+  }
+}

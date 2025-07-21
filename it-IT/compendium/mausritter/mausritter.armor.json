@@ -1,0 +1,19 @@
+{
+  "label": "Armature",
+  "mapping": {
+    "description": "system.description",
+    "tag": "system.tag"
+  },
+  "entries": {
+    "Heavy Armor": {
+      "name": "Armatura pesante",
+      "description": "Previene 1 danno.",
+      "tag": "Pesante"
+    },
+    "Light Armor": {
+      "name": "Armatura leggera",
+      "description": "Previene 1 danno.",
+      "tag": "Leggera"
+    }
+  }
+}

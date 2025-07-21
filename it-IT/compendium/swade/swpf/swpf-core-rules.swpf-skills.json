@@ -1,0 +1,98 @@
+{
+  "label": "Abilità",
+  "entries": {
+    "Academics": {
+      "name": "Conoscenze accademiche"
+    },
+    "Athletics": {
+      "name": "Atletica"
+    },
+    "Battle": {
+      "name": "Arte militare"
+    },
+    "Boating": {
+      "name": "Navigazione"
+    },
+    "Common Knowledge": {
+      "name": "Cultura generale"
+    },
+    "Driving": {
+      "name": "Guida"
+    },
+    "Faith": {
+      "name": "Fede"
+    },
+    "Fighting": {
+      "name": "Combattimento"
+    },
+    "Focus": {
+      "name": "Talento"
+    },
+    "Gambling": {
+      "name": "Giochi d'azzardo"
+    },
+    "Healing": {
+      "name": "Guarigione"
+    },
+    "Intimidation": {
+      "name": "Intimidazione"
+    },
+    "Language": {
+      "name": "Lingua"
+    },
+    "Notice": {
+      "name": "Percezione"
+    },
+    "Occult": {
+      "name": "Occultismo"
+    },
+    "Performance": {
+      "name": "Esibizione"
+    },
+    "Persuasion": {
+      "name": "Persuasione"
+    },
+    "Piloting": {
+      "name": "Pilotaggio"
+    },
+    "Psionics": {
+      "name": "Psionica"
+    },
+    "Repair": {
+      "name": "Riparazione"
+    },
+    "Research": {
+      "name": "Ricerca"
+    },
+    "Riding": {
+      "name": "Equitazione"
+    },
+    "Science": {
+      "name": "Scienza"
+    },
+    "Shooting": {
+      "name": "Tiro"
+    },
+    "Spellcasting": {
+      "name": "Incantamento"
+    },
+    "Stealth": {
+      "name": "Furtività"
+    },
+    "Survival": {
+      "name": "Sopravvivenza"
+    },
+    "Taunt": {
+      "name": "Provocazione"
+    },
+    "Thievery": {
+      "name": "Furto"
+    },
+    "Unskilled Attempt": {
+      "name": "Tentativo maldestro"
+    },
+    "Weird Science": {
+      "name": "Scienza bizzarra"
+    }
+  }
+}
