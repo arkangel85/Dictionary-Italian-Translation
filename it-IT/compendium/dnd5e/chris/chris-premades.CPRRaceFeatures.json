@@ -1,291 +1,291 @@
 {
-	"label": "CPR Расовые способности",
-	"folders": {
-		"Kobold": "Кобольд",
-		"Human": "Человек",
-		"Shifter": "Шифтер",
-		"Mark of Storm": "Mетка Бури — Полуэльф",
-		"Harengon": "Харенгон",
-		"Half-Orc": "Полуорк",
-		"Warforged": "Кованый",
-		"Mark of Shadow": "Mетка Тени —Эльф",
-		"Verdan": "Вердан",
-		"Elf": "Эльф",
-		"Astral Elf": "Эльф астральный",
-		"Eladrin": "Эладрин",
-		"Giff": "Гифф",
-		"Mark of Healing": "Mетка Исцеления — Полурослик",
-		"Mark of Scribing": "Mетка Письма — Гном",
-		"Pallid": "Эльф бледный",
-		"Goliath": "Голиаф",
-		"Wildhunt": "Шифтер (Дикий охотник)",
-		"Halfling": "Полурослик",
-		"Gem": "Драконорождённый Самоцветный",
-		"Mark of Making": "Mетка Созидания — Человек",
-		"Mark of Warding": "Mетка Стража — Дварф",
-		"Mark of Hospitality": "Mетка Гостеприимства — Полурослик",
-		"Firbolg": "Фирболг",
-		"Dwarf": "Дварф",
-		"Lizardfolk": "Людоящер",
-		"Hadozee": "Хадози",
-		"Githyanki": "Гитьянки",
-		"Plasmoid": "Плазмоид",
-		"Orc": "Орк",
-		"Aasimar": "Аасимар",
-		"Stout": "Полурослик крепкий",
-		"Grung": "Грунг",
-		"Metallic": "Драконорождённый Металлический",
-		"Chromatic": "Цветной",
-		"Draconblood": "Draconblood",
-		"Gnome": "Гном",
-		"Dragonborn": "Драконорождённый",
-		"Dhampir": "Дампир",
-		"Minotaur": "Минотавр",
-		"Kalashtar": "Калаштар",
-		"Bugbear": "Багбер",
-		"Mark of Detection": "Mетка Обнаружения — Полуэльф",
-		"Githzerai": "Гитзерай",
-		"Legacy": "Legacy",
-		"Half-Elf": "Полуэльф",
-		"Shadar-kai": "Эльф шадар-каи"
-	},
-	"entries": {
-		"Acid Breath Weapon": {
-			"name": "Оружие дыхания чёрного дракона (Кислота)"
-		},
-		"Amorphous": {
-			"name": "Аморфный"
-		},
-		"Artisan's Intuition": {
-			"name": "Интуиция ремесленника"
-		},
-		"Astral Knowledge": {
-			"name": "Астральное знание"
-		},
-		"Astral Spark": {
-			"name": "Астральная искра"
-		},
-		"Astral Trance": {
-			"name": "Астральный транс"
-		},
-		"Blessing of the Raven Queen": {
-			"name": "Благословение Королевы воронов"
-		},
-		"Brave": {
-			"name": "Храбрость"
-		},
-		"Breath Weapon (Acid)": {
-			"name": "Оружие дыхания медного дракона (Кислота)"
-		},
-		"Breath Weapon (Black)": {
-			"name": "Губительное дыхание чёрного дракона"
-		},
-		"Breath Weapon (Blue)": {
-			"name": "Губительное дыхание синего дракона"
-		},
-		"Breath Weapon (Brass)": {
-			"name": "Губительное дыхание латунного дракона"
-		},
-		"Breath Weapon (Bronze)": {
-			"name": "Губительное дыхание бронзового дракона"
-		},
-		"Breath Weapon (Cold)": {
-			"name": "Оружие дыхания серебряного дракона (Холод)"
-		},
-		"Breath Weapon (Copper)": {
-			"name": "Губительное дыхание медного дракона"
-		},
-		"Breath Weapon (Fire)": {
-			"name": "Оружие дыхания латунного дракона (Огонь)"
-		},
-		"Breath Weapon (Force)": {
-			"name": "Оружие дыхания аметистового дракона (Сила)"
-		},
-		"Breath Weapon (Gold)": {
-			"name": "Губительное дыхание золотого дракона"
-		},
-		"Breath Weapon (Green)": {
-			"name": "Губительное дыхание зелёного дракона"
-		},
-		"Breath Weapon (Lightning)": {
-			"name": "Оружие дыхания бронзового дракона (Молния)"
-		},
-		"Breath Weapon (Necrotic)": {
-			"name": "Оружие дыхания топазового дракона (Некротический)"
-		},
-		"Breath Weapon (Psychic)": {
-			"name": "Оружие дыхания изумрудного дракона (Психическое)"
-		},
-		"Breath Weapon (Radiant)": {
-			"name": "Оружие дыхания кристального дракона (Лучистый)"
-		},
-		"Breath Weapon (Red)": {
-			"name": "Губительное дыхание красного дракона"
-		},
-		"Breath Weapon (Silver)": {
-			"name": "Губительное дыхание серебряного дракона"
-		},
-		"Breath Weapon (Thunder)": {
-			"name": "Оружие дыхания сапфирового дракона (Гром)"
-		},
-		"Breath Weapon (White)": {
-			"name": "Губительное дыхание белого дракона"
-		},
-		"Celestial Revelation (Necrotic Shroud)": {
-			"name": "Саван смерти"
-		},
-		"Celestial Revelation (Radiant Consumption)": {
-			"name": "Испускание сияния"
-		},
-		"Celestial Revelation (Radiant Soul)": {
-			"name": "Сияющая душа"
-		},
-		"Change Season": {
-			"name": "Поменять время года"
-		},
-		"Chromatic Warding (Acid)": {
-			"name": "Защита (Кислота)"
-		},
-		"Chromatic Warding (Cold)": {
-			"name": "Защита (Холод)"
-		},
-		"Chromatic Warding (Fire)": {
-			"name": "Защита (Огонь)"
-		},
-		"Chromatic Warding (Lightning)": {
-			"name": "Защита (Молния)"
-		},
-		"Chromatic Warding (Poison)": {
-			"name": "Защита (Яд)"
-		},
-		"Cold Breath Weapon": {
-			"name": "Оружие дыхания белого дракона (Холод)"
-		},
-		"Constructed Resilience": {
-			"name": "Устойчивость конструкции"
-		},
-		"Cunning Intuition": {
-			"name": "Хитрая интуиция"
-		},
-		"Deductive Intuition": {
-			"name": "Дедуктивная интуиция"
-		},
-		"Draconic Cry": {
-			"name": "Рёв дракона"
-		},
-		"Dual Mind": {
-			"name": "Двойной разум"
-		},
-		"Dwarven Resilience": {
-			"name": "Стойкость к яду"
-		},
-		"Ever Hospitable": {
-			"name": "Всегда гостеприимен"
-		},
-		"Fanged Bite": {
-			"name": "Вампирский укус"
-		},
-		"Fey Ancestry": {
-			"name": "Наследие фей"
-		},
-		"Fey Step": {
-			"name": "Фейский шаг"
-		},
-		"Fire Breath Weapon": {
-			"name": "Оружие дыхания красного дракона (Огонь)"
-		},
-		"Forceful Presence": {
-			"name": "Довлеющее присутствие"
-		},
-		"Gem Flight": {
-			"name": "Полёт самоцветного дракона"
-		},
-		"Gifted Scribe": {
-			"name": "Одаренный писец"
-		},
-		"Gnome Cunning": {
-			"name": "Гномья хитрость"
-		},
-		"Hadozee Dodge": {
-			"name": "Устойчивость хадози"
-		},
-		"Healing Hands": {
-			"name": "Исцеляющие руки"
-		},
-		"Hidden Step": {
-			"name": "Незримая поступь"
-		},
-		"Hungry Jaws": {
-			"name": "Голодная пасть"
-		},
-		"Incisive Sense": {
-			"name": "Острые чувства"
-		},
-		"Labyrinthine Recall": {
-			"name": "Зов лабиринта"
-		},
-		"Lightning Breath Weapon": {
-			"name": "Оружие дыхания синего дракона (Молния)"
-		},
-		"Long-Limbed": {
-			"name": "Длинные конечности"
-		},
-		"Lucky": {
-			"name": "Удача"
-		},
-		"Lucky Footwork": {
-			"name": "Удачный манёвр"
-		},
-		"Medical Intuition": {
-			"name": "Медицинская интуиция"
-		},
-		"Mental Discipline (Githzerai)": {
-			"name": "Ментальная дисциплина"
-		},
-		"Mental Discipline (Kalashtar)": {
-			"name": "Психическая дисциплина"
-		},
-		"Metallic Breath Weapon": {
-			"name": "Оружие дыхания золотого дракона (Огонь)"
-		},
-		"Natural Resilience": {
-			"name": "Естественная"
-		},
-		"Poison Breath Weapon": {
-			"name": "Оружие дыхания зелёного дракона (Яд)"
-		},
-		"Poisonous Skin": {
-			"name": "Ядовитая кожа"
-		},
-		"Relentless Endurance": {
-			"name": "Несгибаемая стойкость"
-		},
-		"Savage Attacks": {
-			"name": "Яростные атаки"
-		},
-		"Shift: Wildhunt": {
-			"name": "Shift: Wildhunt"
-		},
-		"Spider Climb": {
-			"name": "Паучьи лапы"
-		},
-		"Starlight Step": {
-			"name": "Звёздный шаг"
-		},
-		"Stone's Endurance": {
-			"name": "Выносливость камня"
-		},
-		"Stout Resilience": {
-			"name": "Стойкость к яду"
-		},
-		"Telepathic Insight": {
-			"name": "Телепатическая проницательность"
-		},
-		"Warder's Intuition": {
-			"name": "Интуиция надзирателя"
-		},
-		"Windwright's Intuition": {
-			"name": "Интуиция ветродела"
-		}
-	}
+  "label": "CPR Tratti Razziali",
+  "folders": {
+    "Kobold": "Coboldo",
+    "Human": "Umano",
+    "Shifter": "Mutaforma",
+    "Mark of Storm": "Marchio della Tempesta — Mezzelfo",
+    "Harengon": "Harengon",
+    "Half-Orc": "Mezzorco",
+    "Warforged": "Forgiato",
+    "Mark of Shadow": "Marchio dell’Ombra — Elfo",
+    "Verdan": "Verdan",
+    "Elf": "Elfo",
+    "Astral Elf": "Elfo Astrale",
+    "Eladrin": "Eladrin",
+    "Giff": "Giff",
+    "Mark of Healing": "Marchio della Guarigione — Halfling",
+    "Mark of Scribing": "Marchio della Scrittura — Gnomo",
+    "Pallid": "Elfo Pallido",
+    "Goliath": "Golia",
+    "Wildhunt": "Mutarforma (Caccia Selvaggia)",
+    "Halfling": "Halfling",
+    "Gem": "Dragonide Gemmato",
+    "Mark of Making": "Marchio della Creazione — Umano",
+    "Mark of Warding": "Marchio della Guardia — Nano",
+    "Mark of Hospitality": "Marchio dell’Ospitalità — Halfling",
+    "Firbolg": "Firbolg",
+    "Dwarf": "Nano",
+    "Lizardfolk": "Lucertoloide",
+    "Hadozee": "Hadozee",
+    "Githyanki": "Githyanki",
+    "Plasmoid": "Plasmoide",
+    "Orc": "Orco",
+    "Aasimar": "Aasimar",
+    "Stout": "Halfling Robusto",
+    "Grung": "Grung",
+    "Metallic": "Dragonide Metallico",
+    "Chromatic": "Dragonide Cromatico",
+    "Draconblood": "Draconblood",
+    "Gnome": "Gnomo",
+    "Dragonborn": "Dragonide",
+    "Dhampir": "Dhampir",
+    "Minotaur": "Minotauro",
+    "Kalashtar": "Kalashtar",
+    "Bugbear": "Bugbear",
+    "Mark of Detection": "Marchio della Rivelazione — Mezzelfo",
+    "Githzerai": "Githzerai",
+    "Legacy": "Retaggio",
+    "Half-Elf": "Mezzelfo",
+    "Shadar-kai": "Elfo Shadar-kai"
+  },
+  "entries": {
+    "Acid Breath Weapon": {
+      "name": "Arma a Soffio del Drago Nero (Acido)"
+    },
+    "Amorphous": {
+      "name": "Amorfo"
+    },
+    "Artisan's Intuition": {
+      "name": "Intuizione dell’Artigiano"
+    },
+    "Astral Knowledge": {
+      "name": "Conoscenza Astrale"
+    },
+    "Astral Spark": {
+      "name": "Scintilla Astrale"
+    },
+    "Astral Trance": {
+      "name": "Trance Astrale"
+    },
+    "Blessing of the Raven Queen": {
+      "name": "Benedizione della Regina dei Corvi"
+    },
+    "Brave": {
+      "name": "Coraggioso"
+    },
+    "Breath Weapon (Acid)": {
+      "name": "Arma a Soffio del Drago Rame (Acido)"
+    },
+    "Breath Weapon (Black)": {
+      "name": "Soffio Devastante del Drago Nero"
+    },
+    "Breath Weapon (Blue)": {
+      "name": "Soffio Devastante del Drago Blu"
+    },
+    "Breath Weapon (Brass)": {
+      "name": "Soffio Devastante del Drago di Ottone"
+    },
+    "Breath Weapon (Bronze)": {
+      "name": "Soffio Devastante del Drago di Bronzo"
+    },
+    "Breath Weapon (Cold)": {
+      "name": "Arma a Soffio del Drago d’Argento (Gelo)"
+    },
+    "Breath Weapon (Copper)": {
+      "name": "Soffio Devastante del Drago Rame"
+    },
+    "Breath Weapon (Fire)": {
+      "name": "Arma a Soffio del Drago di Ottone (Fuoco)"
+    },
+    "Breath Weapon (Force)": {
+      "name": "Arma a Soffio del Drago Ametista (Forza)"
+    },
+    "Breath Weapon (Gold)": {
+      "name": "Soffio Devastante del Drago d’Oro"
+    },
+    "Breath Weapon (Green)": {
+      "name": "Soffio Devastante del Drago Verde"
+    },
+    "Breath Weapon (Lightning)": {
+      "name": "Arma a Soffio del Drago di Bronzo (Fulmine)"
+    },
+    "Breath Weapon (Necrotic)": {
+      "name": "Arma a Soffio del Drago Topazio (Necrotico)"
+    },
+    "Breath Weapon (Psychic)": {
+      "name": "Arma a Soffio del Drago Smeraldo (Psichico)"
+    },
+    "Breath Weapon (Radiant)": {
+      "name": "Arma a Soffio del Drago di Cristallo (Radioso)"
+    },
+    "Breath Weapon (Red)": {
+      "name": "Soffio Devastante del Drago Rosso"
+    },
+    "Breath Weapon (Silver)": {
+      "name": "Soffio Devastante del Drago d’Argento"
+    },
+    "Breath Weapon (Thunder)": {
+      "name": "Arma a Soffio del Drago Zaffiro (Tuono)"
+    },
+    "Breath Weapon (White)": {
+      "name": "Soffio Devastante del Drago Bianco"
+    },
+    "Celestial Revelation (Necrotic Shroud)": {
+      "name": "Sudario Necrotico"
+    },
+    "Celestial Revelation (Radiant Consumption)": {
+      "name": "Consumo Radioso"
+    },
+    "Celestial Revelation (Radiant Soul)": {
+      "name": "Anima Radiosa"
+    },
+    "Change Season": {
+      "name": "Cambio di Stagione"
+    },
+    "Chromatic Warding (Acid)": {
+      "name": "Protezione (Acido)"
+    },
+    "Chromatic Warding (Cold)": {
+      "name": "Protezione (Gelo)"
+    },
+    "Chromatic Warding (Fire)": {
+      "name": "Protezione (Fuoco)"
+    },
+    "Chromatic Warding (Lightning)": {
+      "name": "Protezione (Fulmine)"
+    },
+    "Chromatic Warding (Poison)": {
+      "name": "Protezione (Veleno)"
+    },
+    "Cold Breath Weapon": {
+      "name": "Arma a Soffio del Drago Bianco (Gelo)"
+    },
+    "Constructed Resilience": {
+      "name": "Resilienza Costruita"
+    },
+    "Cunning Intuition": {
+      "name": "Intuizione Astuta"
+    },
+    "Deductive Intuition": {
+      "name": "Intuizione Deduttiva"
+    },
+    "Draconic Cry": {
+      "name": "Grido Draconico"
+    },
+    "Dual Mind": {
+      "name": "Mente Doppia"
+    },
+    "Dwarven Resilience": {
+      "name": "Resistenza dei Nani"
+    },
+    "Ever Hospitable": {
+      "name": "Sempre Ospitale"
+    },
+    "Fanged Bite": {
+      "name": "Morso Vampirico"
+    },
+    "Fey Ancestry": {
+      "name": "Retaggio Fatato"
+    },
+    "Fey Step": {
+      "name": "Passo Fatato"
+    },
+    "Fire Breath Weapon": {
+      "name": "Arma a Soffio del Drago Rosso (Fuoco)"
+    },
+    "Forceful Presence": {
+      "name": "Presenza Imponente"
+    },
+    "Gem Flight": {
+      "name": "Volo del Drago Gemmato"
+    },
+    "Gifted Scribe": {
+      "name": "Scrivano Dotato"
+    },
+    "Gnome Cunning": {
+      "name": "Astuzia dello Gnomo"
+    },
+    "Hadozee Dodge": {
+      "name": "Schivata Hadozee"
+    },
+    "Healing Hands": {
+      "name": "Mani Curative"
+    },
+    "Hidden Step": {
+      "name": "Passo Nascosto"
+    },
+    "Hungry Jaws": {
+      "name": "Fauci Fameliche"
+    },
+    "Incisive Sense": {
+      "name": "Sensi Affilati"
+    },
+    "Labyrinthine Recall": {
+      "name": "Richiamo del Labirinto"
+    },
+    "Lightning Breath Weapon": {
+      "name": "Arma a Soffio del Drago Blu (Fulmine)"
+    },
+    "Long-Limbed": {
+      "name": "Arti Lunghi"
+    },
+    "Lucky": {
+      "name": "Fortunato"
+    },
+    "Lucky Footwork": {
+      "name": "Movimento Fortunato"
+    },
+    "Medical Intuition": {
+      "name": "Intuizione Medica"
+    },
+    "Mental Discipline (Githzerai)": {
+      "name": "Disciplina Mentale"
+    },
+    "Mental Discipline (Kalashtar)": {
+      "name": "Disciplina Psichica"
+    },
+    "Metallic Breath Weapon": {
+      "name": "Arma a Soffio del Drago d’Oro (Fuoco)"
+    },
+    "Natural Resilience": {
+      "name": "Resilienza Naturale"
+    },
+    "Poison Breath Weapon": {
+      "name": "Arma a Soffio del Drago Verde (Veleno)"
+    },
+    "Poisonous Skin": {
+      "name": "Pelle Velenosa"
+    },
+    "Relentless Endurance": {
+      "name": "Tenacia Inarrestabile"
+    },
+    "Savage Attacks": {
+      "name": "Attacchi Feroci"
+    },
+    "Shift: Wildhunt": {
+      "name": "Mutamento: Caccia Selvaggia"
+    },
+    "Spider Climb": {
+      "name": "Camminare sui Muri"
+    },
+    "Starlight Step": {
+      "name": "Passo Stellare"
+    },
+    "Stone's Endurance": {
+      "name": "Resistenza della Pietra"
+    },
+    "Stout Resilience": {
+      "name": "Resistenza Robusta"
+    },
+    "Telepathic Insight": {
+      "name": "Intuito Telepatico"
+    },
+    "Warder's Intuition": {
+      "name": "Intuizione del Guardiano"
+    },
+    "Windwright's Intuition": {
+      "name": "Intuizione dell’Artefice del Vento"
+    }
+  }
 }

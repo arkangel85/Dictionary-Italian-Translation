@@ -1,73 +1,73 @@
 {
-	"label": "Снаряжение (Классовое)",
-	"mapping": {
-		"name": "name",
-		"description": "system.description"
-	},
-	"entries": [
-		{
-			"id": "Fiddle",
-			"name": "Скрипка",
-			"description": "Струнный смычковый инструмент."
-		},
-		{
-			"id": "Horn",
-			"name": "Рог",
-			"description": "Длинная трубка, сделанная из металла."
-		},
-		{
-			"id": "Lute",
-			"name": "Лютня",
-			"description": "Струнный музыкальный инструмент с полым корпусом."
-		},
-		{
-			"id": "Mandolin",
-			"name": "Мандолина",
-			"description": "Струнный музыкальный инструмент, в котором немного больше колорита, чем в лютне."
-		},
-		{
-			"id": "Mark of Faith",
-			"name": "Символ веры",
-			"description": "Символ вашей веры, опишите его:"
-		},
-		{
-			"id": "Pipes",
-			"name": "Свирель",
-			"description": "Это флейта с тремя отверстиями."
-		},
-		{
-			"id": "Poison",
-			"name": "Яд"
-		},
-		{
-			"id": "Signature Weapon",
-			"name": "Знаковое оружие",
-			"description": "<p>Это ваше оружие. На свете много подобных ему, но это — ваше. Это ваш лучший друг. Вы — его хозяин, а оно — хозяин вашей жизни. Без вас это оружие бесполезно, равно как вы без него. Носите его с честью.</p><p>Выберите оружие из списка (каждое имеет вес 2):</p><ul><li>Меч</li><li>Топор</li><li>Молот</li><li>Копьё</li><li>Цеп</li><li>Кулаки</li></ul><p>Выберите подходящую длину вашего оружия:</p><ul><li>Рука</li><li>Взмах меча</li><li>Удар копья</li></ul><p>Выберите два особых свойства:</p><ul><li>Крюки и шипы. Бонус +1 к урону, однако вес увеличивается на 1.</li><li>Острое. Пробивание +2.</li><li>Идеально сбалансированное. Добавьте свойство точное.</li><li>Зазубренное лезвие. +1 к урону.</li><li>Светится, когда рядом существа определённого типа (ваш выбор).</li><li>Огромные размеры. Добавьте свойства мощное и месиво.</li><li>Универсальное. Выберите вторую длину.</li><li>Мастерская работа. Вес -1.</li></ul><p>Выберите, как оно выглядит:</p><ul><li>Древнее</li><li>Безупречное</li><li>Богато украшенное</li><li>Закалённое в крови</li><li>Мрачное</li></ul>"
-		},
-		{
-			"id": "Songbook",
-			"name": "Песенник",
-			"description": "Книга, содержащая множество различных песен, собранных за многие годы."
-		},
-		{
-			"id": "Spellbook",
-			"name": "Книга заклинаний",
-			"description": "Вы выучили несколько заклинаний и записали их к себе книгу. Вы начинаете игру с тремя заклинаниями первого уровня и всеми фокусами. Получив новый уровень, вы записываете в книгу новое заклинание вашего уровня или ниже."
-		},
-		{
-			"id": "Symbol",
-			"name": "Символ",
-			"description": "Символ принесённых вами в прошлом жертв, опишите его"
-		},
-		{
-			"id": "Symbol of the Devine",
-			"name": "Символ божества",
-			"description": "Священный символ, опиши его:"
-		},
-		{
-			"id": "Token",
-			"name": "Символ",
-			"description": "Символ из ваших путешествий или с родины."
-		}
-	]
+  "label": "Equipaggiamento (di Classe)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Fiddle",
+      "name": "Violino",
+      "description": "Strumento a corde ad arco."
+    },
+    {
+      "id": "Horn",
+      "name": "Corno",
+      "description": "Un lungo tubo fatto di metallo."
+    },
+    {
+      "id": "Lute",
+      "name": "Liuto",
+      "description": "Strumento a corde con cassa armonica cava."
+    },
+    {
+      "id": "Mandolin",
+      "name": "Mandolino",
+      "description": "Strumento a corde con un po’ più di carattere rispetto al liuto."
+    },
+    {
+      "id": "Mark of Faith",
+      "name": "Simbolo della Fede",
+      "description": "Il simbolo della tua fede, descrivilo:"
+    },
+    {
+      "id": "Pipes",
+      "name": "Flauto",
+      "description": "Un flauto con tre fori."
+    },
+    {
+      "id": "Poison",
+      "name": "Veleno"
+    },
+    {
+      "id": "Signature Weapon",
+      "name": "Arma Emblematica",
+      "description": "<p>Questa è la tua arma. Ne esistono molte simili, ma questa è tua. È la tua migliore amica. Tu sei il suo padrone, e lei è padrona della tua vita. Senza di te, è inutile; senza di lei, lo sei tu. Portala con onore.</p><p>Scegli un’arma dalla lista (ognuna pesa 2):</p><ul><li>Spada</li><li>Ascia</li><li>Martello</li><li>Lancia</li><li>Mazza ferrata</li><li>Pugni</li></ul><p>Scegli la portata:</p><ul><li>Mano</li><li>Colpo di spada</li><li>Colpo di lancia</li></ul><p>Scegli due proprietà speciali:</p><ul><li>Ganci e punte: +1 ai danni, ma il peso aumenta di 1.</li><li>Affilata: Penetrazione +2.</li><li>Perfettamente bilanciata: aggiunge l’attributo preciso.</li><li>Lama seghettata: +1 ai danni.</li><li>Si illumina in presenza di un tipo di creatura a tua scelta.</li><li>Di dimensioni enormi: aggiunge potente e devastante.</li><li>Versatile: scegli una seconda portata.</li><li>Maestria artigianale: peso -1.</li></ul><p>Scegli il suo aspetto:</p><ul><li>Antica</li><li>Impeccabile</li><li>Riccamente decorata</li><li>Intrisa di sangue</li><li>Cupa</li></ul>"
+    },
+    {
+      "id": "Songbook",
+      "name": "Canzoniere",
+      "description": "Un libro che contiene numerose canzoni raccolte negli anni."
+    },
+    {
+      "id": "Spellbook",
+      "name": "Libro degli Incantesimi",
+      "description": "Hai imparato alcuni incantesimi e li hai annotati nel tuo libro. Inizi la partita con tre incantesimi di 1° livello e tutti i trucchi. Quando sali di livello, aggiungi un incantesimo del tuo livello o inferiore al libro."
+    },
+    {
+      "id": "Symbol",
+      "name": "Simbolo",
+      "description": "Simbolo dei sacrifici che hai fatto in passato, descrivilo."
+    },
+    {
+      "id": "Symbol of the Devine",
+      "name": "Simbolo del Divino",
+      "description": "Simbolo sacro, descrivilo:"
+    },
+    {
+      "id": "Token",
+      "name": "Cimelio",
+      "description": "Un simbolo dei tuoi viaggi o della tua terra natale."
+    }
+  ]
 }

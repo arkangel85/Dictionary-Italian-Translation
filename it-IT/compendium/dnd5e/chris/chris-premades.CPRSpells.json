@@ -1,455 +1,203 @@
 {
-	"label": "CPR Заклинания",
-	"entries": {
-		"Destructive Wave": {
-			"name": "Волна разрушения / Destructive Wave"
-		},
-		"Summon Celestial": {
-			"name": "Призыв духа небожителя / Summon Celestial"
-		},
-		"Dawn": {
-			"name": "Рассвет / Dawn"
-		},
-		"Staggering Smite": {
-			"name": "Ошеломляющая кара / Staggering Smite"
-		},
-		"Aura of Life": {
-			"name": "Аура жизни / Aura of life"
-		},
-		"Spirit Shroud": {
-			"name": "Покров духа / Spirit Shroud"
-		},
-		"Bestow Curse": {
-			"name": "Проклятие стихий / Elemental Bane"
-		},
-		"Gust of Wind": {
-			"name": "Порыв ветра / Gust of wind"
-		},
-		"Holy Weapon": {
-			"name": "Священное оружие / Holy Weapon"
-		},
-		"Chromatic Orb": {
-			"name": "Хроматический шар / Chromatic Orb"
-		},
-		"Conjure Celestial": {
-			"name": "Призыв небожителя / Conjure Celestial"
-		},
-		"Summon Draconic Spirit": {
-			"name": "Призыв духа дракона / Summon Draconic Spirit"
-		},
-		"Mass Cure Wounds": {
-			"name": "Массовое исцеление ран / Mass Cure Wounds"
-		},
-		"Thunderous Smite": {
-			"name": "Громовая кара / Thunderous Smite"
-		},
-		"Darkness": {
-			"name": "Тьма / Darkness"
-		},
-		"Searing Smite": {
-			"name": "Жгучая кара / Searing Smite"
-		},
-		"Find Greater Steed": {
-			"name": "Поиск высшего скакуна / Find Greater Steed"
-		},
-		"Investiture of Ice": {
-			"name": "Облачение льда / Investiture of Ice"
-		},
-		"Call Lightning": {
-			"name": "Вызов молний / Call Lightning"
-		},
-		"Grease": {
-			"name": "Масло / Grease"
-		},
-		"Conjure Woodland Beings": {
-			"name": "Призыв лесных созданий / Conjure Woodland Beings"
-		},
-		"Zone of Truth": {
-			"name": "Место истины / Zone of Truth"
-		},
-		"Summon Undead": {
-			"name": "Призыв духа нежити / Summon Undead"
-		},
-		"Conjure Fey": {
-			"name": "Призыв феи / Conjure Fey"
-		},
-		"Summon Shadowspawn": {
-			"name": "Призыв духа порождения теней / Summon Shadowspawn"
-		},
-		"Rime's Binding Ice": {
-			"name": "Сковывающий лёд Райма / Rime's Binding Ice"
-		},
-		"Spirit of Death": {
-			"name": "Дух Смерти / Spirit of Death"
-		},
-		"Summon Beast": {
-			"name": "Призыв духа зверя / Summon Beast"
-		},
-		"Spiritual Weapon": {
-			"name": "Призрачное оружие / Spiritual weapon"
-		},
-		"Aura of Purity": {
-			"name": "Аура чистоты / Aura of purity"
-		},
-		"Cloudkill": {
-			"name": "Смертельное облако / Cloudkill"
-		},
-		"Conjure Elemental": {
-			"name": "Призыв элементаля / Conjure Elemental"
-		},
-		"Thunderwave": {
-			"name": "Громовая волна / Thunderwave"
-		},
-		"Healing Spirit": {
-			"name": "Исцеляющий дух / Healing Spirit"
-		},
-		"Teleport": {
-			"name": "Телепортация / Teleport"
-		},
-		"Tasha's Otherworldly Guise": {
-			"name": "Потусторонний облик Таши / Tasha's Otherworldly Guise"
-		},
-		"Sapping Sting": {
-			"name": "Обессиливающий укол / Sapping Sting"
-		},
-		"Thunder Step": {
-			"name": "Громовой шаг / Thunder Step"
-		},
-		"Hunter's Mark": {
-			"name": "Метка охотника / Hunter's Mark"
-		},
-		"Faerie Fire": {
-			"name": "Фейское сияние / Faerie fire"
-		},
-		"Tasha's Caustic Brew": {
-			"name": "Едкое варево Таши / Tasha's Caustic Brew"
-		},
-		"Wall of Fire": {
-			"name": "Огненная стена / Wall of Fire"
-		},
-		"Blink": {
-			"name": "Мерцание / Blink"
-		},
-		"Heroism": {
-			"name": "Героизм / Heroism"
-		},
-		"Storm Sphere": {
-			"name": "Сфера бури / Storm Sphere"
-		},
-		"Borrowed Knowledge": {
-			"name": "Заимствованные знания / Borrowed Knowledge"
-		},
-		"Sleet Storm": {
-			"name": "Пурга / Sleet Storm"
-		},
-		"Life Transference": {
-			"name": "Передача жизни / Life Transference"
-		},
-		"Scorching Ray": {
-			"name": "Опаляющий луч / Scorching Ray"
-		},
-		"Aura of Vitality": {
-			"name": "Аура жизненной силы / Aura of vitality"
-		},
-		"Armor of Agathys": {
-			"name": "Броня Агафиса / Armor of Agathys"
-		},
-		"Mind Sliver": {
-			"name": "Расщепление разума / Mind Sliver"
-		},
-		"Wither and Bloom": {
-			"name": "Увядание и цветение / Wither and Bloom"
-		},
-		"Flaming Sphere": {
-			"name": "Пылающая сфера / Flaming Sphere"
-		},
-		"Fire Storm": {
-			"name": "Огненная буря / Fire Storm"
-		},
-		"Shadow of Moil": {
-			"name": "Облачение тени / Shadow of Moil"
-		},
-		"Chaos Bolt": {
-			"name": "Снаряд хаоса / Chaos Bolt"
-		},
-		"Fire Shield": {
-			"name": "Огненный щит / Fire Shield"
-		},
-		"Tidal Wave": {
-			"name": "Приливная волна / Tidal Wave"
-		},
-		"Warding Bond": {
-			"name": "Защитные узы / Warding Bond"
-		},
-		"Hypnotic Pattern": {
-			"name": "Завораживающий узор / Hypnotic Pattern"
-		},
-		"Fly": {
-			"name": "Полёт / Fly"
-		},
-		"Danse Macabre": {
-			"name": "Пляска смерти / Danse Macabre"
-		},
-		"Beacon of Hope": {
-			"name": "Светоч надежды / Beacon of Hope"
-		},
-		"Vampiric Touch": {
-			"name": "Касание вампира / Vampiric Touch"
-		},
-		"Blinding Smite": {
-			"name": "Слепящая кара / Blinding Smite"
-		},
-		"Earth Tremor": {
-			"name": "Дрожь земли / Earth Tremor"
-		},
-		"Vortex Warp": {
-			"name": "Вихрь искривления / Vortex Warp"
-		},
-		"Crown of Madness": {
-			"name": "Корона безумия / Crown of Madness"
-		},
-		"Hold Person": {
-			"name": "Паралич гуманоида / Hold person"
-		},
-		"Fog Cloud": {
-			"name": "Облако тумана / Fog Cloud"
-		},
-		"Sickening Radiance": {
-			"name": "Болезненное сияние / Sickening Radiance"
-		},
-		"Summon Elemental": {
-			"name": "Призыв духа элементаля / Summon Elemental"
-		},
-		"Find Familiar": {
-			"name": "Призыв фамильяра / Find Familiar"
-		},
-		"Conjure Animals": {
-			"name": "Призыв животных / Conjure Animals"
-		},
-		"Find Steed": {
-			"name": "Призыв скакуна / Find Steed"
-		},
-		"Burning Hands": {
-			"name": "Пылающие руки / Burning Hands"
-		},
-		"Maximilian's Earthen Grasp": {
-			"name": "Земляная хватка Максимилиана / Maximilian's Earthen Grasp"
-		},
-		"Toll the Dead": {
-			"name": "Погребальный звон / Toll the Dead"
-		},
-		"Sanctuary": {
-			"name": "Убежище / Sanctuary"
-		},
-		"Chill Touch": {
-			"name": "Ледяное прикосновение / Chill Touch"
-		},
-		"Branding Smite": {
-			"name": "Клеймящая кара / Branding Smite"
-		},
-		"Conjure Minor Elementals": {
-			"name": "Призыв малых элементалей / Conjure Minor Elementals"
-		},
-		"Animate Dead": {
-			"name": "Оживление мертвецов / Animate Dead"
-		},
-		"Investiture of Flame": {
-			"name": "Облачение огня / Investiture of Flame"
-		},
-		"Flock of Familiars": {
-			"name": "Стая фамильяров / Flock of Familiars"
-		},
-		"Melf's Acid Arrow": {
-			"name": "Кислотная стрела Мелфа / Melf's Acid Arrow"
-		},
-		"Crusader's Mantle": {
-			"name": "Плащ крестоносца / Crusader's Mantle"
-		},
-		"Spirit Guardians": {
-			"name": "Призрачные стражи / Spirit Guardians"
-		},
-		"Elemental Weapon": {
-			"name": "Стихийное оружие / Elemental Weapon"
-		},
-		"Ice Storm": {
-			"name": "Ледяная буря / Ice storm"
-		},
-		"Bigby's Hand": {
-			"name": "Рука Бигби / Bigby's Hand"
-		},
-		"Hunger of Hadar": {
-			"name": "Голод Хадара / Hunger of Hadar"
-		},
-		"Disintegrate": {
-			"name": "Дезинтеграция / Disintegrate"
-		},
-		"Bless": {
-			"name": "Благословение / Bless"
-		},
-		"Magic Missile": {
-			"name": "Волшебная стрела / Magic missile"
-		},
-		"Synaptic Static": {
-			"name": "Синоптический разряд / Synaptic Static"
-		},
-		"Summon Lesser Demons": {
-			"name": "Призыв низших демонов / Summon Lesser Demons"
-		},
-		"Lightning Arrow": {
-			"name": "Стрела-молния / Lightning Arrow"
-		},
-		"Moonbeam": {
-			"name": "Лунный свет / Moonbeam"
-		},
-		"Mirror Image": {
-			"name": "Зеркальное отражение / Mirror Image"
-		},
-		"Far Step": {
-			"name": "Далекий шаг / Far Step"
-		},
-		"Spray of Cards": {
-			"name": "Разбрасывание карт / Spray of Cards"
-		},
-		"Eldritch Blast": {
-			"name": "Потусторонний разряд / Eldritch Blast"
-		},
-		"Raulothim's Psychic Lance": {
-			"name": "Психическая пика Раулотима / Raulothim's Psychic Lance"
-		},
-		"Blight": {
-			"name": "Увядание / Blight"
-		},
-		"Booming Blade": {
-			"name": "Громовой клинок / Booming Blade"
-		},
-		"Protection from Evil and Good": {
-			"name": "Защита от зла и от добра / Protection from Evil and Good"
-		},
-		"Shocking Grasp": {
-			"name": "Шоковое прикосновение / Shocking grasp"
-		},
-		"Antagonize": {
-			"name": "Враждебность / Antagonize"
-		},
-		"Misty Step": {
-			"name": "Туманный шаг / Misty step"
-		},
-		"Vitriolic Sphere": {
-			"name": "Едкий шар / Vitriolic Sphere"
-		},
-		"Wrathful Smite": {
-			"name": "Яростная кара / Wrathful Smite"
-		},
-		"Blade Ward": {
-			"name": "Оберег от оружия / Blade Ward"
-		},
-		"Spike Growth": {
-			"name": "Шипастая поросль / Spike Growth"
-		},
-		"Lightning Lure": {
-			"name": "Лассо молнии / Lightning Lure"
-		},
-		"Ray of Enfeeblement": {
-			"name": "Ослабляющий луч / Ray of Enfeeblement"
-		},
-		"Shadow Blade": {
-			"name": "Теневой клинок / Shadow Blade"
-		},
-		"Green-Flame Blade": {
-			"name": "Клинок зелёного пламени / Green-Flame Blade"
-		},
-		"Hail of Thorns": {
-			"name": "Град шипов / Hail of Thorns"
-		},
-		"Shield": {
-			"name": "Щит / Shield"
-		},
-		"Compelled Duel": {
-			"name": "Вызов на дуэль / Compelled Duel"
-		},
-		"Banishment": {
-			"name": "Изгнание / Banishment"
-		},
-		"Summon Fey": {
-			"name": "Призыв духа феи / Summon Fey"
-		},
-		"Dragon's Breath": {
-			"name": "Дыхание дракона / Dragon's Breath"
-		},
-		"Summon Aberration": {
-			"name": "Призыв духа аберрации / Summon Aberration"
-		},
-		"Hex": {
-			"name": "Сглаз / Hex"
-		},
-		"Heat Metal": {
-			"name": "Раскалённый металл / Heat metal"
-		},
-		"Investiture of Stone": {
-			"name": "Облачение камня / Investiture of Stone"
-		},
-		"Shield of Faith": {
-			"name": "Щит веры / Shield of faith"
-		},
-		"Detect Thoughts": {
-			"name": "Обнаружение мыслей / Detect Thoughts"
-		},
-		"Guardian of Faith": {
-			"name": "Страж веры / Guardian of Faith"
-		},
-		"Guardian of Nature": {
-			"name": "Страж природы / Guardian of Nature"
-		},
-		"Death Ward": {
-			"name": "Защита от смерти / Death Ward"
-		},
-		"Pass without Trace": {
-			"name": "Бесследный шаг / Pass without trace"
-		},
-		"Summon Construct": {
-			"name": "Призыв духа конструкции / Summon Construct"
-		},
-		"Detect Magic": {
-			"name": "Обнаружение магии / Detect magic"
-		},
-		"Skill Empowerment": {
-			"name": "Усиление навыка / Skill Empowerment"
-		},
-		"Summon Fiend": {
-			"name": "Призыв духа исчадия / Summon Fiend"
-		},
-		"Enlarge/Reduce": {
-			"name": "Увеличение/уменьшение / Enlarge/Reduce"
-		},
-		"Frost Fingers": {
-			"name": "Ледяные пальцы / Frost Fingers"
-		},
-		"Arms of Hadar": {
-			"name": "Руки Хадара / Arms of Hadar"
-		},
-		"Charm Person": {
-			"name": "Приворот гуманоида / Charm Person"
-		},
-		"Flame Blade": {
-			"name": "Огненный клинок / Flame Blade"
-		},
-		"Gaseous Form": {
-			"name": "Газообразность / Gaseous Form"
-		},
-		"Chain Lightning": {
-			"name": "Цепь молний / Chain Lightning"
-		},
-		"Guiding Bolt": {
-			"name": "Направляющий луч / Guiding Bolt"
-		},
-		"Thorn Whip": {
-			"name": "Терновый хлыст / Thorn Whip"
-		},
-		"Globe of Invulnerability": {
-			"name": "Сфера неуязвимости / Globe of Invulnerability"
-		},
-		"Insect Plague": {
-			"name": "Рой саранчи / Insect Plague"
-		}
-	}
+  "label": "CPR Incantesimi",
+  "entries": {
+    "Destructive Wave": { "name": "Ondata Distruttiva [Destructive Wave]" },
+    "Summon Celestial": { "name": "Evoca Celestiale [Summon Celestial]" },
+    "Dawn": { "name": "Aurora [Dawn]" },
+    "Staggering Smite": { "name": "Punizione Sconvolgente [Staggering Smite]" },
+    "Aura of Life": { "name": "Aura di Vita [Aura of Life]" },
+    "Spirit Shroud": { "name": "Velo Spirituale [Spirit Shroud]" },
+    "Bestow Curse": { "name": "Maledizione Elementale [Elemental Bane]" },
+    "Gust of Wind": { "name": "Soffio di Vento [Gust of Wind]" },
+    "Holy Weapon": { "name": "Arma Sacra [Holy Weapon]" },
+    "Chromatic Orb": { "name": "Sfera Cromatica [Chromatic Orb]" },
+    "Conjure Celestial": { "name": "Evoca Celestiale [Conjure Celestial]" },
+    "Summon Draconic Spirit": {
+      "name": "Evoca Spirito Draconico [Summon Draconic Spirit]"
+    },
+    "Mass Cure Wounds": { "name": "Cura Ferite di Massa [Mass Cure Wounds]" },
+    "Thunderous Smite": { "name": "Punizione Tonante [Thunderous Smite]" },
+    "Darkness": { "name": "Oscurità [Darkness]" },
+    "Searing Smite": { "name": "Punizione Rovente [Searing Smite]" },
+    "Find Greater Steed": {
+      "name": "Trova Cavalcatura Superiore [Find Greater Steed]"
+    },
+    "Investiture of Ice": {
+      "name": "Investitura del Gelo [Investiture of Ice]"
+    },
+    "Call Lightning": { "name": "Richiamo del Fulmine [Call Lightning]" },
+    "Grease": { "name": "Grasso [Grease]" },
+    "Conjure Woodland Beings": {
+      "name": "Evoca Creature Selvatiche [Conjure Woodland Beings]"
+    },
+    "Zone of Truth": { "name": "Zona di Verità [Zone of Truth]" },
+    "Summon Undead": { "name": "Evoca Spirito dei Non Morti [Summon Undead]" },
+    "Conjure Fey": { "name": "Evoca Fata [Conjure Fey]" },
+    "Summon Shadowspawn": {
+      "name": "Evoca Progenie d’Ombra [Summon Shadowspawn]"
+    },
+    "Rime's Binding Ice": {
+      "name": "Ghiaccio Vincolante di Rime [Rime's Binding Ice]"
+    },
+    "Spirit of Death": { "name": "Spirito della Morte [Spirit of Death]" },
+    "Summon Beast": { "name": "Evoca Spirito Bestiale [Summon Beast]" },
+    "Spiritual Weapon": { "name": "Arma Spirituale [Spiritual Weapon]" },
+    "Aura of Purity": { "name": "Aura di Purezza [Aura of Purity]" },
+    "Cloudkill": { "name": "Nube Mortale [Cloudkill]" },
+    "Conjure Elemental": { "name": "Evoca Elementale [Conjure Elemental]" },
+    "Thunderwave": { "name": "Onda Tonante [Thunderwave]" },
+    "Healing Spirit": { "name": "Spirito Guaritore [Healing Spirit]" },
+    "Teleport": { "name": "Teletrasporto [Teleport]" },
+    "Tasha's Otherworldly Guise": {
+      "name": "Aspetto Ultramondano di Tasha [Tasha's Otherworldly Guise]"
+    },
+    "Sapping Sting": { "name": "Puntura Indebolente [Sapping Sting]" },
+    "Thunder Step": { "name": "Passo Tonante [Thunder Step]" },
+    "Hunter's Mark": { "name": "Marchio del Cacciatore [Hunter's Mark]" },
+    "Faerie Fire": { "name": "Fuoco Fatato [Faerie Fire]" },
+    "Tasha's Caustic Brew": {
+      "name": "Intruglio Caustico di Tasha [Tasha's Caustic Brew]"
+    },
+    "Wall of Fire": { "name": "Muro di Fuoco [Wall of Fire]" },
+    "Blink": { "name": "Lampo [Blink]" },
+    "Heroism": { "name": "Eroismo [Heroism]" },
+    "Storm Sphere": { "name": "Sfera della Tempesta [Storm Sphere]" },
+    "Borrowed Knowledge": {
+      "name": "Conoscenza Presa in Prestito [Borrowed Knowledge]"
+    },
+    "Sleet Storm": { "name": "Tempesta di Ghiaccio [Sleet Storm]" },
+    "Life Transference": { "name": "Trasferimento Vitale [Life Transference]" },
+    "Scorching Ray": { "name": "Raggio Rovente [Scorching Ray]" },
+    "Aura of Vitality": { "name": "Aura di Vitalità [Aura of Vitality]" },
+    "Armor of Agathys": { "name": "Armatura di Agathys [Armor of Agathys]" },
+    "Mind Sliver": { "name": "Scheggia Mentale [Mind Sliver]" },
+    "Wither and Bloom": { "name": "Appassire e Fiorire [Wither and Bloom]" },
+    "Flaming Sphere": { "name": "Sfera Fiammeggiante [Flaming Sphere]" },
+    "Fire Storm": { "name": "Tempesta di Fuoco [Fire Storm]" },
+    "Shadow of Moil": { "name": "Ombra di Moil [Shadow of Moil]" },
+    "Chaos Bolt": { "name": "Dardo del Caos [Chaos Bolt]" },
+    "Fire Shield": { "name": "Scudo di Fuoco [Fire Shield]" },
+    "Tidal Wave": { "name": "Ondata Oceanica [Tidal Wave]" },
+    "Warding Bond": { "name": "Vincolo Protettivo [Warding Bond]" },
+    "Hypnotic Pattern": { "name": "Trama Ipnotica [Hypnotic Pattern]" },
+    "Fly": { "name": "Volo [Fly]" },
+    "Danse Macabre": { "name": "Danza Macabra [Danse Macabre]" },
+    "Beacon of Hope": { "name": "Faro di Speranza [Beacon of Hope]" },
+    "Vampiric Touch": { "name": "Tocco Vampirico [Vampiric Touch]" },
+    "Blinding Smite": { "name": "Punizione Accecante [Blinding Smite]" },
+    "Earth Tremor": { "name": "Tremore Terrestre [Earth Tremor]" },
+    "Vortex Warp": { "name": "Vortice Distorto [Vortex Warp]" },
+    "Crown of Madness": { "name": "Corona della Follia [Crown of Madness]" },
+    "Hold Person": { "name": "Blocca Persone [Hold Person]" },
+    "Fog Cloud": { "name": "Nube di Nebbia [Fog Cloud]" },
+    "Sickening Radiance": { "name": "Bagliore Nauseante [Sickening Radiance]" },
+    "Summon Elemental": {
+      "name": "Evoca Spirito Elementale [Summon Elemental]"
+    },
+    "Find Familiar": { "name": "Trova Famiglio [Find Familiar]" },
+    "Conjure Animals": { "name": "Evoca Animali [Conjure Animals]" },
+    "Find Steed": { "name": "Trova Cavalcatura [Find Steed]" },
+    "Burning Hands": { "name": "Mani Brucianti [Burning Hands]" },
+    "Maximilian's Earthen Grasp": {
+      "name": "Presa Terrestre di Maximilian [Maximilian's Earthen Grasp]"
+    },
+    "Toll the Dead": { "name": "Rintocco dei Morti [Toll the Dead]" },
+    "Sanctuary": { "name": "Santuario [Sanctuary]" },
+    "Chill Touch": { "name": "Tocco Gelido [Chill Touch]" },
+    "Branding Smite": { "name": "Punizione Marchiante [Branding Smite]" },
+    "Conjure Minor Elementals": {
+      "name": "Evoca Elementali Minori [Conjure Minor Elementals]"
+    },
+    "Animate Dead": { "name": "Animare Morti [Animate Dead]" },
+    "Investiture of Flame": {
+      "name": "Investitura della Fiamma [Investiture of Flame]"
+    },
+    "Flock of Familiars": { "name": "Stolto di Famigli [Flock of Familiars]" },
+    "Melf's Acid Arrow": {
+      "name": "Freccia Acida di Melf [Melf's Acid Arrow]"
+    },
+    "Crusader's Mantle": {
+      "name": "Mantello del Crociato [Crusader's Mantle]"
+    },
+    "Spirit Guardians": { "name": "Guardiani Spirituali [Spirit Guardians]" },
+    "Elemental Weapon": { "name": "Arma Elementale [Elemental Weapon]" },
+    "Ice Storm": { "name": "Tempesta di Ghiaccio [Ice Storm]" },
+    "Bigby's Hand": { "name": "Mano di Bigby [Bigby's Hand]" },
+    "Hunger of Hadar": { "name": "Fame di Hadar [Hunger of Hadar]" },
+    "Disintegrate": { "name": "Disintegrazione [Disintegrate]" },
+    "Bless": { "name": "Benedizione [Bless]" },
+    "Magic Missile": { "name": "Dardo Incantato [Magic Missile]" },
+    "Synaptic Static": { "name": "Scarica Sinaptica [Synaptic Static]" },
+    "Summon Lesser Demons": {
+      "name": "Evoca Demoni Minori [Summon Lesser Demons]"
+    },
+    "Lightning Arrow": { "name": "Freccia Fulminea [Lightning Arrow]" },
+    "Moonbeam": { "name": "Raggio Lunare [Moonbeam]" },
+    "Mirror Image": { "name": "Immagine Speculare [Mirror Image]" },
+    "Far Step": { "name": "Passo Lontano [Far Step]" },
+    "Spray of Cards": { "name": "Pioggia di Carte [Spray of Cards]" },
+    "Eldritch Blast": { "name": "Raggio Occulto [Eldritch Blast]" },
+    "Raulothim's Psychic Lance": {
+      "name": "Lancia Psichica di Raulothim [Raulothim's Psychic Lance]"
+    },
+    "Blight": { "name": "Avvizzimento [Blight]" },
+    "Booming Blade": { "name": "Lama Risonante [Booming Blade]" },
+    "Protection from Evil and Good": {
+      "name": "Protezione dal Bene e dal Male [Protection from Evil and Good]"
+    },
+    "Shocking Grasp": { "name": "Presa Fulminante [Shocking Grasp]" },
+    "Antagonize": { "name": "Provocazione [Antagonize]" },
+    "Misty Step": { "name": "Passo Nebbioso [Misty Step]" },
+    "Vitriolic Sphere": { "name": "Sfera Vitriolica [Vitriolic Sphere]" },
+    "Wrathful Smite": { "name": "Punizione Furiosa [Wrathful Smite]" },
+    "Blade Ward": { "name": "Riparo con la Lama [Blade Ward]" },
+    "Spike Growth": { "name": "Crescita Spinosa [Spike Growth]" },
+    "Lightning Lure": { "name": "Richiamo Elettrico [Lightning Lure]" },
+    "Ray of Enfeeblement": {
+      "name": "Raggio di Indebolimento [Ray of Enfeeblement]"
+    },
+    "Shadow Blade": { "name": "Lama d’Ombra [Shadow Blade]" },
+    "Green-Flame Blade": { "name": "Lama di Fiamma Verde [Green-Flame Blade]" },
+    "Hail of Thorns": { "name": "Grandinata di Spine [Hail of Thorns]" },
+    "Shield": { "name": "Scudo [Shield]" },
+    "Compelled Duel": { "name": "Duello Forzato [Compelled Duel]" },
+    "Banishment": { "name": "Esilio [Banishment]" },
+    "Summon Fey": { "name": "Evoca Spirito Fatato [Summon Fey]" },
+    "Dragon's Breath": { "name": "Soffio del Drago [Dragon's Breath]" },
+    "Summon Aberration": { "name": "Evoca Aberrazione [Summon Aberration]" },
+    "Hex": { "name": "Maleficio [Hex]" },
+    "Heat Metal": { "name": "Metallo Ardente [Heat Metal]" },
+    "Investiture of Stone": {
+      "name": "Investitura della Pietra [Investiture of Stone]"
+    },
+    "Shield of Faith": { "name": "Scudo della Fede [Shield of Faith]" },
+    "Detect Thoughts": { "name": "Individua Pensieri [Detect Thoughts]" },
+    "Guardian of Faith": { "name": "Guardiano della Fede [Guardian of Faith]" },
+    "Guardian of Nature": {
+      "name": "Guardiano della Natura [Guardian of Nature]"
+    },
+    "Death Ward": { "name": "Protezione dalla Morte [Death Ward]" },
+    "Pass without Trace": {
+      "name": "Passo Senza Traccia [Pass without Trace]"
+    },
+    "Summon Construct": {
+      "name": "Evoca Spirito Costrutto [Summon Construct]"
+    },
+    "Detect Magic": { "name": "Individuazione del Magico [Detect Magic]" },
+    "Skill Empowerment": {
+      "name": "Potenziamento delle Abilità [Skill Empowerment]"
+    },
+    "Summon Fiend": { "name": "Evoca Spirito Demoniaco [Summon Fiend]" },
+    "Enlarge/Reduce": { "name": "Ingrandire/Ridurre [Enlarge/Reduce]" },
+    "Frost Fingers": { "name": "Dita Gelide [Frost Fingers]" },
+    "Arms of Hadar": { "name": "Braccia di Hadar [Arms of Hadar]" },
+    "Charm Person": { "name": "Incantare Persona [Charm Person]" },
+    "Flame Blade": { "name": "Lama di Fiamme [Flame Blade]" },
+    "Gaseous Form": { "name": "Forma Gassosa [Gaseous Form]" },
+    "Chain Lightning": { "name": "Fulmine a Catena [Chain Lightning]" },
+    "Guiding Bolt": { "name": "Raggio Guidato [Guiding Bolt]" },
+    "Thorn Whip": { "name": "Frusta Spinosa [Thorn Whip]" },
+    "Globe of Invulnerability": {"name": "Globo di Invulnerabilità [Globe of Invulnerability]"},
+    "Insect Plague": { "name": "Piaga d’Insetti [Insect Plague]" }
+  }
 }

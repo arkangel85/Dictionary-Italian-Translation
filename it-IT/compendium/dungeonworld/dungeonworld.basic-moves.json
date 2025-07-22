@@ -1,155 +1,155 @@
 {
-	"label": "Основные ходы",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"failure": "system.moveResults.failure.value",
-		"partial": "system.moveResults.partial.value",
-		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
-	},
-	"entries": [
-		{
-			"id": "Recover",
-			"name": "Восстановить силы",
-			"description": "<p>Когда вы <strong>бездельничаете, отдыхая со всеми удобствами в безопасном месте</strong>, по прошествии дня такого времяпрепровождения вы восстанавливаете все ваши ОЗ. После трёх дней отдыха вы излечиваете одну из травм на ваш выбор. Если за вами ухаживает целитель (не обязательно маг), вы излечиваете одну травму за два дня, а не за три.</p>"
-		},
-		{
-			"id": "Defend",
-			"name": "Встать на защиту",
-			"description": "<p>Когда вы <strong>защищаете от нападения кого-то или что-то</strong>, бросьте+ТЕЛ.</p>",
-			"choices": "<p>Когда атакуют то, что вы защищаете, можете тратить запас один к одному на действия из списка:</p>\n<ul>\n<li>Заслонить объект и принять атаку на себя.</li>\n<li>Ополовинить урон.</li>\n<li>Заставить атакующего открыться; один из союзников получает +1 на следующий бросок против него.</li>\n<li>Нанести атакующему урон, равный вашему уровню.</li>\n</ul>",
-			"success": "<p>Вы получаете запас 3.</p>",
-			"partial": "<p>Вы получаете запас 1.</p>"
-		},
-		{
-			"id": "Volley",
-			"name": "Дать залп",
-			"description": "<p>Когда, <strong>находясь на расстоянии, вы целитесь и стреляете в противника</strong>, бросьте+ЛОВ.</p>",
-			"success": "<p>Вы делаете точный выстрел и наносите обычный урон.</p>",
-			"partial": "<p>Нанесите урон и выберите один из вариантов:</p>\n<ul>\n<li>Герой должен занять опасную позицию. Ведущий опишет детали.</li>\n<li>Выстрел выйдет не очень удачный: -[[/roll 1d6]] урона.</li>\n<li>Придется сделать несколько выстрелов: боезапас падает на 1.</li>\n</ul>"
-		},
-		{
-			"id": "Parley",
-			"name": "Договориться",
-			"description": "<p>Когда вы <strong>пытаетесь повлиять на персонажа ведущего и манипулировать им</strong>, бросьте+ХАР. Повлиять можно, предложив ему нужное или желанное.</p>",
-			"success": "<p>Он просит вас о чём-то и, заручившись обещанием, сам помогает вам.</p>",
-			"partial": "<p>Персонажу нужно сразу предоставить какие-то гарантии, что обещание будет исполнено.</p>"
-		},
-		{
-			"id": "Discern Realities",
-			"name": "Изучить обстановку",
-			"description": "<p>Когда вы <strong>внимательно изучаете человека или ситуацию</strong>, бросьте+МДР.</p>",
-			"success": "<p>Задайте ведущему три вопроса из списка.</p>",
-			"partial": "<p>Один вопрос. Получите +1 на следующий ход, если используете полученные сведения.</p>",
-			"choices": "<ul>\n<li>Что здесь недавно произошло?</li>\n<li>Что вот-вот случится?</li>\n<li>Чего мне стоит опасаться?</li>\n<li>Что здесь есть полезного или ценного для меня?</li>\n<li>Кто здесь на самом деле главный?</li>\n<li>Что здесь не то, чем кажется?</li>\n</ul>"
-		},
-		{
-			"id": "End of Session",
-			"name": "Конец сессии",
-			"description": "<p>В <strong>конце игровой сессии</strong> выберите одни из уз, которые, по вашему мнению, исчерпали себя (вы разгадали все связанные с ними загадки, они стали неактуальны или что-то еще). Спросите игрока, с персонажем которого были узы, согласен ли он. Если да, вы получаете опыт и записываете себе новые узы, с кем считаете нужным.</p>\n<p>Обновив список уз, обратите внимание на мировоззрение героя. Если по ходу этой сессии оно хоть раз повлияло на ваш выбор действий, получите опыт. После чего совместно ответьте на следующие вопросы:</p>\n<ul>\n<li>Узнали ли мы о мире что-то новое и важное?</li>\n<li>Одолели ли мы значительного врага или монстра?</li>\n<li>Нашли ли мы какие-то достойные упоминания сокровища?</li>\n</ul>\n<p>За каждый ответ &laquo;да&raquo; все записывают себе опыт.</p>"
-		},
-		{
-			"id": "Recruit",
-			"name": "Найм",
-			"description": "<p>Когда вы <strong>хотите обзавестись наёмниками</strong>, сделайте бросок с бонусом:</p>\n<ul>\n<li>+1, если обещаете щедро заплатить;</li>\n<li>+1, если не скрываете, какого именно рода должна быть помощь;</li>\n<li>+1, если объявляете, что им достанется доля найденной добычи;</li>\n<li>+1, если у вас хорошая репутация в этих местах.</li>\n</ul>",
-			"success": "<p>Можете выбирать между несколькими умелыми кандидатами и не получите штрафа, если откажете кому-то из них.</p>",
-			"partial": "<p>Придётся согласиться на кого-то, похожего на искомого кандидата, или прогнать всех.</p>",
-			"failure": "<p>С вами захочет пойти влиятельная, но совершенно неподходящая личность (безрассудный юноша или замаскированный враг, например). Придется либо взять их и пожинать плоды, или прогнать. Если вы отказываете кандидатам, то получаете -1 на следующую попытку найма.</p>"
-		},
-		{
-			"id": "Outstanding Warrants",
-			"name": "Неоплаченный долг",
-			"description": "<p>Когда вы <strong>возвращаетесь в поселение, где ранее стали причиной каких-то неприятностей</strong>, бросьте+ХАР.</p>",
-			"success": "<p>Слава о ваших деяниях распространилась и все узнают вас.</p>",
-			"partial": "<p>Помимо этого, сталкиваетесь с проблемами на выбор ведущего:</p>\n<ul>\n<li>У местных стражей порядка есть приказ вас арестовать.</li>\n<li>Кто-то назначил награду за вашу голову.</li>\n<li>Кто-то важный для вас нажил проблем из-за ваших действий.</li>\n</ul>"
-		},
-		{
-			"id": "Take Watch",
-			"name": "Нести дозор",
-			"description": "<p>Когда вы <strong>несёте дозор и нечто приближается к лагерю</strong>, бросьте+МДР.</p>",
-			"success": "<p>Вы получаете возможность разбудить товарищей и подготовиться к встрече: все, кто в лагере, получают +1 на следующий ход.</p>",
-			"partial": "<p>Вы реагируете слишком поздно; лагерь проснулся, но времени на подготовку нет. Оружие и броня у вас есть, но кроме этого &mdash; никаких преимуществ.</p>",
-			"failure": "<p>Нечто застаёт вас врасплох, прокравшись к лагерному костру незамеченным.</p>"
-		},
-		{
-			"id": "Undertake A Perilous Journey",
-			"name": "Отправиться в опасное путешествие",
-			"description": "<p>Когда вы <strong>держите путь по враждебным территориям</strong>, выберите одного из героев, который будет играть роль проводника, другой станет разведчиком, а третий &mdash; интендантом, то есть будет вести хозяйство. Каждый персонаж делает бросок и прикладывает МДР.</p>",
-			"success": "<p>Происходит следующее:</p>\n<ul>\n<li>интендант снижает трату пайков на один;</li>\n<li>проводник уменьшает время, которые вы проводите в пути (на сколько именно, скажет ведущий);</li>\n<li>разведчик замечает опасность до нападения.</li>\n</ul>",
-			"partial": "<p>Каждый исполняет свою роль не лучше и не хуже, чем ожидалось: вы тратите столько пайков и проводите столько времени в пути, сколько рассчитывали, столкновений избегаете, но и сами никого врасплох не застаёте.</p>"
-		},
-		{
-			"id": "Carouse",
-			"name": "Пирушка",
-			"description": "<p>Когда вы <strong>возвращаетесь с победой и устраиваете по этому поводу большую гулянку</strong>, потратьте 100 монет и сделайте бросок с бонусом +1 за каждые 100 монет, потраченные сверх этой суммы.</p>",
-			"success": "<p>Выберите три пункта из списка.</p>",
-			"partial": "<p>Выберите один пункт из списка.</p>",
-			"failure": "<p>Вы всё равно выбираете один пункт, однако что-то идёт в этом отношении наперекосяк (ведущий скажет, что именно).</p>",
-			"choices": "<ul>\n<li>Вы знакомитесь с полезным персонажем ведущего.</li>\n<li>До вас доходят многообещающие слухи.</li>\n<li>Вы получаете полезную информацию.</li>\n<li>Во время пирушки вас никто не обманул, не околдовал и вы не встречаете утро за решёткой.</li>\n</ul>"
-		},
-		{
-			"id": "Level Up",
-			"name": "Повысить уровень",
-			"description": "<p>Когда <strong>у вас появляется свободное время</strong> (от нескольких часов до нескольких дней), <strong>а ваш опыт равен (или выше) вашего текущего уровня+7</strong>, вы можете потратить его, чтобы усовершенствовать свои умения.</p>\n<ul>\n<li>Вычтите из своего опыта текущий уровень+7.</li>\n<li>Поднимите уровень на 1.</li>\n<li>Выберите новый сложный ход своего класса.</li>\n<li>Если вы волшебник, вы также получаете новое заклинание в книгу.</li>\n</ul>\n<p>Увеличьте одну из своих характеристик на 1 (это может изменить модификатор). Изменение ТЕЛ может изменить количество ОЗ, как максимальное, так и текущее. Характеристики не могут быть выше 18.</p>"
-		},
-		{
-			"id": "Spout Lore",
-			"name": "Покопаться в памяти",
-			"description": "<p>Когда вы <strong>пытаетесь найти в залежах памяти сведения о чём-либо</strong>, бросьте+ИНТ.</p>",
-			"success": "<p>Ведущий сообщает вам что-то интересное и полезное о том, что связано с текущей ситуацией.</p>",
-			"partial": "<p>Ведущий говорит что-то интересное, а как извлечь пользу &mdash; ваша проблема. Ведущий может спросить: &laquo;Откуда вы это знаете?&raquo; Отвечайте честно.</p>"
-		},
-		{
-			"id": "Aid or Interfere",
-			"name": "Помочь или помешать",
-			"description": "<p>Когда вы <strong>помогаете или мешаете кому-то, с кем у вас узы</strong>, бросьте+число уз, связывающих вас.</p>",
-			"success": "<p>Они получают +1 или -2 к броску, на ваш выбор.</p>",
-			"partial": "<p>Всё то же самое, но вы сами оказываетесь в опасности, получаете отпор или расплачиваетесь как-то еще.</p>"
-		},
-		{
-			"id": "Supply",
-			"name": "Пополнить припасы",
-			"description": "<p>Когда вы <strong>хотите потратить наличность</strong>, можете приобрести нужные вещи по рыночным ценам, если они есть в продаже в том поселении, где вы сейчас находитесь. Если нужно что-то эдакое, бросьте+ХАР.</p>",
-			"success": "<p>Вы находите то, что ищете, по приемлемой цене.</p>",
-			"partial": "<p>Придётся заплатить куда больше или приобрести похожую, но не аналогичную вещь. Ведущий скажет, из чего вы можете выбирать.</p>"
-		},
-		{
-			"id": "Last Breath",
-			"name": "Последний вздох",
-			"description": "<p>Когда вы <strong>умираете</strong>, на мгновение вы видите, что лежит за Черными Вратами Царства Смерти (ведущий это опишет). Потом сделайте бросок (безо всяких бонусов, Смерти всё равно, насколько вы круты).</p>",
-			"success": "<p>Вам паршиво, но вы пока живы.</p>",
-			"partial": "<p>Вам придется пойти на сделку со Смертью. Примите её предложение, и ваше состояние стабилизируется, откажетесь &mdash; шагнете за Черные Врата навстречу своей судьбе.</p>",
-			"failure": "<p>Ваша судьба предрешена. На вас лежит Метка Смерти, и вы скоро пересечете черту. Ведущий скажет вам, когда это случится.</p>"
-		},
-		{
-			"id": "Make Camp",
-			"name": "Разбить лагерь",
-			"description": "<p>Когда вы <strong>устраиваете привал</strong>, потратьте паёк. Если вы располагаетесь в опасном месте, договоритесь также, в какой очерёдности будете нести дозор. Если у вас достаточно опыта, можете повысить уровень. Если вы спите хотя бы несколько часов без перерыва, вы исцеляете количество урона, равное половине ваших ОЗ.</p>"
-		},
-		{
-			"id": "Hack & Slash",
-			"name": "Руби и кромсай",
-			"description": "<p>Когда вы <strong>атакуете противника в ближнем бою</strong>, бросьте+СИЛ.</p>",
-			"success": "<p>Вы наносите урон противнику и уходите от его атаки. Если хотите, можете нанести дополнительно [[/roll 1d6]] урона, но пропустить ответную атаку.</p>",
-			"partial": "<p>Вы наносите урон противнику, а он атакует вас.</p>"
-		},
-		{
-			"id": "Defy Danger",
-			"name": "Спастись от угрозы",
-			"description": "<p>Когда вы <strong>действуете, невзирая на опасность или оказываетесь в бедственном положении</strong>, скажите, как именно вы решаете возникшую проблему. Если вы решаете её посредством...</p>\n<ul>\n<li>...грубой силы &mdash; бросьте+СИЛ.</li>\n<li>...проворства и скорости &mdash; бросьте+ЛОВ.</li>\n<li>...выносливости &mdash; бросьте+ТЕЛ.</li>\n<li>...сообразительности &mdash; бросьте+ИНТ.</li>\n<li>...силы духа &mdash; бросьте+МДР.</li>\n<li>...шарма и изящных слов, бросьте+ХАР.</li>\n</ul>",
-			"success": "<p>Вам удаётся осуществить задуманное и избежать опасности.</p>",
-			"partial": "<p>Вы спотыкаетесь, медлите или отступаете: ведущий может предложить вам исход похуже, невыгодную сделку или тяжёлый выбор.</p>"
-		},
-		{
-			"id": "Encumbrance",
-			"name": "Тяжкая ноша",
-			"description": "<p>Когда вы <strong>делаете ход, будучи нагруженным чем-либо</strong>, вы можете быть перегружены. Если вес, который вы переносите в этот момент:</p>\n<ul>\n<li>равен или меньше вашей нагрузки, вы не получаете штрафа;</li>\n<li>меньше или равен вашей нагрузке+2, вы получаете штраф -1 на все ходы, пока не избавитесь от груза;</li>\n<li>больше, чем ваша нагрузка+2, выберите сбросить груз по меньшей мере на 1 веса или автоматом провалить бросок.</li>\n</ul>"
-		},
-		{
-			"id": "Bolster",
-			"name": "Усердно заниматься",
-			"description": "<p>Когда вы <strong>тратите свободное время на учёбу, медитацию или тренировки</strong>, вы получаете очки подготовки. Если вы тренируетесь неделю или две &mdash; берите 1 очко. Месяц или дольше &mdash; 3 очка. Впоследствии, когда вы занимаетесь тем, что тренировали, можете потратить очко подготовки, чтобы получить +1 к броску (не больше одного очка на бросок).</p>"
-		}
-	]
+  "label": "Mosse Base",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Recover",
+      "name": "Recuperare le forze",
+      "description": "<p>Quando <strong>ozzi riposando con ogni comodità in un luogo sicuro</strong>, dopo un giorno intero trascorso così recuperi tutti i tuoi PF. Dopo tre giorni di riposo curi una delle ferite a tua scelta. Se un guaritore (non necessariamente un mago) si prende cura di te, curi una ferita ogni due giorni invece di tre.</p>"
+    },
+    {
+      "id": "Defend",
+      "name": "Difendere",
+      "description": "<p>Quando <strong>difendi qualcuno o qualcosa da un attacco</strong>, tira+COS.</p>",
+      "choices": "<p>Quando viene attaccato ciò che stai proteggendo, puoi spendere un punto riserva per ciascuna delle seguenti azioni:</p>\n<ul>\n<li>Fare da scudo e subire tu stesso l'attacco.</li>\n<li>Dimezzare il danno.</li>\n<li>Costringere l'attaccante a esporsi; un alleato ottiene +1 al prossimo tiro contro di lui.</li>\n<li>Infliggere danno all'attaccante pari al tuo livello.</li>\n</ul>",
+      "success": "<p>Ottieni una riserva di 3.</p>",
+      "partial": "<p>Ottieni una riserva di 1.</p>"
+    },
+    {
+      "id": "Volley",
+      "name": "Tirare a distanza",
+      "description": "<p>Quando <strong>attacchi un nemico dalla distanza con armi da tiro</strong>, tira+DES.</p>",
+      "success": "<p>Il tuo colpo è preciso e infligge il danno normale.</p>",
+      "partial": "<p>Infliggi danno ma scegli una delle seguenti opzioni:</p>\n<ul>\n<li>Devi esporti al pericolo; il master descriverà come.</li>\n<li>Il colpo è impreciso: -[[/roll 1d6]] danni.</li>\n<li>Consumi munizioni: riduci il carico di 1.</li>\n</ul>"
+    },
+    {
+      "id": "Parley",
+      "name": "Contrattare",
+      "description": "<p>Quando <strong>cerchi di influenzare un PNG e manipolarlo</strong>, tira+CAR. Per influenzarlo, devi offrirgli qualcosa che desidera o di cui ha bisogno.</p>",
+      "success": "<p>Chiederà qualcosa in cambio e, se prometti, ti aiuterà.</p>",
+      "partial": "<p>Il PNG vuole prove immediate che manterrai la promessa.</p>"
+    },
+    {
+      "id": "Discern Realities",
+      "name": "Analizzare la situazione",
+      "description": "<p>Quando <strong>scruti attentamente una persona o una situazione</strong>, tira+SAG.</p>",
+      "success": "<p>Poni al master tre domande dalla lista.</p>",
+      "partial": "<p>Una sola domanda. Ottieni +1 al prossimo tiro se usi le informazioni ottenute.</p>",
+      "choices": "<ul>\n<li>Cosa è successo qui di recente?</li>\n<li>Cosa sta per accadere?</li>\n<li>Di cosa dovrei stare in guardia?</li>\n<li>Cosa c'è qui di utile o prezioso per me?</li>\n<li>Chi ha davvero il controllo qui?</li>\n<li>Cosa non è ciò che sembra?</li>\n</ul>"
+    },
+    {
+      "id": "End of Session",
+      "name": "Fine sessione",
+      "description": "<p>Alla <strong>fine della sessione di gioco</strong> scegli uno dei legami che ritieni concluso (perché hai risolto il conflitto, non è più rilevante, ecc). Chiedi al giocatore con cui avevi quel legame se è d’accordo. Se sì, guadagni esperienza e puoi scrivere un nuovo legame con chi vuoi.</p>\n<p>Dopo aver aggiornato i legami, guarda il tuo allineamento. Se durante la sessione hai agito secondo esso, guadagni esperienza. Poi, rispondete insieme a queste domande:</p>\n<ul>\n<li>Abbiamo scoperto qualcosa di nuovo e importante sul mondo?</li>\n<li>Abbiamo sconfitto un nemico o mostro importante?</li>\n<li>Abbiamo trovato un tesoro degno di nota?</li>\n</ul>\n<p>Per ogni risposta “sì”, tutti guadagnano esperienza.</p>"
+    },
+    {
+      "id": "Recruit",
+      "name": "Reclutare",
+      "description": "<p>Quando <strong>cerchi di arruolare mercenari</strong>, tira con i seguenti bonus:</p>\n<ul>\n<li>+1 se prometti una paga generosa;</li>\n<li>+1 se sei chiaro sul tipo di aiuto che ti serve;</li>\n<li>+1 se prometti una parte del bottino trovato;</li>\n<li>+1 se hai una buona reputazione nella zona.</li>\n</ul>",
+      "success": "<p>Puoi scegliere tra diversi candidati abili e non subisci penalità se ne rifiuti qualcuno.</p>",
+      "partial": "<p>Devi accettare qualcuno che è solo simile a ciò che cercavi o scacciare tutti.</p>",
+      "failure": "<p>Qualcuno influente ma inadatto vuole unirsi a te (es. un giovane impulsivo o un nemico sotto mentite spoglie). O lo accetti e affronti le conseguenze, o lo scacci. Se rifiuti i candidati, subisci -1 al prossimo tentativo di reclutamento.</p>"
+    },
+    {
+      "id": "Outstanding Warrants",
+      "name": "Conti in sospeso",
+      "description": "<p>Quando <strong>torni in un insediamento dove in passato hai causato problemi</strong>, tira+CAR.</p>",
+      "success": "<p>La tua fama ti precede e tutti ti riconoscono.</p>",
+      "partial": "<p>In più, affronti uno dei seguenti problemi scelti dal master:</p>\n<ul>\n<li>Le guardie locali hanno ordine di arrestarti.</li>\n<li>Qualcuno ha messo una taglia sulla tua testa.</li>\n<li>Qualcuno a te caro ha avuto problemi per colpa tua.</li>\n</ul>"
+    },
+    {
+      "id": "Take Watch",
+      "name": "Fare la guardia",
+      "description": "<p>Quando <strong>sei di guardia e qualcosa si avvicina al campo</strong>, tira+SAG.</p>",
+      "success": "<p>Puoi svegliare i compagni e prepararvi: chi è nel campo ottiene +1 al prossimo tiro.</p>",
+      "partial": "<p>Reagisci troppo tardi: il campo si sveglia ma non c'è tempo per prepararsi. Avete solo armi e armatura, niente vantaggi.</p>",
+      "failure": "<p>Qualcosa vi coglie di sorpresa, avvicinandosi inosservato al fuoco del campo.</p>"
+    },
+    {
+      "id": "Undertake A Perilous Journey",
+      "name": "Intraprendere un viaggio pericoloso",
+      "description": "<p>Quando <strong>viaggiate attraverso territori ostili</strong>, scegliete un personaggio come guida, uno come esploratore e uno come intendente. Ognuno effettua un tiro con SAG.</p>",
+      "success": "<p>Accade quanto segue:</p>\n<ul>\n<li>L’intendente riduce il consumo di viveri di 1;</li>\n<li>La guida riduce il tempo necessario al viaggio (il master deciderà di quanto);</li>\n<li>L’esploratore avvista i pericoli prima che attacchino.</li>\n</ul>",
+      "partial": "<p>Ognuno svolge il proprio ruolo con risultati medi: consumate i viveri previsti, il tempo è quello stimato, evitate scontri ma non cogliete nessuno di sorpresa.</p>"
+    },
+    {
+      "id": "Carouse",
+      "name": "Baldoria",
+      "description": "<p>Quando <strong>torni vittorioso e organizzi una grande festa per celebrarlo</strong>, spendi 100 monete e tira con un bonus di +1 per ogni 100 monete aggiuntive spese oltre questa somma.</p>",
+      "success": "<p>Scegli tre opzioni dalla lista.</p>",
+      "partial": "<p>Scegli una sola opzione dalla lista.</p>",
+      "failure": "<p>Scegli comunque una delle opzioni, ma qualcosa va storto (il master ti dirà cosa).</p>",
+      "choices": "<ul>\n<li>Fai conoscenza con un PNG utile.</li>\n<li>Raggiungono le tue orecchie voci promettenti.</li>\n<li>Ottieni informazioni utili.</li>\n<li>Durante la baldoria non vieni truffato, stregato, né ti svegli in prigione.</li>\n</ul>"
+    },
+    {
+      "id": "Level Up",
+      "name": "Salire di livello",
+      "description": "<p>Quando <strong>hai del tempo libero</strong> (da poche ore a qualche giorno), <strong>e il tuo PX è pari o superiore al tuo livello attuale +7</strong>, puoi spenderlo per migliorare le tue abilità.</p>\n<ul>\n<li>Sottrai dal tuo PX il valore del tuo livello attuale +7.</li>\n<li>Aumenta il tuo livello di 1.</li>\n<li>Scegli una nuova mossa avanzata del tuo classe.</li>\n<li>Se sei un mago, ottieni anche un nuovo incantesimo nel grimorio.</li>\n</ul>\n<p>Aumenta una delle tue caratteristiche di 1 (questo può cambiare il modificatore). Aumentare COS può cambiare i tuoi PF massimi e attuali. Nessuna caratteristica può superare 18.</p>"
+    },
+    {
+      "id": "Spout Lore",
+      "name": "Ripescare dalla memoria",
+      "description": "<p>Quando <strong>cerchi nei tuoi ricordi qualcosa su un argomento</strong>, tira+INT.</p>",
+      "success": "<p>Il master ti dirà qualcosa di interessante e utile relativo alla situazione attuale.</p>",
+      "partial": "<p>Il master ti dirà qualcosa di interessante, ma come trarne vantaggio tocca a te. Il master può chiederti: «Come fai a saperlo?» Rispondi sinceramente.</p>"
+    },
+    {
+      "id": "Aid or Interfere",
+      "name": "Aiutare o Ostacolare",
+      "description": "<p>Quando <strong>aiuti o ostacoli qualcuno con cui hai legami</strong>, tira+numero di legami con lui.</p>",
+      "success": "<p>Ottiene +1 o -2 al tiro, a tua scelta.</p>",
+      "partial": "<p>Come sopra, ma ti metti in pericolo, ricevi un contraccolpo o ne paghi il prezzo in altro modo.</p>"
+    },
+    {
+      "id": "Supply",
+      "name": "Rifornirsi",
+      "description": "<p>Quando <strong>vuoi spendere del denaro</strong>, puoi acquistare ciò che ti serve a prezzo di mercato, se è disponibile nel luogo in cui ti trovi. Se vuoi qualcosa di insolito, tira+CAR.</p>",
+      "success": "<p>Trovi ciò che cerchi a un prezzo equo.</p>",
+      "partial": "<p>Dovrai pagare molto di più o accontentarti di qualcosa di simile. Il master ti dirà cosa puoi scegliere.</p>"
+    },
+    {
+      "id": "Last Breath",
+      "name": "Ultimo respiro",
+      "description": "<p>Quando <strong>muori</strong>, per un istante vedi cosa c'è oltre i Cancelli Neri del Regno dei Morti (il master lo descriverà). Poi tira (senza bonus: alla Morte non importa quanto sei forte).</p>",
+      "success": "<p>Stai male, ma sei ancora vivo.</p>",
+      "partial": "<p>Devi accettare un patto con la Morte. Se accetti la sua offerta, sopravvivi; se rifiuti, attraversi i Cancelli Neri e incontri il tuo destino.</p>",
+      "failure": "<p>Il tuo destino è segnato. La Morte ti ha marchiato e presto varcherai la soglia. Il master ti dirà quando accadrà.</p>"
+    },
+    {
+      "id": "Make Camp",
+      "name": "Accamparsi",
+      "description": "<p>Quando <strong>prepari un accampamento</strong>, consuma una razione. Se ti trovi in un luogo pericoloso, stabilite un ordine per i turni di guardia. Se hai abbastanza esperienza, puoi salire di livello. Se dormi almeno qualche ora ininterrottamente, curi un ammontare di PF pari alla metà dei tuoi PF totali.</p>"
+    },
+    {
+      "id": "Hack & Slash",
+      "name": "Affonda il colpo",
+      "description": "<p>Quando <strong>attacchi un nemico in mischia</strong>, tira+FOR.</p>",
+      "success": "<p>Infliggi danno e riesci a evitare il contrattacco. Se vuoi, puoi infliggere [[/roll 1d6]] danni extra ma subire comunque l’attacco nemico.</p>",
+      "partial": "<p>Infliggi danno ma il nemico ti attacca a sua volta.</p>"
+    },
+    {
+      "id": "Defy Danger",
+      "name": "Sfida il pericolo",
+      "description": "<p>Quando <strong>affronti il pericolo o ti trovi in una situazione disperata</strong>, descrivi come intendi superarla. Se agisci con…</p>\n<ul>\n<li>…forza bruta – tira+FOR</li>\n<li>…agilità e rapidità – tira+DES</li>\n<li>…resistenza – tira+COS</li>\n<li>…intelligenza – tira+INT</li>\n<li>…forza di volontà – tira+SAG</li>\n<li>…carisma e parlantina – tira+CAR</li>\n</ul>",
+      "success": "<p>Riesci a superare la minaccia e ottieni ciò che volevi.</p>",
+      "partial": "<p>Esiti, tentenni o ti tiri indietro: il master può proporti una conseguenza peggiore, un affare svantaggioso o una scelta difficile.</p>"
+    },
+    {
+      "id": "Encumbrance",
+      "name": "Sovraccarico",
+      "description": "<p>Quando <strong>effettui una mossa mentre trasporti del peso</strong>, potresti essere sovraccarico. Se il peso che porti in quel momento:</p>\n<ul>\n<li>è pari o inferiore al tuo carico massimo, nessun malus;</li>\n<li>è pari o inferiore a carico+2, hai -1 a tutte le mosse finché non ti liberi del peso;</li>\n<li>supera carico+2, scegli se scartare almeno 1 punto di carico o fallire automaticamente il tiro.</li>\n</ul>"
+    },
+    {
+      "id": "Bolster",
+      "name": "Allenarsi con impegno",
+      "description": "<p>Quando <strong>trascorri tempo libero a studiare, meditare o allenarti</strong>, guadagni punti preparazione. Se ti alleni per una o due settimane, ottieni 1 punto. Per un mese o più, ottieni 3 punti. Più avanti, quando fai qualcosa che riguarda quell’allenamento, puoi spendere un punto preparazione per ottenere +1 al tiro (massimo un punto per tiro).</p>"
+    }
+  ]
 }

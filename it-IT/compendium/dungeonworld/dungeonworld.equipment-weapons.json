@@ -1,186 +1,186 @@
 {
-	"label": "Снаряжение (Оружие)",
-	"mapping": {
-		"name": "name",
-		"description": "system.description",
-		"tags": "system.tags",
-		"tagsString": "system.tagsString"
-	},
-	"entries": [
-		{
-			"id": "Axe",
-			"name": "Топор",
-			"description": "Орудие, которым можно колоть как дрова так и противников.",
-			"tags": "[{\"value\":\"взмах меча\"}]",
-			"tagsString": "взмах меча"
-		},
-		{
-			"id": "Battle Axe",
-			"name": "Секира",
-			"description": "Двуручный топор, сделанный для боя.",
-			"tags": "[{\"value\":\"взмах меча\"},{\"value\":\"+1 урон\"}]",
-			"tagsString": "взмах меча, +1 урон"
-		},
-		{
-			"id": "Bundle of Arrows",
-			"name": "Колчан стрел",
-			"description": "Кучка обычных стрел.",
-			"tags": "[{\"value\":\"боезапас 3\"}]",
-			"tagsString": "боезапас 3"
-		},
-		{
-			"id": "Club",
-			"name": "Дубина",
-			"description": "Дробящее оружие, сделанное из дерева.",
-			"tags": "[{\"value\":\"взмах меча\"}]",
-			"tagsString": "взмах меча"
-		},
-		{
-			"id": "Crossbow",
-			"name": "Арбалет",
-			"description": "Механический лук.",
-			"tags": "[{\"value\":\"близко\"},{\"value\":\"перезарядка\"},{\"value\":\"+1 урон\"}]",
-			"tagsString": "близко, перезарядка, +1 урон"
-		},
-		{
-			"id": "Dagger",
-			"name": "Кинжал",
-			"description": "Маленькое железное лезвие.",
-			"tags": "[{\"value\":\"рука\"}]",
-			"tagsString": "рука"
-		},
-		{
-			"id": "Dueling Rapier",
-			"name": "Рапира дуэлянта",
-			"description": "Хорошо сбалансированный одноручный тонкий обоюдоострый клинок.",
-			"tags": "[{\"value\":\"взмах меча\"},{\"value\":\"пробивание 1\"},{\"value\":\"точное\"}]",
-			"tagsString": "взмах меча, пробивание 1, точное"
-		},
-		{
-			"id": "Elven Arrows",
-			"name": "Эльфийские стрелы",
-			"description": "Искусно сделанные эльфийские стрелы.",
-			"tags": "[{\"value\":\"боезапас 4\"}]",
-			"tagsString": "боезапас 4"
-		},
-		{
-			"id": "Fine Bow",
-			"name": "Хороший лук",
-			"description": "Хорошо сделанный лук.",
-			"tags": "[{\"value\":\"близко\"},{\"value\":\"далеко\"}]",
-			"tagsString": "близко, далеко"
-		},
-		{
-			"id": "Flail",
-			"name": "Кистень",
-			"description": "Оружие, состоящее из ударного наконечника, прикрепленного цепью к рукояти.",
-			"tags": "[{\"value\":\"взмах меча\"},{\"value\":\"+1 урон\"}]",
-			"tagsString": "взмах меча, +1 урон"
-		},
-		{
-			"id": "Halberd",
-			"name": "Алебарда",
-			"description": "Двуручное древковое оружие.",
-			"tags": "[{\"value\":\"удар копья\"},{\"value\":\"+1 урон\"},{\"value\":\"двуручный\"}]",
-			"tagsString": "удар копья, +1 урон, двуручный"
-		},
-		{
-			"id": "Hunter's Bow",
-			"name": "Охотничий лук",
-			"description": "Хорошо отточенный лук на скорость и точность стрельбы.",
-			"tags": "[{\"value\":\"близко\"},{\"value\":\"далеко\"}]",
-			"tagsString": "близко, далеко"
-		},
-		{
-			"id": "Knife",
-			"name": "Заточка",
-			"description": "Остро заточенный инструмент.",
-			"tags": "[{\"value\":\"рука\"}]",
-			"tagsString": "рука"
-		},
-		{
-			"id": "Long Sword",
-			"name": "Длинный меч",
-			"description": "Меч с длинным лезвием.",
-			"tags": "[{\"value\":\"взмах меча\"},{\"value\":\"+1 урон\"}]",
-			"tagsString": "взмах меча, +1 урон"
-		},
-		{
-			"id": "Mace",
-			"name": "Булава",
-			"description": "Оружие с тяжелым наконечником на прочном древке, используемое для избиения противников.",
-			"tags": "[{\"value\":\"взмах меча\"}]",
-			"tagsString": "взмах меча"
-		},
-		{
-			"id": "Ragged Bow",
-			"name": "Потрепанный лук",
-			"description": "Сильно потертый лук.",
-			"tags": "[{\"value\":\"близко\"}]",
-			"tagsString": "близко"
-		},
-		{
-			"id": "Rapier",
-			"name": "Рапира",
-			"description": "Одноручный тонкий, остро заточенный с обеих сторон клинок.",
-			"tags": "[{\"value\":\"взмах меча\"},{\"value\":\"точное\"}]",
-			"tagsString": "взмах меча, точное"
-		},
-		{
-			"id": "Shillelagh",
-			"name": "Дубинка",
-			"description": "Толстая палка из дуба.",
-			"tags": "[{\"value\":\"взмах меча\"}]",
-			"tagsString": "взмах меча"
-		},
-		{
-			"id": "Shiv",
-			"name": "Нож",
-			"description": "Самодельное оружие с острым лезвием.",
-			"tags": "[{\"value\":\"рука\"}]",
-			"tagsString": "рука"
-		},
-		{
-			"id": "Short Sword",
-			"name": "Короткий меч",
-			"description": "Короткий одноручный меч.",
-			"tags": "[{\"value\":\"взмах меча\"}]",
-			"tagsString": "взмах меча"
-		},
-		{
-			"id": "Spear",
-			"name": "Копье",
-			"description": "Оружие с длинным древком и заостренным металлическим наконечником.",
-			"tags": "[{\"value\":\"удар копья\"},{\"value\":\"метательное\"},{\"value\":\"близко\"}]",
-			"tagsString": "удар копья, метательное, близко"
-		},
-		{
-			"id": "Staff",
-			"name": "Посох",
-			"description": "Вырезанный деревянный посох, которым можно бить.",
-			"tags": "[{\"value\":\"взмах меча\"},{\"value\":\"двуручный\"}]",
-			"tagsString": "взмах меча, двуручный"
-		},
-		{
-			"id": "Throwing Dagger",
-			"name": "Метательный кинжал",
-			"description": "Легкий кинжал, хорошо сбалансированный для метания.",
-			"tags": "[{\"value\":\"метательное\"},{\"value\":\"близко\"}]",
-			"tagsString": "метательное, близко"
-		},
-		{
-			"id": "Two-handed sword",
-			"name": "Двуручный меч",
-			"description": "Двуручный меч с длинным лезвием.",
-			"tags": "[{\"value\":\"взмах меча\"},{\"value\":\"+1 урон\"}]",
-			"tagsString": "взмах меча, +1 урон"
-		},
-		{
-			"id": "War hammer",
-			"name": "Молот",
-			"description": "Большой металлический молот, которым можно проламывать черепа.",
-			"tags": "[{\"value\":\"взмах меча\"}]",
-			"tagsString": "взмах меча"
-		}
-	]
+  "label": "Equipaggiamento (Armi)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "tags": "system.tags",
+    "tagsString": "system.tagsString"
+  },
+  "entries": [
+    {
+      "id": "Axe",
+      "name": "Ascia",
+      "description": "Uno strumento con cui si possono spaccare sia legna che nemici.",
+      "tags": "[{\"value\":\"colpo di spada\"}]",
+      "tagsString": "colpo di spada"
+    },
+    {
+      "id": "Battle Axe",
+      "name": "Ascia da battaglia",
+      "description": "Un'ascia a due mani progettata per il combattimento.",
+      "tags": "[{\"value\":\"colpo di spada\"},{\"value\":\"+1 danno\"}]",
+      "tagsString": "colpo di spada, +1 danno"
+    },
+    {
+      "id": "Bundle of Arrows",
+      "name": "Fascio di frecce",
+      "description": "Un mucchio di frecce comuni.",
+      "tags": "[{\"value\":\"munizioni 3\"}]",
+      "tagsString": "munizioni 3"
+    },
+    {
+      "id": "Club",
+      "name": "Randello",
+      "description": "Un'arma contundente fatta di legno.",
+      "tags": "[{\"value\":\"colpo di spada\"}]",
+      "tagsString": "colpo di spada"
+    },
+    {
+      "id": "Crossbow",
+      "name": "Balestra",
+      "description": "Un arco meccanico.",
+      "tags": "[{\"value\":\"vicino\"},{\"value\":\"ricarica\"},{\"value\":\"+1 danno\"}]",
+      "tagsString": "vicino, ricarica, +1 danno"
+    },
+    {
+      "id": "Dagger",
+      "name": "Pugnale",
+      "description": "Una piccola lama di ferro.",
+      "tags": "[{\"value\":\"mano\"}]",
+      "tagsString": "mano"
+    },
+    {
+      "id": "Dueling Rapier",
+      "name": "Rapis duellante",
+      "description": "Una lama sottile e affilata da una mano, ben bilanciata.",
+      "tags": "[{\"value\":\"colpo di spada\"},{\"value\":\"penetrazione 1\"},{\"value\":\"preciso\"}]",
+      "tagsString": "colpo di spada, penetrazione 1, preciso"
+    },
+    {
+      "id": "Elven Arrows",
+      "name": "Frecce elfiche",
+      "description": "Frecce elfichamente lavorate con cura.",
+      "tags": "[{\"value\":\"munizioni 4\"}]",
+      "tagsString": "munizioni 4"
+    },
+    {
+      "id": "Fine Bow",
+      "name": "Arco di qualità",
+      "description": "Un arco ben costruito.",
+      "tags": "[{\"value\":\"vicino\"},{\"value\":\"lontano\"}]",
+      "tagsString": "vicino, lontano"
+    },
+    {
+      "id": "Flail",
+      "name": "Mazzuolo",
+      "description": "Un'arma composta da una testa d'urto attaccata a una catena su un manico.",
+      "tags": "[{\"value\":\"colpo di spada\"},{\"value\":\"+1 danno\"}]",
+      "tagsString": "colpo di spada, +1 danno"
+    },
+    {
+      "id": "Halberd",
+      "name": "Alabarda",
+      "description": "Un'arma da asta a due mani.",
+      "tags": "[{\"value\":\"colpo di lancia\"},{\"value\":\"+1 danno\"},{\"value\":\"a due mani\"}]",
+      "tagsString": "colpo di lancia, +1 danno, a due mani"
+    },
+    {
+      "id": "Hunter's Bow",
+      "name": "Arco da caccia",
+      "description": "Un arco ben calibrato per velocità e precisione.",
+      "tags": "[{\"value\":\"vicino\"},{\"value\":\"lontano\"}]",
+      "tagsString": "vicino, lontano"
+    },
+    {
+      "id": "Knife",
+      "name": "Coltello",
+      "description": "Uno strumento affilato.",
+      "tags": "[{\"value\":\"mano\"}]",
+      "tagsString": "mano"
+    },
+    {
+      "id": "Long Sword",
+      "name": "Spada lunga",
+      "description": "Una spada con una lunga lama.",
+      "tags": "[{\"value\":\"colpo di spada\"},{\"value\":\"+1 danno\"}]",
+      "tagsString": "colpo di spada, +1 danno"
+    },
+    {
+      "id": "Mace",
+      "name": "Mazza",
+      "description": "Un'arma con una testa pesante su un'asta robusta, usata per colpire i nemici.",
+      "tags": "[{\"value\":\"colpo di spada\"}]",
+      "tagsString": "colpo di spada"
+    },
+    {
+      "id": "Ragged Bow",
+      "name": "Arco malconcio",
+      "description": "Un arco molto consumato.",
+      "tags": "[{\"value\":\"vicino\"}]",
+      "tagsString": "vicino"
+    },
+    {
+      "id": "Rapier",
+      "name": "Rapis",
+      "description": "Una lama sottile, affilata da entrambi i lati e da una mano.",
+      "tags": "[{\"value\":\"colpo di spada\"},{\"value\":\"preciso\"}]",
+      "tagsString": "colpo di spada, preciso"
+    },
+    {
+      "id": "Shillelagh",
+      "name": "Randello di quercia",
+      "description": "Un grosso bastone di quercia.",
+      "tags": "[{\"value\":\"colpo di spada\"}]",
+      "tagsString": "colpo di spada"
+    },
+    {
+      "id": "Shiv",
+      "name": "Lama improvvisata",
+      "description": "Un'arma artigianale con una lama affilata.",
+      "tags": "[{\"value\":\"mano\"}]",
+      "tagsString": "mano"
+    },
+    {
+      "id": "Short Sword",
+      "name": "Spada corta",
+      "description": "Una spada corta a una mano.",
+      "tags": "[{\"value\":\"colpo di spada\"}]",
+      "tagsString": "colpo di spada"
+    },
+    {
+      "id": "Spear",
+      "name": "Lancia",
+      "description": "Un'arma con un lungo manico e una punta metallica affilata.",
+      "tags": "[{\"value\":\"colpo di lancia\"},{\"value\":\"da lancio\"},{\"value\":\"vicino\"}]",
+      "tagsString": "colpo di lancia, da lancio, vicino"
+    },
+    {
+      "id": "Staff",
+      "name": "Bastone",
+      "description": "Un bastone di legno intagliato, usato per colpire.",
+      "tags": "[{\"value\":\"colpo di spada\"},{\"value\":\"a due mani\"}]",
+      "tagsString": "colpo di spada, a due mani"
+    },
+    {
+      "id": "Throwing Dagger",
+      "name": "Pugnale da lancio",
+      "description": "Un pugnale leggero ben bilanciato per essere lanciato.",
+      "tags": "[{\"value\":\"da lancio\"},{\"value\":\"vicino\"}]",
+      "tagsString": "da lancio, vicino"
+    },
+    {
+      "id": "Two-handed sword",
+      "name": "Spadone a due mani",
+      "description": "Una spada lunga da impugnare con due mani.",
+      "tags": "[{\"value\":\"colpo di spada\"},{\"value\":\"+1 danno\"}]",
+      "tagsString": "colpo di spada, +1 danno"
+    },
+    {
+      "id": "War hammer",
+      "name": "Martello da guerra",
+      "description": "Un grande martello di metallo capace di sfondare crani.",
+      "tags": "[{\"value\":\"colpo di spada\"}]",
+      "tagsString": "colpo di spada"
+    }
+  ]
 }
