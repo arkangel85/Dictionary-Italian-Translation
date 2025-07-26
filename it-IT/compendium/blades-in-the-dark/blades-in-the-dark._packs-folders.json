@@ -1,8 +1,8 @@
 {
-	"entries": {
-		"Character Options": "Персонажи",
-		"Crew Options": "Команды",
-		"Factions & NPCs": "Организации и люди",
-		"Entanglements": "Напасти"
-	}
+  "entries": {
+    "Character Options": "Opzioni Personaggio",
+    "Crew Options": "Opzioni della Banda",
+    "Factions & NPCs": "Fazioni e PNG",
+    "Entanglements": "Complicazioni"
+  }
 }

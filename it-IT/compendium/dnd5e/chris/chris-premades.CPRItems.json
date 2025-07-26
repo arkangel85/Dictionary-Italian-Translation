@@ -1,212 +1,212 @@
 {
-	"label": "CPR Предметы",
-	"folders": {
-		"Potion": "Зелья",
-		"Martial Melee": "Военное ближнее",
-		"Armor": "Броня",
-		"Clothing": "Одежда",
-		"Simple Melee": "Простое ближнее",
-		"Ring": "Кольцо",
-		"Trinket": "Безделушка",
-		"Weapons": "Оружие",
-		"Consumable": "Расходуемое",
-		"Miscellaneous": "Прочее"
-	},
-	"entries": {
-		"Dancing Scimitar": {
-			"name": "Пляшущий скимитар / Dancing Scimitar"
-		},
-		"Potion of Diminution": {
-			"name": "Зелье уменьшения / Potion of Diminution"
-		},
-		"Pariah's Shield": {
-			"name": "Щит Парии / Pariah's Shield"
-		},
-		"Potion of Speed": {
-			"name": "Зелье скорости / Potion of Speed"
-		},
-		"Elixir of Health": {
-			"name": "Эликсир здоровья / Elixir of Health"
-		},
-		"Dancing Longsword": {
-			"name": "Пляшущий длинный меч / Dancing Longsword"
-		},
-		"Eyes of Minute Seeing": {
-			"name": "Очки детального зрения / Eyes of Minute Seeing"
-		},
-		"Unarmed Strike": {
-			"name": "Безоружный удар / Unarmed Strike"
-		},
-		"Oil of Sharpness": {
-			"name": "Масло остроты / Oil of Sharpness"
-		},
-		"Guardian Emblem": {
-			"name": "Эмблема стража / Guardian Emblem"
-		},
-		"Blackrazor": {
-			"name": "Чёрное лезвие / Blackrazor"
-		},
-		"Crystal Rapier": {
-			"name": "Хрустальная рапира / Crystal Rapier"
-		},
-		"Bigby's Beneficent Bracelet": {
-			"name": "Благотворный браслет Бигби / Bigby's Beneficent Bracelet"
-		},
-		"Javelin of Lightning": {
-			"name": "Пилум молнии / Javelin of Lightning"
-		},
-		"Potion of Advantage": {
-			"name": "Зелье преимущества / Potion of Advantage"
-		},
-		"Potion of Invisibility": {
-			"name": "Зелье невидимости / Potion of Invisibility"
-		},
-		"Crystal Greatsword": {
-			"name": "Хрустальный двуручный меч / Crystal Greatsword"
-		},
-		"Crystal Longsword": {
-			"name": "Хрустальный длинный меч / Crystal Longsword"
-		},
-		"Crystal Shortsword": {
-			"name": "Хрустальный короткий меч / Crystal Shortsword"
-		},
-		"Potion of Aqueous Form": {
-			"name": "Зелье водной формы / Potion of Aqueous Form"
-		},
-		"Crystal Scimitar": {
-			"name": "Хрустальный скимитар / Crystal Scimitar"
-		},
-		"Potion of Growth": {
-			"name": "Зелье роста / Potion of Growth"
-		},
-		"Eyes of the Eagle": {
-			"name": "Очки орла / Eyes of the Eagle"
-		},
-		"Potion of Invulnerability": {
-			"name": "Зелье неуязвимости / Potion of Invulnerability"
-		},
-		"Potion of Fire Breath": {
-			"name": "Зелье огненного дыхания / Potion of Fire Breath"
-		},
-		"Mystery Key": {
-			"name": "Таинственный ключ / Mystery Key"
-		},
-		"Dancing Rapier": {
-			"name": "Пляшущая рапира / Dancing Rapier"
-		},
-		"Potion of Giant Size": {
-			"name": "Зелье размеров великана / Potion of Giant Size"
-		},
-		"Potion of Vitality": {
-			"name": "Зелье жизненной силы / Potion of Vitality"
-		},
-		"Dancing Greatsword": {
-			"name": "Пляшущий двуручный меч / Dancing Greatsword"
-		},
-		"Eldritch Claw Tattoo": {
-			"name": "Татуировка жутких когтей / Eldritch Claw Tattoo"
-		},
-		"Blood Spear": {
-			"name": "Кровавое копьё / Blood Spear"
-		},
-		"Potion of Heroism": {
-			"name": "Зелье героизма / Potion of Heroism"
-		},
-		"Dancing Shortsword": {
-			"name": "Пляшущий короткий меч / Dancing Shortsword"
-		},
-		"Lantern of Revealing": {
-			"name": "Фонарь разоблачения / Lantern of Revealing"
-		},
-		"Insignia of Claws": {
-			"name": "Эмблема когтей / Insignia of Claws"
-		},
-		"Potion of Poison": {
-			"name": "Зелье яда / Potion of Poison"
-		},
-		"Boots of Elvenkind": {
-			"name": "Эльфийские сапоги / Boots of Elvenkind"
-		},
-		"Unarmed Strike (Unarmed Fighting)": {
-			"name": "Безоружный удар (Сражение голыми руками)  / Unarmed Strike (Unarmed Fighting)"
-		},
-		"Master's Amulet": {
-			"name": "Амулет хозяина"
-		},
-		"Wand of the War Mage, +1": {
-			"name": "Жезл боевого мага + 1 / Wand of the War Mage +1"
-		},
-		"Dragon-Touched Focus (Stirring / Gem)": {
-			"name": "Просыпающаяся Фокусировка, затронутая драконом / Stirring Dragon-Touched Focus"
-		},
-		"Dragon Vessel (Stirring)": {
-			"name": "Просыпающийся драконий сосуд / Stirring Dragon Vessel"
-		},
-		"Dragon Vessel (Ascendant)": {
-			"name": "Восходящий драконий сосуд / Ascendant Dragon Vessel"
-		},
-		"Dragon's Wrath Weapon (Wakened)": {
-			"name": "Пробуждённый драконий сосуд / Wakened Dragon Vessel"
-		},
-		"Unarmed Strike (Tavern Brawler)": {
-			"name": "Безоружный удар (Трактирный забияка) / Unarmed Strike (Tavern Brawler)"
-		},
-		"Unarmed Strike (Monk)": {
-			"name": "Безоружный удар (Монах) / Unarmed Strike (Monk)"
-		},
-		"All-Purpose Tool, +1": {
-			"name": "Универсальный инструмент +1 / +1 All-Purpose Tool"
-		},
-		"Dragon-Touched Focus (Stirring / Chromatic)": {
-			"name": "Dragon-Touched Focus (Stirring / Chromatic)"
-		},
-		"Dragon Vessel (Slumbering)": {
-			"name": "Спящий драконий сосуд / Slumbering Dragon Vessel"
-		},
-		"Wings of Flying": {
-			"name": "Крылья полёта / Wings of flying"
-		},
-		"Dragon's Wrath Weapon (Stirring)": {
-			"name": "Просыпающееся оружие драконьего гнева / Stirring Dragon's Wrath Weapon"
-		},
-		"Dragon's Wrath Weapon (Ascendant)": {
-			"name": "Восходящее оружие драконьего гнева / Ascendant Dragon's Wrath Weapon"
-		},
-		"Armor of Safeguarding, Plate": {
-			"name": "Латный доспех защиты / Plate Armor of Safeguarding"
-		},
-		"Wand of the War Mage, +2": {
-			"name": "Жезл боевого мага + 2 / Wand of the War Mage +2"
-		},
-		"Armor of Safeguarding, Chain Mail": {
-			"name": "Кольчуга защиты / Chain Mail of Safeguarding"
-		},
-		"Ring of Spell Storing (0/5)": {
-			"name": "Кольцо хранения заклинаний / Ring of Spell Storing"
-		},
-		"Dragon's Wrath Weapon (Slumbering)": {
-			"name": "Dragon's Wrath Weapon (Slumbering)"
-		},
-		"Armor of Safeguarding, Splint": {
-			"name": "Пластинчатый доспех защиты / Splint Armor of Safeguarding"
-		},
-		"Armor of Safeguarding, Ring Mail": {
-			"name": "Кольчатый доспех защиты / Ring Mail of Safeguarding"
-		},
-		"Dragon Vessel (Wakened)": {
-			"name": "Пробуждённый драконий сосуд / Wakened Dragon Vessel"
-		},
-		"All-Purpose Tool, +2": {
-			"name": "Универсальный инструмент +2 / +2 All-Purpose Tool"
-		},
-		"All-Purpose Tool, +3": {
-			"name": "Универсальный инструмент +3 / +3 All-Purpose Tool"
-		},
-		"Dragon-Touched Focus (Slumbering)": {
-			"name": "Спящая фокусировка, затронутая драконом / Slumbering Dragon-Touched Focus"
-		},
-		"Wand of the War Mage, +3": {
-			"name": "Жезл боевого мага + 3 / Wand of the War Mage +3"
-		}
-	}
+  "label": "CPR Oggetti",
+  "folders": {
+    "Potion": "Pozioni",
+    "Martial Melee": "Mischia Marziale",
+    "Armor": "Armature",
+    "Clothing": "Abbigliamento",
+    "Simple Melee": "Mischia Semplice",
+    "Ring": "Anello",
+    "Trinket": "Gingillo",
+    "Weapons": "Armi",
+    "Consumable": "Consumabile",
+    "Miscellaneous": "Varie"
+  },
+  "entries": {
+    "Dancing Scimitar": {
+      "name": "Scimitarra Danzante / Dancing Scimitar"
+    },
+    "Potion of Diminution": {
+      "name": "Pozione di Diminuzione / Potion of Diminution"
+    },
+    "Pariah's Shield": {
+      "name": "Scudo del Reietto / Pariah's Shield"
+    },
+    "Potion of Speed": {
+      "name": "Pozione di Velocità / Potion of Speed"
+    },
+    "Elixir of Health": {
+      "name": "Elisir di Salute / Elixir of Health"
+    },
+    "Dancing Longsword": {
+      "name": "Spada Lunga Danzante / Dancing Longsword"
+    },
+    "Eyes of Minute Seeing": {
+      "name": "Occhi per Visione Dettagliata / Eyes of Minute Seeing"
+    },
+    "Unarmed Strike": {
+      "name": "Colpo Senz'Armi / Unarmed Strike"
+    },
+    "Oil of Sharpness": {
+      "name": "Olio di Affilatura / Oil of Sharpness"
+    },
+    "Guardian Emblem": {
+      "name": "Emblema del Guardiano / Guardian Emblem"
+    },
+    "Blackrazor": {
+      "name": "Lama Nera / Blackrazor"
+    },
+    "Crystal Rapier": {
+      "name": "Rapiera di Cristallo / Crystal Rapier"
+    },
+    "Bigby's Beneficent Bracelet": {
+      "name": "Bracciale Benefico di Bigby / Bigby's Beneficent Bracelet"
+    },
+    "Javelin of Lightning": {
+      "name": "Giavellotto Fulminante / Javelin of Lightning"
+    },
+    "Potion of Advantage": {
+      "name": "Pozione del Vantaggio / Potion of Advantage"
+    },
+    "Potion of Invisibility": {
+      "name": "Pozione di Invisibilità / Potion of Invisibility"
+    },
+    "Crystal Greatsword": {
+      "name": "Spadone di Cristallo / Crystal Greatsword"
+    },
+    "Crystal Longsword": {
+      "name": "Spada Lunga di Cristallo / Crystal Longsword"
+    },
+    "Crystal Shortsword": {
+      "name": "Spada Corta di Cristallo / Crystal Shortsword"
+    },
+    "Potion of Aqueous Form": {
+      "name": "Pozione della Forma Acquatica / Potion of Aqueous Form"
+    },
+    "Crystal Scimitar": {
+      "name": "Scimitarra di Cristallo / Crystal Scimitar"
+    },
+    "Potion of Growth": {
+      "name": "Pozione di Crescita / Potion of Growth"
+    },
+    "Eyes of the Eagle": {
+      "name": "Occhi dell’Aquila / Eyes of the Eagle"
+    },
+    "Potion of Invulnerability": {
+      "name": "Pozione di Invulnerabilità / Potion of Invulnerability"
+    },
+    "Potion of Fire Breath": {
+      "name": "Pozione del Soffio di Fuoco / Potion of Fire Breath"
+    },
+    "Mystery Key": {
+      "name": "Chiave Misteriosa / Mystery Key"
+    },
+    "Dancing Rapier": {
+      "name": "Rapiera Danzante / Dancing Rapier"
+    },
+    "Potion of Giant Size": {
+      "name": "Pozione della Taglia Gigante / Potion of Giant Size"
+    },
+    "Potion of Vitality": {
+      "name": "Pozione della Vitalità / Potion of Vitality"
+    },
+    "Dancing Greatsword": {
+      "name": "Spadone Danzante / Dancing Greatsword"
+    },
+    "Eldritch Claw Tattoo": {
+      "name": "Tatuaggio dell’Artiglio Eldritch / Eldritch Claw Tattoo"
+    },
+    "Blood Spear": {
+      "name": "Lancia Insanguinata / Blood Spear"
+    },
+    "Potion of Heroism": {
+      "name": "Pozione di Eroismo / Potion of Heroism"
+    },
+    "Dancing Shortsword": {
+      "name": "Spada Corta Danzante / Dancing Shortsword"
+    },
+    "Lantern of Revealing": {
+      "name": "Lanterna della Rivelazione / Lantern of Revealing"
+    },
+    "Insignia of Claws": {
+      "name": "Insegna degli Artigli / Insignia of Claws"
+    },
+    "Potion of Poison": {
+      "name": "Pozione di Veleno / Potion of Poison"
+    },
+    "Boots of Elvenkind": {
+      "name": "Stivali Elifici / Boots of Elvenkind"
+    },
+    "Unarmed Strike (Unarmed Fighting)": {
+      "name": "Colpo Senz'Armi (Combattimento Senz'Armi) / Unarmed Strike (Unarmed Fighting)"
+    },
+    "Master's Amulet": {
+      "name": "Amuleto del Maestro"
+    },
+    "Wand of the War Mage, +1": {
+      "name": "Bacchetta del Mago da Guerra +1 / Wand of the War Mage +1"
+    },
+    "Dragon-Touched Focus (Stirring / Gem)": {
+      "name": "Focus Toccato dal Drago (Risveglio / Gemma) / Stirring Dragon-Touched Focus"
+    },
+    "Dragon Vessel (Stirring)": {
+      "name": "Vaso del Drago Risvegliato / Stirring Dragon Vessel"
+    },
+    "Dragon Vessel (Ascendant)": {
+      "name": "Vaso del Drago Ascendente / Ascendant Dragon Vessel"
+    },
+    "Dragon's Wrath Weapon (Wakened)": {
+      "name": "Arma dell’Ira del Drago Risvegliata / Wakened Dragon's Wrath Weapon"
+    },
+    "Unarmed Strike (Tavern Brawler)": {
+      "name": "Colpo Senz'Armi (Rissoso da Taverna) / Unarmed Strike (Tavern Brawler)"
+    },
+    "Unarmed Strike (Monk)": {
+      "name": "Colpo Senz'Armi (Monaco) / Unarmed Strike (Monk)"
+    },
+    "All-Purpose Tool, +1": {
+      "name": "Strumento Universale +1 / +1 All-Purpose Tool"
+    },
+    "Dragon-Touched Focus (Stirring / Chromatic)": {
+      "name": "Focus Toccato dal Drago (Risveglio / Cromatico) / Dragon-Touched Focus (Stirring / Chromatic)"
+    },
+    "Dragon Vessel (Slumbering)": {
+      "name": "Vaso del Drago Dormiente / Slumbering Dragon Vessel"
+    },
+    "Wings of Flying": {
+      "name": "Ali del Volo / Wings of Flying"
+    },
+    "Dragon's Wrath Weapon (Stirring)": {
+      "name": "Arma dell’Ira del Drago Risvegliata / Stirring Dragon's Wrath Weapon"
+    },
+    "Dragon's Wrath Weapon (Ascendant)": {
+      "name": "Arma dell’Ira del Drago Ascendente / Ascendant Dragon's Wrath Weapon"
+    },
+    "Armor of Safeguarding, Plate": {
+      "name": "Armatura a Piastre della Salvaguardia / Plate Armor of Safeguarding"
+    },
+    "Wand of the War Mage, +2": {
+      "name": "Bacchetta del Mago da Guerra +2 / Wand of the War Mage +2"
+    },
+    "Armor of Safeguarding, Chain Mail": {
+      "name": "Cotta di Maglia della Salvaguardia / Chain Mail of Safeguarding"
+    },
+    "Ring of Spell Storing (0/5)": {
+      "name": "Anello della Conservazione degli Incantesimi / Ring of Spell Storing"
+    },
+    "Dragon's Wrath Weapon (Slumbering)": {
+      "name": "Arma dell’Ira del Drago Dormiente / Dragon's Wrath Weapon (Slumbering)"
+    },
+    "Armor of Safeguarding, Splint": {
+      "name": "Armatura a Lamine della Salvaguardia / Splint Armor of Safeguarding"
+    },
+    "Armor of Safeguarding, Ring Mail": {
+      "name": "Cotta ad Anelli della Salvaguardia / Ring Mail of Safeguarding"
+    },
+    "Dragon Vessel (Wakened)": {
+      "name": "Vaso del Drago Risvegliato / Wakened Dragon Vessel"
+    },
+    "All-Purpose Tool, +2": {
+      "name": "Strumento Universale +2 / +2 All-Purpose Tool"
+    },
+    "All-Purpose Tool, +3": {
+      "name": "Strumento Universale +3 / +3 All-Purpose Tool"
+    },
+    "Dragon-Touched Focus (Slumbering)": {
+      "name": "Focus Toccato dal Drago Dormiente / Slumbering Dragon-Touched Focus"
+    },
+    "Wand of the War Mage, +3": {
+      "name": "Bacchetta del Mago da Guerra +3 / Wand of the War Mage +3"
+    }
+  }
 }

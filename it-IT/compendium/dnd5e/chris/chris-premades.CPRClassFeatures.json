@@ -1,792 +1,742 @@
 {
-	"label": "CPR Классовые способности",
-	"folders": {
-		"Alchemist": "Алхимик",
-		"Arcana Domain": "Домен магии",
-		"Armorer": "Бронник",
-		"Artificer": "Изобретатель",
-		"Artillerist": "Артиллерист",
-		"Barbarian": "Варвар",
-		"Bard": "Бард",
-		"Battle Master": "Мастер битвы",
-		"Battle Smith": "Боевой кузнец",
-		"Beast Master": "Повелитель зверей",
-		"Blade Flourish": "Цветение клинков",
-		"Bladesinging": "Школа поющего клинка",
-		"Circle of Dreams": "Круг Снов",
-		"Circle of Stars": "Круг Звёзд",
-		"Circle of Wildfire": "Круг Дикого Огня",
-		"Circle of the Moon": "Круг Луны",
-		"Circle of the Shepard": "Круг Пастыря",
-		"Cleric": "Жрец",
-		"College of Creation": "Коллегия Созидания",
-		"Death Domain": "Домен смерти",
-		"Divine Soul": "Божественная душа",
-		"Drakewarden": "Наездник на дрейке",
-		"Druid": "Друид",
-		"Fey Wanderer": "Странник фей",
-		"Fighter": "Воин",
-		"Fighting Styles": "Боевые стили",
-		"Forge Domain": "Домен кузни",
-		"Gloom Stalker": "Сумрачный охотник",
-		"Grave Domain": "Домен упокоения",
-		"Hunter": "Охотник",
-		"Inquisitive": "Сыщик",
-		"Invocations": "Потусторонние инвокации",
-		"Life Domain": "Домен жизни",
-		"Light Domain": "Домен света",
-		"Metamagic": "Метамагия",
-		"Monk": "Монах",
-		"Nature Domain": "Домен природы",
-		"Oath of Conquest": "Клятва покорения",
-		"Oath of Devotion": "Клятва верности",
-		"Oath of Glory": "Клятва славы",
-		"Oath of the Ancients": "Клятва древних",
-		"Oathbreaker": "Клятвопреступник",
-		"Order of Scribes": "Школа ордена писцов",
-		"Pact Boon": "Дар договора",
-		"Pact of the Blade": "Договор клинка",
-		"Paladin": "Паладин",
-		"Path of Wild Magic": "Путь дикой магии",
-		"Path of the Ancestral Guardian": "Путь предка-хранителя",
-		"Path of the Beast": "Путь зверя",
-		"Path of the Giant": "Путь великана",
-		"Path of the Totem Warrior": "Путь воителя тотема",
-		"Path of the Zealot": "Путь фанатика",
-		"Peace Domain": "Домен мира",
-		"Ranger": "Следопыт",
-		"Rogue": "Плут",
-		"Rune Knight": "Рунный рыцарь",
-		"Samurai": "Самурай",
-		"School of Abjuration": "Школа преграждения",
-		"School of Divination": "Школа прорицания",
-		"School of Evocation": "Школа воплощения",
-		"School of Necromancy": "Школа некромантии",
-		"Shadow Magic": "Теневая магия",
-		"Sorcerer": "Чародей",
-		"Soulknife": "Клинок души",
-		"Storm Sorcery": "Штормовое колдовство",
-		"Swashbuckler": "Дуэлянт",
-		"Tempest Domain": "Домен бури",
-		"The Archfey": "Архифея",
-		"The Celestial": "Небожитель",
-		"The Fathomless": "Бездонный",
-		"The Fiend": "Бестия",
-		"The Genie": "Гений",
-		"The Hexblade": "Ведьмовской клинок",
-		"The Undead": "Нежить",
-		"Twilight Domain": "Домен сумрака",
-		"War Magic": "Школа военной магии",
-		"Warlock": "Колдун",
-		"Way of Shadow": "Путь Тени",
-		"Way of the Ascendant Dragon": "Путь Восходящего Дракона",
-		"Wizard": "Волшебник",
-		"Aberrant Mind": "Аберрантный разум",
-		"Runes": "Руны",
-		"Maneuvers": "Маневры"
-	},
-	"entries": {
-		"Alchemical Savant": {
-			"name": "Учёный алхимик"
-		},
-		"Ancestral Protectors": {
-			"name": "Древние защитники"
-		},
-		"Animating Performance": {
-			"name": "Песнь оживления"
-		},
-		"Arcane Armor: Guardian Model": {
-			"name": "Модель доспеха: Страж"
-		},
-		"Arcane Armor: Infiltrator Model": {
-			"name": "Модель доспеха: Лазутчик"
-		},
-		"Arcane Jolt": {
-			"name": "Магическая встряска"
-		},
-		"Arcane Ward": {
-			"name": "Магический оберег"
-		},
-		"Armor Modifications": {
-			"name": "Модификация доспеха"
-		},
-		"Augment Breath": {
-			"name": "Аспект восхождения"
-		},
-		"Aura of Alacrity": {
-			"name": "Аура рвения"
-		},
-		"Aura of Conquest": {
-			"name": "Аура покорения"
-		},
-		"Aura of Courage": {
-			"name": "Аура отваги"
-		},
-		"Aura of Devotion": {
-			"name": "Аура верности"
-		},
-		"Aura of Hate": {
-			"name": "Аура ненависти"
-		},
-		"Aura of Protection": {
-			"name": "Аура защиты"
-		},
-		"Aura of Warding": {
-			"name": "Аура оберега"
-		},
-		"Awakened Spellbook: Replace Damage": {
-			"name": "Пробужденная книга заклинаний"
-		},
-		"Balm of the Summer Court": {
-			"name": "Утешение Летнего двора"
-		},
-		"Bardic Inspiration": {
-			"name": "Бардовское вдохновение (1, 5, 10, 15 ур)"
-		},
-		"Beguiling Twist": {
-			"name": "Заманивающий трюк"
-		},
-		"Bestial Soul": {
-			"name": "Звериная душа"
-		},
-		"Blade Flourish": {
-			"name": "Цветение клинков"
-		},
-		"Bladesong": {
-			"name": "Песнь клинков"
-		},
-		"Blessed Healer": {
-			"name": "Благословенный целитель"
-		},
-		"Blessed Strikes": {
-			"name": "Благословенные удары (опционально)"
-		},
-		"Blessing of the Forge": {
-			"name": "Благословение кузницы"
-		},
-		"Bolstering Magic": {
-			"name": "Поддерживающая магия"
-		},
-		"Breath of the Dragon": {
-			"name": "Дыхание дракона"
-		},
-		"Call the Hunt": {
-			"name": "Зов охоты"
-		},
-		"Channel Divinity: Arcane Abjuration": {
-			"name": "Проведение энергии: Ограждение магией"
-		},
-		"Channel Divinity: Balm of Peace": {
-			"name": "Проведение энергии: Целебный бальзам мира"
-		},
-		"Channel Divinity: Charm Animals and Plants": {
-			"name": "Проведение энергии: Обворожение животных и растений"
-		},
-		"Channel Divinity: Control Undead": {
-			"name": "Проведение энергии: Управление нежитью"
-		},
-		"Channel Divinity: Destructive Wrath": {
-			"name": "Проведение энергии: Разрушительный гнев"
-		},
-		"Channel Divinity: Dreadful Aspect": {
-			"name": "Проведение энергии: Жуткая внешность"
-		},
-		"Channel Divinity: Inspiring Smite": {
-			"name": "Проведение энергии: Впечатляющий удар"
-		},
-		"Channel Divinity: Nature's Wrath": {
-			"name": "Проведение энергии: Гнев природы"
-		},
-		"Channel Divinity: Path to the Grave": {
-			"name": "Проведение энергии: Путь к могиле"
-		},
-		"Channel Divinity: Peerless Athlete": {
-			"name": "Проведение энергии: Несравненный атлет"
-		},
-		"Channel Divinity: Preserve Life": {
-			"name": "Проведение энергии: Сохранение жизни"
-		},
-		"Channel Divinity: Radiance of the Dawn": {
-			"name": "Проведение энергии: Сияние зари"
-		},
-		"Channel Divinity: Sacred Weapon": {
-			"name": "Проведение энергии: Священное оружие"
-		},
-		"Channel Divinity: Turn the Faithless": {
-			"name": "Проведение энергии: Изгнание неверных"
-		},
-		"Channel Divinity: Turn Undead": {
-			"name": "Проведение энергии: Изгнание нежити"
-		},
-		"Channel Divinity: Twilight Sanctuary": {
-			"name": "Проведение энергии: Сумеречное святилище"
-		},
-		"Circle Forms": {
-			"name": "Формы круга друидов"
-		},
-		"Circle of Mortality": {
-			"name": "Круг смерти"
-		},
-		"Cloud Rune": {
-			"name": "Резчик рун: Облачная руна"
-		},
-		"Colossus Slayer": {
-			"name": "Добыча охотников: Убийца колоссов"
-		},
-		"Controlled Surge": {
-			"name": "Контролируемый всплеск"
-		},
-		"Create Eldritch Cannon": {
-			"name": "Мистическая пушка"
-		},
-		"Create Pact Weapon": {
-			"name": "Договор клинка"
-		},
-		"Danger Sense": {
-			"name": "Чутьё на опасность"
-		},
-		"Dark One's Blessing": {
-			"name": "Благословение Тёмного"
-		},
-		"Dark One's Own Luck": {
-			"name": "Удача Тёмного"
-		},
-		"Demiurgic Colossus": {
-			"name": "Демиург-колосс"
-		},
-		"Disciple of Life": {
-			"name": "Защитник жизни"
-		},
-		"Divine Fury: Necrotic": {
-			"name": "Божественный гнев: Некротический"
-		},
-		"Divine Fury: Radiant": {
-			"name": "Божественный гнев: Лучистый"
-		},
-		"Divine Smite": {
-			"name": "Божественная кара"
-		},
-		"Divine Strike": {
-			"name": "Божественный удар"
-		},
-		"Draconic Strike": {
-			"name": "Ученик дракона - Удар дракона"
-		},
-		"Drake Companion: Summon": {
-			"name": "Дрейк-компаньон"
-		},
-		"Dread Ambusher": {
-			"name": "Угроза из засады"
-		},
-		"Dread Lord": {
-			"name": "Властелин ужаса"
-		},
-		"Dreadful Strikes": {
-			"name": "Ужасающие удары"
-		},
-		"Durable Magic": {
-			"name": "Стойкая магия"
-		},
-		"Eldritch Invocations: Agonizing Blast": {
-			"name": "Инвокация: Разряд Агонии"
-		},
-		"Eldritch Invocations: Devil's Sight": {
-			"name": "Инвокация: Дьявольское зрение"
-		},
-		"Eldritch Invocations: Eldritch Smite": {
-			"name": "Инвокация: Мистическая кара"
-		},
-		"Eldritch Invocations: Grasp of Hadar": {
-			"name": "Инвокация: Хватка Хадара"
-		},
-		"Eldritch Invocations: Improved Pact Weapon": {
-			"name": "Инвокация: Улучшенное оружие договора"
-		},
-		"Eldritch Invocations: Investment of the Chain Master": {
-			"name": "Инвокация: Дар мастера цепи"
-		},
-		"Eldritch Invocations: Lance of Lethargy": {
-			"name": "Инвокация: Копьё летаргии"
-		},
-		"Eldritch Invocations: Maddening Hex": {
-			"name": "Инвокация: Безумное проклятие"
-		},
-		"Eldritch Invocations: One with Shadows": {
-			"name": "Инвокация: Единство с тенями"
-		},
-		"Eldritch Invocations: Relentless Hex": {
-			"name": "Инвокация: Безжалостное проклятие"
-		},
-		"Eldritch Invocations: Repelling Blast": {
-			"name": "Инвокация: Отбрасывающий разряд"
-		},
-		"Elemental Cleaver": {
-			"name": "Стихийный тесак"
-		},
-		"Elemental Gift (Dao)": {
-			"name": "Стихийный дар (Дао)"
-		},
-		"Elemental Gift (Djinni)": {
-			"name": "Стихийный дар (Джинн)"
-		},
-		"Elemental Gift (Efreeti)": {
-			"name": "Стихийный дар (Ифрит)"
-		},
-		"Elemental Gift (Marid)": {
-			"name": "Стихийный дар (Марид)"
-		},
-		"Elemental Gift: Flight": {
-			"name": "Стихийный дар: Полет"
-		},
-		"Elemental Wild Shape": {
-			"name": "Стихийный дикий облик"
-		},
-		"Emboldening Bond": {
-			"name": "Ободряющая связь"
-		},
-		"Empowered Evocation": {
-			"name": "Усиленная эвокация"
-		},
-		"Enhanced Bond": {
-			"name": "Усиленная связь"
-		},
-		"Evasion": {
-			"name": "Изворотливость"
-		},
-		"Expansive Bond": {
-			"name": "Расширенная связь"
-		},
-		"Experimental Elixir": {
-			"name": "Экспериментальный эликсир"
-		},
-		"Expert Divination": {
-			"name": "Мастер прорицания"
-		},
-		"Eye for Weakness": {
-			"name": "Взгляд на слабость"
-		},
-		"Eyes of Night": {
-			"name": "Глаза ночи"
-		},
-		"Favored by the Gods": {
-			"name": "Любимчик богов"
-		},
-		"Favored Foe": {
-			"name": "Предпочтительный противник (Опционально)"
-		},
-		"Fey Presence": {
-			"name": "Сила феи"
-		},
-		"Fighting Spirit": {
-			"name": "Боевой дух"
-		},
-		"Fighting Style: Superior Technique": {
-			"name": "Боевой стиль: Превосходная техника (Опционально)"
-		},
-		"Fighting Style: Unarmed Fighting": {
-			"name": "Боевой стиль: Сражение голыми руками (Опционально)"
-		},
-		"Fire Rune": {
-			"name": "Резчик рун: Огненная руна"
-		},
-		"Focused Aim": {
-			"name": "Фокусировка на цели (Опционально)"
-		},
-		"Form of Dread": {
-			"name": "Облик ужаса"
-		},
-		"Form of the Beast": {
-			"name": "Форма зверя"
-		},
-		"Frost Rune": {
-			"name": "Резчик рун: Ледяная руна"
-		},
-		"Genie's Vessel: Genie's Wrath (Dao)": {
-			"name": "Сосуд гения: Гнев гения (Дао)"
-		},
-		"Genie's Vessel: Genie's Wrath (Djinni)": {
-			"name": "Сосуд гения: Гнев гения (Джин)"
-		},
-		"Genie's Vessel: Genie's Wrath (Efreeti)": {
-			"name": "Сосуд гения: Гнев гения (Ифрит)"
-		},
-		"Genie's Vessel: Genie's Wrath (Marid)": {
-			"name": "Сосуд гения: Гнев гения (Марид)"
-		},
-		"Giant's Havoc: Crushing Throw": {
-			"name": "Великанье разрушение: Сокрушительный бросок"
-		},
-		"Giant's Havoc: Giant Stature": {
-			"name": "Великанье разрушение: Рост великана"
-		},
-		"Giant's Might": {
-			"name": "Мощь великана"
-		},
-		"Grave Touched": {
-			"name": "Могильное касание"
-		},
-		"Great Stature": {
-			"name": "Великий рост"
-		},
-		"Grim Harvest": {
-			"name": "Мрачный жнец"
-		},
-		"Harness Divine Power": {
-			"name": "Праведное восстановление (Опционально)"
-		},
-		"Healing Light": {
-			"name": "Лечащий свет"
-		},
-		"Heart of the Storm": {
-			"name": "Бурная магия"
-		},
-		"Hearth of Moonlight and Shadow": {
-			"name": "Очаг лунного света и тени"
-		},
-		"Hex Warrior": {
-			"name": "Проклятый воитель"
-		},
-		"Hexblade's Curse": {
-			"name": "Проклятие ведьмовского клинка"
-		},
-		"Hidden Paths": {
-			"name": "Скрытые пути"
-		},
-		"Hill Rune": {
-			"name": "Резчик рун: Холмовая руна"
-		},
-		"Holy Nimbus": {
-			"name": "Священный нимб"
-		},
-		"Infectious Fury": {
-			"name": "Заразная ярость"
-		},
-		"Infuse Item": {
-			"name": "Инфузирование предмета"
-		},
-		"Insightful Fighting": {
-			"name": "Проницательный бой"
-		},
-		"Ki Points": {
-			"name": "Ци"
-		},
-		"Lay on Hands": {
-			"name": "Возложение рук"
-		},
-		"Magical Inspiration": {
-			"name": "Магическое вдохновение (Опционально)"
-		},
-		"Maneuvers: Ambush": {
-			"name": "Манёвр: Засада"
-		},
-		"Maneuvers: Bait and Switch": {
-			"name": "Манёвр: Подмена"
-		},
-		"Maneuvers: Brace": {
-			"name": "Манёвр: Готовность"
-		},
-		"Maneuvers: Commander's Strike": {
-			"name": "Манёвр: Удар командира"
-		},
-		"Maneuvers: Commanding Presence": {
-			"name": "Манёвр: Командирский напор"
-		},
-		"Maneuvers: Disarming Attack": {
-			"name": "Манёвр: Обезоруживающая атака"
-		},
-		"Maneuvers: Distracting Strike": {
-			"name": "Манёвр: Отвлекающий удар"
-		},
-		"Maneuvers: Evasive Footwork": {
-			"name": "Манёвр: Перебежка"
-		},
-		"Maneuvers: Feinting Attack": {
-			"name": "Манёвр: Атака с финтом"
-		},
-		"Maneuvers: Goading Attack": {
-			"name": "Манёвр: Провоцирующая атака"
-		},
-		"Maneuvers: Grappling Strike": {
-			"name": "Манёвр: Атака с захватом"
-		},
-		"Maneuvers: Lunging Attack": {
-			"name": "Манёвр: Атака с выпадом"
-		},
-		"Maneuvers: Maneuvering Attack": {
-			"name": "Манёвр: Атака с манёвром"
-		},
-		"Maneuvers: Menacing Attack": {
-			"name": "Манёвр: Угрожающая атака"
-		},
-		"Maneuvers: Parry": {
-			"name": "Манёвр: Парирование"
-		},
-		"Maneuvers: Precision Attack": {
-			"name": "Манёвр: Точная атака"
-		},
-		"Maneuvers: Pushing Attack": {
-			"name": "Манёвр: Толкающая атака"
-		},
-		"Maneuvers: Quick Toss": {
-			"name": "Манёвр: Быстрый бросок"
-		},
-		"Maneuvers: Rally": {
-			"name": "Манёвр: Поддержка"
-		},
-		"Maneuvers: Riposte": {
-			"name": "Манёвр: Контратака"
-		},
-		"Maneuvers: Sweeping Attack": {
-			"name": "Манёвр: Круговая атака"
-		},
-		"Maneuvers: Tactical Assessment": {
-			"name": "Манёвр: Тактическая оценка"
-		},
-		"Maneuvers: Trip Attack": {
-			"name": "Манёвр: Атака-подсечка"
-		},
-		"Manifest Mind: Summon": {
-			"name": "Пробуждение разума - Призыв"
-		},
-		"Master of Hexes": {
-			"name": "Мастер проклятий"
-		},
-		"Master's Flourish": {
-			"name": "Мастерское цветение"
-		},
-		"Metamagic: Careful Spell": {
-			"name": "Метамагия: Осторожное заклинание"
-		},
-		"Metamagic: Distant Spell": {
-			"name": "Метамагия: Дальнее заклинание"
-		},
-		"Metamagic: Empowered Spell": {
-			"name": "Метамагия: Мощное заклинание"
-		},
-		"Metamagic: Extended Spell": {
-			"name": "Метамагия: Длительное заклинание"
-		},
-		"Metamagic: Heightened Spell": {
-			"name": "Метамагия: Повышенное заклинание"
-		},
-		"Metamagic: Quickened Spell": {
-			"name": "Метамагия: Быстрое заклинание"
-		},
-		"Metamagic: Seeking Spell": {
-			"name": "Метамагия: Ищущее заклинание"
-		},
-		"Metamagic: Subtle Spell": {
-			"name": "Метамагия: Незаметное заклинание"
-		},
-		"Metamagic: Transmuted Spell": {
-			"name": "Метамагия: Преобразованное заклинание"
-		},
-		"Metamagic: Twinned Spell": {
-			"name": "Метамагия: Сдвоенное заклинание"
-		},
-		"Mighty Impel": {
-			"name": "Пробуждение мощи"
-		},
-		"Mighty Summoner": {
-			"name": "Могущественный призыватель"
-		},
-		"Misty Escape": {
-			"name": "Туманное бегство"
-		},
-		"Mote of Potential": {
-			"name": "Ноты потенциала"
-		},
-		"Overchannel": {
-			"name": "Переполнение энергией"
-		},
-		"Patient Defense": {
-			"name": "Ци: Терпеливая защита"
-		},
-		"Persistent Rage": {
-			"name": "Бесконечная ярость"
-		},
-		"Potent Cantrip": {
-			"name": "Сильный фокус"
-		},
-		"Potent Spellcasting": {
-			"name": "Сильные заклинания"
-		},
-		"Primal Companion": {
-			"name": "Первичный спутник (Опционально)"
-		},
-		"Primal Strike": {
-			"name": "Первобытный удар"
-		},
-		"Projected Ward": {
-			"name": "Проекция оберега"
-		},
-		"Protective Bond": {
-			"name": "Защитная связь"
-		},
-		"Psionic Power: Psionic Energy": {
-			"name": "Псионическая энергия"
-		},
-		"Psionic Power: Recovery": {
-			"name": "Кость пси-энергии"
-		},
-		"Psychic Blades": {
-			"name": "Психические клинки"
-		},
-		"Purity of Spirit": {
-			"name": "Очищение духа"
-		},
-		"Quickened Healing": {
-			"name": "Ускоренное исцеление (Опционально)"
-		},
-		"Radiant Soul": {
-			"name": "Сияющая душа"
-		},
-		"Rage": {
-			"name": "Ярость"
-		},
-		"Rakish Audacity": {
-			"name": "Лихая удаль"
-		},
-		"Reaper": {
-			"name": "Жнец"
-		},
-		"Relentless": {
-			"name": "Несгибаемость"
-		},
-		"Rend Mind": {
-			"name": "Расщепление разума"
-		},
-		"Runic Juggernaut": {
-			"name": "Рунический джаггернаут"
-		},
-		"Runic Shield": {
-			"name": "Рунический щит"
-		},
-		"Sculpt Spells": {
-			"name": "Лепка заклинаний"
-		},
-		"Shadow Step": {
-			"name": "Шаг теней"
-		},
-		"Sneak Attack": {
-			"name": "Атака исподтишка"
-		},
-		"Song of Defense": {
-			"name": "Песнь защиты"
-		},
-		"Song of Victory": {
-			"name": "Песнь победы"
-		},
-		"Sorcery Points": {
-			"name": "Очки чар"
-		},
-		"Soul Blades: Homing Strikes": {
-			"name": "Клинок души"
-		},
-		"Starry Form": {
-			"name": "Звёздная форма"
-		},
-		"Steel Defender": {
-			"name": "Стальной защитник"
-		},
-		"Steps of Night": {
-			"name": "Шаги ночи"
-		},
-		"Stillness of Mind": {
-			"name": "Покой разума"
-		},
-		"Stone Rune": {
-			"name": "Резчик рун: Каменная руна"
-		},
-		"Storm Rune": {
-			"name": "Резчик рун: Штормовая руна"
-		},
-		"Strength of the Grave": {
-			"name": "Сила могилы"
-		},
-		"Stunning Strike": {
-			"name": "Ци: Шокирующий удар"
-		},
-		"Summon Wildfire Spirit": {
-			"name": "Призыв духа дикого огня"
-		},
-		"Superiority Dice": {
-			"name": "Кость превосходства"
-		},
-		"Supreme Healing": {
-			"name": "Высшее исцеление"
-		},
-		"Tentacle of the Deeps: Summon": {
-			"name": "Щупальце из глубин"
-		},
-		"Thunderbolt Strike": {
-			"name": "Удар грома"
-		},
-		"Totem Spirit: Bear": {
-			"name": "Дух тотема: Медведь"
-		},
-		"Twilight Shroud": {
-			"name": "Сумеречный саван"
-		},
-		"Twinkling Constellations": {
-			"name": "Мерцающие созвездия"
-		},
-		"Umbral Sight": {
-			"name": "Теневой взор"
-		},
-		"Unarmored Defense (Barbarian)": {
-			"name": "Защита без брони"
-		},
-		"Unarmored Defense (Monk)": {
-			"name": "Защита без брони"
-		},
-		"Undead Thralls": {
-			"name": "Слуги-нежить"
-		},
-		"Unstable Backlash": {
-			"name": "Нестабильная отдача"
-		},
-		"Vigilant Blessing": {
-			"name": "Бдительное благословение"
-		},
-		"Wild Shape": {
-			"name": "Дикий облик"
-		},
-		"Wild Surge": {
-			"name": "Всплеск дикости"
-		},
-		"Wrath of the Storm": {
-			"name": "Ярость грозы"
-		},
-		"Zealous Presence": {
-			"name": "Фанатичное присутствие"
-		},
-		"Spirit Shield": {
-			"name": "Щит предков"
-		},
-		"Vengeful Ancestors": {
-			"name": "Мстительные предки"
-		},
-		"Telepathic Speech": {
-			"name": "Телепатическая речь"
-		},
-		"Psychic Defenses": {
-			"name": "Психическая защита"
-		},
-		"Revelation in Flesh": {
-			"name": "Откровение во плоти"
-		},
-		"Warping Implosion": {
-			"name": "Искажающий взрыв"
-		},
-		"Psionic Sorcery": {
-			"name": "Псионическое чародейство"
-		},
-		"Psionic Spells": {
-			"name": "Псионические заклинания"
-		},
-		"Sentinel at Death's Door": {
-			"name": "Страж на пороге смерти"
-		}
-	}
+  "label": "CPR Capacità di Classe",
+  "folders": {
+    "Alchemist": "Alchimista",
+    "Arcana Domain": "Dominio dell'Arcano",
+    "Armorer": "Corazziere",
+    "Artificer": "Artefice",
+    "Artillerist": "Artigliere",
+    "Barbarian": "Barbaro",
+    "Bard": "Bardo",
+    "Battle Master": "Maestro di Battaglia",
+    "Battle Smith": "Fabbro da Battaglia",
+    "Beast Master": "Signore delle Bestie",
+    "Blade Flourish": "Fioritura della Lama",
+    "Bladesinging": "Canto della Lama",
+    "Circle of Dreams": "Circolo dei Sogni",
+    "Circle of Stars": "Circolo delle Stelle",
+    "Circle of Wildfire": "Circolo del Fuoco Selvaggio",
+    "Circle of the Moon": "Circolo della Luna",
+    "Circle of the Shepard": "Circolo del Pastore",
+    "Cleric": "Chierico",
+    "College of Creation": "Collegio della Creazione",
+    "Death Domain": "Dominio della Morte",
+    "Divine Soul": "Anima Divina",
+    "Drakewarden": "Custode dei Draghetti",
+    "Druid": "Druido",
+    "Fey Wanderer": "Vagabondo Fatato",
+    "Fighter": "Combattente",
+    "Fighting Styles": "Stili di Combattimento",
+    "Forge Domain": "Dominio della Fucina",
+    "Gloom Stalker": "Predatore dell’Oscurità",
+    "Grave Domain": "Dominio della Tomba",
+    "Hunter": "Cacciatore",
+    "Inquisitive": "Investigatore",
+    "Invocations": "Invocazioni Ultraterrene",
+    "Life Domain": "Dominio della Vita",
+    "Light Domain": "Dominio della Luce",
+    "Metamagic": "Metamagia",
+    "Monk": "Monaco",
+    "Nature Domain": "Dominio della Natura",
+    "Oath of Conquest": "Giuramento di Conquista",
+    "Oath of Devotion": "Giuramento di Devozione",
+    "Oath of Glory": "Giuramento di Gloria",
+    "Oath of the Ancients": "Giuramento degli Antichi",
+    "Oathbreaker": "Spergiuro",
+    "Order of Scribes": "Ordine degli Scribi",
+    "Pact Boon": "Dono del Patto",
+    "Pact of the Blade": "Patto della Lama",
+    "Paladin": "Paladino",
+    "Path of Wild Magic": "Sentiero della Magia Selvaggia",
+    "Path of the Ancestral Guardian": "Sentiero del Guardiano Ancestrale",
+    "Path of the Beast": "Sentiero della Bestia",
+    "Path of the Giant": "Sentiero del Gigante",
+    "Path of the Totem Warrior": "Sentiero del Guerriero Totemico",
+    "Path of the Zealot": "Sentiero del Fanatico",
+    "Peace Domain": "Dominio della Pace",
+    "Ranger": "Ranger",
+    "Rogue": "Ladro",
+    "Rune Knight": "Cavaliere delle Rune",
+    "Samurai": "Samurai",
+    "School of Abjuration": "Scuola di Abiurazione",
+    "School of Divination": "Scuola di Divinazione",
+    "School of Evocation": "Scuola di Evocazione",
+    "School of Necromancy": "Scuola di Negromanzia",
+    "Shadow Magic": "Magia d’Ombra",
+    "Sorcerer": "Stregone",
+    "Soulknife": "Lama dell’Anima",
+    "Storm Sorcery": "Stregoneria della Tempesta",
+    "Swashbuckler": "Spadaccino",
+    "Tempest Domain": "Dominio della Tempesta",
+    "The Archfey": "L’Arciprincipessa Fatata",
+    "The Celestial": "Il Celestiale",
+    "The Fathomless": "L’Abissale",
+    "The Fiend": "Il Demone",
+    "The Genie": "Il Genio",
+    "The Hexblade": "La Lama Maledetta",
+    "The Undead": "Il Non Morto",
+    "Twilight Domain": "Dominio del Crepuscolo",
+    "War Magic": "Magia della Guerra",
+    "Warlock": "Warlock",
+    "Way of Shadow": "Via dell’Ombra",
+    "Way of the Ascendant Dragon": "Via del Drago Ascendente",
+    "Wizard": "Mago",
+    "Aberrant Mind": "Mente Aberrante",
+    "Runes": "Rune",
+    "Maneuvers": "Manovre"
+  },
+  "entries": {
+    "Alchemical Savant": { "name": "Savant Alchemico" },
+    "Ancestral Protectors": { "name": "Protettori Ancestrali" },
+    "Animating Performance": { "name": "Performance Animata" },
+    "Arcane Armor: Guardian Model": {
+      "name": "Armatura Arcana: Modello Guardiano"
+    },
+    "Arcane Armor: Infiltrator Model": {
+      "name": "Armatura Arcana: Modello Infiltratore"
+    },
+    "Arcane Jolt": { "name": "Scossa Arcana" },
+    "Arcane Ward": { "name": "Velo Arcano" },
+    "Armor Modifications": { "name": "Modifiche all’Armatura" },
+    "Augment Breath": { "name": "Respiro Potenziato" },
+    "Aura of Alacrity": { "name": "Aura di Alacrità" },
+    "Aura of Conquest": { "name": "Aura di Conquista" },
+    "Aura of Courage": { "name": "Aura di Coraggio" },
+    "Aura of Devotion": { "name": "Aura di Devozione" },
+    "Aura of Hate": { "name": "Aura dell’Odio" },
+    "Aura of Protection": { "name": "Aura di Protezione" },
+    "Aura of Warding": { "name": "Aura di Salvaguardia" },
+    "Awakened Spellbook: Replace Damage": {
+      "name": "Libro degli Incantesimi Risvegliato"
+    },
+    "Balm of the Summer Court": { "name": "Balsamo della Corte Estiva" },
+    "Bardic Inspiration": {
+      "name": "Ispirazione Bardica (1°, 5°, 10°, 15° liv)"
+    },
+    "Beguiling Twist": { "name": "Trucco Seducente" },
+    "Bestial Soul": { "name": "Anima Bestiale" },
+    "Blade Flourish": { "name": "Fioritura della Lama" },
+    "Bladesong": { "name": "Canto della Lama" },
+    "Blessed Healer": { "name": "Guaritore Benedetto" },
+    "Blessed Strikes": { "name": "Colpi Benedetti (opzionale)" },
+    "Blessing of the Forge": { "name": "Benedizione della Fucina" },
+    "Bolstering Magic": { "name": "Magia di Sostegno" },
+    "Breath of the Dragon": { "name": "Respiro del Drago" },
+    "Call the Hunt": { "name": "Richiamo della Caccia" },
+    "Channel Divinity: Arcane Abjuration": {
+      "name": "Canalizzare Divinità: Abiurazione Arcana"
+    },
+    "Channel Divinity: Balm of Peace": {
+      "name": "Canalizzare Divinità: Balsamo della Pace"
+    },
+    "Channel Divinity: Charm Animals and Plants": {
+      "name": "Canalizzare Divinità: Incanto su Animali e Piante"
+    },
+    "Channel Divinity: Control Undead": {
+      "name": "Canalizzare Divinità: Controllo dei Non Morti"
+    },
+    "Channel Divinity: Destructive Wrath": {
+      "name": "Canalizzare Divinità: Ira Distruttiva"
+    },
+    "Channel Divinity: Dreadful Aspect": {
+      "name": "Canalizzare Divinità: Aspetto Terribile"
+    },
+    "Channel Divinity: Inspiring Smite": {
+      "name": "Canalizzare Divinità: Colpo Ispiratore"
+    },
+    "Channel Divinity: Nature's Wrath": {
+      "name": "Canalizzare Divinità: Ira della Natura"
+    },
+    "Channel Divinity: Path to the Grave": {
+      "name": "Canalizzare Divinità: Sentiero verso la Tomba"
+    },
+    "Channel Divinity: Peerless Athlete": {
+      "name": "Canalizzare Divinità: Atleta Impareggiabile"
+    },
+    "Channel Divinity: Preserve Life": {
+      "name": "Canalizzare Divinità: Preservare la Vita"
+    },
+    "Channel Divinity: Radiance of the Dawn": {
+      "name": "Canalizzare Divinità: Splendore dell'Alba"
+    },
+    "Channel Divinity: Sacred Weapon": {
+      "name": "Canalizzare Divinità: Arma Sacra"
+    },
+    "Channel Divinity: Turn the Faithless": {
+      "name": "Canalizzare Divinità: Scacciare gli Infedeli"
+    },
+    "Channel Divinity: Turn Undead": {
+      "name": "Canalizzare Divinità: Scacciare i Non Morti"
+    },
+    "Channel Divinity: Twilight Sanctuary": {
+      "name": "Canalizzare Divinità: Santuario del Crepuscolo"
+    },
+    "Circle Forms": {
+      "name": "Forme del Circolo"
+    },
+    "Circle of Mortality": {
+      "name": "Circolo della Mortalità"
+    },
+    "Cloud Rune": {
+      "name": "Runa delle Nuvole"
+    },
+    "Colossus Slayer": {
+      "name": "Uccisore di Colossi"
+    },
+    "Controlled Surge": {
+      "name": "Esplosione Controllata"
+    },
+    "Create Eldritch Cannon": {
+      "name": "Creare Cannone Eldritch"
+    },
+    "Create Pact Weapon": {
+      "name": "Creare Arma del Patto"
+    },
+    "Danger Sense": {
+      "name": "Senso del Pericolo"
+    },
+    "Dark One's Blessing": {
+      "name": "Benedizione dell'Oscuro"
+    },
+    "Dark One's Own Luck": {
+      "name": "Fortuna dell'Oscuro"
+    },
+    "Demiurgic Colossus": {
+      "name": "Colosso Demiurgico"
+    },
+    "Disciple of Life": {
+      "name": "Discepolo della Vita"
+    },
+    "Divine Fury: Necrotic": {
+      "name": "Furia Divina: Necrotica"
+    },
+    "Divine Fury: Radiant": {
+      "name": "Furia Divina: Radiante"
+    },
+    "Divine Smite": {
+      "name": "Punizione Divina"
+    },
+    "Divine Strike": {
+      "name": "Colpo Divino"
+    },
+    "Draconic Strike": {
+      "name": "Colpo Draconico"
+    },
+    "Drake Companion: Summon": {
+      "name": "Compagno Draconico: Evocazione"
+    },
+    "Dread Ambusher": {
+      "name": "Assalitore Inquietante"
+    },
+    "Dread Lord": {
+      "name": "Signore del Terrore"
+    },
+    "Dreadful Strikes": {
+      "name": "Colpi Terrificanti"
+    },
+    "Durable Magic": {
+      "name": "Magia Durevole"
+    },
+    "Eldritch Invocations: Agonizing Blast": {
+      "name": "Invocazione: Esplosione Agonizzante"
+    },
+    "Eldritch Invocations: Devil's Sight": {
+      "name": "Invocazione: Vista del Diavolo"
+    },
+    "Eldritch Invocations: Eldritch Smite": {
+      "name": "Invocazione: Punizione Eldritch"
+    },
+    "Eldritch Invocations: Grasp of Hadar": {
+      "name": "Invocazione: Stretta di Hadar"
+    },
+    "Eldritch Invocations: Improved Pact Weapon": {
+      "name": "Invocazione: Arma del Patto Migliorata"
+    },
+    "Eldritch Invocations: Investment of the Chain Master": {
+      "name": "Invocazione: Investitura del Maestro della Catena"
+    },
+    "Eldritch Invocations: Lance of Lethargy": {
+      "name": "Invocazione: Lancia della Letargia"
+    },
+    "Eldritch Invocations: Maddening Hex": {
+      "name": "Invocazione: Maledizione Folle"
+    },
+    "Eldritch Invocations: One with Shadows": {
+      "name": "Invocazione: Uno con le Ombre"
+    },
+    "Eldritch Invocations: Relentless Hex": {
+      "name": "Invocazione: Maledizione Inesorabile"
+    },
+    "Eldritch Invocations: Repelling Blast": {
+      "name": "Invocazione: Esplosione Repellente"
+    },
+    "Elemental Cleaver": {
+      "name": "Mannaia Elementale"
+    },
+    "Elemental Gift (Dao)": {
+      "name": "Dono Elementale (Dao)"
+    },
+    "Elemental Gift (Djinni)": {
+      "name": "Dono Elementale (Genio dell’Aria)"
+    },
+    "Elemental Gift (Efreeti)": {
+      "name": "Dono Elementale (Efreeti)"
+    },
+    "Elemental Gift (Marid)": {
+      "name": "Dono Elementale (Marid)"
+    },
+    "Elemental Gift: Flight": {
+      "name": "Dono Elementale: Volo"
+    },
+    "Elemental Wild Shape": {
+      "name": "Forma Selvatica Elementale"
+    },
+    "Emboldening Bond": {
+      "name": "Vincolo Incoraggiante"
+    },
+    "Empowered Evocation": {
+      "name": "Evocazione Potenziata"
+    },
+    "Enhanced Bond": {
+      "name": "Vincolo Potenziato"
+    },
+    "Evasion": {
+      "name": "Schivata"
+    },
+    "Expansive Bond": {
+      "name": "Vincolo Espanso"
+    },
+    "Experimental Elixir": {
+      "name": "Elisir Sperimentale"
+    },
+    "Expert Divination": {
+      "name": "Divinazione Esperta"
+    },
+    "Eye for Weakness": {
+      "name": "Occhio per la Debolezza"
+    },
+    "Eyes of Night": {
+      "name": "Occhi della Notte"
+    },
+    "Favored by the Gods": {
+      "name": "Favorito dagli Dei"
+    },
+    "Favored Foe": {
+      "name": "Nemico Prediletto (Opzionale)"
+    },
+    "Fey Presence": {
+      "name": "Presenza Fatata"
+    },
+    "Fighting Spirit": {
+      "name": "Spirito Combattivo"
+    },
+    "Fighting Style: Superior Technique": {
+      "name": "Stile di Combattimento: Tecnica Superiore (Opzionale)"
+    },
+    "Fighting Style: Unarmed Fighting": {
+      "name": "Stile di Combattimento: Lotta a Mani Nude (Opzionale)"
+    },
+    "Fire Rune": {
+      "name": "Runa del Fuoco"
+    },
+    "Focused Aim": {
+      "name": "Mira Focalizzata (Opzionale)"
+    },
+    "Form of Dread": {
+      "name": "Forma del Terrore"
+    },
+    "Form of the Beast": {
+      "name": "Forma della Bestia"
+    },
+    "Frost Rune": {
+      "name": "Runa del Gelo"
+    },
+    "Genie's Vessel: Genie's Wrath (Dao)": {
+      "name": "Vaso del Genio: Ira del Genio (Dao)"
+    },
+    "Genie's Vessel: Genie's Wrath (Djinni)": {
+      "name": "Vaso del Genio: Ira del Genio (Djinni)"
+    },
+    "Genie's Vessel: Genie's Wrath (Efreeti)": {
+      "name": "Vaso del Genio: Ira del Genio (Efreeti)"
+    },
+    "Genie's Vessel: Genie's Wrath (Marid)": {
+      "name": "Vaso del Genio: Ira del Genio (Marid)"
+    },
+    "Giant's Havoc: Crushing Throw": {
+      "name": "Devastazione del Gigante: Lancio Schiacciante"
+    },
+    "Giant's Havoc: Giant Stature": {
+      "name": "Devastazione del Gigante: Statura del Gigante"
+    },
+    "Giant's Might": {
+      "name": "Potere del Gigante"
+    },
+    "Grave Touched": {
+      "name": "Tocco della Tomba"
+    },
+    "Great Stature": {
+      "name": "Statura Imponente"
+    },
+    "Grim Harvest": {
+      "name": "Raccolto Funesto"
+    },
+    "Harness Divine Power": {
+      "name": "Canalizzare il Potere Divino (Opzionale)"
+    },
+    "Healing Light": {
+      "name": "Luce Curativa"
+    },
+    "Heart of the Storm": {
+      "name": "Cuore della Tempesta"
+    },
+    "Hearth of Moonlight and Shadow": {
+      "name": "Focolare di Luce Lunare e Ombra"
+    },
+    "Hex Warrior": {
+      "name": "Guerriero delle Maledizioni"
+    },
+    "Hexblade's Curse": {
+      "name": "Maledizione della Lama Stregata"
+    },
+    "Hidden Paths": {
+      "name": "Sentieri Nascosti"
+    },
+    "Hill Rune": {
+      "name": "Runa della Collina"
+    },
+    "Holy Nimbus": {
+      "name": "Nimbo Sacro"
+    },
+    "Infectious Fury": {
+      "name": "Furia Infettiva"
+    },
+    "Infuse Item": {
+      "name": "Infusione Oggetto"
+    },
+    "Insightful Fighting": {
+      "name": "Combattimento Intuitivo"
+    },
+    "Ki Points": {
+      "name": "Punti Ki"
+    },
+    "Lay on Hands": {
+      "name": "Imposizione delle Mani"
+    },
+    "Magical Inspiration": {
+      "name": "Ispirazione Magica (Opzionale)"
+    },
+    "Maneuvers: Ambush": {
+      "name": "Manovra: Agguato"
+    },
+    "Maneuvers: Bait and Switch": {
+      "name": "Manovra: Esca e Sostituzione"
+    },
+    "Maneuvers: Brace": {
+      "name": "Manovra: Preparazione"
+    },
+    "Maneuvers: Commander's Strike": {
+      "name": "Manovra: Colpo del Comandante"
+    },
+    "Maneuvers: Commanding Presence": {
+      "name": "Manovra: Presenza Imponente"
+    },
+    "Maneuvers: Disarming Attack": {
+      "name": "Manovra: Attacco Disarmante"
+    },
+    "Maneuvers: Distracting Strike": {
+      "name": "Manovra: Colpo di Distrazione"
+    },
+    "Maneuvers: Evasive Footwork": {
+      "name": "Manovra: Passi Evasivi"
+    },
+    "Maneuvers: Feinting Attack": {
+      "name": "Manovra: Attacco Fintato"
+    },
+    "Maneuvers: Goading Attack": {
+      "name": "Manovra: Attacco Provocatorio"
+    },
+    "Maneuvers: Grappling Strike": {
+      "name": "Manovra: Colpo con Presa"
+    },
+    "Maneuvers: Lunging Attack": {
+      "name": "Manovra: Attacco in Affondo"
+    },
+    "Maneuvers: Maneuvering Attack": {
+      "name": "Manovra: Attacco Manovrato"
+    },
+    "Maneuvers: Menacing Attack": {
+      "name": "Manovra: Attacco Minaccioso"
+    },
+    "Maneuvers: Parry": {
+      "name": "Manovra: Parata"
+    },
+    "Maneuvers: Precision Attack": {
+      "name": "Manovra: Attacco Preciso"
+    },
+    "Maneuvers: Pushing Attack": {
+      "name": "Manovra: Attacco Spingente"
+    },
+    "Maneuvers: Quick Toss": {
+      "name": "Manovra: Lancio Rapido"
+    },
+    "Maneuvers: Rally": {
+      "name": "Manovra: Radunata"
+    },
+    "Maneuvers: Riposte": {
+      "name": "Manovra: Risposta"
+    },
+    "Maneuvers: Sweeping Attack": {
+      "name": "Manovra: Attacco Circolare"
+    },
+    "Maneuvers: Tactical Assessment": {
+      "name": "Manovra: Valutazione Tattica"
+    },
+    "Maneuvers: Trip Attack": {
+      "name": "Manovra: Attacco con Sbilanciamento"
+    },
+    "Manifest Mind: Summon": {
+      "name": "Manifestazione della Mente: Evocazione"
+    },
+    "Master of Hexes": {
+      "name": "Maestro delle Maledizioni"
+    },
+    "Master's Flourish": {
+      "name": "Fioritura Magistrale"
+    },
+    "Metamagic: Careful Spell": {
+      "name": "Metamagia: Incantesimo Prudente"
+    },
+    "Metamagic: Distant Spell": {
+      "name": "Metamagia: Incantesimo Distante"
+    },
+    "Metamagic: Empowered Spell": {
+      "name": "Metamagia: Incantesimo Potenziato"
+    },
+    "Metamagic: Extended Spell": {
+      "name": "Metamagia: Incantesimo Prolungato"
+    },
+    "Metamagic: Heightened Spell": {
+      "name": "Metamagia: Incantesimo Intensificato"
+    },
+    "Metamagic: Quickened Spell": {
+      "name": "Metamagia: Incantesimo Rapido"
+    },
+    "Metamagic: Seeking Spell": {
+      "name": "Metamagia: Incantesimo Ricercato"
+    },
+    "Metamagic: Subtle Spell": {
+      "name": "Metamagia: Incantesimo Sottile"
+    },
+    "Metamagic: Transmuted Spell": {
+      "name": "Metamagia: Incantesimo Trasmutato"
+    },
+    "Metamagic: Twinned Spell": {
+      "name": "Metamagia: Incantesimo Gemello"
+    },
+    "Mighty Impel": {
+      "name": "Impulso Possente"
+    },
+    "Mighty Summoner": {
+      "name": "Evocatore Possente"
+    },
+    "Misty Escape": {
+      "name": "Fuga Nebbiosa"
+    },
+    "Mote of Potential": {
+      "name": "Scintilla di Potenziale"
+    },
+    "Overchannel": {
+      "name": "Sovraccarico"
+    },
+    "Patient Defense": {
+      "name": "Difesa Paziente"
+    },
+    "Persistent Rage": {
+      "name": "Ira Persistente"
+    },
+    "Potent Cantrip": {
+      "name": "Trucchetto Potente"
+    },
+    "Potent Spellcasting": {
+      "name": "Incantamento Potente"
+    },
+    "Primal Companion": {
+      "name": "Compagno Primordiale (Opzionale)"
+    },
+    "Primal Strike": {
+      "name": "Colpo Primordiale"
+    },
+    "Projected Ward": {
+      "name": "Scudo Proiettato"
+    },
+    "Protective Bond": {
+      "name": "Legame Protettivo"
+    },
+    "Psionic Power: Psionic Energy": {
+      "name": "Potere Psionico: Energia Psionica"
+    },
+    "Psionic Power: Recovery": {
+      "name": "Potere Psionico: Recupero"
+    },
+    "Psychic Blades": {
+      "name": "Lame Psichiche"
+    },
+    "Purity of Spirit": {
+      "name": "Purezza dello Spirito"
+    },
+    "Quickened Healing": {
+      "name": "Cura Rapida (Opzionale)"
+    },
+    "Radiant Soul": {
+      "name": "Anima Radiante"
+    },
+    "Rage": {
+      "name": "Furia"
+    },
+    "Rakish Audacity": {
+      "name": "Sfrontatezza Elegante"
+    },
+    "Reaper": {
+      "name": "Mietitore"
+    },
+    "Relentless": {
+      "name": "Inarrestabile"
+    },
+    "Rend Mind": {
+      "name": "Strappo Mentale"
+    },
+    "Runic Juggernaut": {
+      "name": "Colosso Runico"
+    },
+    "Runic Shield": {
+      "name": "Scudo Runico"
+    },
+    "Sculpt Spells": {
+      "name": "Modellare Incantesimi"
+    },
+    "Shadow Step": {
+      "name": "Passo d’Ombra"
+    },
+    "Sneak Attack": {
+      "name": "Attacco Furtivo"
+    },
+    "Song of Defense": {
+      "name": "Canto della Difesa"
+    },
+    "Song of Victory": {
+      "name": "Canto della Vittoria"
+    },
+    "Sorcery Points": {
+      "name": "Punti Stregoneria"
+    },
+    "Soul Blades: Homing Strikes": {
+      "name": "Lame dell’Anima: Colpi a Bersaglio"
+    },
+    "Starry Form": {
+      "name": "Forma Stellare"
+    },
+    "Steel Defender": {
+      "name": "Difensore d’Acciaio"
+    },
+    "Steps of Night": {
+      "name": "Passi della Notte"
+    },
+    "Stillness of Mind": {
+      "name": "Calma Mentale"
+    },
+    "Stone Rune": {
+      "name": "Runa della Pietra"
+    },
+    "Storm Rune": {
+      "name": "Runa della Tempesta"
+    },
+    "Strength of the Grave": {
+      "name": "Forza della Tomba"
+    },
+    "Stunning Strike": {
+      "name": "Colpo Stordente"
+    },
+    "Summon Wildfire Spirit": {
+      "name": "Evoca Spirito del Fuoco Selvaggio"
+    },
+    "Superiority Dice": {
+      "name": "Dadi di Superiorità"
+    },
+    "Supreme Healing": {
+      "name": "Cura Suprema"
+    },
+    "Tentacle of the Deeps: Summon": {
+      "name": "Tentacolo degli Abissi"
+    },
+    "Thunderbolt Strike": {
+      "name": "Colpo Fulmineo"
+    },
+    "Totem Spirit: Bear": {
+      "name": "Spirito Totemico: Orso"
+    },
+    "Twilight Shroud": {
+      "name": "Velo del Crepuscolo"
+    },
+    "Twinkling Constellations": {
+      "name": "Costellazioni Scintillanti"
+    },
+    "Umbral Sight": {
+      "name": "Vista Crepuscolare"
+    },
+    "Unarmored Defense (Barbarian)": {
+      "name": "Difesa Senza Armatura (Barbaro)"
+    },
+    "Unarmored Defense (Monk)": {
+      "name": "Difesa Senza Armatura (Monaco)"
+    },
+    "Undead Thralls": {
+      "name": "Schiavi Non Morti"
+    },
+    "Unstable Backlash": {
+      "name": "Reazione Instabile"
+    },
+    "Vigilant Blessing": {
+      "name": "Benedizione Vigile"
+    },
+    "Wild Shape": {
+      "name": "Forma Selvatica"
+    },
+    "Wild Surge": {
+      "name": "Impeto Selvaggio"
+    },
+    "Wrath of the Storm": {
+      "name": "Ira della Tempesta"
+    },
+    "Zealous Presence": {
+      "name": "Presenza Zelante"
+    },
+    "Spirit Shield": {
+      "name": "Scudo Spirituale"
+    },
+    "Vengeful Ancestors": {
+      "name": "Antenati Vendicativi"
+    },
+    "Telepathic Speech": {
+      "name": "Linguaggio Telepatico"
+    },
+    "Psychic Defenses": {
+      "name": "Difese Psichiche"
+    },
+    "Revelation in Flesh": {
+      "name": "Rivelazione nella Carne"
+    },
+    "Warping Implosion": {
+      "name": "Implosione Distorta"
+    },
+    "Psionic Sorcery": {
+      "name": "Stregoneria Psionica"
+    },
+    "Psionic Spells": {
+      "name": "Incantesimi Psionici"
+    },
+    "Sentinel at Death's Door": {
+      "name": "Sentinella sulla Soglia della Morte"
+    }
+  }
 }

@@ -1,29 +1,29 @@
 {
-	"label": "GPS Общие способности",
-	"entries": {
-		"Gift of the Gem Dragon": {
-			"name": "Черта: Дар самоцветного дракона"
-		},
-		"Legendary Resistance": {
-			"name": "Легендарное сопротивление"
-		},
-		"Mage Slayer": {
-			"name": "Черта: Магоубийца"
-		},
-		"Mobile": {
-			"name": "Черта: Подвижный"
-		},
-		"Nimble Escape: Disengage": {
-			"name": "Nimble Escape: Disengage"
-		},
-		"Polearm Master": {
-			"name": "Черта: Мастер древкового оружия"
-		},
-		"Sentinel": {
-			"name": "Черта: Страж"
-		},
-		"War Caster": {
-			"name": "Черта: Боевой заклинатель"
-		}
-	}
+  "label": "GPS Abilità Generali",
+  "entries": {
+    "Gift of the Gem Dragon": {
+      "name": "Tratto: Dono del Drago Gemmato"
+    },
+    "Legendary Resistance": {
+      "name": "Resistenza Leggendaria"
+    },
+    "Mage Slayer": {
+      "name": "Tratto: Uccisore di Maghi"
+    },
+    "Mobile": {
+      "name": "Tratto: Mobile"
+    },
+    "Nimble Escape: Disengage": {
+      "name": "Fuga Agile: Disimpegno"
+    },
+    "Polearm Master": {
+      "name": "Tratto: Maestro delle Armi ad Asta"
+    },
+    "Sentinel": {
+      "name": "Tratto: Sentinella"
+    },
+    "War Caster": {
+      "name": "Tratto: Incantatore da Guerra"
+    }
+  }
 }

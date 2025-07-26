@@ -1,86 +1,86 @@
 {
-	"label": "CPR Черты",
-	"folders": {
-		"Fighting Styles": "Черты Боевых стилей"
-	},
-	"entries": {
-		"Alert": {
-			"name": "Бдительный [Alert]"
-		},
-		"Archery": {
-			"name": "Стрельба [Archery]"
-		},
-		"Crusher": {
-			"name": "Мастер дробящего урона [Crusher]"
-		},
-		"Defense": {
-			"name": "Защита [Defense]"
-		},
-		"Dueling": {
-			"name": "Дуэль [Dueling]"
-		},
-		"Elemental Adept (Acid)": {
-			"name": "Адепт стихии (Кислота) [Elemental Adept (Acid)]"
-		},
-		"Elemental Adept (Cold)": {
-			"name": "Адепт стихии (Холод) [Elemental Adept (Cold)]"
-		},
-		"Elemental Adept (Fire)": {
-			"name": "Адепт стихии (Огонь) [Elemental Adept (Fire)]"
-		},
-		"Elemental Adept (Lightning)": {
-			"name": "Адепт стихии (Молния) [Elemental Adept (Lightning)]"
-		},
-		"Elemental Adept (Thunder)": {
-			"name": "Адепт стихии (Гром) [Elemental Adept (Thunder)]"
-		},
-		"Grappler": {
-			"name": "Рукопашный борец [Grappler]"
-		},
-		"Great Weapon Fighting": {
-			"name": "Бой большим оружием [Great Weapon Fighting]"
-		},
-		"Healer": {
-			"name": "Лекарь [Healer]"
-		},
-		"Heavy Armor Master": {
-			"name": "Мастер тяжёлой брони [Heavy Armor Master]"
-		},
-		"Interception": {
-			"name": "Перехват [Interception]"
-		},
-		"Piercer": {
-			"name": "Мастер колющего урона [Piercer]"
-		},
-		"Protection": {
-			"name": "Охрана [Protection]"
-		},
-		"Savage Attacker": {
-			"name": "Неистово атакующий [Savage Attacker]"
-		},
-		"Sharpshooter": {
-			"name": "Меткий стрелок [Sharpshooter]"
-		},
-		"Slasher": {
-			"name": "Мастер режущего урона [Slasher]"
-		},
-		"Speedy": {
-			"name": "Быстрый [Speedy]"
-		},
-		"Tavern Brawler: Constitution Score": {
-			"name": "Трактирный забияка [Tavern Brawler]"
-		},
-		"Tavern Brawler: Strength Score": {
-			"name": "Трактирный забияка: Увеличение силы [Tavern Brawler: Strength Score]"
-		},
-		"Telekinetic: Shove": {
-			"name": "Телекинетик [Telekinetic]"
-		},
-		"Thrown Weapon Fighting": {
-			"name": "Бой метательным оружием [Thrown Weapon Fighting]"
-		},
-		"Unarmed Fighting": {
-			"name": "Бой без оружия [Unarmed Fighting]"
-		}
-	}
+  "label": "CPR Tratti",
+  "folders": {
+    "Fighting Styles": "Tratti degli Stili di Combattimento"
+  },
+  "entries": {
+    "Alert": {
+      "name": "Allerta [Alert]"
+    },
+    "Archery": {
+      "name": "Tiro con l'Arco [Archery]"
+    },
+    "Crusher": {
+      "name": "Maestro del Danno da Contundente [Crusher]"
+    },
+    "Defense": {
+      "name": "Difesa [Defense]"
+    },
+    "Dueling": {
+      "name": "Duello [Dueling]"
+    },
+    "Elemental Adept (Acid)": {
+      "name": "Adepto Elementale (Acido) [Elemental Adept (Acid)]"
+    },
+    "Elemental Adept (Cold)": {
+      "name": "Adepto Elementale (Ghiaccio) [Elemental Adept (Cold)]"
+    },
+    "Elemental Adept (Fire)": {
+      "name": "Adepto Elementale (Fuoco) [Elemental Adept (Fire)]"
+    },
+    "Elemental Adept (Lightning)": {
+      "name": "Adepto Elementale (Fulmine) [Elemental Adept (Lightning)]"
+    },
+    "Elemental Adept (Thunder)": {
+      "name": "Adepto Elementale (Tuono) [Elemental Adept (Thunder)]"
+    },
+    "Grappler": {
+      "name": "Lottatore [Grappler]"
+    },
+    "Great Weapon Fighting": {
+      "name": "Combattimento con Arma Pesante [Great Weapon Fighting]"
+    },
+    "Healer": {
+      "name": "Guaritore [Healer]"
+    },
+    "Heavy Armor Master": {
+      "name": "Maestro dell'Armatura Pesante [Heavy Armor Master]"
+    },
+    "Interception": {
+      "name": "Intercettazione [Interception]"
+    },
+    "Piercer": {
+      "name": "Maestro del Danno da Perforante [Piercer]"
+    },
+    "Protection": {
+      "name": "Protezione [Protection]"
+    },
+    "Savage Attacker": {
+      "name": "Attaccante Selvaggio [Savage Attacker]"
+    },
+    "Sharpshooter": {
+      "name": "Tiratore Scelto [Sharpshooter]"
+    },
+    "Slasher": {
+      "name": "Maestro del Danno da Taglio [Slasher]"
+    },
+    "Speedy": {
+      "name": "Veloce [Speedy]"
+    },
+    "Tavern Brawler: Constitution Score": {
+      "name": "Rissoso da Taverna [Tavern Brawler]"
+    },
+    "Tavern Brawler: Strength Score": {
+      "name": "Rissoso da Taverna: Aumento della Forza [Tavern Brawler: Strength Score]"
+    },
+    "Telekinetic: Shove": {
+      "name": "Telecinetico [Telekinetic]"
+    },
+    "Thrown Weapon Fighting": {
+      "name": "Combattimento con Armi da Lancio [Thrown Weapon Fighting]"
+    },
+    "Unarmed Fighting": {
+      "name": "Combattimento Senz'Armi [Unarmed Fighting]"
+    }
+  }
 }

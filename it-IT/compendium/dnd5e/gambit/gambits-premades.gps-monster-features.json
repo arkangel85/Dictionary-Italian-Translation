@@ -1,75 +1,75 @@
 {
-	"label": "GPS Способности монстров",
-	"folders": {
-		"Asteroid Spider": "Паук-астероид",
-		"Air Elemental": "Элементаль воздуха",
-		"Sphinx of Wonder": "Чудесный сфинкс",
-		"Fire Elemental": "Элементаль огня",
-		"Water Elemental": "Элементаль воды",
-		"Sahuagin": "Сахваджин",
-		"Remorhaz": "Ремораз",
-		"Rust Monster": "Ржавильщик",
-		"Ice Spider Queen": "Королева ледяных пауков",
-		"Boneclaw": "Костяной коготь",
-		"Whistler": "Свистун",
-		"Owl": "Сова",
-		"Mindflayer": "Свежеватель разума",
-		"Reduced-threat Remorhaz": "Хилый ремораз",
-		"Berserker": "Берсерк",
-		"Young Remorhaz": "Молодой ремораз",
-		"Feyr": "Йспуг"
-	},
-	"entries": {
-		"Blood Frenzy": {
-			"name": "Кровавое бешенство"
-		},
-		"Cold Aura": {
-			"name": "Аура холода"
-		},
-		"Deadly Reach": {
-			"name": "Смертельная досягаемость"
-		},
-		"Fire Form": {
-			"name": "Огненное тело"
-		},
-		"Flyby": {
-			"name": "Пролёт"
-		},
-		"Freeze": {
-			"name": "Замерзание"
-		},
-		"Heated Body": {
-			"name": "Раскалённое тело"
-		},
-		"Nightmare Fuel": {
-			"name": "Подпитка кошмаром"
-		},
-		"Otherworldly Melody": {
-			"name": "Потусторонняя мелодия"
-		},
-		"Psychic Swipe": {
-			"name": "Психический удар"
-		},
-		"Reckless": {
-			"name": "Безрассудство"
-		},
-		"Reel": {
-			"name": "Подтаскивание"
-		},
-		"Rust Metal": {
-			"name": "Коррозия металла."
-		},
-		"Tentacles": {
-			"name": "Щупальца"
-		},
-		"Touch": {
-			"name": "Касание"
-		},
-		"Web Strand": {
-			"name": "Нить паутины"
-		},
-		"Whirlwind": {
-			"name": "Вихрь"
-		}
-	}
+  "label": "GPS Abilità dei Mostri",
+  "folders": {
+    "Asteroid Spider": "Ragno Asteroide",
+    "Air Elemental": "Elementale dell'Aria",
+    "Sphinx of Wonder": "Sfinge delle Meraviglie",
+    "Fire Elemental": "Elementale del Fuoco",
+    "Water Elemental": "Elementale dell’Acqua",
+    "Sahuagin": "Sahuagin",
+    "Remorhaz": "Remorhaz",
+    "Rust Monster": "Mostro Rugginoso",
+    "Ice Spider Queen": "Regina dei Ragni di Ghiaccio",
+    "Boneclaw": "Artiglio d’Ossa",
+    "Whistler": "Fischiatore",
+    "Owl": "Gufo",
+    "Mindflayer": "Divoratore di Menti",
+    "Reduced-threat Remorhaz": "Remorhaz Indebolito",
+    "Berserker": "Berserker",
+    "Young Remorhaz": "Remorhaz Giovane",
+    "Feyr": "Feyr"
+  },
+  "entries": {
+    "Blood Frenzy": {
+      "name": "Frenesia Sanguinaria"
+    },
+    "Cold Aura": {
+      "name": "Aura Gelida"
+    },
+    "Deadly Reach": {
+      "name": "Portata Mortale"
+    },
+    "Fire Form": {
+      "name": "Forma di Fuoco"
+    },
+    "Flyby": {
+      "name": "Sorvolo"
+    },
+    "Freeze": {
+      "name": "Congelare"
+    },
+    "Heated Body": {
+      "name": "Corpo Incandescente"
+    },
+    "Nightmare Fuel": {
+      "name": "Carburante da Incubo"
+    },
+    "Otherworldly Melody": {
+      "name": "Melodia Ultraterrena"
+    },
+    "Psychic Swipe": {
+      "name": "Sferzata Psichica"
+    },
+    "Reckless": {
+      "name": "Sconsiderato"
+    },
+    "Reel": {
+      "name": "Trascinamento"
+    },
+    "Rust Metal": {
+      "name": "Corrosione del Metallo"
+    },
+    "Tentacles": {
+      "name": "Tentacoli"
+    },
+    "Touch": {
+      "name": "Tocco"
+    },
+    "Web Strand": {
+      "name": "Filo di Ragnatela"
+    },
+    "Whirlwind": {
+      "name": "Turbine"
+    }
+  }
 }

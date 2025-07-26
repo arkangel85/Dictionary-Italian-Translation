@@ -1,112 +1,124 @@
 {
-	"label": " CPR Классовые способности",
-	"folders": {
-		"Path of the Zealot": "Путь фанатика",
-		"Path of the Berserker": "Путь берсеркера",
-		"Life Domain": "Домен жизни",
-		"College of Lore": "Коллегия Знаний",
-		"College of Valor": "Коллегия Отваги",
-		"Barbarian": "Варвар",
-		"College of Glamour": "Коллегия Очарования",
-		"Bard": "Бард",
-		"Path of the Wild Heart": "Путь дикого сердца",
-		"College of Dance": "Коллегия Танца",
-		"Path of the World Tree": "Путь Мирового Древа",
-		"Cleric": "Жрец"
-	},
-	"entries": {
-		"Branches of the Tree": { "name": "Ветви Древа [Branches of the Tree]" },
-		"Indomitable Might": { "name": "Неукротимая мощь [Indomitable Might]" },
-		"Preserve Life": { "name": "Сохранение жизни [Preserve Life]" },
-		"Relentless Rage": { "name": "Несгибаемая ярость [Relentless Rage]" },
-		"Channel Divinity": { "name": "Проведение энергии [Channel Divinity]" },
-		"Combat Inspiration": { "name": "Боевое вдохновение [Combat Inspiration]" },
-		"Brutal Strike": { "name": "Жестокий удар [Brutal Strike]" },
-		"Aspect of the Wilds": {
-			"name": "Аспект дикой природы [Aspect of the Wilds]"
-		},
-		"Peerless Skill": { "name": "Несравненные навыки [Peerless Skill]" },
-		"Primal Knowledge": { "name": "Первобытное знание [Primal Knowledge]" },
-		"Beguiling Magic": { "name": "Чарующая магия [Beguiling Magic]" },
-		"Danger Sense": { "name": "Чутьё на опасность [Danger Sense]" },
-		"Jack of All Trades": { "name": "Мастер на все руки [Jack of All Trades]" },
-		"Intimidating Presence": {
-			"name": "Пугающий облик [Intimidating Presence]"
-		},
-		"Mindless Rage": { "name": "Слепая ярость [Mindless Rage]" },
-		"Blessed Strikes: Divine Strike": {
-			"name": "Благословлённые удары: Божественный удар [Blessed Strikes: Divine Strike]"
-		},
-		"Mantle of Inspiration": {
-			"name": "Мантия вдохновения [Mantle of Inspiration]"
-		},
-		"Improved Brutal Strike": {
-			"name": "Улучшенный жестокий удар [Improved Brutal Strike]"
-		},
-		"Superior Inspiration": {
-			"name": "Высшее вдохновение [Superior Inspiration]"
-		},
-		"Feral Instinct": { "name": "Звериный инстинкт [Feral Instinct]" },
-		"Persistent Rage": { "name": "Бесконечная ярость [Persistent Rage]" },
-		"Leading Evasion": { "name": "Ведущее уклонение [Leading Evasion]" },
-		"Rage": { "name": "Ярость [Rage]" },
-		"Rage of the Wilds": { "name": "Ярость дикой природы [Rage of the Wilds]" },
-		"Sear Undead": { "name": "Испепеление нежити [Sear Undead]" },
-		"Tandem Footwork": { "name": "Совместный танец [Tandem Footwork]" },
-		"Blessed Healer": { "name": "Благословенный целитель [Blessed Healer]" },
-		"Bardic Inspiration": {
-			"name": "Бардовское вдохновение [Bardic Inspiration]"
-		},
-		"Font of Inspiration": {
-			"name": "Источник вдохновения [Font of Inspiration]"
-		},
-		"Dazzling Footwork": { "name": "Ослепительные фуэте [Dazzling Footwork]" },
-		"Frenzy": { "name": "Бешенство [Frenzy]" },
-		"Vitality of the Tree": {
-			"name": "Жизненная сила Древа [Vitality of the Tree]"
-		},
-		"Unbreakable Majesty": {
-			"name": "Несокрушимое величие [Unbreakable Majesty]"
-		},
-		"Warrior of the Gods": { "name": "Воин богов [Warrior of the Gods]" },
-		"Reckless Attack": { "name": "Безрассудная атака [Reckless Attack]" },
-		"Fanatical Focus": { "name": "Концентрация фанатика [Fanatical Focus]" },
-		"Blessed Strikes: Potent Spellcasting": {
-			"name": "Благословлённые удары: Могущественное колдовство [Blessed Strikes: Potent Spellcasting]"
-		},
-		"Disciple of Life": { "name": "Защитник жизни [Disciple of Life]" },
-		"Mantle of Majesty": { "name": "Мантия величия [Mantle of Majesty]" },
-		"Divine Fury": { "name": "Божественный гнев [Divine Fury]" },
-		"Power of the Wilds": { "name": "Сила дикой природы [Power of the Wilds]" },
-		"Zealous Presence": { "name": "Фанатичный клич [Zealous Presence]" },
-		"Divine Order: Thaumaturge": {
-			"name": "Божественный орден: Чудотворец [Divine Order: Thaumaturge]"
-		},
-		"Countercharm": { "name": "Контрчары [Countercharm]" },
-		"Battering Roots": { "name": "Колотящие корни [Battering Roots]" },
-		"Rage of the Gods": { "name": "Ярость богов [Rage of the Gods]" },
-		"Inspiring Movement": {
-			"name": "Вдохновляющее перемещение [Inspiring Movement]"
-		},
-		"Cutting Words": { "name": "Острые слова [Cutting Words]" },
-		"Divine Intervention": { "name": "Божественное вмешательство [Divine Intervention]" },
-		"Greater Divine Intervention": {
-			"name": "Великое божественное вмешательство [Greater Divine Intervention]"
-		},
-		"Improved Blessed Strikes": {
-			"name": "Улучшенные Благословлённые удары [Improved Blessed Strikes]"
-		},
-		"Improved Blessed Strikes: Divine Strike": {
-			"name": "Улучшенный Божественный удар [Improved Blessed Strikes: Divine Strike]"
-		},
-		"Travel along the Tree": {
-			"name": "Путешествие по Древу [Travel Along the Tree]"
-		},
-		"Retaliation": {
-			"name": "Возмездие [Retaliation]"
-		},
-		"Unarmored Defense (Barbarian)": {
-			"name": "Защита без брони (Варвар) [Unarmored Defense (Barbarian)]"
-		}
-	}
+  "label": "CPR Capacità di Classe",
+  "folders": {
+    "Path of the Zealot": "Sentiero del Fanatico",
+    "Path of the Berserker": "Sentiero del Berserker",
+    "Life Domain": "Dominio della Vita",
+    "College of Lore": "Collegio del Sapere",
+    "College of Valor": "Collegio del Valore",
+    "Barbarian": "Barbaro",
+    "College of Glamour": "Collegio del Fascino",
+    "Bard": "Bardo",
+    "Path of the Wild Heart": "Sentiero del Cuore Selvaggio",
+    "College of Dance": "Collegio della Danza",
+    "Path of the World Tree": "Sentiero dell’Albero del Mondo",
+    "Cleric": "Chierico"
+  },
+  "entries": {
+    "Branches of the Tree": {
+      "name": "Rami dell'Albero [Branches of the Tree]"
+    },
+    "Indomitable Might": { "name": "Potenza Indomabile [Indomitable Might]" },
+    "Preserve Life": { "name": "Preservare la Vita [Preserve Life]" },
+    "Relentless Rage": { "name": "Furia Inarrestabile [Relentless Rage]" },
+    "Channel Divinity": { "name": "Canalizzare Divinità [Channel Divinity]" },
+    "Combat Inspiration": {
+      "name": "Ispirazione da Combattimento [Combat Inspiration]"
+    },
+    "Brutal Strike": { "name": "Colpo Brutale [Brutal Strike]" },
+    "Aspect of the Wilds": {
+      "name": "Aspetto delle Terre Selvagge [Aspect of the Wilds]"
+    },
+    "Peerless Skill": { "name": "Abilità Impareggiabile [Peerless Skill]" },
+    "Primal Knowledge": { "name": "Conoscenza Primordiale [Primal Knowledge]" },
+    "Beguiling Magic": { "name": "Magia Seducente [Beguiling Magic]" },
+    "Danger Sense": { "name": "Senso del Pericolo [Danger Sense]" },
+    "Jack of All Trades": { "name": "Tuttofare [Jack of All Trades]" },
+    "Intimidating Presence": {
+      "name": "Presenza Intimidatoria [Intimidating Presence]"
+    },
+    "Mindless Rage": { "name": "Furia Cieca [Mindless Rage]" },
+    "Blessed Strikes: Divine Strike": {
+      "name": "Colpi Benedetti: Colpo Divino [Blessed Strikes: Divine Strike]"
+    },
+    "Mantle of Inspiration": {
+      "name": "Mantello d’Ispirazione [Mantle of Inspiration]"
+    },
+    "Improved Brutal Strike": {
+      "name": "Colpo Brutale Migliorato [Improved Brutal Strike]"
+    },
+    "Superior Inspiration": {
+      "name": "Ispirazione Superiore [Superior Inspiration]"
+    },
+    "Feral Instinct": { "name": "Istinto Selvaggio [Feral Instinct]" },
+    "Persistent Rage": { "name": "Furia Persistente [Persistent Rage]" },
+    "Leading Evasion": { "name": "Elusione Avanzata [Leading Evasion]" },
+    "Rage": { "name": "Furia [Rage]" },
+    "Rage of the Wilds": {
+      "name": "Furia della Natura Selvaggia [Rage of the Wilds]"
+    },
+    "Sear Undead": { "name": "Bruciare i Non Morti [Sear Undead]" },
+    "Tandem Footwork": { "name": "Piedi Sincronizzati [Tandem Footwork]" },
+    "Blessed Healer": { "name": "Guaritore Benedetto [Blessed Healer]" },
+    "Bardic Inspiration": {
+      "name": "Ispirazione Bardica [Bardic Inspiration]"
+    },
+    "Font of Inspiration": {
+      "name": "Fonte d’Ispirazione [Font of Inspiration]"
+    },
+    "Dazzling Footwork": { "name": "Passi Abbaglianti [Dazzling Footwork]" },
+    "Frenzy": { "name": "Frenesia [Frenzy]" },
+    "Vitality of the Tree": {
+      "name": "Vitalità dell’Albero [Vitality of the Tree]"
+    },
+    "Unbreakable Majesty": {
+      "name": "Maestà Infrangibile [Unbreakable Majesty]"
+    },
+    "Warrior of the Gods": {
+      "name": "Guerriero degli Dei [Warrior of the Gods]"
+    },
+    "Reckless Attack": { "name": "Attacco Sconsiderato [Reckless Attack]" },
+    "Fanatical Focus": { "name": "Concentrazione Fanatica [Fanatical Focus]" },
+    "Blessed Strikes: Potent Spellcasting": {
+      "name": "Colpi Benedetti: Incantamento Potente [Blessed Strikes: Potent Spellcasting]"
+    },
+    "Disciple of Life": { "name": "Discepolo della Vita [Disciple of Life]" },
+    "Mantle of Majesty": {
+      "name": "Mantello della Maestà [Mantle of Majesty]"
+    },
+    "Divine Fury": { "name": "Furia Divina [Divine Fury]" },
+    "Power of the Wilds": {
+      "name": "Potere della Natura [Power of the Wilds]"
+    },
+    "Zealous Presence": { "name": "Presenza Zelante [Zealous Presence]" },
+    "Divine Order: Thaumaturge": {
+      "name": "Ordine Divino: Taumaturgo [Divine Order: Thaumaturge]"
+    },
+    "Countercharm": { "name": "Controincantesimo [Countercharm]" },
+    "Battering Roots": { "name": "Radici Martellanti [Battering Roots]" },
+    "Rage of the Gods": { "name": "Furia degli Dei [Rage of the Gods]" },
+    "Inspiring Movement": {
+      "name": "Movimento Ispiratore [Inspiring Movement]"
+    },
+    "Cutting Words": { "name": "Parole Taglienti [Cutting Words]" },
+    "Divine Intervention": {
+      "name": "Intervento Divino [Divine Intervention]"
+    },
+    "Greater Divine Intervention": {
+      "name": "Intervento Divino Superiore [Greater Divine Intervention]"
+    },
+    "Improved Blessed Strikes": {
+      "name": "Colpi Benedetti Migliorati [Improved Blessed Strikes]"
+    },
+    "Improved Blessed Strikes: Divine Strike": {
+      "name": "Colpo Divino Migliorato [Improved Blessed Strikes: Divine Strike]"
+    },
+    "Travel along the Tree": {
+      "name": "Viaggio lungo l’Albero [Travel Along the Tree]"
+    },
+    "Retaliation": { "name": "Ritorsione [Retaliation]" },
+    "Unarmored Defense (Barbarian)": {
+      "name": "Difesa Senza Armatura (Barbaro) [Unarmored Defense (Barbarian)]"
+    }
+  }
 }

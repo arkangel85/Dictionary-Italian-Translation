@@ -1,60 +1,60 @@
 {
-	"label": "Бланки",
-	"mapping": {
-		"description": "system.description",
-		"experience_clues": "system.experience_clues"
-	},
+  "label": "Schede",
+  "mapping": {
+    "description": "system.description",
+    "experience_clues": "system.experience_clues"
+  },
 
-	"entries": {
-		"Cutter": {
-			"name": "Головорез",
-			"description": "Опасный и устрашающий рубака",
-			"experience_clues": "Ты пытался решить проблему насилием или принуждением."
-		},
-		"Ghost": {
-			"name": "Призрак",
-			"description": "Бестелесный дух, жаждущий мести",
-			"experience_clues": "Ты отомстил тем, кто этого по твоему мнению заслужил. Ты проявлял свой гнев или разбирался с делами, связанными с твоим происхождением или прошлым. Ты сталкивался с проблемами из-за своей потребности или помрачений. (ОСТАЛЬНОЕ НЕ ДАЕТ ОПЫТА)"
-		},
-		"Hound": {
-			"name": "Ищейка",
-			"description": "Меткий стрелок и следопыт",
-			"experience_clues": "Ты пытался решить проблему выслеживанием или насилием."
-		},
-		"Hull": {
-			"name": "Автоматон",
-			"description": "Дух, приводящий в движение творение искровой инженерии",
-			"experience_clues": "Ты справился со своей работой невзирая на опасности или трудности. Ты подавлял или игнорировал свои бывшие человеческие убеждения, цели, происхождение или прошлое. Ты сталкивался с проблемами из-за своего износа. (ОСТАЛЬНОЕ НЕ ДАЕТ ОПЫТА)"
-		},
-		"Leech": {
-			"name": "Умелец",
-			"description": "Специалист по технике и саботажу",
-			"experience_clues": "Ты пытался решить проблему своим мастерством или созданием переполоха."
-		},
-		"Lurk": {
-			"name": "Проныра",
-			"description": "Незаметный диверсант и взломщик",
-			"experience_clues": "Ты пытался решить проблему, прибегая к незаметности, или ловко обходил опасности."
-		},
-		"Slide": {
-			"name": "Артист",
-			"description": "Тонкий манипулятор и шпион",
-			"experience_clues": "Ты пытался решить проблему обманом или влиянием на людей."
-		},
-		"Spider": {
-			"name": "Кукловод",
-			"description": "Хитрый комбинатор",
-			"experience_clues": "Ты пытался решить проблему расчётливостью или тайным сговором."
-		},
-		"Vampire": {
-			"name": "Вампир",
-			"description": "Дух, приводящий в движение когда-то живое тело",
-			"experience_clues": "Ты демонстрировал превосходство или убивал без жалости."
-		},
-		"Whisper": {
-			"name": "Мистик",
-			"description": "Специалист по магической теории и практике",
-			"experience_clues": "Ты пытался решить проблему знаниями или магическими силами."
-		}
-	}
+  "entries": {
+    "Cutter": {
+      "name": "Macellaio",
+      "description": "Un picchiatore pericoloso e intimidatorio",
+      "experience_clues": "Hai cercato di risolvere un problema con la violenza o la coercizione."
+    },
+    "Ghost": {
+      "name": "Fantasma",
+      "description": "Uno spirito incorporeo in cerca di vendetta",
+      "experience_clues": "Ti sei vendicato di chi, secondo te, lo meritava. Hai espresso la tua rabbia o affrontato questioni legate alla tua origine o al tuo passato. Hai avuto problemi a causa del tuo bisogno o delle tue ossessioni. (TUTTO IL RESTO NON DÀ ESPERIENZA)"
+    },
+    "Hound": {
+      "name": "Segugio",
+      "description": "Un tiratore scelto e tracciatore",
+      "experience_clues": "Hai cercato di risolvere un problema tramite tracciamento o violenza."
+    },
+    "Hull": {
+      "name": "Automa",
+      "description": "Uno spirito che anima una creazione dell'ingegneria elettroscopica",
+      "experience_clues": "Hai svolto il tuo compito nonostante pericoli o difficoltà. Hai represso o ignorato le tue convinzioni, scopi, origini o passato umani. Hai avuto problemi a causa della tua usura. (TUTTO IL RESTO NON DÀ ESPERIENZA)"
+    },
+    "Leech": {
+      "name": "Tecnico",
+      "description": "Uno specialista in meccanica e sabotaggi",
+      "experience_clues": "Hai cercato di risolvere un problema con la tua abilità tecnica o creando confusione."
+    },
+    "Lurk": {
+      "name": "Furfante",
+      "description": "Un sabotatore e scassinatore furtivo",
+      "experience_clues": "Hai cercato di risolvere un problema con la furtività o hai evitato abilmente il pericolo."
+    },
+    "Slide": {
+      "name": "Artista",
+      "description": "Un sottile manipolatore e spia",
+      "experience_clues": "Hai cercato di risolvere un problema con l'inganno o influenzando le persone."
+    },
+    "Spider": {
+      "name": "Burattinaio",
+      "description": "Un calcolatore astuto",
+      "experience_clues": "Hai cercato di risolvere un problema con astuzia o cospirazione segreta."
+    },
+    "Vampire": {
+      "name": "Vampiro",
+      "description": "Uno spirito che anima un corpo un tempo vivo",
+      "experience_clues": "Hai dimostrato superiorità o ucciso senza pietà."
+    },
+    "Whisper": {
+      "name": "Mistico",
+      "description": "Uno studioso e praticante di teoria magica",
+      "experience_clues": "Hai cercato di risolvere un problema con la conoscenza o con poteri magici."
+    }
+  }
 }

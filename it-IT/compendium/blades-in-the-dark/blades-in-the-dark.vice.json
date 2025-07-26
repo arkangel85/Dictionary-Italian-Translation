@@ -1,37 +1,37 @@
 {
-	"label": "Страсть",
-	"mapping": {
-		"description": "system.description"
-	},
+  "label": "Passione",
+  "mapping": {
+    "description": "system.description"
+  },
 
-	"entries": {
-		"Faith": {
-			"name": "Религия",
-			"description": "- Мать Нарья, Дом Плачущей Дамы, Шесть Башен.</br>- Иласиль, руины Храма забытых богов, Углище.</br>- Нелисанна, Церковь Плотского Экстаза, Самоцветы.</br>- Лорд Пендерин, Архивы Эхо, Старый город."
-		},
-		"Gambling": {
-			"name": "Азартные игры",
-			"description": "- Спогг, игра в кости, Вороний перекрёсток.</br>- Грист, боксёрский ринг, порт.</br>- Хелена, казино «Серебряный олень», Шёлковый Берег.</br>- Мастер Врин, собачьи бега, Ночной рынок.</br>- Леди Даск, клуб усадьбы Дасков, Белая Корона.</br>- Сержант Вельк, бойцовая арена, Трущобы."
-		},
-		"Luxury": {
-			"name": "Роскошь",
-			"description": "- Певичка, купальни, Вороний перекрёсток.</br>- Харвейл Броган, клуб «Центуралия», Самоцветы.</br>- Трэйвен, табачная лавка, Углище.</br>- «Дандридж и Сыновья», экс‑ клюзивный портной, Ночной рынок.</br>- Шеф-повар Розелла, ресторан «Золотая слива», Шесть Башен.</br>- Маэстро Хеллерен, Шпилевой театр, Белая Корона."
-		},
-		"Obligation": {
-			"name": "Долг",
-			"description": "- Родственники (зависят от происхождения) или бывшие коллеги (зависят от прошлого).</br>- Хаттон, сковланские беженцы / революционеры, Коптилка.</br>- Пламенный Круг, тайное общество."
-		},
-		"Pleasure": {
-			"name": "Наслаждения",
-			"description": "- Певичка, купальни, Вороний перекрёсток.</br>- Харвейл Броган, клуб «Центуралия», Самоцветы.</br>- Трэйвен, табачная лавка, Углище.</br>- «Дандридж и Сыновья», эксклюзивный портной, Ночной рынок.</br>- Шеф-повар Розелла, ресторан «Золотая слива», Шесть Башен.</br>- Маэстро Хеллерен, Шпилевой театр, Белая Корона.</br>- Мардин Чайка, таверна «Дырявое ведро», Вороний перекрёсток.</br>- Пакс Болин, таверна «Мартышка с арфой», Ночной рынок.</br>- Хелена, казино «Серебряный олень», Шёлковый Берег.</br>- Леди Фрейла, бар «Императорская бочка», Белая Корона.</br>- Аврик, торговец порошками, Пригорки.</br>- Ролан Воларис, клуб «Вуаль», Ночной рынок.</br>- Мадам Тесслин, бордель «Красный фонарь», Шёлковый Берег.</br>- Трэйвен, табачная лавка, Углище.</br>- Эльдрин Причард, развлекательная баржа «Серебряный лебедь», каналы Самоцветов.</br>- Бриллиант, Птичка и Блеск, Кошачий переулок, порт."
-		},
-		"Stupor": {
-			"name": "Беспамятство",
-			"description": "- Мардин Чайка, таверна «Дырявое ведро», Вороний перекрёсток.</br>- Пакс Болин, таверна «Мартышка с арфой», Ночной рынок.</br>- Хелена, казино «Серебряный олень», Шёлковый Берег.</br>- Леди Фрейла, бар «Императорская бочка», Белая Корона.</br>- Аврик, торговец порошками, Пригорки.</br>- Ролан Воларис, клуб «Вуаль», Ночной рынок.</br>- Мадам Тесслин, бордель «Красный фонарь», Шёлковый Берег.</br>- Трэйвен, табачная лавка, Углище.</br>- Эльдрин Причард, развлекательная баржа «Серебряный лебедь», каналы Самоцветов.</br>- Бриллиант, Птичка и Блеск, Кошачий переулок, порт."
-		},
-		"Weird": {
-			"name": "Потустороннее",
-			"description": "- Таинственный владелец таверны в полузатопленном гроте возле пристаней. Загадочные проходы ведут оттуда в ещё более загадочные подземелья.</br>- Отец Йорен, Дом Плачущей Дамы, Шесть Башен.</br>- Салия, дух из Смирившихся, меняющая тела по своей прихоти.</br>- Сестра Шип, из сталкеров мёртвых земель, станция Гаддок.</br>- Оджак, тихеросский торговец с рынка на крышах, Шёлковый Берег.</br>- Аранна Благословенная, жрица забытого бога, пришвартованная в Ночном рынке баржа."
-		}
-	}
+  "entries": {
+    "Faith": {
+      "name": "Religione",
+      "description": "- Madre Narya, Casa della Dama Piangente, Sei Torri.</br>- Ilasyl, rovine del Tempio degli Dei Dimenticati, Bracere.</br>- Nelisanna, Chiesa dell’Estasi Carnale, Gemme.</br>- Lord Penderin, Archivi dell’Eco, Città Vecchia."
+    },
+    "Gambling": {
+      "name": "Giochi d’azzardo",
+      "description": "- Spogg, gioco di dadi, Crocevia del Corvo.</br>- Grist, ring da boxe, porto.</br>- Helena, casinò “Cervo d’Argento”, Costa di Seta.</br>- Maestro Vryn, corse di cani, Mercato Notturno.</br>- Lady Dusk, club della tenuta dei Dusk, Corona Bianca.</br>- Sergente Velk, arena di combattimento, Bassifondi."
+    },
+    "Luxury": {
+      "name": "Lusso",
+      "description": "- Cantante, terme, Crocevia del Corvo.</br>- Harveil Brogan, club “Centuralia”, Gemme.</br>- Traven, tabaccheria, Bracere.</br>- “Dandridge e Figli”, sarto esclusivo, Mercato Notturno.</br>- Chef Rosella, ristorante “Prugna Dorata”, Sei Torri.</br>- Maestro Helleran, Teatro della Guglia, Corona Bianca."
+    },
+    "Obligation": {
+      "name": "Dovere",
+      "description": "- Parenti (dipendono dall’origine) o ex colleghi (dipendono dal passato).</br>- Hatton, rifugiati/rivoluzionari scovlandesi, Lume a Olio.</br>- Cerchio Fiammeggiante, società segreta."
+    },
+    "Pleasure": {
+      "name": "Piaceri",
+      "description": "- Cantante, terme, Crocevia del Corvo.</br>- Harveil Brogan, club “Centuralia”, Gemme.</br>- Traven, tabaccheria, Bracere.</br>- “Dandridge e Figli”, sarto esclusivo, Mercato Notturno.</br>- Chef Rosella, ristorante “Prugna Dorata”, Sei Torri.</br>- Maestro Helleran, Teatro della Guglia, Corona Bianca.</br>- Mardin Gabbiano, taverna “Secchio Bucato”, Crocevia del Corvo.</br>- Pax Bolin, taverna “Scimmia con l’Arpa”, Mercato Notturno.</br>- Helena, casinò “Cervo d’Argento”, Costa di Seta.</br>- Lady Freila, bar “Botte Imperiale”, Corona Bianca.</br>- Avrik, venditore di polveri, Collinette.</br>- Rolan Volaris, club “Velo”, Mercato Notturno.</br>- Madame Tesslyn, bordello “Lanterna Rossa”, Costa di Seta.</br>- Traven, tabaccheria, Bracere.</br>- Eldrin Prichard, chiatta per il divertimento “Cigno d’Argento”, canali delle Gemme.</br>- Diamante, Uccellina e Luccichio, Vicolo del Gatto, porto."
+    },
+    "Stupor": {
+      "name": "Oblio",
+      "description": "- Mardin Gabbiano, taverna “Secchio Bucato”, Crocevia del Corvo.</br>- Pax Bolin, taverna “Scimmia con l’Arpa”, Mercato Notturno.</br>- Helena, casinò “Cervo d’Argento”, Costa di Seta.</br>- Lady Freila, bar “Botte Imperiale”, Corona Bianca.</br>- Avrik, venditore di polveri, Collinette.</br>- Rolan Volaris, club “Velo”, Mercato Notturno.</br>- Madame Tesslyn, bordello “Lanterna Rossa”, Costa di Seta.</br>- Traven, tabaccheria, Bracere.</br>- Eldrin Prichard, chiatta per il divertimento “Cigno d’Argento”, canali delle Gemme.</br>- Diamante, Uccellina e Luccichio, Vicolo del Gatto, porto."
+    },
+    "Weird": {
+      "name": "Soprannaturale",
+      "description": "- Misterioso proprietario di una taverna in una grotta semisommersa vicino ai moli. Passaggi enigmatici conducono a sotterranei ancor più misteriosi.</br>- Padre Yoren, Casa della Dama Piangente, Sei Torri.</br>- Salia, spirito degli Appacificati, cambia corpo a suo piacimento.</br>- Sorella Spina, delle guide delle terre morte, stazione Gaddoc.</br>- Odjak, mercante tycherosi del mercato sui tetti, Costa di Seta.</br>- Aranna la Benedetta, sacerdotessa di un dio dimenticato, chiatta ancorata al Mercato Notturno."
+    }
+  }
 }

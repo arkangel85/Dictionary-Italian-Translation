@@ -1,220 +1,220 @@
 {
-	"label": "Предметы",
-	"mapping": {
-		"description": "system.description",
-		"class": {
-			"path": "system.class",
-			"converter": "convertClass"
-		}
-	},
-	"entries": {
-		"(C) Fine hand weapon": {
-			"name": "(Г) Добротное небольшое оружие",
-			"description": "Одноручное, искусно сделанное оружие ближнего боя на твой вкус. <em>Это может быть просто добротный образчик распространённого оружия вроде идеально сбалансированного кинжала или же что-то экзотическое: ирувийская дуэльная сабля или окованная металлом боевая дубина.</em>"
-		},
-		"(C) Fine heavy weapon": {
-			"name": "(Г) Добротное тяжёлое оружие",
-			"description": "Двуручное, искусно сделанное оружие на твой вкус. <em>Это может быть боевой молот, двуручный меч, пика, секира и т. д. Такое оружие длиннее и бьёт сильнее, чем обычное оружие. Оно даёт тебе козырь там, где важно дотянуться дальше или ударить мощнее.</em>"
-		},
-		"(C) Manacles & chain": {
-			"name": "(Г) Наручники и цепь",
-			"description": "Комплект наручников с цепью — для задержания. <em>Сувенир, прихваченный у Синих Мундиров?</em>"
-		},
-		"(C) Rage essence vial": {
-			"name": "(Г) Эссенция ярости",
-			"description": "Одна доза, позволяющая изрядно увеличить силу и повысить болевой порог, но вызывающая иррациональную агрессию на несколько минут. <em>Когда ты сражаешься под воздействием этого снадобья, ведущий соответствующим образом корректирует уровень риска и эффективность. При этом ты страдаешь от двух последствий: «Ты не различаешь друзей и врагов» и «Ты не можешь остановиться, пока все не упадут». Ослабить их можно по обычным правилам</em>"
-		},
-		"(C) Scary weapon or tool": {
-			"name": "(Г) Устрашающее оружие или инструмент",
-			"description": "Холодное оружие или иная штука, которая выглядит весьма пугающе. <em>Такой предмет повышает эффективность запугивания, но не увеличивает повреждения в бою</em>"
-		},
-		"(H) A trained hunting pet": {
-			"name": "(И) Дрессированный ловчий питомец",
-			"description": "твой зверь понимает твои команды и предугадывает твои действия. <em>Подручный (специалист: охотник).</em>"
-		},
-		"(H) Electroplasmic ammunition": {
-			"name": "(И) Электроплазменные боеприпасы",
-			"description": "Патронташ с электроплазменными боеприпасами, особенно полезными против духов, но менее эффективными против материальных существ. Их электрический разряд может ошеломить человека, но не нанесёт серьёзного ранение. Несколько попаданий могут оставить человека без сознания. Применение таких боеприпасов порождает сильное эхо в призрачном поле: начерти счётчик на 4 деления с названием «внимание Смотрителей Духов» и делай на нём отметку во время каждого дела, где используются такие боеприпасы."
-		},
-		"(H) Fine long rifle": {
-			"name": "(И) Добротная винтовка",
-			"description": "Добротное длинноствольное охотничье оружие, смертоносное на дальней дистанции, но неудобное в ближнем бою. <em>Частным лицам в Даскволе держать такие винтовки не положено по закону, но у тебя на нее есть армейские документы (настоящие или поддельные?).</em>"
-		},
-		"(H) Fine pair of pistols": {
-			"name": "(И) Пара добротных пистолетов",
-			"description": "Пара точных двуствольных пистолетов, из каждого можно повторно выстрелить без перезарядки. <em>Кто их смастерил — Дочери Кардеры, Темплтон и Слейн, Имперская Кузня или другой оружейник? Чем они отличаются от обычных пистолетов?</em>"
-		},
-		"(H) Spyglass": {
-			"name": "(И) Подзорная труба",
-			"description": "Латунная труба с линзами, позволяющая смотреть очень далеко. Складная. Можно прикреплять к винтовке в качестве прицела."
-		},
-		"(Le) Bandolier": {
-			"name": "(У) Перевязь алхимика",
-			"description": "Перевязь через плечо, снабжённая подшитыми войлоком кармашками, в которых помещаются три ёмкости с алхимическими веществами или искровые бомбы. Применяя вещества или бомбы из перевязи, выбирай составы, указанные в списке справа, либо снадобья собственной разработки. <em>Во время передышки ты автоматически восполняешь запасы в перевязи, пока у тебя есть хоть какой-то доступ к поставщику или мастерской.</em>"
-		},
-		"(Le) Blowgun & darts, syringes": {
-			"name": "(У) Духовое ружьё и дротики, шприцы",
-			"description": "Маленькая трубка и дротики, которые можно наполнять алхимическими субстанциями. Пустые шприцы."
-		},
-		"(Le) Fine tinkering tools": {
-			"name": "(У) Добротные инструменты механика",
-			"description": "Добротно сделанный набор инструментов для различной работы с механизмами. Лупа. Измерительные устройства."
-		},
-		"(Le) Fine wrecking tools": {
-			"name": "(У) Добротные инструменты для сноса",
-			"description": "Специализированный набор инструментов дляразрушения. Маленькое, но мощное сверло. Молоток истальные клинья. Фомка. Электроплазменный аккумулятор, зажимы, проволока. Ёмкости с кислотой. Искровой резак и канистра топлива."
-		},
-		"(Le) Gadgets": {
-			"name": "(У) Устройства",
-			"description": "Во время передышки, при наличии материалов и инструментов ты можешь использовать навык ремесла для создания устройств. <em>Отмечай нагрузку отдельно за каждое устройство, использованное во время операции.</em>"
-		},
-		"(Lu) Dark-sight goggles": {
-			"name": "(Про) Ночные очки",
-			"description": "Магическое устройство, позволяющее носящему видеть в кромешной тьме как при хорошем освещении."
-		},
-		"(Lu) Fine lockpicks": {
-			"name": "(Про) Добротные отмычки",
-			"description": "Добротно сделанные инструменты для вскрытия и обхода замков."
-		},
-		"(Lu) Fine shadow cloak": {
-			"name": "(Про) Добротный теневой плащ",
-			"description": "Плащ с капюшоном из редкого ирувийского теневого шёлка, помогающий сливаться с темнотой. <em>Этот предмет повышает эффективность, когда ты прячешься.</em>"
-		},
-		"(Lu) Light climbing gear": {
-			"name": "(Про) Лёгкое снаряжение верхолаза",
-			"description": "Хороший набор снаряжения для лазания, легче и удобнее стандартного."
-		},
-		"(Lu) Silence potion vial": {
-			"name": "(Про) Зелье тишины",
-			"description": "Склянка с золотистой жидкостью, на несколько мгновений заглушающей все звуки в 10 шагах от выпившего."
-		},
-		"(Sl) A cane-sword": {
-			"name": "(Ар) Трость-шпага",
-			"description": "Тонкий клинок вножнах, замаскированных под аристократическую трость. <em>Беглым взглядом это скрытое оружие не распознаётся.</em>"
-		},
-		"(Sl) Fine clothes & jewelry": {
-			"name": "(Ар) Добротная одежда и украшения",
-			"description": "Костюм, позволяющий легко сойти за богатого аристократа [Нагрузка 0]. <em>Если ты несёшь его с собой, чтобы переодеться во время операции, он считается как [Нагрузка 2].</em>"
-		},
-		"(Sl) Fine disguise kit": {
-			"name": "(Ар) Добротный гримёрный набор",
-			"description": "Театральный набор с отличными средствами для изменения внешности. <em>Его высокое качество может увеличивать эффективность твоих мошеннических действий, когда ты его используешь</em>"
-		},
-		"(Sl) Fine loaded dice, trick cards": {
-			"name": "(Ар) Добротные шулерские игральные кости, краплёные карты",
-			"description": "Игровые аксессуары, позволяющие повлиять на слепую случайность. <em>Их высокое качество может увеличивать эффективность твоих мошеннических действий, когда ты их применяешь.</em>"
-		},
-		"(Sl) Trance powder": {
-			"name": "(Ар) Трансовый порошок",
-			"description": "Доза распространённого наркотика, изменяющего психическое состояние. <em>Принявший его нетеряет сознание полностью, но становится вялым и внушаемым, почти как под гипнозом.</em>"
-		},
-		"(Sp) Blueprints": {
-			"name": "(К) Чертежи",
-			"description": "Коллекция полезных карт города и планировок зданий. <em>Ты можешь свободно выбирать, чертежи каких сооружений у тебя с собой.</em>"
-		},
-		"(Sp) Concealed palm pistol": {
-			"name": "(К) Миниатюрный пистолет",
-			"description": "Маленькое оружие с небольшим зарядом, которое легко спрятать в рукаве или кармане. <em>У этого пистолета очень маленькая дальность стрельбы, буквально пара метров. Зато его трудно найти на тебе, даже в случае обыска.</em>"
-		},
-		"(Sp) Fine bottle of whiskey": {
-			"name": "(К) Бутылка добротного виски",
-			"description": "Отличный алкоголь из твоей коллекции, сильный и градусами, и производимым впечатлением."
-		},
-		"(Sp) Fine cover identity": {
-			"name": "(К) Добротная легенда",
-			"description": "У тебя есть документы, истории и слухи, а также фальшивые «отношения», позволяющие тебе сойти за другого человека."
-		},
-		"(Sp) Vial of slumber essence": {
-			"name": "(К) Сонное зелье",
-			"description": "Доза снотворного, погружающая жертву в сонна час. <em>Это не сверхъестественный сон, просто очень глубокий: с некоторыми усилиями спящего можно разбудить.</em>"
-		},
-		"(W) Demonbane charm": {
-			"name": "(М) Оберег против демонов",
-			"description": "Магический предмет, которого демоны предпочитают избегать "
-		},
-		"(W) Fine lightning hook": {
-			"name": "(М) Добротный разрядный крюк",
-			"description": "Длинный двуручный шест с проволочной петлёй на конце, подсоединённый к электроплазменному генератору. Им можно поймать призрака изатащить его в духоловную бутылку. <em>Этот сделанный на заказ крюк — складной, поэтому у него нагрузка 1, несмотря на то что для его использования необходимы обе руки.</em>"
-		},
-		"(W) Fine spirit mask": {
-			"name": "(М) Добротная маска духа",
-			"description": "магический предмет, позволяющий опытному мистику видеть сверхъестественные вещи в деталях. Она также даёт некоторую защиту от захвата тела призраками. <em>Каждая маска духа уникальна. На что похожа твоя? Что делает её странной и страшной с виду?</em>"
-		},
-		"(W) Ghost key": {
-			"name": "(М) Призрачный ключ",
-			"description": "Магический предмет, способный открывать призрачные двери. <em>В призрачном поле накоплено эхо всего города за многие века. Иногда можно найти дверь в это место.</em>"
-		},
-		"(W) Spirit bottles (2)": {
-			"name": "(М) Духоловные бутылки (2 шт.)",
-			"description": "Магический предмет для ловли духов. Это цилиндр из металла и хрусталя, размером примерно с буханку хлеба."
-		},
-		"+ Heavy": {
-			"name": "+Тяжёлый",
-			"description": "Дополнение в виде кольчуги, металлических пластин и шлема. <em>Нагрузка тяжёлого доспеха прибавляется к нагрузке обычного, т. е. в сумме получается нагрузка 5;</em>"
-		},
-		"A 2nd Pistol": {
-			"name": "Второй пистолет",
-			"description": "Тяжёлое казнозарядное огнестрельное оружие под один патрон. Убивает с двадцати шагов, медленно перезаряжается."
-		},
-		"A Blade or Two": {
-			"name": "Клинок или два",
-			"description": "Возможно, ты носишь с собой простой боевой нож. Или пару сабель. Или шпагу и стилет. Или тяжёлый мясницкий тесак <br><br><strong>Твой выбор клинка может отражать твоё происхождение:</strong><br>На севере (Акорос и Сковлан) предпочитают палаши - широкие тяжёлые клинки с односторонней заточкой.<br>В Сиверосе вожди всадников обычно пользуются копьями, а для пешего боя носят характерные обоюдоострые кинжалы с очень широкими клинками, чаще всего с затейливо выгравированными эпизодами из семейной истории.<br>На Кинжальных островах корсары часто применяют узкие лёгкие клинки, предназначенные для стремительных выпадов и уколов, такие как шпага или стилет.<br>В Ирувии распространены изогнутые клинки, заточенные по внешнему краю на манер сабель или по внутреннему краю, как ятаган;"
-		},
-		"A Large Weapon": {
-			"name": "Большое оружие",
-			"description": "Оружие, предназначенное для использования двумя руками. Секира, двуручный меч, боевой молот, древковое оружие. Охотничье ружьё. Мушкетон. Лук или арбалет."
-		},
-		"A Pistol": {
-			"name": "Пистолет",
-			"description": "Тяжёлое казнозарядное огнестрельное оружие под один патрон. Убивает с двадцати шагов, медленно перезаряжается."
-		},
-		"An Unusual Weapon": {
-			"name": "Необычное оружие",
-			"description": "инструмент или какая-то диковина, которую превратили воружие. Плеть, цеп, топорик, лопата, кусок цепи, стальной заточенный веер, ботинки со стальными носами."
-		},
-		"Arcane Implements": {
-			"name": "Магические приспособления",
-			"description": "Флакон со ртутью. Мешочек с чёрной солью. Якорь для духов в виде камешка. Духоловная бутылка. Флакон с электроплазмой, разбивающийся и расплёскивающий её при ударе"
-		},
-		"Armor": {
-			"name": "Доспех",
-			"description": "Толстая кожаная куртка, укреплённые сапоги и перчатки."
-		},
-		"Burglary Gear": {
-			"name": "Снаряжение взломщика",
-			"description": "Набор отмычек. Маленькая фомка. Немного масла для скрипучих петель. Моток проволоки и мелкие крючки. Мешочек с песком."
-		},
-		"Climbing Gear": {
-			"name": "Снаряжение верхолаза",
-			"description": "Большой моток верёвки, маленький моток верёвки. Кошка. Маленький мешочек с мелом. Страховочный пояс с петлями и металлическими кольцами. Набор крюков и молоток."
-		},
-		"Demolition Tools": {
-			"name": "Инструменты для сноса",
-			"description": "Кувалда, железные клинья. Тяжёлый бур. Лом."
-		},
-		"Documents": {
-			"name": "Документы",
-			"description": "Краткие брошюры по разным вопросам, включая реестр представителей аристократических фамилий, офицеров стражи и других важных горожан. Чистая бумага, чернила, перо. Разные полезные карты."
-		},
-		"Lantern": {
-			"name": "Светильник",
-			"description": "Простой масляный светильник, причудливая электроплазменная лампа или иной источник света"
-		},
-		"Spiritbane Charm": {
-			"name": "Оберег против духов",
-			"description": "Маленький волшебный предмет, который призраки предпочитают обходить стороной."
-		},
-		"Subterfuge Supplies": {
-			"name": "Средства перевоплощения",
-			"description": "Театральный гримёрный набор. Бланки документов, подготовленные для фальсификации. Бижутерия. Двусторонний плащ и приметная шляпа. Фальшивый нагрудный значок стражника."
-		},
-		"Throwing Knives": {
-			"name": "Метательные ножи",
-			"description": "Шесть лёгких маленьких ножей."
-		},
-		"Tinkering Tools": {
-			"name": "Инструменты механика",
-			"description": "Набор инструментов для кропотливой инженерной работы: лупа, пинцет, молоточек, плоскогубцы, отвёртка и т. д"
-		}
-	}
+  "label": "Oggetti",
+  "mapping": {
+    "description": "system.description",
+    "class": {
+      "path": "system.class",
+      "converter": "convertClass"
+    }
+  },
+  "entries": {
+    "(C) Fine hand weapon": {
+      "name": "(C) Arma da taglio raffinata",
+      "description": "Arma da mischia a una mano, finemente lavorata, a tua scelta. <em>Potrebbe essere una versione ben bilanciata di un’arma comune come un pugnale, oppure qualcosa di esotico: una sciabola da duello iruviana o una clava da guerra rinforzata in metallo.</em>"
+    },
+    "(C) Fine heavy weapon": {
+      "name": "(C) Arma pesante raffinata",
+      "description": "Arma a due mani, finemente lavorata, a tua scelta. <em>Può essere un maglio, una spada a due mani, una picca, un'ascia, ecc. Questo tipo di arma è più lungo e colpisce più forte delle armi comuni. Ti dà un vantaggio dove contano la portata o la forza d’impatto.</em>"
+    },
+    "(C) Manacles & chain": {
+      "name": "(C) Manette e catena",
+      "description": "Set di manette con catena — utile per arrestare. <em>Un souvenir preso ai Giubbe Blu?</em>"
+    },
+    "(C) Rage essence vial": {
+      "name": "(C) Fiala di essenza della rabbia",
+      "description": "Una dose che aumenta notevolmente la forza e la soglia del dolore, ma induce un'aggressività irrazionale per alcuni minuti. <em>Quando combatti sotto l’effetto di questo preparato, il GM adatta il livello di rischio e l’efficacia. Subisci due conseguenze: “Non distingui amici e nemici” e “Non puoi fermarti finché tutti non sono a terra”. Puoi attenuarle secondo le regole standard.</em>"
+    },
+    "(C) Scary weapon or tool": {
+      "name": "(C) Arma o strumento terrificante",
+      "description": "Arma bianca o altro oggetto dall'aspetto molto minaccioso. <em>Aumenta l'efficacia dell'intimidazione, ma non i danni in combattimento.</em>"
+    },
+    "(H) A trained hunting pet": {
+      "name": "(H) Animale da caccia addestrato",
+      "description": "Il tuo animale capisce i comandi e anticipa le tue mosse. <em>Sottoposto (specialista: cacciatore).</em>"
+    },
+    "(H) Electroplasmic ammunition": {
+      "name": "(H) Munizioni elettroplasiche",
+      "description": "Cartucciera con proiettili elettroplasici, efficaci contro gli spiriti, ma meno contro esseri materiali. Lo shock può stordire una persona, ma non infligge gravi ferite. Colpi multipli possono causare incoscienza. Il loro uso genera forte eco nel campo spettrale: segna un contatore a 4 tacche chiamato “attenzione dei Custodi degli Spiriti” e segnalo a ogni operazione dove vengono usate."
+    },
+    "(H) Fine long rifle": {
+      "name": "(H) Fucile di precisione raffinato",
+      "description": "Arma da caccia lunga e precisa, micidiale a distanza, scomoda nel corpo a corpo. <em>Possedere un fucile simile è illegale a Doskvol, ma tu hai documenti militari (veri o falsi?).</em>"
+    },
+    "(H) Fine pair of pistols": {
+      "name": "(H) Coppia di pistole raffinate",
+      "description": "Due pistole a doppia canna, precise, ciascuna può sparare due volte senza ricaricare. <em>Chi le ha forgiate — le Figlie di Cardera, Templeton e Slane, la Forgia Imperiale o un altro armaiolo? Cosa le distingue dalle pistole comuni?</em>"
+    },
+    "(H) Spyglass": {
+      "name": "(H) Cannocchiale",
+      "description": "Tubo di ottone con lenti per osservare a grandi distanze. Pieghevole. Può essere montato su un fucile come mirino."
+    },
+    "(Le) Bandolier": {
+      "name": "(Le) Bandoliera da alchimista",
+      "description": "Tracolla con tasche imbottite per tre contenitori di sostanze alchemiche o bombe scintillanti. Quando usi la bandoliera, scegli da una lista predefinita o usa una tua formula. <em>Durante il downtime, puoi rifornirla automaticamente se hai accesso a un fornitore o laboratorio.</em>"
+    },
+    "(Le) Blowgun & darts, syringes": {
+      "name": "(Le) Cerbottana, dardi e siringhe",
+      "description": "Piccola cerbottana e dardi riempibili con sostanze alchemiche. Siringhe vuote."
+    },
+    "(Le) Fine tinkering tools": {
+      "name": "(Le) Strumenti di precisione raffinati",
+      "description": "Set di strumenti ben fatti per lavorazioni meccaniche. Lenti d’ingrandimento. Strumenti di misura."
+    },
+    "(Le) Fine wrecking tools": {
+      "name": "(Le) Strumenti di demolizione raffinati",
+      "description": "Kit specializzato per demolizioni. Trapano compatto ma potente. Martello, cunei d’acciaio, piede di porco. Accumulatore elettroplasico, pinze, fili. Contenitori di acido. Taglierina scintillante e serbatoio carburante."
+    },
+    "(Le) Gadgets": {
+      "name": "(Le) Gadget",
+      "description": "Durante il downtime, se hai materiali e strumenti, puoi creare gadget con il talento artigianato. <em>Ogni gadget usato durante l’operazione ha un peso separato.</em>"
+    },
+    "(Lu) Dark-sight goggles": {
+      "name": "(Lu) Occhiali da visione notturna",
+      "description": "Dispositivo magico che consente di vedere nell’oscurità più totale come in piena luce."
+    },
+    "(Lu) Fine lockpicks": {
+      "name": "(Lu) Grimaldelli raffinati",
+      "description": "Strumenti di alta qualità per scassinare serrature."
+    },
+    "(Lu) Fine shadow cloak": {
+      "name": "(Lu) Mantello d'ombra raffinato",
+      "description": "Mantello con cappuccio in seta d’ombra iruviana, aiuta a confondersi nel buio. <em>Aumenta l’efficacia nel nascondersi.</em>"
+    },
+    "(Lu) Light climbing gear": {
+      "name": "(Lu) Equipaggiamento da scalata leggero",
+      "description": "Ottimo set da arrampicata, più leggero e pratico del normale."
+    },
+    "(Lu) Silence potion vial": {
+      "name": "(Lu) Fiala di pozione del silenzio",
+      "description": "Fiala con liquido dorato che sopprime ogni suono entro 10 passi per alcuni istanti."
+    },
+    "(Sl) A cane-sword": {
+      "name": "(Sl) Spada-nascosta nel bastone",
+      "description": "Una lama sottile nascosta in un bastone da passeggio aristocratico. <em>A un primo sguardo, quest’arma rimane ben celata.</em>"
+    },
+    "(Sl) Fine clothes & jewelry": {
+      "name": "(Sl) Abiti eleganti e gioielli",
+      "description": "Abito che ti permette di sembrare facilmente un ricco aristocratico [Ingombro 0]. <em>Se lo porti per cambiarti durante l’operazione, conta come [Ingombro 2].</em>"
+    },
+    "(Sl) Fine disguise kit": {
+      "name": "(Sl) Kit da travestimento raffinato",
+      "description": "Set teatrale con strumenti eccellenti per modificare l’aspetto. <em>La sua alta qualità può aumentare l’efficacia delle tue azioni truffaldine.</em>"
+    },
+    "(Sl) Fine loaded dice, trick cards": {
+      "name": "(Sl) Dadi truccati e carte segnate raffinate",
+      "description": "Accessori da gioco per manipolare la fortuna. <em>La loro alta qualità può aumentare l’efficacia delle tue azioni truffaldine.</em>"
+    },
+    "(Sl) Trance powder": {
+      "name": "(Sl) Polvere da trance",
+      "description": "Dose di una droga comune che altera la percezione mentale. <em>Chi la assume non perde conoscenza, ma diventa letargico e suggestionabile, quasi ipnotizzato.</em>"
+    },
+    "(Sp) Blueprints": {
+      "name": "(Sp) Progetti",
+      "description": "Collezione di mappe utili della città e planimetrie di edifici. <em>Puoi decidere liberamente quali strutture hai con te.</em>"
+    },
+    "(Sp) Concealed palm pistol": {
+      "name": "(Sp) Pistola palmare nascosta",
+      "description": "Piccola arma con una sola carica, facile da nascondere in una manica o tasca. <em>Ha una portata molto breve, ma è difficile da rilevare, anche con una perquisizione.</em>"
+    },
+    "(Sp) Fine bottle of whiskey": {
+      "name": "(Sp) Bottiglia di whiskey raffinato",
+      "description": "Ottimo alcol della tua collezione, forte sia in gradazione che in impressione."
+    },
+    "(Sp) Fine cover identity": {
+      "name": "(Sp) Identità di copertura raffinata",
+      "description": "Hai documenti, storie, voci e false “relazioni” che ti permettono di passare per un’altra persona."
+    },
+    "(Sp) Vial of slumber essence": {
+      "name": "(Sp) Fiala di essenza del sonno",
+      "description": "Dose di sonnifero che fa addormentare una vittima per un’ora. <em>Non è un sonno magico, ma molto profondo: con un po’ di sforzo la vittima può essere svegliata.</em>"
+    },
+    "(W) Demonbane charm": {
+      "name": "(W) Amuleto anti-demoni",
+      "description": "Oggetto magico che i demoni preferiscono evitare."
+    },
+    "(W) Fine lightning hook": {
+      "name": "(W) Gancio fulminante raffinato",
+      "description": "Lungo palo a due mani con cappio metallico collegato a un generatore elettroplasico. Serve a catturare fantasmi e infilarli in bottiglie spiritiche. <em>Questo modello su misura è pieghevole, quindi pesa solo 1, anche se richiede entrambe le mani.</em>"
+    },
+    "(W) Fine spirit mask": {
+      "name": "(W) Maschera spiritica raffinata",
+      "description": "Oggetto magico che consente a un mistico esperto di vedere i fenomeni sovrannaturali in dettaglio. Offre anche protezione contro la possessione. <em>Ogni maschera è unica. Che aspetto ha la tua? Cosa la rende strana e inquietante?</em>"
+    },
+    "(W) Ghost key": {
+      "name": "(W) Chiave spettrale",
+      "description": "Oggetto magico che può aprire porte fantasma. <em>Nel campo spettrale si accumulano echi della città da secoli. A volte puoi trovarvi una porta.</em>"
+    },
+    "(W) Spirit bottles (2)": {
+      "name": "(W) Bottiglie spiritiche (2)",
+      "description": "Oggetti magici per catturare spiriti. Cilindri di metallo e cristallo, grandi quanto una pagnotta."
+    },
+    "+ Heavy": {
+      "name": "+Pesante",
+      "description": "Accessori come cotta di maglia, placche metalliche e casco. <em>Il peso dell’armatura pesante si aggiunge a quello dell’armatura normale, per un totale di 5.</em>"
+    },
+    "A 2nd Pistol": {
+      "name": "Seconda pistola",
+      "description": "Arma da fuoco pesante a colpo singolo. Uccide a venti passi, si ricarica lentamente."
+    },
+    "A Blade or Two": {
+      "name": "Una lama o due",
+      "description": "Forse porti un semplice coltello da combattimento. O una coppia di sciabole. O una spada e uno stiletto. O un grosso macete. <br><br><strong>La tua scelta di lama può riflettere la tua origine:</strong><br>A nord (Akoros e Skovlan) si usano spadoni larghi con un solo taglio.<br>A Severos, i capi cavalieri usano lance e larghi pugnali decorati con scene familiari.<br>Sulle Isole del Pugnale, i corsari preferiscono lame snelle e rapide, come spade o stiletto.<br>In Iruvia, si usano lame ricurve, affilate esternamente come scimitarre o internamente come yatagan."
+    },
+    "A Large Weapon": {
+      "name": "Arma grande",
+      "description": "Arma a due mani. Ascia, spadone, maglio, arma ad asta. Fucile da caccia. Moschetto. Arco o balestra."
+    },
+    "A Pistol": {
+      "name": "Pistola",
+      "description": "Arma da fuoco pesante a colpo singolo. Uccide a venti passi, si ricarica lentamente."
+    },
+    "An Unusual Weapon": {
+      "name": "Arma inusuale",
+      "description": "Uno strumento o oggetto insolito trasformato in arma. Frusta, mazza, accetta, pala, catena, ventaglio affilato, scarpe con punta in acciaio."
+    },
+    "Arcane Implements": {
+      "name": "Strumenti arcani",
+      "description": "Fiala di mercurio. Sacchetto di sale nero. Ancora per spiriti in forma di pietra. Bottiglia spiritica. Fiala di elettroplasma che si rompe all’impatto."
+    },
+    "Armor": {
+      "name": "Armatura",
+      "description": "Giubbotto in pelle spessa, stivali e guanti rinforzati."
+    },
+    "Burglary Gear": {
+      "name": "Attrezzi da scasso",
+      "description": "Set di grimaldelli. Piccolo piede di porco. Olio per cardini. Filo e ganci. Sacchetto di sabbia."
+    },
+    "Climbing Gear": {
+      "name": "Attrezzatura da scalata",
+      "description": "Corda lunga, corda corta. Rampino. Sacchetto di gesso. Cintura di sicurezza con anelli. Ganci e martello."
+    },
+    "Demolition Tools": {
+      "name": "Attrezzi da demolizione",
+      "description": "Mazzuolo, cunei di ferro. Trapano pesante. Piede di porco."
+    },
+    "Documents": {
+      "name": "Documenti",
+      "description": "Brochure su vari temi: nobiltà, ufficiali di guardia, cittadini importanti. Carta, inchiostro, penna. Mappe utili."
+    },
+    "Lantern": {
+      "name": "Lanterna",
+      "description": "Lanterna a olio, strana lampada elettroplasica o altra fonte di luce."
+    },
+    "Spiritbane Charm": {
+      "name": "Amuleto anti-spiriti",
+      "description": "Piccolo oggetto magico che i fantasmi tendono a evitare."
+    },
+    "Subterfuge Supplies": {
+      "name": "Forniture da infiltrazione",
+      "description": "Kit teatrale da trucco. Documenti falsificabili. Bigiotteria. Mantello reversibile e cappello vistoso. Distintivo da guardia falso."
+    },
+    "Throwing Knives": {
+      "name": "Coltelli da lancio",
+      "description": "Sei piccoli coltelli leggeri."
+    },
+    "Tinkering Tools": {
+      "name": "Strumenti da artigiano",
+      "description": "Set di precisione per lavori meccanici: lente, pinzette, martello, pinze, cacciavite, ecc."
+    }
+  }
 }
