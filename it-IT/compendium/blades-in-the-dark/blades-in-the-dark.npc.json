@@ -1,436 +1,436 @@
 {
-	"label": "Персонажи ведущего",
-	"mapping": {
-		"description_short": "system.description_short",
-		"associated_class": "system.associated_class"
-	},
-	"entries": {
-		"Adelaide Phroaig": {
-			"name": "Аделаида Фройг",
-			"description_short": "аристократка. <em>Возможно, заказчик среди элиты?</em>"
-		},
-		"Adikin": {
-			"name": "(А) Адикин",
-			"description_short": "учёный"
-		},
-		"Alon Helker": {
-			"name": "Элон Хелкер",
-			"description_short": "Босс Хелкер. Один из самых влиятельных старших докеров. Если вы с ним поссоритесь, ваш груз легко может оказаться в воде, да и вы сами тоже. <em>Возможно, хорошо известен в криминальном мире своей беспристрастностью? </em>"
-		},
-		"Amancio": {
-			"name": "(Т) Аманцио",
-			"description_short": "посредник. <em>Возможно, хорошо известен в криминальном мире своей беспристрастностью?</em>"
-		},
-		"Andris": {
-			"name": "Андрис"
-		},
-		"Anya": {
-			"name": "(Бар) Аня",
-			"description_short": "девушка из золотой молодёжи. <em>Возможно, посредник среди богемы?</em>"
-		},
-		"Augus": {
-			"name": "Авгус",
-			"description_short": "архитектор",
-			"associated_class": "Кукловод"
-		},
-		"Bazso Baz": {
-			"name": "Баззо Баз",
-			"description_short": "главарь банды",
-			"associated_class": "Артист"
-		},
-		"Belindra": {
-			"name": "Белиндра"
-		},
-		"Bennett": {
-			"name": "(А) Беннетт",
-			"description_short": "астроном"
-		},
-		"Bryl": {
-			"name": "Брил",
-			"description_short": "наркоторговец",
-			"associated_class": "Артист"
-		},
-		"Brynna Skyrkallan": {
-			"name": "Бринна Скиркэллан"
-		},
-		"Casslyn Mora": {
-			"name": "Касслин Мора"
-		},
-		"Casta": {
-			"name": "Каста",
-			"description_short": "психонавт",
-			"associated_class": "Ищейка"
-		},
-		"Celene": {
-			"name": "Селена",
-			"description_short": "страж",
-			"associated_class": "Ищейка"
-		},
-		"Chael": {
-			"name": "Чаэль",
-			"description_short": "опасный бандит",
-			"associated_class": "Головорез"
-		},
-		"Cinda": {
-			"name": "Синда"
-		},
-		"Conway": {
-			"name": "(Бан) Конвей",
-			"description_short": "синий мундир. <em>Возможно, осведомитель из стражи?</em>"
-		},
-		"Darmot": {
-			"name": "Дармот",
-			"description_short": "Синий мундир",
-			"associated_class": "Проныра"
-		},
-		"Decker": {
-			"name": "(П) Деккер",
-			"description_short": "анархист. <em>Возможно, покупатель незаконных инструментов для нужд революции?</em>"
-		},
-		"Denkirk Sol": {
-			"name": "Дюнкерк Сол"
-		},
-		"Dowler": {
-			"name": "(Т) Даулер",
-			"description_short": "путешественник. <em>Возможно, один из тех немногих сталкеров мёртвых земель, кто пережил срок приговора?</em>"
-		},
-		"Eckerd": {
-			"name": "Экерд",
-			"description_short": "похититель трупов",
-			"associated_class": "Умелец"
-		},
-		"Edrik": {
-			"name": "Эдрик"
-		},
-		"Elstera Avrathi": {
-			"name": "Эльстера Аврати"
-		},
-		"Elynn": {
-			"name": "(П) Элинн",
-			"description_short": "докер. <em>Возможно, тот бесценныйдруг, что способен одолеть дьявольскую бюрократию Империи?</em>"
-		},
-		"Ereth Skane": {
-			"name": "Эрет Скейн"
-		},
-		"Esme": {
-			"name": "(П) Эсме",
-			"description_short": "владелец таверны. <em>Возможно, источник полезных новостей и слухов?</em>"
-		},
-		"Exeter": {
-			"name": "(Д) Экзетер",
-			"description_short": "Смотритель Духов. <em>Возможно, двойной агент, шпионящий для вас?</em>"
-		},
-		"Fitz": {
-			"name": "Фитц",
-			"description_short": "коллекционер. <em>Возможно, ценитель экзотических артефактов?</em>"
-		},
-		"Flint": {
-			"name": "Галька",
-			"description_short": "торгов. призраками",
-			"associated_class": "Мистик"
-		},
-		"Frake": {
-			"name": "Фрэйк",
-			"description_short": "слесарь",
-			"associated_class": "Проныра"
-		},
-		"Gagan": {
-			"name": "(А) Гаган",
-			"description_short": "учёный"
-		},
-		"Grace": {
-			"name": "Лапушка",
-			"description_short": "вымогатель",
-			"associated_class": "Головорез"
-		},
-		"Grull": {
-			"name": "Гралл"
-		},
-		"Harker": {
-			"name": "Харкер",
-			"description_short": "заключённый",
-			"associated_class": "Артист"
-		},
-		"Hoxan": {
-			"name": "Хоксен"
-		},
-		"Hoxley": {
-			"name": "(Бар) Хоксли",
-			"description_short": "контрабандист. <em>Возможно, друг могущественных капитанов?</em>"
-		},
-		"Hutchins": {
-			"name": "(А) Хатчинс",
-			"description_short": "антиквар"
-		},
-		"Irimina": {
-			"name": "(Д) Иримина",
-			"description_short": "жестокая аристократка. <em>Возможно, потенциальный покровитель вашей команды?</em>"
-		},
-		"Jennah": {
-			"name": "Дженна",
-			"description_short": "служанка",
-			"associated_class": "Кукловод"
-		},
-		"Jeren": {
-			"name": "Джерен",
-			"description_short": "архивариус у С.М.",
-			"associated_class": "Кукловод"
-		},
-		"Jira": {
-			"name": "(Ночной Рын) Джира",
-			"description_short": "Торговка оружием с Кинжальных островов. Её очень уважают среди уличных бойцов: клинок от Джиры — это символ статуса, который многие хотят иметь."
-		},
-		"Jol": {
-			"name": "(Вороний Пер) Джоль",
-			"description_short": "Синий Мундир, занимается рэкетом."
-		},
-		"Jul": {
-			"name": "Джул",
-			"description_short": "торговец кровью",
-			"associated_class": "Умелец"
-		},
-		"Karlos": {
-			"name": "(Д) Карлос",
-			"description_short": "охотник за головами. <em>Возможно, источник правительственных заказов «на устранение»?</em>"
-		},
-		"Keller": {
-			"name": "(Бан) Келлер",
-			"description_short": "кузнец. <em>Возможно, обеспечивает оружием?</em>"
-		},
-		"Kember": {
-			"name": "Кембер"
-		},
-		"Kira": {
-			"name": "Кира"
-		},
-		"Klyra": {
-			"name": "Клира",
-			"description_short": "владелица таверны",
-			"associated_class": "Артист"
-		},
-		"Krop": {
-			"name": "Кроп"
-		},
-		"Lady Drake": {
-			"name": "Леди Дрейк",
-			"description_short": "Судья, легко прибегающая к «доводам разума» в вопросах уличной преступности, если ей достаточно заплатили."
-		},
-		"Lannic": {
-			"name": "Лэнник"
-		},
-		"Laroze": {
-			"name": "(Бар / Т) Лароз",
-			"description_short": "владелец таверны / Синий мундин. <em>Возможно, у него есть бестолковый сын, который учится в Академии Дасквола и постоянно нуждается в ваших услугах? / Возможно, ваш осведомитель из стражи?</em>"
-		},
-		"Levyra": {
-			"name": "(Шёлк берег) Левира",
-			"description_short": "Медиум, предлагающая клиентам приносить с собой призраков в бутылках, чтобы те вселились в неё и могли поделиться последними словами, прежде чем «освободятся». <em>Возможно, хороший источник новостей и слухов?</em>"
-		},
-		"Lewit": {
-			"name": "(Вороний Пер) Льюит",
-			"description_short": "Синий Мундир, занимается рэкетом."
-		},
-		"Lutes": {
-			"name": "(Бан) Люц",
-			"description_short": "владелец таверны. <em>Возможно, хороший источник новостей и слухов?</em>"
-		},
-		"Lydra": {
-			"name": "(Бар / Д) Лидра",
-			"description_short": "посредник. <em>Возможно, знаменита своим умением расправляться с теми, кто не соблюдает условий сделки?</em>"
-		},
-		"Lylandra": {
-			"name": "Лиландра"
-		},
-		"Lyssa": {
-			"name": "Лисса"
-		},
-		"Malista": {
-			"name": "Малиста",
-			"description_short": "жрица",
-			"associated_class": "Умелец"
-		},
-		"Marlane": {
-			"name": "Марлэйн",
-			"description_short": "кулачный боец",
-			"associated_class": "Головорез"
-		},
-		"Marlo": {
-			"name": "(Бар) Марло",
-			"description_short": "главарь банды. <em>Возможно, полезный партнёр с бандой крепких ребят?</em>"
-		},
-		"Mateas Kline": {
-			"name": "(А) Матеас Клайн",
-			"description_short": "аристократ"
-		},
-		"Meg": {
-			"name": "(Бан) Мег",
-			"description_short": "боец на арене. <em>Возможно, она учила вас драться… или она тоже занимается вымогательством?</em>"
-		},
-		"Melvir": {
-			"name": "Мельвир",
-			"description_short": "врач",
-			"associated_class": "Ищейка"
-		},
-		"Mercy": {
-			"name": "Душка",
-			"description_short": "убийца",
-			"associated_class": "Головорез"
-		},
-		"Merrul Brime": {
-			"name": "Меррилл Брайм"
-		},
-		"Mordis": {
-			"name": "(Ночной Пер) Мордис",
-			"description_short": "Странный торговец, скрывающий свою настоящую внешность под несколькими слоями одежды с капюшонами. Покупает и продаёт краденые оккультные и магические товары, не задаёт вопросов."
-		},
-		"Moriya": {
-			"name": "(А) Мория",
-			"description_short": "торговка призраками"
-		},
-		"Mylera Klev": {
-			"name": "Милера Клев"
-		},
-		"Nyelle": {
-			"name": "(П) Ньёлль",
-			"description_short": "торговка призраками. <em>Возможно, поставщик особенно странных грузов?</em>"
-		},
-		"2VuLIj4Z8elDAXwN": {
-			"name": "Нирикс",
-			"description_short": "проститутка",
-			"associated_class": "Артист"
-		},
-		"yxUUWgO2ppFU9JYG": {
-			"name": "Нирикс",
-			"description_short": "вселяющ. призрак",
-			"associated_class": "Мистик"
-		},
-		"Otto": {
-			"name": "Отто"
-		},
-		"Petra": {
-			"name": "Петра",
-			"description_short": "городская чиновница",
-			"associated_class": "Проныра"
-		},
-		"Polix": {
-			"name": "Поликс"
-		},
-		"Quellyn": {
-			"name": "Квеллин",
-			"description_short": "знахарка",
-			"associated_class": "Мистик"
-		},
-		"Raffello": {
-			"name": "Раффелло"
-		},
-		"Reyf": {
-			"name": "(Вороний Пер) Рейф",
-			"description_short": "Синий Мундир, занимается рэкетом."
-		},
-		"Rigney": {
-			"name": "Ригни",
-			"description_short": "владелец таверны. <em>Возможно, хороший источник новостей и слухов?</em>"
-		},
-		"Riven": {
-			"name": "Райвен",
-			"description_short": "химик",
-			"associated_class": "Кукловод"
-		},
-		"Rolan": {
-			"name": "Ролан",
-			"description_short": "наркоторговец. <em>Возможно, клиент с хорошими связями в криминальном мире?</em>"
-		},
-		"Rolan Wott": {
-			"name": "(Бар) Ролан Уотт",
-			"description_short": "Влиятельный судья, занимается вопросами собственности, финансов и фондов. Знаменит своими экстравагантными зваными вечерами. <em>Возможно, у него есть бестолковый сын, который учится в Академии Дасквола и постоянно нуждается в ваших услугах?</em>"
-		},
-		"Roslyn Kellis": {
-			"name": "Рослин Келлис",
-			"description_short": "аристократ",
-			"associated_class": "Проныра"
-		},
-		"Rutherford": {
-			"name": "Резерфорд"
-		},
-		"Salia": {
-			"name": "Салия",
-			"description_short": "торговец информац.",
-			"associated_class": "Кукловод"
-		},
-		"Sawtooth": {
-			"name": "Пила",
-			"description_short": "врач",
-			"associated_class": "Головорез"
-		},
-		"Scurlock": {
-			"name": "Скарлок",
-			"description_short": "вампир",
-			"associated_class": "Мистик"
-		},
-		"Sera": {
-			"name": "(П) Сера",
-			"description_short": "Торговец оружием. <em>Возможно, поставщик с контактами в армии?</em>"
-		},
-		"Setarra": {
-			"name": "Сетарра",
-			"description_short": "демон",
-			"associated_class": "Мистик"
-		},
-		"Sevoy": {
-			"name": "(Д) Севой",
-			"description_short": "Смотритель Духов. <em>Возможно, двойной агент, шпионящий для вас?</em>"
-		},
-		"Stazia": {
-			"name": "Стация",
-			"description_short": "аптекарь",
-			"associated_class": "Умелец"
-		},
-		"Steiner": {
-			"name": "Штейнер",
-			"description_short": "наёмный убийца",
-			"associated_class": "Ищейка"
-		},
-		"Taffer": {
-			"name": "Таффер"
-		},
-		"Telda": {
-			"name": "Тельда",
-			"description_short": "нищенка",
-			"associated_class": "Проныра"
-		},
-		"The Star": {
-			"name": "Звезда"
-		},
-		"The Tower": {
-			"name": "Башня"
-		},
-		"Thomas": {
-			"name": "(Бан) Томас",
-			"description_short": "врач. <em>Возможно, бывший бандит, ставший медиком?</em>"
-		},
-		"Trev": {
-			"name": "(Д) Трев",
-			"description_short": "главарь банды. <em>Возможно, благодаря ему ваша команда увидела свет?</em>"
-		},
-		"Tyrsin Nol": {
-			"name": "Тирсин Нол"
-		},
-		"Ulf Ironborn": {
-			"name": "Ульф Железнорождённый"
-		},
-		"Veldren": {
-			"name": "Вельдрен",
-			"description_short": "психонавт",
-			"associated_class": "Умелец"
-		},
-		"Veleris": {
-			"name": "Велерис",
-			"description_short": "шпион",
-			"associated_class": "Ищейка"
-		},
-		"Walker": {
-			"name": "(Бан) Уокер",
-			"description_short": "тюремный комендант. <em>Возможно, наниматель, у которого порой есть работа для плохих парней?</em>"
-		}
-	}
+  "label": "PNG del Custode",
+  "mapping": {
+    "description_short": "system.description_short",
+    "associated_class": "system.associated_class"
+  },
+  "entries": {
+    "Adelaide Phroaig": {
+      "name": "Adelaide Phroaig",
+      "description_short": "aristocratica. <em>Forse un mandante tra l'élite?</em>"
+    },
+    "Adikin": {
+      "name": "(A) Adikin",
+      "description_short": "scienziato"
+    },
+    "Alon Helker": {
+      "name": "Alon Helker",
+      "description_short": "Boss Helker. Uno degli scaricatori anziani più influenti. Se lo fate arrabbiare, il vostro carico — e forse anche voi — potrebbe finire in acqua. <em>Forse è ben noto nel mondo criminale per la sua imparzialità?</em>"
+    },
+    "Amancio": {
+      "name": "(T) Amancio",
+      "description_short": "intermediario. <em>Forse è ben noto nel mondo criminale per la sua imparzialità?</em>"
+    },
+    "Andris": {
+      "name": "Andris"
+    },
+    "Anya": {
+      "name": "(Bar) Anya",
+      "description_short": "ragazza dell'alta società. <em>Forse un tramite tra i bohémiens?</em>"
+    },
+    "Augus": {
+      "name": "Augus",
+      "description_short": "architetto",
+      "associated_class": "Burattinaio"
+    },
+    "Bazso Baz": {
+      "name": "Bazso Baz",
+      "description_short": "capobanda",
+      "associated_class": "Artista"
+    },
+    "Belindra": {
+      "name": "Belindra"
+    },
+    "Bennett": {
+      "name": "(A) Bennett",
+      "description_short": "astronomo"
+    },
+    "Bryl": {
+      "name": "Bryl",
+      "description_short": "spacciatore",
+      "associated_class": "Artista"
+    },
+    "Brynna Skyrkallan": {
+      "name": "Brynna Skyrkallan"
+    },
+    "Casslyn Mora": {
+      "name": "Casslyn Mora"
+    },
+    "Casta": {
+      "name": "Casta",
+      "description_short": "psiconauta",
+      "associated_class": "Segugio"
+    },
+    "Celene": {
+      "name": "Celene",
+      "description_short": "guardia",
+      "associated_class": "Segugio"
+    },
+    "Chael": {
+      "name": "Chael",
+      "description_short": "bandito pericoloso",
+      "associated_class": "Sicario"
+    },
+    "Cinda": {
+      "name": "Cinda"
+    },
+    "Conway": {
+      "name": "(Ban) Conway",
+      "description_short": "giubba blu. <em>Forse una spia nella guardia?</em>"
+    },
+    "Darmot": {
+      "name": "Darmot",
+      "description_short": "Giubba blu",
+      "associated_class": "Scaltro"
+    },
+    "Decker": {
+      "name": "(P) Decker",
+      "description_short": "anarchico. <em>Forse un acquirente di strumenti illegali per la rivoluzione?</em>"
+    },
+    "Denkirk Sol": {
+      "name": "Denkirk Sol"
+    },
+    "Dowler": {
+      "name": "(T) Dowler",
+      "description_short": "viaggiatore. <em>Forse uno dei pochi stalker delle terre morte a sopravvivere alla condanna?</em>"
+    },
+    "Eckerd": {
+      "name": "Eckerd",
+      "description_short": "trafugatore di cadaveri",
+      "associated_class": "Artigiano"
+    },
+    "Edrik": {
+      "name": "Edrik"
+    },
+    "Elstera Avrathi": {
+      "name": "Elstera Avrathi"
+    },
+    "Elynn": {
+      "name": "(P) Elynn",
+      "description_short": "scaricatore. <em>Forse un amico prezioso capace di superare la diabolica burocrazia imperiale?</em>"
+    },
+    "Ereth Skane": {
+      "name": "Ereth Skane"
+    },
+    "Esme": {
+      "name": "(P) Esme",
+      "description_short": "proprietaria di taverna. <em>Forse fonte di notizie e pettegolezzi utili?</em>"
+    },
+    "Exeter": {
+      "name": "(D) Exeter",
+      "description_short": "Custode degli Spiriti. <em>Forse una spia doppiogiochista al vostro servizio?</em>"
+    },
+    "Fitz": {
+      "name": "Fitz",
+      "description_short": "collezionista. <em>Forse un estimatore di artefatti esotici?</em>"
+    },
+    "Flint": {
+      "name": "Flint",
+      "description_short": "commerciante di fantasmi",
+      "associated_class": "Mistico"
+    },
+    "Frake": {
+      "name": "Frake",
+      "description_short": "fabbro",
+      "associated_class": "Scaltro"
+    },
+    "Gagan": {
+      "name": "(A) Gagan",
+      "description_short": "scienziato"
+    },
+    "Grace": {
+      "name": "Dolcezza",
+      "description_short": "estorsore",
+      "associated_class": "Sicario"
+    },
+    "Grull": {
+      "name": "Grull"
+    },
+    "Harker": {
+      "name": "Harker",
+      "description_short": "detenuto",
+      "associated_class": "Artista"
+    },
+    "Hoxan": {
+      "name": "Hoxan"
+    },
+    "Hoxley": {
+      "name": "(Bar) Hoxley",
+      "description_short": "contrabbandiere. <em>Forse un alleato dei potenti capitani?</em>"
+    },
+    "Hutchins": {
+      "name": "(A) Hutchins",
+      "description_short": "antiquario"
+    },
+    "Irimina": {
+      "name": "(D) Irimina",
+      "description_short": "aristocratica crudele. <em>Forse un potenziale mecenate per la vostra banda?</em>"
+    },
+    "Jennah": {
+      "name": "Jennah",
+      "description_short": "cameriera",
+      "associated_class": "Burattinaio"
+    },
+    "Jeren": {
+      "name": "Jeren",
+      "description_short": "archivista presso i S.M.",
+      "associated_class": "Burattinaio"
+    },
+    "Jira": {
+      "name": "(Mercato Notturno) Jira",
+      "description_short": "Mercante d’armi delle Isole Pugnali. È molto rispettata tra i combattenti di strada: una lama di Jira è un simbolo di status che molti desiderano."
+    },
+    "Jol": {
+      "name": "(Corvo) Jol",
+      "description_short": "Giubba Blu, pratica il racket."
+    },
+    "Jul": {
+      "name": "Jul",
+      "description_short": "commerciante di sangue",
+      "associated_class": "Artigiano"
+    },
+    "Karlos": {
+      "name": "(D) Karlos",
+      "description_short": "cacciatore di taglie. <em>Forse fonte di incarichi governativi per 'eliminazioni'?</em>"
+    },
+    "Keller": {
+      "name": "(Ban) Keller",
+      "description_short": "fabbro. <em>Forse fornitore di armi?</em>"
+    },
+    "Kember": {
+      "name": "Kember"
+    },
+    "Kira": {
+      "name": "Kira"
+    },
+    "Klyra": {
+      "name": "Klyra",
+      "description_short": "proprietaria di taverna",
+      "associated_class": "Artista"
+    },
+    "Krop": {
+      "name": "Krop"
+    },
+    "Lady Drake": {
+      "name": "Lady Drake",
+      "description_short": "Giudice che non esita a usare la 'logica' contro la criminalità da strada, se ben pagata."
+    },
+    "Lannic": {
+      "name": "Lannic"
+    },
+    "Laroze": {
+      "name": "(Bar / T) Laroze",
+      "description_short": "proprietario di taverna / Giubba Blu. <em>Forse ha un figlio svampito all’Accademia di Doskvol che ha spesso bisogno di voi? / Forse è la vostra spia tra le forze dell’ordine?</em>"
+    },
+    "Levyra": {
+      "name": "(Seta Riva) Levyra",
+      "description_short": "Medium che invita i clienti a portare spiriti in bottiglia affinché possano possederla, condividere le loro ultime parole e poi 'liberarsi'. <em>Forse una buona fonte di notizie e pettegolezzi?</em>"
+    },
+    "Lewit": {
+      "name": "(Corvo) Lewit",
+      "description_short": "Giubba Blu, pratica il racket."
+    },
+    "Lutes": {
+      "name": "(Ban) Lutes",
+      "description_short": "proprietario di taverna. <em>Forse una buona fonte di notizie e pettegolezzi?</em>"
+    },
+    "Lydra": {
+      "name": "(Bar / D) Lydra",
+      "description_short": "intermediaria. <em>Forse nota per come punisce chi viola gli accordi?</em>"
+    },
+    "Lylandra": {
+      "name": "Lylandra"
+    },
+    "Lyssa": {
+      "name": "Lyssa"
+    },
+    "Malista": {
+      "name": "Malista",
+      "description_short": "sacerdotessa",
+      "associated_class": "Artigiano"
+    },
+    "Marlane": {
+      "name": "Marlane",
+      "description_short": "pugile",
+      "associated_class": "Sicario"
+    },
+    "Marlo": {
+      "name": "(Bar) Marlo",
+      "description_short": "capobanda. <em>Forse un partner utile con una banda di uomini forti?</em>"
+    },
+    "Mateas Kline": {
+      "name": "(A) Mateas Kline",
+      "description_short": "aristocratico"
+    },
+    "Meg": {
+      "name": "(Ban) Meg",
+      "description_short": "lottatrice d’arena. <em>Forse ti ha insegnato a combattere… o forse anche lei si occupa di estorsioni?</em>"
+    },
+    "Melvir": {
+      "name": "Melvir",
+      "description_short": "medico",
+      "associated_class": "Segugio"
+    },
+    "Mercy": {
+      "name": "Cuoricina",
+      "description_short": "assassina",
+      "associated_class": "Sicario"
+    },
+    "Merrul Brime": {
+      "name": "Merrul Brime"
+    },
+    "Mordis": {
+      "name": "(Notturno) Mordis",
+      "description_short": "Strano mercante che nasconde il suo vero aspetto sotto diversi strati di vestiti con cappucci. Compra e vende oggetti magici e occulti rubati, senza fare domande."
+    },
+    "Moriya": {
+      "name": "(A) Moriya",
+      "description_short": "commerciante di spiriti"
+    },
+    "Mylera Klev": {
+      "name": "Mylera Klev"
+    },
+    "Nyelle": {
+      "name": "(P) Nyelle",
+      "description_short": "commerciante di spiriti. <em>Forse una fornitrice di carichi particolarmente strani?</em>"
+    },
+    "2VuLIj4Z8elDAXwN": {
+      "name": "Nyrix",
+      "description_short": "prostituta",
+      "associated_class": "Artista"
+    },
+    "yxUUWgO2ppFU9JYG": {
+      "name": "Nyrix",
+      "description_short": "ospitante di spiriti",
+      "associated_class": "Mistico"
+    },
+    "Otto": {
+      "name": "Otto"
+    },
+    "Petra": {
+      "name": "Petra",
+      "description_short": "funzionaria cittadina",
+      "associated_class": "Scaltro"
+    },
+    "Polix": {
+      "name": "Polix"
+    },
+    "Quellyn": {
+      "name": "Quellyn",
+      "description_short": "guaritrice",
+      "associated_class": "Mistico"
+    },
+    "Raffello": {
+      "name": "Raffello"
+    },
+    "Reyf": {
+      "name": "(Corvo) Reyf",
+      "description_short": "Giubba Blu, pratica il racket."
+    },
+    "Rigney": {
+      "name": "Rigney",
+      "description_short": "proprietario di taverna. <em>Forse una buona fonte di notizie e pettegolezzi?</em>"
+    },
+    "Riven": {
+      "name": "Riven",
+      "description_short": "chimico",
+      "associated_class": "Burattinaio"
+    },
+    "Rolan": {
+      "name": "Rolan",
+      "description_short": "spacciatore. <em>Forse un cliente con contatti influenti nel mondo criminale?</em>"
+    },
+    "Rolan Wott": {
+      "name": "(Bar) Rolan Wott",
+      "description_short": "Giudice influente, si occupa di proprietà, finanze e fondi. Famoso per i suoi sontuosi ricevimenti. <em>Forse ha un figlio svampito all’Accademia di Doskvol che ha spesso bisogno di voi?</em>"
+    },
+    "Roslyn Kellis": {
+      "name": "Roslyn Kellis",
+      "description_short": "aristocratica",
+      "associated_class": "Scaltro"
+    },
+    "Rutherford": {
+      "name": "Rutherford"
+    },
+    "Salia": {
+      "name": "Salia",
+      "description_short": "mercante d’informazioni",
+      "associated_class": "Burattinaio"
+    },
+    "Sawtooth": {
+      "name": "Sega",
+      "description_short": "medico",
+      "associated_class": "Sicario"
+    },
+    "Scurlock": {
+      "name": "Scurlock",
+      "description_short": "vampiro",
+      "associated_class": "Mistico"
+    },
+    "Sera": {
+      "name": "(P) Sera",
+      "description_short": "Commerciante d’armi. <em>Forse un fornitore con contatti nell’esercito?</em>"
+    },
+    "Setarra": {
+      "name": "Setarra",
+      "description_short": "demone",
+      "associated_class": "Mistico"
+    },
+    "Sevoy": {
+      "name": "(D) Sevoy",
+      "description_short": "Custode degli Spiriti. <em>Forse una spia doppiogiochista al vostro servizio?</em>"
+    },
+    "Stazia": {
+      "name": "Stazia",
+      "description_short": "farmacista",
+      "associated_class": "Artigiano"
+    },
+    "Steiner": {
+      "name": "Steiner",
+      "description_short": "assassino su commissione",
+      "associated_class": "Segugio"
+    },
+    "Taffer": {
+      "name": "Taffer"
+    },
+    "Telda": {
+      "name": "Telda",
+      "description_short": "mendicante",
+      "associated_class": "Scaltro"
+    },
+    "The Star": {
+      "name": "La Stella"
+    },
+    "The Tower": {
+      "name": "La Torre"
+    },
+    "Thomas": {
+      "name": "(Ban) Thomas",
+      "description_short": "medico. <em>Forse un ex bandito diventato dottore?</em>"
+    },
+    "Trev": {
+      "name": "(D) Trev",
+      "description_short": "capobanda. <em>Forse è grazie a lui che la vostra squadra è nata?</em>"
+    },
+    "Tyrsin Nol": {
+      "name": "Tyrsin Nol"
+    },
+    "Ulf Ironborn": {
+      "name": "Ulf Natifero"
+    },
+    "Veldren": {
+      "name": "Veldren",
+      "description_short": "psiconauta",
+      "associated_class": "Artigiano"
+    },
+    "Veleris": {
+      "name": "Veleris",
+      "description_short": "spia",
+      "associated_class": "Segugio"
+    },
+    "Walker": {
+      "name": "(Ban) Walker",
+      "description_short": "comandante carcerario. <em>Forse un datore di lavoro che ogni tanto ha bisogno di tipi loschi?</em>"
+    }
+  }
 }

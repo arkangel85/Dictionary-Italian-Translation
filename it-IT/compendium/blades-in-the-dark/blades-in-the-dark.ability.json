@@ -1,349 +1,349 @@
 {
-	"label": "Таланты",
-	"mapping": {
-		"description": "system.description",
-		"class": {
-			"path": "system.class",
-			"converter": "convertClass"
-		}
-	},
+  "label": "Talenti",
+  "mapping": {
+    "description": "system.description",
+    "class": {
+      "path": "system.class",
+      "converter": "convertClass"
+    }
+  },
 
-	"entries": {
-		"(C) Battleborn": {
-			"name": "(Г) Прирождённый боец",
-			"description": "Ты можешь потратить свою особую защиту, чтобы ослабить полученные в схватке повреждения или приложить особое усилие в бою"
-		},
-		"(C) Bodyguard": {
-			"name": "(Г) Телохранитель",
-			"description": "Прикрывая товарища по команде, бросай +d6 при испытании. Собирая информацию, чтобы оценить потенциальные опасности, ты получаешь +1 к эффективности."
-		},
-		"(C) Ghost Fighter": {
-			"name": "(Г) Истребитель призраков",
-			"description": "Ты можешь наполнять мистической энергией свои руки, оружие ближнего боя или инструменты. Ты получаешь козырь в бою со сверхъестественным. Ты можешь схватить призрака, чтобы удержать его и взять в плен."
-		},
-		"(C) Leader": {
-			"name": "(Г) Лидер",
-			"description": "Отдавая подручным приказ в бою, ты можешь заставить их драться дальше, даже если обычно они уже бесполезны (т. е. подручные не выходят из строя от повреждений 3-го уровня). Они получают +1 кэффективности и 1 ячейку защиты"
-		},
-		"(C) Mule": {
-			"name": "(Г) Мул",
-			"description": "У тебя выше пределы нагрузки. Лёгкая: 5. Нормальная: 7. Тяжёлая: 8."
-		},
-		"(C) Not to be Trifled With": {
-			"name": "(Г) Не шути со мной",
-			"description": "Ты можешь приложить особое усилие, чтобы сделать одну из двух вещей: или совершить физическое действие на грани сверхчеловеческого, или сразиться с мелкой шайкой на равных"
-		},
-		"(C) Savage": {
-			"name": "(Г) Свирепость",
-			"description": "Применение силы в твоём исполнении по‑настоящему страшно. Приказывая что-либо уже испуганному существу, бросай +d6."
-		},
-		"(C) Veteran": {
-			"name": "(Г) Необычный",
-			"description": "Выбери талант из другого источника."
-		},
-		"(C) Vigorous": {
-			"name": "(Г) Как на собаке",
-			"description": "Ты быстрее оправляешься от повреждений. Навсегда заполни первое деление своего счётчика лечения. К любым проверкам лечения твоего персонажа добавляется +d6."
-		},
-		"(H) Focused": {
-			"name": "(И) Собранность",
-			"description": "Ты можешь потратить свою особую защиту, чтобы ослабить последствия непредвиденных проблем, психических повреждений (от ужаса или смятения), потери следа или чтобы приложить особое усилие при стрельбе или выслеживании."
-		},
-		"(H) Ghost Hunter": {
-			"name": "(И) Призрачная гончая",
-			"description": "Твой ловчий питомец (см. ниже) наделён особой энергией. Он получает козырь при высле- живании сверхъестественного или в сражении с ним, а также приобретает одно волшебное свойство: призрачный облик, телепатическую связь или молниеносность. Этот талант можно взять два раза, дав своему зверю новое волшебное свойство."
-		},
-		"(H) Scout": {
-			"name": "(И) Разведчик",
-			"description": "Собирая информацию для обнаружения цели, ты получаешь +1 к эффективности. Прячась на заранее подготовленной позиции или применяя маскировку, бросай +d6 при попытках избежать обнаружения"
-		},
-		"(H) Sharpshooter": {
-			"name": "(И) Меткий стрелок",
-			"description": "Ты можешь приложить особое усилие, чтобы сделать одну из двух вещей: или поразить цель выстрелом на очень большом расстоянии, или подавить врага беглым огнём."
-		},
-		"(H) Survivor": {
-			"name": "(И) Уцелевший",
-			"description": "Благодаря опыту, полученному дорогой ценой, или оккультным ритуалам ты получаешь невосприимчивость к ядовитым испарениям мёртвых земель. Ты можешь питаться их флорой и фауной. У тебя на одну ячейку стресса больше."
-		},
-		"(H) Tough as Nails": {
-			"name": "(И) Несгибаемость",
-			"description": "Штрафы за полученные повреждения снижены на 1 категорию. Однако повреждения 4 уровня всё же смертельны."
-		},
-		"(H) Vengeful": {
-			"name": "(И) Мстительность",
-			"description": "У  тебя появляется дополнительный источник опыта: ты караешь того, кто причинил вред тебе или твоему близкому. Если в этом деле тебе помогали товарищи, то ваша команда также получает пункт опыта."
-		},
-		"(H) Veteran": {
-			"name": "(И) Необычный",
-			"description": "Выбери талант из другого источника."
-		},
-		"(Le) Alchemist": {
-			"name": "(У) Алхимик",
-			"description": "При изобретении или создании изделия с алхи- мическими свойствами ты получаешь +1 к результативности. При взятии таланта ты сразу узнаёшь один рецепт."
-		},
-		"(Le) Analyst": {
-			"name": "(У) Аналитик",
-			"description": "Во время передышки ты получаешь возможность распределить два продвижения счётчика между лю- быми долгосрочными проектами, включающими расследо- вание или создание новых рецептов или схем."
-		},
-		"(Le) Artificer": {
-			"name": "(У) Инженер",
-			"description": "При изобретении/создании изделия, относяще- гося к искровой инженерии, ты получаешь +1 к результативности. При взятии таланта ты сразу узнаёшь одну схему."
-		},
-		"(Le) Fortitude": {
-			"name": "(У) Стойкость",
-			"description": "Ты можешь потратить особую защиту, чтобы ослабить последствия, связанные с переутомлением, слабостью или химическим воздействием, или чтобы приложить особое усилие, работая с техническими устройствами или химикатами."
-		},
-		"(Le) Ghost Ward": {
-			"name": "(У) Призрачный барьер",
-			"description": "Ты можешь разрушить область при по- мощи мистических веществ. Это делает её непригодной для иного использования, зато для призраков она становится либо запретной, либо притягательной (по твоему выбору)"
-		},
-		"(Le) Physicker": {
-			"name": "(У) Врач",
-			"description": "Ты можешь применять навык ремесла, работая с костями, кровью и иными телесными жидкостями, чтобы лечить раны или не давать пациенту умереть. Ты можешь изучать болезни и трупы. Все в твоей команде (включая тебя) бросают +d6 при проверках лечения."
-		},
-		"(Le) Saboteur": {
-			"name": "(У) Саботажник",
-			"description": "Ты умеешь разрушать гораздо тише, чем это делается обычно, а причинённые тобой повреждения незаметны при беглом осмотре."
-		},
-		"(Le) Venomous": {
-			"name": "(У) Ядовитость",
-			"description": "Выбери один вид наркотика или яда (из своей перевязи алхимика), к которому ты получаешь невосприимчивость. Ты можешь особым усилием выделить эту субстанцию через свою кожу или слюну или выдохнуть в качестве пара."
-		},
-		"(Le) Veteran": {
-			"name": "(У) Необычный",
-			"description": "Выбери талант из другого источника."
-		},
-		"(Lu) Ambush": {
-			"name": "(Про) Засада",
-			"description": "Атакуя из засады или устанавливая ловушку, бросай +d6 при проверке."
-		},
-		"(Lu) Daredevil": {
-			"name": "(Про) Сорвиголова",
-			"description": "Бросай +d6 при отчаянной проверке, если согласен на −d6 при испытаниях против её последствий."
-		},
-		"(Lu) Expertise": {
-			"name": "(Про) Эксперт",
-			"description": "Выбери один навык. Когда ты руководишь группой, применяющей этот навык, ты получаешь не более 1 пункта стресса вне зависимости от количества участников, проваливших свои проверки."
-		},
-		"(Lu) Ghost Veil": {
-			"name": "(Про) Призрачность",
-			"description": "Ты можешь частично сместиться в призрачное поле и обрести на несколько мгновений бесплотность и сходство с тенью. При этом ты увеличиваешь свой стресс на 2 пункта и ещё на 1 за каждый дополнительный эффект: состояние длится несколько минут, а не мгновений; невидимость вместо сходства с тенью; ты можешь летать по воздуху, как призрак."
-		},
-		"(Lu) Infiltrator": {
-			"name": "(Про) Диверсант",
-			"description": "Когда ты обходишь системы безопасности, для тебя не имеют значения качество и ранг."
-		},
-		"(Lu) Reflexes": {
-			"name": "(Про) Быстрая реакция.",
-			"description": "Если возникает вопрос о том, кто действует первым, ответ на него — ты!"
-		},
-		"(Lu) Shadow": {
-			"name": "(Про) Тень",
-			"description": "Ты можешь применить особую защиту, чтобы ослабить последствия, связанные с системами безопасности или обнаружения, или чтобы приложить особое усилие, прыгая, бегая, лазая или скрываясь."
-		},
-		"(Lu) The Devil's Footsteps": {
-			"name": "(Про) Дьявольская ловкость",
-			"description": "Ты можешь приложить особое усилие, чтобы добиться одного из двух: или проявить чудеса атлетики на грани сверхчеловеческого, или сманеврировать так, чтобы враги по ошибке атаковали друг друга."
-		},
-		"(Lu) Veteran": {
-			"name": "(Про) Необычный",
-			"description": "Выбери талант из другого источника."
-		},
-		"(Sl) A Little Something on the Side": {
-			"name": "(А) Халтурка",
-			"description": "В конце каждой передышки ты добавляешь две монеты в заначку."
-		},
-		"(Sl) Cloak & Dagger": {
-			"name": "(А) Плащ и кинжал",
-			"description": "Прибегая к переодеванию или иным методам маскировки, бросай +d6 при всех проверках, связанных с избеганием подозрений или обманом. Неожиданно сбрасывая маскировку, ты получаешь преимущество внезапности и действуешь первым"
-		},
-		"(Sl) Ghost Voice": {
-			"name": "(А) Призрачный голос",
-			"description": "Ты знаешь тайный способ общаться с призраком или демоном, будто это обычный человек, даже если они выглядят дико и жутко. У тебя есть козырь при общении со сверхъестественным."
-		},
-		"(Sl) Like Looking into a Mirror": {
-			"name": "(А) Обмани меня",
-			"description": "Ты всегда знаешь, лгут ли тебе."
-		},
-		"(Sl) Mesmerism": {
-			"name": "(А) Гипнотизёр",
-			"description": "Манипулируя кем-то, ты можешь заставить собеседника забыть об этом разговоре до вашей следующей встречи."
-		},
-		"(Sl) Rook's Gambit": {
-			"name": "(А) Рокировка",
-			"description": "Получи 2 пункта стресса, чтобы применить cвой лучший навык там, где действия предполагают применение другого. Опиши, как именно ты приспосабливаешь свой навык к задаче."
-		},
-		"(Sl) Subterfuge": {
-			"name": "(А) Изворотливость",
-			"description": "Ты можешь потратить свою особую защиту, чтобы ослабить последствия, связанные с подозрениями или переговорами, или же чтобы приложить особое усилие при обмане."
-		},
-		"(Sl) Trust in Me": {
-			"name": "(А) Доверься мне",
-			"description": ". Бросай +d6 при любых действиях против того, с кем у тебя близкие отношения."
-		},
-		"(Sl) Veteran": {
-			"name": "(А) Необычный",
-			"description": "Выбери талант из другого источника."
-		},
-		"(Sp) Calculating": {
-			"name": "(К) Расчётливость",
-			"description": "Благодаря тщательному планированию, ты можешь во время передышки добавить 1 дополнительное действие себе или другому члену команды."
-		},
-		"(Sp) Connected": {
-			"name": "(К) Связи",
-			"description": "Во время передышки ты получаешь +1 к результативности, если приобретаешь ресурсы или отводишь подозрения."
-		},
-		"(Sp) Foresight": {
-			"name": "(К) Предвидение",
-			"description": "Дважды за дело ты можешь содействовать, не повышая свой стресс. Каждый раз рассказывай, как именно тебе удалось предусмотреть это."
-		},
-		"(Sp) Functioning Vice": {
-			"name": "(К) Контролируемая страсть",
-			"description": "Утоляя свою страсть, ты можешь изменить результат, выпавший на кубиках, на 1 или 2 пункта (вверх или вниз). Любой союзник, составляющий тебе компанию, может сделать то же самое."
-		},
-		"(Sp) Ghost  Contract": {
-			"name": "(К) Призрачный договор",
-			"description": "Когда ты заключаешь устный или письменный договор с человеком или любым другим существом, вы оба получается метки, свидетельствующие о ваших обещаниях. Любой, кто нарушает договор, получает повреждение 3 уровня «проклятие»"
-		},
-		"(Sp) Jail Bird": {
-			"name": "(К) Сиделец",
-			"description": "При попадании в тюрьму твой уровень розыска считается на 1 меньше, ранг команды — на 1 выше, а также ты получаешь +1 к отношениям с организацией, которой помогаешь в тюрьме, в дополнение к любым иным итогам отсидки срока."
-		},
-		"(Sp) Mastermind": {
-			"name": "(К) Комбинатор",
-			"description": "Ты можешь потратить свою особую защиту, чтобы прикрыть товарища по команде, или чтобы приложить особое усилие, собирая информацию или работая над долгосрочным проектом."
-		},
-		"(Sp) Veteran": {
-			"name": "(К) Необычный",
-			"description": "Выбери талант из другого источника."
-		},
-		"(Sp) Weaving the Web": {
-			"name": "(К) Ниточки",
-			"description": "Бросай +d6 при проверках общения, когда собираешь информацию о цели перед делом. Кроме того, бросай +d6 при проверке расклада для этого дела"
-		},
-		"(W) Compel": {
-			"name": "(М) Принуждение",
-			"description": "Ты можешь войти в резонанс с призрачным полем, чтобы заставить местного призрака появиться перед собой и повиноваться твоим приказам. Ты не испытываешь сверхъестественного страха в присутствии духов, которых призываешь или пытаешься контролировать (а вот твои товарищи могут и испугаться)."
-		},
-		"(W) Ghost Mind": {
-			"name": "(М) Призрачный разум",
-			"description": "Ты всегда чувствуешь, если поблизости есть сверхъестественное существо. Бросай +d6 при любых проверках сбора информации о сверхъестественном."
-		},
-		"(W) Iron Will": {
-			"name": "(М) Железная воля",
-			"description": "Ты получаешь невосприимчивость к ужасу, который наводят некоторые сверхъестественные существа своим видом. Кроме того, бросай +d6 при испытаниях воли"
-		},
-		"(W) Occultist": {
-			"name": "(М) Оккультист",
-			"description": "Ты знаешь секретные способы общаться с древними силами, забытыми богами/демонами. Пообщавшись с одним из них, бросай +d6, когда приказываешь любым его почитателям."
-		},
-		"(W) Ritual": {
-			"name": "(М) Ритуал",
-			"description": "Ты владеешь ритуальной магией. Ты можешь изучить оккультный ритуал (или разработать новый), чтобы вызвать сверхъестественное существо или явление. Взяв этот талант, ты сразу узнаёшь один ритуал."
-		},
-		"(W) Strange Methods": {
-			"name": "(М) Странные методы",
-			"description": "При изобретении или создании изделия с магическими свойствами ты получаешь +1 к результативности. При взятии таланта ты сразу узнаёшь один магический рецепт"
-		},
-		"(W) Tempest": {
-			"name": "(М) Буря",
-			"description": "Ты можешь приложить особое усилие, чтобы произвести один из двух следующих эффектов: или нанести удар молнией как оружием, или вызвать поблизости от себя шторм (проливной дождь, пронизывающий ветер и т.д.)."
-		},
-		"(W) Veteran": {
-			"name": "(М) Необычный",
-			"description": "Выбери талант из другого источника."
-		},
-		"(W) Warded": {
-			"name": "(М) Магическая защита",
-			"description": "Ты можешь использовать свою особую защиту, чтобы ослабить сверхъестественные последствия, или чтобы приложить особое усилие, когда ты применяешь магию или борешься против неё."
-		},
-		"(Hu) Automaton": {
-			"name": "(Ав) Механизм",
-			"description": "Ты — дух, оживляющий творение искровой инженерии. По умолчанию ты обладаешь силой и восприятием, сравнимыми с человеческими. У тебя есть броня (не учитывается в нагрузке). Прежние свои человеческие эмоции, интересы и связи ты вспоминаешь как в тумане: сейчас ты существуешь, чтобы выполнять свои задачи. Выбери три задачи атвоматона из списка. Если твой корпус сильно повредят или уничтожат, его можно сделать заново. Если уничтожено вместилище твоей души, ты освобождаешься от рабства и становишься призраком. В любой ситуации, когда у человека повысился бы уровень стресса, у тебя происходят энергопотери. В любой ситуации, когда у человека случилась бы травма, у тебя случается износ."
-		},
-		"(Hu) Compartments": {
-			"name": "(Ав) Отделения",
-			"description": "Твоё снаряжение встроено в твой корпус; его можно выдвигать и убирать за панели, где его не видно. Ты можешь нести при себе +2 пункта нагрузки."
-		},
-		"(Hu) Electroplasmic Projectors": {
-			"name": "(Ав) Электроплазменный генератор",
-			"description": "Ты можешь использовать часть своей электроплазмы, чтобы ударить электричеством по площади вокруг себя или направленным «лучом». Ты мо- жешь также применять это свойство для создания разрядного барьера, чтобы не подпустить близко или поймать в ловушку духа. За каждый уровень мощности этого эффекта получи 1 пункт энергопотери."
-		},
-		"(Hu) Interface": {
-			"name": "(Ав) Подключение",
-			"description": "Ты можешь резонировать с местным электроплазменным полем, чтобы управлять им или чем-то, что с ним связано (включая других автоматонов)."
-		},
-		"(Hu) Overcharge": {
-			"name": "(Ав) Перегрузка",
-			"description": "Получи 1 пункт энергопотерь, чтобы получить сверхчеловеческую силу или скорость (пробежать быстрее лошади, порвать лист металла голыми руками и так далее). Это влияет на эффективность действий."
-		},
-		"(Hu) Secondary Hull": {
-			"name": "(Ав) Запасной корпус",
-			"description": "Выбери дополнительный корпус, его размер и стартовую особенность. Ты можешь переносить своё сознание между корпусами по желанию."
-		},
-		"(G) Dissipate": {
-			"name": "(При) Рассеивание",
-			"description": "Ты можешь на мгновение рассеять свой электроплазменный облик, чтобы пройти сквозь сплошной объект. При этом ты получаешь 1 пункт истощения плюс ещё один за каждый из следующих вариантов, если их выберешь: рассеивание длится дольше (минуту — час — день); невидимость; всё, что проходит сквозь тебя, подвергается опасному воздействию электричества или холода."
-		},
-		"(G) Ghost Form": {
-			"name": "(При) Призрачный облик",
-			"description": "Ты теперь являешься сгустком электроплазмы, с виду напоминающим тебя при жизни, в том числе одеждой. Ты очень слабо воздействуешь на окружающий мир, как и он на тебя. У тебя уязвимость к магии и электроплазменным эффектам. Ты летаешь, причём довольно быстро и не уставая. Ты можешь медленно просачиваться сквозь щели, подобно пару. Воздух вокруг тебя холодеет, а живые при виде тебя впадают в ужас. На тебя действуют обереги против духов и принуждение мистиков, хотя ты можешь пройти испытание, чтобы справиться с таким эффектом. В любой ситуации, когда человек получил бы пункты стресса, у тебя накапливается истощение. В любой ситуации, когда у человека случилась бы травма, у тебя случается помрачение."
-		},
-		"(G) Manifest": {
-			"name": "(При) Явление",
-			"description": "Получи 1 пункт истощения, чтобы мгновенно переместиться через призрачное поле в любое место, которое было тебе хорошо знакомо при жизни, либо в которое тебя призывают с помощью таланта принуждение."
-		},
-		"(G) Poltergeist": {
-			"name": "(При) Полтергейст",
-			"description": "Получи 1 пункт истощения, чтобы плотно взаимодействовать с физическим миром в течение пары мгновений — как если бы у тебя было обычное тело. Ты можешь увеличить расстояние и мощность взаимодействия за счёт телекинеза и электроплазменных разрядов, если получишь больше пунктов истощения (от 2 до 6)."
-		},
-		"(G) Possess": {
-			"name": "(При) Захват тела",
-			"description": "Ты можешь резонировать с призрачным полем, чтобы захватить живое тело. Твой контроль подвергается проверке: когда ты поглощаешь энергию духа хозяина тела; против тебя применяется магия; хозяин тела доведён до отчаяния. В этих случаях ты должен или снова войти в резонанс (с риском повредить свою эктоплазменную субстанцию), или выйти из тела. Ты можешь сколько угодно находиться в автоматоне или пустышке, специально приготовленной для тебя (в таком случае поменяй бланк на автоматона или вампира соответственно)."
-		},
-		"(G) Veteran": {
-			"name": "(При) Необычное",
-			"description": "Выбери талант из другого источника."
-		},
-		"(V) A Void in the Echo": {
-			"name": "(В) Отсутствие эха",
-			"description": "Духи не видят тебя и не могут тебе навредить. Получи 2 пункта стресса, чтобы живые существа отвели взгляд и не замечали тебя в течение нескольких мгновений."
-		},
-		"(V) Arcane Sight": {
-			"name": "(В) Магическое зрение",
-			"description": "Получи 1 пункт стресса, чтобы на несколько минут превзойти возможности человеческого восприятия. Ты можешь «слышать» истинные мысли и чувства человека, видеть в кромешной тьме, ощущать присутствие невидимых вещей, находить спрятанные предметы и так далее."
-		},
-		"(V) Dark Talent": {
-			"name": "(В) Тёмный дар",
-			"description": "Выбери чутьё, удаль или волю. Ты бросаешь +d6 при испытаниях этой характеристики, а максимальный уровень твоих навыков, связанных с ней, теперь равен 5."
-		},
-		"(V) Dark Talent (Insight)": {
-			"name": "(В) Тёмный дар (Чутьё)",
-			"description": "Выбери чутьё, удаль или волю. Ты бросаешь +d6 при испытаниях этой характеристики, а максимальный уровень твоих навыков, связанных с ней, теперь равен 5."
-		},
-		"(V) Dark Talent (Prowess)": {
-			"name": "(В) Тёмный дар (Удаль)",
-			"description": "Выбери чутьё, удаль или волю. Ты бросаешь +d6 при испытаниях этой характеристики, а максимальный уровень твоих навыков, связанных с ней, теперь равен 5."
-		},
-		"(V) Dark Talent (Resolve)": {
-			"name": "(В) Тёмный дар (Воля)",
-			"description": "Выбери чутьё, удаль или волю. Ты бросаешь +d6 при испытаниях этой характеристики, а максимальный уровень твоих навыков, связанных с ней, теперь равен 5."
-		},
-		"(V) Sinister Guile": {
-			"name": "(В) Коварство",
-			"description": "Во время передышки, выбери одну из возможностей: или сделай дополнительное действие передышки, или бросай +d6 при всех своих действиях передышки."
-		},
-		"(V) Terrible Power": {
-			"name": "(В) Ужасная сила",
-			"description": "Получи 1 пункт стресса, чтобы воспользоваться сверхчеловеческой силой или скоростью (пробежаться быстрее поезда, расколоть камень голыми руками, запрыгнуть с земли на крышу здания и т. д.). Это влияет на эффективность действия."
-		},
-		"(V) Undead": {
-			"name": "(В) Нежить",
-			"description": "Ты — дух, вселившийся в мёртвое тело. У тебя максимально возможное количество травм: выбери четыре травмы, отражающие твою вампирскую природу. Магические атаки становятся козырем против тебя. Если ты сталкиваешься с фатальными повреждениями или новой травмой, ты не умираешь, но твой дух оказывается временно сокрушён. Отметь в этом случае повреждение 3 уровня «беспомощность»; оно сохраняется, пока ты не утолишь голод и не вылечишься. Если ты получаешь в этом состоянии магические повреждения, ты принимаешь истинную смерть. Ты набираешь опыт медленнее (это отражено в более длинных шкалах опыта). Зато ты может накапливать до 12 пунктов стресса, а не до 9."
-		},
-		"(V) Veteran": {
-			"name": "(В) Необычное",
-			"description": "Выбери талант из другого источника"
-		}
-	}
+  "entries": {
+    "(C) Battleborn": {
+      "name": "(G) Nato per combattere",
+      "description": "Puoi spendere la tua difesa speciale per ridurre i danni subiti in mischia o per compiere uno sforzo straordinario in combattimento."
+    },
+    "(C) Bodyguard": {
+      "name": "(G) Guardaspalle",
+      "description": "Quando proteggi un alleato, tira +d6 alla prova. Quando raccogli informazioni per valutare potenziali pericoli, ottieni +1 all'efficacia."
+    },
+    "(C) Ghost Fighter": {
+      "name": "(G) Cacciatore di spettri",
+      "description": "Puoi infondere energia mistica nelle tue mani, armi da mischia o strumenti. Ottieni vantaggio nei combattimenti contro il soprannaturale. Puoi afferrare un fantasma per trattenerlo o catturarlo."
+    },
+    "(C) Leader": {
+      "name": "(G) Capo",
+      "description": "Dando ordini ai sottoposti in battaglia, puoi farli continuare a combattere anche quando normalmente sarebbero inutilizzabili (es. non vengono messi fuori combattimento da danni di livello 3). Ottengono +1 all’efficacia e 1 slot di difesa."
+    },
+    "(C) Mule": {
+      "name": "(G) Mulo",
+      "description": "Hai limiti di carico superiori. Leggero: 5. Normale: 7. Pesante: 8."
+    },
+    "(C) Not to be Trifled With": {
+      "name": "(G) Non scherzare con me",
+      "description": "Puoi compiere uno sforzo straordinario per fare una delle due cose: eseguire un'impresa fisica al limite del sovrumano oppure combattere da solo contro una piccola banda."
+    },
+    "(C) Savage": {
+      "name": "(G) Selvaggio",
+      "description": "Quando usi la forza sei davvero terrificante. Quando dai ordini a una creatura già spaventata, tira +d6."
+    },
+    "(C) Veteran": {
+      "name": "(G) Fuori categoria",
+      "description": "Scegli un talento da un'altra fonte."
+    },
+    "(C) Vigorous": {
+      "name": "(G) Come un cane",
+      "description": "Ti riprendi più velocemente dai danni. Il primo segmento della tua barra di guarigione è sempre pieno. Aggiungi +d6 a tutte le prove di guarigione che ti riguardano."
+    },
+    "(H) Focused": {
+      "name": "(I) Focalizzato",
+      "description": "Puoi spendere la tua difesa speciale per ridurre gli effetti di imprevisti, danni psichici (terrore o confusione), perdita di pista o per compiere uno sforzo straordinario nel tiro o nel tracciamento."
+    },
+    "(H) Ghost Hunter": {
+      "name": "(I) Segugio spettrale",
+      "description": "Il tuo compagno da caccia (vedi sotto) è caricato di energia speciale. Ha vantaggio nel rintracciare o combattere il soprannaturale e possiede una proprietà magica: forma spettrale, legame telepatico o fulminea velocità. Puoi prendere questo talento due volte, aggiungendo una nuova proprietà magica."
+    },
+    "(H) Scout": {
+      "name": "(I) Esploratore",
+      "description": "Quando raccogli informazioni per localizzare un bersaglio, ottieni +1 all’efficacia. Quando ti nascondi da una posizione preparata o usi un travestimento, tira +d6 per evitare di essere scoperto."
+    },
+    "(H) Sharpshooter": {
+      "name": "(I) Cecchino",
+      "description": "Puoi compiere uno sforzo straordinario per fare una delle due cose: colpire un bersaglio a distanza estrema oppure sopprimere un nemico con fuoco rapido."
+    },
+    "(H) Survivor": {
+      "name": "(I) Sopravvissuto",
+      "description": "Grazie a esperienze dure o rituali occulti sei immune ai vapori velenosi delle terre morte. Puoi nutrirti della loro flora e fauna. Ottieni uno slot stress aggiuntivo."
+    },
+    "(H) Tough as Nails": {
+      "name": "(I) Duro come il ferro",
+      "description": "I malus dovuti ai danni sono ridotti di 1 categoria. Tuttavia, i danni di livello 4 restano letali."
+    },
+    "(H) Vengeful": {
+      "name": "(I) Vendicativo",
+      "description": "Ottieni una fonte di esperienza extra: punire chi ha ferito te o una persona cara. Se i compagni ti aiutano, anche la squadra ottiene 1 punto esperienza."
+    },
+    "(H) Veteran": {
+      "name": "(I) Fuori categoria",
+      "description": "Scegli un talento da un'altra fonte."
+    },
+    "(Le) Alchemist": {
+      "name": "(U) Alchimista",
+      "description": "Quando inventi o crei un oggetto con proprietà alchemiche ottieni +1 all’efficacia. Quando scegli questo talento, impari subito una ricetta."
+    },
+    "(Le) Analyst": {
+      "name": "(U) Analista",
+      "description": "Durante il riposo puoi distribuire due avanzamenti tra qualsiasi progetto a lungo termine che includa investigazione o sviluppo di nuove ricette o schemi."
+    },
+    "(Le) Artificer": {
+      "name": "(U) Ingegnere",
+      "description": "Quando inventi o crei un oggetto di ingegneria spark, ottieni +1 all’efficacia. Quando scegli questo talento, impari subito uno schema."
+    },
+    "(Le) Fortitude": {
+      "name": "(U) Tenacia",
+      "description": "Puoi spendere la tua difesa speciale per ridurre effetti legati a stanchezza, debolezza o sostanze chimiche, oppure per compiere uno sforzo straordinario usando tecnologia o sostanze chimiche."
+    },
+    "(Le) Ghost Ward": {
+      "name": "(U) Barriera spettrale",
+      "description": "Puoi distruggere un'area usando sostanze mistiche. L’area diventa inservibile per gli altri, ma per gli spettri diventa o inaccessibile o attrattiva (a tua scelta)."
+    },
+    "(Le) Physicker": {
+      "name": "(U) Medico",
+      "description": "Puoi usare artigianato su ossa, sangue e altri fluidi corporei per curare ferite o evitare la morte. Puoi studiare malattie e cadaveri. Tutti i membri della tua squadra (incluso te) tirano +d6 nelle prove di guarigione."
+    },
+    "(Le) Saboteur": {
+      "name": "(U) Sabotatore",
+      "description": "Sai distruggere le cose in modo molto più silenzioso del normale e i danni che infliggi non sono evidenti a un'ispezione superficiale."
+    },
+    "(Le) Venomous": {
+      "name": "(U) Velenoso",
+      "description": "Scegli un tipo di droga o veleno (dalla tua borsa dell’alchimista) a cui sei immune. Puoi usare uno sforzo straordinario per secernere la sostanza dalla pelle, saliva o come vapore."
+    },
+    "(Le) Veteran": {
+      "name": "(U) Fuori categoria",
+      "description": "Scegli un talento da un'altra fonte."
+    },
+    "(Lu) Ambush": {
+      "name": "(P) Imboscata",
+      "description": "Quando attacchi da un'imboscata o tendi una trappola, tira +d6 alla prova."
+    },
+    "(Lu) Daredevil": {
+      "name": "(P) Incosciente",
+      "description": "Tira +d6 in una prova disperata se accetti −d6 nei test contro le sue conseguenze."
+    },
+    "(Lu) Expertise": {
+      "name": "(P) Esperto",
+      "description": "Scegli una competenza. Quando guidi un gruppo che la utilizza, subisci al massimo 1 punto stress, indipendentemente da quanti falliscano la prova."
+    },
+    "(Lu) Ghost Veil": {
+      "name": "(P) Velo Spettrale",
+      "description": "Puoi entrare parzialmente nel campo spettrale, diventando incorporeo e simile a un'ombra per pochi istanti. Aumenti lo stress di 2, e di +1 per ogni effetto extra: durata di minuti invece che attimi, invisibilità completa, volo come un fantasma."
+    },
+    "(Lu) Infiltrator": {
+      "name": "(P) Infiltrato",
+      "description": "Quando superi sistemi di sicurezza, ignorane qualità e livello."
+    },
+    "(Lu) Reflexes": {
+      "name": "(P) Riflessi pronti",
+      "description": "Se c’è da decidere chi agisce per primo, è sempre il tuo turno!"
+    },
+    "(Lu) Shadow": {
+      "name": "(P) Ombra",
+      "description": "Puoi usare la tua difesa speciale per ridurre gli effetti legati a sicurezza o rilevamento, o per compiere uno sforzo straordinario nel saltare, correre, arrampicarti o nasconderti."
+    },
+    "(Lu) The Devil's Footsteps": {
+      "name": "(P) Passi del Diavolo",
+      "description": "Puoi compiere uno sforzo straordinario per realizzare una delle due cose: compiere imprese atletiche al limite del sovrumano o far sì che i nemici si attacchino tra loro per errore."
+    },
+    "(Lu) Veteran": {
+      "name": "(P) Fuori categoria",
+      "description": "Scegli un talento da un'altra fonte."
+    },
+    "(Sl) A Little Something on the Side": {
+      "name": "(A) Lavoretto extra",
+      "description": "Alla fine di ogni riposo, aggiungi due monete alla tua scorta."
+    },
+    "(Sl) Cloak & Dagger": {
+      "name": "(A) Mantello e pugnale",
+      "description": "Quando usi travestimenti o tecniche di camuffamento, tira +d6 per evitare sospetti o ingannare. Se riveli improvvisamente la tua identità, ottieni vantaggio e agisci per primo."
+    },
+    "(Sl) Ghost Voice": {
+      "name": "(A) Voce spettrale",
+      "description": "Conosci un linguaggio segreto per parlare con fantasmi o demoni come se fossero persone normali, anche se appaiono orribili. Hai vantaggio nelle interazioni col soprannaturale."
+    },
+    "(Sl) Like Looking into a Mirror": {
+      "name": "(A) Specchio dell'anima",
+      "description": "Sai sempre quando ti stanno mentendo."
+    },
+    "(Sl) Mesmerism": {
+      "name": "(A) Ipnotizzatore",
+      "description": "Quando manipoli qualcuno, puoi fargli dimenticare la conversazione fino al vostro prossimo incontro."
+    },
+    "(Sl) Rook's Gambit": {
+      "name": "(A) Mossa del Corvo",
+      "description": "Spendi 2 punti stress per usare la tua abilità migliore al posto di un’altra richiesta. Spiega come la adatti alla situazione."
+    },
+    "(Sl) Subterfuge": {
+      "name": "(A) Sotterfugio",
+      "description": "Puoi usare la tua difesa speciale per ridurre effetti legati a sospetti o trattative, o per compiere uno sforzo straordinario in un inganno."
+    },
+    "(Sl) Trust in Me": {
+      "name": "(A) Fidati di me",
+      "description": "Tira +d6 in qualsiasi azione contro qualcuno con cui hai un legame stretto."
+    },
+    "(Sl) Veteran": {
+      "name": "(A) Fuori categoria",
+      "description": "Scegli un talento da un'altra fonte."
+    },
+    "(Sp) Calculating": {
+      "name": "(C) Calcolatore",
+      "description": "Grazie alla tua pianificazione meticolosa, durante il riposo puoi aggiungere 1 azione extra per te o per un altro membro della squadra."
+    },
+    "(Sp) Connected": {
+      "name": "(C) Ben introdotto",
+      "description": "Durante il riposo, ottieni +1 all’efficacia quando acquisti risorse o devii sospetti."
+    },
+    "(Sp) Foresight": {
+      "name": "(C) Preveggenza",
+      "description": "Due volte per missione puoi offrire assistenza senza accumulare stress. Ogni volta spiega come avevi previsto la situazione."
+    },
+    "(Sp) Functioning Vice": {
+      "name": "(C) Vizio controllato",
+      "description": "Soddisfacendo il tuo vizio, puoi modificare il risultato dei dadi di 1 o 2 punti (verso l’alto o verso il basso). Qualsiasi alleato che ti accompagna può fare lo stesso."
+    },
+    "(Sp) Ghost Contract": {
+      "name": "(C) Patto spettrale",
+      "description": "Quando stringi un accordo verbale o scritto con una creatura, entrambi ottenete marchi visibili che ne testimoniano i termini. Chi viola l’accordo subisce un danno di livello 3: “maledizione”."
+    },
+    "(Sp) Jail Bird": {
+      "name": "(C) Abituato al carcere",
+      "description": "Quando finisci in prigione, il tuo livello di ricercato è considerato 1 in meno, il rango della squadra è 1 in più e ottieni +1 alle relazioni con l’organizzazione che aiuti in prigione, oltre a qualsiasi altro effetto della detenzione."
+    },
+    "(Sp) Mastermind": {
+      "name": "(C) Mente strategica",
+      "description": "Puoi usare la tua difesa speciale per coprire un compagno o per compiere uno sforzo straordinario nel raccogliere informazioni o lavorare a un progetto a lungo termine."
+    },
+    "(Sp) Veteran": {
+      "name": "(C) Fuori categoria",
+      "description": "Scegli un talento da un'altra fonte."
+    },
+    "(Sp) Weaving the Web": {
+      "name": "(C) Tessere la rete",
+      "description": "Tira +d6 nelle prove di comunicazione quando raccogli informazioni su un bersaglio prima di una missione. Inoltre, tira +d6 nella prova di preparazione della missione."
+    },
+    "(W) Compel": {
+      "name": "(M) Imposizione",
+      "description": "Puoi entrare in risonanza con il campo spettrale per evocare un fantasma locale e costringerlo a obbedirti. Non provi paura soprannaturale quando affronti gli spiriti che evochi o cerchi di controllare (i tuoi compagni sì)."
+    },
+    "(W) Ghost Mind": {
+      "name": "(M) Mente spettrale",
+      "description": "Percepisci sempre la presenza di entità soprannaturali nelle vicinanze. Tira +d6 in tutte le prove per raccogliere informazioni su di esse."
+    },
+    "(W) Iron Will": {
+      "name": "(M) Volontà di ferro",
+      "description": "Sei immune al terrore provocato dall’aspetto di alcune entità soprannaturali. Inoltre, tira +d6 nei test di volontà."
+    },
+    "(W) Occultist": {
+      "name": "(M) Occultista",
+      "description": "Conosci vie segrete per comunicare con antiche entità, divinità o demoni dimenticati. Dopo aver parlato con uno di loro, tira +d6 quando dai ordini ai suoi seguaci."
+    },
+    "(W) Ritual": {
+      "name": "(M) Rituale",
+      "description": "Conosci la magia rituale. Puoi apprendere o sviluppare un rituale occulto per evocare entità o fenomeni soprannaturali. Prendendo questo talento, impari subito un rituale."
+    },
+    "(W) Strange Methods": {
+      "name": "(M) Metodi strani",
+      "description": "Quando inventi o crei un oggetto con proprietà magiche, ottieni +1 all’efficacia. Prendendo questo talento, impari subito una ricetta magica."
+    },
+    "(W) Tempest": {
+      "name": "(M) Tempesta",
+      "description": "Puoi compiere uno sforzo straordinario per produrre uno di questi due effetti: colpire con un fulmine o evocare una tempesta (pioggia battente, vento tagliente, ecc.)."
+    },
+    "(W) Veteran": {
+      "name": "(M) Fuori categoria",
+      "description": "Scegli un talento da un'altra fonte."
+    },
+    "(W) Warded": {
+      "name": "(M) Protetto dalla magia",
+      "description": "Puoi usare la tua difesa speciale per ridurre effetti soprannaturali o per compiere uno sforzo straordinario nel lanciare o resistere alla magia."
+    },
+    "(Hu) Automaton": {
+      "name": "(Aut) Automa",
+      "description": "Sei uno spirito che anima una creazione d'ingegneria spark. Hai forza e percezione simili a quelle umane. Hai armatura (non conta nel carico). Le tue emozioni, interessi e legami umani sono un ricordo sfocato: ora esisti per eseguire compiti. Scegli tre compiti da automa. Se il tuo corpo viene danneggiato o distrutto, può essere ricostruito. Se il tuo contenitore spirituale è distrutto, diventi un fantasma. Dove un umano accumulerebbe stress, tu subisci perdita d’energia; dove un umano subirebbe una ferita, tu subisci usura."
+    },
+    "(Hu) Compartments": {
+      "name": "(Aut) Scomparti nascosti",
+      "description": "Il tuo equipaggiamento è integrato nel corpo; può essere estratto o nascosto dietro pannelli. Ottieni +2 punti carico."
+    },
+    "(Hu) Electroplasmic Projectors": {
+      "name": "(Aut) Proiettori elettroplasici",
+      "description": "Puoi rilasciare parte della tua energia elettroplasica per colpire con scariche un’area intorno o un bersaglio specifico. Puoi anche creare una barriera per tenere lontani o intrappolare spiriti. Ottieni 1 punto perdita d’energia per ogni livello di potenza usato."
+    },
+    "(Hu) Interface": {
+      "name": "(Aut) Interfaccia",
+      "description": "Puoi entrare in risonanza con il campo elettroplasmico per controllarlo o controllare qualsiasi cosa a esso connessa (inclusi altri automi)."
+    },
+    "(Hu) Overcharge": {
+      "name": "(Aut) Sovraccarico",
+      "description": "Ottieni 1 punto perdita d’energia per accedere a forza o velocità sovrumane (correre più veloce di un cavallo, strappare metallo a mani nude, ecc.). Influenza l’efficacia dell’azione."
+    },
+    "(Hu) Secondary Hull": {
+      "name": "(Aut) Corpo secondario",
+      "description": "Scegli un secondo corpo, la sua dimensione e caratteristica iniziale. Puoi trasferire la tua coscienza tra i corpi a volontà."
+    },
+    "(G) Dissipate": {
+      "name": "(Sp) Dissipazione",
+      "description": "Puoi temporaneamente dissolvere il tuo corpo elettroplasmico per attraversare un oggetto solido. Ottieni 1 punto esaurimento più uno extra per ciascuno dei seguenti effetti scelti: durata prolungata (minuti, ore, giorni); invisibilità; chi ti attraversa subisce scariche elettriche o freddo letale."
+    },
+    "(G) Ghost Form": {
+      "name": "(Sp) Forma spettrale",
+      "description": "Ora sei un ammasso di elettroplasma simile al tuo aspetto in vita, abiti inclusi. Hai debole impatto sul mondo fisico, e viceversa. Sei vulnerabile alla magia e agli effetti elettroplasici. Puoi volare, non ti affatichi e puoi filtrarti attraverso fessure come un vapore. L’aria si raffredda intorno a te e i vivi provano orrore vedendoti. Sei influenzato da sigilli e magie anti-spiriti, ma puoi provarci per contrastarli. Dove gli umani accumulano stress, tu accumuli esaurimento; dove subiscono ferite, tu subisci turbamento."
+    },
+    "(G) Manifest": {
+      "name": "(Sp) Manifestazione",
+      "description": "Ottieni 1 punto esaurimento per teletrasportarti tramite il campo spettrale in un luogo a te familiare in vita o dove sei evocato con il talento “Imposizione”."
+    },
+    "(G) Poltergeist": {
+      "name": "(Sp) Poltergeist",
+      "description": "Ottieni 1 punto esaurimento per interagire pienamente con il mondo fisico per alcuni istanti, come se avessi un corpo. Aumenta distanza e potenza (telecinesi, scariche) aumentando l’esaurimento (2–6 punti)."
+    },
+    "(G) Possess": {
+      "name": "(Sp) Possessione",
+      "description": "Puoi risuonare con il campo spettrale per possedere un corpo vivente. Il controllo è testato quando: assorbi l’energia dello spirito ospite, subisci magia, o il corpo è in disperazione. In questi casi devi risuonare di nuovo (rischiando la tua essenza) o uscire. Puoi rimanere indefinitamente in un automa o contenitore apposito (cambia scheda su automa o vampiro)."
+    },
+    "(G) Veteran": {
+      "name": "(Sp) Fuori categoria",
+      "description": "Scegli un talento da un'altra fonte."
+    },
+    "(V) A Void in the Echo": {
+      "name": "(Vo) Vuoto nell’eco",
+      "description": "Gli spiriti non ti vedono né possono ferirti. Spendi 2 punti stress per essere ignorato dai vivi per alcuni istanti."
+    },
+    "(V) Arcane Sight": {
+      "name": "(Vo) Vista arcana",
+      "description": "Spendi 1 punto stress per migliorare i tuoi sensi per qualche minuto: percepisci emozioni e pensieri, vedi nell’oscurità, rilevi invisibili, oggetti nascosti, ecc."
+    },
+    "(V) Dark Talent": {
+      "name": "(Vo) Dono oscuro",
+      "description": "Scegli tra Ingegno, Prowess o Volontà. Tira +d6 nei test relativi e il livello massimo delle abilità associate è 5."
+    },
+    "(V) Dark Talent (Insight)": {
+      "name": "(Vo) Dono oscuro (Ingegno)",
+      "description": "Scegli tra Ingenuo, Prowess o Volontà. Tira +d6 nei test relativi e il livello massimo delle abilità associate è 5."
+    },
+    "(V) Dark Talent (Prowess)": {
+      "name": "(Vo) Dono oscuro (Udire)",
+      "description": "Scegli tra Ingenuo, Prowess o Volontà. Tira +d6 nei test relativi e il livello massimo delle abilità associate è 5."
+    },
+    "(V) Dark Talent (Resolve)": {
+      "name": "(Vo) Dono oscuro (Volontà)",
+      "description": "Scegli tra Ingenuo, Prowess o Volontà. Tira +d6 nei test relativi e il livello massimo delle abilità associate è 5."
+    },
+    "(V) Sinister Guile": {
+      "name": "(Vo) Astuzia sinistra",
+      "description": "Durante il riposo, scegli: o compi un’azione extra o tira +d6 in tutte le azioni del riposo."
+    },
+    "(V) Terrible Power": {
+      "name": "(Vo) Potere tremendo",
+      "description": "Spendi 1 punto stress per ottenere forza o velocità sovrumana (correre più di un treno, frantumare roccia, saltare su un tetto, ecc.)."
+    },
+    "(V) Undead": {
+      "name": "(Vo) Non morto",
+      "description": "Sei uno spirito in un cadavere. Hai il massimo numero di ferite: scegli quattro che rappresentino la tua natura vampirica. La magia ha vantaggio su di te. Quando subisci danni fatali o una nuova ferita, non muori, ma vieni abbattuto: segna danno 3 “impotente” finché non plachi la fame e ti curi. Se subisci danni magici in questo stato, muori. Guadagni esperienza lentamente (riflesso in barre più lunghe). Puoi accumulare fino a 12 stress invece di 9."
+    },
+    "(V) Veteran": {
+      "name": "(Vo) Fuori categoria",
+      "description": "Scegli un talento da un'altra fonte"
+    }
+  }
 }
