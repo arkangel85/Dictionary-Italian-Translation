@@ -3,7 +3,9 @@
 <p>
   <img src="https://img.shields.io/badge/FVTT-v13-brightgreen" alt="FVTT v13 badge">
 </p>
-
+<p>
+<img src="https://img.shields.io/github/downloads/arkangel85/Dictionary-Italian-Translation/total" alt="Download totali">
+</p>
 <p style="text-align: center;">
   <img src="https://raw.githubusercontent.com/arkangel85/FoundryVTT-italian/refs/heads/main/it-IT/logo.png" alt="Logo Foundry VTT con bandiera italiana" style="width: 500px;">
 </p>
