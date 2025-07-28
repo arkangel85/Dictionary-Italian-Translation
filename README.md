@@ -249,5 +249,5 @@
 
 <h3>ATTENZIONE: AGGIORNAMENTI</h3>
 <p>
-  Essenedo un modulo totalmente gratuito da un aggiornamento all'altro potrebbero passare MESI!
+  Essendo un modulo totalmente gratuito da un aggiornamento all'altro potrebbero passare MESI!
 </p>
