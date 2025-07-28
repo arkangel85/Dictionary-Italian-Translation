@@ -1,7 +1,7 @@
 {
   	"id": "it-IT",
-  	"title": "🇮🇹 Traduzione Italiana | Foundry VTT",
-  	"description": "<p>Questo modulo aggiunge la lingua italiana a Foundry VTT, inclusi sistemi popolari come Dungeons & Dragons 5e, Call of Cthulhu, Forbidden Lands e molti altri.</p><p><strong>ATTENZIONE:</strong> Segui le istruzioni per l'installazione e configurazione su <a href=\"https://github.com/Arkangel77/foundry-vtt-it\">https://github.com/Arkangel77/foundry-vtt-it</a></p>",
+  	"title": "Dictionary Italian Translation | Foundry VTT",
+  	"description": "<p>Questo modulo aggiunge la lingua italiana a Foundry VTT, inclusi sistemi popolari come Dungeons & Dragons 5e, Call of Cthulhu, Forbidden Lands e molti altri.</p><p><strong>ATTENZIONE:</strong> Segui le istruzioni per l'installazione e configurazione su <a href=\"https://github.com/arkangel85/Dictionary-Italian-Translation\">https://github.com/arkangel85/Dictionary-Italian-Translation</a></p>",
   	"authors": [
     	{
       	"name": "Arkangel",
@@ -103,11 +103,6 @@
 			"lang": "it",
 			"path": "i18n/systems/deathinspace.json",
 			"system": "deathinspace"
-		},
-		{
-			"lang": "it",
-			"path": "i18n/systems/dnd5e.json",
-			"system": "dnd5e"
 		},
 		{
 			"lang": "it",
@@ -996,7 +991,7 @@
 			"paths": ["i18n/**/*.json", "styles/*.css"]
 		}
 	},
-	"url": "https://github.com/arkangel85/FoundryVTT-italian",
-	"manifest": "https://github.com/arkangel85/FoundryVTT-italian/releases/download/latest/module.json",
-	"download": "https://github.com/arkangel85/FoundryVTT-italian/releases/download/latest/it-IT.zip"
+	"url": "https://github.com/arkangel85/Dictionary-Italian-Translation",
+	"manifest": "https://github.com/arkangel85/Dictionary-Italian-Translation/releases/download/latest/module.json",
+	"download": "https://github.com/arkangel85/Dictionary-Italian-Translation/releases/download/latest/it-IT.zip"
 }
