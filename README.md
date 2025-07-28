@@ -2,9 +2,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/FVTT-v13-brightgreen" alt="FVTT v13 badge">
-</p>
-<p>
-<img src="https://img.shields.io/github/downloads/arkangel85/Dictionary-Italian-Translation/total" alt="Download totali">
+  <img src="https://img.shields.io/github/downloads/arkangel85/Dictionary-Italian-Translation/total" alt="Download totali">
 </p>
 <p style="text-align: center;">
   <img src="https://raw.githubusercontent.com/arkangel85/Dictionary-Italian-Translation/refs/heads/main/images/module/logo.webp" alt="Logo" style="width: 500px;">
