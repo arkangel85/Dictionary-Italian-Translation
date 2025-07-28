@@ -246,3 +246,8 @@
 <p>
   Unisciti al nostro <a href="https://discord.gg/Vrq4Mpkvgr">server Discord</a>, dove puoi fare domande su Foundry VTT, proporre richieste di traduzione e discutere di GDR.
 </p>
+
+<h3>ATTENZIONE: AGGIORNAMENTI</h3>
+<p>
+  Essenedo un modulo totalmente gratuito da un aggiornamento all'altro potrebbero passare MESI!
+</p>
