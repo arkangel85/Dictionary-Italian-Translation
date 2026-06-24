@@ -2,10 +2,10 @@
 
 <p>
   <img src="https://img.shields.io/badge/FVTT-v13-brightgreen" alt="FVTT v13 badge">
-  <img src="https://img.shields.io/github/downloads/arkangel85/Dictionary-Italian-Translation/total" alt="Download totali">
 </p>
+
 <p style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/arkangel85/Dictionary-Italian-Translation/refs/heads/main/images/module/logo.webp" alt="Logo" style="width: 500px;">
+  <img src="https://raw.githubusercontent.com/arkangel85/FoundryVTT-italian/refs/heads/main/it-IT/logo.png" alt="Logo Foundry VTT con bandiera italiana" style="width: 500px;">
 </p>
 
 <p>
@@ -245,9 +245,4 @@
 <h3>Comunità</h3>
 <p>
   Unisciti al nostro <a href="https://discord.gg/Vrq4Mpkvgr">server Discord</a>, dove puoi fare domande su Foundry VTT, proporre richieste di traduzione e discutere di GDR.
-</p>
-
-<h3>ATTENZIONE: AGGIORNAMENTI</h3>
-<p>
-  Essendo un modulo totalmente gratuito da un aggiornamento all'altro potrebbero passare MESI!
 </p>

@@ -24,7 +24,7 @@ async function t(e, ...t) {
   let r = `modules/it-IT/i18n/modules/alt/`;
   let i = `modules/it-IT/i18n/systems/alt/`;
 
-  let a = [`dnd5e.json`, `dnd5e-plural.json`];
+  let a = [];
   let o = [
     `action-pack.json`, `activeauras.json`, `always-hp.json`, `arbron-hp-bar.json`,
     `autoanimations.json`, `bossbar.json`, `combat-utility-belt.json`, `combatbooster.json`,
@@ -57,7 +57,6 @@ const n = Object.assign({
   "./systems/coc7.js": () => import(`./coc7.js`),
   "./systems/cy-borg.js": () => import(`./cy-borg.js`),
   "./systems/deltagreen.js": () => import(`./deltagreen.js`),
-  "./systems/dnd5e.js": () => import(`./dnd5e.js`),
   "./systems/dragonbane.js": () => import(`./dragonbane.js`),
   "./systems/dune.js": () => import(`./dune.js`),
   "./systems/dungeonworld.js": () => import(`./dungeonworld.js`),
@@ -109,8 +108,6 @@ Hooks.once(`init`, async () => {
 
   CONFIG.canvasTextStyle.fontFamily = Object.keys(CONFIG.fontDefinitions)[game.settings.get(`it-IT`, `sceneLabelFont`)];
   CONFIG.Token.adjectivesPrefix = `TOKEN.ItalianAdjectivesM`;
-
-  if (t === `dnd5e`) await e();
 
   for (let r in n) {
     n[r]().then(e => {
