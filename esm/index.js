@@ -70,6 +70,7 @@ const n = Object.assign({
 });
 
 Hooks.once(`init`, async () => {
+  await e();
   let t = game.system.id.toLowerCase();
   let r = foundry.utils.getRoute(`/`);
   let i = document.createElement(`link`);
@@ -95,7 +96,7 @@ Hooks.once(`init`, async () => {
   };
 
   CONFIG.fontDefinitions = foundry.utils.mergeObject(CONFIG.fontDefinitions, a);
-  CONFIG.defaultFontFamily = `Roboto`;
+  CONFIG.defaultFontFamily = `Signika`;
 
   game.settings.register(`it-IT`, `sceneLabelFont`, {
     name: `Font delle etichette sulla scena`,
