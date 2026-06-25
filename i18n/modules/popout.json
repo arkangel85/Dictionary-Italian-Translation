@@ -1,11 +1,18 @@
 {
-  "POPOUT.PopOut": "In finestra",
-  "POPOUT.PopIn": "Rientra",
-  "POPOUT.showButton": "Mostra il pulsante 'In finestra'",
-  "POPOUT.useWindows": "Apri la scheda in una finestra separata",
-  "POPOUT.useWindowsHint": "La scheda aperta avrà una finestra minimale (oppure utilizzerà lo stile predefinito del browser).",
-  "POPOUT.boundingBox": "Modalità compatibilità per i bordi",
-  "POPOUT.boundingBoxHint": "Usa un algoritmo avanzato per calcolare la dimensione della finestra. Necessario se la scheda del personaggio ha un design complesso che esce dai bordi. Abilitare questa opzione può ridurre le prestazioni.",
-  "POPOUT.electronWarning": "Popout! non funziona nell'app Foundry VTT, solo nel browser.",
-  "POPOUT.failureWarning": "Impossibile aprire la finestra PopOut!. Controlla le impostazioni e i permessi."
+  "POPOUT": {
+    "PopOut": "In finestra",
+    "PopIn": "Rientra",
+    "showButton": "Mostra il pulsante 'In finestra'",
+    "useWindows": "Apri la scheda in una finestra separata",
+    "useWindowsHint": "La scheda aperta avrà una finestra minimale (oppure utilizzerà lo stile predefinito del browser).",
+    "boundingBox": "Modalità compatibilità per i bordi",
+    "boundingBoxHint": "Usa un algoritmo avanzato per calcolare la dimensione della finestra. Necessario se la scheda del personaggio ha un design complesso che esce dai bordi. Abilitare questa opzione può ridurre le prestazioni.",
+    "electronWarning": "Popout! non funziona nell'app Foundry VTT, solo nel browser.",
+    "failureWarning": "Impossibile aprire la finestra PopOut!. Controlla le impostazioni e i permessi.",
+    "iconOnly": "Pulsante con sola icona.",
+    "verboseLogs": "Abilita log dettagliati",
+    "verboseLogsHint": "Abilita il logging dettagliato del modulo nella console. Utile per diagnosticare problemi.",
+    "enableTooltips": "Abilita supporto tooltip",
+    "enableTooltipsHint": "Permette ai tooltip di mostrarsi correttamente nelle finestre estratte. Disabilita se riscontri problemi con i tooltip."
+  }
 }

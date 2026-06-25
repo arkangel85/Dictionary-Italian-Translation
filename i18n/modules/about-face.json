@@ -127,6 +127,10 @@
       "indicator-sprite": {
         "name": "Dimensione indicatore",
         "hint": "Cambia la dimensione dell’icona dell’indicatore."
+      },
+      "combatOnly": {
+        "name": "Nascondi indicatore fuori dal combattimento",
+        "hint": "Nasconde l'indicatore quando nessun combattimento è attivo."
       }
     }
   }

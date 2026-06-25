@@ -71,7 +71,10 @@
         "hint": "Direzione della giostra.",
         "choices": {
           "row": "Orizzontale",
-          "column": "Verticale"
+          "column": "Verticale",
+          "rowDocked": "Orizzontale (Ancorata)",
+          "rowFloat": "Orizzontale (Fluttuante)",
+          "columnFloat": "Verticale (Fluttuante)"
         }
       },
       "roundness": {
@@ -215,6 +218,18 @@
       "portraitResource": {
         "name": "Risorsa sul ritratto",
         "hint": "Barra sovrapposta sul ritratto. Utile per configurazioni manuali avanzate."
+      },
+      "floatingSize": {
+        "name": "Dimensione fluttuante",
+        "hint": "La dimensione della finestra fluttuante. Più alto è il valore, più grande sarà la finestra. Non influisce sulla modalità Orizzontale (Ancorata)."
+      },
+      "lessButtons": {
+        "name": "Meno pulsanti",
+        "hint": "Mostra meno pulsanti nel tracker del combattimento. Nasconde Reimposta Iniziativa, Impostazioni, Round Precedente, Round Successivo."
+      },
+      "hideConflictingUIs": {
+        "name": "Nascondi interfacce in conflitto",
+        "hint": "Nasconde automaticamente le altre interfacce ancorate in cima allo schermo quando il Dock del Tracker Combattimento è visibile, per evitare confusione."
       }
     },
     "hotkeys": {
@@ -232,6 +247,13 @@
       "expired": "L’evento %n è terminato."
     },
     "deleteEffectTitle": "Rimuovi effetto",
-    "deleteEffectContent": "Sei sicuro di voler rimuovere questo effetto?"
+    "deleteEffectContent": "Sei sicuro di voler rimuovere questo effetto?",
+    "combat-dock": {
+      "title": "Dock del Tracker Combattimento",
+      "close": "Chiudi"
+    },
+    "contextMenu": {
+      "setAsCurrent": "Imposta come combattente attuale"
+    }
   }
 }

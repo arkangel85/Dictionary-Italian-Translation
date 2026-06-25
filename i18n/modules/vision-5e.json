@@ -1,27 +1,53 @@
 {
-  "VISION5E.Blindsense": "Senso cieco",
-  "VISION5E.BlindSenses": "Compensazione cecità",
-  "VISION5E.Burrowing": "Scavo",
-  "VISION5E.DetectEvilAndGood": "Rilevamento del Bene e del Male",
-  "VISION5E.DetectMagic": "Rilevamento della Magia",
-  "VISION5E.DetectPoisonAndDisease": "Rilevamento Veleni e Malattie",
-  "VISION5E.DetectThoughts": "Lettura del Pensiero",
-  "VISION5E.DevilsSight": "Vista Infernale",
-  "VISION5E.DivineSense": "Percezione Divina",
-  "VISION5E.Echolocation": "Ecolocalizzazione",
-  "VISION5E.Ethereal": "Etereo",
-  "VISION5E.EtherealSight": "Vista Eterea",
-  "VISION5E.GhostlyGaze": "Sguardo Spettrale",
-  "VISION5E.Hearing": "Udito",
-  "VISION5E.Inaudible": "Inudibile",
-  "VISION5E.InvocationDevilsSight": "Invocazione: Vista Infernale",
-  "VISION5E.InvocationWitchSight": "Invocazione: Vista della Strega",
-  "VISION5E.LightPerception": "Percezione della Luce",
-  "VISION5E.MagicAwareness": "Consapevolezza Magica",
-  "VISION5E.UmbralSight": "Vista Oscura",
-  "VISION5E.Shapechanger": "Mutaforma",
-  "VISION5E.SenseMagic": "Sensibilità alla Magia",
-  "VISION5E.WitchSight": "Vista della Strega",
-  "VISION5E.Settings.DefaultHearingRangeN": "Distanza dell'Udito",
-  "VISION5E.Settings.DefaultHearingRangeL": "Distanza predefinita a cui i token possono sentire. Richiede il riavvio del mondo."
+  "VISION5E": {
+    "Blindsense": "Senso cieco",
+    "BlindSenses": "Compensazione cecità",
+    "Burrowing": "Scavo",
+    "DetectEvilAndGood": "Rilevamento del Bene e del Male",
+    "DetectMagic": "Rilevamento della Magia",
+    "DetectPoisonAndDisease": "Rilevamento Veleni e Malattie",
+    "DetectThoughts": "Lettura del Pensiero",
+    "DevilsSight": "Vista Infernale",
+    "DivineSense": "Percezione Divina",
+    "Echolocation": "Ecolocalizzazione",
+    "Ethereal": "Etereo",
+    "EtherealSight": "Vista Eterea",
+    "GhostlyGaze": "Sguardo Spettrale",
+    "Hearing": "Udito",
+    "Inaudible": "Inudibile",
+    "InvocationDevilsSight": "Invocazione: Vista Infernale",
+    "InvocationWitchSight": "Invocazione: Vista della Strega",
+    "LightPerception": "Percezione della Luce",
+    "MagicAwareness": "Consapevolezza Magica",
+    "UmbralSight": "Vista Oscura",
+    "Shapechanger": "Mutaforma",
+    "SenseMagic": "Sensibilità alla Magia",
+    "WitchSight": "Vista della Strega",
+    "Settings": {
+      "DefaultHearingRangeN": "Distanza dell'Udito",
+      "DefaultHearingRangeL": "Distanza predefinita a cui i token possono sentire. Richiede il riavvio del mondo."
+    },
+    "BloodSense": "Percezione del Sangue",
+    "EyesOfTheGrave": "Occhi della Tomba",
+    "LifeSense": "Percezione della Vita",
+    "SeeInvisibility": "Vedi Invisibilità",
+    "ThermalVision": "Visione Termica",
+    "HINTS": {
+      "DarknessSource": "Scurovisione e Visione Termica sono sempre bloccate dalle sorgenti di oscurità. Vista del Diavolo e Visione del Vero sono bloccate solo se la priorità è almeno 100. Tutte le altre modalità di percezione non vengono mai bloccate."
+    },
+    "SETTINGS": {
+      "defaultHearingRange": {
+        "label": "Portata Uditiva Predefinita",
+        "hint": "Configura quanto lontano i token possono sentire per impostazione predefinita. Richiede il ricaricamento del mondo."
+      },
+      "spectatorMode": {
+        "label": "Modalità Spettatore",
+        "hint": "Configura se i token appartenenti ad attori per cui il giocatore ha permessi limitati possono fornire visione quando tutti i token del giocatore sono sconfitti, pietrificati o privi di sensi."
+      }
+    },
+    "TOOLTIPS": {
+      "AutomaticallyManaged": "Gestito automaticamente da Vision 5e",
+      "SelectVisionMode": "Seleziona Modalità Visione"
+    }
+  }
 }

@@ -80,6 +80,10 @@
       "skill-mode-hint": "Con 'Comprimibile in alto', la scorciatoia aprirà/chiuderà il menu. Se è in fondo, la scorciatoia scorrerà fino lì.",
       "skill-mode-dropdown": "Comprimibile in alto",
       "skill-mode-append": "In fondo al menu azioni"
+    },
+    "item-context": {
+      "show": "Mostra in Action Pack",
+      "hide": "Nascondi in Action Pack"
     }
   }
 }

@@ -16,7 +16,8 @@
       "actions": "Azioni",
       "magic": "Magia",
       "defense": "Difesa",
-      "dying": "Morte"
+      "dying": "Morte",
+      "defense-reactions": "Difesa/Reazioni"
     },
     "actions": {
       "first-aid": "Primo soccorso",
@@ -26,7 +27,8 @@
       "dodge": "Schivata",
       "monster-attack": "Attacco del mostro",
       "monster-defend": "Difesa del mostro",
-      "death-roll": "Tiro salvezza contro la morte"
+      "death-roll": "Tiro salvezza contro la morte",
+      "fear-table": "Paura"
     },
     "buttons": {
       "heroic-abilities": "Abilità eroiche",

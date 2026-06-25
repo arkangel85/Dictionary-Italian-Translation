@@ -1,282 +1,410 @@
 {
-  "MonksTokenBar.EditCharacter": "Modifica personaggio",
-  "MonksTokenBar.EditToken": "Modifica token",
-  "MonksTokenBar.TargetToken": "Token bersaglio",
-  "MonksTokenBar.PrivateMessage": "Messaggio privato",
-  "MonksTokenBar.ExcludeFromTokenBar": "Escludi token",
-  "MonksTokenBar.DisablePanning": "Disattiva centramento della camera",
-
-  "MonksTokenBar.easy": "Facile",
-  "MonksTokenBar.average": "Moderata",
-  "MonksTokenBar.challenging": "Difficile",
-  "MonksTokenBar.hard": "Molto difficile",
-  "MonksTokenBar.epic": "Impossibile",
-
-  "MonksTokenBar.FreeMovement": "Movimento libero",
-  "MonksTokenBar.NoMovement": "Movimento vietato",
-  "MonksTokenBar.CombatTurn": "Turno di combattimento",
-  "MonksTokenBar.Ignore": "Ignora",
-
-  "MonksTokenBar.MovementChanged": "Movimento cambiato in ",
-
-  "MonksTokenBar.RequestRoll": "Richiedi prova",
-  "MonksTokenBar.RequestRollGM": "Richiedi prova (solo GM)",
-  "MonksTokenBar.ContestedRoll": "Prova contrapposta",
-  "MonksTokenBar.AssignXP": "Assegna PE",
-  "MonksTokenBar.Lootables": "Distribuzione tesori",
-  "MonksTokenBar.HideNPCName": "Nascondi nomi NPC",
-  "MonksTokenBar.Inspiration": "Ispirazione",
-
-  "MonksTokenBar.Attribute": "Attributo",
-  "MonksTokenBar.Ability": "Caratteristica",
-  "MonksTokenBar.AbilityCheck": "Prova",
-  "MonksTokenBar.SavingThrow": "Tiro salvezza",
-  "MonksTokenBar.Skill": "Abilità",
-  "MonksTokenBar.Characteristics": "Caratteristiche",
-  "MonksTokenBar.DeathSavingThrow": "Tiro salvezza contro la morte",
-  "MonksTokenBar.Initiative": "Iniziativa",
-  "MonksTokenBar.Check": "Controllo",
-  "MonksTokenBar.CombatExperience": "Esperienza da combattimento",
-  "MonksTokenBar.RollResult": "Risultato",
-  "MonksTokenBar.RollPassed": "Prova superata",
-  "MonksTokenBar.RollFailed": "Prova fallita",
-  "MonksTokenBar.RollCritPassed": "Successo critico",
-  "MonksTokenBar.RollCritFailed": "Fallimento critico",
-  "MonksTokenBar.Passed": "Superata",
-  "MonksTokenBar.Failed": "Fallita",
-  "MonksTokenBar.GrabMessage": "Ottieni messaggio della prova",
-  "MonksTokenBar.SelectFailed": "Seleziona attori falliti",
-  "MonksTokenBar.SelectSaved": "Seleziona attori riusciti",
-  "MonksTokenBar.SelectAll": "Seleziona tutti gli attori",
-  "MonksTokenBar.OpenCharacterSheet": "Apri scheda personaggio",
-  "MonksTokenBar.RequestSavingThrow": "Richiedi tiro salvezza",
-  "MonksTokenBar.Unknown": "Sconosciuto",
-  "MonksTokenBar.Level": "Livello",
-  "MonksTokenBar.RecalculateXP": "Ricalcola PE",
-
-  "MonksTokenBar.UnknownError": "Errore sconosciuto",
-  "MonksTokenBar.CombatTurnMovementLimited": "Movimento limitato al turno di combattimento, ma non è il tuo turno",
-  "MonksTokenBar.NormalMovementLimited": "Il movimento è attualmente disabilitato",
-  "MonksTokenBar.RequestNoneActorSelected": "Impossibile richiedere prova: nessun attore selezionato",
-  "MonksTokenBar.RequestNoneTokenSelected": "Impossibile richiedere prova: nessun token selezionato",
-  "MonksTokenBar.RequestActorMissing": "Impossibile richiedere prova: entrambi gli attori non sono selezionati",
-  "MonksTokenBar.TokenNoActorAttrs": "Il token non ha un attore collegato con i parametri richiesti",
-  "MonksTokenBar.ActorNoRollFunction": ": Nessuna funzione di prova trovata",
-  "MonksTokenBar.ActorNoTool": ": Non possiede questo strumento",
-  "MonksTokenBar.ActorNoLore": ": Non possiede questa conoscenza",
-  "MonksTokenBar.ActorNoSkill": ": Non possiede questa abilità",
-  "MonksTokenBar.UnknownSystem": "Stai usando un sistema non supportato da Monk's Tokenbar.",
-  "MonksTokenBar.ActorNotCombatant": "L'attore non è un combattente attivo per l'iniziativa",
-
-  "MonksTokenBar.TokenbarSettings": "Impostazioni Tokenbar",
-  "MonksTokenBar.IconSettings": "Impostazioni icone",
-  "MonksTokenBar.MovementSettings": "Impostazioni movimento",
-  "MonksTokenBar.AfterCombatSettings": "Impostazioni post-combattimento",
-  "MonksTokenBar.LootableSettings": "Bottino",
-  "MonksTokenBar.RequestRollSettings": "Impostazioni richiesta prove",
-
-  "MonksTokenBar.notify-on-change.name": "Notifica sul tipo di movimento",
-  "MonksTokenBar.notify-on-change.hint": "Notifica i giocatori quando il GM cambia il tipo di movimento",
-  "MonksTokenBar.show-xp-dialog.name": "Finestra PE",
-  "MonksTokenBar.show-xp-dialog.hint": "Mostra la finestra per l’assegnazione dei punti esperienza alla fine del combattimento",
-  "MonksTokenBar.divide-xp.name": "Dividi PE tra i giocatori",
-  "MonksTokenBar.divide-xp.hint": "Divide automaticamente i punti esperienza tra i giocatori nella finestra di distribuzione",
-  "MonksTokenBar.divide-xp-equal-split.name": "Dividi PE equamente",
-  "MonksTokenBar.divide-xp-equal-split.hint": "Divide automaticamente i PE in parti uguali tra i giocatori nella finestra di distribuzione",
-  "MonksTokenBar.divide-xp-no-split.name": "Non dividere PE",
-  "MonksTokenBar.divide-xp-no-split.hint": "Non divide automaticamente i PE nella finestra di distribuzione",
-  "MonksTokenBar.divide-xp-robin-hood-split.name": "Più PE ai livelli bassi",
-  "MonksTokenBar.divide-xp-robin-hood-split.hint": "Assegna più PE ai giocatori di livello basso e meno a quelli di livello alto",
-  "MonksTokenBar.divide-xp-nottingham-split.name": "Più PE ai livelli alti",
-  "MonksTokenBar.divide-xp-nottingham-split.hint": "Assegna più PE ai giocatori di livello alto e meno a quelli di livello basso",
-  "MonksTokenBar.show-resource-bars.name": "Mostra le risorse",
-  "MonksTokenBar.show-resource-bars.hint": "Mostra le barre delle risorse dell’attore",
-  "MonksTokenBar.token-pictures.name": "Immagine del token",
-  "MonksTokenBar.token-pictures.hint": "Scegli quale immagine mostrare nella barra dei token",
-  "MonksTokenBar.token-pictures.token": "Immagine del token",
-  "MonksTokenBar.token-pictures.actor": "Ritratto dell’attore",
-  "MonksTokenBar.allow-player.name": "Permetti l’uso ai giocatori",
-  "MonksTokenBar.allow-player.hint": "Permetti ai giocatori di usare la barra dei token per il proprio personaggio",
-  "MonksTokenBar.disable-tokenbar.name": "Disattiva Tokenbar",
-  "MonksTokenBar.disable-tokenbar.hint": "Disattiva completamente la Tokenbar se non si desidera usarla",
-  "MonksTokenBar.stat1-icon.name": "Icona Risorsa 1",
-  "MonksTokenBar.stat1-icon.hint": "Icona associata alla prima risorsa",
-  "MonksTokenBar.stat1-resource.name": "Risorsa 1",
-  "MonksTokenBar.stat1-resource.hint": "Risorsa mostrata nel primo slot",
-  "MonksTokenBar.stat2-icon.name": "Icona Risorsa 2",
-  "MonksTokenBar.stat2-icon.hint": "Icona associata alla seconda risorsa",
-  "MonksTokenBar.stat2-resource.name": "Risorsa 2",
-  "MonksTokenBar.stat2-resource.hint": "Risorsa mostrata nel secondo slot",
-  "MonksTokenBar.movement-after-combat.name": "Cambia tipo di movimento dopo il combattimento",
-  "MonksTokenBar.movement-after-combat.hint": "Modifica il tipo di movimento selezionato al termine del combattimento",
-  "MonksTokenBar.free-npc-combat.name": "Permetti agli NPC attivi di muoversi",
-  "MonksTokenBar.free-npc-combat.hint": "Permetti all’NPC attivo di muovere tutti i suoi token durante il combattimento",
-  "MonksTokenBar.change-to-combat.name": "Passa a Turno di combattimento",
-  "MonksTokenBar.change-to-combat.hint": "Cambia automaticamente in modalità Turno di combattimento all’inizio del combattimento",
-  "MonksTokenBar.assign-loot.name": "Distribuisci bottino dai nemici",
-  "MonksTokenBar.assign-loot.hint": "Mostra una finestra per convertire i nemici sconfitti in bottino (richiede mod aggiuntive)",
-  "MonksTokenBar.loot-type.name": "Metodo di distribuzione",
-  "MonksTokenBar.loot-type.hint": "Metodo desiderato per la distribuzione del bottino",
-  "MonksTokenBar.loot-entity.name": "Entità del bottino",
-  "MonksTokenBar.loot-entity.hint": "Dove verrà assegnato il bottino se si specifica un’entità",
-  "MonksTokenBar.loot-folder.name": "Cartella del bottino",
-  "MonksTokenBar.loot-folder.hint": "Cartella in cui posizionare l’entità del bottino se viene creata",
-  "MonksTokenBar.popout-tokenbar.name": "PopOut! Tokenbar",
-  "MonksTokenBar.popout-tokenbar.hint": "Visualizza la Tokenbar in una finestra separata per usarla con il modulo PopOut!",
-  "MonksTokenBar.delete-after-grab.name": "Elimina dopo il risultato",
-  "MonksTokenBar.delete-after-grab.hint": "Elimina il messaggio dopo che il giocatore ha risposto alla richiesta di prova",
-  "MonksTokenBar.show-lootable-menu.name": "Menu raccolta bottino",
-  "MonksTokenBar.show-lootable-menu.hint": "Mostra l’icona di raccolta bottino negli strumenti del token",
-  "MonksTokenBar.show-disable-panning-option.name": "Mostra opzione disattiva centramento",
-  "MonksTokenBar.show-disable-panning-option.hint": "Aggiunge un’opzione nel menu contestuale per disattivare il centramento della camera",
-  "MonksTokenBar.request-roll-sound.name": "Suono richiesta prova",
-  "MonksTokenBar.request-roll-sound.hint": "Riproduce un suono quando viene inviata una richiesta di prova",
-  "MonksTokenBar.send-levelup-whisper.name": "Avviso avanzamento livello",
-  "MonksTokenBar.send-levelup-whisper.hint": "Invia un sussurro al giocatore quando l’attore sale di livello",
-  "MonksTokenBar.show-inspiration.name": "Mostra ispirazione",
-  "MonksTokenBar.show-inspiration.hint": "Mostra l’icona dell’ispirazione sul token",
-  "MonksTokenBar.allow-after-movement.name": "Permetti movimento dopo il turno",
-  "MonksTokenBar.allow-after-movement.hint": "Consente al giocatore di muovere il token dopo il proprio turno",
-  "MonksTokenBar.show-on-tracker.name": "Mostra nella barra d’iniziativa",
-  "MonksTokenBar.show-on-tracker.hint": "Visualizza i pulsanti di movimento nella barra d’iniziativa",
-  "MonksTokenBar.gold-formula.name": "Formula oro",
-  "MonksTokenBar.gold-formula.hint": "Formula usata per calcolare l’oro ottenuto dai nemici sconfitti",
-  "MonksTokenBar.show-vertical.name": "Orientamento Tokenbar",
-  "MonksTokenBar.show-vertical.hint": "Scegli orientamento verticale o orizzontale della barra",
-  "MonksTokenBar.capture-savingthrows.name": "Memorizza tiri salvezza",
-  "MonksTokenBar.capture-savingthrows.hint": "Crea una carta con il risultato del tiro salvezza in chat quando viene richiesto",
-  "MonksTokenBar.token-size.name": "Dimensione dei token",
-  "MonksTokenBar.token-size.hint": "Cambia la dimensione dei token nella barra se gli attributi non ci stanno",
-  "MonksTokenBar.open-loot.name": "Apri entità bottino",
-  "MonksTokenBar.open-loot.hint": "Apri l'entità del bottino dopo che è stata creata o gli oggetti sono stati trasferiti",
-  "MonksTokenBar.gm-sound.name": "Suono per le prove GM",
-  "MonksTokenBar.gm-sound.hint": "Suono riprodotto quando il GM richiede una prova segreta",
-  "MonksTokenBar.dblclick-action.name": "Azione doppio clic",
-  "MonksTokenBar.dblclick-action.hint": "Azione da eseguire con doppio clic sul token",
-  "MonksTokenBar.resolution-size.name": "Risoluzione token",
-  "MonksTokenBar.resolution-size.hint": "Seleziona la risoluzione del token. Più alta è, più nitida l'immagine ma più lenta la caricamento",
-  "MonksTokenBar.allow-roll.name": "Permetti tiri ai giocatori",
-  "MonksTokenBar.allow-roll.hint": "Consenti ai giocatori di richiedere tiri",
-  "MonksTokenBar.create-canvas-object.name": "Crea oggetto sulla scena",
-  "MonksTokenBar.create-canvas-object.hint": "Quando si crea il bottino, crea anche un oggetto sulla scena",
-  "MonksTokenBar.auto-gold-cr.name": "Oro automatico da GS",
-  "MonksTokenBar.auto-gold-cr.hint": "Il bottino in oro sarà calcolato automaticamente in base al Grado di Sfida",
-  "MonksTokenBar.add-advantage-buttons.name": "Aggiungi pulsanti vantaggio",
-  "MonksTokenBar.add-advantage-buttons.hint": "Aggiunge pulsanti di vantaggio e svantaggio al tasto di tiro",
-  "MonksTokenBar.minimum-ownership.name": "Permessi minimi",
-  "MonksTokenBar.minimum-ownership.hint": "Permessi minimi richiesti per visualizzare il token",
-  "MonksTokenBar.loot-name.name": "Nome bottino",
-  "MonksTokenBar.loot-name.hint": "Nome usato durante la creazione del bottino",
-  "MonksTokenBar.only-use-defeated.name": "Solo sconfitti",
-  "MonksTokenBar.only-use-defeated.hint": "Solo le creature segnate come sconfitte verranno usate per il bottino",
-  "MonksTokenBar.show-undefined.name": "Mostra valori indefiniti",
-  "MonksTokenBar.show-undefined.hint": "I valori indefiniti verranno mostrati come zero invece che nascosti",
-  "MonksTokenBar.show-offline.name": "Mostra disconnessi",
-  "MonksTokenBar.show-offline.hint": "Mostra i token dei giocatori non connessi",
-  "MonksTokenBar.include-actor.name": "Mostra attori",
-  "MonksTokenBar.include-actor.hint": "Mostra gli attori anche se non hanno token nella scena attiva",
-  "MonksTokenBar.hide-combatants.name": "Nascondi combattenti",
-  "MonksTokenBar.hide-combatants.hint": "Nascondi i combattenti alla fine del combattimento",
-  "MonksTokenBar.use-party.name": "Usa il gruppo",
-  "MonksTokenBar.use-party.hint": "Usa il gruppo per determinare quali attori mostrare nella barra",
-  "MonksTokenBar.loot-image.name": "Immagine del bottino",
-  "MonksTokenBar.loot-image.hint": "Immagine da usare per l'entità del bottino",
-  "MonksTokenBar.filter-duplicates.name": "Filtra duplicati",
-  "MonksTokenBar.filter-duplicates.hint": "Nasconde i token duplicati nella barra",
-  "MonksTokenBar.npc-xp-sharing.name": "NPC dividono PE",
-  "MonksTokenBar.npc-xp-sharing.hint": "Consenti agli NPC alleati di condividere l’esperienza con i giocatori",
-  "MonksTokenBar.bypass-roll-dialog.name": "Salta finestra tiro",
-  "MonksTokenBar.bypass-roll-dialog.hint": "Salta la finestra e invia direttamente il tiro in chat",
-  "MonksTokenBar.show-movement.name": "Mostra movimento",
-  "MonksTokenBar.show-movement.hint": "Mostra i pulsanti di movimento nella Tokenbar",
-  "MonksTokenBar.free-vehicle-combat.name": "Movimento veicoli",
-  "MonksTokenBar.free-vehicle-combat.hint": "Permetti ai veicoli di muoversi in combattimento",
-  "MonksTokenBar.use-token-scaling.name": "Usa scala token",
-  "MonksTokenBar.use-token-scaling.hint": "Utilizza la scala del token per determinarne la dimensione",
-
-  "MonksTokenBar.orientation.vertical": "Verticale",
-  "MonksTokenBar.orientation.horizontal": "Orizzontale",
-
-  "MonksTokenBar.XP": "PE",
-  "MonksTokenBar.Actors": "Attori",
-  "MonksTokenBar.Experience": "Punti Esperienza",
-  "MonksTokenBar.DivideExperience": "Dividi esperienza",
-  "MonksTokenBar.Reason": "Motivo",
-  "MonksTokenBar.RemoveActor": "Rimuovi attore",
-  "MonksTokenBar.Assign": "Assegna",
-  "MonksTokenBar.AutoAssign": "Autoassegna",
-  "MonksTokenBar.AssignAll": "Assegna PE a tutti",
-  "MonksTokenBar.XPAddAll": " A tutti",
-  "MonksTokenBar.AddExperience": "Aggiungi esperienza",
-  "MonksTokenBar.XPAdd": "Aggiungi",
-  "MonksTokenBar.RollMode": "Modalità di tiro",
-  "MonksTokenBar.PublicRoll": "Tiro pubblico",
-  "MonksTokenBar.PrivateGMRoll": "Tiro pubblico, risultato nascosto",
-  "MonksTokenBar.BlindGMRoll": "Tiro privato, risultato nascosto",
-  "MonksTokenBar.SelfRoll": "Tiro solo per GM",
-  "MonksTokenBar.DeleteItem": "Elimina",
-  "MonksTokenBar.Vs": "vs",
-  "MonksTokenBar.Request": "Richiesta",
-  "MonksTokenBar.RequestWithRoll": "Richiedi prova",
-  "MonksTokenBar.Roll": "Tiro",
-  "MonksTokenBar.SavingDC": "CD",
-  "MonksTokenBar.SavingDCPlaceholder": "Difficoltà opzionale",
-  "MonksTokenBar.AddPlayers": "Aggiungi giocatori",
-  "MonksTokenBar.Players": " Giocatori",
-  "MonksTokenBar.AddMonsters": "Aggiungi nemici visibili",
-  "MonksTokenBar.Monsters": " Nemici",
-  "MonksTokenBar.AddLastTokens": "Aggiungi ultimo token selezionato",
-  "MonksTokenBar.LastTokens": " Ultimo",
-  "MonksTokenBar.AddActor": "Aggiungi attore",
-  "MonksTokenBar.ClearAll": "Cancella tutti",
-  "MonksTokenBar.Clear": " Cancella",
-  "MonksTokenBar.RollAll": "Tira per tutti",
-  "MonksTokenBar.RollNPC": "Tira per gli NPC",
-  "MonksTokenBar.GroupDC": "CD di gruppo",
-  "MonksTokenBar.AssignByCR": "Assegna oro da GS",
-  "MonksTokenBar.ConvertToLootable": "Converti in tabella bottino",
-  "MonksTokenBar.TransferToLootable": "Converti in bottino",
-  "MonksTokenBar.TransferToNewLootable": "Crea nuovo bottino",
-  "MonksTokenBar.Gold": "Oro",
-  "MonksTokenBar.Levelup": "Hai abbastanza esperienza per salire di livello!",
-  "MonksTokenBar.EditStats": "Modifica attributi",
-  "MonksTokenBar.Flavor": "Testo descrittivo",
-  "MonksTokenBar.Convert": "Converti tutti gli attori in bottino separato",
-  "MonksTokenBar.Transfer": "Trasferisci a un'unica entità",
-  "MonksTokenBar.TransferPlus": "Sposta gli oggetti su un'unica entità e aggiungi collegamento alla scena",
-  "MonksTokenBar.CreateEntityName": "Nome della nuova entità",
-  "MonksTokenBar.ClearCurrentItems": "Cancella gli oggetti attuali",
-  "MonksTokenBar.SaveToMacro": "Salva in macro",
-  "MonksTokenBar.CopyMacro": "Copia macro",
-  "MonksTokenBar.LootEntry": "Bottino da {{#}}",
-  "MonksTokenBar.FromCombat": "Attori dal combattimento",
-  "MonksTokenBar.Combat": "Combattimento",
-  "MonksTokenBar.TransferLoot": "Trasferisci bottino dal token selezionato",
-  "MonksTokenBar.RequestRollConfig": "Modalità richiesta tiro",
-  "MonksTokenBar.Silent": "Silenziosa",
-  "MonksTokenBar.FastForward": "Avanzamento rapido",
-  "MonksTokenBar.DC": "CD",
-  "MonksTokenBar.FlavorText": "Testo descrittivo",
-  "MonksTokenBar.PublicHiddenRoll": "Messaggio pubblico, tiro privato",
-  "MonksTokenBar.PrivateHiddenRoll": "Messaggio privato, tiro nascosto",
-  "MonksTokenBar.GMOnlyRoll": "Tiro solo per GM",
-  "MonksTokenBar.Close": "Chiudi",
-  "MonksTokenBar.Save": "Salva",
-  "MonksTokenBar.IncreaseLevel": "Aumenta livello",
-  "MonksTokenBar.Creatures": "Creature",
-  "MonksTokenBar.Tokenbar": "Barra dei Token",
-  "MonksTokenBar.ReadyToUpdate": "{name} ha abbastanza esperienza per salire di livello!",
-  "MonksTokenBar.AddTokenbar": "Aggiungi Tokenbar",
-  "MonksTokenBar.AddHeroPoint": "Aggiungi punto eroe",
-  "MonksTokenBar.AddInspiration": "Aggiungi ispirazione",
-  "MonksTokenBar.InitialEntities": "Entità iniziali",
-  "MonksTokenBar.Initial": "Iniziale",
-  "MonksTokenBar.MacroCopied": "Macro copiata",
-  "MonksTokenBar.SelectCriticalSaved": "Prova con successo critico",
-  "MonksTokenBar.SelectCriticalFailed": "Prova con fallimento critico",
-
-  "MonksTokenBar.None": "Nessuno",
-  "MonksTokenBar.GMOnly": "Solo GM",
-  "MonksTokenBar.PlayersOnly": "Giocatori",
-  "MonksTokenBar.Everyone": "Tutti"
+  "MonksTokenBar": {
+    "EditCharacter": "Modifica personaggio",
+    "EditToken": "Modifica token",
+    "TargetToken": "Token bersaglio",
+    "PrivateMessage": "Messaggio privato",
+    "ExcludeFromTokenBar": "Escludi token",
+    "DisablePanning": "Disattiva centramento della camera",
+    "easy": "Facile",
+    "average": "Moderata",
+    "challenging": "Difficile",
+    "hard": "Molto difficile",
+    "epic": "Impossibile",
+    "FreeMovement": "Movimento libero",
+    "NoMovement": "Movimento vietato",
+    "CombatTurn": "Turno di combattimento",
+    "Ignore": "Ignora",
+    "MovementChanged": "Movimento cambiato in ",
+    "RequestRoll": "Richiedi prova",
+    "RequestRollGM": "Richiedi prova (solo GM)",
+    "ContestedRoll": "Prova contrapposta",
+    "AssignXP": "Assegna PE",
+    "Lootables": "Distribuzione tesori",
+    "HideNPCName": "Nascondi nomi NPC",
+    "Inspiration": "Ispirazione",
+    "Attribute": "Attributo",
+    "Ability": "Caratteristica",
+    "AbilityCheck": "Prova",
+    "SavingThrow": "Tiro salvezza",
+    "Skill": "Abilità",
+    "Characteristics": "Caratteristiche",
+    "DeathSavingThrow": "Tiro salvezza contro la morte",
+    "Initiative": "Iniziativa",
+    "Check": "Controllo",
+    "CombatExperience": "Esperienza da combattimento",
+    "RollResult": "Risultato",
+    "RollPassed": "Prova superata",
+    "RollFailed": "Prova fallita",
+    "RollCritPassed": "Successo critico",
+    "RollCritFailed": "Fallimento critico",
+    "Passed": "Superata",
+    "Failed": "Fallita",
+    "GrabMessage": "Ottieni messaggio della prova",
+    "SelectFailed": "Seleziona attori falliti",
+    "SelectSaved": "Seleziona attori riusciti",
+    "SelectAll": "Seleziona tutti gli attori",
+    "OpenCharacterSheet": "Apri scheda personaggio",
+    "RequestSavingThrow": "Richiedi tiro salvezza",
+    "Unknown": "Sconosciuto",
+    "Level": "Livello",
+    "RecalculateXP": "Ricalcola PE",
+    "UnknownError": "Errore sconosciuto",
+    "CombatTurnMovementLimited": "Movimento limitato al turno di combattimento, ma non è il tuo turno",
+    "NormalMovementLimited": "Il movimento è attualmente disabilitato",
+    "RequestNoneActorSelected": "Impossibile richiedere prova: nessun attore selezionato",
+    "RequestNoneTokenSelected": "Impossibile richiedere prova: nessun token selezionato",
+    "RequestActorMissing": "Impossibile richiedere prova: entrambi gli attori non sono selezionati",
+    "TokenNoActorAttrs": "Il token non ha un attore collegato con i parametri richiesti",
+    "ActorNoRollFunction": ": Nessuna funzione di prova trovata",
+    "ActorNoTool": ": Non possiede questo strumento",
+    "ActorNoLore": ": Non possiede questa conoscenza",
+    "ActorNoSkill": ": Non possiede questa abilità",
+    "UnknownSystem": "Stai usando un sistema non supportato da Monk's Tokenbar.",
+    "ActorNotCombatant": "L'attore non è un combattente attivo per l'iniziativa",
+    "TokenbarSettings": "Impostazioni Tokenbar",
+    "IconSettings": "Impostazioni icone",
+    "MovementSettings": "Impostazioni movimento",
+    "AfterCombatSettings": "Impostazioni post-combattimento",
+    "LootableSettings": "Bottino",
+    "RequestRollSettings": "Impostazioni richiesta prove",
+    "notify-on-change": {
+      "name": "Notifica sul tipo di movimento",
+      "hint": "Notifica i giocatori quando il GM cambia il tipo di movimento"
+    },
+    "show-xp-dialog": {
+      "name": "Finestra PE",
+      "hint": "Mostra la finestra per l’assegnazione dei punti esperienza alla fine del combattimento"
+    },
+    "divide-xp": {
+      "name": "Dividi PE tra i giocatori",
+      "hint": "Divide automaticamente i punti esperienza tra i giocatori nella finestra di distribuzione"
+    },
+    "divide-xp-equal-split": {
+      "name": "Dividi PE equamente",
+      "hint": "Divide automaticamente i PE in parti uguali tra i giocatori nella finestra di distribuzione"
+    },
+    "divide-xp-no-split": {
+      "name": "Non dividere PE",
+      "hint": "Non divide automaticamente i PE nella finestra di distribuzione"
+    },
+    "divide-xp-robin-hood-split": {
+      "name": "Più PE ai livelli bassi",
+      "hint": "Assegna più PE ai giocatori di livello basso e meno a quelli di livello alto"
+    },
+    "divide-xp-nottingham-split": {
+      "name": "Più PE ai livelli alti",
+      "hint": "Assegna più PE ai giocatori di livello alto e meno a quelli di livello basso"
+    },
+    "show-resource-bars": {
+      "name": "Mostra le risorse",
+      "hint": "Mostra le barre delle risorse dell’attore"
+    },
+    "token-pictures": {
+      "name": "Immagine del token",
+      "hint": "Scegli quale immagine mostrare nella barra dei token",
+      "token": "Immagine del token",
+      "actor": "Ritratto dell’attore",
+      "tokenonly": "Solo Immagine Token"
+    },
+    "allow-player": {
+      "name": "Permetti l’uso ai giocatori",
+      "hint": "Permetti ai giocatori di usare la barra dei token per il proprio personaggio"
+    },
+    "disable-tokenbar": {
+      "name": "Disattiva Tokenbar",
+      "hint": "Disattiva completamente la Tokenbar se non si desidera usarla"
+    },
+    "stat1-icon": {
+      "name": "Icona Risorsa 1",
+      "hint": "Icona associata alla prima risorsa"
+    },
+    "stat1-resource": {
+      "name": "Risorsa 1",
+      "hint": "Risorsa mostrata nel primo slot"
+    },
+    "stat2-icon": {
+      "name": "Icona Risorsa 2",
+      "hint": "Icona associata alla seconda risorsa"
+    },
+    "stat2-resource": {
+      "name": "Risorsa 2",
+      "hint": "Risorsa mostrata nel secondo slot"
+    },
+    "movement-after-combat": {
+      "name": "Cambia tipo di movimento dopo il combattimento",
+      "hint": "Modifica il tipo di movimento selezionato al termine del combattimento"
+    },
+    "free-npc-combat": {
+      "name": "Permetti agli NPC attivi di muoversi",
+      "hint": "Permetti all’NPC attivo di muovere tutti i suoi token durante il combattimento"
+    },
+    "change-to-combat": {
+      "name": "Passa a Turno di combattimento",
+      "hint": "Cambia automaticamente in modalità Turno di combattimento all’inizio del combattimento"
+    },
+    "assign-loot": {
+      "name": "Distribuisci bottino dai nemici",
+      "hint": "Mostra una finestra per convertire i nemici sconfitti in bottino (richiede mod aggiuntive)"
+    },
+    "loot-type": {
+      "name": "Metodo di distribuzione",
+      "hint": "Metodo desiderato per la distribuzione del bottino"
+    },
+    "loot-entity": {
+      "name": "Entità del bottino",
+      "hint": "Dove verrà assegnato il bottino se si specifica un’entità"
+    },
+    "loot-folder": {
+      "name": "Cartella del bottino",
+      "hint": "Cartella in cui posizionare l’entità del bottino se viene creata"
+    },
+    "popout-tokenbar": {
+      "name": "PopOut! Tokenbar",
+      "hint": "Visualizza la Tokenbar in una finestra separata per usarla con il modulo PopOut!"
+    },
+    "delete-after-grab": {
+      "name": "Elimina dopo il risultato",
+      "hint": "Elimina il messaggio dopo che il giocatore ha risposto alla richiesta di prova"
+    },
+    "show-lootable-menu": {
+      "name": "Menu raccolta bottino",
+      "hint": "Mostra l’icona di raccolta bottino negli strumenti del token"
+    },
+    "show-disable-panning-option": {
+      "name": "Mostra opzione disattiva centramento",
+      "hint": "Aggiunge un’opzione nel menu contestuale per disattivare il centramento della camera"
+    },
+    "request-roll-sound": {
+      "name": "Suono richiesta prova",
+      "hint": "Riproduce un suono quando viene inviata una richiesta di prova"
+    },
+    "send-levelup-whisper": {
+      "name": "Avviso avanzamento livello",
+      "hint": "Invia un sussurro al giocatore quando l’attore sale di livello"
+    },
+    "show-inspiration": {
+      "name": "Mostra ispirazione",
+      "hint": "Mostra l’icona dell’ispirazione sul token"
+    },
+    "allow-after-movement": {
+      "name": "Permetti movimento dopo il turno",
+      "hint": "Consente al giocatore di muovere il token dopo il proprio turno"
+    },
+    "show-on-tracker": {
+      "name": "Mostra nella barra d’iniziativa",
+      "hint": "Visualizza i pulsanti di movimento nella barra d’iniziativa"
+    },
+    "gold-formula": {
+      "name": "Formula oro",
+      "hint": "Formula usata per calcolare l’oro ottenuto dai nemici sconfitti"
+    },
+    "show-vertical": {
+      "name": "Orientamento Tokenbar",
+      "hint": "Scegli orientamento verticale o orizzontale della barra"
+    },
+    "capture-savingthrows": {
+      "name": "Memorizza tiri salvezza",
+      "hint": "Crea una carta con il risultato del tiro salvezza in chat quando viene richiesto"
+    },
+    "token-size": {
+      "name": "Dimensione dei token",
+      "hint": "Cambia la dimensione dei token nella barra se gli attributi non ci stanno"
+    },
+    "open-loot": {
+      "name": "Apri entità bottino",
+      "hint": "Apri l'entità del bottino dopo che è stata creata o gli oggetti sono stati trasferiti"
+    },
+    "gm-sound": {
+      "name": "Suono per le prove GM",
+      "hint": "Suono riprodotto quando il GM richiede una prova segreta"
+    },
+    "dblclick-action": {
+      "name": "Azione doppio clic",
+      "hint": "Azione da eseguire con doppio clic sul token"
+    },
+    "resolution-size": {
+      "name": "Risoluzione token",
+      "hint": "Seleziona la risoluzione del token. Più alta è, più nitida l'immagine ma più lenta la caricamento"
+    },
+    "allow-roll": {
+      "name": "Permetti tiri ai giocatori",
+      "hint": "Consenti ai giocatori di richiedere tiri"
+    },
+    "create-canvas-object": {
+      "name": "Crea oggetto sulla scena",
+      "hint": "Quando si crea il bottino, crea anche un oggetto sulla scena"
+    },
+    "auto-gold-cr": {
+      "name": "Oro automatico da GS",
+      "hint": "Il bottino in oro sarà calcolato automaticamente in base al Grado di Sfida"
+    },
+    "add-advantage-buttons": {
+      "name": "Aggiungi pulsanti vantaggio",
+      "hint": "Aggiunge pulsanti di vantaggio e svantaggio al tasto di tiro"
+    },
+    "minimum-ownership": {
+      "name": "Permessi minimi",
+      "hint": "Permessi minimi richiesti per visualizzare il token"
+    },
+    "loot-name": {
+      "name": "Nome bottino",
+      "hint": "Nome usato durante la creazione del bottino"
+    },
+    "only-use-defeated": {
+      "name": "Solo sconfitti",
+      "hint": "Solo le creature segnate come sconfitte verranno usate per il bottino"
+    },
+    "show-undefined": {
+      "name": "Mostra valori indefiniti",
+      "hint": "I valori indefiniti verranno mostrati come zero invece che nascosti"
+    },
+    "show-offline": {
+      "name": "Mostra disconnessi",
+      "hint": "Mostra i token dei giocatori non connessi"
+    },
+    "include-actor": {
+      "name": "Mostra attori",
+      "hint": "Mostra gli attori anche se non hanno token nella scena attiva"
+    },
+    "hide-combatants": {
+      "name": "Nascondi combattenti",
+      "hint": "Nascondi i combattenti alla fine del combattimento"
+    },
+    "use-party": {
+      "name": "Usa il gruppo",
+      "hint": "Usa il gruppo per determinare quali attori mostrare nella barra"
+    },
+    "loot-image": {
+      "name": "Immagine del bottino",
+      "hint": "Immagine da usare per l'entità del bottino"
+    },
+    "filter-duplicates": {
+      "name": "Filtra duplicati",
+      "hint": "Nasconde i token duplicati nella barra"
+    },
+    "npc-xp-sharing": {
+      "name": "NPC dividono PE",
+      "hint": "Consenti agli NPC alleati di condividere l’esperienza con i giocatori"
+    },
+    "bypass-roll-dialog": {
+      "name": "Salta finestra tiro",
+      "hint": "Salta la finestra e invia direttamente il tiro in chat"
+    },
+    "show-movement": {
+      "name": "Mostra movimento",
+      "hint": "Mostra i pulsanti di movimento nella Tokenbar"
+    },
+    "free-vehicle-combat": {
+      "name": "Movimento veicoli",
+      "hint": "Permetti ai veicoli di muoversi in combattimento"
+    },
+    "use-token-scaling": {
+      "name": "Usa scala token",
+      "hint": "Utilizza la scala del token per determinarne la dimensione"
+    },
+    "orientation": {
+      "vertical": "Verticale",
+      "horizontal": "Orizzontale"
+    },
+    "XP": "PE",
+    "Actors": "Attori",
+    "Experience": "Punti Esperienza",
+    "DivideExperience": "Dividi esperienza",
+    "Reason": "Motivo",
+    "RemoveActor": "Rimuovi attore",
+    "Assign": "Assegna",
+    "AutoAssign": "Autoassegna",
+    "AssignAll": "Assegna PE a tutti",
+    "XPAddAll": " A tutti",
+    "AddExperience": "Aggiungi esperienza",
+    "XPAdd": "Aggiungi",
+    "RollMode": "Modalità di tiro",
+    "PublicRoll": "Tiro pubblico",
+    "PrivateGMRoll": "Tiro pubblico, risultato nascosto",
+    "BlindGMRoll": "Tiro privato, risultato nascosto",
+    "SelfRoll": "Tiro solo per GM",
+    "DeleteItem": "Elimina",
+    "Vs": "vs",
+    "Request": "Richiesta",
+    "RequestWithRoll": "Richiedi prova",
+    "Roll": "Tiro",
+    "SavingDC": "CD",
+    "SavingDCPlaceholder": "Difficoltà opzionale",
+    "AddPlayers": "Aggiungi giocatori",
+    "Players": " Giocatori",
+    "AddMonsters": "Aggiungi nemici visibili",
+    "Monsters": " Nemici",
+    "AddLastTokens": "Aggiungi ultimo token selezionato",
+    "LastTokens": " Ultimo",
+    "AddActor": "Aggiungi attore",
+    "ClearAll": "Cancella tutti",
+    "Clear": " Cancella",
+    "RollAll": "Tira per tutti",
+    "RollNPC": "Tira per gli NPC",
+    "GroupDC": "CD di gruppo",
+    "AssignByCR": "Assegna oro da GS",
+    "ConvertToLootable": "Converti in tabella bottino",
+    "TransferToLootable": "Converti in bottino",
+    "TransferToNewLootable": "Crea nuovo bottino",
+    "Gold": "Oro",
+    "Levelup": "Hai abbastanza esperienza per salire di livello!",
+    "EditStats": "Modifica attributi",
+    "Flavor": "Testo descrittivo",
+    "Convert": "Converti tutti gli attori in bottino separato",
+    "Transfer": "Trasferisci a un'unica entità",
+    "TransferPlus": "Sposta gli oggetti su un'unica entità e aggiungi collegamento alla scena",
+    "CreateEntityName": "Nome della nuova entità",
+    "ClearCurrentItems": "Cancella gli oggetti attuali",
+    "SaveToMacro": "Salva in macro",
+    "CopyMacro": "Copia macro",
+    "LootEntry": "Bottino da {{#}}",
+    "FromCombat": "Attori dal combattimento",
+    "Combat": "Combattimento",
+    "TransferLoot": "Trasferisci bottino dal token selezionato",
+    "RequestRollConfig": "Modalità richiesta tiro",
+    "Silent": "Silenziosa",
+    "FastForward": "Avanzamento rapido",
+    "DC": "CD",
+    "FlavorText": "Testo descrittivo",
+    "PublicHiddenRoll": "Messaggio pubblico, tiro privato",
+    "PrivateHiddenRoll": "Messaggio privato, tiro nascosto",
+    "GMOnlyRoll": "Tiro solo per GM",
+    "Close": "Chiudi",
+    "Save": "Salva",
+    "IncreaseLevel": "Aumenta livello",
+    "Creatures": "Creature",
+    "Tokenbar": "Barra dei Token",
+    "ReadyToUpdate": "{name} ha abbastanza esperienza per salire di livello!",
+    "AddTokenbar": "Aggiungi Tokenbar",
+    "AddHeroPoint": "Aggiungi punto eroe",
+    "AddInspiration": "Aggiungi ispirazione",
+    "InitialEntities": "Entità iniziali",
+    "Initial": "Iniziale",
+    "MacroCopied": "Macro copiata",
+    "SelectCriticalSaved": "Prova con successo critico",
+    "SelectCriticalFailed": "Prova con fallimento critico",
+    "None": "Nessuno",
+    "GMOnly": "Solo GM",
+    "PlayersOnly": "Giocatori",
+    "Everyone": "Tutti",
+    "CombatNotStarted": "Impossibile passare al movimento di combattimento, non c'è alcun combattimento attivo",
+    "allow-fade": {
+      "name": "Consenti Dissolvenza",
+      "hint": "Consenti alla tokenbar di usare l'effetto di dissolvenza dell'interfaccia"
+    },
+    "DefaultTheme": "Tema Predefinito",
+    "Dice": "Dadi",
+    "THEME": {
+      "savingthrow": "Tiro Salvezza",
+      "assignxp": "Assegna PE",
+      "lootables": "Bottino"
+    },
+    "ASSIGNXP": {
+      "TABS": {
+        "monsters": "Mostri",
+        "players": "Giocatori"
+      }
+    }
+  }
 }

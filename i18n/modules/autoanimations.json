@@ -101,7 +101,9 @@
       "cyberPunkCanMiss": "Usa forceMiss per i mancati",
       "cyberPunkCanMiss_hint": "Mostra come il proiettile manca il token se il DV non è stato superato. Se la tabella DV non è trovata, l’animazione sarà visualizzata come colpo riuscito.",
       "cyberPunkElevation": "Usa elevazione per calcolo colpo",
-      "cyberPunkElevation_hint": "Usa la differenza di altezza tra token come distanza aggiuntiva"
+      "cyberPunkElevation_hint": "Usa la differenza di altezza tra token come distanza aggiuntiva",
+      "forceRegionLayerOnly_name": "Nascondi Regioni sul Livello Token",
+      "forceRegionLayerOnly_hint": "Forza la creazione delle Regioni con la modalità di visibilità 'Solo sul Livello Regione'"
     },
     "colors": {
       "lightorange": "Arancione Chiaro",
@@ -721,7 +723,6 @@
       "swipe": "Colpo",
       "twirl": "Vortice"
     },
-    "optionsInfo": {},
     "app": {
       "aaAutorec-melee": {
         "label": "Mischia",

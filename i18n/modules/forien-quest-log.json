@@ -251,6 +251,20 @@
       "Edit": "Modifica",
       "HiddenQuestNoPlayers": "Questa missione è nascosta a tutti i giocatori.",
       "PrimaryQuest": "Missione principale"
+    },
+    "Keybindings": {
+      "openQuestLog": {
+        "Name": "Apri Registro delle Missioni",
+        "Hint": "Apre il Registro delle Missioni se usato dal GM o se il Registro non è nascosto."
+      },
+      "openPrimaryQuest": {
+        "Name": "Apri Missione Primaria",
+        "Hint": "Apre l'anteprima / scheda della Missione Primaria, se presente. Verifica se l'utente è GM o ha il permesso di vedere la Missione."
+      },
+      "toggleQuestTracker": {
+        "Name": "Mostra/Nascondi Tracker Missioni",
+        "Hint": ""
+      }
     }
   }
 }

@@ -1,19 +1,39 @@
 {
-  "MonksHotbarExpansion.number-rows.name": "Numero di righe",
-  "MonksHotbarExpansion.number-rows.hint": "Numero di righe visualizzate quando si clicca su un numero nella barra rapida",
-  "MonksHotbarExpansion.reverse-row-order.name": "Ordine inverso",
-  "MonksHotbarExpansion.reverse-row-order.hint": "Inverti l’ordine delle righe, senza duplicare la prima riga.",
-  "MonksHotbarExpansion.hide-first-row.name": "Nascondi la prima riga",
-  "MonksHotbarExpansion.hide-first-row.hint": "Se desideri visualizzare tutte le righe aperte contemporaneamente, puoi nascondere la prima riga per risparmiare spazio.",
-  "MonksHotbarExpansion.collapse-on-select.name": "Comprimi alla selezione",
-  "MonksHotbarExpansion.collapse-on-select.hint": "Comprimi l'espansione dopo aver selezionato una riga",
-  "MonksHotbarExpansion.toggle-key.name": "Attiva/disattiva barra rapida",
-  "MonksHotbarExpansion.toggle-key.hint": "Attiva o disattiva l'espansione della barra rapida",
-  "MonksHotbarExpansion.collapse-on-open.name": "Compresso all'avvio",
-  "MonksHotbarExpansion.collapse-on-open.hint": "All'avvio l'espansione sarà compressa per impostazione predefinita",
-  "MonksHotbarExpansion.hide-page-arrows.name": "Nascondi frecce delle pagine",
-  "MonksHotbarExpansion.hide-page-arrows.hint": "Se non vuoi visualizzare le frecce per cambiare pagina",
-  "MonksHotbarExpansion.switch-row.name": "Passa alla riga di macro",
-
-  "MonksHotbarExpansion.clear-row": "Pulisci riga"
+  "MonksHotbarExpansion": {
+    "number-rows": {
+      "name": "Numero di righe",
+      "hint": "Numero di righe visualizzate quando si clicca su un numero nella barra rapida"
+    },
+    "reverse-row-order": {
+      "name": "Ordine inverso",
+      "hint": "Inverti l’ordine delle righe, senza duplicare la prima riga."
+    },
+    "hide-first-row": {
+      "name": "Nascondi la prima riga",
+      "hint": "Se desideri visualizzare tutte le righe aperte contemporaneamente, puoi nascondere la prima riga per risparmiare spazio."
+    },
+    "collapse-on-select": {
+      "name": "Comprimi alla selezione",
+      "hint": "Comprimi l'espansione dopo aver selezionato una riga"
+    },
+    "toggle-key": {
+      "name": "Attiva/disattiva barra rapida",
+      "hint": "Attiva o disattiva l'espansione della barra rapida"
+    },
+    "collapse-on-open": {
+      "name": "Compresso all'avvio",
+      "hint": "All'avvio l'espansione sarà compressa per impostazione predefinita"
+    },
+    "hide-page-arrows": {
+      "name": "Nascondi frecce delle pagine",
+      "hint": "Se non vuoi visualizzare le frecce per cambiare pagina"
+    },
+    "switch-row": {
+      "name": "Passa alla riga di macro"
+    },
+    "clear-row": "Pulisci riga",
+    "expand-hotbar": "Espandi Barra",
+    "clearing-macro-row": "Pulizia Riga Macro",
+    "ClearRowMsg": "Stai per rimuovere tutte le macro da questa riga"
+  }
 }

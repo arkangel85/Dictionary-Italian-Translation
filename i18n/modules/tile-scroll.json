@@ -9,7 +9,8 @@
       "enableRotate": "Rotazione",
       "repeat": "Ripeti texture",
       "pivot": "Asse di rotazione",
-      "offset": "Offset"
+      "offset": "Offset",
+      "parallax": "Intensità Parallasse"
     }
   }
 }

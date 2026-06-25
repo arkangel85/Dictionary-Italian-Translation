@@ -1,38 +1,74 @@
 {
   "rsr5e": {
     "settings": {
-      "enableSkillQuickRoll.name": "Tiri rapidi di abilità",
-      "enableSkillQuickRoll.hint": "Cliccando su un’abilità verrà eseguito automaticamente un tiro, invece di aprire la finestra standard. Per aprire la finestra standard, tieni premuto il tasto 'Salta finestra'.",
-      "enableAbilityQuickRoll.name": "Tiri rapidi di caratteristiche",
-      "enableAbilityQuickRoll.hint": "Cliccando su una caratteristica o su un tiro salvezza verrà eseguito automaticamente un tiro. La finestra standard può essere aperta tenendo premuto 'Salta finestra'.",
-      "enableToolQuickRoll.name": "Tiri rapidi con strumenti",
-      "enableToolQuickRoll.hint": "Cliccando su uno strumento verrà eseguito automaticamente un tiro. Per la finestra standard, tieni premuto 'Salta finestra'.",
-      "enableActivityQuickRoll.name": "Tiri rapidi delle funzionalità",
-      "enableActivityQuickRoll.hint": "Cliccando su una funzionalità dell’oggetto verrà eseguito automaticamente un tiro. La finestra standard si apre tenendo premuto 'Salta finestra'.",
-      "enableVanillaQuickRoll.name": "Abilita modifica dei tiri standard",
-      "enableVanillaQuickRoll.hint": "Anche i tiri standard avranno lo stile e la funzionalità del modulo RSR. Si applica anche se il tiro è fatto saltando il rapido (tasto 'Salta finestra').",
-      "alwaysRollMulti.name": "Tirare sempre più dadi",
-      "alwaysRollMulti.hint": "Nei tiri rapidi, lancia sempre due dadi anche se vantaggio/svantaggio non sono applicati.",
-      "manualDamageMode.name": "Tiro danni manuale",
-      "manualDamageMode.hint": "Nei tiri rapidi, non tirare automaticamente il danno. Verrà mostrato un pulsante sulla carta in chat per farlo manualmente.",
-      "aggregateDamage.name": "Unifica i tipi di danno",
-      "aggregateDamage.hint": "Nei tiri rapidi, somma i danni dello stesso tipo in un unico campo.",
-      "enableD20Icons.name": "Mostra D20 nei tiri rapidi",
-      "enableD20Icons.hint": "Nei tiri rapidi, mostra un'icona con il valore naturale accanto al risultato finale.",
-      "enableDiceReroll.name": "Abilita rilancio dei dadi",
-      "enableDiceReroll.hint": "Consente di cliccare su un dado nella chat per rilanciarlo.",
-      "enableOverlayButtons.name": "Abilita pulsanti aggiuntivi",
-      "enableOverlayButtons.hint": "Aggiunge pulsanti extra di danno/cura sulla carta in chat nei tiri rapidi.",
-      "enableDamageButtons.name": "Mostra pulsanti di danno",
-      "enableDamageButtons.hint": "Mostra pulsanti per infliggere danno direttamente al token nella carta chat con danni.",
-      "alwaysShowButtons.name": "Mostra sempre pulsanti di danno",
-      "alwaysShowButtons.hint": "I pulsanti di danno saranno sempre visibili, non solo al passaggio del mouse.",
-      "applyDamageTo.name": "Applicazione danno/cura",
-      "applyDamageTo.hint": "Determina a quali token verrà applicato il danno o la cura tramite i pulsanti nella carta chat.",
-      "confirmRetroAdv.name": "Conferma vantaggio retroattivo",
-      "confirmRetroAdv.hint": "Mostra una finestra di conferma quando si applica vantaggio/svantaggio retroattivamente.",
-      "confirmRetroCrit.name": "Conferma critico retroattivo",
-      "confirmRetroCrit.hint": "Mostra una finestra di conferma quando si modifica retroattivamente il tiro in un colpo critico."
+      "enableSkillQuickRoll": {
+        "name": "Tiri rapidi di abilità",
+        "hint": "Cliccando su un’abilità verrà eseguito automaticamente un tiro, invece di aprire la finestra standard. Per aprire la finestra standard, tieni premuto il tasto 'Salta finestra'."
+      },
+      "enableAbilityQuickRoll": {
+        "name": "Tiri rapidi di caratteristiche",
+        "hint": "Cliccando su una caratteristica o su un tiro salvezza verrà eseguito automaticamente un tiro. La finestra standard può essere aperta tenendo premuto 'Salta finestra'."
+      },
+      "enableToolQuickRoll": {
+        "name": "Tiri rapidi con strumenti",
+        "hint": "Cliccando su uno strumento verrà eseguito automaticamente un tiro. Per la finestra standard, tieni premuto 'Salta finestra'."
+      },
+      "enableActivityQuickRoll": {
+        "name": "Tiri rapidi delle funzionalità",
+        "hint": "Cliccando su una funzionalità dell’oggetto verrà eseguito automaticamente un tiro. La finestra standard si apre tenendo premuto 'Salta finestra'."
+      },
+      "enableVanillaQuickRoll": {
+        "name": "Abilita modifica dei tiri standard",
+        "hint": "Anche i tiri standard avranno lo stile e la funzionalità del modulo RSR. Si applica anche se il tiro è fatto saltando il rapido (tasto 'Salta finestra')."
+      },
+      "alwaysRollMulti": {
+        "name": "Tirare sempre più dadi",
+        "hint": "Nei tiri rapidi, lancia sempre due dadi anche se vantaggio/svantaggio non sono applicati."
+      },
+      "manualDamageMode": {
+        "name": "Tiro danni manuale",
+        "hint": "Nei tiri rapidi, non tirare automaticamente il danno. Verrà mostrato un pulsante sulla carta in chat per farlo manualmente."
+      },
+      "aggregateDamage": {
+        "name": "Unifica i tipi di danno",
+        "hint": "Nei tiri rapidi, somma i danni dello stesso tipo in un unico campo."
+      },
+      "enableD20Icons": {
+        "name": "Mostra D20 nei tiri rapidi",
+        "hint": "Nei tiri rapidi, mostra un'icona con il valore naturale accanto al risultato finale."
+      },
+      "enableDiceReroll": {
+        "name": "Abilita rilancio dei dadi",
+        "hint": "Consente di cliccare su un dado nella chat per rilanciarlo."
+      },
+      "enableOverlayButtons": {
+        "name": "Abilita pulsanti aggiuntivi",
+        "hint": "Aggiunge pulsanti extra di danno/cura sulla carta in chat nei tiri rapidi."
+      },
+      "enableDamageButtons": {
+        "name": "Mostra pulsanti di danno",
+        "hint": "Mostra pulsanti per infliggere danno direttamente al token nella carta chat con danni."
+      },
+      "alwaysShowButtons": {
+        "name": "Mostra sempre pulsanti di danno",
+        "hint": "I pulsanti di danno saranno sempre visibili, non solo al passaggio del mouse."
+      },
+      "applyDamageTo": {
+        "name": "Applicazione danno/cura",
+        "hint": "Determina a quali token verrà applicato il danno o la cura tramite i pulsanti nella carta chat."
+      },
+      "confirmRetroAdv": {
+        "name": "Conferma vantaggio retroattivo",
+        "hint": "Mostra una finestra di conferma quando si applica vantaggio/svantaggio retroattivamente."
+      },
+      "confirmRetroCrit": {
+        "name": "Conferma critico retroattivo",
+        "hint": "Mostra una finestra di conferma quando si modifica retroattivamente il tiro in un colpo critico."
+      },
+      "enableHideFinalResult": {
+        "name": "Nascondi risultato degli attacchi dei PNG",
+        "hint": "Quando si esegue un tiro rapido con un attacco fatto da un attore non posseduto da un giocatore, nasconde il risultato finale modificato del tiro così che sia visibile solo il risultato del d20."
+      }
     },
     "choices": {
       "rollModifierMode": {
@@ -85,7 +121,8 @@
       "prompts": {
         "retroCrit": "Aggiornare a critico?",
         "retroAdv": "Tiro con {target}?"
-      }
+      },
+      "hide": "???"
     },
     "messages": {
       "error": {

@@ -8,7 +8,9 @@
       "AddKey": "Aggiungi fotogramma",
       "Bounce": "Ripeti animazione",
       "Randomize": "Sfasamento casuale in base alla durata",
-      "Offset": "Ritardo in millisecondi per desincronizzare animazioni simili"
+      "Offset": "Ritardo in millisecondi per desincronizzare animazioni simili",
+      "Manual": "Avvia l'animazione quando la luce è attivata",
+      "ManualDesc": "Permette al GM di controllare quando inizia un'animazione attivando/disattivando la luce per avviare/reimpostare l'animazione."
     },
     "Props": {
       "Time": "Tempo del fotogramma chiave (ms)",

@@ -1,56 +1,113 @@
 {
-  "combatbooster.settings.enableMarker.text": "Indicatore del turno",
-  "combatbooster.settings.enableMarker.hint": "Abilita l’indicatore sotto il token del turno attivo",
-  "combatbooster.settings.enableNextMarker.text": "Indicatore del turno successivo",
-  "combatbooster.settings.enableNextMarker.hint": "Abilita l’indicatore sotto il token del prossimo turno. Questo indicatore sarà in bianco e nero come l'indicatore normale.",
-  "combatbooster.settings.enableStartMarker.text": "Indicatore d’inizio turno",
-  "combatbooster.settings.enableStartMarker.hint": "Abilita l’indicatore che mostra la posizione all'inizio del turno del token attivo.",
-  "combatbooster.settings.markerPath.name": "Immagine dell’indicatore di turno",
-  "combatbooster.settings.markerPath.hint": "Immagine utilizzata per l’indicatore di turno",
-  "combatbooster.settings.startMarkerPath.name": "Immagine dell’indicatore d’inizio turno",
-  "combatbooster.settings.startMarkerPath.hint": "Immagine utilizzata per l’indicatore d’inizio turno",
-  "combatbooster.settings.markerSpeed.text": "Velocità di rotazione dell’indicatore",
-  "combatbooster.settings.markerSpeed.hint": "Velocità di rotazione dell’indicatore di turno",
-  "combatbooster.settings.markerScale.text": "Scala dell’indicatore",
-  "combatbooster.settings.markerScale.hint": "Fattore di scala dell’indicatore di turno",
-  "combatbooster.settings.markerAlpha.text": "Trasparenza dell’indicatore",
-  "combatbooster.settings.markerAlpha.hint": "Livello di trasparenza dell’indicatore di turno",
-  "combatbooster.settings.markerIgnoreScale.name": "Ignora la scala del token per l’indicatore",
-  "combatbooster.settings.markerIgnoreScale.hint": "La dimensione dell’indicatore non sarà influenzata dalla scala del token, ma considererà larghezza e altezza.",
-  "combatbooster.settings.enableHud.text": "Abilita HUD di combattimento (solo D&D5)",
-  "combatbooster.settings.enableHud.hint": "Mostra le ultime azioni nell'interfaccia del token",
-  "combatbooster.settings.hudRecent.text": "Oggetti recenti",
-  "combatbooster.settings.hudRecent.hint": "Numero di oggetti recentemente usati da mostrare",
-  "combatbooster.settings.hudMaxCol.text": "Colonne dell'HUD",
-  "combatbooster.settings.hudMaxCol.hint": "Numero massimo di colonne da mostrare. 0 per distribuzione automatica.",
-  "combatbooster.settings.markDefeated.text": "Segna come sconfitto",
-  "combatbooster.settings.markDefeated.hint": "Segna automaticamente gli NPC come sconfitti quando i PF sono a 0",
-  "combatbooster.settings.moveToPile.text": "Mucchio di corpi",
-  "combatbooster.settings.moveToPile.hint": "Quando un NPC viene sconfitto, il suo corpo viene spostato in un mucchio. Di default in alto a sinistra nella scena, oppure su un token chiamato 'pile' se presente.",
-  "combatbooster.settings.panCamera.text": "Sposta la telecamera",
-  "combatbooster.settings.panCamera.hint": "Sposta automaticamente la telecamera sul combattente attivo (per i giocatori solo sui token visibili)",
-  "combatbooster.settings.controlToken.text": "Selezione automatica del token all’inizio del turno",
-  "combatbooster.settings.controlToken.hint": "Il token verrà selezionato automaticamente all’inizio del proprio turno",
-  "combatbooster.settings.ignorePlayer.text": "Ignora i token dei giocatori",
-  "combatbooster.settings.ignorePlayer.hint": "I token dei giocatori non verranno selezionati automaticamente all’inizio del loro turno",
-  "combatbooster.settings.renderTokenHUD.text": "Mostra automaticamente l’interfaccia",
-  "combatbooster.settings.renderTokenHUD.hint": "Mostra automaticamente l’interfaccia del token all’inizio del turno (solo per GM)",
-  "combatbooster.settings.soundPath.name": "Suono di inizio turno",
-  "combatbooster.settings.soundPath.hint": "Suono da riprodurre all’inizio del turno del giocatore. Lascia vuoto per disattivare.",
-  "combatbooster.settings.soundVolume.text": "Volume del suono",
-  "combatbooster.settings.soundVolume.hint": "Volume del suono di inizio turno",
-  "combatbooster.settings.displayNotification.text": "Notifica di inizio turno",
-  "combatbooster.settings.displayNotification.hint": "All’inizio del turno del giocatore verrà mostrata una notifica",
-  "combatbooster.settings.currentHp.text": "PF attuali",
-  "combatbooster.settings.currentHp.hint": "Percorso ai dati dei PF attuali dell’attore",
-  "combatbooster.settings.maxHp.text": "PF massimi",
-  "combatbooster.settings.maxHp.hint": "Percorso ai dati dei PF massimi dell’attore",
-  "combatbooster.settings.markerAbove.name": "Indicatore sopra al token",
-  "combatbooster.settings.markerAbove.hint": "L’indicatore di turno verrà mostrato sopra il token",
-  "combatbooster.settings.targetAbove.name": "Bersagli sopra l’indicatore",
-  "combatbooster.settings.targetAbove.hint": "Mostra i punti di mira sopra l’indicatore",
-
-  "combatbooster.yourTurn.text": "È il tuo turno!",
-
-  "combatbooster.settings.combatsounds.default": "Combat Booster"
+  "combatbooster": {
+    "settings": {
+      "enableMarker": {
+        "text": "Indicatore del turno",
+        "hint": "Abilita l’indicatore sotto il token del turno attivo"
+      },
+      "enableNextMarker": {
+        "text": "Indicatore del turno successivo",
+        "hint": "Abilita l’indicatore sotto il token del prossimo turno. Questo indicatore sarà in bianco e nero come l'indicatore normale."
+      },
+      "enableStartMarker": {
+        "text": "Indicatore d’inizio turno",
+        "hint": "Abilita l’indicatore che mostra la posizione all'inizio del turno del token attivo."
+      },
+      "markerPath": {
+        "name": "Immagine dell’indicatore di turno",
+        "hint": "Immagine utilizzata per l’indicatore di turno"
+      },
+      "startMarkerPath": {
+        "name": "Immagine dell’indicatore d’inizio turno",
+        "hint": "Immagine utilizzata per l’indicatore d’inizio turno"
+      },
+      "markerSpeed": {
+        "text": "Velocità di rotazione dell’indicatore",
+        "hint": "Velocità di rotazione dell’indicatore di turno"
+      },
+      "markerScale": {
+        "text": "Scala dell’indicatore",
+        "hint": "Fattore di scala dell’indicatore di turno"
+      },
+      "markerAlpha": {
+        "text": "Trasparenza dell’indicatore",
+        "hint": "Livello di trasparenza dell’indicatore di turno"
+      },
+      "markerIgnoreScale": {
+        "name": "Ignora la scala del token per l’indicatore",
+        "hint": "La dimensione dell’indicatore non sarà influenzata dalla scala del token, ma considererà larghezza e altezza."
+      },
+      "enableHud": {
+        "text": "Abilita HUD di combattimento (solo D&D5)",
+        "hint": "Mostra le ultime azioni nell'interfaccia del token"
+      },
+      "hudRecent": {
+        "text": "Oggetti recenti",
+        "hint": "Numero di oggetti recentemente usati da mostrare"
+      },
+      "hudMaxCol": {
+        "text": "Colonne dell'HUD",
+        "hint": "Numero massimo di colonne da mostrare. 0 per distribuzione automatica."
+      },
+      "markDefeated": {
+        "text": "Segna come sconfitto",
+        "hint": "Segna automaticamente gli NPC come sconfitti quando i PF sono a 0"
+      },
+      "moveToPile": {
+        "text": "Mucchio di corpi",
+        "hint": "Quando un NPC viene sconfitto, il suo corpo viene spostato in un mucchio. Di default in alto a sinistra nella scena, oppure su un token chiamato 'pile' se presente."
+      },
+      "panCamera": {
+        "text": "Sposta la telecamera",
+        "hint": "Sposta automaticamente la telecamera sul combattente attivo (per i giocatori solo sui token visibili)"
+      },
+      "controlToken": {
+        "text": "Selezione automatica del token all’inizio del turno",
+        "hint": "Il token verrà selezionato automaticamente all’inizio del proprio turno"
+      },
+      "ignorePlayer": {
+        "text": "Ignora i token dei giocatori",
+        "hint": "I token dei giocatori non verranno selezionati automaticamente all’inizio del loro turno"
+      },
+      "renderTokenHUD": {
+        "text": "Mostra automaticamente l’interfaccia",
+        "hint": "Mostra automaticamente l’interfaccia del token all’inizio del turno (solo per GM)"
+      },
+      "soundPath": {
+        "name": "Suono di inizio turno",
+        "hint": "Suono da riprodurre all’inizio del turno del giocatore. Lascia vuoto per disattivare."
+      },
+      "soundVolume": {
+        "text": "Volume del suono",
+        "hint": "Volume del suono di inizio turno"
+      },
+      "displayNotification": {
+        "text": "Notifica di inizio turno",
+        "hint": "All’inizio del turno del giocatore verrà mostrata una notifica"
+      },
+      "currentHp": {
+        "text": "PF attuali",
+        "hint": "Percorso ai dati dei PF attuali dell’attore"
+      },
+      "maxHp": {
+        "text": "PF massimi",
+        "hint": "Percorso ai dati dei PF massimi dell’attore"
+      },
+      "markerAbove": {
+        "name": "Indicatore sopra al token",
+        "hint": "L’indicatore di turno verrà mostrato sopra il token"
+      },
+      "targetAbove": {
+        "name": "Bersagli sopra l’indicatore",
+        "hint": "Mostra i punti di mira sopra l’indicatore"
+      },
+      "combatsounds": {
+        "default": "Combat Booster"
+      }
+    },
+    "yourTurn": {
+      "text": "È il tuo turno!"
+    },
+    "coreMarker": "Il Segnaturno del core di Foundry VTT è stato disabilitato perché stai usando il Segnaturno Avanzato di Combat Booster."
+  }
 }

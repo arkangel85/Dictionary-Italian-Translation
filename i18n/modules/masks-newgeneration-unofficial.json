@@ -1,5 +1,11 @@
 {
-  "TYPES.Item.masks-newgeneration-unofficial.influence": "Influenza",
+  "TYPES": {
+    "Item": {
+      "masks-newgeneration-unofficial": {
+        "influence": "Influenza"
+      }
+    }
+  },
   "MASKS-SHEETS": {
     "SheetConfig": {
       "character": "Scheda delle Maschere"
@@ -8,6 +14,18 @@
       "enable_dark_mode": {
         "name": "Modalità scura",
         "hint": "Utilizza la modalità scura per tutte le schede."
+      },
+      "game": {
+        "heading": "Masks: A New Generation",
+        "publisher": {
+          "title": "Magpie Games"
+        },
+        "github": {
+          "title": "Repository del Modulo"
+        },
+        "kofi": {
+          "title": "Supportami su Ko-fi"
+        }
       }
     },
     "Description": {

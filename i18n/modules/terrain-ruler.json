@@ -1,3 +1,17 @@
 {
-  "terrain-ruler.terrainRuler": "Misurazione della distanza con terreno difficile"
+  "terrain-ruler": {
+    "terrainRuler": "Misurazione della distanza con terreno difficile",
+    "keybinding": "Attiva/disattiva Righello del Terreno",
+    "settings": {
+      "defaultToggleState": {
+        "name": "Stato Predefinito",
+        "hint": "Lo stato dell'interruttore del righello del terreno dopo l'accesso alla partita.",
+        "choices": {
+          "on": "Attivo",
+          "off": "Disattivo",
+          "remember": "Ricorda l'ultimo stato"
+        }
+      }
+    }
+  }
 }

@@ -32,11 +32,9 @@
     "ActorWil": "VOL",
     "ActorHP": "PS",
     "ActorArmor": "ARM",
-
     "Current": "Attuale",
     "Strength": "Forza",
     "Dexterity": "Destrezza",
-
     "Will": "Volontà",
     "Max": "Max",
     "Pips": "Semi",
@@ -44,7 +42,6 @@
     "Notes": "Note",
     "Storage": "Magazzino",
     "Options": "Impostazioni",
-
     "InventoryCarried": "Portato: utilizzabile subito",
     "InventoryWorn": "Indossato: pronto all’uso",
     "InventoryPack": "Nel sacco: serve tempo per prepararlo. In combattimento, richiede un’azione per recuperarlo.",
@@ -59,7 +56,6 @@
     "CardClear": "Scarta",
     "OptionsWidth": "Larghezza",
     "OptionsHeight": "Altezza",
-
     "ItemWorth": "Valore",
     "ItemCurrentUsage": "Usura attuale",
     "ItemMaxUsage": "Usura max",
@@ -74,10 +70,8 @@
     "ItemCurrentStore": "Attuale",
     "ItemMaxStore": "Max",
     "Item": "Oggetto",
-
     "OK": "OK",
     "Cancel": "Annulla",
-
     "Roll": "Tiro",
     "RollDescription": "Descrizione",
     "RollSelectStat": "Caratteristica",
@@ -177,6 +171,9 @@
       "Bee keeper": "Apicoltore",
       "Librarian": "Bibliotecario",
       "Pauper noblemouse": "Nobile decaduto"
-    }
+    },
+    "RollSelectType": "Seleziona Tipo di Tiro",
+    "RollSumKeyword": "[SUM]",
+    "RollDiceKeyword": "[DICE]"
   }
 }

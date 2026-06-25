@@ -1,3 +1,14 @@
 {
-  "illandril-hotbar-uses.showMaximum": "Mostra il valore massimo"
+  "illandril-hotbar-uses": {
+    "showMaximum": "Mostra il valore massimo",
+    "setting": {
+      "showMax": {
+        "label": "Mostra Valori Massimi"
+      },
+      "debug": {
+        "label": "Modalità Debug",
+        "hint": "Lascia disabilitato a meno che non ti venga chiesto esplicitamente da Illandril (altrimenti rallenterà le cose)."
+      }
+    }
+  }
 }

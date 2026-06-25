@@ -1,6 +1,17 @@
 {
-  "simpleDiceRoller.maxDiceCount.name": "Numero massimo di dadi per tiro",
-  "simpleDiceRoller.maxDiceCount.hint": "Numero massimo di dadi che possono essere lanciati tramite Simple Dice Roller.",
-  "simpleDiceRoller.enableFateDice.name": "Abilita dadi Fate",
-  "simpleDiceRoller.enableFateDice.hint": "Se non sai cosa sono i dadi Fate, ti consigliamo di non attivare questa opzione."
+  "simpleDiceRoller": {
+    "maxDiceCount": {
+      "name": "Numero massimo di dadi per tiro",
+      "hint": "Numero massimo di dadi che possono essere lanciati tramite Simple Dice Roller."
+    },
+    "enableFateDice": {
+      "name": "Abilita dadi Fate",
+      "hint": "Se non sai cosa sono i dadi Fate, ti consigliamo di non attivare questa opzione."
+    }
+  },
+  "I18N": {
+    "MAINTAINERS": [
+      "jopeek"
+    ]
+  }
 }

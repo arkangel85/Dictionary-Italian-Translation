@@ -229,7 +229,11 @@
       "movementUsed": "Sfondo/ombra delle caselle che indicano movimento utilizzato",
       "movementBaseMovement": "Sfondo/ombra delle caselle che indicano movimento disponibile",
       "movementDashMovement": "Sfondo/ombra delle caselle che indicano movimento con scatto",
-      "movementDangerMovement": "Sfondo/ombra delle caselle che indicano movimento oltre il limite"
+      "movementDangerMovement": "Sfondo/ombra delle caselle che indicano movimento oltre il limite",
+      "savePermanent": {
+        "label": "Salva tema personalizzato per tutti gli utenti",
+        "tooltip": "Salva il tema personalizzato attuale nell'archivio del modulo. Questo rende il tema disponibile in tutte le tue partite e per tutti i giocatori. Per rimuovere un tema salvato dovrai eliminarne il file manualmente dal tuo esplora file (percorso: modules/enhancedcombathud/storage/themes). L'eliminazione di file dall'interno di Foundry non è supportata."
+      }
     },
     "hotkey": {
       "toggle": {
@@ -250,6 +254,10 @@
           "3": "<span>+</span> o <span>-</span> per regolare manualmente il numero di bersagli richiesti."
         }
       }
-    }
+    },
+    "deleteEffectTitle": "Elimina Effetto",
+    "deleteEffectContent": "Sei sicuro di voler eliminare l'effetto ",
+    "confirmRerollInitiativeTitle": "Ritira Iniziativa",
+    "confirmRerollInitiativeContent": "Sei sicuro di voler ritirare l'iniziativa?"
   }
 }

@@ -82,7 +82,9 @@
       "PlayersEffect": "Effetto di {user_name}",
       "UnknownEffect": "Effetto senza proprietario",
       "EndAllEffects": "Termina tutti gli effetti",
-      "EndAllSounds": "Termina tutti i suoni"
+      "EndAllSounds": "Termina tutti i suoni",
+      "PersistentSounds": "Suoni persistenti:",
+      "TemporarySounds": "Suoni temporanei:"
     },
     "Sequences": {
       "Title": "Animazioni",

@@ -369,6 +369,7 @@
       }
     },
     "Turfs": "Territori",
-    "RollTokenDescription": "Se vuoi recuperare i valori da un personaggio, seleziona prima il suo Token."
+    "RollTokenDescription": "Se vuoi recuperare i valori da un personaggio, seleziona prima il suo Token.",
+    "ToggleStanding": "Attiva/disattiva posizione per {name}, attualmente {standing}"
   }
 }

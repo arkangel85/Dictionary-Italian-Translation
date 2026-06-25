@@ -1,11 +1,25 @@
 {
-  "THWildcard.Title": "Clicca per configurare l'immagine",
-  "THWildcard.Fieldset": "Variante predefinita",
-  "THWildcard.DefaultDescription": "Quando un token con più varianti viene posizionato sulla scena, questa variante verrà selezionata come predefinita invece di una casuale.",
-  "THWildcard.DefaultLabel": "Immagine predefinita:",
-  "THWildcard.ButtonTitle": "Apri file",
-  "THWildcard.DisplaySettingName": "Mostrare come immagine?",
-  "THWildcard.DisplaySettingHint": "Disattiva la visualizzazione delle varianti come elenco di nomi file nell'interfaccia.",
-  "THWildcard.OpacitySettingName": "Opacità dell'anteprima",
-  "THWildcard.OpacitySettingHint": "Regola l'opacità dell'interfaccia di selezione delle varianti del token."
+  "THWildcard": {
+    "Title": "Clicca per configurare l'immagine",
+    "Fieldset": "Variante predefinita",
+    "DefaultDescription": "Quando un token con più varianti viene posizionato sulla scena, questa variante verrà selezionata come predefinita invece di una casuale.",
+    "DefaultLabel": "Immagine predefinita:",
+    "ButtonTitle": "Apri file",
+    "DisplaySettingName": "Mostrare come immagine?",
+    "DisplaySettingHint": "Disattiva la visualizzazione delle varianti come elenco di nomi file nell'interfaccia.",
+    "OpacitySettingName": "Opacità dell'anteprima",
+    "OpacitySettingHint": "Regola l'opacità dell'interfaccia di selezione delle varianti del token.",
+    "TooltipsSettingName": "Mostra tooltip",
+    "TooltipsSettingHint": "Disabilita per non mostrare i nomi delle immagini come tooltip nell'HUD. Predefinito abilitato.",
+    "VideoAutoplaySettingName": "Riproduci automaticamente le anteprime video",
+    "VideoAutoplaySettingHint": "Disabilita per non riprodurre automaticamente i token wildcard video nell'anteprima dell'HUD Token. Può migliorare le prestazioni se ci sono molti file video. Predefinito abilitato.",
+    "AnimateSettingName": "Anima i cambiamenti",
+    "AnimateSettingHint": "Se abilitato, le modifiche alla dimensione del token sono animate. Predefinito abilitato.",
+    "parseSettingName": "Analizza i nomi dei file",
+    "parseSettingHint": "Se abilitato, i nomi dei file immagine wildcard vengono analizzati per le impostazioni di scala/dimensione/larghezza. Predefinito abilitato.",
+    "randomizeSettingName": "Clic destro per randomizzare",
+    "randomizeSettingHint": "Se abilitato, cliccando col tasto destro il pulsante dell'HUD Token Wildcard verrà selezionata un'immagine casuale. Predefinito abilitato.",
+    "shareSettingName": "Clic destro per condividere",
+    "shareSettingHint": "Se abilitato, cliccando col tasto destro un'immagine nella selezione immagini wildcard, quell'immagine si aprirà in un popup per la condivisione. Predefinito abilitato."
+  }
 }

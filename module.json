@@ -1061,6 +1061,12 @@
       "path": "i18n/systems/wod5e.json",
       "system": "wod5e",
       "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/modules/poi-teleport.json",
+      "module": "poi-teleport",
+      "name": "Italiano"
     }
   ],
   "media": [

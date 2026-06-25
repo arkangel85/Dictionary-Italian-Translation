@@ -7,8 +7,10 @@
     "LanguageSettings": "Impostazioni lingua",
     "ChatSettings": "Impostazioni chat",
     "General": "Generale",
-    "Languages.title": "Lingue",
-    "Languages.hint": "Modifica l'alfabeto utilizzato dalle lingue.",
+    "Languages": {
+      "title": "Lingue",
+      "hint": "Modifica l'alfabeto utilizzato dalle lingue."
+    },
     "Font": "Carattere",
     "Fonts": "Caratteri",
     "FontSize": "Dimensione carattere (%)",
@@ -30,26 +32,38 @@
       "title": "Lingua universale",
       "hint": "Specifica una lingua i cui parlanti comprendono e parlano tutte le altre. L’attore potrà leggere e scrivere in tutte le lingue nella chat e nei giornali."
     },
-    "ComprehendLanguages.hint": "Imposta una lingua i cui parlanti comprendono tutte le altre, ma non possono scrivere o parlarle. L’attore potrà leggere tutti i messaggi in chat e i testi nei giornali.",
-    "ComprehendLanguages.title": "Lingua della comprensione",
-    "CustomLanguages.hint": "Definisci un elenco di lingue personalizzate da aggiungere al sistema. Separale con virgole o punto e virgola.",
-    "CustomLanguages.title": "Lingue personalizzate",
-    "DefaultLanguage.hint": "Nome della lingua predefinita. Lascia vuoto per usare quella del sistema.",
-    "DefaultLanguage.title": "Lingua predefinita",
+    "ComprehendLanguages": {
+      "hint": "Imposta una lingua i cui parlanti comprendono tutte le altre, ma non possono scrivere o parlarle. L’attore potrà leggere tutti i messaggi in chat e i testi nei giornali.",
+      "title": "Lingua della comprensione"
+    },
+    "CustomLanguages": {
+      "hint": "Definisci un elenco di lingue personalizzate da aggiungere al sistema. Separale con virgole o punto e virgola.",
+      "title": "Lingue personalizzate"
+    },
+    "DefaultLanguage": {
+      "hint": "Nome della lingua predefinita. Lascia vuoto per usare quella del sistema.",
+      "title": "Lingua predefinita"
+    },
     "DisplayCheckbox": {
       "hint": "Nasconde la casella di controllo nella sezione chat.",
       "title": "Mostra casella di controllo"
     },
-    "DisplayTranslated.hint": "Per le lingue tradotte in chat, mostra sia il testo originale che la traduzione.",
-    "DisplayTranslated.title": "Mostra traduzione",
+    "DisplayTranslated": {
+      "hint": "Per le lingue tradotte in chat, mostra sia il testo originale che la traduzione.",
+      "title": "Mostra traduzione"
+    },
     "enableAllFonts": {
       "hint": "Aggiunge i caratteri Foundry, inclusi quelli extra, a Polyglot.",
       "title": "Aggiungi caratteri Foundry a Polyglot"
     },
-    "ExportFonts.hint": "Aggiunge i caratteri di Polyglot agli strumenti Foundry, come i disegni.",
-    "ExportFonts.title": "Esporta i caratteri Polyglot in Foundry",
-    "HideTranslation.hint": "Nasconde il globo e la scritta \"Tradotto da\" nei messaggi per i giocatori. Utile se non vuoi rivelare la lingua parlata.",
-    "HideTranslation.title": "Nascondi indicatori ai giocatori",
+    "ExportFonts": {
+      "hint": "Aggiunge i caratteri di Polyglot agli strumenti Foundry, come i disegni.",
+      "title": "Esporta i caratteri Polyglot in Foundry"
+    },
+    "HideTranslation": {
+      "hint": "Nasconde il globo e la scritta \"Tradotto da\" nei messaggi per i giocatori. Utile se non vuoi rivelare la lingua parlata.",
+      "title": "Nascondi indicatori ai giocatori"
+    },
     "IgnoreJournalFontSize": {
       "hint": "Ignora la dimensione del carattere Polyglot nei giornali, mantenendo quella del testo normale.",
       "title": "Usa dimensione carattere standard"
@@ -87,25 +101,35 @@
       "hint": "Come sopra, ma per le lingue scritte.",
       "title": "Regex per alfabetizzazione"
     },
-    "logographicalFontToggle.hint": "Dimezza le frasi nei linguaggi logografici (giapponese, cinese, coreano, ecc.).",
-    "logographicalFontToggle.title": "Caratteri logografici",
-    "RandomizeRunes.hint": "Scegli il tipo di generazione casuale delle rune. L’opzione \"Disabilitato\" usa solo caratteri alfanumerici (senza accenti).",
-    "RandomizeRunes.title": "Rune casuali",
+    "logographicalFontToggle": {
+      "hint": "Dimezza le frasi nei linguaggi logografici (giapponese, cinese, coreano, ecc.).",
+      "title": "Caratteri logografici"
+    },
+    "RandomizeRunes": {
+      "hint": "Scegli il tipo di generazione casuale delle rune. L’opzione \"Disabilitato\" usa solo caratteri alfanumerici (senza accenti).",
+      "title": "Rune casuali"
+    },
     "RandomizeRunesOptions": {
       "a": "Predefinito",
       "b": "Frasi uniche",
       "c": "Disabilitato"
     },
-    "ReplaceLanguages.hint": "Rimuove le lingue di sistema. La prima lingua personalizzata diventa la nuova predefinita.",
-    "ReplaceLanguages.title": "Rimuovi lingue di sistema",
+    "ReplaceLanguages": {
+      "hint": "Rimuove le lingue di sistema. La prima lingua personalizzata diventa la nuova predefinita.",
+      "title": "Rimuovi lingue di sistema"
+    },
     "RuneRegex": {
       "hint": "Fa ignorare i caratteri non alfanumerici nella generazione casuale. Alcuni simboli potrebbero apparire come □ in alcuni caratteri.",
       "title": "Generazione solo con lettere e numeri"
     },
-    "ScrambleGM.hint": "Non traduce i messaggi per il GM (il globo indica se il token conosce la lingua).",
-    "ScrambleGM.title": "Cifra messaggi per il GM",
-    "Truespeech.hint": "Definisce una lingua comprensibile a tutti (ma che non può leggere i giornali). Gli attori che la parlano saranno compresi da tutti.",
-    "Truespeech.title": "Lingua del discorso universale",
+    "ScrambleGM": {
+      "hint": "Non traduce i messaggi per il GM (il globo indica se il token conosce la lingua).",
+      "title": "Cifra messaggi per il GM"
+    },
+    "Truespeech": {
+      "hint": "Definisce una lingua comprensibile a tutti (ma che non può leggere i giornali). Gli attori che la parlano saranno compresi da tutti.",
+      "title": "Lingua del discorso universale"
+    },
     "Translation": "Traduzione",
     "TranslatedFrom": "Tradotto da ",
     "LanguageLabel": "Lingua",
@@ -176,13 +200,20 @@
         "End": {
           "Title": "Conclusione",
           "Content": "La guida termina qui. Spero abbia chiarito alcuni dubbi su come Polyglot interagisce con il comportamento di Foundry.<br>Per approfondire, consulta le impostazioni del modulo nelle <span class='reference'>Impostazioni di gioco</span>.<br>Se non è sufficiente, visita la <a class=\"hyperlink\" href=\"https://github.com/mclemente/fvtt-module-polyglot/wiki\" target=\"_blank\" rel=\"nofollow noopener\">wiki del modulo</a> per maggiori informazioni."
+        },
+        "LanguageSelectorSelect2": {
+          "Title": "Menu a tendina del Selettore di Lingua",
+          "Content": "Cliccando col tasto destro sul <span class='reference'>Menu a tendina</span> si attiva/disattiva la cifratura, permettendo agli utenti di parlare come se il modulo fosse disabilitato."
         }
       }
     },
-    "UESRPG.Language": "Lingua",
+    "UESRPG": {
+      "Language": "Lingua"
+    },
     "Generic": {
       "Language": "Lingua",
-      "Read": "Lettura"
+      "Read": "Lettura",
+      "Literacy": "Alfabetizzazione"
     },
     "COC7": {
       "LanguageOwn": "Lingua",
@@ -191,11 +222,15 @@
       "LanguageSpec": "Lingua"
     },
     "DND5E": {
-      "SpecialLanguages.title": "Sostituisci lingue speciali",
-      "SpecialLanguages.hint": "Nome della lingua che sostituirà espressioni generiche come \"tutte le lingue conosciute in vita\"."
+      "SpecialLanguages": {
+        "title": "Sostituisci lingue speciali",
+        "hint": "Nome della lingua che sostituirà espressioni generiche come \"tutte le lingue conosciute in vita\"."
+      }
     },
     "PF2E": {
-      "replaceLanguages.hint": "Rimuove le lingue di sistema. È necessario avere almeno una lingua personalizzata definita nel menu homebrew, altrimenti tutte le lingue tranne il Comune verranno eliminate. Per ripristinare i valori predefiniti, consulta la wiki del modulo."
+      "replaceLanguages": {
+        "hint": "Rimuove le lingue di sistema. È necessario avere almeno una lingua personalizzata definita nel menu homebrew, altrimenti tutte le lingue tranne il Comune verranno eliminate. Per ripristinare i valori predefiniti, consulta la wiki del modulo."
+      }
     },
     "SWADE": {
       "LanguageSkills": "Lingua",
@@ -215,6 +250,16 @@
         "title": "Talento Lettura/Scrittura",
         "default": "Alfabetizzazione"
       }
-    }
+    },
+    "RightClickToEnable": "Clic destro per abilitare",
+    "EnableChatFeatures": {
+      "hint": "Abilita tutte le funzioni della chat, come il selettore di lingua nella chat e la cifratura dei messaggi.",
+      "title": "Abilita Funzioni Chat"
+    },
+    "useLiteracy": {
+      "hint": "Imposta i giornali come leggibili solo se si sa leggere una lingua.",
+      "title": "Usa Alfabetizzazione"
+    },
+    "SpeakingIn": "Parla in {language}"
   }
 }

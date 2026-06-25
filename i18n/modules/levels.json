@@ -82,6 +82,14 @@
       "migrateOnStartup": {
         "name": "Migrazione impostazioni all'avvio",
         "hint": "Il modulo inizierà la migrazione dei dati da V11 a V12 all'avvio del mondo. È possibile anche usare la macro 'CONFIG.Levels.helpers.migration.showManualMigrationDialog()' per avviare la migrazione manualmente."
+      },
+      "migrateOnStartupDialog": {
+        "name": "Apri 'Dialogo di migrazione impostazioni' all'avvio",
+        "hint": "Se abilitato, il modulo aprirà all'avvio un dialogo per migrare i dati dalla struttura V13 alla V14. Puoi usare la macro 'CONFIG.Levels.helpers.migration.showManualMigrationDialog()' per migrare manualmente le impostazioni."
+      },
+      "fastForwardMigration": {
+        "name": "Migrazione Rapida",
+        "hint": "Se abilitato, salta tutti i dialoghi durante la migrazione e usa il comportamento di migrazione predefinito."
       }
     },
     "tileconfig": {

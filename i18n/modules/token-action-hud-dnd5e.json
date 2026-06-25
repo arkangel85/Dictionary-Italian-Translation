@@ -1,98 +1,113 @@
 {
   "tokenActionHud": {
     "dnd5e": {
-      "1stLevelSpells": "1° livello",
-      "2ndLevelSpells": "2° livello",
-      "3rdLevelSpells": "3° livello",
-      "4thLevelSpells": "4° livello",
-      "5thLevelSpells": "5° livello",
-      "6thLevelSpells": "6° livello",
-      "7thLevelSpells": "7° livello",
-      "8thLevelSpells": "8° livello",
-      "9thLevelSpells": "9° livello",
+      "1stLevelSpells": "1° Livello Incantesimi",
+      "2ndLevelSpells": "2° Livello Incantesimi",
+      "3rdLevelSpells": "3° Livello Incantesimi",
+      "4thLevelSpells": "4° Livello Incantesimi",
+      "5thLevelSpells": "5° Livello Incantesimi",
+      "6thLevelSpells": "6° Livello Incantesimi",
+      "7thLevelSpells": "7° Livello Incantesimi",
+      "8thLevelSpells": "8° Livello Incantesimi",
+      "9thLevelSpells": "9° Livello Incantesimi",
       "abilities": "Caratteristiche",
-      "activeFeatures": "Tratti attivi",
+      "activeFeatures": "Privilegi attivi",
       "artifact": "Artefatto",
-      "artificerInfusions": "Infusioni dell’inventore",
-      "atWillSpells": "A volontà",
-      "backgroundFeatures": "Tratti di background",
+      "artificerInfusions": "Infusioni Artefice",
+      "atWillSpells": "Incantesimi a Volontà",
+      "backgroundFeatures": "Privilegi di Background",
       "bonusActions": "Azioni bonus",
       "cantrips": "Trucchetti",
-      "channelDivinity": "Canalizzare Divinità",
+      "channelDivinity": "Incanalare Divinità",
       "check": "Prova",
       "checks": "Prove",
-      "classFeatures": "Tratti di classe",
+      "classFeatures": "Privilegi di Classe",
       "common": "Comune",
       "condition": "Condizione",
       "conditions": "Condizioni",
-      "crewActions": "Azioni dell’equipaggio",
-      "defensiveTactics": "Tattiche difensive",
-      "eldritchInvocations": "Invocazioni arcane",
+      "counter": "Contatore",
+      "counters": "Contatori",
+      "crewActions": "Azioni di gruppo",
+      "defensiveTactics": "Tattiche Difensive",
+      "eldritchInvocations": "Suppliche Occulte",
       "elementalDisciplines": "Discipline elementali",
+      "equip": "Equipaggia",
+      "favorites": "Preferiti",
       "feats": "Talenti",
-      "fightingStyles": "Stili di combattimento",
-      "huntersPrey": "Preda del cacciatore",
-      "innateSpells": "Incantesimi innati",
+      "fightingStyles": "Stili di Combattimento",
+      "huntersPrey": "Preda del Cacciatore",
+      "innateSpells": "Incantesimi Innati",
       "item": "Oggetto",
-      "kiAbilities": "Abilità del Ki",
+      "kiAbilities": "Poteri Ki",
       "lair": "Tana",
-      "lairActions": "Azioni della tana",
-      "legendary": "Leggendario",
-      "legendaryActions": "Azioni leggendarie",
-      "magicItems": "Oggetti magici",
+      "lairActions": "Azioni di Tana",
+      "legendary": "Leggendarie",
+      "legendaryActions": "Azioni Leggendarie",
+      "limitedSpells": "Incantesimi Limitati",
       "maneuvers": "Manovre",
-      "metamagicOptions": "Opzioni di metamagia",
-      "monsterFeatures": "Tratti del mostro",
-      "multiattacks": "Multiattacchi",
+      "metamagicOptions": "Opzioni di Metamagia",
+      "monsterFeatures": "Privilegi dei Mostri",
+      "multiattacks": "Multiattacco",
+      "noAction": "Nessuna Azione",
       "otherActions": "Altre azioni",
-      "pactBoons": "Doni del patto",
-      "pactSpells": "Incantesimi del patto",
-      "passiveFeatures": "Tratti passivi",
-      "psionicPowers": "Poteri psionici",
-      "raceFeatures": "Tratti razziali",
+      "pactBoons": "Doni del Patto",
+      "pactSpells": "Incantesimi del Patto",
+      "passiveFeatures": "Privilegi Passivi",
+      "psionicPowers": "Poteri Psionici",
+      "raceFeatures": "Privilegi di Razza",
       "rare": "Raro",
       "rests": "Riposi",
-      "rollInitiative": "Tiro di iniziativa",
+      "rollInitiative": "Tira Iniziativa",
       "runes": "Rune",
-      "skill": "Abilità",
-      "skills": "Abilità",
-      "superiorHuntersDefense": "Difesa del cacciatore superiore",
-      "uncommon": "Non comune",
-      "veryRare": "Molto raro",
       "settings": {
         "abbreviateSkills": {
-          "hint": "Se attivato, le abilità e le caratteristiche saranno abbreviate a tre lettere.",
-          "name": "Abbreviazione abilità e caratteristiche"
+          "hint": "Mostra nomi di Abilità e Caratteristiche in 3 Caratteri",
+          "name": "Abbrevia nomi di Abilità e Caratteristiche"
         },
         "displaySpellInfo": {
-          "hint": "Visualizza componenti, concentrazione e rituale accanto al nome dell’incantesimo.",
-          "name": "Informazioni sugli incantesimi"
+          "hint": "Mostra informazioni componenti incantesimo, concentrazione e stato del rituale vicino al nome incantesimo",
+          "name": "Mostra Informazioni Incantesimo"
+        },
+        "showActivitiesAsActions": {
+          "hint": "Visualizza ogni attività relativa a un elemento come un'azione a sé stante. Facendo clic su un'azione, questa viene eseguita direttamente. Quando questa opzione è disabilitata, ogni elemento rappresenta una singola azione e facendo clic sull'azione verrà visualizzata la finestra di selezione dell'attività (a meno che non venga saltata).",
+          "name": "Mostra Attività come Azioni"
         },
         "showItemsWithoutActivationCosts": {
-          "hint": "Mostra oggetti senza costo di attivazione.",
-          "name": "Oggetti senza costo di attivazione"
+          "hint": "Mostra Oggetti senza Costo di Attivazione",
+          "name": "Mostra Oggetti senza Costo di Attivazione"
         },
         "showSlowActions": {
-          "hint": "Mostra azioni che durano più di un round.",
-          "name": "Azioni lente"
+          "hint": "Mostra azioni che impiegano più di un round",
+          "name": "Mostra Azioni Lente"
+        },
+        "showSpellsAcrossGroups": {
+          "hint": "Mostra ogni incantesimo in tutti i gruppi di slot incantesimo da cui può essere lanciato. Quando disabilitata, gli incantesimi vengono visualizzati solo nel loro gruppo di slot incantesimo base.",
+          "name": "Mostra Incantesimi in tutti i gruppi da cui si possono lanciare"
         },
         "showUnchargedItems": {
-          "hint": "Mostra oggetti che non hanno cariche rimanenti.",
-          "name": "Oggetti scarichi"
+          "hint": "Mostra oggetti senza cariche rimanenti",
+          "name": "Mostra Oggetti Scarichi"
         },
         "showUnequippedItems": {
-          "hint": "Mostra oggetti non equipaggiati.",
-          "name": "Oggetti non equipaggiati"
+          "hint": "Mostra Oggetti non Equipaggiati",
+          "name": "Mostra Oggetti non Equipaggiati"
         },
         "showUnequippedItemsNpcs": {
-          "hint": "Mostra oggetti non equipaggiati dei PNG.",
-          "name": "Oggetti PNG non equipaggiati"
+          "hint": "Mostra Oggetti non Equipaggiati per PNG",
+          "name": "Mostra Oggetti non Equipaggiati per PNG"
         },
         "showUnpreparedSpells": {
-          "hint": "Incantesimi non preparati",
-          "name": "Mostra incantesimi non preparati"
+          "hint": "Mostra Incantesimi non Preparati",
+          "name": "Mostra Incantesimi non Preparati"
         }
-      }
+      },
+      "skill": "Abilità",
+      "skills": "Abilità",
+      "superiorHuntersDefense": "Difesa Superiore del Cacciatore",
+      "uncommon": "Non Comune",
+      "unequip": "Disequipaggia",
+      "veryRare": "Molto Raro",
+      "viewItem": "Visualizza Oggetto"
     }
   }
 }
