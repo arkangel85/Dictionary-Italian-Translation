@@ -1067,6 +1067,18 @@
       "path": "i18n/modules/poi-teleport.json",
       "module": "poi-teleport",
       "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/pf2e.json",
+      "system": "pf2e",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/sf2e.json",
+      "system": "sf2e",
+      "name": "Italiano"
     }
   ],
   "media": [

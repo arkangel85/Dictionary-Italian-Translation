@@ -13,5 +13,53 @@
   "SharedVision.ActorConf.Global.Label": "Visione condivisa globale",
   "SharedVision.ActorConf.Hidden.Note": "Visione condivisa per attori nascosti/invisibili.",
   "SharedVision.ActorConf.Hidden.Label": "Vedere nascosti",
-  "SharedVision.ActorConf.User.Note": "Configura la visione condivisa dell'attore con altri giocatori, indipendentemente dal fatto che l'opzione 'Abilita visione condivisa' sia attiva o meno."
+  "SharedVision.ActorConf.User.Note": "Configura la visione condivisa dell'attore con altri giocatori, indipendentemente dal fatto che l'opzione 'Abilita visione condivisa' sia attiva o meno.",
+  "SharedVision": {
+    "CtrlBtn": {
+      "DisableAll": "Disabilita Tutta la Condivisione Visione"
+    },
+    "VisionConf": {
+      "Title": "Configurazione Visione",
+      "Global": {
+        "Note": "Configura se questo attore deve condividere la sua visione con tutti gli utenti quando il pulsante 'Abilita Visione Condivisa' è attivo.",
+        "Label": "Visione Condivisa Globale"
+      },
+      "Hidden": {
+        "Note": "Condividi la visione se il token è nascosto/invisibile.",
+        "Label": "Condividi se Nascosto"
+      },
+      "User": {
+        "Label": "Impostazioni Utente",
+        "Note": "Configura se questo attore deve sempre condividere la sua visione, posizione o rivelazione della nebbia di guerra con utenti specifici. 'Token' e 'Nebbia' vengono abilitati automaticamente quando 'Visione' è abilitato"
+      },
+      "Save": "Salva",
+      "UserName": "Utente",
+      "Token": "Token",
+      "Vision": "Visione",
+      "Fog": "Nebbia"
+    },
+    "Conf": {
+      "Title": "Configurazione",
+      "Note": "Configura se i token con proprietà o disposizione specifiche devono condividere la loro visione, posizione o rivelazione della nebbia di guerra con utenti specifici. 'Token' e 'Nebbia' vengono abilitati automaticamente quando 'Visione' è abilitato",
+      "PermDisp": {
+        "Label": "Proprietà e Disposizione"
+      },
+      "Permission": {
+        "Label": "Proprietà"
+      },
+      "Disposition": {
+        "Label": "Disposizione"
+      },
+      "Combat": {
+        "Label": "Combattimento",
+        "Note": "Configura come deve essere impostata la Visione Condivisa quando il combattimento inizia e finisce. Queste impostazioni possono sempre essere sovrascritte dai pulsanti di controllo"
+      },
+      "CombatStart": {
+        "Label": "Inizio"
+      },
+      "CombatEnd": {
+        "Label": "Fine"
+      }
+    }
+  }
 }

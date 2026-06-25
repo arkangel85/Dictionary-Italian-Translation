@@ -112,5 +112,42 @@
   "DD.WallTextureRotation": "Rotazione texture muro",
   "DD.WallTextureTint": "Tinta texture muro",
   "DD.WallThickness": "Spessore muro",
-  "DD.Width": "Larghezza"
+  "DD.Width": "Larghezza",
+  "DD": {
+    "ButtonTitleClearDrawing": "Cancella Disegno (mantieni i muri)",
+    "ButtonTitleGridPainter": "Pittura Griglia",
+    "ButtonTitleSaveToTile": "Salva su Tile",
+    "ButtonTitleStairs": "Scale",
+    "ButtonTitleWindow": "Finestra",
+    "FloorTextureScaling": "Scalatura Texture Pavimento",
+    "InvisibleWallTextureScaling": "Scalatura Texture Muro Invisibile",
+    "SettingTaggerEnabled": "Abilita integrazione Tagger",
+    "SettingTaggerEnabledHint": "Richiede il modulo Tagger. Se abilitato, tutti i muri creati da Dungeon Draw saranno etichettati.",
+    "SettingTaggerTag": "Tag base Tagger",
+    "SettingTaggerTagHint": "Tag base applicato a tutti i muri di Dungeon Draw. Ogni tipo di muro riceve anche un tag di sottotipo, es. 'mytag-door', 'mytag-window', 'mytag-wall', 'mytag-interior-wall', 'mytag-invisible-wall', 'mytag-secret-door'.",
+    "StairsColor": "Colore Scale",
+    "WallTextureScaling": "Scalatura Texture Muro",
+    "KeybindingRectangle": "Strumento: Rettangolo",
+    "KeybindingPolygon": "Strumento: Poligono",
+    "KeybindingEllipse": "Strumento: Ellisse",
+    "KeybindingFreehand": "Strumento: Mano Libera",
+    "KeybindingGridPainter": "Strumento: Pittore Griglia",
+    "KeybindingInteriorWall": "Strumento: Muro Interno",
+    "KeybindingDoor": "Strumento: Porta",
+    "KeybindingSecretDoor": "Strumento: Porta Segreta",
+    "KeybindingInvisibleWall": "Strumento: Muro Invisibile",
+    "KeybindingStairs": "Strumento: Scale",
+    "KeybindingWindow": "Strumento: Finestra",
+    "KeybindingThemePainter": "Strumento: Pittore Tema",
+    "KeybindingAddMode": "Modalità: Aggiungi",
+    "KeybindingRemoveMode": "Modalità: Rimuovi",
+    "DrawMode": {
+      "Line": "Linea",
+      "Square": "Quadrato",
+      "Ellipse": "Ellisse",
+      "Polygon": "Poligono",
+      "Grid": "Griglia"
+    },
+    "RightClickForOptions": "(clic destro per le opzioni)"
+  }
 }

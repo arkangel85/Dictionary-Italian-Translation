@@ -5,6 +5,10 @@
     "console": {
       "log": {
         "ready": "🦋 Monarca | Pronto."
+      },
+      "error": {
+        "noControlClass": "🦋 Monarch | Errore: 'class' mancante sul controllo.",
+        "noLabelTooltip": "🦋 Monarch | Errore: fornisci un 'tooltip' o 'label' per il controllo '{class}'."
       }
     },
     "sheetTitle": {
@@ -15,13 +19,114 @@
     },
     "label": {
       "faces": "Facce",
-      "back": "Retro"
+      "back": "Retro",
+      "magnify": "Mostra immagine della carta. Tieni premuto Shift per mostrarla ai giocatori.",
+      "discard": "Scarta",
+      "flipCard": "Gira carta",
+      "showCard": "Mostra carta ai giocatori",
+      "consoleLog": "Registra 'Card' nella console",
+      "clearColorMarkers": "Cancella indicatori colorati"
     },
     "settings": {
       "cardHeight": {
         "name": "Altezza carta",
         "hint": "Altezza in pixel per visualizzare la mano/mazzo/pila sulla scena."
+      },
+      "label": "Configura Monarch",
+      "title": "🦋 Impostazioni Monarch",
+      "enableSheets": {
+        "name": "Abilita Schede 🦋 Monarch",
+        "hint": "Abilita Monarch come scheda predefinita per le carte.",
+        "enableAll": "Abilita Tutto",
+        "all": "tutte le carte",
+        "hand": "Mano",
+        "deck": "Mazzo",
+        "pile": "Pila",
+        "card": "Carta",
+        "notification": "Imposta 🦋 Monarch come predefinito per le schede {sheet}."
+      },
+      "world": {
+        "name": "Impostazioni Mondo",
+        "hint": "Queste impostazioni si applicano a tutti i giocatori."
+      },
+      "client": {
+        "name": "Impostazioni Client",
+        "hint": "Queste impostazioni si applicano solo a te. Ogni giocatore può configurarle autonomamente."
+      },
+      "showSuit": {
+        "name": "Seme"
+      },
+      "showValue": {
+        "name": "Valore"
+      },
+      "showType": {
+        "name": "Tipo"
+      },
+      "handReset": {
+        "name": "Reimposta sulla Mano",
+        "hint": "Se mostrare o meno un pulsante di reimpostazione sulla mano per rimandare tutte le carte al loro mazzo."
+      },
+      "showCard": {
+        "name": "Mostra Carta ai Giocatori",
+        "hint": "Se includere o meno un pulsante 'Mostra carta ai giocatori' sulle carte."
+      },
+      "discardPile": {
+        "name": "Pila degli scarti",
+        "hint": "La pila di Carte usata per scartare le carte. Lascia vuoto per disabilitare."
+      },
+      "transparentHand": {
+        "name": "Mano"
+      },
+      "transparentDeck": {
+        "name": "Mazzo"
+      },
+      "transparentPile": {
+        "name": "Pila"
+      },
+      "fadeHand": {
+        "name": "Mano"
+      },
+      "fadeDeck": {
+        "name": "Mazzo"
+      },
+      "fadePile": {
+        "name": "Pila"
+      },
+      "groups": {
+        "badges": {
+          "name": "Mostra Badge di Base",
+          "hint": "Se mostrare o meno i badge per le proprietà di base delle carte."
+        },
+        "transparent": {
+          "name": "Applicazioni Trasparenti",
+          "hint": "Abilita o disabilita la trasparenza per ogni tipo di applicazione."
+        },
+        "fade": {
+          "name": "Applicazioni in Dissolvenza",
+          "hint": "Abilita o disabilita la dissolvenza per ogni tipo di applicazione."
+        }
       }
+    },
+    "aria": {
+      "playCard": "{name}, Gioca"
+    },
+    "markers": {
+      "red": "Indicatore Rosso",
+      "green": "Indicatore Verde",
+      "blue": "Indicatore Blu",
+      "yellow": "Indicatore Giallo",
+      "purple": "Indicatore Viola",
+      "black": "Indicatore Nero",
+      "white": "Indicatore Bianco"
+    },
+    "markerToggles": {
+      "red": "Attiva/disattiva indicatore rosso",
+      "green": "Attiva/disattiva indicatore verde",
+      "blue": "Attiva/disattiva indicatore blu",
+      "yellow": "Attiva/disattiva indicatore giallo",
+      "purple": "Attiva/disattiva indicatore viola",
+      "black": "Attiva/disattiva indicatore nero",
+      "white": "Attiva/disattiva indicatore bianco"
     }
   }
 }

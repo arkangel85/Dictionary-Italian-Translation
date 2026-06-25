@@ -1,7 +1,6 @@
 {
   "MonksCombatDetails.Turn": "È il tuo turno, cosa vuoi fare?",
   "MonksCombatDetails.Next": "Preparati, sei il prossimo a giocare",
-
   "MonksCombatDetails.shownextup.name": "Notifica 'Sei il prossimo'",
   "MonksCombatDetails.shownextup.hint": "Mostra ai giocatori una notifica che il loro turno è il prossimo.",
   "MonksCombatDetails.next-sound.name": "Suono per turno successivo",
@@ -72,7 +71,6 @@
   "MonksCombatDetails.nextup-message.name": "Messaggio 'Sei il prossimo'",
   "MonksCombatDetails.popout-when.name": "Stacca finestra quando",
   "MonksCombatDetails.popout-when.hint": "Scegli quando separare la finestra del tracker (all’inizio o alla creazione del combattimento).",
-
   "MonksCombatDetails.Round": "Round",
   "MonksCombatDetails.RoundEnd": "Fine del round",
   "MonksCombatDetails.RoundStart": "Inizio del round",
@@ -91,42 +89,97 @@
   "MonksCombatDetails.PlayRoundSound": "Riproduci suono di round",
   "MonksCombatDetails.PlayRoundSoundHint": "Riproduce un suono all’inizio di ogni round",
   "MonksCombatDetails.AddPlaceholder": "Aggiungi partecipante temporaneo",
-
   "MonksCombatDetails.PreventTokenMessage": "Durante il combattimento non puoi rimuovere il token se non dal tracker.",
-
   "MonksCombatDetails.CombatPreparation": "Preparazione al combattimento",
   "MonksCombatDetails.CombatDetails": "Dettagli combattimento",
   "MonksCombatDetails.CombatTracker": "Automazione tracker combattimento",
   "MonksCombatDetails.CombatBars": "Barre risorse di combattimento",
   "MonksCombatDetails.CombatTurn": "Notifiche di turno",
-
   "MonksCombatDetails.CombatDisplayBars": "Risorse in combattimento:",
-
   "MonksCombatDetails.unknown": "-",
   "MonksCombatDetails.easy": "Facile",
   "MonksCombatDetails.average": "Medio",
   "MonksCombatDetails.challenging": "Impegnativo",
   "MonksCombatDetails.hard": "Difficile",
   "MonksCombatDetails.epic": "Epico",
-
   "MonksCombatDetails.trivial": "Banale",
   "MonksCombatDetails.low": "Basso",
   "MonksCombatDetails.moderate": "Moderato",
   "MonksCombatDetails.severe": "Grave",
   "MonksCombatDetails.extreme": "Estremo",
-
   "MonksCombatDetails.combatopen.none": "Non aprire la finestra di combattimento",
   "MonksCombatDetails.combatopen.everyone": "Per tutti",
   "MonksCombatDetails.combatopen.gm": "Solo per GM",
   "MonksCombatDetails.combatopen.players": "Solo per giocatori",
-
   "MonksCombatDetails.autodefeated.none": "Nessuno",
   "MonksCombatDetails.autodefeated.npc-zero": "PNG con 0 PF",
   "MonksCombatDetails.autodefeated.npc-negative": "PNG con PF negativi",
   "MonksCombatDetails.autodefeated.all-zero": "Tutti con 0 PF",
   "MonksCombatDetails.autodefeated.all-negative": "Tutti con PF negativi",
-
   "MonksCombatDetails.spelloptions.prevent": "Impedisci modifiche",
   "MonksCombatDetails.spelloptions.true": "Mostra in chat",
-  "MonksCombatDetails.spelloptions.false": "Ignora"
+  "MonksCombatDetails.spelloptions.false": "Ignora",
+  "MonksCombatDetails": {
+    "switch-chat-tab": {
+      "name": "Passa alla Scheda Chat",
+      "hint": "Quando inizia un combattimento, passa automaticamente alla scheda chat"
+    },
+    "large-print-size": {
+      "name": "Dimensione Carattere Grande",
+      "hint": "Imposta la dimensione del carattere per la notifica grande del turno"
+    },
+    "reroll-initiative": {
+      "name": "Ritira Iniziativa",
+      "hint": "Ritira l'iniziativa ogni round"
+    },
+    "remember-position": {
+      "name": "Ricorda Posizione",
+      "hint": "Ricorda la posizione del tracker combattimento tra un combattimento e l'altro"
+    },
+    "combat-alert": {
+      "name": "Avviso Combattimento",
+      "hint": "Mostra un'icona di avviso quando viene creato un combattimento"
+    },
+    "show-combatant-sheet": {
+      "name": "Mostra Scheda Combattente",
+      "hint": "Mostra la scheda del combattente nel suo turno"
+    },
+    "order-initiative": {
+      "name": "Ordina Iniziativa",
+      "hint": "Ordina l'elenco dell'iniziativa così che il personaggio del giocatore senza tiro sia in cima per lui"
+    },
+    "show-combat-playlist": {
+      "name": "Mostra Playlist Combattimento",
+      "hint": "Mostra un menu a tendina per la playlist del combattimento durante la preparazione del combattimento"
+    },
+    "placeholder-initiative": {
+      "name": "Iniziativa Segnaposto",
+      "hint": "Formula di Tiro da usare per determinare l'iniziativa segnaposto"
+    },
+    "placeholder-image": {
+      "name": "Immagine Segnaposto",
+      "hint": "Immagine da usare per il token segnaposto predefinito"
+    },
+    "show-combat-cr-in-combat": {
+      "name": "Mostra GS in Combattimento",
+      "hint": "Mostra il GS dell'incontro nel tracker combattimento durante il combattimento"
+    },
+    "RemoveAfter": "Rimuovi Dopo (round)",
+    "RemovePlaceholderCombatant": "Rimuovi Combattente Segnaposto",
+    "RerollInitiative": "Ritira Iniziativa",
+    "CombatPlaylist": "Playlist Combattimento",
+    "CombatPlaylistHint": "Seleziona una playlist da riprodurre all'inizio del combattimento. Le tracce attualmente in riproduzione verranno messe in pausa durante il combattimento e riprenderanno al termine",
+    "ShowCombatCR": "Mostra GS dell'Incontro",
+    "ShowCombatCRHint": "Mostra il GS stimato dell'incontro nel tracker combattimento",
+    "PlaceholderCombatantName": "Segnaposto",
+    "placeholderoptions": {
+      "sidebar": "Barra Laterale",
+      "popout": "Finestra",
+      "both": "Entrambi",
+      "none": "Nessuno"
+    },
+    "spelloptions": {
+      "both": "Impedisci il Cambio e Mostra Messaggio in Chat"
+    }
+  }
 }

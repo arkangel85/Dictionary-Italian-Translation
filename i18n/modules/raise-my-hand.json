@@ -3,7 +3,6 @@
     "UINOTIFICATION": " alza la mano",
     "CHATMESSAGE": "alza la mano!",
     "kandashisfluidcanvas": "È necessario il modulo Fluid Canvas!",
-
     "settings": {
       "handtooglebehavior": {
         "name": "Funzionamento con modalità toggle",
@@ -71,7 +70,8 @@
       },
       "xcard": {
         "name": "Carte X",
-        "hint": "Attiva il supporto per carte X. Attenzione: il mondo verrà riavviato."
+        "hint": "Attiva il supporto per carte X. Attenzione: il mondo verrà riavviato.",
+        "label": "Configura X-Card"
       },
       "xcardgmonly": {
         "name": "Mostra carta X solo al GM",
@@ -84,6 +84,198 @@
       "xcardsoundvolume": {
         "name": "Volume suono carta X",
         "hint": "Imposta il volume del suono carta X. Usa 0.1 per 10%, 0.6 per 60%, ecc."
+      },
+      "handSettings": {
+        "name": "Impostazioni Mano",
+        "label": "Configura Mano",
+        "hint": "Configura la modalità di commutazione dell'alzata di mano, le modalità di notifica abilitate e le relative sotto-impostazioni."
+      },
+      "notificationTimeout": {
+        "name": "Timeout Notifica",
+        "hint": "Tempo minimo (secondi) tra un uso e l'altro di Alza la Mano o X-Card per giocatore."
+      },
+      "FIELDS": {
+        "choices": {
+          "disabled": "Disabilitato",
+          "all": "Tutti gli Utenti",
+          "gm": "Solo GM"
+        }
+      },
+      "HAND": {
+        "FIELDS": {
+          "general": {
+            "label": "Impostazioni Generali",
+            "isToggle": {
+              "label": "Modalità Commutazione",
+              "hint": "Fa commutare l'alzata di mano tra gli stati alzato e abbassato. Un giocatore che abbassa la mano rimuoverà l'icona della mano dall'elenco e chiuderà il popout che aveva aperto."
+            },
+            "notificationModes": {
+              "label": "Modalità di Notifica",
+              "hint": "Imposta le modalità di notifica.",
+              "choices": {
+                "playerList": "Icona Elenco Giocatori",
+                "aural": "Notifica Sonora",
+                "popout": "Notifica Popout",
+                "ui": "Notifica UI",
+                "chat": "Notifica in Chat"
+              }
+            }
+          },
+          "playerList": {
+            "label": "Icona Elenco Giocatori",
+            "scope": {
+              "label": "Mostra per",
+              "hint": "Imposta chi vedrà l'icona della mano nell'elenco dei giocatori."
+            },
+            "holdTime": {
+              "label": "Tempo di Permanenza",
+              "hint": "Modalità non commutazione: per quanto tempo l'icona rimane dopo il completamento dell'animazione."
+            }
+          },
+          "aural": {
+            "label": "Notifica Sonora",
+            "scope": {
+              "label": "Riproduci per",
+              "hint": "Imposta chi sentirà il suono."
+            },
+            "source": {
+              "label": "Suono di Notifica",
+              "hint": "Scegli un suono da riprodurre.",
+              "choices": {
+                "default": "Carillon Predefinito",
+                "custom": "Suono Personalizzato"
+              }
+            },
+            "overridePath": {
+              "label": "Percorso Suono",
+              "hint": "Imposta un percorso a un suono che preferisci."
+            },
+            "soundVolume": {
+              "label": "Volume",
+              "hint": "Imposta il volume da 1 a 100%."
+            }
+          },
+          "popout": {
+            "label": "Notifica Popout",
+            "scope": {
+              "label": "Mostra per",
+              "hint": "Imposta chi vedrà la notifica popout."
+            },
+            "source": {
+              "label": "Immagine Popout",
+              "hint": "Scegli quale immagine mostrare nella notifica popout.",
+              "choices": {
+                "default": "Immagine Mano Predefinita",
+                "avatar": "Avatar del Giocatore",
+                "custom": "Immagine Personalizzata"
+              }
+            },
+            "overridePath": {
+              "label": "Percorso Immagine",
+              "hint": "Imposta un percorso all'immagine mostrata nel popout."
+            }
+          },
+          "ui": {
+            "label": "Notifica UI",
+            "scope": {
+              "label": "Invia a",
+              "hint": "Imposta chi vedrà la notifica UI."
+            },
+            "permanent": {
+              "label": "Permanente",
+              "hint": "La notifica rimarrà finché non viene chiusa manualmente."
+            }
+          },
+          "chat": {
+            "label": "Notifica in Chat",
+            "scope": {
+              "label": "Invia a",
+              "hint": "Imposta chi vedrà il messaggio in chat."
+            },
+            "source": {
+              "label": "Immagine Chat",
+              "hint": "Scegli quale immagine mostrare nel messaggio in chat.",
+              "choices": {
+                "disabled": "Nessuna",
+                "default": "Immagine Mano Predefinita",
+                "avatar": "Avatar del Giocatore",
+                "custom": "Immagine Personalizzata"
+              }
+            },
+            "overridePath": {
+              "label": "Percorso Immagine",
+              "hint": "Puoi impostare un percorso all'immagine mostrata nella chat."
+            },
+            "widthPercentage": {
+              "label": "Larghezza Immagine",
+              "hint": "Imposta la larghezza dell'immagine da 1 a 100%."
+            }
+          }
+        }
+      },
+      "XCARD": {
+        "FIELDS": {
+          "isEnabled": {
+            "label": "Abilita X-Card"
+          },
+          "scope": {
+            "label": "Invia a",
+            "hint": "Imposta chi riceverà le notifiche X-Card."
+          },
+          "anonymousWarning": {
+            "label": "Avvisi Anonimi",
+            "hint": "Se abilitato, la X-Card non mostrerà chi l'ha attivata."
+          },
+          "source": {
+            "label": "Suono di Notifica",
+            "hint": "Scegli un suono da riprodurre.",
+            "choices": {
+              "none": "Disabilitato",
+              "default": "Allarme Predefinito",
+              "custom": "Suono Personalizzato"
+            }
+          },
+          "overridePath": {
+            "label": "Percorso Suono",
+            "hint": "Imposta un percorso a un suono che preferisci."
+          },
+          "soundVolume": {
+            "label": "Volume",
+            "hint": "Imposta il volume da 1 a 100%."
+          }
+        }
+      }
+    },
+    "EMPTY-STRING": "",
+    "context": {
+      "lowerHand": "Abbassa la Mano"
+    },
+    "ui": {
+      "xcard": {
+        "title": "Stop!"
+      }
+    },
+    "controls": {
+      "keybinding": {
+        "or": "o"
+      },
+      "raise-hand": {
+        "name": "Alza la Mano",
+        "hint": "Stesso effetto del clic sul pulsante Alza la Mano.",
+        "toolclip": {
+          "heading": "Attiva o Alza la Mano"
+        },
+        "toggle": {
+          "true": "Abbassa la Mano",
+          "false": "Alza la Mano"
+        }
+      },
+      "show-xcard": {
+        "name": "Mostra X-Card",
+        "hint": "Questo mostrerà la X-Card.",
+        "toolclip": {
+          "heading": "Mostra X-Card"
+        }
       }
     }
   }

@@ -361,7 +361,6 @@
   "T2K4E.Dialog.Damage.BarrierArmorsHint": "Più barriere vanno separate da virgole.",
   "T2K4E.Macro.MultipleItems": "Il personaggio controllato {actor} ha più oggetti con il nome {item}. Verrà usato il primo oggetto trovato.",
   "T2K4E.Macro.NoItem": "Il personaggio controllato {actor} non possiede un oggetto chiamato {item}.",
-
   "FLPS.TAB.MAIN": "Squadra",
   "FLPS.TAB.TRAVEL": "Azioni di Viaggio",
   "FLPS.TAB.NOTE": "Note",
@@ -400,10 +399,8 @@
   "FLPS.TRAVEL_ROLL.MAKE_CAMP": "Allestire il Campo",
   "FLPS.TRAVEL_ROLL.HIDE_CAMP": "Nascondere il Campo",
   "FLPS.TRAVEL_ROLL.COOK_FOOD": "Cucinare",
-
   "FLPS.SETTINGS.ALLOW_PUSH": "Permetti Forzature Illimitate",
   "FLPS.SETTINGS.ALLOW_PUSH_HINT": "Se il tuo GM permette un numero illimitato di tiri forzati. O forse sei un GM che desidera forzare i tiri di questo incontro: attiva questa opzione per mostrare il pulsante di forzatura su quasi tutti i tiri.",
-
   "SETTINGS.trackPcAmmo.name": "Traccia le Munizioni dei PG",
   "SETTINGS.trackPcAmmo.label": "Se il consumo di munizioni deve essere tracciato per i personaggi giocanti.",
   "SETTINGS.trackNpcAmmo.name": "Traccia le Munizioni degli NPC",
@@ -420,7 +417,6 @@
   "SETTINGS.hideCapacitiesButtons.label": "Se nascondere ai giocatori i pulsanti più/meno per modificare Salute e Stress nelle schede personaggio.",
   "SETTINGS.hideWeaponProps.name": "Nascondi Proprietà Arma",
   "SETTINGS.hideWeaponProps.label": "Se nascondere ai giocatori le caselle di proprietà delle armi nella scheda oggetto.",
-
   "YZUR.CHAT.ROLL.Push": "Forza",
   "YZUR.CHAT.ROLL.HitLocation": "Zona Colpita:",
   "YZUR.CHAT.ROLL.HitLocations": "Zone Colpite:",
@@ -443,7 +439,6 @@
   "YZUR.DIETYPES.D12TwilightDie": "Base D12",
   "YZUR.DIETYPES.AmmoDie": "Munizione",
   "YZUR.DIETYPES.LocationDie": "Dado Zona",
-
   "GAME.Paused": "Guerra in Pausa",
   "ACTOR.TypeCharacter": "Personaggio Giocante",
   "ACTOR.TypeNpc": "Personaggio Non Giocante",
@@ -465,5 +460,61 @@
   "EFFECT.StatusSmoke": "Fumo",
   "EFFECT.StatusFire": "Fuoco",
   "EFFECT.StatusSlowAction": "Azione Lenta Usata",
-  "EFFECT.StatusFastAction": "Azione Veloce Usata"
+  "EFFECT.StatusFastAction": "Azione Veloce Usata",
+  "T2K4E": {
+    "MACRO": {
+      "GetActorTitle": "Scegli un Attore",
+      "GetActorHint": "Hai selezionato più token. Scegline uno.",
+      "MultipleItems": "Il tuo Attore controllato {actor} ha più di un Oggetto con nome {item}. Verrà scelto il primo oggetto corrispondente.",
+      "NoActor": "Il tuo Attore controllato {actor} non è stato trovato.",
+      "NoItem": "Il tuo Attore controllato {actor} non ha un oggetto chiamato {item}.",
+      "RollAction": "Azione {action}",
+      "RollStat": "Tira {stat}"
+    },
+    "ActorSheet": {
+      "ToChat": "Invia oggetto in chat",
+      "Age": "Età"
+    },
+    "Dialog": {
+      "ChooseValue": {
+        "Value": "Modificatore",
+        "Armor": "Modifica Armatura per {name}",
+        "Ammo": "Modifica Quantità Munizioni per {name}",
+        "Qty": "Modifica Quantità per {name}"
+      }
+    }
+  },
+  "YZUR": {
+    "DIETERMS": {
+      "D6TwilightDie": "D6 Base",
+      "D8TwilightDie": "D8 Base",
+      "D10TwilightDie": "D10 Base",
+      "D12TwilightDie": "D12 Base",
+      "AmmoDie": "Munizioni",
+      "LocationDie": "Dado Colpo"
+    },
+    "CHAT": {
+      "ROLL": {
+        "Accept": "Accetta"
+      }
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Personaggio Giocante",
+      "npc": "Personaggio Non Giocante",
+      "vehicle": "Veicolo",
+      "unit": "Unità Militare",
+      "party": "Gruppo di Viaggio"
+    },
+    "Item": {
+      "weapon": "Arma",
+      "armor": "Armatura Corporea",
+      "ammunition": "Munizioni",
+      "grenade": "Esplosivo",
+      "gear": "Equipaggiamento",
+      "injury": "Ferita Critica",
+      "specialty": "Specializzazione"
+    }
+  }
 }

@@ -54,7 +54,8 @@
         "ignoreColor": {
           "name": "Ignora colore",
           "hint": "Ignora i colori di questa tabella e usa quelli della prossima tabella valida per il token. Utile per stati con priorità maggiore ma stesso colore."
-        }
+        },
+        "newTable": "Nuova Tabella"
       },
       "keybinds": {
         "markDead": {
@@ -145,7 +146,13 @@
       },
       "breakOnZeroMaxHP": {
         "name": "Nascondi stime per token con 0 PF max",
-        "hint": "Utile per oggetti o entità con PF nulli."
+        "hint": "Utile per oggetti o entità con PF nulli.",
+        "options": {
+          "none": "Non nascondere le stime",
+          "zero": "con 0 PF Massimi",
+          "one": "con 1 PF Massimo",
+          "zeroOrOne": "con 0 o 1 PF Massimo"
+        }
       },
       "menuSettings": {
         "behaviorSettings": {
@@ -198,6 +205,24 @@
         "scaleToZoom": {
           "name": "Scala con lo zoom",
           "hint": "Scala la stima in base allo zoom. Può ridurre le prestazioni se usato insieme a {setting3}."
+        },
+        "scaleToGridSize": {
+          "name": "Scala le Stime alla Dimensione della Griglia",
+          "hint": "Scala la stima in base alla dimensione della griglia, assumendo 100px come riferimento."
+        },
+        "scaleToTokenSize": {
+          "name": "Scala alla Dimensione del Token",
+          "hint": "Scala le stime in base alla larghezza del token."
+        }
+      },
+      "sample": "Esempio",
+      "tooltipPosition": {
+        "name": "Posizione Tooltip Altitudine",
+        "hint": "Sposta il tooltip dell'altitudine per evitare conflitti con la Stima quando viene mostrata in cima al token.",
+        "options": {
+          "left": "Sinistra",
+          "default": "Predefinita (nessun cambiamento)",
+          "right": "Destra"
         }
       }
     },
@@ -294,6 +319,28 @@
       "showIncap": {
         "name": "Effetto stato {incap}",
         "hint": "I token con lo stato {incap} verranno mostrati come {incap} invece della stima attuale. Non funziona per token veicolo o morti."
+      }
+    },
+    "notifications": {
+      "terms": {
+        "shown": {
+          "singular": "mostrata",
+          "plural": "mostrate"
+        },
+        "hidden": {
+          "singular": "nascosta",
+          "plural": "nascoste"
+        }
+      },
+      "toggleEstimate": "La stima della salute di {tokenName} è {term} ai giocatori.",
+      "toggleName": "Il nome di {tokenName} è {term} ai giocatori.",
+      "toggleEstimateName": "La stima della salute e il nome di {tokenName} sono {term} ai giocatori.",
+      "invalidFontSize": "L'impostazione di stile Dimensione Carattere è stata reimpostata. Controlla le Impostazioni di Stile per modificarla. Valore precedente: {fontSize}"
+    },
+    "draw-steel": {
+      "hideObjectHP": {
+        "name": "Nascondi la Stima degli Oggetti",
+        "hint": "Nasconde la stima dagli Oggetti."
       }
     }
   }

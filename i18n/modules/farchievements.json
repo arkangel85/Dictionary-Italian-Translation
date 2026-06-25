@@ -175,5 +175,53 @@
     "Body2": " nuovi</b> traguardi. Vuoi saltare l’animazione o vederli tutti?</p>",
     "ButtonSeeAll": "Guarda l’animazione",
     "ButtonSkip": "Salta"
+  },
+  "Farchievements": {
+    "Settings": {
+      "EnableAchievementPopup": {
+        "Text": "Abilita Popup Obiettivi",
+        "Hint": "Se abilitato, i giocatori riceveranno un popup quando sbloccano un obiettivo."
+      },
+      "DisableAchievementBanner": {
+        "Text": "Disabilita Banner Obiettivi",
+        "Hint": "Se abilitato, l'animazione del banner degli obiettivi sarà disabilitata."
+      },
+      "EnableSidebarButton": {
+        "Text": "Abilita Pulsante Barra Laterale Destra",
+        "Hint": "Mostra il pulsante Farchievements nella barra laterale destra."
+      },
+      "ChatMessage": {
+        "Text": "Messaggio in Chat",
+        "Hint": "Invia un messaggio in chat per ogni obiettivo ottenuto da un utente."
+      },
+      "showAchOnStartup": {
+        "Text": "Disabilita la visualizzazione degli obiettivi all'avvio",
+        "Hint": "Gli obiettivi non verranno più mostrati quando l'utente accede al mondo."
+      }
+    },
+    "Html": {
+      "Secret": "Segreto",
+      "AmountNeeded": "Quantità Necessaria",
+      "ValuetoRoll": "Valore da Tirare",
+      "ProgressType": "Tipo di Progresso",
+      "DiceType": "Tipo di Dado",
+      "ChainLength": "Lunghezza Catena",
+      "BannerStyle": "Banner",
+      "BannerDefault": "Predefinito (impostazione globale)",
+      "CardStyle": "Tipo di Carta",
+      "CardStyleDefault": "Standard",
+      "ImportExport": {
+        "DataLabel": "JSON Obiettivo",
+        "Download": "Scarica JSON",
+        "ExportTitle": "Esporta",
+        "Format": "Formato",
+        "Import": "Importa / Sovrascrivi",
+        "ImportPlaceholder": "Incolla qui il JSON dell'obiettivo",
+        "ImportTitle": "Importa",
+        "LoadFile": "Carica File",
+        "NoImportData": "Nessun dato da importare",
+        "PreviewEmpty": "L'anteprima di importazione apparirà qui."
+      }
+    }
   }
 }

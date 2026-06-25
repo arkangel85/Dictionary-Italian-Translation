@@ -28,6 +28,67 @@
       "warnWhenOFF": {
         "name": "Avviso alla disattivazione",
         "hint": "Mostra un avviso aggiuntivo quando si passa su DISATTIVO. Richiede l’opzione \"Notifiche nell’interfaccia\" attiva."
+      },
+      "showHUDIcon": {
+        "name": "Mostra icona di stato nell'HUD",
+        "hint": "Mostra un'icona sullo schermo (in alto a destra, predefinito: ON) ogni volta che il GM controlla lo schermo.\n Puoi farla spegnere automaticamente dopo un timeout impostando il cursore qui sotto."
+      },
+      "hudIconScale": {
+        "name": "Dimensione Icona HUD",
+        "hint": "Scala dell'icona di stato HUD. Può anche essere regolata da scorciatoie personalizzate nelle impostazioni globali dei controlli."
+      },
+      "hudIconScaleOptions": {
+        "small": "piccola",
+        "normal": "normale",
+        "large": "grande"
+      },
+      "hudIconOpacity": {
+        "name": "Opacità dell'icona di stato HUD",
+        "hint": "1 (massimo) significa completamente visibile, 0.2 (minimo) significa visibile al 20% (trasparente all'80%). Predefinito: 0.7 (70%)"
+      },
+      "keybindingNames": {
+        "toggle": "Hot Pan & Zoom! (on/off)",
+        "scaleZero": "Dimensione Icona: invisibile",
+        "scaleSmall": "Dimensione Icona: piccola",
+        "scaleNormal": "Dimensione Icona: normale",
+        "scaleLarge": "Dimensione Icona: grande"
+      },
+      "afMode": {
+        "name": "Modalità",
+        "hint": "Disabilitato: modulo spento (predefinito) | Vista Gruppo: tutti i token posseduti dai giocatori | Token Selezionato: solo il token selezionato.",
+        "options": {
+          "disabled": "disabilitato",
+          "partyView": "Vista Gruppo",
+          "selectedToken": "Token Selezionato"
+        }
+      },
+      "afAutoZoom": {
+        "name": "Zoom Automatico",
+        "hint": "Regola lo zoom oltre alla posizione. Altamente consigliato."
+      },
+      "afMitigateBounce": {
+        "name": "Mitiga il Problema del Rimbalzo",
+        "hint": "Rilevante solo quando lo Zoom Automatico è disattivato e la Modalità è Vista Gruppo. Forza lo Zoom Automatico quando necessario."
+      },
+      "afPaddingSq": {
+        "name": "Margine (caselle)",
+        "hint": "Margine aggiunto all'area di visualizzazione in tutte le direzioni. Altamente consigliato impostarlo a >2; non avrà effetto se <1."
+      },
+      "afPaddingPer": {
+        "name": "Margine (%)",
+        "hint": "Aumento percentuale dell'area di visualizzazione"
+      },
+      "afMaxZoom": {
+        "name": "Livello massimo di zoom",
+        "hint": "Suggerimento: 0.1 è lontano, 3 è molto vicino."
+      },
+      "afUpdateSpeed": {
+        "name": "Velocità animazione camera",
+        "hint": "Predefinito: 500"
+      },
+      "afIncludeInvisible": {
+        "name": "Includi Invisibili",
+        "hint": "Se considerare i token che non possono essere visti dall'utente nei calcoli della vista gruppo."
       }
     },
     "chatInfoContent": {
@@ -40,6 +101,29 @@
     "onOffUIMessage": {
       "whenON": "La telecamera è ora controllata dal GM!",
       "whenOFF": "La telecamera non è più controllata."
+    },
+    "chatInfoContentHUDIcon": {
+      "title": "Nuova Funzione: Icona HUD",
+      "text1": "Una nuova icona nell'angolo in alto a destra della vista scena ora indica ogni volta che il GM controlla lo schermo.",
+      "text2": "Configura la sua dimensione nelle impostazioni del modulo, o disabilitala completamente se la trovi troppo invadente.",
+      "text3": "Funziona come l'icona HUD simile nel mio altro modulo <a href='https://github.com/coffiarts/FoundryVTT-lock-the-sheets' style='font-weight: bold; text-decoration: underline'>-&gt; Lock The Sheets!</a>. Entrambi i mod/icone sono progettati per funzionare insieme.",
+      "footer": "Questo messaggio verrà mostrato una sola volta. Riattivalo nelle impostazioni del modulo se necessario."
+    },
+    "keybindingMenuLabel": "Attiva/disattiva Hot Pan & Zoom!",
+    "keybindingMenuLabelAF": "Attiva/disattiva Auto Focus (alias 'Sempre Centrato')",
+    "autoFocus": {
+      "title": "Auto Focus (alias 'Sempre Centrato')",
+      "description": "Messa a fuoco e zoom automatici aggiuntivi sui token della scena (attivabili/disattivabili separatamente). Precedentemente noto come 'Always Centred' di SDoehren. Funziona ottimamente insieme a Hot Pan & Zoom! Integrato in questo mod con l'approvazione del suo autore. Trova il mod originale su",
+      "msg": {
+        "invalidMode": "Hai provato a impostare una modalità non valida per Auto Focus:",
+        "whenON": "Auto Focus è ABILITATO e impostato su '{mode}'.",
+        "whenOFF": "Auto Focus è DISABILITATO.",
+        "alwaysCentredWarning": {
+          "title": "Attenzione:<br/>Rilevato il Mod Originale 'Always Centred'!",
+          "text": "Hot Pan & Zoom! ha rilevato che il mod 'Always Centred' è in esecuzione nella tua partita.<br/>Questo mod è stato integrato in Hot Pan & Zoom! dalla versione 12.1.0.<br/>Si consiglia di disinstallare 'Always Centred' per evitare conflitti.<br>L'unico motivo per tenere l'originale sarebbe se i giocatori vogliono ancora usare e configurare la messa a fuoco e lo zoom automatici localmente sui propri client.",
+          "footer": "Questo messaggio verrà mostrato una sola volta!"
+        }
+      }
     }
   }
 }

@@ -9,5 +9,44 @@
       "Hint": "Saranno incluse le mani a cui i partecipanti hanno solo i diritti da osservatore. Per impostazione predefinita, solo le mani con diritti da proprietario."
     },
     "FaceDown": "Coperta"
+  },
+  "CardHandsList": {
+    "Heading": "Mani di Carte",
+    "OpenHand": "Apri Scheda della Mano",
+    "Open": "Apri {name}",
+    "OpenHandActions": "Apri Azioni della Mano",
+    "Menu": "Menu",
+    "FlipAll": "Gira Tutte",
+    "Favorite": "Imposta come Preferita",
+    "Unfavorite": "Rimuovi dai Preferiti",
+    "Pin": "Fissa",
+    "Unpin": "Sblocca",
+    "Defaults": "Imposta Predefiniti",
+    "DefaultsMessage": "Imposta le opzioni predefinite di pesca e scarto delle carte per <strong>{name}</strong>",
+    "OpenCard": "Apri Scheda della Carta",
+    "Flip": "Gira",
+    "Pass": "Passa",
+    "Discard": "Scarta",
+    "DiscardAll": "Scarta Tutte",
+    "PlayAdventureCard": "Gioca Carta Avventura",
+    "ScryDeck": "Scruta Mazzo Predefinito",
+    "ReturnToDeck": "Rimetti nel Mazzo",
+    "None": "Nessuno",
+    "Favorited": "Preferita",
+    "Owner": "Proprietario",
+    "Observer": "Osservatore",
+    "DefaultDiscardPile": "Pila degli Scarti",
+    "DefaultDrawDeck": "Mazzo di Pesca",
+    "Settings": {
+      "ObserverLevel": {
+        "Name": "Includi Mani con Proprietà Osservatore",
+        "Hint": "Include le mani di cui gli utenti hanno proprietà di livello Osservatore. Il valore predefinito è solo proprietà di livello Proprietario."
+      },
+      "ExplicitOwnership": {
+        "Name": "Usa Livelli di Proprietà GM Espliciti",
+        "Hint": "Abilita questa impostazione per nascondere le Mani ai GM. Se abilitata, la visibilità delle Mani per i GM si baserà sul livello di proprietà predefinito o specifico impostato su ogni mano."
+      }
+    },
+    "FlipWarning": "Card Hands List: questa carta non è tua e non puoi girarla."
   }
 }

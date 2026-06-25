@@ -63,7 +63,8 @@
         "Spells": "Incantesimi",
         "ClassFeatures": "Tratti di Classe",
         "Equipment": "Equipaggiamento",
-        "Other": "Altro"
+        "Other": "Altro",
+        "MagicItems": "Oggetti Magici"
       },
       "AcidArrow": {
         "name": "Freccia Acida di Melf / Melf's Acid Arrow",
@@ -243,7 +244,11 @@
       },
       "DivineWord": {
         "name": "Parola Divina / Divine word",
-        "description": "Infligge effetti diversi in base ai punti ferita rimanenti"
+        "description": "Infligge effetti diversi in base ai punti ferita rimanenti",
+        "dead": "Ucciso all'istante",
+        "stunned": "Accecato, assordato e stordito per 1 ora",
+        "blinded": "Assordato e accecato per 10 minuti",
+        "deafened": "Assordato per 1 minuto"
       },
       "Dodge": {
         "name": "Schivare",
@@ -539,7 +544,9 @@
       },
       "Rage": {
         "name": "Furia",
-        "description": "Vantaggio alle prove e ai TS di Forza, bonus variabile ai danni da mischia in base al livello del Barbaro e resistenza ai danni perforanti, contundenti e taglienti per 1 minuto. Tiene conto anche del percorso del guerriero totemico."
+        "description": "Vantaggio alle prove e ai TS di Forza, bonus variabile ai danni da mischia in base al livello del Barbaro e resistenza ai danni perforanti, contundenti e taglienti per 1 minuto. Tiene conto anche del percorso del guerriero totemico.",
+        "notABarbarian": "L'attore selezionato non è un Barbaro",
+        "bearTotemFeat": "Spirito Totem: Orso"
       },
       "RangedDisadvantage": {
         "name": "Svantaggio agli attacchi a distanza in mischia",
@@ -680,7 +687,228 @@
       "Wounded": {
         "name": "Ferito",
         "description": "Nessun effetto attivo"
+      },
+      "AmuletOfHealth": {
+        "name": "Amuleto della Salute",
+        "description": "Aumenta la Costituzione a 19"
+      },
+      "BeltOfDwarvenkind": {
+        "name": "Cintura dei Nani",
+        "description": "- Aggiunge +2 alla Costituzione fino a un massimo di 20<br/>- Aggiunge resistenza al veleno<br/>- Aggiunge scurovisione<br/>- Aggiunge la lingua nanica"
+      },
+      "BeltOfGiantStrength": {
+        "name": "Cintura della Forza dei Giganti",
+        "description": "Scegli tra Cintura della Forza del Gigante delle Colline, del Gigante del Gelo, del Gigante di Pietra, del Gigante del Fuoco, del Gigante delle Nuvole o del Gigante delle Tempeste"
+      },
+      "BeltOfHillGiantStrength": {
+        "name": "Cintura della Forza del Gigante delle Colline",
+        "description": "Aumenta la Forza a 21"
+      },
+      "BeltOfFrostGiantStrength": {
+        "name": "Cintura della Forza del Gigante del Gelo",
+        "description": "Aumenta la Forza a 23"
+      },
+      "BeltOfStoneGiantStrength": {
+        "name": "Cintura della Forza del Gigante di Pietra",
+        "description": "Aumenta la Forza a 23"
+      },
+      "BeltOfFireGiantStrength": {
+        "name": "Cintura della Forza del Gigante del Fuoco",
+        "description": "Aumenta la Forza a 25"
+      },
+      "BeltOfCloudGiantStrength": {
+        "name": "Cintura della Forza del Gigante delle Nuvole",
+        "description": "Aumenta la Forza a 27"
+      },
+      "BeltOfStormGiantStrength": {
+        "name": "Cintura della Forza del Gigante delle Tempeste",
+        "description": "Aumenta la Forza a 29"
+      },
+      "BootsOfElvenkind": {
+        "name": "Stivali degli Elfi",
+        "description": "Vantaggio alle prove di Furtività"
+      },
+      "BootsOfTheWinterlands": {
+        "name": "Stivali delle Terre Invernali",
+        "description": "Aggiunge resistenza al danno da freddo"
+      },
+      "BroochOfShielding": {
+        "name": "Spilla di Protezione",
+        "description": "Aggiunge resistenza al danno da forza"
+      },
+      "BracersOfArchery": {
+        "name": "Bracciali del Tiro con l'Arco",
+        "description": "- Aggiunge +2 al danno degli attacchi a distanza<br/>- Aggiunge competenza in arco lungo e arco corto"
+      },
+      "BracersOfDefense": {
+        "name": "Bracciali della Difesa",
+        "description": "- Aggiunge +2 alla CA"
+      },
+      "CloakOfDisplacement": {
+        "name": "Mantello dello Spostamento",
+        "description": "Conferisce svantaggio a tutti coloro che attaccano"
+      },
+      "CloakOfElvenkind": {
+        "name": "Mantello degli Elfi",
+        "description": "Vantaggio alle prove di Furtività"
+      },
+      "CloakOfProtection": {
+        "name": "Mantello della Protezione",
+        "description": "Aggiunge +1 alla CA e +1 a tutti i tiri salvezza"
+      },
+      "CloakOfTheMantaRay": {
+        "name": "Mantello della Manta",
+        "description": "Aggiunge velocità di nuoto di 18 m"
+      },
+      "EyesOfTheEagle": {
+        "name": "Occhi dell'Aquila",
+        "description": "Vantaggio alle prove di Percezione"
+      },
+      "GauntletsOfOgrePower": {
+        "name": "Guanti del Potere dell'Ogre",
+        "description": "Aumenta la Forza a 19"
+      },
+      "GogglesOfNight": {
+        "name": "Occhiali della Notte",
+        "description": "Aggiunge 18 m di scurovisione"
+      },
+      "HeadbandOfIntellect": {
+        "name": "Fascia dell'Intelletto",
+        "description": "Aumenta l'Intelligenza a 19"
+      },
+      "MantleOfSpellResistance": {
+        "name": "Manto della Resistenza agli Incantesimi",
+        "description": "Aggiunge vantaggio ai tiri salvezza contro gli incantesimi"
+      },
+      "PeriaptOfHealth": {
+        "name": "Periapt della Salute",
+        "description": "Aggiunge immunità alle malattie"
+      },
+      "PeriaptOfProofAgainstPoison": {
+        "name": "Periapt di Protezione dal Veleno",
+        "description": "Aggiunge immunità al danno da veleno e alla condizione avvelenato"
+      },
+      "RingOfResistance": {
+        "name": "Anello della Resistenza",
+        "description": "Scegli tra resistenza ad acido, freddo, fuoco, forza, fulmine, necrotico, veleno, psichico, radioso o tuono"
+      },
+      "RingOfAcidResistance": {
+        "name": "Anello della Resistenza all'Acido",
+        "description": "Aggiunge resistenza all'acido"
+      },
+      "RingOfColdResistance": {
+        "name": "Anello della Resistenza al Freddo",
+        "description": "Aggiunge resistenza al freddo"
+      },
+      "RingOfFireResistance": {
+        "name": "Anello della Resistenza al Fuoco",
+        "description": "Aggiunge resistenza al fuoco"
+      },
+      "RingOfForceResistance": {
+        "name": "Anello della Resistenza alla Forza",
+        "description": "Aggiunge resistenza alla forza"
+      },
+      "RingOfLightningResistance": {
+        "name": "Anello della Resistenza al Fulmine",
+        "description": "Aggiunge resistenza al fulmine"
+      },
+      "RingOfNecroticResistance": {
+        "name": "Anello della Resistenza al Necrotico",
+        "description": "Aggiunge resistenza al necrotico"
+      },
+      "RingOfPoisonResistance": {
+        "name": "Anello della Resistenza al Veleno",
+        "description": "Aggiunge resistenza al veleno"
+      },
+      "RingOfPsychicResistance": {
+        "name": "Anello della Resistenza al Psichico",
+        "description": "Aggiunge resistenza al psichico"
+      },
+      "RingOfRadiantResistance": {
+        "name": "Anello della Resistenza al Radioso",
+        "description": "Aggiunge resistenza al radioso"
+      },
+      "RingOfThunderResistance": {
+        "name": "Anello della Resistenza al Tuono",
+        "description": "Aggiunge resistenza al tuono"
+      },
+      "RingOfFreeAction": {
+        "name": "Anello del Movimento Libero",
+        "description": "Aggiunge immunità a paralizzato e trattenuto"
+      },
+      "RingOfSwimming": {
+        "name": "Anello del Nuoto",
+        "description": "Aggiunge velocità di nuoto di 12 m"
+      },
+      "RingOfWarmth": {
+        "name": "Anello del Calore",
+        "description": "Aggiunge resistenza al freddo"
+      },
+      "RobeOfEyes": {
+        "name": "Veste degli Occhi",
+        "description": "Vantaggio alle prove di Percezione, scurovisione fino a 36 m e vista del vero fino a 36 m"
+      },
+      "RobeOfStars": {
+        "name": "Veste delle Stelle",
+        "description": "Aggiunge +1 a tutti i tiri salvezza"
+      },
+      "RobeOfTheArchmagi": {
+        "name": "Veste dell'Arcimago",
+        "description": "Imposta la CA base a 15 + modificatore di Destrezza, aggiunge vantaggio ai tiri salvezza contro gli incantesimi e aggiunge +2 ai tiri per colpire con incantesimi e alla CD degli incantesimi"
+      },
+      "StoneOfGoodLuck": {
+        "name": "Pietra della Buona Sorte",
+        "description": "Aggiunge +1 a tutte le prove e tiri salvezza"
       }
-    }
+    },
+    "Setting": {
+      "Player": "Giocatore",
+      "TrustedPlayer": "Giocatore Fidato",
+      "AssistantGM": "GM Assistente",
+      "GameMaster": "Game Master",
+      "None": "Nessuno",
+      "AppControlsPermissionName": "Permesso Controlli App",
+      "AppControlsPermissionHint": "Definisce il livello minimo di permesso per vedere e applicare i Convenient Effects tramite l'applicazione con il pulsante sui controlli del token. Impostandolo su Nessuno il pulsante verrà disabilitato del tutto.",
+      "CreateFoldersPermissionName": "Permesso Crea Cartelle",
+      "CreateFoldersPermissionHint": "Definisce il livello minimo di permesso per creare nuove cartelle di effetti nell'applicazione Convenient Effects. Impostandolo su Nessuno il pulsante di creazione verrà disabilitato del tutto. Nota che l'utente deve anche avere il permesso di Foundry per creare oggetti affinché funzioni."
+    },
+    "Keybinding": {
+      "ToggleAppName": "Attiva/Disattiva App Convenient Effects",
+      "ToggleAppHint": "Attiva l'app Convenient Effects nella barra laterale.",
+      "ToggleAppPopoutName": "Attiva/Disattiva Popout App Convenient Effects",
+      "ToggleAppPopoutHint": "Apre il popout dell'app Convenient Effects se è chiuso, o lo chiude se è attualmente aperto."
+    },
+    "SearchEffects": "Cerca Effetti",
+    "AddEffect": "Aggiungi Effetto",
+    "RemoveEffect": "Rimuovi Effetto",
+    "ToggleConvenientEffect": "Attiva/Disattiva Convenient Effect",
+    "SelectEffect": "Seleziona Effetto",
+    "NoPermissionToRemoveEffect": "Non hai il permesso di rimuovere l'effetto {effectName} da {originalFolderName}. Effetto duplicato in {newFolderName}",
+    "NoPermissionToAddEffect": "Non hai il permesso di aggiungere l'effetto {effectName} alla cartella {newFolderName}",
+    "StackableDae": "DAE Cumulabile",
+    "Config": {
+      "Title": "Configurazione Convenient",
+      "FoundryEffectIdLabel": "ID Effetto Foundry",
+      "FoundryEffectIdHint": "Questo è l'ID dell'effetto Foundry e può essere usato per trovare, aggiungere o rimuovere un effetto.",
+      "ConvenientEffectIdLabel": "ID Convenient Effect",
+      "ConvenientEffectIdHint": "Questo è l'ID del Convenient Effect e può essere usato per trovare, aggiungere o rimuovere un effetto.",
+      "TemporaryLabel": "Temporaneo",
+      "TemporaryHint": "Se selezionato, questo effetto sarà sempre etichettato come temporaneo, anche se non ha una durata o uno stato.",
+      "ViewableLabel": "Visibile",
+      "ViewableHint": "Se selezionato, questo effetto sarà sempre mostrato nell'applicazione.",
+      "DynamicLabel": "Dinamico",
+      "DynamicHint": "Se selezionato, questo effetto avrà effetti dinamici applicati in base ai dati dell'attore. Non può essere modificato ed è usato per casi di effetti molto specifici.",
+      "NestedEffectsLabel": "Effetti Annidati",
+      "NestedEffectsHint": "Gli effetti annidati che verranno mostrati come opzioni quando l'effetto viene aggiunto o rimosso.",
+      "SubEffectsLabel": "Sotto-Effetti",
+      "SubEffectsHint": "I sotto-effetti che verranno applicati in relazione a questo effetto. Se questo effetto viene rimosso, anche tutti i sotto-effetti vengono rimossi automaticamente.",
+      "OtherEffectsLabel": "Altri Effetti",
+      "OtherEffectsHint": "Gli altri effetti che verranno applicati in relazione a questo effetto. Se questo effetto viene rimosso, gli altri effetti non verranno rimossi automaticamente.",
+      "IDsTab": "ID",
+      "FlagsTab": "Flag",
+      "DependentEffectsTab": "Effetti Dipendenti"
+    },
+    "Initializing": "Inizializzazione dei convenient effects...",
+    "FinishedInitializing": "Inizializzazione dei convenient effects completata"
   }
 }

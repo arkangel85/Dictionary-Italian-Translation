@@ -33,7 +33,27 @@
       "ARMOR": "Armatura",
       "FUEL": "Carburante",
       "MOVE_BONUS": "Qualità"
-    }
+    },
+    "ABILITY": "Capacità",
+    "BUDDY": "Compagno",
+    "CHOOSE_HOUSE_ATTRIBUTE": "Scegli Attributo del Rifugio",
+    "CHOOSE_SKILL": "Scegli un'abilità",
+    "DREAM": "Il Mio Grande Sogno:",
+    "GEAR_DAMAGE": "Danno Equipaggiamento",
+    "HATE": "Io Odio:",
+    "INACTIVE_EFFECTS": "Effetti Inattivi",
+    "MY_HOME": "La Mia Tana",
+    "NOTES": "Note",
+    "NO_BULLETS": "Munizioni esaurite",
+    "PASSIVE_EFFECTS": "Effetti Passivi",
+    "PROTECT": "Devo Proteggere:",
+    "PUSH_BULLET": "Usa una munizione quando forzi",
+    "RELATIONSHIPS": "Relazioni",
+    "SKILL": "Abilità",
+    "USES_BULLETS": "Usa Munizioni",
+    "SUCCESS": "Successo",
+    "TEMPORARY_EFFECTS": "Effetti Temporanei",
+    "TRAUMA": "Trauma"
   },
   "MYZ.ABILITIES": "Abilità",
   "MYZ.ABILITY_ANIMAL": "Dono",
@@ -297,5 +317,9 @@
   "SETTINGS.ApplyPushGearDamageH": "Danneggiare l'equipaggiamento in caso di fallimenti e tiri rischiosi.",
   "SETTINGS.ApplyPushGearDamageN": "Danni all'equipaggiamento da rischio",
   "SETTINGS.ApplyPushTraumaH": "Applicare traumi in caso di fallimenti e tiri rischiosi.",
-  "SETTINGS.ApplyPushTraumaN": "Ricevere trauma da rischio"
+  "SETTINGS.ApplyPushTraumaN": "Ricevere trauma da rischio",
+  "SETTINGS": {
+    "ShowRollDialogH": "La finestra di dialogo del tiro appare solo usando Shift + Clic sui tiri. Abilita questa impostazione per mostrarla sempre quando si effettuano tiri.",
+    "ShowRollDialogN": "Mostra Sempre la Finestra di Dialogo del Tiro"
+  }
 }

@@ -1,7 +1,9 @@
 {
   "TYPES": {
     "Actor": {
-      "dragonbane-item-browser.merchant": "Mercante"
+      "dragonbane-item-browser": {
+        "merchant": "Mercante"
+      }
     }
   },
   "DB-IB": {
@@ -77,7 +79,24 @@
       "buy": "Compra per il personaggio",
       "sell": "Consegna l’oggetto al mercante",
       "openMerchantSheet": "Apri la scheda del mercante",
-      "youAttempToOpenMerchantSheet": "Vuoi aprire l’inventario del mercante?"
-    }
+      "youAttempToOpenMerchantSheet": "Vuoi aprire l’inventario del mercante?",
+      "selectSkill": "Seleziona Abilità per la Contrattazione",
+      "useSelectedSkill": "Usa l'Abilità selezionata"
+    },
+    "title": "Catalogo Oggetti",
+    "Sort": "Ordina per:",
+    "SortByName": "Per Nome oggetto",
+    "SortByType": "Per Tipo oggetto",
+    "SortByCost": "Per Costo oggetto",
+    "increaseQuantity": "Aumenta quantità oggetto",
+    "decreseQuantity": "Diminuisci quantità oggetto",
+    "buy": "Compra",
+    "onlyGMCanMove": "Solo i GM possono spostare questo Mercante."
+  },
+  "DB_IB": {
+    "selectQuantity": "Seleziona quantità",
+    "ChangeQuantity": "Cambia quantità",
+    "InfinityQuantity": "Quantità infinita",
+    "DoNotAddToBuyer": "Non aggiungere all'acquirente"
   }
 }

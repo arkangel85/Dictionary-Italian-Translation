@@ -13,61 +13,44 @@
   "ITEM.TypeHonorifics": "Titoli onorifici",
   "ITEM.TypeMembership": "Appartenenza a un'organizzazione",
   "ITEM.TypeShipfeatures": "Caratteristica dell'astronave",
-
   "SETTINGS.useTargeted": "Usa il bersaglio per danni e cure",
   "SETTINGS.useTargetedHint": "Invece di applicare danni o cure dai tiri o dalla scheda ai token controllati, applicali ai token selezionati come bersaglio",
-
   "SETTINGS.quicksetting": "Configurazione rapida AGE",
   "SETTINGS.quicksettingHint": "Configura rapidamente tutti i parametri aggiuntivi secondo impostazioni predefinite",
-
   "SETTINGS.advSettings": "Impostazioni avanzate AGE",
   "SETTINGS.advSettingsHint": "Configurazione dettagliata di tutti i parametri per personalizzare l’esperienza di gioco",
-
   "SETTINGS.consumePP": "Consuma punti potere/mana/kana/incantesimi al lancio",
   "SETTINGS.consumePPHint": "Se abilitato, i punti richiesti per usare un potere verranno sottratti dal totale del personaggio. Se i punti non bastano, verrà mostrato un messaggio",
-
   "SETTINGS.breatherSettings": "Impostazioni della pausa",
   "SETTINGS.breatherSettingsHint": "Imposta il numero di punti salute recuperati durante una pausa",
-
   "SETTINGS.initiativeFocus": "Nome del focus per l'iniziativa",
   "SETTINGS.initiativeFocusHint": "Inserisci il nome del focus usato nei tiri d'iniziativa, o lascia vuoto per ignorare il bonus focus",
-
   "SETTINGS.useConviction": "Usa convinzione",
   "SETTINGS.useConvictionHint": "Abilita il tracciamento della convinzione",
-
   "SETTINGS.stuntAttack": "Attacco con trucco",
   "SETTINGS.stuntAttackHint": "Punti trucco ottenuti da un attacco con trucco",
-
   "SETTINGS.useFatigue": "Usa affaticamento",
   "SETTINGS.useFatigueHint": "Abilita le regole di affaticamento e il supporto per fatica magica",
-
   "SETTINGS.useConditions": "Usa condizioni",
   "SETTINGS.useConditionsHint": "Mostra le Condizioni — i modificatori ai tiri non sono inclusi",
-
   "SETTINGS.usePowerPoints": "Usa punti potere",
   "SETTINGS.usePowerPointsHint": "Utilizza i punti potere e le impostazioni per potere e magia",
-
   "SETTINGS.useToughness": "Usa resistenza",
   "SETTINGS.useToughnessHint": "Verifica se il gioco userà la statistica Resistenza",
-
   "SETTINGS.useBallisticArmor": "Usa armatura d'urto e balistica",
   "SETTINGS.useBallisticArmorHint": "Scegli se separare l’armatura in urto e balistica",
-
   "SETTINGS.wealthType": "Sistema economico utilizzato",
   "SETTINGS.wealthTypeHint": "Reddito e Risorse è basato su prove di abilità, mentre Valuta è un sistema d’acquisto tradizionale",
   "SETTINGS.wealthTypeResources": "Risorse",
   "SETTINGS.wealthTypeIncome": "Reddito",
   "SETTINGS.wealthTypeCurrency": "Valuta",
   "SETTINGS.wealthTypeCoins": "MO / AO / RA",
-
   "SETTINGS.primaryAbl": "Scegli abilità principali",
   "SETTINGS.primaryAblHint": "Aggiunge una spunta per indicare quali abilità sono principali",
-
   "SETTINGS.abilitySelection": "Impostazioni abilità",
   "SETTINGS.abilitySelectionHint": "Usa abilità di Core AGE o Dragon Age",
   "SETTINGS.abilitySelectionMain": "Core AGE",
   "SETTINGS.abilitySelectionDage": "Dragon Age",
-
   "SETTINGS.colorScheme": "Scegli schema colori schede",
   "SETTINGS.colorSchemeHint": "L'impostazione del colore influenza le schede di personaggi e oggetti",
   "SETTINGS.colorModernBlue": "Blu moderno",
@@ -80,52 +63,41 @@
   "SETTINGS.colorTheGrey": "Grigio profondo",
   "SETTINGS.colorRedWarrior": "Guerriero scarlatto",
   "SETTINGS.colorNeverDead": "Mai morto",
-
   "SETTINGS.gameMode": "Modalità di gioco",
   "SETTINGS.gameModeHint": "Scegli la modalità di gioco (come descritto in Modern AGE) o nessuna",
   "SETTINGS.gameModenone": "Nessuna",
   "SETTINGS.gameModegritty": "Cruda",
   "SETTINGS.gameModepulp": "Leggera",
   "SETTINGS.gameModecinematic": "Cinematografica",
-
   "SETTINGS.occupation": "Varianti professione",
   "SETTINGS.occupationHint": "Scegli l'opzione più adatta al tuo mondo",
   "SETTINGS.occprofession": "Professione",
   "SETTINGS.occclass": "Classe",
-
   "SETTINGS.ancestryOpt": "Varianti ascendenza",
   "SETTINGS.ancestryOptHint": "Scegli l'opzione più adatta al tuo mondo",
   "SETTINGS.ancestryOptancestry": "Popolo",
   "SETTINGS.ancestryOptorigin": "Origine",
   "SETTINGS.ancestryOptspecies": "Specie",
   "SETTINGS.ancestryOptrace": "Razza",
-
   "SETTINGS.stuntSoNice": "Colore dado trucco (Dice So Nice)",
   "SETTINGS.stuntSoNiceHint": "Questo colore verrà usato solo per il dado dei trucchi",
-
   "SETTINGS.masterFocusCompendium": "Seleziona il compendio dei focus",
   "SETTINGS.masterFocusCompendiumHint": "I nomi nel compendio saranno mostrati nei fogli come focus possibili",
-
   "SETTINGS.healthMode": "Modalità tracciamento salute",
   "SETTINGS.healthModeHint": "La maggior parte dei giochi AGE usa la Salute, The Expanse usa la Fortuna",
   "SETTINGS.healthModehealth": "Salute",
   "SETTINGS.healthModefortune": "Fortuna",
-
   "SETTINGS.complication": "Usa complicazioni o contrattempi",
   "SETTINGS.complicationHint": "Usa Complicazioni (Modern AGE), Contrattempi (The Expanse) o nessuno",
   "SETTINGS.complicationNone": "Nessuno",
   "SETTINGS.compcomplication": "Complicazioni",
   "SETTINGS.compchurn": "Contrattempi",
-
   "SETTINGS.serendipity": "Usa intuito",
   "SETTINGS.serendipityHint": "Abilita la regola opzionale dell’intuito",
-
   "SETTINGS.observerRoll": "Permetti ai osservatori di tirare",
   "SETTINGS.observerRollHint": "Permetti ai giocatori osservatori di effettuare tiri dalle loro schede o dalla chat",
-
   "SETTINGS.weaponGroups": "Gruppi d'armi",
   "SETTINGS.weaponGroupsHint": "Inserisci i nomi dei gruppi separati da ;. Lascia vuoto se non usi gruppi (come in Modern AGE)",
-
   "SETTINGS.healthSys": "Sistema tracciamento salute",
   "SETTINGS.healthSysHint": "«Basic» usa classe armatura e salute, «The Expanse» aggiunge Resistenza e Fortuna, «Modern AGE» include tipi di danno, armatura e vitalità",
   "SETTINGS.healthSysbasic": "Basic (FAGE, DAGE, BR)",
@@ -133,7 +105,6 @@
   "SETTINGS.healthSysmage": "Modern AGE",
   "SETTINGS.healthSysmageInjury": "Modern AGE (danno alternativo: ferita)",
   "SETTINGS.healthSysmageVitality": "Modern AGE (danno alternativo: ferita e vitalità)",
-
   "age-system": {
     "SHEETS": {
       "charStandard": "Personaggio AGE",
@@ -145,7 +116,6 @@
     },
     "sheetFull": "Completo",
     "sheetBlock": "Bloccato",
-
     "WARNING": {
       "duplicatedFocus": "Il Focus non viene aggiunto al personaggio - lo possiede già",
       "selectTokenMacro": "Seleziona un token per eseguire il macro.",
@@ -166,9 +136,12 @@
       "vehicleItem": "Un veicolo non può ricevere oggetti",
       "breatherAppliedAll": "Pausa applicata a tutti i personaggi selezionati",
       "newFocusCompendia": "Impostazioni sistema AGE (Compendio Focus): queste librerie non saranno visibili come opzioni del compendio finché non si ricarica: {list}.",
-      "oldFocusCompendia": "Impostazioni sistema AGE (Compendio Focus): queste librerie non esistono e saranno rimosse al prossimo riavvio: {list}."
+      "oldFocusCompendia": "Impostazioni sistema AGE (Compendio Focus): queste librerie non esistono e saranno rimosse al prossimo riavvio: {list}.",
+      "emptyAdv": "Tutti i livelli per l'Avanzamento Progressivo hanno valore vuoto o zero. Nessun Avanzamento salvato.",
+      "emptyItemArr": "Nessun Oggetto selezionato per questo avanzamento. Nessun Avanzamento salvato.",
+      "ownedClassLevelOnly": "Solo gli Oggetti di tipo Classe con un proprietario possono salire di livello.",
+      "actorHasClass": "L'attore ha già un oggetto Classe!"
     },
-
     "spaceship": {
       "op": "Operatore",
       "role": "Ruolo",
@@ -262,7 +235,6 @@
     "velCustom": "Personalizzata",
     "coverRating": "Copertura",
     "vehicleArmor": "Corazza",
-
     "stuntAttack": "Attacco con trucco",
     "stuntStack": "Accumula punti trucco con doppioni",
     "chatCard": {
@@ -286,7 +258,6 @@
       "backupVehicle": "supporta il veicolo {vehicle}",
       "compRoll": "Tiro {compType}"
     },
-
     "org": {
       "might": "Forza",
       "wealth": "Ricchezza",
@@ -306,7 +277,6 @@
       "national": "Nazionale",
       "international": "Internazionale"
     },
-
     "testThreshold": "Soglia",
     "targetCurrent": "Bersaglio / attuale",
     "charMain": "Principale",
@@ -348,7 +318,6 @@
       "dying": "Morente",
       "dyingDesc": "Il personaggio rischia la morte. Perde 1 punto Costituzione all’inizio di ogni turno. A -3 muore. Un primo soccorso riuscito lo stabilizza: rimane privo di sensi, indifeso e con ferite gravi."
     },
-
     "power": "Potere",
     "weapon": "Arma",
     "equipment": "Equipaggiamento",
@@ -359,7 +328,6 @@
     "honorifics": "Titoli onorifici",
     "membership": "Appartenenza a un’organizzazione",
     "specialQualities": "Qualità speciali",
-
     "settings": {
       "totalRolled": "Tiro totale",
       "flavorTextRoll": "ha ottenuto",
@@ -382,7 +350,6 @@
       "statBlockViewExit": "Torna alla vista standard",
       "gmRoll": "Tiro del master"
     },
-
     "str": "Forza",
     "per": "Percezione",
     "acc": "Precisione",
@@ -395,7 +362,6 @@
     "cunn": "Astuzia",
     "magic": "Magia",
     "abl": "Abilità",
-
     "income": "Reddito",
     "resources": "Risorse",
     "currency": "Valuta",
@@ -403,11 +369,9 @@
     "gp": "MO",
     "sp": "MA",
     "cp": "MR",
-
     "improvedFocus": "Migliorato",
     "abilitySelect": "Scegli l'abilità per il tiro con questo focus",
     "focusInput": "Valore",
-
     "aim": "Mirare",
     "allOutAttack": "Attacco totale",
     "defendManeuver": "Difesa",
@@ -415,13 +379,11 @@
     "initiative": "Iniziativa",
     "stuntDie": "Dado trucco",
     "stuntDieIndex": "DT",
-
     "talentDegree": "Grado",
     "health": "Salute",
     "fortune": "Fortuna",
     "conviction": "Convinzione",
     "speed": "Velocità",
-
     "armor": "Armatura",
     "ballistic": "Balla",
     "ballisticIndex": "B",
@@ -436,7 +398,6 @@
     "normalDamage": "Normale",
     "hasDamage": "Danno?",
     "armorPenalty": "Penalità",
-
     "injury": "Ferita",
     "injuryMarks": "Segno",
     "injuryDegree": "Gravità",
@@ -444,14 +405,12 @@
     "injurySerious": "Seria",
     "injurySevere": "Grave",
     "toughnessTest": "Prova di Resistenza",
-
     "background": "Background",
     "socialClass": "Classe sociale",
     "profession": "Professione",
     "age": "Età",
     "height": "Altezza",
     "weight": "Peso",
-
     "fatigue": "Affaticamento",
     "ablFatigue": "Prova di affaticamento",
     "useFatigue": "Usa affaticamento",
@@ -462,13 +421,11 @@
     "fatigued": "Affaticato",
     "exhausted": "Sfinito",
     "dying": "Morente",
-
     "breather": "Pausa",
     "constant": "Costante",
     "ablSelect": "Scegli abilità",
     "addLevel": "Aggiungi livello",
     "autoApply": "Applica automaticamente",
-
     "rollWithoutPP": "{name} non ha abbastanza punti per usare {item}. Vuoi lanciare comunque?",
     "powerPoints": "Punti potere",
     "powerPointsIndex": "PP",
@@ -485,11 +442,9 @@
     "membershipContainer": "Appartenenza a organizzazione",
     "rank": "Grado",
     "membershipPosition": "Ruolo",
-
     "relationshipContainer": "Relazioni",
     "relationshipBond": "Legame",
     "relationshipIntensity": "Intensità",
-
     "drive": {
       "drive": "Motivazione",
       "downfall": "Difetti",
@@ -506,7 +461,6 @@
     "oneHour": "1 ora",
     "fourHours": "4 ore",
     "twelveHours": "12 ore",
-
     "rof": {
       "rof": "Cadenza di fuoco",
       "none": "—",
@@ -514,7 +468,6 @@
       "semiAuto": "SA",
       "fullAuto": "AF"
     },
-
     "move": "Movimento",
     "level": "Livello",
     "xp": "Esperienza",
@@ -528,7 +481,6 @@
     "targetNumber": "CD",
     "total": "Totale",
     "value": "Valore",
-
     "itemMod": "Modificatori",
     "itemModSelect": "Seleziona nuovo tipo di modificatore",
     "type": "Tipo",
@@ -589,13 +541,11 @@
       "armorPenalty": "Penalità armatura",
       "speed": "Velocità",
       "armorStrain": "Sforzo armatura",
-
       "active": "Attivo",
       "charAbl": "Abilità",
       "type": "Tipo",
       "value": "Valore"
     },
-
     "stuntsContainer": "Trucchi",
     "equipmentContainer": "Equipaggiamento",
     "item": {
@@ -636,21 +586,17 @@
     "miss": "Mancato",
     "formula": "Formula",
     "formulaExample": "Es.: 2d6+2",
-
     "ageRollOptions": "Opzioni di tiro",
     "roll": "Lancia dadi",
     "cancel": "Annulla",
-
     "setAgeRollMod": "Modificatore tiro",
     "setAgeRollAtkDmgTradeOff": "Compensazione attacco/danno",
     "setAgeRollTN": "Difficoltà prova",
-
     "damageOptions": "Opzioni di tiro danno",
     "setDmgExtraDice": "Dado extra",
     "setStuntDmg": "Danno da trucco",
     "setRollGeneralMod": "Modificatore danno",
     "penaltyToDamage": "Penalità convertita in danno",
-
     "ignoreDamage": "Ignora danno",
     "applyDamage": "Applica danno",
     "armorPiercing": "Penetrazione armatura",
@@ -665,18 +611,15 @@
     "lightInjuryInflicted": "Inflitta 1 ferita lieve",
     "seriousInjuryInflicted": "Inflitta 1 ferita seria",
     "severeInjuryInflicted": "Inflitta 1 ferita grave",
-
     "conditionsWorkshop": "Editor condizioni",
     "tokenEffects": "Effetti sul token",
     "addEffectTop": "Aggiungi effetto in alto",
     "addEffectBottom": "Aggiungi effetto in basso",
     "saveClose": "Salva e chiudi",
     "copyEffectsExpanse": "Copia effetto da The Expanse",
-
     "social": "Sociali",
     "quickAccess": "Accesso rapido",
     "showOnChat": "Mostra in chat",
-
     "requirement": "Requisiti",
     "novice": "Principiante",
     "expert": "Esperto",
@@ -692,10 +635,8 @@
     "invalidModformula": "Non valido – controlla la formula",
     "invalidModnodice": "Errore – sono valide solo operazioni con numeri e @attr",
     "invalidModnumber": "Sono ammessi solo numeri",
-
     "selectGameSetting": "Seleziona impostazioni di gioco",
     "saveSettings": "Salva impostazioni",
-
     "presets": {
       "dage": "Dragon Age",
       "dageHint": "Come nei videogiochi di Dragon Age",
@@ -708,9 +649,7 @@
       "brose": "Blue Rose AGE",
       "broseHint": "Fantasy romantico"
     },
-
     "worldSetting": "Modalità mondo",
-
     "ageImporter": "Importa AGE",
     "ageImporterInstruction": "Copia il blocco statistiche dal nome fino al campo minaccia e incolla qui sotto. Seleziona il sistema AGE corretto e avvia l'importazione.",
     "clickHelp": "Clicca per aiuto.",
@@ -726,6 +665,111 @@
     "invalidFileContent": "Contenuto file non valido",
     "customEffects": "Effetti personalizzati",
     "customEffectsSet": "Set di effetti personalizzati",
-    "attkHeader": "Tiro danno da attacco con arma"
+    "attkHeader": "Tiro danno da attacco con arma",
+    "current": "Attuale",
+    "powerFlavor": {
+      "power": {
+        "name": "Potere",
+        "namePlural": "Poteri",
+        "points": "Punti Potere",
+        "index": "PP",
+        "force": "Forza"
+      },
+      "mana": {
+        "name": "Incantesimo",
+        "namePlural": "Incantesimi",
+        "points": "Punti Mana",
+        "index": "PM",
+        "force": "Potere Magico"
+      },
+      "spell": {
+        "name": "Incantesimo",
+        "namePlural": "Incantesimi",
+        "points": "Punti Magia",
+        "index": "PM",
+        "force": "Potere Magico"
+      }
+    },
+    "ranged": "A Distanza",
+    "reloadable": "Ricaricabile",
+    "newLevel": "Nuovo Livello",
+    "next": "Successivo",
+    "applyHealing": "Applica Cura",
+    "healingSummary": "Riepilogo Cura",
+    "noCharHealed": "Nessuna cura applicata",
+    "npcImporter": "Importatore PNG",
+    "npcImporterPlaceholder": "Incolla qui il blocco statistiche del PNG (dal nome al campo Minaccia)...",
+    "talentImporter": "Importatore Talenti",
+    "talentImporterInstruction": "Copia le descrizioni dei talenti dai manuali del Sistema AGE e incollale qui sotto. Il parser estrarrà automaticamente nomi dei talenti, requisiti e descrizioni dei gradi.",
+    "talentImporterPlaceholder": "Incolla qui le descrizioni dei talenti...",
+    "createTalent": "Crea Talento/i",
+    "attkNote": "Nota di danno per {attack}",
+    "seeDescription": "Vedi descrizione",
+    "advancement": "Avanzamento",
+    "advancementPlural": "Avanzamenti",
+    "improvements": "Miglioramenti",
+    "advancementNew": "Seleziona Nuovo Avanzamento",
+    "levelName": "Livello {level}",
+    "advProgressiveTrait": "Tratto Progressivo",
+    "advNewItem": "Nuovo Oggetto o Migliora Esistente",
+    "advAbility": "Avanzamento Capacità",
+    "defenseAndToughness": "Difesa e Resistenza",
+    "trait": "Tratto",
+    "alias": "Alias",
+    "confirm": "Conferma",
+    "image": "Immagine",
+    "itemProgression": "Progressione Oggetto",
+    "itemProgressionHint": "Aggiunge nell'elenco sottostante l'opzione di far Progredire un Oggetto esistente del tipo scelto.",
+    "itemOptionSingle": "Ricevi un Oggetto",
+    "itemOptionSingleProgress": "Ricevi o Fai Avanzare un Oggetto",
+    "itemOptionMultiple": "Scegli Oggetti dall'elenco",
+    "itemOptionAll": "Ricevi tutti gli Oggetti",
+    "dragAdvItem": "Trascina gli Oggetti di Avanzamento nello spazio sottostante",
+    "add": "Aggiungi",
+    "leveledImprovements": "Miglioramenti Ottenuti",
+    "newAblScore": "Nuovo Valore di Caratteristica",
+    "newAdvance": "Nuovo Avanzamento"
+  },
+  "TYPES": {
+    "Actor": {
+      "char": "Personaggio",
+      "vehicle": "Veicolo",
+      "spaceship": "Astronave",
+      "organization": "Organizzazione"
+    },
+    "Item": {
+      "stunts": "Stunt",
+      "equipment": "Equipaggiamento",
+      "power": "Poteri e Arcana",
+      "talent": "Talento",
+      "focus": "Focus",
+      "weapon": "Arma",
+      "relationship": "Relazione",
+      "honorifics": "Titoli Onorifici",
+      "membership": "Affiliazione",
+      "shipfeatures": "Caratteristica Astronave",
+      "class": "Classe"
+    }
+  },
+  "ITEM": {
+    "TypeClass": "Classe"
+  },
+  "SETTINGS": {
+    "DegressChoice": "Gradi dei Talenti",
+    "DegressChoiceHint": "Quantità e nome dei gradi dei talenti",
+    "TalentDegreesMAGE": "Novizio, Esperto, Maestro",
+    "TalentDegreesFAGE": "Novizio, Apprendista, Maestro",
+    "TalentDegreesMAGEExtra": "Novizio, Esperto, Maestro, Gran Maestro, Apice",
+    "TalentDegreesFAGEExtra": "Novizio, Apprendista, Maestro, Gran Maestro, Apice",
+    "colorBlackWhite": "Bianco e Nero",
+    "complicationRollTable": "Effetti di Complicazione",
+    "complicationRollTableDefault": "Tira 1d6",
+    "complicationRollTableHint": "Questa tabella verrà tirata per determinare se Pericolo/Complicazioni/Churn viene attivato. Scegli nessuno per tirare lo standard 1d6.",
+    "compPeril": "Pericolo",
+    "powerFlavor": "Stile degli Oggetti Potere",
+    "powerFlavorHint": "Seleziona lo stile preferito dai manuali AGE per i tipi di Potere, che influisce sulle etichette dei Poteri e dei Punti Potere.",
+    "powerFlavorPower": "Poteri e Punti Potere",
+    "powerFlavorMana": "Incantesimi e Punti Mana",
+    "powerFlavorSpell": "Incantesimi e Punti Incantesimo"
   }
 }

@@ -36,7 +36,8 @@
       "NPC": "PNG/Personaggio del Master",
       "Player": "Personaggio del Giocatore",
       "Spirit": "Spirito",
-      "Vehicle": "Veicolo/Drone"
+      "Vehicle": "Veicolo/Drone",
+      "sprite": "Sprite"
     },
     "Item": {
       "adeptpower": "Potere da Adepto",
@@ -54,7 +55,11 @@
       "sin": "SIN",
       "skill": "Conoscenza Esperta/Lingua",
       "spell": "Incantesimo",
-      "weapon": "Arma"
+      "weapon": "Arma",
+      "focus": "Focus",
+      "mod": "Mod Equipaggiamento",
+      "software": "Software",
+      "spritepower": "Potere dello Sprite"
     }
   },
   "attrib": {
@@ -89,7 +94,15 @@
     "str": "Forza",
     "str_short": "FOR",
     "wil": "Volontà",
-    "wil_short": "VOL"
+    "wil_short": "VOL",
+    "a": "Attacco Matrix",
+    "d": "Elaborazione Dati Matrix",
+    "essence": "Essenza",
+    "f": "Firewall Matrix",
+    "initiation": "Iniziazione",
+    "max_augment": "Il tuo modificatore di potenziamento è superiore a 4. Alla tua Caratteristica si applica un massimo di 4.",
+    "s": "Sleaze Matrix",
+    "submersion": "Immersione"
   },
   "label.skill": "Abilità",
   "section.attributes": "Attributi",
@@ -116,7 +129,8 @@
         "vehicles": "Veicoli"
       },
       "skills": "Abilità",
-      "spells": "Incantesimi"
+      "spells": "Incantesimi",
+      "editable": "Modificabile"
     },
     "adeptpower": {
       "activation": "Attivazione",
@@ -162,7 +176,11 @@
       "rating": "Valutazione",
       "loyalty": "Lealtà",
       "loyalty_short": "Lea",
-      "type": "Tipo"
+      "type": "Tipo",
+      "favors": "Favori",
+      "favors_short": "Fav",
+      "legwork": "Indagine",
+      "pronouns": "Pronomi"
     },
     "defense": {
       "astral": "Difesa: Combattimento Astrale",
@@ -194,6 +212,11 @@
       "heal": {
         "physical": "Guarigione Fisica",
         "stun": "Guarigione Mentale"
+      },
+      "movement": {
+        "label": "Movimento / Scatto",
+        "meter_short": "m",
+        "sprint_result": "{name} ha scattato per {metersSprinted} metri."
       }
     },
     "edge_action": {
@@ -218,7 +241,9 @@
       "plus_1_roll": "+1 a un singolo dado",
       "plus_3_ini": "Aggiungi 3 al tuo punteggio di Iniziativa",
       "reroll_failed": "Ritira tutti i dadi falliti",
-      "reroll_one": "Ritira un dado"
+      "reroll_one": "Ritira un dado",
+      "give_ally_1_edge": "Dai 1 Edge all'alleato",
+      "reroll_opponent_one": "Ritira il dado dell'avversario"
     },
     "gear": {
       "subtype": {
@@ -400,7 +425,49 @@
         "AMMO_DMSO": "Gelpack DMSO",
         "AMMO_MACHINE_GUN": "Mitragliatrice",
         "AMMO_INJECTION_BOLT": "Bullone Iniettore",
-        "AMMO_BOLT": "Bullone"
+        "AMMO_BOLT": "Bullone",
+        "AIRSHIP": "Dirigibile",
+        "ATTRIBUTE_CODEMOD": "Codemod di Caratteristica",
+        "AUGMENTICS": "Augmentics",
+        "BALLISTAS": "Balista",
+        "BIOSENSE": "Biosensore",
+        "BIOWARE_DERMAL": "Bioware Dermica",
+        "BTLS": "BTL",
+        "BUS": "Autobus",
+        "COMPLEMENTARY_GENETIC_MODS": "Mod Genetica Complementare",
+        "CORE_CODEMOD": "Codemod Principale",
+        "COSMETIC": "Cyberware Cosmetica",
+        "CYBERNETIC_RESTRAINT": "Contenimento Cibernetico",
+        "CYBERTERM": "Terminale Cyber",
+        "DART": "Dardo ad Aria Compressa",
+        "DATASOFT": "Datasoft",
+        "DATATERM": "Terminale Dati",
+        "DIGITAL_WEAPON": "Arma Digitale",
+        "DMSO": "Sacca di gel DMSO ad aria compressa",
+        "ESOFT": "E-Soft",
+        "ESPIONAGE": "Spionaggio",
+        "IO": "IO",
+        "MAGIC_LODGE": "Loggia Magica",
+        "MAPSOFT": "Mapsoft",
+        "NANITES_BIOAMP": "Nanite Bioamplificatrice",
+        "NANITES_COSMETIC": "Nanite Cosmetica",
+        "NANITES_THERAPEUTIC": "Nanite Terapeutica",
+        "NANITES_TRANSIENT": "Nanite Solo-Transitoria",
+        "NANITES_UTILITIES": "Nanite di Utilità",
+        "NANOTECH_KIT": "Kit Nanotecnologico",
+        "PERFUME": "Profumo",
+        "PROCESSOR": "Processore",
+        "PWC": "Moto d'Acqua Personale",
+        "SHIPS": "Nave",
+        "SHOPSOFT": "Shopsoft",
+        "SPARE_PARTS": "Pezzo di Ricambio",
+        "SYMBIONT": "Simbionte",
+        "TALENTSOFT": "Talentsoft",
+        "TEACHSOFT": "Teachsoft",
+        "THERAPEUTIC": "Terapeutico",
+        "TRANSGENICS": "Transgenica",
+        "TRANSGENIC_BIOWARE": "Bioware Transgenica",
+        "WINTER_GEAR": "Equipaggiamento Invernale"
       }
     },
     "initiative": {
@@ -456,7 +523,15 @@
         "rigRating.long": "Interfaccia Veicolo",
         "sensor.long": "Sensore",
         "sensor.short": "S"
-      }
+      },
+      "mode_fa_1m": "Raggio 1m",
+      "mode_fa_2m": "Raggio 2m",
+      "mode_fa_3m": "Raggio 3m",
+      "mode_fa_4m": "Raggio 4m",
+      "mode_fa_5m": "Raggio 5m",
+      "mode_fa_6m": "Raggio 6m",
+      "social_rating": "Grado Sociale",
+      "strWeapon": "Usa la Forza"
     },
     "itemtype": {
       "ACCESSORY": "Accessorio",
@@ -478,7 +553,9 @@
       "WEAPON_CLOSE_COMBAT": "Arma, Corpo a Corpo",
       "WEAPON_FIREARMS": "Arma, da Fuoco",
       "WEAPON_RANGED": "Arma, Proiettili",
-      "WEAPON_SPECIAL": "Arma, Speciale"
+      "WEAPON_SPECIAL": "Arma, Speciale",
+      "CODEMODS": "Codemod",
+      "SOFTWARE": "Software"
     },
     "label": {
       "accessories": "Accessori",
@@ -496,7 +573,8 @@
         "action": "Azione",
         "count": "Qtà",
         "name": "Nome",
-        "rating": "Val."
+        "rating": "Val.",
+        "nameAnimate": "Nome"
       },
       "attack.short": "A",
       "sleaze.short": "S",
@@ -545,7 +623,47 @@
       "specialization": "Specializzazione",
       "threshold": "Soglia",
       "value": "Valore",
-      "wilddie": "Dado Jolly"
+      "wilddie": "Dado Jolly",
+      "MagicalGoods": "Beni Magici",
+      "attack": {
+        "long": "Attacco"
+      },
+      "attack_rating_using_vehicle": "Grado di Attacco (Veicolo come Arma)",
+      "belongs_to": "Appartiene a",
+      "dataproc": {
+        "long": "Elaborazione Dati"
+      },
+      "defense": "Difesa",
+      "defense_against": "Difesa Contro",
+      "details": "Dettagli..",
+      "devicerating": {
+        "long": "Grado di Dispositivo"
+      },
+      "dual_hand": "Due Mani",
+      "edge_changes_combat": "Variazioni di Edge in Combattimento",
+      "firewall": {
+        "long": "Firewall"
+      },
+      "legality": {
+        "illegal": {
+          "long": "Illegale"
+        },
+        "legal": {
+          "long": "Legale"
+        }
+      },
+      "matrixMonitor": "Monitor Matrix",
+      "mode_of_operation": "Modalità di Funzionamento",
+      "pools": "Pool",
+      "rating": "Grado",
+      "sleaze": {
+        "long": "Sleaze"
+      },
+      "soak": "Assorbimento",
+      "speed_detail": "Ti stai muovendo a {speed} km/h ({speedPerTurn} metri per turno). Il tuo modificatore per le prove è {modifier}.",
+      "trait": "Tratto",
+      "trait_pool": "Tratto / Pool",
+      "type": "Tipo"
     },
     "lifestyle": {
       "cost": "Costo",
@@ -560,38 +678,194 @@
       "luxury": "Lusso"
     },
     "matrixaction": {
-      "backdoor_entry": "Ingresso Non Autorizzato",
-      "brute_force": "Forza Bruta",
-      "change_icon": "Cambia Icona",
-      "check_os": "Controlla OS",
-      "control_device": "Controlla Dispositivo",
-      "crack_file": "Forza File",
-      "crash_program": "Arresta Programma",
-      "data_spike": "Punta Dati",
-      "disarm_data_bomb": "Disinnesca Bomba Dati",
-      "edit_file": "Modifica File",
-      "encrypt_file": "Cripta File",
-      "enter_host": "Entra Host",
-      "erase_matrix_signature": "Cancella Firma Matrice",
-      "format_device": "Formatta Dispositivo",
-      "full_matrix_defense": "Difesa Totale Matrice",
-      "hash_check": "Verifica Hash",
-      "hide": "Nascondi",
-      "jack_out": "Disconnessione",
-      "jam_signals": "Interferisci Segnali",
-      "jump_rigged": "Collegati al Veicolo",
-      "matrix_perception": "Percezione Matrice",
-      "matrix_search": "Ricerca Matrice",
-      "probe": "Sonda",
-      "reboot_device": "Riavvia Dispositivo",
-      "reconfigure": "Riconfigura Attributi Matrice",
-      "send_message": "Invia Messaggio",
-      "set_data_bomb": "Imposta Bomba Dati",
-      "snoop": "Spia",
-      "spoof_command": "Comando Falso",
-      "switch_ifmode": "Cambia Modalità Interfaccia",
-      "tarpit": "Trappola",
-      "trace_icon": "Traccia Icona"
+      "backdoor_entry": {
+        "name": "Ingresso dalla Porta sul Retro",
+        "hint": "Ottieni l'accesso Admin a un host o dispositivo in modo furtivo. Prima esegui un'azione Probe riuscita e aggiungi i successi netti come bonus a questo pool di dadi."
+      },
+      "brute_force": {
+        "name": "Forza Bruta",
+        "hint": "Tenta di ottenere un accesso rapido tempestando un bersaglio. Quando si tenta di passare direttamente da estraneo ad admin, il nemico ottiene due dadi bonus e +4 al Grado di Difesa - in ogni caso il dispositivo verrà allarmato."
+      },
+      "change_icon": {
+        "name": "Cambia Icona",
+        "hint": "Seleziona un'Icona e sostituiscila con un'altra. Questo non impedirà di essere rintracciato, se qualcuno ci prova."
+      },
+      "check_os": {
+        "name": "Controlla OS",
+        "hint": "Dai un'occhiata al tuo Punteggio di Sorveglianza. Ironicamente, anche questa azione aumenta il tuo OS."
+      },
+      "control_device": {
+        "name": "Controlla Dispositivo",
+        "hint": "Prendi il controllo di un dispositivo come se ne fossi il proprietario, finché non lo abbandoni volontariamente, lo spegni o qualcun altro ti estromette dal controllo."
+      },
+      "crack_file": {
+        "name": "Decifra File",
+        "hint": "Rendi leggibile un file crittografato con questa azione."
+      },
+      "crash_program": {
+        "name": "Arresta Programma",
+        "hint": "Scopri quali programmi sta eseguendo il dispositivo del tuo avversario con una Percezione Matrix, poi esegui questa azione per arrestarlo."
+      },
+      "data_spike": {
+        "name": "Picco di Dati",
+        "hint": "Questo è l'attacco standard per infliggere danno Matrix a un dispositivo o a una persona."
+      },
+      "disarm_data_bomb": {
+        "name": "Disinnesca Bomba Dati",
+        "hint": "Con questa puoi disinnescare le Bombe Dati che hai rilevato con la Percezione Matrix. Se non ottieni successi netti, la Bomba Dati esplode."
+      },
+      "edit_file": {
+        "name": "Modifica File",
+        "hint": "Aggiungi, modifica, copia o elimina un file con questa azione. Durante un combattimento, aggiungere o modificare un file richiede un'azione per ogni dettaglio. I file crittografati non possono essere copiati."
+      },
+      "encrypt_file": {
+        "name": "Cifra File",
+        "hint": "Questo rende un file illeggibile senza prima decifrarlo. Il Grado di Crittografia è pari ai successi di questo tiro."
+      },
+      "enter_host": {
+        "name": "Entra/Esci dall'Host",
+        "hint": "Entra o esci da un host."
+      },
+      "erase_matrix_signature": {
+        "name": "Cancella Firma Matrix",
+        "hint": "Se hai un grado di Risonanza, rimuovi con questa azione una firma Matrix lasciata da un technomante o uno sprite."
+      },
+      "format_device": {
+        "name": "Formatta Dispositivo",
+        "hint": "Sostituisci il settore di avvio di questo dispositivo con il tuo codice, così non si avvierà più ogni volta che gli viene chiesto di riavviarsi."
+      },
+      "full_matrix_defense": {
+        "name": "Difesa Matrix Completa",
+        "hint": "Aggiungi il tuo Firewall a tutte le prove di difesa relative alla Matrix."
+      },
+      "hash_check": {
+        "name": "Controllo Hash",
+        "hint": "Cerca file crittografati con un contenuto specifico in un host o dispositivo. Le probabilità aumentano notevolmente se possiedi un valore hash."
+      },
+      "hide": {
+        "name": "Nasconditi",
+        "hint": "Tenta di far perdere a un bersaglio le tue tracce nella Matrix. Non funziona se l'icona ha accesso Utente o Admin a un qualsiasi dispositivo della tua rete."
+      },
+      "jack_out": {
+        "name": "Disconnessione",
+        "hint": "Disconnettiti dalla Matrix riavviando il tuo dispositivo. Se sei link-locked, l'avversario tirerà contro di te. Se non sei passato prima ad AR, subirai danni da dump-shock."
+      },
+      "jam_signals": {
+        "name": "Disturba Segnali",
+        "hint": "Mentre non usi questo dispositivo per altre azioni, questo aumenterà il grado di rumore di tutti i successi che hai entro un raggio di 100 metri."
+      },
+      "jump_rigged": {
+        "name": "Entra in Dispositivo Riggerato",
+        "hint": "Il veicolo o drone in cui vuoi entrare necessita di un adattamento da rigger e tu di un control rig. Puoi entrare solo se nessun altro è dentro. Anche la tua proprietà e il livello di accesso influiscono sul successo e sulla necessità di tirare."
+      },
+      "matrix_perception": {
+        "name": "Percezione Matrix",
+        "hint": "Trova un'icona che corre silenziosa o raccogli informazioni su un bersaglio, come la sua icona e il grado di dispositivo, i dispositivi in esecuzione, i programmi e altre informazioni specifiche."
+      },
+      "matrix_search": {
+        "name": "Ricerca Matrix",
+        "hint": "Scansiona la Matrix pubblica per informazioni su un soggetto."
+      },
+      "probe": {
+        "name": "Sondaggio",
+        "hint": "Tenta di trovare un exploit e usa poi l'azione Ingresso dalla Porta sul Retro per ottenere accesso. Richiede tempo, ma a differenza della Forza Bruta non allarma il bersaglio."
+      },
+      "reboot_device": {
+        "name": "Riavvia Dispositivo",
+        "hint": "Questo disconnette un dispositivo dalla Matrix forzandone il riavvio. Sarà di nuovo online entro la fine del round di combattimento successivo."
+      },
+      "reconfigure": {
+        "name": "Riconfigura Attributo Matrix",
+        "hint": "Scambia due gradi base della tua Persona Matrix superiori a 0, indipendentemente dalla fonte (commlink, cyberjack, ecc.) da cui provengono."
+      },
+      "send_message": {
+        "name": "Invia Messaggio",
+        "hint": "Recapita audio o testo a qualcun altro, o crea un feed live verso di lui."
+      },
+      "set_data_bomb": {
+        "name": "Piazza Bomba Dati",
+        "hint": "Allega una Bomba Dati per far saltare in aria gli hacker disattenti. Il grado può arrivare fino al massimo dei successi netti ottenuti. Poi scegli se la Bomba Dati cancella o no il file."
+      },
+      "snoop": {
+        "name": "Spia",
+        "hint": "Metti le mani sul traffico dati scambiato tra il tuo bersaglio e la Matrix."
+      },
+      "spoof_command": {
+        "name": "Falsifica Comando",
+        "hint": "Invia un comando a un dispositivo fingendo di esserne il legittimo proprietario. Come di norma, il dispositivo tenta poi di eseguire l'azione come sua prossima azione maggiore disponibile."
+      },
+      "switch_ifmode": {
+        "name": "Cambia Modalità Interfaccia",
+        "hint": "Commuta tra le modalità AR e VR della tua interfaccia."
+      },
+      "tarpit": {
+        "name": "Tarpit",
+        "hint": "Rallenta il tuo bersaglio infliggendo danni e riducendone il valore di elaborazione dati."
+      },
+      "trace_icon": {
+        "name": "Traccia Icona",
+        "hint": "Rintraccia la posizione fisica di un dispositivo o di una persona."
+      },
+      "calibration": {
+        "hint": "Aggiungi uno all'Iniziativa Matrix tua e dei tuoi compagni (che condividono un feed AR con il tuo PAN) per ogni due successi che ottieni. L'aumento totale di una Persona non può superare la tua Elaborazione Dati.",
+        "name": "Calibrazione"
+      },
+      "delayed_command": {
+        "hint": "Invia un comando a un dispositivo con un intervallo di tempo. In caso di successo, il dispositivo lo riconoscerà come inviato dal proprietario. Scaduto l'intervallo, il comando sarà eseguito, anche se il dispositivo è stato disconnesso dalla Matrix. Un riavvio prima dell'esecuzione, tuttavia, cancellerà il comando.",
+        "name": "Comando Ritardato"
+      },
+      "denial_of_service": {
+        "hint": "Crea una penalità ai dadi per tutte le prove che usano questo dispositivo wifi pari ai successi netti per due.",
+        "name": "Negazione del Servizio"
+      },
+      "device_lock": {
+        "hint": "Impedisci al proprietario di un dispositivo di disconnetterlo dalla Matrix per una durata pari ai successi netti in round di combattimento. Può essere prolungato una volta spendendo un'azione minore.",
+        "name": "Blocco Dispositivo"
+      },
+      "garbage_in_out": {
+        "hint": "Pasticcia con i segnali di input e output di un dispositivo. Per esempio, ogni volta che il proprietario vuole avviare un programma, viene cancellata l'ultima foto scattata.",
+        "name": "Spazzatura Dentro/Spazzatura Fuori"
+      },
+      "known_exploit": {
+        "hint": "Tenta di usare exploit noti per ottenere accesso Admin diretto. Le possibilità di riuscita diminuiscono su host o dispositivi ben aggiornati. Combina le azioni Probe e Ingresso dalla Porta sul Retro in una sola. Non puoi ottenere o usare Edge per questa azione, mentre l'avversario ottiene gratis un Edge temporaneo per opporsi a te.",
+        "name": "Ingresso con Exploit Noto"
+      },
+      "masquerade": {
+        "hint": "Puoi fingere di essere qualcun altro nella Matrix per un numero di minuti pari ai successi netti. Tuttavia è difficile ingannare la Matrix e questo non funziona per cose come prendere possesso di dispositivi o operazioni bancarie.",
+        "name": "Mascheramento"
+      },
+      "metahuman_middle": {
+        "hint": "Fai passare tutte le comunicazioni e azioni Matrix attraverso il tuo dispositivo per un numero di minuti pari ai successi netti.",
+        "name": "Metaumano nel Mezzo"
+      },
+      "modify_icon": {
+        "hint": "Modifica un'Icona a cui hai accesso Admin in qualcosa che non rappresenta, come far sembrare la tua pistola un mazzo di fiori.",
+        "name": "Modifica Icona"
+      },
+      "pop_up": {
+        "hint": "Tempesta il tuo avversario con finestre ARO, così non potrà spendere Edge per un numero di round pari ai successi netti perché distratto.",
+        "name": "Popup"
+      },
+      "squelch": {
+        "hint": "Impedisci al bersaglio di inviare messaggi o chiamare qualcuno per un numero di round pari ai successi netti.",
+        "name": "Silenziamento"
+      },
+      "subvert_infrastructure": {
+        "hint": "Fai fare a un gruppo di dispositivi simili e semplici di un host ciò che vuoi, come spegnere i lampioni o ruotare tutte le telecamere di sicurezza a sinistra.",
+        "name": "Sovverti Infrastruttura"
+      },
+      "threat_analysis": {
+        "hint": "Marca le entità ostili e condividile via Feed AR con i tuoi compagni, così otterranno i tuoi successi come dadi bonus al loro tiro di difesa. Funziona sia per il mondo fisico che per la Matrix.",
+        "name": "Analisi delle Minacce"
+      },
+      "virtual_aim": {
+        "hint": "Ti dà un dado bonus per le tue azioni di attacco come Picco di Dati o Tarpit. Può essere attivata una volta per round, ma si somma a ogni round a meno che tu non faccia un'altra azione Mira Virtuale o un attacco. Il massimo è la tua Volontà.",
+        "name": "Mira Virtuale"
+      },
+      "watchdog": {
+        "hint": "Ti permette di pedinare e anticipare le azioni di una persona o dispositivo Matrix per un numero di round pari ai successi netti, così da poter intervenire. Avere il Watchdog attivo ti permette di eseguire l'Analisi delle Minacce come azione minore.",
+        "name": "Cane da Guardia"
+      }
     },
     "matrixini": {
       "ar": "RA",
@@ -602,7 +876,14 @@
       "matrix": "Matrice",
       "physical": "Salute",
       "stun": "Stordimento",
-      "overflow": "Eccesso"
+      "overflow": "Eccesso",
+      "broken": "FUORI USO",
+      "dead": "MORTO",
+      "label": "Monitor",
+      "matrix_monitor": "Monitor Matrix",
+      "overflow_monitor": "Monitor di Sovraccarico",
+      "physical_monitor": "Monitor Fisico",
+      "stun_monitor": "Monitor Stordimento"
     },
     "mortype": {
       "adept": "Adep",
@@ -642,7 +923,19 @@
       "survival": "Coltellino svizzero multiuso",
       "vehicles": "Un mezzo spettacolare",
       "weapon": "Un'arma col nome è più figa",
-      "weaponclose": "Qualcosa di pesante"
+      "weaponclose": "Qualcosa di pesante",
+      "accessory": "Pezzi di vetro scintillanti",
+      "armor_addition": "Il tuo cappotto ha bisogno di aggiornamenti",
+      "echo": "Echooooooo",
+      "genetics": "Tutti vogliono occhi azzurri",
+      "magical": "Piume di mojo",
+      "mod": "Mod Vernice Rosa",
+      "nanoware": "Sette o nove piccole macchine",
+      "rcc": "Dominatore di Tirapiedi X2000",
+      "software": "Bootleg sospetto",
+      "spritepower": "Cookie",
+      "tools": "Il tuo strumento preferito",
+      "weaponspecial": "Arma strana"
     },
     "npc": {
       "subtype": {
@@ -652,7 +945,10 @@
         "sprite": "Spirito Tecnologico"
       },
       "gruntrules": "È una pedina",
-      "mortype": "Magia/Risonanza"
+      "mortype": "Magia/Risonanza",
+      "grunt_group": "Gruppo di Tirapiedi",
+      "grunt_group_attack": "Attacca come Gruppo di Tirapiedi (x{numberGrunts})",
+      "grunt_group_id": "G{groupId}"
     },
     "numerical": {
       "base": "base",
@@ -774,14 +1070,22 @@
         "defense": {
           "physical": "Difende da attacco fisico",
           "spells_direct": "Difende da incantesimi diretti",
-          "spells_indirect": "Difende da incantesimi indiretti"
+          "spells_indirect": "Difende da incantesimi indiretti",
+          "matrix": "Difesa contro un evento Matrix"
         },
         "soak": {
           "drain": "Resiste a {damage} Drenaggio",
           "fading": "Resiste a {damage} Svanimento",
           "damage_physical": "Resiste a {damage} Danno Fisico",
-          "damage_stun": "Resiste a {damage} Danno da Stordimento"
-        }
+          "damage_stun": "Resiste a {damage} Danno da Stordimento",
+          "damage_phys": "Resisti a {damage} danni Fisici"
+        },
+        "thread_target_multiple": "Threading di {name} su più bersagli",
+        "thread_target_none": "Threading di {name}",
+        "thread_target_one": "Threading di {name} su {target}",
+        "using_target_multiple": "Uso di {name} su più bersagli",
+        "using_target_none": "Uso di {name}",
+        "using_target_one": "Uso di {name} su {target}"
       },
       "apply_damage": "Applica danno",
       "ar_0": "Ravvicinata",
@@ -813,7 +1117,16 @@
         "getting": "Acquisizione Vantaggio",
         "no_gain": "Nessuno guadagna Vantaggio",
         "situational": "Vantaggio Situazionale",
-        "spending": "Spesa Vantaggio"
+        "spending": "Spesa Vantaggio",
+        "add_manually_to_target": "(Aggiungi manualmente) Bersaglio",
+        "boost": "Boost",
+        "edge_action_spent": "Azione Edge: {actionTitle}",
+        "edge_spent": "Boost Edge: {boostTitle}",
+        "opponent": "Avversario",
+        "opponent_edge_boost": "Boost Edge dell'Avversario",
+        "original_test": "Prova originale di:",
+        "spend": "Spendi!",
+        "spend_edge": "Spendi Edge"
       },
       "edge_perform": "Fallo",
       "edgegain": "Guadagno Vantaggio (max): ",
@@ -840,14 +1153,18 @@
         "ampUp": {
           "1": "Danno+1, Drenaggio+2",
           "2": "Danno+2, Drenaggio+4",
-          "title": "Potenzia"
+          "title": "Potenzia",
+          "3": "Danno+3 / Drain+6",
+          "4": "Danno+4 / Drain+8"
         },
         "incArea": {
           "1": "Raggio +2m, Drenaggio+1",
           "2": "Raggio +4m, Drenaggio+2",
           "3": "Raggio +6m, Drenaggio+3",
           "4": "Raggio +8m, Drenaggio+4",
-          "title": "Aumenta l'Area"
+          "title": "Aumenta l'Area",
+          "5": "Raggio +10m / Drain+6",
+          "6": "Raggio +12m / Drain+8"
         },
         "title": "Regola l'incantesimo"
       },
@@ -860,7 +1177,27 @@
       "threshold": "Soglia",
       "weapon": "Definisci l'attacco",
       "wilddie": "Usa dado jolly",
-      "with": "con"
+      "with": "con",
+      "ar_0_hint": "Vicino (0-3 metri)",
+      "ar_1_hint": "Prossimo (4-50 metri)",
+      "ar_2_hint": "Medio (51-250 metri)",
+      "ar_3_hint": "Lontano (251-500 metri)",
+      "ar_4_hint": "Estremo (500+ metri)",
+      "cantDodgeBullets": "Aumenta la soglia in base alle circostanze dopo aver impostato la distanza",
+      "create": "Crea il tuo Pool di Dadi Shadowrun",
+      "damage_applied": "Danno applicato",
+      "damage_revert": "Annullare il danno?",
+      "extended": "Prova Estesa",
+      "failedDefenseGeneral": "Non sei riuscito a difenderti",
+      "hardenedArmor": "Armatura Rinforzata applicata",
+      "interval": "Intervallo",
+      "manualResult": "Risultato",
+      "missedAttack": "Hai mancato, chummer!",
+      "netHits": "successi netti",
+      "succesfulHit": "L'hai colpito, chummer!",
+      "successfulDefenseGeneral": "Ti sei difeso con successo",
+      "sustained-spell-modifier": "Usa il modificatore di mantenimento",
+      "wound-modifier": "Usa il modificatore di ferita"
     },
     "rollType": {
       "bought": "Acquista successi",
@@ -882,7 +1219,9 @@
           "name": "Nome",
           "social": "Sociale"
         },
-        "title": "Armature"
+        "title": "Armature",
+        "disable": "Togli armatura",
+        "enable": "Indossa armatura"
       },
       "biology": "Biologia",
       "bodyware": {
@@ -934,7 +1273,8 @@
         "title": "Stili di Vita"
       },
       "gear": {
-        "title": "Equipaggiamento"
+        "title": "Equipaggiamento",
+        "add": "Aggiungi nuovo equipaggiamento"
       },
       "matrix_base": {
         "overwatch": "Sorveglianza"
@@ -952,7 +1292,9 @@
           "devRating": "Val.D.",
           "name": "Nome"
         },
-        "title": "Dispositivi Matrice"
+        "title": "Dispositivi Matrice",
+        "add_rcc": "Aggiungi nuova Console di Comando del Rigger",
+        "title_rcc": "RCC"
       },
       "metamagic": {
         "add": "Aggiungi nuova metamagia",
@@ -963,7 +1305,9 @@
       },
       "persona": {
         "distribute": "Distribuisci",
-        "title": "Persona"
+        "title": "Persona",
+        "accessDevice": "Dispositivo di Accesso Matrix",
+        "silent": "Modalità Silenziosa"
       },
       "qualities": "Qualità",
       "qualities_add": "Aggiungi",
@@ -992,7 +1336,10 @@
         "column.alchemic": "Alch.",
         "column.drain": "Drenaggio",
         "column.range": "Raggio",
-        "title": "Incantesimi"
+        "title": "Incantesimi",
+        "column": {
+          "sustained": "Mant."
+        }
       },
       "survival": "Sopravvivenza",
       "vehicles": {
@@ -1021,6 +1368,62 @@
         "ranged": "Armi da Distanza",
         "special": "Armi Speciali",
         "title": "Armi"
+      },
+      "armor_adds": "Mod Armatura",
+      "karma": {
+        "heat": "Notorietà",
+        "karma": "Karma",
+        "reputation": "Reputazione",
+        "title": "Karma, Notorietà, Reputazione",
+        "total": "Totale"
+      },
+      "magical": "Magico",
+      "pan": {
+        "administrator": "Persona dell'Amministratore",
+        "column": {
+          "access": "Accesso",
+          "nodes": "Nodi PAN"
+        },
+        "defense": "Difesa",
+        "deviceLimit": "Limite Dispositivi Remoti",
+        "name": "Nome PAN",
+        "noAccessDevice": "Nessun Dispositivo di Accesso Matrix",
+        "ownerPan": "PAN di {owner}",
+        "role": {
+          "external-master-pan": "PAN Master Esterno",
+          "externalMasterDevice": "Dispositivo Master Esterno",
+          "master-pan": "PAN Master",
+          "masterAccessDevice": "Dispositivo di Accesso Master",
+          "primary-access-device": "Dispositivo di Accesso Primario",
+          "secondary-access-device": "Dispositivo di Accesso Secondario",
+          "slaved-device": "Dispositivo Asservito",
+          "slavedDevice": "Dispositivo Asservito",
+          "slavedPanAccessDevice": "Dispositivo di Accesso PAN Asservito"
+        },
+        "rollMatrixDefense": "Tira Difesa Matrix",
+        "slavedTo": "Asservito a",
+        "title": "Rete di Area Personale",
+        "unknownMaster": "Master Sconosciuto",
+        "usesMasterDefense": "usa la difesa del master",
+        "usesOwnDefense": "usa la propria difesa"
+      },
+      "rigging": {
+        "title": "Rigging"
+      },
+      "skills": {
+        "level": "Livello Linguistico"
+      },
+      "software": {
+        "add": "Aggiungi nuovo software",
+        "title": "Software"
+      },
+      "spritepowers": {
+        "title": "Poteri dello Sprite"
+      },
+      "sustained": {
+        "add": "Aggiungi nuovo incantesimo",
+        "title": "Incantesimi Mantenuti",
+        "toggle": "Commuta Mantenimento"
       }
     },
     "settings": {
@@ -1035,6 +1438,53 @@
       "defaultThreshold": {
         "hint": "Definisce la soglia predefinita per ogni tiro di abilità",
         "name": "Soglia predefinita"
+      },
+      "armorLessensDmg": {
+        "hint": "Usa questa regola per ridurre la quantità di danno fisico subito. Dopo aver resistito al danno (da fonti diverse da tossine o stati), converti una casella di danno Fisico in Stordimento per ogni 8 punti pieni di GD che hai. (SWC p.149)",
+        "name": "L'Armatura Riduce il Danno Fisico"
+      },
+      "bleeding": {
+        "hint": "Usa questa regola per rappresentare il danno continuo derivante da gravi ferite. (SWC p.145)",
+        "name": "Sanguinamento"
+      },
+      "cantDodgeBullets": {
+        "hint": "Qualsiasi prova contrapposta per un attacco diventa invece una prova semplice contro una soglia stabilita dalla distanza e dalla dimensione del pool di difesa del bersaglio. Il bersaglio dell'attacco può comunque usare i Boost Edge contro i dadi dell'attaccante. (SWC p.151)",
+        "name": "Non Puoi Schivare i Proiettili"
+      },
+      "dataEntry": {
+        "hint": "Abilita per cambiare l'ID GENESIS/Commlink e il numero di manuale e pagina di Shadowrun da cui proviene un Oggetto nella Scheda Oggetto.",
+        "name": "Inserimento Dati Oggetto"
+      },
+      "expandedSpecializations": {
+        "hint": "Non usare alcun limite sul numero di specializzazioni che un'abilità può avere. Non sei obbligato ad acquistare una competenza prima di prendere ulteriori specializzazioni. Le competenze restano limitate a una per abilità (SWC p.153)",
+        "name": "Specializzazioni Estese"
+      },
+      "hackSlashMatrix": {
+        "hint": "Abilita per mostrare le Azioni Matrix del manuale Hack & Slash sulle schede dei personaggi. (HS p.28)",
+        "name": "Azioni Matrix di Hack & Slash"
+      },
+      "hardDiceCap": {
+        "hint": "Nel gioco standard, c'è un massimo di 20 dadi per qualsiasi prova. Nessuna combinazione di capacità, abilità, effetti o potenziamenti può superare questo limite durante un tiro. Eccezione: pre-edgeare una prova permette di superare il limite di 20 dadi con i dadi bonus concessi dall'Edge.",
+        "name": "Limite Rigido dei Dadi"
+      },
+      "highStrengthAddsDamage": {
+        "hint": "Se la tua Forza è almeno 7, aumenta il tuo VD in mischia di 1. Se la tua Forza è 10 o più, aumenta il tuo VD in mischia di 2. Le armi che non beneficiano dell'alta forza non aumentano il VD. (SWC p.150)",
+        "name": "L'Alta Forza Aumenta il Danno"
+      },
+      "highStrengthReducesRecoil": {
+        "hint": "Le penalità GA per gli attacchi in modalità di fuoco sono ridotte di 1 se la forza dell'attaccante è 7 o più, e di 2 a forza 10 o più. Devono essere usate entrambe le mani per controllare l'arma da fuoco. (SWC p.150)",
+        "name": "L'Alta Forza Riduce il Rinculo"
+      },
+      "pdf": {
+        "hint": "Configura il giornale PDF per questo manuale di Shadowrun Sixth World.",
+        "offset": {
+          "hint": "Configura lo scostamento delle pagine. Esempio: se la pagina 12 è in realtà la pagina 11, lo scostamento è 1.",
+          "name": "Scostamento"
+        }
+      },
+      "rollStrengthCombat": {
+        "hint": "Gli attacchi in Combattimento Ravvicinato possono tirare Forza invece di Agilità per qualsiasi attacco senz'armi o se l'arma si basa sia su massa che su slancio. Usando questo, aggiungi Agilità al Grado di Attacco al posto della Forza. Quando rilevante per l'arma, deve essere impugnata con entrambe le mani. (SWC p.150)",
+        "name": "Tirare Forza Invece di Agilità nel Combattimento Ravvicinato"
       }
     },
     "sin": {
@@ -1061,7 +1511,8 @@
         "gymnastics": "Ginnastica",
         "sprinting": "Scatto",
         "swimming": "Nuoto",
-        "throwing": "Lancio"
+        "throwing": "Lancio",
+        "free_fall": "Caduta Libera"
       },
       "biotech": {
         "biotechnology": "Biotecnologie",
@@ -1110,7 +1561,17 @@
         "lockpicking": "Scassinamento",
         "nautical_mechanic": "Meccanica Nautica"
       },
-      "exotic_weapons": {},
+      "exotic_weapons": {
+        "air": "Aria Compressa",
+        "brawling": "Combattimento Ravvicinato",
+        "chainsaws": "Motoseghe",
+        "emitter": "Armi a Energia",
+        "laser": "Armi Laser",
+        "launchers": "Lanciatori",
+        "other": "Altro",
+        "spray": "Armi a Spruzzo",
+        "whips": "Fruste"
+      },
       "firearms": {
         "assault_cannons": "Cannoni d'Assalto",
         "holdouts": "Pistole Nascoste",
@@ -1120,7 +1581,8 @@
         "rifles": "Fucili",
         "shotguns": "Fucili a Pompa",
         "submachine_guns": "Mitragliette",
-        "tasers": "Taser"
+        "tasers": "Taser",
+        "machine_guns": "Mitragliatrici"
       },
       "influence": {
         "etiquette": "Etichetta",
@@ -1223,7 +1685,8 @@
       "type_mana_short": "Man",
       "type_physical": "Fisico",
       "type_physical_short": "Fis",
-      "withEssence": "Contro Essenza"
+      "withEssence": "Contro Essenza",
+      "combatSpellType": "Tipo di Incantesimo da Combattimento"
     },
     "spellfeatures": {
       "area": "Area",
@@ -1239,7 +1702,10 @@
       "fire": "Fuoco",
       "kin": "Parente",
       "plant": "Pianta",
-      "water": "Acqua"
+      "water": "Acqua",
+      "guardian": "Guardiano",
+      "guidance": "Guida",
+      "task": "Compito"
     },
     "tradition": {
       "attribute": "Caratteristica della Tradizione"
@@ -1255,19 +1721,337 @@
         "autonomous": "Autonomo"
       },
       "skill": {
-        "piloting": "Pilotaggio"
+        "piloting": "Pilotaggio",
+        "cracking": "Cracking",
+        "evasion": "Evasione",
+        "perception": "Percezione",
+        "stealth": "Furtività"
       },
       "type": {
         "groundcraft": "Veicolo Terrestre",
         "watercraft": "Veicolo Acquatico",
         "aircraft": "Veicolo Aereo"
-      }
+      },
+      "has_no_owner": "Il veicolo/drone non ha un proprietario assegnato",
+      "initiative": "Iniziativa del veicolo"
     },
     "weapon": {
       "damage": "DV",
       "attackRating": "Valore d'Attacco",
       "firemodes": "Modalità",
-      "ammo": "Munizioni"
+      "ammo": "Munizioni",
+      "ammo_cap": "Capacità Munizioni",
+      "ammo_cap_short": "Cap. Mun.",
+      "ammo_changes_combat": "Cambi Munizioni in Combattimento",
+      "ammo_loaded": "Munizioni Caricate",
+      "reload_ammo": "Ricarica le munizioni"
+    },
+    "EFFECT": {
+      "aceinthehand": "Sociale: Asso nella Manica",
+      "bleeding": "Sanguinamento",
+      "cerebropathy": "Matrix: Cerebropatia",
+      "chilled": "Infreddolito",
+      "confused": "Confuso",
+      "corrosive": "Corrosivo",
+      "cover": "Copertura",
+      "cybervirus": "Matrix: Cybervirus",
+      "dazed": "Frastornato",
+      "deafened": "Assordato",
+      "disabled": "Inabilitato",
+      "fatigued": "Affaticato",
+      "fishoutofwater": "Sociale: Pesce Fuor d'Acqua",
+      "follower": "Sociale: Seguace",
+      "frightened": "Spaventato",
+      "hazed": "Annebbiato",
+      "hobbled": "Azzoppato",
+      "immobilized": "Immobilizzato",
+      "invisible_improved": "Invisibile (Migliorato)",
+      "irradiated": "Irradiato",
+      "misdirected": "Sociale: Sviato",
+      "muted": "Ammutolito",
+      "nauseated": "Nauseato",
+      "offbalance": "Sbilanciato",
+      "panicked": "In Preda al Panico",
+      "petrified": "Pietrificato",
+      "poisoned": "Avvelenato",
+      "psychotropic": "Matrix: Psicotropico",
+      "sensorLock": "Sensore Agganciato",
+      "silent": "Silenzioso",
+      "silent_improved": "Silenzioso (Migliorato)",
+      "smitten": "Sociale: Infatuato",
+      "stilled": "Immobile",
+      "suckered": "Sociale: Raggirato",
+      "wet": "Bagnato",
+      "zapped": "Folgorato"
+    },
+    "KEYBINDINGS": {
+      "bindTokenControlGroup": "Vincola i Token selezionati al Gruppo di Controllo",
+      "formGruntGroup": "Crea un Gruppo di Tirapiedi con i Token selezionati",
+      "selectTokenControlGroup": "Seleziona i Token del Gruppo di Controllo"
+    },
+    "active_effect": {
+      "Modifier": "Modificatore {attribute}",
+      "Pool": "Pool {pool} (solo Override)",
+      "Skill": "Abilità {skill}",
+      "advanced": "Avanzato?",
+      "advanced_hint": "Se selezionato, puoi inserire Chiavi di Attributo di Sistema personalizzate invece del solo elenco consigliato dal sistema Shadowrun 6E.",
+      "armor": {
+        "mod": "Mod Armatura:"
+      },
+      "badLuck": "Sfortuna nei glitch (imposta Override: true)",
+      "defensepool": {
+        "astral": {
+          "mod": "Modificatore Pool di Difesa Magica"
+        },
+        "damage_astral": {
+          "mod": "Modificatore Pool di Difesa dal Danno Astrale"
+        },
+        "damage_physical": {
+          "mod": "Modificatore Pool di Difesa dal Danno Fisico"
+        },
+        "drain": {
+          "mod": "Modificatore Pool Resistenza al Drain"
+        },
+        "fading": {
+          "mod": "Modificatore Pool Resistenza al Fading"
+        },
+        "physical": {
+          "mod": "Modificatore Pool di Difesa Fisica"
+        },
+        "spells_direct": {
+          "mod": "Modificatore Pool di Difesa dagli Incantesimi Diretti"
+        },
+        "spells_indirect": {
+          "mod": "Modificatore Pool di Difesa dagli Incantesimi Indiretti"
+        },
+        "toxin": {
+          "mod": "Modificatore Pool Resistenza alle Tossine"
+        }
+      },
+      "dicePoolMod": "Modificatore Pool di Dadi",
+      "explanation": "Gli Effetti Attivi possono modificare i modificatori di caratteristica e i pool del tuo personaggio o oggetto. Apri un ticket di Richiesta Funzionalità se manca un'automazione necessaria per un oggetto o qualità di Shadowrun.",
+      "gear_mod_tip": "Questo è un Effetto Attivo di una <strong>Mod Equipaggiamento</strong>. Gli effetti si applicano all'Oggetto in cui è installata. <strong>NON</strong> usare Chiavi di Attributo destinate agli Attori sulle Mod Equipaggiamento, e viceversa.",
+      "hardenedArmor": "Armatura Rinforzata",
+      "immunityNormalWeapons": "Immunità alle Armi Normali (Override true)",
+      "importedModifier": "Modificatore Importato",
+      "initiative": {
+        "astral": {
+          "diceMod": "Modificatore Pool di Dadi Iniziativa Astrale"
+        },
+        "matrix": {
+          "diceMod": "Modificatore Pool di Dadi Iniziativa Matrix"
+        },
+        "physical": {
+          "diceMod": "Modificatore Pool di Dadi Iniziativa Fisica"
+        }
+      },
+      "item_tip": "Se vuoi regolare una statistica dell'Oggetto stesso, <strong>devi</strong> disabilitare la casella <em>Applica Effetto all'Attore</em> nella scheda Dettagli. Un Effetto Attivo può applicarsi solo a <em>un</em> Attore <em>oppure</em> a <em>un</em> Oggetto. <strong>NON</strong> usare Chiavi di Attributo destinate alle Mod Equipaggiamento sugli Attori, e viceversa.",
+      "more_info": "Per maggiori informazioni, vedi il link seguente:",
+      "movementRate": "Velocità di Movimento",
+      "movementSprintBase": "Base Scatto di Movimento",
+      "movementSprintMultiplier": "Moltiplicatore Scatto di Movimento",
+      "painTolerance": "Tolleranza al Dolore (imposta Override: 'high' o 'low')",
+      "stunOrPhysical": "Danno da Stordimento (true) o Fisico (false)",
+      "usage_tips": {
+        "1": "In generale, usa una chiave Modificatore per regolare una Caratteristica, un Pool o un Grado.",
+        "2": "Usa una chiave Pool solo se devi <em>Sovrascrivere</em> un'intera caratteristica, come con i Cyberarti o gli Skillwire.",
+        "3": "Come di norma in Shadowrun 6E, i Modificatori di Caratteristica e Abilità sono automaticamente limitati a +4."
+      },
+      "weapon": {
+        "mod": "Mod Arma:"
+      },
+      "wild": "Usa il Dado Selvaggio (imposta Override: true)"
+    },
+    "ammotypes": {
+      "apds": "APDS",
+      "explosive": "Esplosivo",
+      "flechette": "Flechette",
+      "gel": "Gel",
+      "regular": "Standard",
+      "sticknshock": "Stick-n-Shock"
+    },
+    "autosoft_types": {
+      "clearsight": "Clearsight",
+      "electronic_warfare": "Guerra Elettronica",
+      "evasion": "Evasione",
+      "maneuver": "Manovra",
+      "stealth": "Furtività",
+      "targeting": "Puntamento"
+    },
+    "dice": {
+      "edge_rerolled": "Ritirato con l'Edge.",
+      "edge_rolled": "Tiro di dadi Edge.",
+      "extended": {
+        "continue": "Continua con la Prova Estesa",
+        "desc": "In totale sono passati {timePassed} {intervalScale}, e hai {hits} successi in totale.",
+        "intervalScale": {
+          "day_long_few": "giorni",
+          "day_long_many": "giorni",
+          "day_long_one": "giorno",
+          "day_long_other": "giorni",
+          "day_long_two": "giorni",
+          "day_long_zero": "giorni",
+          "day_short": "g",
+          "hour_long_few": "ore",
+          "hour_long_many": "ore",
+          "hour_long_one": "ora",
+          "hour_long_other": "ore",
+          "hour_long_two": "ore",
+          "hour_long_zero": "ore",
+          "hour_short": "h",
+          "minute_long_few": "minuti",
+          "minute_long_many": "minuti",
+          "minute_long_one": "minuto",
+          "minute_long_other": "minuti",
+          "minute_long_two": "minuti",
+          "minute_long_zero": "minuti",
+          "minute_short": "m",
+          "month_long_few": "mesi",
+          "month_long_many": "mesi",
+          "month_long_one": "mese",
+          "month_long_other": "mesi",
+          "month_long_two": "mesi",
+          "month_long_zero": "mesi",
+          "month_short": "M",
+          "round_long_few": "round",
+          "round_long_many": "round",
+          "round_long_one": "round",
+          "round_long_other": "round",
+          "round_long_two": "round",
+          "round_long_zero": "round",
+          "round_short": "r",
+          "week_long_few": "settimane",
+          "week_long_many": "settimane",
+          "week_long_one": "settimana",
+          "week_long_other": "settimane",
+          "week_long_two": "settimane",
+          "week_long_zero": "settimane",
+          "week_short": "s"
+        }
+      },
+      "extended_failure": "In totale sono passati {timePassed} {intervalScale}, ma hai fallito nel tuo compito.",
+      "extended_first_interval": "Primo Intervallo",
+      "extended_next_interval": "Intervallo Successivo",
+      "extended_success": "In totale sono passati {timePassed} {intervalScale}, e sei riuscito nel tuo compito.",
+      "failed": "Fallito!",
+      "hit": "Successo!",
+      "wild": "Dado Selvaggio - 3 successi!",
+      "wild_ignored": "Successo annullato per un 1 tirato con un Dado Selvaggio."
+    },
+    "effect": {
+      "CantDelete": "Puoi eliminare questo effetto solo dal suo Oggetto.",
+      "Create": "Crea Nuovo Effetto",
+      "Duration": "Durata",
+      "Inactive": "Effetti Inattivi",
+      "Label": "Effetti",
+      "Label_one": "Effetto",
+      "New": "Nuovo Effetto",
+      "Passive": "Effetti Passivi",
+      "Source": "Fonte",
+      "Temporary": "Effetti Temporanei",
+      "Toggle": "Attiva/Disattiva Effetto"
+    },
+    "legwork": {
+      "legwork_description": "Quanto sa o può scoprire {name} tramite la propria rete?",
+      "legwork_rolltext": "Indagine // Connessione",
+      "loyalty_description": "Quanto è disposto {name} a condividere con te ciò che sa o può scoprire?",
+      "loyalty_rolltext": "Indagine // Lealtà",
+      "payformore": "«Sai, ho delle spese da coprire. Per qualche nuyen in più posso aiutarti con altre informazioni..»",
+      "results": {
+        "0": "Nessuna informazione utile.",
+        "1": "Informazioni di base, ampiamente disponibili.",
+        "10": "Segreti profondi che altri cercano attivamente di nascondere.",
+        "2": "Qualche briciola di informazione raccolta da uno studio occasionale.",
+        "3": "Informazioni da studi precedenti o conoscenza professionale generica.",
+        "4": "Conoscenze più esoteriche, qualche pettegolezzo sussurrato.",
+        "5": "Profonda familiarità accademica, solida conoscenza professionale, familiarità con i retroscena.",
+        "6": "Conoscenza di segreti e informazioni nascoste.",
+        "7": "Informazioni di alto livello, solida comprensione della storia.",
+        "8": "Conoscenza quasi enciclopedica, inclusi alcuni segreti profondi.",
+        "9": "Conoscenza rara disponibile solo a pochi eletti."
+      }
+    },
+    "matrix": {
+      "accessLevel": {
+        "admin": "ADMIN",
+        "outsider": "ESTRANEO",
+        "switch_access_level": "Clicca per cambiare livello di accesso e vedere quali Azioni Matrix sono disponibili.",
+        "user": "UTENTE"
+      },
+      "device": {
+        "disable": "Clicca per non usare questo dispositivo per accedere alla Matrix.",
+        "enable": "Clicca per usare questo dispositivo per accedere alla Matrix.",
+        "offline": "Il dispositivo non è online sulla Matrix perché è bloccato (bricked) o per configurazione errata."
+      }
+    },
+    "resetEdge": "Reimposta Edge",
+    "resetEdgeDescription": "Vuoi reimpostare l'Edge per tutti gli Attori e i Token selezionati?",
+    "softwareedit": {
+      "basic": "Standard",
+      "category": "Categoria",
+      "description": "Descrizione",
+      "hacking": "Hacking"
+    },
+    "ui": {
+      "notifications": {
+        "Dice_roll_evaluation_failed": "Valutazione del tiro di dadi fallita",
+        "No_actor_or_tokens_selected": "Assegnati un Personaggio Giocante, o seleziona dei token prima di tirare.",
+        "Select_a_token_first": "Seleziona prima un token, o configura il tuo attore Personaggio Giocante nella tua Configurazione Utente.",
+        "Target_a_token_before_rolling": "Bersaglia (T) un token prima di tirare.",
+        "Target_is_not_a_life_form": "Il bersaglio non è una forma di vita.",
+        "Target_or_select_a_token_before_rolling": "Bersaglia o seleziona un token prima di tirare.",
+        "You_are_not_owner_of_the_target": "Non sei il proprietario del bersaglio.",
+        "You_are_not_owner_of_the_token": "Non sei il proprietario del token.",
+        "You_are_not_owner_of_the_tokens": "Non sei il proprietario dei token selezionati.",
+        "You_can_only_choose_Wide_Burst_when_you_target_two_tokens": "Puoi scegliere Raffica Ampia solo quando bersagli (T) due token.",
+        "all_dice_are_successes": "Tutti i dadi sono già successi.",
+        "apply_manually": "Applica il danno manualmente.",
+        "attack_with_no_AR": "Stai cercando di attaccare mentre il tuo Grado di Attacco è 0, ad es. a causa della distanza.",
+        "bind_control_group": "Hai vincolato i token selezionati al Gruppo di Controllo {controlGroup}.",
+        "cant_increase_die": "Non puoi aumentare questo dado con questo Boost Edge, perché sarebbe inutile.",
+        "character_has_changed_edge": "{character} ha cambiato manualmente il proprio Edge da {oldEdge} a {edge}",
+        "character_has_reloaded": "{character} ha ricaricato la sua arma {weaponName} con munizioni {ammoType}.",
+        "character_has_spent_edge": "{actor} ha speso {edge} edge sul Boost Edge <b>{edgeBoost}</b>.",
+        "character_has_switched_ammo": "{character} ha cambiato le munizioni caricate nella sua arma {weaponName} in {ammoType}.",
+        "defaulting_spell_to_self": "Nessun token bersagliato, si lancia su te stesso come impostazione predefinita.",
+        "deviceRatingMigration": "<p>Migrato tutto l'equipaggiamento al Grado di Dispositivo predefinito di 2, e la Cyberware al Grado Standard.</p><p>Informa tutti i giocatori che devono regolare il loro equipaggiamento e cyberware se necessario.<p>",
+        "dismantle_grunt_group": "Hai sciolto il Gruppo di Tirapiedi dei Token selezionati.",
+        "do_not_revert_damage": "Sovraccarico nel monitor Fisico. Non annullare questo danno tramite il pulsante in chat, perché non verrebbe calcolato correttamente.",
+        "edge_boost_cannot_be_used_glitch": "Questo Boost Edge non può essere usato se viene tirato un glitch o un glitch critico.",
+        "edge_boost_is_not_post_edge": "'{boostTitle}' non è un boost edge post-tiro",
+        "edge_has_been_reset": "Tutto l'Edge è stato reimpostato dal GM.",
+        "effect_migration_to_v2": "Migrate le Chiavi degli Effetti Attivi per essere utilizzabili da ActorV2",
+        "extended_test_validation": "Quando si esegue una Prova Estesa, la Soglia e l'Intervallo devono essere 0 o maggiori.",
+        "form_grunt_group": "Hai formato un Gruppo di Tirapiedi con i Token selezionati.",
+        "form_grunt_group_failed": "I token selezionati non erano validi per un Gruppo di Tirapiedi. Non devono avere \"Collega Dati Attore\" abilitato nella loro Configurazione Token.",
+        "grunt_group_takes_two": "Devi avere più di un Token selezionato per formare un Gruppo di Tirapiedi.",
+        "many_targets_but_not_autofire_fire_mode": "Hai più di due bersagli, quindi puoi sparare solo in modalità Fuoco Automatico.",
+        "matrix_check_os": "Il tuo Punteggio di Sorveglianza attuale è {os}.",
+        "migration": {
+          "completed": "La migrazione del sistema è completata!",
+          "in_progress": "Migrazione dei documenti del sistema..",
+          "start": "La migrazione del sistema è in corso. Non chiudere né aggiornare la finestra!"
+        },
+        "no_die_with_a_1_or_4": "Il tuo tiro non ha un 1 o un 4, quindi questo Boost Edge è inutile.",
+        "no_weapon_skill_set": "Modifica l'arma per assegnare un'abilità collegata, prima di tirare.",
+        "not_enough_ammo": "Non hai munizioni a sufficienza nella tua arma. Cambia modalità di fuoco, o ricarica prima l'arma.",
+        "only_owner_is_allowed_to_spend_edge": "Solo il proprietario del personaggio può spendere edge su questo boost edge.",
+        "owner_not_logged_in": "Il Boost Edge non è possibile, ad es. perché la persona che ha tirato la prova non è online.",
+        "reduce_edge_from_actor": "Riduci l'edge del personaggio di {edge}.",
+        "reopen_dice_tooltip": "Hai cambiato i token selezionati. Riapri la sezione dadi nella chat per eseguire un Boost Edge.",
+        "reroll_failed_requires_index": "Seleziona uno o più dadi prima di cliccare sul pulsante `Spendi`.",
+        "select_control_group": "Hai selezionato i token del Gruppo di Controllo {controlGroup}.",
+        "statblock_import": {
+          "actor_tab": "scheda Attore.",
+          "error": "Qualcosa è andato storto nell'importazione dello Statblock del PNG. Usa un lettore PDF diverso o il tuo statblock potrebbe non essere supportato.",
+          "npc_compendium": "Compendio PNG.",
+          "success": "Il tuo statblock `{actor}` è stato importato in "
+        },
+        "two_targets_but_wrong_fire_mode": "Hai due bersagli, quindi puoi sparare solo con Raffica: Raffica Ampia, o in modalità Fuoco Automatico.",
+        "vehicle_has_no_owner": "Il veicolo non ha un proprietario assegnato.",
+        "wrong_import_file": "Impossibile importare un file di salvataggio GENESIS o COMMLINK! Usa invece l'Esportazione JSON di FoundryVTT.",
+        "you_require_more_edge": "Edge disponibile insufficiente. Te ne servono {edge} in più per eseguire questo boost."
+      }
     }
   },
   "skill": {
@@ -1290,5 +2074,442 @@
     "sorcery": "Stregoneria",
     "stealth": "Furtività",
     "tasking": "Gestione Spiriti/Droni"
+  },
+  "PDFSheet": {
+    "no_src": "Prima cambia la configurazione della scheda nella Scheda Pagina PDF Predefinita, configura l'URL del PDF, poi reimpostala sulla configurazione Scheda PDF di Sola Lettura."
+  },
+  "SR6": {
+    "Actor": {
+      "Tabs": {
+        "Description": "Descrizione",
+        "Effects": "Effetti",
+        "Features": "Caratteristiche",
+        "Summary": "Riepilogo"
+      },
+      "base": {
+        "FIELDS": {
+          "attributes": {
+            "agility": {
+              "label": "Agilità"
+            },
+            "body": {
+              "label": "Corporatura"
+            },
+            "charisma": {
+              "label": "Carisma"
+            },
+            "edge": {
+              "label": "Edge"
+            },
+            "essence": {
+              "label": "Essenza"
+            },
+            "intuition": {
+              "label": "Intuizione"
+            },
+            "logic": {
+              "label": "Logica"
+            },
+            "magic": {
+              "label": "Magia"
+            },
+            "reaction": {
+              "label": "Reazione"
+            },
+            "resonance": {
+              "label": "Risonanza"
+            },
+            "strength": {
+              "label": "Forza"
+            },
+            "willpower": {
+              "label": "Volontà"
+            }
+          },
+          "initiative": {
+            "label": "Iniziativa"
+          },
+          "matrix": {
+            "attributes": {
+              "attack": {
+                "label": "Attacco"
+              },
+              "dataProcessing": {
+                "label": "Elaborazione Dati"
+              },
+              "firewall": {
+                "label": "Firewall"
+              },
+              "sleaze": {
+                "label": "Sleaze"
+              }
+            },
+            "initiative": {
+              "label": "Iniziativa"
+            },
+            "overwatchScore": {
+              "label": "Punteggio di Sorveglianza",
+              "label_short": "OS"
+            }
+          },
+          "notes": {
+            "label": "Note"
+          },
+          "skills": {
+            "astral": {
+              "label": "Astrale"
+            },
+            "athletics": {
+              "label": "Atletica"
+            },
+            "biotech": {
+              "label": "Biotecnologia"
+            },
+            "close_combat": {
+              "label": "Combattimento Ravvicinato"
+            },
+            "con": {
+              "label": "Raggiro"
+            },
+            "conjuring": {
+              "label": "Evocazione"
+            },
+            "cracking": {
+              "label": "Cracking"
+            },
+            "electronics": {
+              "label": "Elettronica"
+            },
+            "engineering": {
+              "label": "Ingegneria"
+            },
+            "exotic_weapons": {
+              "label": "Armi Esotiche"
+            },
+            "firearms": {
+              "label": "Armi da Fuoco"
+            },
+            "influence": {
+              "label": "Influenza"
+            },
+            "outdoors": {
+              "label": "Vita all'Aperto"
+            },
+            "perception": {
+              "label": "Percezione"
+            },
+            "piloting": {
+              "label": "Pilotaggio"
+            },
+            "sorcery": {
+              "label": "Stregoneria"
+            },
+            "stealth": {
+              "label": "Furtività"
+            },
+            "tasking": {
+              "label": "Tasking"
+            }
+          }
+        }
+      },
+      "host": {
+        "FIELDS": {
+          "rating": {
+            "label": "Grado dell'Host"
+          }
+        }
+      },
+      "sprite": {
+        "FIELDS": {
+          "compiledBy": {
+            "label": "Compilato Da"
+          },
+          "level": {
+            "label": "Livello"
+          },
+          "registered": {
+            "label": "Registrato"
+          },
+          "tasksOwned": {
+            "label": "Compiti Posseduti"
+          }
+        },
+        "TYPES": {
+          "assassin": "//ASSASSINO//",
+          "courier": "//CORRIERE//",
+          "crack": "//CRACK//",
+          "data": "//DATI//",
+          "defender": "//DIFENSORE//",
+          "fault": "//FALLA//",
+          "machine": "//MACCHINA//",
+          "modular": "//MODULARE//",
+          "music": "//MUSICA//",
+          "primal": "//PRIMORDIALE//"
+        },
+        "notes": {
+          "music": "Abilità Raggiro: solo Intrattenere"
+        }
+      }
+    },
+    "Common": {
+      "FIELDS": {
+        "description": {
+          "label": "Descrizione"
+        },
+        "effects": {
+          "label": "Effetti"
+        },
+        "name": {
+          "label": "Nome"
+        },
+        "rating": {
+          "label": "Grado"
+        },
+        "type": {
+          "label": "Tipo"
+        }
+      }
+    },
+    "Item": {
+      "base": {
+        "FIELDS": {
+          "ammoLoaded": {
+            "hint": "Seleziona quale tipo di munizioni è attualmente caricato nella tua arma a distanza.",
+            "label": "Munizioni Caricate"
+          },
+          "availDef": {
+            "label": "Disp."
+          },
+          "cyberwareGrade": {
+            "hint": "<p>Il grado della tua cyberware non determina solo i suoi costi in essenza e nuyen, ma anche il suo Grado di Dispositivo.<p>Il Grado di Dispositivo determina il suo Monitor delle Condizioni Matrix.</p>",
+            "label": "Grado Cyberware"
+          },
+          "deviceRating": {
+            "label": "Grado di Dispositivo"
+          },
+          "genesisID": {
+            "label": "GenesisID"
+          },
+          "hasDataCableInterface": {
+            "hint": "Se abilitato, questo equipaggiamento ha un'Interfaccia a Cavo Dati e può essere usato tramite DNI con una Connessione Diretta. La cyberware ha sempre un'Interfaccia a Cavo Dati.",
+            "label": "Interfaccia a Cavo Dati"
+          },
+          "hasWirelessInterface": {
+            "hint": "Se abilitato, questo equipaggiamento è un Dispositivo Matrix Elettronico con un'Interfaccia Wireless. Quando il Wireless è attivo, può essere usato tramite AR o VR. Di solito ha un bonus Wireless.",
+            "label": "Interfaccia Wireless"
+          },
+          "isElectronicMatrixDevice": {
+            "hint": "Se abilitato, questo equipaggiamento è considerato un Dispositivo Matrix Elettronico, ha un Grado di Dispositivo e può essere usato tramite DNI, AR o VR.",
+            "label": "Dispositivo Matrix"
+          },
+          "price": {
+            "label": "Prezzo"
+          },
+          "wirelessActive": {
+            "hint": "Se attivo, questo equipaggiamento è attualmente usato tramite un'interfaccia wireless. Alcuni oggetti, come un credstick, possono essere usati solo se la loro interfaccia Wireless è attiva. Il Bonus Wireless dell'equipaggiamento può essere usato se questo è attivo.",
+            "label": "Wireless"
+          }
+        }
+      },
+      "mod": {
+        "FIELDS": {
+          "embeddedInUuid": {
+            "label": "Oggetto Modificato"
+          }
+        },
+        "TYPES": {
+          "accessory_electronics": "Accessorio Elettronico",
+          "accessory_weapon": "Accessorio per Arma",
+          "armor_mod": "Mod Armatura",
+          "audio_enhancement": "Potenziamento Audio",
+          "visual_enhancement": "Potenziamento Visivo",
+          "weapon_mod": "Mod Arma"
+        },
+        "label": {
+          "not_installed": "(non installato)",
+          "section": "Mod Equipaggiamento",
+          "uninstall": "Disinstalla questa Mod Equipaggiamento"
+        }
+      }
+    },
+    "label": {
+      "CM": {
+        "matrix": {
+          "short": "MTRX"
+        },
+        "phys": {
+          "short": "FIS"
+        },
+        "stun": {
+          "short": "STOR"
+        }
+      },
+      "RIP": "R.I.P.",
+      "activeSkills": "Abilità Attive",
+      "deviceRating": "Grado di Dispositivo",
+      "knowledgeSkills": "Abilità di Conoscenza",
+      "languages": "Lingue",
+      "lifespan": "Durata di Vita",
+      "lifespan_hours": "{number} {hourScale}",
+      "matrixCM": "Monitor delle Condizioni Matrix",
+      "matrixCmPenalty": "Modificatore Danno Matrix",
+      "name": "Nome",
+      "no": "No",
+      "powers": "Poteri",
+      "programSlots": "Slot Programma",
+      "qualities": "Qualità",
+      "system_message": "//MESSAGGIO DI SISTEMA//",
+      "template": "MODELLO",
+      "token": "TOKEN",
+      "unique": "UNICO",
+      "unknown": "<sconosciuto>",
+      "untrained": "Inesperto",
+      "viewTemplateActor": "Vedi Attore Modello",
+      "yes": "Sì"
+    },
+    "statblock": {
+      "system": {
+        "attributes": {
+          "charisma": "C",
+          "intuition": "I",
+          "logic": "L",
+          "resonance": "RIS",
+          "willpower": "V"
+        },
+        "matrix": {
+          "attributes": {
+            "attack": "ATTACCO",
+            "dataProcessing": "ELAB DATI",
+            "firewall": "FIREWALL",
+            "sleaze": "SLEAZE"
+          },
+          "initiative": "INIZ"
+        }
+      }
+    },
+    "title": {
+      "CM": {
+        "matrix": {
+          "dmg": "Danno sul Monitor delle Condizioni Matrix"
+        },
+        "phys": {
+          "dmg": "Danno sul Monitor delle Condizioni Fisiche"
+        },
+        "stun": {
+          "dmg": "Danno sul Monitor delle Condizioni di Stordimento"
+        }
+      },
+      "attributeHint": "Base {rank} + Mod {mod} = Pool {pool}",
+      "changeEdge": "Aumenta (clic sinistro) o diminuisci (clic destro) l'Edge",
+      "clickItemName": "Mostra descrizione (clic sinistro) o invia in chat (clic destro)",
+      "createsPersona": "La tua Persona è creata dal dispositivo principale che usi per accedere alla Matrix.",
+      "decreaseOS": "Clicca per diminuire il Punteggio di Sorveglianza",
+      "editButton": "Modifica Attore",
+      "editImage": "Clicca per cambiare immagine",
+      "increaseOS": "Clicca per aumentare il Punteggio di Sorveglianza",
+      "matrixCmPenalty": "Il tuo Dispositivo Matrix Elettronico è danneggiato tramite la Matrix.",
+      "noRollNeeded": "Nessun tiro necessario",
+      "onlyGmCanRevive": "Solo il tuo GM può rianimare un personaggio morto.",
+      "personaModeToggle": "Commuta Modalità Persona (Pubblica/Silenziosa)",
+      "rollSomething": "Tira {typeOfRoll}",
+      "running_silent": "Commuta Modalità Silenziosa",
+      "sendToChat": "Invia descrizione in Chat",
+      "showDescription": "Mostra descrizione",
+      "showImage": "Clicca per mostrare l'immagine",
+      "showOS": "Clicca per mostrare il Punteggio di Sorveglianza",
+      "skillHint": "Base {rank} + Mod {mod} + {attr} {attrPool}{untrained} = Pool {pool}",
+      "useItem": "Usa {name}"
+    }
+  },
+  "SYSTEM": {
+    "Sidebar": {
+      "bugs": "Segnala Bug",
+      "readme": "Patreon",
+      "release_notes": "Note di Rilascio"
+    }
+  },
+  "shadowrun6-eden": {
+    "PDFSheet": "Scheda PDF di Sola Lettura",
+    "SR6ActiveEffectConfig": "Scheda Configurazione Effetti SR6",
+    "SR6ItemSheet": "Scheda Oggetto SR6",
+    "Shadowrun6ActorSheetPC": "Scheda PG SR6",
+    "Shadowrun6ActorSheetVehicle": "Scheda Veicolo SR6"
+  },
+  "PDF": {
+    "folder": "Shadowrun 6e Rules",
+    "page_abbr": "p.",
+    "book": {
+      "astral_ways": "Astral Ways",
+      "bestial_nature": "Bestial Nature",
+      "body_shop": "Body Shop",
+      "collapsing_now": "Collapsing Now",
+      "companion": "Sixth World Companion",
+      "core": "Core Rulebook",
+      "core_seattle": "Core Rulebook Seattle Ed",
+      "core_berlin": "Core Rulebook Berlin Ed",
+      "de_alpen": "Datapuls Alpen",
+      "de_berlin2080": "Berlin 2080",
+      "de_bundeswehr": "Datapuls Bundeswehr",
+      "de_feuerlaeufer": "Datapuls Feuerlaeufer",
+      "de_other": "Sonstige Quellen aus DE",
+      "de_piraten": "Datapuls Piraten der Deutschen Bucht",
+      "de_revierbericht": "Revierbericht",
+      "de_sota2081": "Datapuls SOTA2081",
+      "de_sota2082": "Datapuls SOTA2082",
+      "de_sota2083": "Datapuls SOTA2083",
+      "de_westphalen": "Datapuls Westphalen",
+      "dealers_of_death": "Dealers of Death",
+      "double_clutch": "Double Clutch",
+      "emerald": "Emerald City",
+      "firing_squad": "Firing Squad",
+      "hack_slash": "Hack & Slash",
+      "kechibi": "Kechibi Code",
+      "krime": "Krime Katalog",
+      "lofwyr": "Lofwyr's Legions",
+      "no_future": "No Future",
+      "power_plays": "Power Plays",
+      "shadow_cast": "Shadow Cast",
+      "sif_new_orleans": "New Orleans",
+      "slip_streams": "Slip Streams",
+      "smooth_operations": "Smooth Operations",
+      "street_wyrd": "Street Wyrd",
+      "tarnished_star": "Tarnished Star"
+    },
+    "code": {
+      "astral_ways": "AW",
+      "bestial_nature": "BEST",
+      "body_shop": "BS",
+      "collapsing_now": "COLL",
+      "companion": "6WC",
+      "core": "Core",
+      "de_alpen": "Alpen",
+      "de_berlin2080": "B2080",
+      "de_bundeswehr": "Bundeswehr",
+      "de_feuerlaeufer": "FEUERL",
+      "de_other": "Sonstiges DE",
+      "de_piraten": "PIR",
+      "de_revierbericht": "Revier",
+      "de_sota2081": "SOTA2081",
+      "de_sota2082": "SOTA2082",
+      "de_sota2083": "SOTA2083",
+      "de_westphalen": "Westphalen",
+      "dealers_of_death": "DD",
+      "double_clutch": "DC",
+      "emerald": "Emerald",
+      "firing_squad": "FS",
+      "hack_slash": "HnS",
+      "kechibi": "KC",
+      "krime": "KK",
+      "lofwyr": "LL",
+      "no_future": "NF",
+      "power_plays": "PP",
+      "shadow_cast": "SC",
+      "sif_new_orleans": "New Orleans",
+      "slip_streams": "SLIP",
+      "smooth_operations": "SO",
+      "street_wyrd": "WYRD",
+      "tarnished_star": "TS"
+    }
   }
 }

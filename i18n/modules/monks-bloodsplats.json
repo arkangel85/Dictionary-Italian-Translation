@@ -6,7 +6,46 @@
   "MonksBloodsplats.bloodsplat-size.hint": "Imposta la dimensione degli schizzi di sangue rispetto alla dimensione originale del token.",
   "MonksBloodsplats.bloodsplat-opacity.name": "Opacità degli schizzi di sangue",
   "MonksBloodsplats.bloodsplat-opacity.hint": "Regola l'opacità del token dietro gli schizzi di sangue.",
-
   "MonksBloodsplats.bloodsplatoptions.true": "Nascondi il token ai giocatori",
-  "MonksBloodsplats.bloodsplatoptions.both": "Mostra il token ai giocatori"
+  "MonksBloodsplats.bloodsplatoptions.both": "Mostra il token ai giocatori",
+  "MonksBloodsplats": {
+    "edit-types": {
+      "name": "Modifica Tipi",
+      "hint": "Scegli quali tipi di immagini e colori applicare ai token"
+    },
+    "disabled-bloodsplats": {
+      "name": "Disabilita Controllo",
+      "hint": "Aggiunge un pulsante al menu del token per attivare/disattivare la disabilitazione dei token sconfitti."
+    },
+    "remove-effects": {
+      "name": "Rimuovi Effetti dei Sconfitti",
+      "hint": "Rimuove tutti gli effetti animati dai token sconfitti"
+    },
+    "remove-overlay": {
+      "name": "Rimuovi Sovrapposizione dei Sconfitti",
+      "hint": "Rimuove tutte le sovrapposizioni dai token sconfitti"
+    },
+    "defeated-status": {
+      "name": "Stato Sconfitto",
+      "hint": "Stato da usare per indicare uno schizzo di sangue"
+    },
+    "EditTypes": "Modifica Tipi",
+    "EditImages": "Modifica Immagini",
+    "DisableToken": "Disabilita Token Schizzo di Sangue",
+    "SaveChanges": "Salva Modifiche",
+    "ResetDefaults": "Ripristina Predefiniti",
+    "Code": "Codice",
+    "Name": "Nome",
+    "Color": "Colore",
+    "Count": "Conteggio",
+    "Folder": "Cartella",
+    "Ext": "Est.",
+    "Opacity": "Opacità",
+    "Delete": "Elimina",
+    "Add": "Aggiungi",
+    "edit-images": {
+      "name": "Modifica Cartelle Immagini",
+      "hint": "Scegli quali cartelle usare per le immagini degli schizzi di sangue"
+    }
+  }
 }

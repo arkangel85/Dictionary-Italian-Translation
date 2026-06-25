@@ -14,7 +14,9 @@
     "TypeProfession": "Professione",
     "TypeSkill": "Abilità",
     "TypeSpell": "Incantesimo",
-    "TypeWeapon": "Arma"
+    "TypeWeapon": "Arma",
+    "TypeMaterial": "Ingrediente",
+    "TypeRecipe": "Ricetta"
   },
   "TYPES": {
     "Actor": {
@@ -32,7 +34,9 @@
       "profession": "Professione",
       "skill": "Abilità",
       "spell": "Incantesimo",
-      "weapon": "Arma"
+      "weapon": "Arma",
+      "material": "Ingrediente",
+      "recipe": "Ricetta"
     }
   },
   "DoD": {
@@ -91,13 +95,15 @@
       "agl": "DES",
       "int": "INT",
       "wil": "VOL",
-      "cha": "CAR"
+      "cha": "CAR",
+      "none": "-"
     },
     "castingTimeTypes": {
       "action": "Azione",
       "reaction": "Reazione",
       "stretch": "Periodo",
-      "shift": "Turno"
+      "shift": "Turno",
+      "special": "Speciale"
     },
     "conditions": {
       "str": "Affaticamento",
@@ -204,13 +210,15 @@
       "doubleDamage": "Danno doppio",
       "doubleRange": "Distanza raddoppiata",
       "noCost": "Questo incantesimo non consuma PV",
-      "extraSpell": "Puoi lanciare immediatamente un altro incantesimo, ma con svantaggio al tiro"
+      "extraSpell": "Puoi lanciare immediatamente un altro incantesimo, ma con svantaggio al tiro",
+      "choiceTitle": "Effetto critico"
     },
     "critChoices": {
       "choiceLabel": "Effetto critico",
       "doubleWeaponDamage": "Danno dell'arma raddoppiato",
       "extraAttack": "Attacco gratuito contro un altro nemico",
-      "ignoreArmor": "L'armatura è ignorata da questo attacco"
+      "ignoreArmor": "L'armatura è ignorata da questo attacco",
+      "choiceTitle": "Effetto critico"
     },
     "profession": {
       "key-attribute": "Attributo chiave",
@@ -300,7 +308,8 @@
       "stretch": "Periodo",
       "shift": "Turno",
       "concentration": "Concentrazione",
-      "permanent": "Permanente"
+      "permanent": "Permanente",
+      "special": "Speciale"
     },
     "spellRangeTypes": {
       "personal": "Personale",
@@ -384,7 +393,13 @@
       "toppling": "Atterrante",
       "topplingTooltip": "Dà vantaggio per atterrare",
       "unarmed": "Disarmato",
-      "unarmedTooltip": "Non conta come arma e non può essere parato"
+      "unarmedTooltip": "Non conta come arma e non può essere parato",
+      "penetrating1": "Penetrante (1)",
+      "penetrating1Tooltip": "Ignora 1 punto di armatura",
+      "penetrating2": "Penetrante (2)",
+      "penetrating2Tooltip": "Ignora 2 punti di armatura",
+      "penetrating3": "Penetrante (3)",
+      "penetrating3Tooltip": "Ignora 3 punti di armatura"
     },
     "ui": {
       "character-sheet": {
@@ -477,7 +492,10 @@
         "willPointsMax": "PV massimi",
         "worn": "Indossato",
         "wp": "PV",
-        "storage": "Deposito"
+        "storage": "Deposito",
+        "restStretchConditions": "<b>{actor}</b> riposa per un breve periodo e recupera <b>{hp}</b> PF, <b>{wp}</b> PV e <b>{cond}</b> condizioni.",
+        "restStretchInterrupted": "Il riposo breve di <b>{actor}</b> è stato interrotto.",
+        "restShiftInterrupted": "Il riposo lungo di <b>{actor}</b> è stato interrotto."
       },
       "chat": {
         "damageApplied": "<b>{actor}</b> subisce <b>{damage}</b> danni",
@@ -510,7 +528,10 @@
         "damageDetailDamage": "Danno",
         "damageDetailArmor": "Armatura",
         "damageDetailMultiplier": "Moltiplicatore",
-        "damageDetailTotal": "Danno totale"
+        "damageDetailTotal": "Danno totale",
+        "penetrating": "Penetrante",
+        "updateTarget": "Aggiorna Bersaglio",
+        "criticalHit": "Colpo Critico"
       },
       "dialog": {
         "banes": "Sventure",
@@ -553,14 +574,33 @@
         "deleteKinAbility": "Eliminare un'abilità innata la rimuoverà anche dal popolo del personaggio.",
         "deleteProfessionAbility": "Eliminare un'abilità professionale la rimuoverà anche dalla professione del personaggio.",
         "addMeleeDamageVsProneMessage": "Gli attacchi in mischia contro bersagli a terra infliggono 1D6 danni extra.<p>Aggiungere 1D6 danni all’attacco del mostro contro <b>{target}</b>?",
-        "addMeleeDamageVsProneTitle": "Aggiungi danno"
+        "addMeleeDamageVsProneTitle": "Aggiungi danno",
+        "powerSource": "Fonte di Potere",
+        "powerSourceTooltip": "I Punti Volontà verranno spesi da questa fonte.",
+        "castSpellTitle": "Lancia Incantesimo",
+        "castSpellLabel": "Lancia",
+        "monsterAttackPerformRandom": "Esegui un Attacco del Mostro casuale.",
+        "restShiftTitle": "Riposo Lungo",
+        "restStretchTitle": "Riposo Breve",
+        "restStretchHp": "Punti Ferita",
+        "restStretchHpHint": "Numero di Punti Ferita da recuperare",
+        "restStretchWp": "Punti Volontà",
+        "restStretchWpHint": "Numero di Punti Volontà da recuperare",
+        "restStretchConditions": "Condizioni",
+        "restStretchConditionsHint": "Numero di condizioni da curare",
+        "restNote": "Completa il riposo per recuperare. Interrompi per trascorrere il riposo senza recuperare.",
+        "restOk": "Completa",
+        "restInterrupt": "Interrompi"
       }
     },
     "item-sheet": {
       "details": "Dettagli",
       "description": "Descrizione",
       "effects": "Effetti",
-      "gmDescription": "Note del GM"
+      "gmDescription": "Note del GM",
+      "enchantments": "Incantamenti",
+      "enchantmentsTooltip": "Incantamenti lanciabili",
+      "formula": "Formula"
     },
     "INFO": {
       "monsterAttackUpdated": "Tabella attacchi del mostro per {actor} aggiornata.",
@@ -614,7 +654,10 @@
       "rangedMishapTable": "Tabella Incidenti a Distanza",
       "rangedMishapTableHint": "Sovrascrivi la tabella da usare per gli incidenti a distanza.",
       "treasureTable": "Tabella Tesori",
-      "treasureTableHint": "Sovrascrivi la tabella da usare per i tesori."
+      "treasureTableHint": "Sovrascrivi la tabella da usare per i tesori.",
+      "defaultDialogBehaviorNote": "Queste caselle controllano il comportamento predefinito del clic sinistro. Se selezionate, il dialogo si apre; tieni premuto Shift o Ctrl per saltarlo. Se deselezionate, il comportamento predefinito è invertito.",
+      "restDialogIsDefault": "Dialoghi di Riposo",
+      "restDialogIsDefaultHint": "Mostra i dialoghi \"Riposo Breve\" e \"Riposo Lungo\" cliccando con il tasto sinistro i pulsanti sulla scheda del Personaggio."
     },
     "WARNING": {
       "kinAbility": "Impossibile trovare abilità innata: {ability}",
@@ -640,7 +683,48 @@
       "noRangedMishapTable": "Tabella effetti collaterali per armi a distanza mancante.",
       "noMagicMishapTable": "Tabella effetti collaterali per la magia mancante.",
       "maxWeaponsEquipped": "Massimo tre armi equipaggiate.",
-      "noSkillsInCompendium": "Il modulo Core Rules non contiene informazioni sulle abilità principali. Il modulo potrebbe essere corrotto, si consiglia di reinstallarlo."
+      "noSkillsInCompendium": "Il modulo Core Rules non contiene informazioni sulle abilità principali. Il modulo potrebbe essere corrotto, si consiglia di reinstallarlo.",
+      "missingMaterialsForCrafting": "Mancano i materiali per creare l'oggetto."
+    },
+    "DoDCharacterSheet": "Scheda Personaggio Dragonbane",
+    "DoDNpcSheet": "Scheda PNG Dragonbane",
+    "DoDMonsterSheet": "Scheda Mostro Dragonbane",
+    "DoDAbilitySheet": "Scheda Capacità Dragonbane",
+    "DoDArmorSheet": "Scheda Armatura Dragonbane",
+    "DoDHelmetSheet": "Scheda Elmo Dragonbane",
+    "DoDInjurySheet": "Scheda Ferita Dragonbane",
+    "DoDItemSheet": "Scheda Oggetto Dragonbane",
+    "DoDKinSheet": "Scheda Stirpe Dragonbane",
+    "DoDMaterialSheet": "Scheda Ingrediente Dragonbane",
+    "DoDProfessionSheet": "Scheda Professione Dragonbane",
+    "DoDRecipeSheet": "Scheda Ricetta Dragonbane",
+    "DoDSkillSheet": "Scheda Abilità Dragonbane",
+    "DoDSpellSheet": "Scheda Incantesimo Dragonbane",
+    "DoDWeaponSheet": "Scheda Arma Dragonbane",
+    "enchantments": {
+      "charge": "Carica",
+      "chargeTooltip": "Chiunque sia in contatto con l'oggetto può usare i suoi PV invece dei propri.",
+      "enchantment": "Incantamento",
+      "powerLevel": "Livello di Potere",
+      "powerLevelTooltip": "Il Livello di Potere dell'incantesimo lanciato.",
+      "castable": "Lancia",
+      "castableTooltip": "Se selezionato, l'incantesimo può essere lanciato direttamente dalla scheda del personaggio.",
+      "free": "Gratuito",
+      "freeTooltip": "Se selezionato, l'incantesimo può essere lanciato senza spendere PV."
+    },
+    "recipe": {
+      "isPoison": "Veleno",
+      "potency": "Potenza",
+      "potencyPerPowerlevel": "Potenza per Livello di Potere",
+      "materials": "Ingredienti",
+      "item": "Sostanza",
+      "noMaterials": "Trascina e rilascia per aggiungere ingredienti",
+      "noItem": "Trascina e rilascia per aggiungere un oggetto",
+      "craftItem": "Crea Oggetto",
+      "craftItemEnabledTooltip": "Il materiale viene consumato e, se l'incantesimo riesce, crea un oggetto",
+      "craftItemDisabledTooltip": "Disabilitato. Manca il materiale o il collegamento all'oggetto creato",
+      "consumedMaterials": "Materiali consumati",
+      "craftedItem": "Oggetto creato"
     }
   }
 }

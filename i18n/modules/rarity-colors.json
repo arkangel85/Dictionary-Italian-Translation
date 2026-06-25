@@ -1,10 +1,174 @@
 {
   "rarity-colors.rarityFlag.name": "Colori di rarità",
   "rarity-colors.rarityFlag.hint": "I nomi degli oggetti saranno colorati in base alla loro rarità",
-
   "rarity-colors.spellFlag.name": "Colora gli incantesimi",
   "rarity-colors.spellFlag.hint": "Anche gli incantesimi verranno colorati",
-
   "rarity-colors.featFlag.name": "Colora le capacità",
-  "rarity-colors.featFlag.hint": "Anche le capacità verranno colorate"
+  "rarity-colors.featFlag.hint": "Anche le capacità verranno colorate",
+  "rarity-colors": {
+    "setting": {
+      "rarityFlag": {
+        "name": "Colore Rarità",
+        "hint": "Colora gli oggetti nella scheda dell'attore e nella barra laterale in base alla loro rarità"
+      },
+      "spellFlag": {
+        "name": "Colore Incantesimi",
+        "hint": "Colora gli oggetti nella barra laterale che sono Incantesimi"
+      },
+      "featFlag": {
+        "name": "Colore Talenti",
+        "hint": "Colora gli oggetti nella barra laterale che sono Privilegi"
+      },
+      "common": {
+        "name": "Colore Comune",
+        "hint": " "
+      },
+      "commonExternal": {
+        "name": "Colore Esterno Comune"
+      },
+      "uncommon": {
+        "name": "Colore Non Comune",
+        "hint": " "
+      },
+      "uncommonExternal": {
+        "name": "Colore Esterno Non Comune"
+      },
+      "rare": {
+        "name": "Colore Raro",
+        "hint": " "
+      },
+      "rareExternal": {
+        "name": "Colore Esterno Raro",
+        "hint": " "
+      },
+      "veryrare": {
+        "name": "Colore Molto Raro",
+        "hint": " "
+      },
+      "veryrareExternal": {
+        "name": "Colore Esterno Molto Raro",
+        "hint": " "
+      },
+      "legendary": {
+        "name": "Colore Leggendario",
+        "hint": " "
+      },
+      "legendaryExternal": {
+        "name": "Colore Esterno Leggendario",
+        "hint": " "
+      },
+      "artifact": {
+        "name": "Colore Artefatto",
+        "hint": " "
+      },
+      "artifactExternal": {
+        "name": "Colore Esterno Artefatto",
+        "hint": " "
+      },
+      "spell": {
+        "name": "Colore Incantesimo",
+        "hint": " "
+      },
+      "spellExternal": {
+        "name": "Colore Esterno Incantesimo",
+        "hint": " "
+      },
+      "feat": {
+        "name": "Colore Talento",
+        "hint": " "
+      },
+      "featExternal": {
+        "name": "Colore Esterno Talento",
+        "hint": " "
+      },
+      "rarityColorMode": {
+        "name": "Modalità Colore Rarità",
+        "hint": "Scegli quale modalità vuoi per questo modulo"
+      },
+      "disableRarityColorOnCompendium": {
+        "name": "Disabilita il Colore Rarità nei compendi",
+        "hint": "Applicare questo stile al compendio può rallentarne il caricamento. Ora puoi disabilitarlo se vuoi."
+      },
+      "reset": {
+        "name": "Reimposta le impostazioni ai predefiniti",
+        "label": "Reimposta le Impostazioni ai Predefiniti",
+        "hint": "Questo reimposterà tutte le impostazioni ai predefiniti del sistema di gioco attivo."
+      },
+      "debug": {
+        "name": "Abilita debug",
+        "label": "Stampa messaggi di debug nella console",
+        "hint": " "
+      },
+      "enableBackgroundColorInsteadText": {
+        "name": "Applica il colore solo come sfondo e non al testo",
+        "hint": "Colora lo sfondo degli oggetti nella barra laterale e nell'inventario invece del testo"
+      },
+      "enableBorderColor": {
+        "name": "Abilita il colore sul bordo dell'immagine",
+        "hint": "Abilita il colore sul bordo dell'immagine degli oggetti nella barra laterale e nell'inventario"
+      },
+      "thresholdBackgroundColorInsteadText": {
+        "name": "Soglia di contrasto per controllare il colore del carattere risultante",
+        "hint": "Ha senso solo con 'Applica il colore solo come sfondo e non al testo' abilitato. Soglia di contrasto per controllare il colore del carattere risultante, valori float da 0 a 1. Predefinito 0.5. Usata per impostazione predefinita per tutto il testo senza uno sfondo a colore rgba"
+      },
+      "forceThresholdBackgroundColorInsteadText": {
+        "name": "Forza l'uso della soglia di contrasto manuale per controllare il colore del carattere risultante",
+        "hint": "Ha senso solo con 'Applica il colore solo come sfondo e non al testo' abilitato. Se abilitato, applicherà la soglia di contrasto impostata a tutto il testo, anche a quello con sfondo rgba."
+      },
+      "forceAlphaBackgroundColorInsteadText": {
+        "name": "Forza il valore alpha/opacità sul colore di sfondo rgba.",
+        "hint": "Ha senso solo con 'Applica il colore solo come sfondo e non al testo' abilitato. Se abilitato, applicherà il valore alpha di questa impostazione, se > 0, a tutti gli sfondi anche a quelli con sfondo rgba. NOTA: Il valore '0' disabiliterà questa impostazione."
+      }
+    },
+    "dialogs": {
+      "resetsettings": {
+        "title": "Reimposta Impostazioni Modulo",
+        "content": "Sei sicuro di voler reimpostare tutte le impostazioni del modulo ai predefiniti del sistema attuale? <strong>QUESTA AZIONE NON PUÒ ESSERE ANNULLATA!</strong>",
+        "confirm": "Reimposta Impostazioni Modulo",
+        "cancel": "Annulla"
+      },
+      "nosystemfound": {
+        "title": "Sistema Non Riconosciuto",
+        "content": "Questo sistema non è attualmente del tutto supportato. Significa che il modulo non sa come gestire al meglio gli oggetti di questo sistema, ma può comunque funzionare in modo limitato.<br><br>Puoi configurare tu stesso le impostazioni del modulo, ma richiede un po' di competenze tecniche."
+      },
+      "systemfound": {
+        "title": "Sistema Riconosciuto",
+        "content": "Questo sistema in precedenza non era supportato, ma in un recente aggiornamento è stato aggiunto come sistema supportato!<br><br>Vuoi caricare le impostazioni predefinite di questo sistema?",
+        "confirm": "Applica Predefiniti del Sistema"
+      },
+      "menu": {
+        "name": "Configurazione Colore Rarità",
+        "label": "Configurazione Colore Rarità",
+        "hint": "Imposta i colori per oggetti, incantesimi e privilegi"
+      }
+    },
+    "RarityColorsApp": {
+      "title": "Configurazione Colore Rarità",
+      "save": "Salva Modifiche",
+      "delete": "Elimina",
+      "tabs": {
+        "itemRarity": {
+          "name": "Colori Rarità Oggetti",
+          "hint": "Personalizza i Colori della Rarità degli Oggetti",
+          "itemRarityName": "Nome Rarità Oggetto",
+          "itemRarityColor": "Colore",
+          "add": "Aggiungi Colore Rarità Oggetto"
+        },
+        "spellSchools": {
+          "name": "Colori Scuole di Magia",
+          "hint": "Personalizza i Colori delle Scuole di Magia",
+          "spellSchoolName": "Nome Scuola di Magia",
+          "spellSchoolColor": "Colore",
+          "add": "Aggiungi Colore Scuola di Magia"
+        },
+        "classFeatureTypes": {
+          "name": "Colori Tipi di Privilegio di Classe",
+          "hint": "Personalizza i Colori dei Tipi di Privilegio di Classe",
+          "classFeatureTypeName": "Nome Tipo di Privilegio di Classe",
+          "classFeatureTypeColor": "Colore",
+          "add": "Aggiungi Colore Tipo di Privilegio di Classe"
+        }
+      }
+    }
+  }
 }

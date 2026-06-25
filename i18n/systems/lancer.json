@@ -30,7 +30,9 @@
   "lancer": {
     "Actor": {
       "FIELDS": {
-        "activations": { "label": "Attivazioni" }
+        "activations": {
+          "label": "Attivazioni"
+        }
       }
     },
     "placeholder": {
@@ -39,6 +41,47 @@
     "common-sheet": {
       "tabs": {
         "effects": "<EFFETTI ATTIVI>"
+      },
+      "headers": {
+        "combatUtilities": "UTILITÀ DI COMBATTIMENTO"
+      },
+      "buttons": {
+        "basicAttack": "MISCHIA/DISTANZA",
+        "damage": "DANNO",
+        "fullRepair": "RIPARAZIONE COMPLETA",
+        "overheat": "SURRISCALDAMENTO",
+        "scan": "SCANSIONE",
+        "stabilize": "STABILIZZA",
+        "structure": "STRUTTURA",
+        "tech": "TECNO"
+      },
+      "shortStats": {
+        "hull": "SCA",
+        "agi": "AGI",
+        "sys": "SIS",
+        "eng": "ING",
+        "level": "LIVELLO LICENZA",
+        "grit": "GRINTA",
+        "tier": "LIVELLO",
+        "activations": "ATTIV",
+        "hp": "PF",
+        "evasion": "EVA",
+        "armor": "ARM",
+        "structure": "STRUT",
+        "heat": "CALORE",
+        "heatcap": "CAP CALORE",
+        "edef": "EDIF",
+        "stress": "STRESS",
+        "speed": "VEL",
+        "save": "TS",
+        "sensor_range": "SENS",
+        "tech_attack": "ATK T",
+        "overcharge": "SOVRACCARICA",
+        "burn": "USTIONE",
+        "overshield": "O.SCUDO",
+        "repairs": "RIP",
+        "size": "TG",
+        "cost": "COSTO"
       }
     },
     "deployable-sheet": {
@@ -51,6 +94,9 @@
       },
       "stats": {
         "label": "STATISTICHE"
+      },
+      "header": {
+        "owner": "Proprietario"
       }
     },
     "mech-sheet": {
@@ -71,11 +117,15 @@
       "system": {
         "label": "EQUIPAGGIAMENTO",
         "sp-used": "SP USATI"
+      },
+      "header": {
+        "inactive-warning": "Attenzione: Mech Inattivo - I bonus del pilota non vengono tracciati"
       }
     },
     "npc-sheet": {
       "header": {
-        "class": "CLASSE:"
+        "class": "CLASSE:",
+        "templates": "MODELLI"
       },
       "class": {
         "label": "CLASSE",
@@ -113,18 +163,22 @@
       },
       "cloud-download": {
         "label": "SCARICA",
-        "lastSync": "Sincronizzato: {timestamp}"
+        "lastSync": "Sincronizzato: {timestamp}",
+        "description": "Usa questa sezione per importare un codice di condivisione Comp/Con."
       },
       "cloud-upload": {
         "label": "CARICA",
         "wip": "FUNZIONE IN SVILUPPO"
       },
       "json-import": {
-        "label": "IMPORTA"
+        "label": "IMPORTA",
+        "description": "Usa questa sezione per importare un file JSON esportato da Comp/Con.",
+        "placeholder": "Seleziona file JSON…"
       },
       "dossier": {
         "cs": "NOME IN CODICE",
-        "name": "NOME"
+        "name": "NOME",
+        "background": "BACKGROUND"
       },
       "narrative": {
         "bond": "LEGAME CON {bondName}",
@@ -399,6 +453,108 @@
         "label": "Dimensione token manuale",
         "hint": "Ignora la configurazione automatica della dimensione del token"
       }
+    },
+    "LancerPilotSheet": "Scheda Pilota Sistema Lancer",
+    "LancerMechSheet": "Scheda Mech Sistema Lancer",
+    "LancerDeployableSheet": "Scheda Dispiegabile Sistema Lancer",
+    "LancerNPCSheet": "Scheda PNG Sistema Lancer",
+    "LancerItemSheet": "Scheda Oggetto Sistema Lancer",
+    "LancerFrameSheet": "Scheda Telaio Sistema Lancer",
+    "LancerLicenseSheet": "Scheda Licenza Sistema Lancer",
+    "LancerNPCClassSheet": "Scheda Classe/Modello PNG Sistema Lancer",
+    "LancerNPCFeatureSheet": "Scheda Caratteristica PNG Sistema Lancer",
+    "simpleFonts": {
+      "name": "Usa Caratteri Semplici",
+      "hint": "Sostituisci i caratteri stilizzati sci-fi delle intestazioni con Helvetica per la leggibilità. Questa impostazione è separata per ogni client."
+    },
+    "pauseIcon": {
+      "name": "Icona di Pausa",
+      "hint": "L'icona grafica da usare sulla sovrapposizione di pausa di Foundry.",
+      "gms": "Union/GMS (predefinito)",
+      "horus": "HORUS",
+      "ha": "Harrison Armory",
+      "ssc": "SSC",
+      "ips-n": "IPS-N",
+      "albatross": "Albatross",
+      "aun": "Aun Ascendancy",
+      "barony": "Karrakin Trade Baronies",
+      "horizon": "Horizon Collective",
+      "ra": "RA",
+      "sparri": "Sparri",
+      "voladores": "Voladores"
+    },
+    "scanOutput": {
+      "name": "Posizione Output Scansione",
+      "hint": "Dove devono essere registrati i risultati della scansione?",
+      "both": "Chat e Giornale",
+      "chat": "Solo Chat",
+      "journal": "Solo Giornale"
+    },
+    "tables": {
+      "structure": {
+        "title": {
+          "crushing": "Colpo Devastante",
+          "direct": "Colpo Diretto",
+          "trauma": "Trauma di Sistema",
+          "glancing": "Colpo di Striscio"
+        },
+        "description": {
+          "crushing": "Il tuo mech è danneggiato oltre ogni riparazione: è distrutto. Puoi comunque uscirne normalmente.",
+          "direct": {
+            "3plus": "Il tuo mech è @LancerID[stunned] fino alla fine del tuo prossimo turno.",
+            "2": "Tira una prova di SCAFO. Con un successo, il tuo mech è @LancerID[stunned] fino alla fine del tuo prossimo turno. Con un fallimento, il tuo mech è distrutto.",
+            "1": "Il tuo mech è distrutto."
+          },
+          "trauma": "Parti del tuo mech vengono strappate via dal danno. Tira 1d6. Con 1–3, tutte le armi su un supporto a tua scelta sono distrutte; con 4–6, un sistema a tua scelta è distrutto. I sistemi e le armi LIMITATI senza cariche non sono scelte valide. Se non restano scelte valide, diventa l'altro risultato. Se non restano sistemi o armi validi, questo risultato diventa invece un COLPO DIRETTO.",
+          "glancing": "I sistemi di emergenza si attivano e stabilizzano il tuo mech, ma è @LancerID[impaired] fino alla fine del tuo prossimo turno."
+        }
+      },
+      "overheat": {
+        "title": {
+          "irreversible": "Fusione Irreversibile",
+          "meltdown": "Fusione",
+          "destabilized": "Reattore Destabilizzato",
+          "shunt": "Deviazione d'Emergenza"
+        },
+        "description": {
+          "irreversible": "Il reattore va in critico. Il tuo mech subisce una fusione del reattore alla fine del tuo prossimo turno.",
+          "meltdown": {
+            "3plus": "Il tuo mech diventa @Compendium[world.status-items.Exposed]",
+            "2": "Tira una prova di INGEGNERIA. Con un successo, il tuo mech è @Compendium[world.status-items.Exposed]. Con un fallimento, subisce una fusione del reattore dopo 1d6 dei tuoi turni (tirati dal GM). Una fusione del reattore può essere evitata ritentando la prova di INGEGNERIA come azione completa.",
+            "1": "Il tuo mech subisce una fusione del reattore alla fine del tuo prossimo turno."
+          },
+          "destabilized": "Il reattore diventa instabile, iniziando a espellere getti di plasma. Il tuo mech diventa @Compendium[world.status-items.Exposed].",
+          "shunt": "I sistemi di raffreddamento del tuo mech riescono a contenere il calore crescente; tuttavia, il tuo mech diventa @Compendium[world.status-items.Impaired] fino alla fine del tuo prossimo turno."
+        }
+      },
+      "structureMonstrosity": {
+        "title": {
+          "fatal": "Colpo Fatale",
+          "direct": "Colpo Diretto",
+          "dismember": "Smembramento",
+          "powerful": "Colpo Potente",
+          "glancing": "Colpo di Striscio"
+        },
+        "description": {
+          "fatal": "La Mostruosità è distrutta.",
+          "direct": {
+            "3plus": "La Mostruosità viene colpita alla testa ed è @LancerID[stunned] fino alla fine del suo prossimo turno.",
+            "2": "La Mostruosità deve superare un tiro salvezza di SCAFO o essere distrutta.",
+            "1": "La Mostruosità è distrutta."
+          },
+          "dismember": "L'attacco stacca un arto o un pezzo dalla Mostruosità; subisce 1d6 danni CINETICI e diventa @LancerID[slow] per il resto della scena.",
+          "powerful": "La Mostruosità viene messa @LancerID[prone] dalla forza del colpo.",
+          "glancing": "La Mostruosità trasalisce dal dolore; è @LancerID[impaired] fino alla fine del suo prossimo turno."
+        }
+      }
+    },
+    "movement": {
+      "actions": {
+        "blink": "Teletrasporto (Movimento)",
+        "forced": "Movimento Forzato",
+        "ignore": "Ignora Terreno",
+        "teleport": "Teletrasporto (Capacità)"
+      }
     }
   },
   "LANCERINITIATIVE": {
@@ -427,6 +583,10 @@
     "EnableInitiativeDesc": "Aggiunge un pulsante per controllare l’iniziativa.",
     "AddActivation": "Aggiungi attivazione",
     "RemoveActivation": "Rimuovi attivazione",
-    "UndoActivation": "Annulla attivazione"
+    "UndoActivation": "Annulla attivazione",
+    "COMBAT": {
+      "activateCombatantTurn": "Inizia il turno di questo combattente",
+      "deactivateCombatantTurn": "Termina il turno di questo combattente"
+    }
   }
 }

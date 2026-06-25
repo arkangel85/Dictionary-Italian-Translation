@@ -23,5 +23,49 @@
   "DF-SCENE-ENHANCE.Ratio_SizeRatio": "Rapporto dimensioni",
   "DF-SCENE-ENHANCE.Ratio_ApplyRatio": "Applica il rapporto personalizzato",
   "DF-SCENE-ENHANCE.Ratio_Scale": "Scala",
-  "DF-SCENE-ENHANCE.Ratio_ApplyScale": "Moltiplica dimensioni per la scala"
+  "DF-SCENE-ENHANCE.Ratio_ApplyScale": "Moltiplica dimensioni per la scala",
+  "DF-SCENE-ENHANCE": {
+    "Thumbnail": {
+      "Label": "Sovrascrittura Immagine Anteprima",
+      "Hint": "Percorso Miniatura",
+      "Button": "Sfoglia File"
+    },
+    "Nav": {
+      "NavigateMenuItem": "Naviga",
+      "SettingOnClick": "Naviga quando si clicca la scena",
+      "SettingOnClickHint": "Quando una scena viene cliccata nella barra laterale, ci si naviga (sempre vero per i giocatori). AGGIORNA AL PROSSIMO CAMBIO DI SCENA",
+      "SettingOnClickPC": "Abilita Scheda Scene per i Giocatori",
+      "SettingOnClickPCHint": "(richiede ricaricamento) Permette ai giocatori di usare la Scheda Scene per navigare.",
+      "SettingOnClickJournal": "Naviga quando si clicca un riferimento a una Scena in un Giornale",
+      "SettingOnClickJournalHint": "Se una Voce di Giornale contiene un collegamento a una Scena, cliccandolo potrai navigare a quella Scena.",
+      "SettingOnClickJournalOnlyOne": "Esegui subito il collegamento alla Scena se è disponibile una sola opzione",
+      "SettingOnClickJournalOnlyOneHint": "Se è disponibile una sola opzione, non mostrare il dialogo ed esegui subito l'azione.",
+      "SettingRealName": "Mostra Nomi Completi nella Barra di Navigazione per il GM",
+      "SettingRealNameHint": "Sovrascrive la barra di navigazione delle scene per mostrare il nome completo della Scena agli utenti GM.",
+      "SettingShowTitle": "Mostra il nome della scena nel suggerimento di navigazione al passaggio",
+      "SettingShowTitleHint": "Mostra un suggerimento quando passi sopra un pulsante nella Barra di Navigazione che mostra il nome della scena. Se \"Mostra Nomi Completi\" è attivo ed è impostato un Nome di Navigazione, mostrerà quello.",
+      "Tooltip_PC": "Nome Nav: ",
+      "ContextOptions": {
+        "SetView": "Imposta Posizione Visuale",
+        "ConfigGrid": "Configura Griglia",
+        "SetViewConfirmation": "Vista iniziale della scena aggiornata"
+      }
+    },
+    "Dialog": {
+      "JournalTitle": "Navigazione Scena: ",
+      "JournalMessage": "Come vuoi aprire questa Scena?",
+      "JournalNavigate": "Naviga",
+      "JournalJournal": "Giornale",
+      "JournalConfig": "Configura"
+    },
+    "Ratio": {
+      "Denominator": "Denominatore",
+      "Numerator": "Numeratore",
+      "LockRatio": "Blocca Proporzioni",
+      "SizeRatio": "Proporzione Dimensione",
+      "ApplyRatio": "Applica proporzione personalizzata a larghezza/altezza",
+      "Scale": "Scala",
+      "ApplyScale": "Moltiplica larghezza/altezza per la scala"
+    }
+  }
 }

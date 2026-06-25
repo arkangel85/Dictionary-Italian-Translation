@@ -495,5 +495,42 @@
   "YZUR.DIETERMS.NegativeDie": "Dado negativo",
   "YZUR.DIETERMS.SkillDie": "Dado abilità",
   "FLPS.PARTY.BUTTON.REMOVE_FROM_PARTY": "Rimuovi dal gruppo",
-  "CONFIG.TABLE_CONFIG.BUTTON.SUBMIT": "Conferma"
+  "CONFIG.TABLE_CONFIG.BUTTON.SUBMIT": "Conferma",
+  "ADVENTURE_SITE": {
+    "BUTTON": {
+      "CREATE": "Crea Sito d'Avventura"
+    },
+    "TYPE": {
+      "CASTLE": "Castello",
+      "DUNGEON": "Dungeon",
+      "ELVEN_RUIN": "Rovine Elfiche",
+      "ICE_CAVE": "Caverna di Ghiaccio",
+      "SETTLEMENT": "Insediamento",
+      "VILLAGE": "Villaggio"
+    }
+  },
+  "CONFIG": {
+    "ACTORTYPE": {
+      "CHARACTER": "Personaggio",
+      "MONSTER": "Mostro",
+      "PARTY": "Gruppo",
+      "STRONGHOLD": "Roccaforte"
+    },
+    "ITEMTYPE": {
+      "ARMOR": "Armatura",
+      "BUILDING": "Edificio",
+      "CRITICALINJURY": "Ferita Critica",
+      "GEAR": "Equipaggiamento",
+      "HIRELING": "Mercenario",
+      "MONSTERATTACK": "Attacco del Mostro",
+      "MONSTERTALENT": "Talento del Mostro",
+      "RAWMATERIAL": "Materia Prima",
+      "SPELL": "Incantesimo",
+      "TALENT": "Talento",
+      "WEAPON": "Arma"
+    },
+    "ACTOR_SHEET_CONFIG": {
+      "TITLE": "Configurazione Scheda"
+    }
+  }
 }

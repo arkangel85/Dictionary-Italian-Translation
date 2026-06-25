@@ -54,5 +54,104 @@
   "TMFX.settings.autoTemplateSettings.overrides.introduction": "Puoi configurare override per singoli oggetti/incantesimi qui. Inserisci il nome dell'oggetto/incantesimo come appare nei tuoi Oggetti/Compendi nel campo Bersaglio, e configura le impostazioni preferite.",
   "TMFX.settings.autoTemplateSettings.overrides.add": "Aggiungi Override",
   "TMFX.settings.autoTemplateSettings.dialog.title": "Impostazioni Template Token Magic",
-  "TMFX.save": "Salva"
+  "TMFX.save": "Salva",
+  "TMFX": {
+    "settings": {
+      "alwaysDisplayEditorControl": {
+        "name": "Mostra sempre il controllo Editor FX nell'HUD",
+        "hint": "Seleziona se vuoi che il controllo Editor FX sia mostrato nell'HUD anche se non esiste alcun effetto attivo sull'elemento."
+      },
+      "autoTemplateSettings": {
+        "color": {
+          "label": "Colore Regione (opzionale)"
+        }
+      }
+    },
+    "hud": {
+      "title": "Editor TMFX"
+    },
+    "app": {
+      "filterSelector": {
+        "window": {
+          "title": "Effetti"
+        },
+        "controls": {
+          "presets": "Apri Preset",
+          "save": "Salva come Preset",
+          "macro": "Mostra come Macro",
+          "randomize": "Ritira Campi Randomizzati",
+          "clone": "Clona"
+        }
+      },
+      "filterEditor": {
+        "title": "Filtro"
+      },
+      "animationEditor": {
+        "title": "Anima"
+      },
+      "randomizationEditor": {
+        "title": "Randomizza",
+        "option": {
+          "any": {
+            "label": "Intervallo Min/Max Predefinito",
+            "hint": "Verrà scelto un valore casuale dall'intero intervallo definito dal controllo."
+          },
+          "range": "Intervallo Personalizzato",
+          "list": {
+            "label": "Elenco",
+            "add": "Aggiungi Valore"
+          },
+          "min": "Min",
+          "max": "Max",
+          "link": {
+            "label": "Campo Collegato",
+            "hint": "Lo stesso valore randomizzato verrà applicato al campo collegato."
+          }
+        }
+      },
+      "savePreset": {
+        "title": "Salva Preset",
+        "name": {
+          "label": "Nome Filtro/Preset",
+          "hint": "Il nome verrà usato come identificatore univoco per questo effetto."
+        },
+        "filterRandomized": {
+          "label": "Pulisci Campi Randomizzati",
+          "hint": "Seleziona per rimuovere i campi randomizzati inattivi."
+        },
+        "filterAnimated": {
+          "label": "Pulisci Campi Animati",
+          "hint": "Seleziona per rimuovere i campi animati inattivi."
+        },
+        "autoDestroy": {
+          "label": "Auto-Distruggi",
+          "hint": "Seleziona per auto-distruggere/rimuovere il filtro al termine di un'animazione in ciclo."
+        },
+        "confirm": {
+          "title": "Sovrascrivi Preset",
+          "message": "Esiste già un preset con lo stesso nome. Vuoi sovrascriverlo?"
+        }
+      },
+      "searchPreset": {
+        "controls": {
+          "regionToggle": "Mostra/Nascondi Preset Regione"
+        }
+      },
+      "editPreset": {
+        "option": {
+          "library": "Libreria",
+          "defaultColor": "Colore Predefinito",
+          "defaultOpacity": "Opacità Predefinita"
+        }
+      }
+    },
+    "matt": {
+      "togglePreset": "Attiva/Disattiva Preset",
+      "transient": {
+        "label": "Transitorio",
+        "hint": "Seleziona per impostare il preset come effetto transitorio/di breve durata. Non sopravviverà ai ricaricamenti della scena e sarà mostrato solo agli utenti selezionati."
+      },
+      "preset": "Preset"
+    }
+  }
 }

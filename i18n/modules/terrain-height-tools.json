@@ -9,7 +9,31 @@
     "TerrainHeightToolsPaint": "Disegna",
     "TerrainHeightToolsPipette": "Copia configurazione terreno",
     "TerrainHeightToolsShapeConvert": "Converti forme in disegni/muri",
-    "TerrainHeightToolsTokenLineOfSight": "Linea di vista token strumenti altezza terreno"
+    "TerrainHeightToolsTokenLineOfSight": "Linea di vista token strumenti altezza terreno",
+    "Copy": "Copia",
+    "TerrainHeightToolsLayerToggleP": "Mostra o nasconde tutte le forme di Terrain Height Tools dalla scena.",
+    "TerrainHeightToolsLineOfSightRulerP": "Disegna un raggio di linea di vista tra due punti, evidenziando eventuali intersezioni con il terreno.",
+    "TerrainHeightToolsTerrainVisibility": "Visibilità Terreno",
+    "TerrainHeightToolsTokenLineOfSightDrawRuler": "Disegna righello",
+    "TerrainHeightToolsTokenLineOfSightP": "Disegna raggi di linea di vista tra due token ed evidenzia eventuali intersezioni con il terreno.",
+    "TerrainHeightToolsDrawingModeP": "<p>Quando aggiungi una forma alla mappa delle altezze, la forma si fonderà con il terreno adiacente dello stesso tipo, altezza ed elevazione che viene dipinto e si fonderà con il terreno direttamente sopra/sotto dello stesso tipo.</p>",
+    "TerrainHeightToolsDrawingModeGridCells": "Caselle della Griglia",
+    "TerrainHeightToolsDrawingModeRectangle": "Rettangolo",
+    "TerrainHeightToolsDrawingModeEllipse": "Ellisse",
+    "TerrainHeightToolsDrawingModeEllipseDrawCircle": "Disegna Cerchio",
+    "TerrainHeightToolsDrawingModeEllipseDrawFromCenter": "Disegna dal Centro",
+    "TerrainHeightToolsDrawingModeCustomPolygon": "Poligono Personalizzato",
+    "TerrainHeightToolsDrawingModeCustomPolygonDraw": "<span class=\"reference\">Clic</span> per iniziare un nuovo poligono o aggiungere un nuovo punto. <span class=\"reference\">Doppio Clic</span> per terminare.",
+    "TerrainHeightToolsDrawingModeCustomPolygonRemoveLastPoint": "Rimuovi ultimo punto",
+    "TerrainHeightToolsDrawingModeFill": "Riempi",
+    "TerrainHeightToolsDrawingModeFillClick": "<span class=\"reference\">Clic</span> per riempire dalla posizione cliccata.",
+    "TerrainHeightToolsDrawingModeFillP": "Riempie lo spazio adiacente simile con il terreno selezionato. 'Simile' è definito come identico entro l'intervallo dipinto (es. se si dipinge da basso = 2 ad alto = 4, il terreno è simile se tutto il terreno tra H2 e H4 è identico al punto cliccato)",
+    "TerrainHeightToolsDrawingModeDeleteShape": "Elimina Forma",
+    "TerrainHeightToolsDrawingModeDeleteShapeClick": "<span class=\"reference\">Clic</span> su una forma per eliminarla.",
+    "TerrainHeightToolsDrawingModeDeleteShapeP": "Elimina un'intera forma dalla scena. Nota che ciò non è influenzato dall'intervallo basso/alto o dal filtro 'tipi di terreno da cancellare'.",
+    "TerrainHeightToolsDrawingModePipette": "Copia Configurazione Terreno",
+    "TerrainHeightToolsDrawingModePipetteClick": "<span class=\"reference\">Clic</span> su una forma esistente.",
+    "TerrainHeightToolsDrawingModePipetteP": "Selezionando una forma ne copierai la configurazione (tipo di terreno, basso e alto o elevazione e altezza) nella barra di pittura del terreno."
   },
   "KEYBINDINGS": {
     "DecreaseLosRulerHeight": "Diminuisci altezza righello linea di vista",
@@ -53,7 +77,27 @@
     "TokenLosToolPreselectToken2.Name": "Linea vista token: auto-riempi token 2",
     "TokenLosToolPreselectToken2.Hint": "Auto-seleziona il primo token mirato come secondo punto di vista.",
     "UseFractionsForLabels.Name": "Usare frazioni per le etichette",
-    "UseFractionsForLabels.Hint": "Valori come 0.5 saranno mostrati come ½ nelle etichette."
+    "UseFractionsForLabels.Hint": "Valori come 0.5 saranno mostrati come ½ nelle etichette.",
+    "ShowZonesAboveNonZones": {
+      "Name": "Disegna le zone sopra le non-zone",
+      "Hint": "Se vero, le zone verranno sempre disegnate sopra le non-zone. Se falso, le zone verranno disegnate sotto le non-zone."
+    },
+    "TerrainHeightToolsToolbarPosition": {
+      "Name": "Posizione Barra Strumenti",
+      "Hint": "Dove posizionare le barre degli strumenti (pittura, cancellazione, linea di vista, ecc.).",
+      "Choice": {
+        "TopCenter": "In Alto al Centro",
+        "BottomCenter": "In Basso al Centro"
+      }
+    },
+    "TerrainHeightToolsToolbarAutofade": {
+      "Name": "Dissolvenza Automatica Barra",
+      "Hint": "Se attivo, le barre di THT si dissolveranno automaticamente quando non in uso (come fa l'interfaccia predefinita di Foundry)."
+    },
+    "TokenElevationChangeInsertClimbWaypoints": {
+      "Name": "Waypoint di Scalata Automatici al Cambio di Elevazione del Token",
+      "Hint": "Se abilitato, quando l'elevazione del token cambia automaticamente, verranno aggiunti waypoint extra in basso e in alto del cambiamento con un tipo di movimento 'scalata'. Non funziona ancora sulle scene senza griglia."
+    }
   },
   "TERRAINHEIGHTTOOLS": {
     "AddTerrainType": "Aggiungi tipo di terreno",
@@ -146,7 +190,65 @@
     "TokenLineOfSightConfigTitle": "Linea di vista token",
     "TokenLineOfSightRelativeRayPosition": "Posizione raggio relativa al token. Attuale: {current}",
     "TokenLineOfSightSelectTokenHint": "Clicca un token per selezionarlo o clicca di nuovo per annullare",
-    "Top": "Alto"
+    "Top": "Alto",
+    "AllowLabelRotation": {
+      "Name": "Consenti Rotazione Etichetta",
+      "Hint": "Se attivo, l'etichetta può essere ruotata di 90 gradi se THT ritiene che si adatti meglio così."
+    },
+    "BehaviorsHelpText": "Questa funzione usa le regioni di scena di Foundry per fornire comportamenti. Queste regioni vengono ricreate quando i dati del terreno cambiano, quindi le funzioni che usano uno stato (come la possibilità che i comportamenti avvengano una sola volta) potrebbero non funzionare come previsto.",
+    "ClickToShowHideTerrain": "Clicca su un tipo di terreno per mostrarlo o nasconderlo da questa scena per tutti i giocatori.",
+    "DefaultElevation": {
+      "Name": "Elevazione Predefinita",
+      "Hint": "Se fornito, selezionando questo tipo di terreno nella barra di pittura, l'elevazione di pittura verrà impostata a questo valore. Puoi comunque modificarlo."
+    },
+    "DefaultHeight": {
+      "Name": "Altezza Predefinita",
+      "Hint": "Se fornito, selezionando questo tipo di terreno nella barra di pittura, l'altezza di pittura verrà impostata a questo valore. Puoi comunque modificarla."
+    },
+    "DisableAnimation": "Disabilita animazione",
+    "EnableAnimation": "Abilita animazione",
+    "FillColor": "Colore Riempimento",
+    "FillOpacity": "Opacità Riempimento",
+    "FillTexture": "Texture Riempimento",
+    "FillType": "Tipo Riempimento",
+    "HoverTerrainToShowDetails": "Passa sul terreno per mostrare i dettagli",
+    "IgnoreAutoElevation": {
+      "Name": "Ignora Elevazione Automatica THT",
+      "Hint": "Se abilitato, questo token sarà escluso dalle regolazioni automatiche dell'elevazione del terreno."
+    },
+    "LabelColor": "Colore Etichetta",
+    "LabelOpacity": "Opacità Etichetta",
+    "LineColor": "Colore Linea",
+    "LineDashAnimation": "Animazione Tratteggio",
+    "LineFadeColor": "Colore Dissolvenza",
+    "LineFadeDistance": "Distanza Dissolvenza",
+    "LineFadeOpacity": "Opacità Dissolvenza",
+    "LineOpacity": "Opacità Linea",
+    "LineWidth": "Spessore Linea",
+    "MoveToBottom": "Sposta in fondo",
+    "MoveToTop": "Sposta in cima",
+    "NoBehaviorsConfigured": "Nessun comportamento configurato",
+    "PaintMode": {
+      "Label": "Modalità Pittura"
+    },
+    "RegionManagedByThtWarning": "<p>Questa regione è gestita da Terrain Height Tools. Non apportare modifiche direttamente alla regione, poiché andranno perse al prossimo aggiornamento della mappa di THT.</p><p>Per regolare i comportamenti di questa regione, configura il tipo di terreno della regione. Per regolare le forme della regione, dipingi/cancella il terreno usando Terrain Height Tools.</p>",
+    "SelectATerrainType": "Seleziona un tipo di terreno",
+    "SetWallHeightFlags": "Imposta Altezza Muro",
+    "ShadowAmount": "Intensità Ombra",
+    "ShadowColor": "Colore Ombra",
+    "ShadowOpacity": "Opacità Ombra",
+    "StrokeThickness": "Spessore Tratto",
+    "TabBehaviors": "Comportamenti",
+    "TabFill": "Riempimento",
+    "TabLabel": "Etichetta",
+    "TabLine": "Linea",
+    "TabOther": "Altro",
+    "TerrainType": "Tipo di Terreno",
+    "TerrainVisibilityConfig": "Visibilità Terreno",
+    "TextureOffsetAnimation": "Animazione Texture",
+    "Tool": "Strumento",
+    "UseBottomTop": "Usa 'alto' e 'basso'",
+    "UseHeightElevation": "Usa 'altezza' ed 'elevazione'"
   },
   "InvertSelection": "Inverti selezione",
   "SelectNone": "Deseleziona tutto"

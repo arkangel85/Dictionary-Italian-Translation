@@ -31,7 +31,11 @@
       "OverwriteMacros": "Sovrascrivi macro",
       "OverwriteJournals": "Sovrascrivi diari",
       "OverwriteTables": "Sovrascrivi tabelle",
-      "OverwriteScenes": "Sovrascrivi scene"
+      "OverwriteScenes": "Sovrascrivi scene",
+      "DeleteModuleContent": "Elimina Contenuto di {module}",
+      "DeleteModuleContentDesc": "<p>Questo processo elimina tutti i Documenti di <strong>{module}</strong> che sono stati importati dall'Inizializzazione.</p><p>Nota quanto segue:</p><ul><li>I Documenti importati manualmente dal Compendio non verranno eliminati.</li><li>Qualsiasi Documento posseduto da un Giocatore non verrà eliminato.</li></ul><p>Ricorda che questo processo elimina solo i Documenti importati. Puoi reimportare dal Compendio qualsiasi cosa eliminata.</p>",
+      "DialogContent": "<p class='centered'><strong>{title}</strong></p><p>{description}",
+      "UpdaterNotification": "Creati {created} e aggiornati {updated} documenti da {name} - {version}"
     },
     "AdvancedConfig": "Sovrascrivi effetti",
     "Scripts": "Script",
@@ -68,7 +72,27 @@
       "ManyModules": "Hai moduli non ufficiali attivi. Potrebbero essere la causa? Prova a disattivare tutti i moduli non ufficiali Warhammer.",
       "AlertHint": "Questo report non è riproducibile o necessita ulteriori informazioni. Clicca sul titolo per i dettagli.",
       "NeedsAttention": "RICHIEDE ATTENZIONE",
-      "Resolved": "RISOLTO"
+      "Resolved": "RISOLTO",
+      "Report": "Segnala",
+      "SubmittedIssues": "Segnalazioni Inviate",
+      "APILimitReached": "Hai raggiunto il limite di utilizzo dell'API di GitHub. Dovrai attendere un'ora prima di inviare oppure inviare manualmente sul sito di GitHub.",
+      "Form": {
+        "Title": "Titolo Segnalazione",
+        "Module": "Modulo",
+        "Type": "Tipo",
+        "Contact": "Contatto",
+        "Description": "Descrizione",
+        "PAT": "PAT",
+        "MatchingIssues": "Il tuo problema è già stato segnalato?"
+      },
+      "Error": {
+        "Incomplete": "Completa il modulo con un titolo, un tipo, il modulo interessato e una descrizione",
+        "Generic": "Qualcosa è andato storto",
+        "Report": "Errore nell'invio della segnalazione. Consulta la console per i dettagli.",
+        "APIReached": "Hai raggiunto il limite di utilizzo dell'API di GitHub. Dovrai attendere un'ora prima di inviare oppure inviare manualmente sul sito di GitHub."
+      },
+      "Closed": "Chiuso",
+      "ReportSuccess": "Segnalazione inviata! Consulta la console per un collegamento."
     },
     "Choice": {
       "Options": "Opzioni",
@@ -82,12 +106,32 @@
       "Filter": "Filtro",
       "FilterPath": "Percorso",
       "FilterOperation": "Operazione",
-      "FilterValue": "Valore"
+      "FilterValue": "Valore",
+      "ChoiceDialog": "Dialogo di Scelta",
+      "Choices": "Scelte",
+      "Structure": "Struttura",
+      "Script": "Script",
+      "SubmitChoices": "Conferma Scelte"
     },
     "Initialization": {
       "DeleteModuleContent": "Elimina contenuti del modulo",
       "DeleteModuleContentPrompt": "<p><strong>ATTENZIONE</strong>: Questo eliminerà tutti i contenuti legati al modulo <strong>{id}</strong> importati in questo mondo.</p><p>Sei sicuro di voler continuare?</p>",
-      "ResolveDuplicates": "Risolvi duplicati"
+      "ResolveDuplicates": "Risolvi duplicati",
+      "Actors": "Inizializzazione Attori",
+      "Complete": "Inizializzazione Completata",
+      "DeletingActors": "Eliminazione Attori",
+      "DeletingFolders": "Eliminazione Cartelle",
+      "DeletingItems": "Eliminazione Oggetti",
+      "DeletingJournals": "Eliminazione Giornali",
+      "DeletingScenes": "Eliminazione Scene",
+      "DeletingTables": "Eliminazione Tabelle",
+      "ExistingContentMessage": "Sono stati trovati Documenti esistenti da un'inizializzazione precedente. Inizializzare di nuovo potrebbe chiederti di scegliere se mantenere le versioni importate attuali o sostituirle con questa inizializzazione. Vuoi continuare?",
+      "Items": "Inizializzazione Oggetti",
+      "Journals": "Inizializzazione Giornali",
+      "Scenes": "Inizializzazione Scene",
+      "Skipped": "Inizializzazione Saltata",
+      "Tables": "Inizializzazione Tabelle",
+      "UpdatedExistingDocument": "Aggiornato Documento Esistente: {name}"
     },
     "Item": {
       "Category": {
@@ -194,7 +238,13 @@
       "SkipImmediatePlacementHint": "Previene l'esecuzione di script immediati al piazzamento.",
       "ZoneType": "Tipo di zona",
       "ZoneTypeHint": "<strong>Effetto zona</strong>: effetto collegato alla zona. <strong>Token nella zona</strong>: effetto applicato ai token all'interno. <strong>Segui il token</strong>: applicato alla zona occupata dal token.",
-      "AdvancedConfig": "Configurazione avanzata"
+      "AdvancedConfig": "Configurazione avanzata",
+      "AuraVisibility": "Visibilità Aura",
+      "AuraVisibilityHint": "Configura come e quando la Regione dell'aura è visibile",
+      "ConfigureShape": "Configura Forma",
+      "ConfigureShapeHint": "Configura la forma dell'area dell'effetto",
+      "TransferredFollow": "Trasferisci Inseguimento",
+      "TransferredFollowHint": "Applica questo Effetto Inseguito a un bersaglio (o a sé stesso), invece che costantemente a sé stesso"
     },
     "TransferType": {
       "Document": "Documento proprietario",
@@ -232,7 +282,12 @@
       "CreateZoneEffect": "Gli effetti devono essere creati tramite un effetto attivo con tipo di trasferimento 'Zona'",
       "NoTargetedActors": "Nessun attore bersaglio!",
       "NoActorAssigned": "Nessun attore assegnato. Puoi assegnare attori tramite la Configurazione giocatore nell'angolo in basso a sinistra dello schermo.",
-      "NoTargets": "Nessun attore bersaglio!"
+      "NoTargets": "Nessun attore bersaglio!",
+      "MismatchedItemType": "Tipo di Oggetto non corrispondente",
+      "NoDrawingsToConvert": "Nessun Disegno da Convertire!",
+      "WrongChoiceOptionType": "Questo tipo di Oggetto non è consentito. Tipi consentiti: {types}",
+      "AppliedEffectNoItems": "Nessun Oggetto ha superato il filtro dell'Effetto Attivo!",
+      "NoTargetDrop": "L'effetto deve essere applicato a un Token"
     },
     "CompendiumBrowser": {
       "WorldItems": "Mostra oggetti del mondo nel browser",
@@ -287,7 +342,106 @@
       "Types": {
         "Label": "Tipi"
       }
-    }
+    },
+    "Chat": {
+      "Commands": {
+        "DefaultArgument": "Argomento Predefinito",
+        "Examples": "Esempi",
+        "HelpAlias": "Aiuto Comandi",
+        "HelpDescription": "Mostra le istruzioni su come usare i comandi",
+        "Notes": "Note",
+        "PrintCommand": "<p>Di seguito l'elenco dei comandi della chat e dei parametri disponibili. Puoi assegnare un valore a un parametro usando <span style='font-family:monospaced'>=</span>. Se un comando ha un argomento predefinito, non è necessario assegnarlo, ma deve essere il primo valore fornito.</p><p>es. <span style='font-family:monospaced'>{prefix}command 100 someArg=value1 anotherArg=value2</span></p>"
+      }
+    },
+    "Configuration": "Configurazione",
+    "ConfigureZoneTT": "Configura Zona",
+    "ConvertDrawings": "Converti Disegni in Zone",
+    "DereferenceTooltip": "Definisce completamente l'Oggetto all'interno della differenza, permettendo l'eliminazione dell'Oggetto originale.",
+    "Dialog": {
+      "DragDialog": "Dialogo di Trascinamento",
+      "DragFilter": "Il Documento fornito non è consentito.",
+      "DragText": "Fornisci un Documento",
+      "EnterValue": "Inserisci Valore",
+      "SelectValue": "Seleziona Valore",
+      "ValueDialog": "Dialogo del Valore",
+      "RollPublic": "Pubblico",
+      "RollPrivate": "Privato",
+      "RollBlind": "Cieco",
+      "RollSelf": "Personale"
+    },
+    "DisableDragRuler": "Disabilita Righello di Trascinamento",
+    "DisableDragRulerHint": "Disabilita il Righello di Trascinamento dei Token di Foundry",
+    "Effects": "Effetti",
+    "EnableScript": "Abilita Script per {name}",
+    "KeepDrawings": "Mantenere i Disegni?",
+    "MakeZonesVisible": "Rendere le Zone Visibili?",
+    "OriginalDocument": "Documento Originale",
+    "PreApplyScript": "Script Pre-Applicazione per {name}",
+    "Resist": "Resisti",
+    "RichEditor": "Editor di Testo Avanzato",
+    "RollMode": "Modalità di Tiro",
+    "RunIfDisabled": "Esegui se Disabilitato",
+    "RunIfDisabledHint": "Esegui questo script anche quando l'effetto è disabilitato",
+    "ShowDuplicates": "Mostra Duplicati",
+    "ShowDuplicatesHint": "Seleziona per mostrare il pulsante di questo script anche se esistono altri script manuali con lo stesso nome",
+    "SubmitChoices": "Conferma Scelte",
+    "Target": "Bersaglio",
+    "TemplateCustomization": "Personalizzazione Sagoma",
+    "Theme": {
+      "Config": "Configurazione Tema",
+      "ConfigButton": "Configura Tema",
+      "ConfigHint": "Abilita o disabilita lo stile fornito dal sistema.",
+      "FIELDS": {
+        "actor": {
+          "enabled": {
+            "label": "Abilita Tema"
+          },
+          "font": {
+            "label": "Carattere"
+          }
+        },
+        "apps": {
+          "enabled": {
+            "label": "Abilita Tema"
+          },
+          "font": {
+            "label": "Carattere"
+          }
+        },
+        "item": {
+          "enabled": {
+            "label": "Abilita Tema"
+          },
+          "font": {
+            "label": "Carattere"
+          }
+        },
+        "journal": {
+          "enabled": {
+            "label": "Abilita Tema"
+          },
+          "font": {
+            "label": "Carattere"
+          }
+        },
+        "sidebar": {
+          "enabled": {
+            "label": "Abilita Tema"
+          },
+          "font": {
+            "label": "Carattere"
+          }
+        }
+      },
+      "Font": {
+        "Classic": "Classico",
+        "Readable": "Leggibile"
+      }
+    },
+    "ToggleEffect": "Attiva/Disattiva Effetto"
   },
-  "EFFECT.TABS.scripts": "Script"
+  "EFFECT.TABS.scripts": "Script",
+  "UPDATER": {
+    "Notification": "Creati {created} e aggiornati {updated} documenti da {name} - {version}"
+  }
 }

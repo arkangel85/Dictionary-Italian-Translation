@@ -7,22 +7,18 @@
   "ACTOR.NPC_WARRIOR": "Guerriero",
   "ACTOR.NPC_CHOSEN": "Prescelto",
   "ACTOR.NPC_CHAMPION": "Campione",
-
   "ACTOR.NPC_SIZE_TINY": "Minuscolo",
   "ACTOR.NPC_SIZE_SMALL": "Piccolo",
   "ACTOR.NPC_SIZE_MEDIUM": "Medio",
   "ACTOR.NPC_SIZE_LARGE": "Grande",
   "ACTOR.NPC_SIZE_ENOURMOUS": "Enorme",
   "ACTOR.NPC_SIZE_MONSTROUS": "Mostruoso",
-
   "ACTOR.COUNTER_LINK": "Link al contatore",
-
   "ACTOR.SPEED_NONE": "Nessuna",
   "ACTOR.SPEED_SLOW": "Lenta",
   "ACTOR.SPEED_NORMAL": "Normale",
   "ACTOR.SPEED_FAST": "Veloce",
   "ACTOR.SPEED_MODIFIER": "Velocità (modificatore)",
-
   "TYPES.Item.aethericDevice": "Dispositivo eterico",
   "TYPES.Item.armour": "Armatura",
   "TYPES.Item.equipment": "Equipaggiamento",
@@ -33,7 +29,6 @@
   "TYPES.Item.weapon": "Arma",
   "TYPES.Item.partyItem": "Oggetto del gruppo",
   "TYPES.Item.archetype": "Archetipo",
-
   "ABILITIES.POOR": "Scarso",
   "ABILITIES.AVERAGE": "Nella media",
   "ABILITIES.GOOD": "Buono",
@@ -41,7 +36,6 @@
   "ABILITIES.SUPERB": "Superbo",
   "ABILITIES.EXTRAORDINARY": "Straordinario",
   "ABILITIES.INCALCULABLE": "Incalcolabile",
-
   "ABILITIES.POOR_NUM": "Scarso (1)",
   "ABILITIES.AVERAGE_NUM": "Nella media (2)",
   "ABILITIES.GOOD_NUM": "Buono (3)",
@@ -49,7 +43,6 @@
   "ABILITIES.SUPERB_NUM": "Superbo (5)",
   "ABILITIES.EXTRAORDINARY_NUM": "Straordinario (6)",
   "ABILITIES.INCALCULABLE_NUM": "Incalcolabile (7)",
-
   "AETHERIC_DEVICE.NAME": "Nome",
   "AETHERIC_DEVICE.CATEGORY": "Categoria",
   "AETHERIC_DEVICE.ARMOUR": "Armatura",
@@ -64,7 +57,6 @@
   "AETHERIC_DEVICE.AVAILABILITY": "Disponibilità",
   "AETHERIC_DEVICE.DESCRIPTION": "Descrizione",
   "AETHERIC_DEVICE.TEST": "Prova",
-
   "ARMOUR.NAME": "Nome",
   "ARMOUR.DESCRIPTION": "Descrizione",
   "ARMOUR.TYPE": "Tipo",
@@ -74,16 +66,13 @@
   "ARMOUR.TRAITS": "Tratti",
   "ARMOUR.COST": "Costo",
   "ARMOUR.ARMOUR": "Armatura",
-
   "ATTRIBUTE.BODY": "Corpo",
   "ATTRIBUTE.MIND": "Mente",
   "ATTRIBUTE.SOUL": "Anima",
-
   "AVAILABILITY.COMMON": "Comune",
   "AVAILABILITY.RARE": "Raro",
   "AVAILABILITY.EXOTIC": "Esotico",
   "AVAILABILITY.SPECIAL": "Speciale",
-
   "BIO.NAME": "Nome",
   "BIO.ARCHETYPE": "Archetipo",
   "BIO.SPECIES": "Specie",
@@ -101,7 +90,6 @@
   "BIO.SUBFACTION": "Sottofazione",
   "BIO.ROLE": "Ruolo",
   "BIO.DOOM": "Destino funesto",
-
   "BUTTON.CANCEL": "Annulla",
   "BUTTON.CONFIRM": "Conferma",
   "BUTTON.CREATE": "Crea",
@@ -116,10 +104,8 @@
   "BUTTON.UPDATE": "Aggiorna",
   "BUTTON.DELETE": "Elimina",
   "BUTTON.YES": "Sì",
-
   "CATEGORY.MELEE": "Mischia",
   "CATEGORY.RANGE": "A distanza",
-
   "PARTY.CATEGORY": "Categoria",
   "PARTY.LONG_TERM_GOAL": "Obiettivo a lungo termine",
   "PARTY.SHORT_TERM_GOAL": "Obiettivo a breve termine",
@@ -133,7 +119,6 @@
   "PARTY.ALIVE": "Vivo",
   "PARTY.ACTIVE": "Attivo",
   "PARTY.AllyOrEnemy": "Alleato o nemico?",
-
   "CHARGEN.PROMPT": "Iniziare la creazione del personaggio?",
   "CHARGEN.XP_SPENT": "PE spesi",
   "CHARGEN.APPLYING": "Applicazione",
@@ -144,7 +129,6 @@
   "CHARGEN.ERROR.MORE_TALENTS": "Puoi scegliere altri talenti",
   "CHARGEN.ERROR.TOO_MANY_TALENTS": "Troppi talenti selezionati",
   "CHARGEN.ERROR.UNRESOLVED_ITEMS": "Oggetti condivisi non risolti",
-
   "CHAT.SUCCESS": "Successo con {degree} successi extra",
   "CHAT.FAILED": "Fallimento, mancavano {degree}",
   "CHAT.FOCUS": "Focus",
@@ -172,20 +156,16 @@
   "CHAT.APPLY_REND_DAMAGE": "Applica danno da lacerazione",
   "CHAT.APPLY_BLAST_DAMAGE": "Applica danno da esplosione",
   "CHAT.TOUGHNESS_HEALED": "Resistenza recuperata",
-
   "NOTIFICATION.APPLY_DAMAGE": "{damage} danni inflitti a {name}",
   "NOTIFICATION.APPLY_HEALING": "{name} recupera {toughness} resistenza",
   "NOTIFICATION.APPLY_REND": "{damage} punti armatura ridotti per {name}",
   "NOTIFICATION.REND_FAIL": "Nessuna armatura disponibile da danneggiare",
   "NOTIFICATION.MACRO_ITEM_NOT_FOUND": "Oggetto non trovato. Forse non hai selezionato un token o l'attore non possiede quell'oggetto.",
-
   "CONNECTION.NAME": "Nome",
   "CONNECTION.DESCRIPTION": "Descrizione",
-
   "CURRENCY.DROPS": "Gocce",
   "CURRENCY.PHIALS": "Fiale",
   "CURRENCY.SPHERES": "Sfere",
-
   "DIALOG.ATTRIBUTE": "Caratteristica",
   "DIALOG.SKILL": "Abilità",
   "DIALOG.DN": "DC",
@@ -219,7 +199,6 @@
   "DIALOG.POOL_INPUT_ERROR": "Valore superiore alla riserva",
   "DIALOG.PRIMARY_SECONDARY_SELECT_TITLE": "Primaria o secondaria",
   "DIALOG.PRIMARY_SECONDARY_SELECT": "Usare la prova primaria o secondaria?",
-
   "DURATION.INSTANT": "Istantaneo",
   "DURATION.ROUND": "Turno",
   "DURATION.MINUTE": "Minuto",
@@ -227,20 +206,17 @@
   "DURATION.DAY": "Giorno",
   "DURATION.PERMANENT": "Permanente",
   "DURATION.SPECIAL": "Speciale",
-
   "EQUIPMENT.NAME": "Nome",
   "EQUIPMENT.COST": "Costo",
   "EQUIPMENT.AVAILABILITY": "Disponibilità",
   "EQUIPMENT.DESCRIPTION": "Descrizione",
   "EQUIPMENT.EQUIPPED": "Equip.",
   "EQUIPMENT.QUANTITY": "Quant.",
-
   "EXPERIENCE.EXPERIENCE": "Esperienza",
   "EXPERIENCE.XP": "PE",
   "EXPERIENCE.OUTSTANDING": "Punti esperienza rimanenti",
   "EXPERIENCE.SPENT": "Punti esperienza spesi",
   "EXPERIENCE.TOTAL": "Punti esperienza totali",
-
   "GOAL.NAME": "Nome",
   "GOAL.DESCRIPTION": "Descrizione",
   "GOAL.TYPE": "Tipo",
@@ -248,7 +224,6 @@
   "GOAL.IN_PROGRESS": "In corso",
   "GOAL.SHORT": "Breve termine",
   "GOAL.LONG": "Lungo termine",
-
   "HEADER.NAME": "Nome",
   "HEADER.TRAINING": "Addestramento",
   "HEADER.FOCUS": "Focus",
@@ -288,7 +263,6 @@
   "HEADER.FILTER_RESULTS": "Filtra risultati",
   "HEADER.ITEM_TRAITS": "Tratti dell’oggetto",
   "HEADER.ZONE_CONFIG": "Configurazione zona",
-
   "ITEM.GOAL": "Obiettivo",
   "ITEM.CONNECTION": "Collegamento",
   "ITEM.WOUND": "Ferita",
@@ -302,11 +276,9 @@
   "ITEM.EQUIPMENT": "Equipaggiamento",
   "ITEM.PARTY": "Oggetto del gruppo",
   "ITEM.NEW": "(Nuovo)",
-
   "MEMBER.NAME": "Nome",
   "MEMBER.ARCHETYPE": "Archetipo",
   "MEMBER.SPECIES": "Specie",
-
   "MIRACLE.NAME": "Nome",
   "MIRACLE.COST": "Costo",
   "MIRACLE.TEST": "Prova",
@@ -319,10 +291,8 @@
   "MIRACLE.OPPOSED": "Contrapposta",
   "MIRACLE.OF": "Miracolo di",
   "MIRACLE.DN": "DC",
-
   "PARTY.SOULFIRE": "Fiamma dell’anima",
   "PARTY.DOOM": "Condanna",
-
   "ARCHETYPE.SPECIES": "Specie",
   "ARCHETYPE.BODY": "Corpo",
   "ARCHETYPE.MIND": "Mente",
@@ -344,7 +314,6 @@
   "ARCHETYPE.ITEM.ADD_GENERIC": "Aggiungi generico",
   "ARCHETYPE.ITEM.RESET_GROUPS": "Reset gruppi",
   "ARCHETYPE.PROMPT": "Applicare l’archetipo a questo personaggio?",
-
   "POWER.NAME": "Nome",
   "POWER.DN": "CD",
   "POWER.DN_COST": "CD / Costo",
@@ -355,17 +324,14 @@
   "POWER.EFFECT": "Effetto",
   "POWER.STATUS": "Consumo energia: {consumed}/{capacity}",
   "POWER.TEST": "Prova",
-
   "RANGE.SPECIAL": "Speciale",
   "RANGE.SELF": "Sé stesso",
   "RANGE.CLOSE": "Vicino",
   "RANGE.SHORT": "Corta",
   "RANGE.MEDIUM": "Media",
   "RANGE.LONG": "Lunga",
-
   "RUNE.NAME": "Nome",
   "RUNE.DESCRIPTION": "Descrizione",
-
   "SETTING.INIT_RULE": "Regole di iniziativa",
   "SETTING.INIT_HINT": "Seleziona il metodo da usare per determinare l’ordine in combattimento.",
   "SETTING.INIT_DEFAULT": "Da iniziativa alta a bassa",
@@ -373,7 +339,6 @@
   "SETTING.INIT_ROLL1d": "Tiro 1d6 + iniziativa, prima i più alti",
   "SETTING.TARGET_RULE": "Rimozione bersaglio dopo attacco",
   "SETTING.TARGET_HINT": "Il bersaglio verrà rimosso dal token dopo l’attacco",
-
   "SKILL.ARCANA": "Arcano",
   "SKILL.ATHLETICS": "Atletica",
   "SKILL.AWARENESS": "Percezione",
@@ -402,7 +367,6 @@
   "SKILL.POOL_ABBR": "R",
   "SKILL.FOCUS_ABBR": "F",
   "SKILL.TEST": "Prova",
-
   "SPELL.NAME": "Nome",
   "SPELL.DN": "CD",
   "SPELL.ATTRIBUTE": "Caratteristica",
@@ -424,14 +388,12 @@
   "SPELL.OVERCAST_TITLE": "Titolo",
   "SPELL.OVERCAST_TITLE_HELP": "Nome del pulsante nel chat log",
   "SPELL.OVERCAST_DESCRIPTION": "Descrizione",
-
   "STATE.ALIVE": "Vivo",
   "STATE.DEAD": "Morto",
   "STATE.ACTIVE": "Attivo",
   "STATE.INACTIVE": "Inattivo",
   "STATE.EQUIPPED": "Equipaggiato",
   "STATE.OTHER": "Altro",
-
   "TAB.STATS": "STATISTICHE",
   "TAB.COMBAT": "COMBATTIMENTO",
   "TAB.TALENTS": "TALENTI",
@@ -444,14 +406,12 @@
   "TAB.MEMBERS": "MEMBRI",
   "TAB.EFFECTS": "EFFETTI",
   "TAB.PROPERTIES": "PROPRIETÀ",
-
   "TALENT.NAME": "Nome",
   "TALENT.EFFECT": "Effetto",
   "TALENT.DESCRIPTION": "Descrizione",
   "TALENT.REQUIREMENT": "Requisiti",
   "TALENT.FREE": "Gratuito",
   "TALENT.FREE_TT": "Escludi questo talento dal calcolo dell’esperienza",
-
   "TITLE.PHYSICAL": "ASPETTO",
   "TITLE.GOALS": "OBIETTIVI",
   "TITLE.CONNECTIONS": "CONNESSIONI",
@@ -482,7 +442,6 @@
   "TITLE.RUMOURS": "VOCI",
   "TITLE.FEARS": "PAURE",
   "TITLE.THREATS": "MINACCE",
-
   "TRAIT.MAGICAL": "magico",
   "TRAIT.PENETRATING": "perforante",
   "TRAIT.PENETRATING_EFFECT": "Perforante: ignora 1 punto armatura",
@@ -492,7 +451,6 @@
   "TRAIT.CLEAVE_EFFECT": "Fendente: colpisce {triggers} nemici a distanza ravvicinata",
   "TRAIT.REND": "lacerante",
   "TRAIT.REND_EFFECT": "Lacerante: il bersaglio perde {triggers} punti armatura non magica",
-
   "TRAITS.AETHERIC": "Eterico",
   "TRAITS.BLAST": "Esplosione",
   "TRAITS.CLEAVE": "Fendente",
@@ -516,12 +474,10 @@
   "TRAITS.THROWN": "Da lancio",
   "TRAITS.TWOHANDED": "A due mani",
   "TRAITS.CUSTOM": "Tratti personalizzati",
-
   "TYPE.LIGHT": "Leggera",
   "TYPE.MEDIUM": "Media",
   "TYPE.HEAVY": "Pesante",
   "TYPE.SHIELD": "Scudo",
-
   "WEAPON.NAME": "Nome",
   "WEAPON.DAMAGE": "Danno",
   "WEAPON.TRAITS": "Tratti",
@@ -530,14 +486,12 @@
   "WEAPON.COST": "Costo",
   "WEAPON.DESCRIPTION": "Descrizione",
   "WEAPON.TEST": "Prova",
-
   "WOUND.NAME": "Nome",
   "WOUND.DAMAGE": "Ferite",
   "WOUND.TYPE": "Tipo di ferita",
   "WOUND.LIGHT": "Ferita lieve",
   "WOUND.SERIOUS": "Ferita grave",
   "WOUND.DEADLY": "Ferita mortale",
-
   "ERROR.ID": "ID per {name} già presente nella collezione. Questo documento ha ricevuto un ID univoco.",
   "ERROR.NoArchetypeItem": "Questo personaggio non ha un archetipo. Aggiungine uno per compilare i campi.",
   "ERROR.NotEnoughFocus": "Focus insufficiente!",
@@ -545,10 +499,8 @@
   "ERROR.NotEnoughSuccesses": "Successi insufficienti per il sovraccarico magico",
   "ERROR.ScrollingText": "Errore nella visualizzazione del testo mobile per",
   "ERROR.ReferencedActorNotFound": "Impossibile caricare i dati: attore specificato non trovato",
-
   "WARN.NoActorsToApply": "Per applicare l'effetto è necessario selezionare dei token o assegnare un attore.",
   "WARN.NoActorsToTest": "Per eseguire una prova è necessario selezionare dei token o assegnare un attore.",
-
   "CONFIGURE.LABEL": "Configurazione",
   "CONFIGURE.AUTO_CALC_TOUGHNESS": "Calcolo automatico della resistenza",
   "CONFIGURE.AUTO_CALC_TOUGHNESS_HINT": "La resistenza verrà calcolata in base alle caratteristiche massime del personaggio",
@@ -558,7 +510,6 @@
   "CONFIGURE.AUTO_CALC_METTLE_HINT": "Il coraggio sarà calcolato in base alle caratteristiche del personaggio",
   "CONFIGURE.AUTO_CALC_TOKEN": "Ridimensionamento automatico del token",
   "CONFIGURE.AUTO_CALC_TOKEN_HINT": "La dimensione dei token sarà automaticamente adattata in base al campo 'taglia' nella scheda. I token già presenti sulla scena e gli sciami non verranno modificati.",
-
   "CONDITION.BLINDED": "Accecato",
   "CONDITION.CHARMED": "Ammaliato",
   "CONDITION.DEAFENED": "Assordato",
@@ -569,19 +520,16 @@
   "CONDITION.RESTRAINED": "Immobilizzato",
   "CONDITION.STUNNED": "Stordito",
   "CONDITION.UNCONSCIOUS": "Privo di sensi",
-
   "EFFECT.PartialCover": "Copertura parziale",
   "EFFECT.TotalCover": "Copertura totale",
   "EFFECT.LightlyObscured": "Parzialmente oscurato",
   "EFFECT.HeavilyObscured": "Fortemente oscurato",
   "EFFECT.DifficultTerrain": "Terreno difficile",
-
   "EFFECT.RequiresEquip": "Richiede equipaggiamento",
   "EFFECT.CREATE": "Crea effetto",
   "EFFECT.DELETE": "Elimina effetto",
   "EFFECT.ENABLE": "Abilita effetto",
   "EFFECT.DISABLE": "Disabilita effetto",
-
   "ZONE.DIFFICULT_TERRAIN": "Terreno difficile",
   "ZONE.COVER": "Copertura",
   "ZONE.HAZARD": "Pericolo",
@@ -597,15 +545,12 @@
   "ZONE.DEADLY_HAZARD": "Pericolo mortale",
   "ZONE.LIGHTLY_OBSCURED": "Parzialmente oscurata",
   "ZONE.HEAVILY_OBSCURED": "Fortemente oscurata",
-
   "EFFECT.ActivateIf": "Attiva se",
   "EFFECT.HideIf": "Nascondi se",
   "EFFECT.ActivateHint": "La funzione deve restituire true per l'attivazione automatica. Lascia vuoto per selezione manuale.",
   "EFFECT.HideHint": "La funzione deve restituire true per impedire la visualizzazione dello script effetto nella finestra.",
-
   "INITIALIZER.Complete": "Inizializzazione completata",
   "INITIALIZER.Skipped": "Inizializzazione saltata",
-
   "UpdaterTitle1": "Aggiornamento",
   "UpdaterTitle2": "Contenuti",
   "Updater1": "Questo processo importerà tutti i nuovi documenti e sovrascriverà quelli già importati con il contenuto della libreria.",
@@ -620,10 +565,8 @@
   "UPDATER.ExcludeHint": "Se il nome del documento è stato modificato, non verrà aggiornato.",
   "UPDATER.Error": "Puoi eseguire l’aggiornamento solo se hai già inizializzato il modulo.",
   "UPDATER.Notification": "Creati {created} e aggiornati {updated} documenti da {name} - {version}",
-
   "UPDATER.ResolveDuplicates": "Risolvi duplicati",
   "UPDATER.ResolveDuplicatesNote": "Questi documenti esistono già nel mondo. Vuoi sostituirli con quelli del modulo?<br><br>I documenti selezionati saranno sovrascritti, quelli non selezionati resteranno invariati.",
-
   "BUGREPORT.Contact": "Contatto",
   "BUGREPORT.ContactPlaceholder": "Tag Discord o Email",
   "BUGREPORT.DescriptionPlaceholder": "Cosa è successo, come riprodurlo, ecc.",
@@ -637,7 +580,6 @@
   "BugReport.ErrorName1": "Inserisci il tuo tag Discord o email nel campo nome.",
   "BugReport.ErrorName2": "È richiesto un tag Discord o un’email nel campo nome.",
   "BUTTON.PostBug": "Segnala un bug in Soulbound",
-
   "WH": {
     "Trigger": {
       "EquipToggle": "Equipaggiato",
@@ -648,7 +590,78 @@
       "PreRollSpellTest": "Pre-verifica incantesimo",
       "RollTest": "Verifica",
       "RollCombatTest": "Verifica combattimento",
-      "RollSpellTest": "Verifica incantesimo"
+      "RollSpellTest": "Verifica incantesimo",
+      "ReceiveWound": "Subisci Ferita",
+      "CauseWound": "Causa Ferita"
     }
+  },
+  "ACTOR": {
+    "SPEED_FLIGHT": "Velocità (Volo)"
+  },
+  "TYPES": {
+    "Item": {
+      "species": "Specie"
+    }
+  },
+  "CATEGORY": {
+    "RANGED": "A Distanza"
+  },
+  "CHAT": {
+    "REROLL_SELECTED": "Ritira Selezionati (-1 Fuoco dell'Anima)",
+    "REROLL_FAILED": "Ritira Falliti (-1 Fuoco dell'Anima)",
+    "SOULFIRE_MAXIMIZED": "<strong>Fuoco dell'Anima</strong>: Successi Massimizzati"
+  },
+  "DIALOG": {
+    "MAXIMIZE": "Massimizza",
+    "MAXIMIZE_TT": "Spendi Fuoco dell'Anima per ottenere il massimo dei successi"
+  },
+  "EQUIPMENT": {
+    "TEST": "Prova"
+  },
+  "HEADER": {
+    "SOURCE": "Fonte",
+    "ALLOCATE": "Alloca Focus",
+    "STRUCTURE": "Struttura",
+    "MANOEUVRE": "Manovra",
+    "HULL": "Scafo",
+    "SPECIES": "Specie"
+  },
+  "SPELL": {
+    "SKILL": "Abilità"
+  },
+  "TAB": {
+    "CARGO": "CARICO"
+  },
+  "TITLE": {
+    "ARMOUR": "ARMATURA",
+    "TRAITS": "TRATTI",
+    "ATTACKS": "ATTACCHI",
+    "ACTORS": "ATTORI",
+    "ACTIONS": "AZIONI",
+    "ROLES": "RUOLI"
+  },
+  "WEAPON": {
+    "ATTRIBUTE": "Attributo"
+  },
+  "ERROR": {
+    "NotEnoughSoulfire": "Fuoco dell'Anima insufficiente!"
+  },
+  "VEHICLE": {
+    "NAME": "Nome",
+    "DAMAGE": "Danno",
+    "RANGE": "Gittata",
+    "DICE": "Dadi",
+    "FOCUS": "Focus",
+    "TEST": "Prova",
+    "TRAIT": "Tratto",
+    "ATTACK": "Attacco",
+    "ROLE": "Ruolo",
+    "ACTION": "Azione",
+    "ACCURACY": "Precisione",
+    "OTHER": "Altro"
+  },
+  "ZONE": {
+    "TAGS": "Tag",
+    "FILTER": "Filtro"
   }
 }

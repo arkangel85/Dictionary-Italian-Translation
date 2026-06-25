@@ -3,38 +3,30 @@
   "SETTINGS.MouseGuardMacroShorthandL": "Abilita una sintassi abbreviata per le macro che permette di riferirsi direttamente agli attributi, ad esempio @str invece di @attributes.str.value. Disattiva questa opzione se hai bisogno di riferimenti completi al modello attributi, come @attributes.str.label.",
   "SETTINGS.MouseGuardInitFormulaN": "Formula Iniziativa",
   "SETTINGS.MouseGuardInitFormulaL": "Inserisci una formula per l'iniziativa, ad esempio d20+@dex",
-
   "MOUSEGUARD.ItemCreate": "Crea Oggetto",
   "MOUSEGUARD.ItemEdit": "Modifica Oggetto",
   "MOUSEGUARD.ItemDelete": "Elimina Oggetto",
   "MOUSEGUARD.ItemNew": "Nuovo Oggetto",
-
   "MOUSEGUARD.NotifyInitFormulaUpdated": "Formula di iniziativa aggiornata a",
   "MOUSEGUARD.NotifyInitFormulaInvalid": "Formula di iniziativa non valida",
   "MOUSEGUARD.NotifyGroupDuplicate": "Il gruppo di attributi esiste già.",
   "MOUSEGUARD.NotifyGroupAttrDuplicate": "Il gruppo di attributi esiste già come attributo.",
   "MOUSEGUARD.NotifyGroupAlphanumeric": "I nomi dei gruppi di attributi non possono contenere spazi o punti.",
   "MOUSEGUARD.NotifyAttrDuplicate": "La chiave attributo esiste già come gruppo.",
-
   "MOUSEGUARD.ResourceMin": "Min",
   "MOUSEGUARD.ResourceValue": "Valore",
   "MOUSEGUARD.ResourceMax": "Max",
-
   "MOUSEGUARD.DefineTemplate": "Definisci come Template",
   "MOUSEGUARD.UnsetTemplate": "Rimuovi Template",
   "MOUSEGUARD.NoTemplate": "Nessun Template",
-
   "MOUSEGUARD.AttributeKey": "Chiave Attributo",
   "MOUSEGUARD.AttributeValue": "Valore",
   "MOUSEGUARD.AttributeLabel": "Etichetta",
   "MOUSEGUARD.AttributeDtype": "Tipo di Dato",
-
   "MOUSEGUARD.DeleteGroup": "Eliminare gruppo?",
   "MOUSEGUARD.DeleteGroupContent": "Vuoi eliminare questo gruppo? Verranno eliminati il gruppo e tutti gli attributi inclusi: ",
-
   "MOUSEGUARD.Create": "Crea",
   "MOUSEGUARD.New": "Nuovo",
-
   "MOUSEGUARD.About": "Chi sono",
   "MOUSEGUARD.Name": "Nome",
   "MOUSEGUARD.Age": "Età",
@@ -62,7 +54,6 @@
   "MOUSEGUARD.GearTag": "Equipaggiamento e beni personali",
   "MOUSEGUARD.GearTagSub": "L'equipaggiamento è limitato a ciò che puoi portare. I beni sono custoditi a Lockhaven o altrove",
   "MOUSEGUARD.Contacts": "Contatti",
-
   "MOUSEGUARD.Disposition": "Disposizione",
   "MOUSEGUARD.ConflictGoal": "Obiettivo del conflitto",
   "MOUSEGUARD.ConflictActions": "Azioni nel conflitto",
@@ -71,7 +62,6 @@
   "MOUSEGUARD.Feint": "Finta",
   "MOUSEGUARD.Maneuver": "Manovra",
   "MOUSEGUARD.Mission": "Missione",
-
   "MOUSEGUARD.MNature": "Natura (Topo)",
   "MOUSEGUARD.Will": "Volontà",
   "MOUSEGUARD.Health": "Salute",
@@ -79,7 +69,6 @@
   "MOUSEGUARD.Circles": "Relazioni",
   "MOUSEGUARD.WNature": "Natura (Donnola)",
   "MOUSEGUARD.Nature": "Natura",
-
   "MOUSEGUARD.Conditions": "Condizioni",
   "MOUSEGUARD.HungThurst": "Affamato, Assetato",
   "MOUSEGUARD.HungThurstSub": "-1 alla disposizione in ogni conflitto.",
@@ -91,7 +80,6 @@
   "MOUSEGUARD.InjuredSub": "-1D a abilità, Natura, Volontà e Salute (escluso il recupero)",
   "MOUSEGUARD.Sick": "Malato (Ob 4 Volontà)",
   "MOUSEGUARD.SickSub": "-1D a abilità, Natura, Volontà e Salute (escluso il recupero)",
-
   "MOUSEGUARD.Bio": "Biografia",
   "MOUSEGUARD.Wises": "Conoscenze",
   "MOUSEGUARD.Pass": "Prova superata",
@@ -100,10 +88,8 @@
   "MOUSEGUARD.Skill": "Abilità",
   "MOUSEGUARD.Abilities": "Capacità",
   "MOUSEGUARD.Tab2": "Capacità, Conoscenze, Abilità e Tratti",
-
   "MOUSEGUARD.Rating": "Valutazione",
   "MOUSEGUARD.Advancement": "Avanzamento",
-
   "MOUSEGUARD.Traits": "Tratti",
   "MOUSEGUARD.Trait": "Tratto",
   "MOUSEGUARD.UsedFor": "Usato per",
@@ -115,10 +101,8 @@
   "MOUSEGUARD.SubtractDice": "-1 Dado",
   "MOUSEGUARD.RollDice": "Lancia dadi",
   "MOUSEGUARD.Success": "Successo",
-
   "MOUSEGUARD.Current": "Attuale",
   "MOUSEGUARD.Starting": "Iniziale",
-
   "MOUSEGUARD.P": "P",
   "MOUSEGUARD.F": "F",
   "MOUSEGUARD.A": "M",
@@ -126,12 +110,10 @@
   "MOUSEGUARD.AddSkill": "Aggiungi abilità",
   "MOUSEGUARD.AddWise": "Aggiungi conoscenza",
   "MOUSEGUARD.AddTrait": "Aggiungi tratto",
-
   "MOUSEGUARD.character": "personaggio",
   "MOUSEGUARD.mouse": "topo",
   "MOUSEGUARD.weasel": "donnola",
   "MOUSEGUARD.animal": "animale",
-
   "COMBAT.ConflictCaptain": "Imposta Capitano del Conflitto",
   "COMBAT.askGoal": "Chiedi al Capitano del Conflitto l'obiettivo",
   "COMBAT.attack": "Attacco",
@@ -146,9 +128,43 @@
   "COMBAT.NeedCC": "È necessario impostare un Capitano del Conflitto.",
   "COMBAT.NeedGoal": "È necessario definire un Obiettivo per iniziare il combattimento. Invio richiesta obiettivo al Capitano.",
   "COMBAT.NoGoal": "Obiettivo: non definito",
-
   "ACTOR.TypeCharacter": "Personaggio",
   "ACTOR.TypeMouse": "Topo",
   "ACTOR.TypeWeasel": "Donnola",
-  "ACTOR.TypeAnimal": "Animale"
+  "ACTOR.TypeAnimal": "Animale",
+  "MOUSEGUARD": {
+    "hungthurst": "Affamato, Assetato",
+    "hungthurstSub": "-1 alla disposizione in qualsiasi conflitto.",
+    "hungthurstToolTip": "Affamato, Assetato: -1 alla disposizione in qualsiasi conflitto.",
+    "angry": "Arrabbiato",
+    "angryCheck": "(Ob 2 Volontà)",
+    "angrySub": "-1 alla disposizione in qualsiasi conflitto che usa la Volontà come base.",
+    "angryToolTip": "Arrabbiato: (Ob 2 Volontà) -1 alla disposizione in qualsiasi conflitto che usa la Volontà come base.",
+    "tired": "Stanco",
+    "tiredCheck": "(Ob 3 Salute)",
+    "tiredSub": "-1 alla disposizione in qualsiasi conflitto",
+    "tiredToolTip": "Stanco: (Ob 3 Salute) -1 alla disposizione in qualsiasi conflitto",
+    "injured": "Ferito",
+    "injuredCheck": "(Ob 4 Salute)",
+    "injuredSub": "-1D alle abilità, Natura, Volontà e Salute (ma non al recupero)",
+    "injuredToolTip": "Ferito: (Ob 4 Salute) -1D alle abilità, Natura, Volontà e Salute (ma non al recupero)",
+    "sick": "Malato",
+    "sickCheck": "(Ob 4 Volontà)",
+    "sickSub": "-1D alle abilità, Natura, Volontà e Salute (ma non al recupero)",
+    "sickToolTip": "Malato: (Ob 4 Volontà) -1D alle abilità, Natura, Volontà e Salute (ma non al recupero)"
+  },
+  "COMBAT": {
+    "CCERROR": "Un Capitano del Conflitto non può cambiare squadra.",
+    "Team1": "Squadra 1",
+    "Team2": "Squadra 2",
+    "Team0": "Combattenti Non Assegnati"
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Personaggio",
+      "mouse": "Topo",
+      "weasel": "Donnola",
+      "animal": "Animale"
+    }
+  }
 }

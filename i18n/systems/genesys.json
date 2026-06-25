@@ -22,7 +22,9 @@
     "TypeVehicleweapon": "Arma del veicolo"
   },
   "Genesys": {
-    "System": { "Name": "Genesys" },
+    "System": {
+      "Name": "Genesys"
+    },
     "Settings": {
       "SkillsCompendium": "Compendio delle Abilità",
       "SkillsCompendiumHint": "Il compendio di oggetti che contiene tutte le abilità verrà assegnato ai nuovi personaggi creati. La modifica di questo valore non influirà sui personaggi esistenti.",
@@ -45,7 +47,13 @@
       "DicePoolChanceToSucceedBySimulation": "Approssima la probabilità di successo dei pool di dadi",
       "DicePoolChanceToSucceedBySimulationHint": "Numero di tiri simulati per approssimare la probabilità di successo. Valori alti influenzano le prestazioni di Foundry; 100 è un buon punto di partenza. Se è 0, la funzione è disabilitata. Ignorato se si usa già un altro metodo di calcolo.",
       "SuperCharacteristics": "Super-caratteristiche",
-      "SuperCharacteristicsHint": "Permette di contrassegnare attributi come 'super' durante la creazione del personaggio secondo la regola opzionale 'Super-caratteristiche' (Manuale base, pag. 251)."
+      "SuperCharacteristicsHint": "Permette di contrassegnare attributi come 'super' durante la creazione del personaggio secondo la regola opzionale 'Super-caratteristiche' (Manuale base, pag. 251).",
+      "DefaultDifficulty": "Difficoltà Predefinita",
+      "DefaultDifficultyHint": "Le modifiche predefinite alla riserva di dadi da aggiungere quando si effettua una prova. Questo valore predefinito può essere ignorato nei casi in cui la difficoltà è nota. Per una spiegazione di tutte le possibili modifiche e dei relativi simboli consulta [[Dice-Pool-Modification-Glyphs|Simboli di Modifica della Riserva di Dadi]].",
+      "DicePoolCollapseModifications": "Comprimi la Sezione Modifiche alla Riserva",
+      "DicePoolCollapseModificationsHint": "Se abilitato, la sezione 'Modifiche alla Riserva' nella finestra della riserva di dadi sarà compressa al primo caricamento.",
+      "DicePoolAutoApplyModifications": "Applica Automaticamente le Modifiche alla Riserva",
+      "DicePoolAutoApplyModificationsHint": "Se abilitato, tutte le modifiche che possono influenzare la riserva di dadi verranno applicate all'apertura della finestra della riserva."
     },
     "Tooltips": {
       "NoDescription": "Nessuna descrizione disponibile",
@@ -86,7 +94,8 @@
       "Header": "Abilità di carriera",
       "Hint": "Scegli le abilità di carriera da aumentare di 1 grado.",
       "RemainingChoices": "Abilità rimanenti",
-      "Confirm": "Conferma"
+      "Confirm": "Conferma",
+      "Title": "Abilità di Carriera"
     },
     "DiceCat": {
       "Normal": "Dadi Genesys",
@@ -107,7 +116,8 @@
       "Average": "Normale",
       "Hard": "Difficile",
       "Daunting": "Impegnativa",
-      "Impossible": "Impossibile"
+      "Impossible": "Impossibile",
+      "Formidable": "Formidabile"
     },
     "Inventory": {
       "Sections": {
@@ -129,7 +139,10 @@
         "ModifyStat": "Modifica statistica",
         "ModifySkill": "Modifica abilità",
         "ModifyDicePool": "Modifica pool di dadi"
-      }
+      },
+      "ChangeKey": "Bersaglio Effetto",
+      "ChangeMode": "Opzione",
+      "ChangeValue": "Valore Effetto"
     },
     "DicePrompt": {
       "Title": "Pool di dadi",
@@ -138,7 +151,14 @@
       "UseSuperCharacteristic": "Tira come super-caratteristica",
       "ChanceToSucceed": "Probabilità di successo",
       "ChanceToSucceedByPermutationDisclaimer": "La probabilità mostrata è esatta solo se il pool non include super-caratteristiche.",
-      "ChanceToSucceedBySimulationDisclaimer": "La probabilità mostrata è un'approssimazione ottenuta con metodo Monte Carlo."
+      "ChanceToSucceedBySimulationDisclaimer": "La probabilità mostrata è un'approssimazione ottenuta con metodo Monte Carlo.",
+      "PoolModifications": {
+        "Title": "Modifiche alla Riserva",
+        "DefaultDifficulty": "Difficoltà Predefinita",
+        "ManualChanges": "Modifiche Manuali",
+        "SelfEffects": "Da Sé: ",
+        "TargetEffects": "Dal Bersaglio: "
+      }
     },
     "XPJournal": {
       "Award": "<strong>Esperienza assegnata dal master</strong>: {reason}",
@@ -171,17 +191,22 @@
       "CannotSelectActor": "Non hai i permessi necessari per selezionare questo personaggio.",
       "InvalidTokenTypeForAction": "Il token selezionato non è del tipo corretto per questa azione.",
       "EffectsWereNotUpdatedAfterTransfer": "Errore durante l’aggiornamento degli effetti trasferiti per «{name}».",
-      "NoRoleMembersWithAppropriateSkills": "Nessun membro ha le abilità adatte per eseguire questa azione."
+      "NoRoleMembersWithAppropriateSkills": "Nessun membro ha le abilità adatte per eseguire questa azione.",
+      "GenericError": "Impossibile eseguire l'azione desiderata.",
+      "CannotDeleteInvalidTalentPyramid": "Impossibile eliminare la voce del Registro PE per il talento di grado {rank} per preservare la struttura della piramide dei talenti. Prova prima a eliminare i talenti di grado più alto."
     },
     "StoryPoints": {
       "Player": "Punti Storia dei giocatori",
       "GM": "Punti Storia del master",
       "Reset": "Resetta i Punti Storia",
       "Spend": "Spendi un Punto Storia",
-      "ChatMessage": "È stato speso un Punto Storia!"
+      "ChatMessage": "È stato speso un Punto Storia!",
+      "ChatMessageGmPool": "Spende un Punto Storia del GM!",
+      "ChatMessagePlayerPool": "Spende un Punto Storia del Giocatore!"
     },
     "Enrichers": {
-      "Difficulty": "{difficulty} [{symbols}] prova {skill} "
+      "Difficulty": "{difficulty} [{symbols}] prova {skill} ",
+      "Opposed": "Prova contrapposta {skill1} contro {skill2}"
     },
     "CombatTracker": {
       "RevokeInitiativeClaim": "Revoca la selezione dell'iniziativa"
@@ -278,6 +303,15 @@
         "Minor": "Danno Minore",
         "Moderate": "Danno Moderato",
         "Major": "Danno Grave"
+      },
+      "Dropdown": {
+        "Equip": "Equipaggia",
+        "Unequip": "Rimuovi",
+        "Drop": "Lascia",
+        "PickUp": "Raccogli",
+        "ToChat": "In Chat",
+        "Edit": "Modifica",
+        "Delete": "Elimina"
       }
     },
     "Labels": {
@@ -402,7 +436,77 @@
       "OverCapacity": "Sovraccarico!",
       "RoleSkills": "Abilità di Ruolo",
       "FiringArc": "Arco di Tiro",
-      "Select": "Seleziona"
+      "Select": "Seleziona",
+      "EffectsScaleWithRank": "Gli effetti scalano con il grado",
+      "true": "Vero",
+      "false": "Falso",
+      "Role": "Ruolo",
+      "PerformCheck": "Esegui Prova",
+      "GroupBy": "Raggruppa Per",
+      "Attack": "Attacco",
+      "Item": "Oggetto",
+      "Items": "Oggetti",
+      "CloseContainer": "Chiudi Contenitore"
+    },
+    "RewardsPrompt": {
+      "Title": "Ricompense",
+      "Amount": "Quantità",
+      "Reason": "Motivo"
+    },
+    "CharacterSkillPrompt": {
+      "Title": "Seleziona Utente"
+    },
+    "CloneActorPrompt": {
+      "Title": "Conferma Rilascio",
+      "OriginalMethod": {
+        "Label": "Riferimento",
+        "Description": "Verrà salvato un riferimento all'attore."
+      },
+      "CloneMethod": {
+        "Label": "Clona",
+        "Description": "Verrà creato un clone dell'attore rilasciato e verrà salvato un riferimento ad esso. Inoltre, l'attore clonato apparirà nella cartella 'Attori' come nuova voce con il nome specificato qui sotto.",
+        "ActorNameLabel": "Nuovo Nome"
+      }
+    },
+    "Dialogs": {
+      "ConfirmDeleteItem": {
+        "Title": "Conferma Rimozione",
+        "Content": "Questo rimuoverà l'oggetto. Vuoi procedere?"
+      }
+    },
+    "Migration": {
+      "MustPerformMigration": "MIGRAZIONE NECESSARIA!: Alcuni dati devono essere migrati e non farlo potrebbe corrompere i dati o compromettere le funzionalità. Esci dal mondo e attendi che un GM esegua la migrazione.",
+      "StartingMigration": "MIGRAZIONE AVVIATA: Avvio di {amount} migrazione/i; sii paziente e non chiudere l'applicazione.",
+      "StartingScriptMigration": "MIGRAZIONE AVVIATA [{id}]: Avvio della migrazione.",
+      "StoppedScriptMigration": "MIGRAZIONE INTERROTTA [{id}]: Riscontrato un errore durante la migrazione.",
+      "CompletedScriptMigration": "MIGRAZIONE TERMINATA [{id}]: Migrazione completata.",
+      "MultipleSuccessfulMigration": "VERSIONE MIGRAZIONE AGGIORNATA: Almeno una migrazione è stata completata con successo.",
+      "StoppedMigration": "MIGRAZIONE INTERROTTA: La migrazione si è fermata a causa di alcuni errori; consulta il log della console per i dettagli. Ci sono ancora {amount} migrazione/i non eseguite.",
+      "CompletedMigration": "MIGRAZIONE TERMINATA: Tutte le migrazioni completate; grazie per la pazienza."
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Personaggio",
+      "minion": "Tirapiedi",
+      "rival": "Rivale",
+      "nemesis": "Nemesi",
+      "vehicle": "Veicolo"
+    },
+    "Item": {
+      "ability": "Capacità Speciale",
+      "archetype": "Archetipo",
+      "career": "Carriera",
+      "injury": "Ferita/Colpo Critico",
+      "skill": "Abilità",
+      "talent": "Talento",
+      "armor": "Armatura",
+      "consumable": "Consumabile",
+      "container": "Contenitore",
+      "gear": "Equipaggiamento",
+      "quality": "Qualità Oggetto",
+      "weapon": "Arma",
+      "vehicleWeapon": "Arma del Veicolo"
     }
   }
 }

@@ -56,5 +56,47 @@
   "CMPBrowser.LOADING.Message": "Caricamento... {numLoaded} {itemType}",
   "CMPBrowser.LOADED.Message": "Caricati {numLoaded} {itemType}",
   "CMPBrowser.LOADED.MaxLoaded": "(limite raggiunto; usa i filtri per vedere più risultati)",
-  "CMPBrowser.Filters.ResetFilters": "Reimposta filtri"
+  "CMPBrowser.Filters.ResetFilters": "Reimposta filtri",
+  "CMPBrowser": {
+    "SETTING": {
+      "extraButtonsGlobal": {
+        "NAME": "Abilita Pulsanti Globalmente",
+        "HINT": "Abilita globalmente i pulsanti di scelta rapida al browser aggiunti alle schede (riapri la finestra per applicarlo)"
+      },
+      "extraSheetButtons": {
+        "NAME": "Abilita Pulsanti Extra sulle Schede",
+        "HINT": "Abilita pulsanti di scelta rapida extra che appaiono sulle schede dei PG (riapri la finestra per applicarlo)"
+      },
+      "extraAdvancementButtons": {
+        "NAME": "Abilita Pulsanti Extra di Avanzamento",
+        "HINT": "Abilita pulsanti di scelta rapida extra che appaiono nelle finestre di avanzamento (riapri la finestra per applicarlo)"
+      },
+      "bannersGlobal": {
+        "NAME": "Abilita Banner - Globale",
+        "HINT": "Abilita i banner per le caratteristiche chiave mancanti sulle schede dei PG per tutti i giocatori"
+      },
+      "bannersLocal": {
+        "NAME": "Abilita Banner - Locale",
+        "HINT": "Abilita i banner per le caratteristiche chiave mancanti sulle schede dei PG per te stesso"
+      }
+    },
+    "LOADED": {
+      "Message": {
+        "feat": "Caricati {numLoaded} talenti",
+        "item": "Caricati {numLoaded} oggetti",
+        "npc": "Caricati {numLoaded} png",
+        "spell": "Caricati {numLoaded} incantesimi"
+      }
+    },
+    "ToolTip": {
+      "Feats": "Trova Talenti",
+      "Spells": "Trova Incantesimi",
+      "Features": "Trova Privilegi"
+    },
+    "FindA": {
+      "race": "Manca una Razza, clicca per aprire l'elenco",
+      "background": "Manca un Background, clicca per aprire l'elenco",
+      "class": "Manca una Classe, clicca per aprire l'elenco"
+    }
+  }
 }

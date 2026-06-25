@@ -10,7 +10,6 @@
   "ITEM.TypeSpell": "Incantesimo",
   "ITEM.TypeWeapon": "Arma",
   "ITEM.TypeWeaponfusion": "Fusione d'Arma",
-
   "sfrpgbb": {
     "ability": {
       "abilityMod": "Mod. Caratt.",
@@ -27,7 +26,9 @@
       "str": "FOR",
       "strength": "Forza",
       "wis": "SAG",
-      "wisdom": "Saggezza"
+      "wisdom": "Saggezza",
+      "ability": "Caratteristica",
+      "abilityCheck": "Prova di Caratteristica"
     },
     "armor": {
       "acBonus": "Bonus CA",
@@ -50,7 +51,11 @@
       "offensiveAbilities": "Abilità Offensiva",
       "rangedAttack": "A Distanza",
       "rangedWeapon": "Arma a Distanza",
-      "smallArms": "Armi Corte"
+      "smallArms": "Armi Corte",
+      "attackRoll": "Tiro per Colpire",
+      "damageTooltip": "Clicca l'icona dell'Arma per Tirare il Danno",
+      "melee": "Mischia",
+      "ranged": "A Distanza"
     },
     "character": {
       "alignment": "Allineamento",
@@ -177,7 +182,9 @@
       "specialAbilities": "Abilità Speciali",
       "statistics": "Statistiche",
       "total": "Totale",
-      "type": "Tipo"
+      "type": "Tipo",
+      "clickToRoll": "Clicca per tirare",
+      "roll": "Tira"
     },
     "menu": {
       "selectSkill": "Seleziona Abilità"
@@ -223,7 +230,8 @@
       "stealth": "Furtività",
       "survival": "Sopravvivenza",
       "technology": "Tecnologia",
-      "themeKnowledge": "Conoscenza del Tema"
+      "themeKnowledge": "Conoscenza del Tema",
+      "skillCheck": "Prova di Abilità"
     },
     "spell": {
       "zeroLevel": "Cerchio 0",
@@ -263,7 +271,45 @@
       "vs": "contro",
       "weaponFusion": "Fusione d'arma",
       "weaponProficiencies": "Competenza in armi",
-      "weaponType": "Tipo di arma"
+      "weaponType": "Tipo di arma",
+      "damageRoll": "Tiro del Danno"
+    },
+    "conditions": {
+      "dead": "Morto",
+      "asleep": "Addormentato",
+      "flatFooted": "Impreparato",
+      "frightened": "Spaventato",
+      "hampered": "Ostacolato",
+      "helpless": "Indifeso",
+      "impaired": "Menomato",
+      "offKilter": "Squilibrato",
+      "staggered": "Vacillante",
+      "unconscious": "Privo di sensi"
     }
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Personaggio Giocante",
+      "npc": "Personaggio Non Giocante",
+      "trap": "Trappola"
+    },
+    "Item": {
+      "armor": "Armatura",
+      "armorupgrade": "Potenziamento Armatura",
+      "gear": "Equipaggiamento da Avventura",
+      "grenade": "Granata",
+      "npcability": "Capacità PNG",
+      "spell": "Incantesimo",
+      "weapon": "Arma",
+      "weaponfusion": "Fusione d'Arma"
+    }
+  },
+  "SETTINGS": {
+    "DiagName": "Calcolo Movimento Diagonale",
+    "DiagHint": "Determina come viene calcolato il movimento diagonale.",
+    "Diag5105": "Standard Starfinder (5-10-5)",
+    "Diag555": "Alternativo (5-5-5)",
+    "DiagEucl": "Distanza Euclidea (esatta)",
+    "DiagEuc5": "Distanza Euclidea (arrotonda a 5)"
   }
 }

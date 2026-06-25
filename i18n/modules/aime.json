@@ -1,36 +1,140 @@
 {
-"AIME.CoinsGP": "Monete d'oro",
-"AIME.CoinsSP": "Monete d'argento",
-"AIME.CoinsCC": "Spiccioli di rame",
-"AIME.CoinsAbbrGP": "o",
-"AIME.CoinsAbbrSP": "a",
-"AIME.CoinsAbbrCC": "r",
-"AIME.AbilitySha": "Ombra",
-"AIME.AbilityPerm": "Permanente",
-"AIME.SkillLor": "Sapienza",
-"AIME.SkillRid": "Indovinelli",
-"AIME.SkillSha": "Conoscenza dell'Ombra",
-"AIME.SkillTra": "Tradizioni",
-"AIME.SkillIns": "Intuito",
-"AIME.LanguagesCommon": "Westron",
-"AIME.LanguagesBlackSpeech": "Linguaggio Nero",
-"AIME.LanguagesQuenya": "Quenya",
-"AIME.LanguagesSindarin": "Sindarin",
-"AIME.LanguagesDalish": "Lingua di Dale",
-"AIME.LanguagesVale": "Lingua della Valle dell'Anduin",
-"AIME.LanguagesDwarvish": "Khuzdul",
-"AIME.LanguagesWoodland": "Lingua degli Elfi dei Boschi",
-"AIME.LanguagesRohan": "Lingua di Rohan",
-"AIME.LanguagesOrkish": "Orchesco",
-"AIME.Journey": "Viaggio",
-"AIME.Adventure": "Avventura",
-"DND5E.PersonalityTraits": "Tratto distintivo",
-"DND5E.Ideals": "Ideali",
-"DND5E.Bonds": "Speranze",
-"DND5E.Flaws": "Disperazione",
-"DND5E.AbilityShaAbbr": "omb",
-"DND5E.AbilityPermAbbr": "perm",
-"DND5E.Race": "Cultura",
-"AIME.LivingStandard": "Tenore di vita",
-"AIME.Miserable": "Afflizione"
+  "AIME.CoinsGP": "Monete d'oro",
+  "AIME.CoinsSP": "Monete d'argento",
+  "AIME.CoinsCC": "Spiccioli di rame",
+  "AIME.CoinsAbbrGP": "o",
+  "AIME.CoinsAbbrSP": "a",
+  "AIME.CoinsAbbrCC": "r",
+  "AIME.AbilitySha": "Ombra",
+  "AIME.AbilityPerm": "Permanente",
+  "AIME.SkillLor": "Sapienza",
+  "AIME.SkillRid": "Indovinelli",
+  "AIME.SkillSha": "Conoscenza dell'Ombra",
+  "AIME.SkillTra": "Tradizioni",
+  "AIME.SkillIns": "Intuito",
+  "AIME.LanguagesCommon": "Westron",
+  "AIME.LanguagesBlackSpeech": "Linguaggio Nero",
+  "AIME.LanguagesQuenya": "Quenya",
+  "AIME.LanguagesSindarin": "Sindarin",
+  "AIME.LanguagesDalish": "Lingua di Dale",
+  "AIME.LanguagesVale": "Lingua della Valle dell'Anduin",
+  "AIME.LanguagesDwarvish": "Khuzdul",
+  "AIME.LanguagesWoodland": "Lingua degli Elfi dei Boschi",
+  "AIME.LanguagesRohan": "Lingua di Rohan",
+  "AIME.LanguagesOrkish": "Orchesco",
+  "AIME.Journey": "Viaggio",
+  "AIME.Adventure": "Avventura",
+  "DND5E.PersonalityTraits": "Tratto distintivo",
+  "DND5E.Ideals": "Ideali",
+  "DND5E.Bonds": "Speranze",
+  "DND5E.Flaws": "Disperazione",
+  "DND5E.AbilityShaAbbr": "omb",
+  "DND5E.AbilityPermAbbr": "perm",
+  "DND5E.Race": "Cultura",
+  "AIME.LivingStandard": "Tenore di vita",
+  "AIME.Miserable": "Afflizione",
+  "AIME": {
+    "AbilityShaAbbr": "oms",
+    "AbilityPermAbbr": "per",
+    "Settings": {
+      "SpellbookToggle": {
+        "name": "Disabilita scheda Libro degli Incantesimi",
+        "hint": "Disabilita la scheda del libro degli incantesimi sulla scheda del personaggio."
+      },
+      "specialTraitsToggle": {
+        "name": "Nascondi Tratti Speciali non-AiME",
+        "hint": "Disabilita i 'Tratti Speciali', perlopiù rilevanti per D&D, sulla scheda del personaggio."
+      }
+    }
+  },
+  "DND5E": {
+    "Species": {
+      "Label": "Cultura",
+      "Add": "Aggiungi Cultura",
+      "AddLegacy": "Aggiungi Cultura",
+      "Features": "Privilegi di Cultura",
+      "FeaturesLegacy": "Privilegi di Cultura",
+      "Name": "Nome Cultura"
+    },
+    "ItemSpeciesDetails": "Dettagli Cultura",
+    "ItemSpeciesDetailsLegacy": "Dettagli Cultura",
+    "RacialTraits": "Tratti Culturali",
+    "RacialTraitsLegacy": "Tratti Culturali",
+    "Feats": "Virtù",
+    "AdvancementItemGrantHint": "Concedi al personaggio oggetti (come equipaggiamento o virtù) quando raggiunge un certo livello.",
+    "ADVANCEMENT": {
+      "AbilityScoreImprovement": {
+        "Action": {
+          "Select": "Seleziona Virtù"
+        }
+      },
+      "Details": "Dettagli Miglioramento",
+      "Feat": {
+        "ASIName": "Miglioramento di Caratteristica",
+        "Hint": "Trascina qui una virtù per sceglierla al posto di un miglioramento di caratteristica."
+      },
+      "FIELDS": {
+        "cap": {
+          "label": "Limite Punti",
+          "hint": "Numero massimo di punti che un giocatore può assegnare a un singolo valore."
+        },
+        "locked": {
+          "label": "Bloccato",
+          "hint": "La caratteristica non può essere migliorata.",
+          "locked": "La caratteristica non può essere migliorata.",
+          "unlocked": "La caratteristica può essere migliorata."
+        },
+        "fixed": {
+          "label": "Miglioramento Fisso",
+          "hint": "Caratteristiche migliorate di una quantità fissa che non possono essere migliorate manualmente durante il processo."
+        },
+        "points": {
+          "label": "Punti",
+          "hint": "Numero di punti assegnabili a qualsiasi caratteristica sbloccata.",
+          "decrease": "Diminuisci Punti",
+          "increase": "Aumenta Punti"
+        }
+      },
+      "Hint": "Permetti al giocatore di aumentare uno o più valori di caratteristica o di prendere una virtù opzionale.",
+      "Journal": {
+        "DescriptionLegacy": "<p>Quando raggiungi il {firstLevelOrdinal} livello, e di nuovo al {otherLevelsOrdinal} livello, puoi aumentare di 2 un valore di caratteristica a tua scelta, oppure aumentare di 1 due valori di caratteristica a tua scelta. Come di consueto, non puoi aumentare un valore di caratteristica oltre {maxAbilityScore} con questo privilegio.</p><p>Usando la regola opzionale delle virtù, puoi rinunciare a questo privilegio per prendere invece una virtù a tua scelta.</p>",
+        "DescriptionModern": "<p>Ottieni un Miglioramento di Caratteristica o una virtù a tua scelta per cui sei idoneo. Ottieni di nuovo questo privilegio ai livelli {otherLevels} di {class}.</p>",
+        "Name": "Miglioramento di Caratteristica"
+      },
+      "LockedHint": "I valori non possono essere modificati con una virtù selezionata.",
+      "Title": "Miglioramento di Caratteristica",
+      "Warning": {
+        "Level": "Devi essere almeno di livello {level} per prendere questa virtù.",
+        "Type": "Possono essere selezionati solo privilegi di tipo \"virtù\"."
+      }
+    },
+    "Feature": {
+      "Feat": {
+        "Label": "Virtù",
+        "General": "Apri Virtù",
+        "Origin": "Virtù Culturale"
+      }
+    }
+  },
+  "TYPES": {
+    "Item": {
+      "race": "Cultura",
+      "racePl": "Culture",
+      "raceLegacy": "Cultura",
+      "raceLegacyPl": "Culture"
+    },
+    "Actor": {
+      "group": "Compagnia",
+      "groupPl": "Compagnie"
+    }
+  },
+  "VARIANT": {
+    "Hint": "Abilita e configura le variazioni di regole offerte dal sistema.",
+    "Label": "Configura Regole Varianti",
+    "Name": "Regole Varianti",
+    "AllowFeats": {
+      "Hint": "Permetti ai giocatori di scegliere una virtù invece di prendere un miglioramento di caratteristica durante l'avanzamento di classe quando si usano le regole Legacy.",
+      "Name": "Permetti Virtù"
+    }
+  }
 }
