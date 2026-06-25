@@ -1,0 +1,81 @@
+{
+  "enhancedcombathud-dnd5e": {
+    "abilities": {
+      "cha": {
+        "tooltip": "<p>Carisma rappresenta la tua capacità di interagire con gli altri. Include fiducia in sé stessi, eloquenza e può riflettere un carattere affascinante o autorevole.</p><p><strong>Prove di Carisma</strong><br/>Le prove di Carisma sono richieste quando cerchi di influenzare, intrattenere, impressionare, mentire con convinzione o gestire situazioni sociali difficili. Le abilità Intimidazione, Intrattenere, Inganno e Persuasione riflettono la tua competenza in alcune prove di Carisma.</p><p><strong>Altre prove di Carisma</strong><br/>Il Master può richiedere una prova di Carisma per compiti come:<ul><li>Trovare una persona con cui ottenere notizie o pettegolezzi.</li><li>Mescolarsi tra la folla e cogliere le conversazioni.</li></ul></p>"
+      },
+      "con": {
+        "tooltip": "<p>Costituzione rappresenta la salute, la resistenza e la vitalità.</p><p><strong>Prove di Costituzione</strong><br/>Raramente si richiedono prove di Costituzione, e nessuna abilità è associata a questa caratteristica, poiché rappresenta resistenza passiva piuttosto che un'azione attiva. Il Master può richiedere una prova di Costituzione per compiti come:<ul><li>Trattenere il respiro.</li><li>Camminare o lavorare per ore senza riposo.</li><li>Resistere senza dormire.</li><li>Sopravvivere senza cibo o acqua.</li><li>Scolare una grande pinta di birra.</li></ul></p><p><strong>Punti ferita</strong><br/>Il tuo modificatore di Costituzione influisce sui tuoi punti ferita. In genere, aggiungi il modificatore a ogni tiro per i punti ferita per determinare il totale.</p><p>Se il tuo modificatore di Costituzione cambia, il tuo massimo di PF cambia come se lo avessi sempre avuto. Ad esempio, se aumenti la Costituzione al 4° livello da +1 a +2, il tuo massimo di PF aumenta come se fosse sempre stato +2. Se invece la tua Costituzione diminuisce, riduci il massimo di PF in modo proporzionale.</p>"
+      },
+      "dex": {
+        "tooltip": "<p>Destrezza rappresenta agilità, riflessi ed equilibrio.</p><p><strong>Prove di Destrezza</strong><br/>Una prova di Destrezza misura quanto riesci a muoverti rapidamente, silenziosamente o con destrezza. Le abilità Acrobazia, Rapidità di mano e Furtività riflettono la tua competenza in certe prove di Destrezza.</p><p><strong>Altre prove di Destrezza</strong><br/>Il Master può richiedere prove per compiti come:<ul><li>Guidare un carro carico su un pendio ripido.</li><li>Curvare una biga in uno stretto angolo.</li><li>Scassinare una serratura.</li><li>Disattivare una trappola.</li><li>Legare bene un prigioniero.</li><li>Svincolarsi da legature.</li><li>Suonare uno strumento a corde.</li><li>Creare oggetti piccoli o dettagliati.</li></ul></p><p><strong>Classe armatura</strong><br/>A seconda dell’armatura, puoi aggiungere tutto o parte del tuo modificatore di Destrezza alla CA, come descritto nel capitolo <a class='entity-link' data-pack='dnd5e.rules' data-id='ln4KF7662eP93keD'>Equipaggiamento</a>.</p><p><strong>Iniziativa</strong><br/>All’inizio di ogni combattimento tiri l’iniziativa, una prova di Destrezza, per determinare l’ordine di azione. Vedi il capitolo <a class='entity-link' data-pack='dnd5e.rules' data-id='3V8ywGHQEpbZpsIL'>Combattimento</a>.</p>"
+      },
+      "int": {
+        "tooltip": "<p>Intelligenza rappresenta acume mentale, memoria e capacità logica.</p><p><strong>Prove di Intelligenza</strong><br/>Vengono richieste quando fai affidamento su logica, educazione, memoria o deduzione. Le abilità Storia, Arcano, Natura, Indagare e Religione riflettono la tua competenza in certe prove di Intelligenza.</p><p><strong>Altre prove di Intelligenza</strong><br/>Il Master può richiedere prove per compiti come:<ul><li>Comunicare senza parole.</li><li>Valutare oggetti di valore.</li><li>Travestirsi da guardia cittadina.</li><li>Falsificare un documento.</li><li>Richiamare nozioni artigianali.</li><li>Vincere un gioco d’intelligenza.</li></ul></p>"
+      },
+      "wis": {
+        "tooltip": "<p>Saggezza rappresenta percezione, intuito e sensibilità al mondo.</p><p><strong>Prove di Saggezza</strong>Una prova di Saggezza riflette la tua capacità di leggere il linguaggio del corpo, percepire sentimenti, notare dettagli o curare i feriti. Le abilità Percezione, Sopravvivenza, Addestrare animali, Medicina e Intuizione sono basate sulla Saggezza.</p><p><strong>Altre prove di Saggezza</strong><br/>Il Master può richiedere prove per:<ul><li>Seguire l’istinto su cosa fare.</li><li>Capire se una creatura è non morta anche se sembra viva o morta.</li></ul></p>"
+      }
+    },
+    "hud": {
+      "ac": {
+        "name": "CA"
+      },
+      "hp": {
+        "name": "Punti Ferita"
+      },
+      "reaction": {
+        "name": "Reazione"
+      },
+      "saves": {
+        "name": "Tiri Salvezza"
+      }
+    },
+    "items": {
+      "dash": {
+        "desc": "<p data-content-chunk-id=\"32f25854-3ca6-4afe-8790-0a87b06879b1\">Quando esegui l'azione Scatto, ottieni un movimento aggiuntivo nel turno pari alla tua velocità dopo i modificatori. Per esempio, se hai una velocità di 30 piedi, con lo Scatto puoi muoverti fino a 60 piedi.</p>\n<p data-content-chunk-id=\"8587443b-c938-455a-9861-09e5af6a9629\">Tutti gli aumenti o riduzioni di velocità si applicano anche al movimento aggiuntivo. Per esempio, se la tua velocità è ridotta a 15 piedi, con lo Scatto puoi muoverti per 30 piedi.</p>"
+      },
+      "disengage": {
+        "desc": "<p>Quando esegui l'azione Disimpegno, il tuo movimento fino alla fine del turno non provoca attacchi di opportunità.</p>",
+        "name": "Disimpegno"
+      },
+      "dodge": {
+        "desc": "<p>Quando esegui l'azione Schivata, ti concentri sull'evitare gli attacchi. Fino all'inizio del tuo prossimo turno, tutti i tiri per colpirti hanno svantaggio e hai vantaggio ai tiri salvezza su Destrezza se puoi vedere l'attaccante. Perdi questo vantaggio se diventi <i>incapacitato</i> (vedi Appendice A) o se la tua velocità scende a 0.</p>"
+      },
+      "hide": {
+        "desc": "<p>Quando esegui questa azione, effettui una prova di Destrezza (Furtività) per nasconderti, secondo le regole di furtività.</p>\n<p data-content-chunk-id=\"d49da437-9800-4cdb-be60-5c1cc12e45f2\">I combattenti spesso cercano di evitare l'attenzione dei nemici nascondendosi, lanciando incantesimi e rimanendo nell'ombra.</p>\n<p data-content-chunk-id=\"c7a62036-4c31-4a7f-bd29-db5f4a873f8c\">Se attacchi una creatura che non puoi vedere, il tiro per colpire ha svantaggio. Questo vale sia se non conosci la posizione della creatura, sia se la senti ma non la vedi. Se la creatura non è nel punto attaccato, manchi automaticamente, ma il Master potrebbe dire solo che hai mancato, senza rivelare che la creatura era altrove.</p>\n<p data-content-chunk-id=\"760a7b7d-7681-4f2c-a356-05594eca1bbd\">Se una creatura non può vederti, i tuoi attacchi contro di essa hanno vantaggio. Se ti sei nascosto (non visibile né udibile), riveli la tua posizione al colpire o mancare un attacco.</p>"
+      },
+      "ready": {
+        "desc": "<p data-content-chunk-id=\"7cbedb62-3df7-482e-9bee-412289356aca\">Puoi saltare addosso a un nemico o aspettare che accada un evento. Per farlo, usi l'azione Prepararsi per agire successivamente come reazione.</p>\n<p data-content-chunk-id=\"ef9f90d3-f264-4278-a0f8-0684073c429f\">Per prima cosa, definisci l'evento percepibile che scatenerà la tua reazione. Poi scegli l'azione o il movimento da compiere. Esempi: «Se il cultista calpesta la botola, tiro la leva», «Se un goblin si avvicina, mi allontano».</p>\n<p data-content-chunk-id=\"6c8b0166-9e42-42fa-9ef6-6c01381032c9\">Quando si verifica la condizione, puoi usare la tua reazione prima che finisca l'azione che l'ha scatenata oppure ignorarla. L'azione preparata va compiuta entro il tuo prossimo turno. Puoi avere solo una reazione per round.</p>\n<p data-content-chunk-id=\"2783c1c8-74e2-4b36-8eb7-2a7c4ea671e3\">Se prepari un incantesimo, lo lanci normalmente ma trattieni l'energia finché la condizione non si verifica. L'incantesimo deve avere tempo di lancio «1 azione» e mantenerlo richiede concentrazione (vedi Capitolo 10). Se perdi la concentrazione, l'incantesimo è sprecato. Ad esempio, se stai concentrandoti su <i>ragnatela</i> e prepari <i>freccia magica</i>, la <i>ragnatela</i> finisce, e se subisci danni prima di lanciare la <i>freccia magica</i>, potresti perdere la concentrazione.</p>"
+      },
+      "shove": {
+        "desc": "<p data-content-chunk-id=\"5242445d-e04b-437b-b1c4-4fef6622c350\">Se vuoi afferrare o lottare con una creatura, puoi usare l'azione Attacco per fare un attacco speciale in mischia: la presa. Se puoi attaccare più volte, questa azione ne sostituisce una.</p>\n<p data-content-chunk-id=\"55b5838a-271d-4cb3-b971-9769a49a921c\">La creatura deve essere al massimo una taglia più grande della tua e nel tuo raggio. Con almeno una mano libera, fai una prova di Forza (Atletica) contrapposta a Forza (Atletica) o Destrezza (Acrobazia) della creatura (a sua scelta). Se vinci, è <i>afferrata</i>. L'effetto della condizione è spiegato altrove, ma puoi lasciarla andare in qualsiasi momento.</p>\n<p data-content-chunk-id=\"a5d87cfc-afcc-4ae2-99c4-b4ed2af6a439\"><b>Fuggire da una presa.</b> Una creatura afferrata può tentare di liberarsi con un'azione usando Forza (Atletica) o Destrezza (Acrobazia) contro la tua prova di Forza (Atletica).</p>\n<p data-content-chunk-id=\"ea1b3c54-b95f-45cb-8c5c-1ed310d82ce2\"><b>Spostare una creatura afferrata.</b> Se ti muovi, puoi trascinare la creatura con te, ma la tua velocità è dimezzata a meno che non sia almeno due taglie più piccola.</p>\n<h4 id=\"ShovingaCreature\" data-content-chunk-id=\"5b230975-10b4-4cd0-bd03-2770875c21e5\">Spingere una creatura</h4>\n<p data-content-chunk-id=\"f4e214a2-2779-43c0-b318-23f5e5c47a9f\">Con l'azione Attacco puoi anche tentare un attacco speciale in mischia per <i>buttare a terra</i> o spingere via una creatura. Se puoi attaccare più volte, quest'azione ne sostituisce una.</p>\n<p data-content-chunk-id=\"d6bd6c9e-bda0-4b45-a5be-f9425e23783c\">La creatura deve essere al massimo una taglia più grande e nel tuo raggio. Fai una prova di Forza (Atletica) contro la sua prova di Forza (Atletica) o Destrezza (Acrobazia) (a sua scelta). Se vinci, puoi buttarla a terra o spingerla di 5 piedi lontano da te.</p>",
+        "name": "Spingere"
+      }
+    },
+    "settings": {
+      "showSpecialActions": {
+        "hint": "Mostra le azioni principali sulla barra (Schivata, Scatto, Disimpegno, Nascondersi, Prepararsi, Spingere)"
+      }
+    },
+    "skills": {
+      "ani": {
+        "tooltip": "Se devi verificare se puoi calmare un animale domestico, placare un cavallo spaventato o comprendere le intenzioni di una bestia, il master richiede una prova di Saggezza (Addestrare animali). Serve anche per cavalcare una cavalcatura durante una manovra rischiosa."
+      },
+      "inv": {
+        "tooltip": "Quando cerchi indizi e usi la deduzione per trarre conclusioni, effettua una prova di Intelligenza (Indagare). Potresti determinare la posizione di un oggetto nascosto, capire da che arma proviene una ferita o individuare un punto debole in un tunnel da far crollare. Anche decifrare antichi rotoli alla ricerca di conoscenze segrete può richiedere questa prova."
+      },
+      "prc": {
+        "tooltip": "Una prova di Saggezza (Percezione) determina se riesci a vedere, sentire o percepire qualcosa. Indica quanto sei consapevole dell’ambiente e acuto nei sensi. Per esempio, potresti ascoltare una conversazione dietro una porta chiusa o udire dei mostri che si muovono furtivamente. Oppure potresti notare dettagli nascosti o poco evidenti, come orchi in agguato, ladri nell'ombra o la luce di una candela dietro una porta segreta."
+      },
+      "prf": {
+        "tooltip": "Una prova di Carisma (Intrattenere) misura la tua capacità di divertire un pubblico con musica, danza, recitazione, racconti o altri mezzi."
+      }
+    },
+    "tooltip": {
+      "range": {
+        "name": "Gittata"
+      }
+    }
+  }
+}

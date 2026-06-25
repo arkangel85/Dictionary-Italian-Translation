@@ -1,0 +1,98 @@
+{
+  "fvtt-paper-doll-ui": {
+    "settings": {
+      "globalConfigMenu": {
+        "name": "Impostazioni globali del manichino",
+        "hint": "Imposta l'immagine modello e il numero di slot per ogni tipo.",
+        "label": "Impostazioni del manichino"
+      },
+      "hideActorHeaderText": {
+        "name": "Nascondi testo del pulsante",
+        "hint": "Nasconde il testo del pulsante nell'intestazione della scheda."
+      },
+      "paperDollPosition": {
+        "name": "Posizione del manichino",
+        "hint": "Posizione del manichino all'apertura. Nota: se non c'è spazio a sinistra o a destra, verrà centrato.",
+        "label": "Posizione",
+        "choices": {
+          "left": "Sinistra",
+          "right": "Destra",
+          "center": "Centro"
+        }
+      },
+      "autoOpen": {
+        "name": "Apertura automatica",
+        "hint": "Apre automaticamente il manichino quando si apre la scheda dell’attore."
+      },
+      "allowNonOwned": {
+        "name": "Permetti oggetti non posseduti",
+        "hint": "Permette di assegnare al manichino oggetti non posseduti (es. da biblioteche). Utile per sistemi personalizzati senza inventario. Normalmente va disabilitata."
+      },
+      "playerOwnedOnly": {
+        "name": "Solo per personaggi giocanti",
+        "hint": "Attiva il manichino solo per i personaggi controllati dai giocatori."
+      }
+    },
+    "app": {
+      "paper-doll": {
+        "title": "Manichino",
+        "config": "Impostazioni",
+        "disallowed": "Questo oggetto non può essere equipaggiato in questo slot."
+      },
+      "actor-config": {
+        "title": "Configurazione attore",
+        "img": {
+          "label": "Immagine",
+          "placeholder": "Usa immagine dell’attore"
+        },
+        "objectFit": {
+          "label": "Adattamento immagine",
+          "contain": "Proporzionale",
+          "cover": "Copri"
+        },
+        "autoOpen": {
+          "label": "Apertura automatica",
+          "useDefault": "Usa impostazione predefinita",
+          "true": "Sempre",
+          "false": "Mai"
+        },
+        "playerOwnedOnly": {
+          "label": "Solo per personaggi giocanti",
+          "hint": "Attiva il manichino solo per i personaggi controllati dai giocatori."
+        }
+      },
+      "paper-doll-global-config": {
+        "title": "Impostazioni globali del manichino",
+        "img": "Icona",
+        "filter": {
+          "label": "Filtro personalizzato",
+          "hint": "Script usato per creare la finestra con gli oggetti equipaggiabili in questo slot. 'item' si riferisce all’oggetto esaminato. Esempio: return item.type === 'weapon';"
+        },
+        "simpleFilter": {
+          "label": "Filtro base",
+          "hint": "Filtra solo gli oggetti di questo tipo."
+        },
+        "how": {
+          "add": "Aggiungi uno slot cliccando su `+ Agg.`",
+          "remove": "Rimuovi uno slot con clic destro.",
+          "image": "Scegli l’immagine dello slot con clic sinistro."
+        },
+        "HUE_ROTATE": {
+          "label": "Tonalità"
+        },
+        "EQUIPPED_PATH": {
+          "label": "Percorso equipaggiamento"
+        },
+        "MAIN_COLOR": {
+          "label": "Colore"
+        }
+      }
+    },
+    "hotkeys": {
+      "togglePaperDoll": {
+        "name": "Attiva/disattiva manichino"
+      }
+    },
+    "flags": {}
+  }
+}

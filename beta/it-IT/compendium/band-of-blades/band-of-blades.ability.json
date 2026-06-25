@@ -1,0 +1,241 @@
+{
+  "label": "Talenti",
+  "mapping": {
+    "description": "system.description",
+    "class": {
+      "path": "system.class",
+      "converter": "classConverter"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effectsConverter"
+    }
+  },
+  "entries": {
+    "(G) Elite Aim": {
+      "name": "(O) Mira d'élite",
+      "effects": {
+        "Elite Aim": "Mira d'élite"
+      }
+    },
+    "(G) Elite Anchor": {
+      "name": "(G) Ancora d'élite"
+    },
+    "(G) Elite Channels": {
+      "name": "(G) Canali d'élite"
+    },
+    "(G) Elite Consort": {
+      "name": "(G) Compagno d'élite"
+    },
+    "(G) Elite Discipline": {
+      "name": "(G) Disciplina d'élite"
+    },
+    "(G) Elite Doctor": {
+      "name": "(G) Medico d'élite"
+    },
+    "(G) Elite Grit": {
+      "name": "(G) Tenacia d'élite"
+    },
+    "(G) Elite Maneuver": {
+      "name": "(G) Manovra d'élite"
+    },
+    "(G) Elite Marshal": {
+      "name": "(G) Ufficiale d'élite"
+    },
+    "(G) Elite Research": {
+      "name": "(G) Ricerca d'élite"
+    },
+    "(G) Elite Rig": {
+      "name": "(G) Meccanico d'élite"
+    },
+    "(G) Elite Scout": {
+      "name": "(G) Esploratore d'élite"
+    },
+    "(G) Elite Scrounge": {
+      "name": "(G) Raccoglitore d'élite"
+    },
+    "(G) Elite Shoot": {
+      "name": "(G) Tiratore d'élite"
+    },
+    "(G) Elite Skirmish": {
+      "name": "(G) Mischia d'élite"
+    },
+    "(G) Elite Sway": {
+      "name": "(G) Persuasione d'élite"
+    },
+    "(G) Elite Weave": {
+      "name": "(G) Trama d'élite"
+    },
+    "(G) Elite Wreck": {
+      "name": "(G) Distruttore d'élite"
+    },
+    "(G) Hardened 1": {
+      "name": "(G) Indurito 1"
+    },
+    "(G) Hardened 2": {
+      "name": "(G) Indurito 2"
+    },
+    "(G) Survivor 1": {
+      "name": "(G) Sopravvissuto 1"
+    },
+    "(G) Survivor 2": {
+      "name": "(G) Sopravvissuto 2"
+    },
+    "(G) Veteran 1": {
+      "name": "(G) Veterano 1"
+    },
+    "(G) Veteran 2": {
+      "name": "(G) Veterano 2"
+    },
+    "(H) Against the Darkness": {
+      "name": "(H) Contro l'Oscurità"
+    },
+    "(H) Backup": {
+      "name": "(H) Rinforzi"
+    },
+    "(H) Bulwark": {
+      "name": "(H) Baluardo"
+    },
+    "(H) Tenacious": {
+      "name": "(H) Tenace"
+    },
+    "(H) Vigorous": {
+      "name": "(H) Vigoroso"
+    },
+    "(H) War Machine": {
+      "name": "(H) Macchina da Guerra"
+    },
+    "(H) Weaponmaster": {
+      "name": "(H) Maestro d'Armi"
+    },
+    "(M) Attache": {
+      "name": "(M) Assistente"
+    },
+    "(M) Chemist": {
+      "name": "(M) Chimico"
+    },
+    "(M) Dr. Feelgood": {
+      "name": "(M) Dr. Feelgood"
+    },
+    "(M) Field Dressing": {
+      "name": "(M) Pronto Soccorso"
+    },
+    "(M) First Aid": {
+      "name": "(M) Primo Soccorso"
+    },
+    "(M) Moral Support": {
+      "name": "(M) Supporto Morale"
+    },
+    "(M) Not Today": {
+      "name": "(M) Non Oggi"
+    },
+    "(O) Lead from the Front": {
+      "name": "(O) Guida dal Fronte"
+    },
+    "(O) Logistical Support": {
+      "name": "(O) Supporto Logistico"
+    },
+    "(O) Mission First": {
+      "name": "(O) Prima la Missione"
+    },
+    "(O) Obedience": {
+      "name": "(O) Obbedienza"
+    },
+    "(O) Officer School": {
+      "name": "(O) Accademia Ufficiali"
+    },
+    "(O) Strategist": {
+      "name": "(O) Stratega"
+    },
+    "(O) Tactician": {
+      "name": "(O) Tattico"
+    },
+    "(R) Devil's Own Luck": {
+      "name": "(R) Fortuna del Diavolo"
+    },
+    "(R) Every Inch A...": {
+      "name": "(R) Ogni Centimetro un..."
+    },
+    "(R) Gotta Make It Out Alive": {
+      "name": "(R) Devo Uscirne Vivo"
+    },
+    "(R) Hard Knocks": {
+      "name": "(R) Colpi Duri"
+    },
+    "(R) Home Cooking": {
+      "name": "(R) Cucina Casalinga"
+    },
+    "(R) Jack of All Trades": {
+      "name": "(R) Tuttofare"
+    },
+    "(R) Just a Kid": {
+      "name": "(R) Solo un Ragazzo"
+    },
+    "(R) Not a Rookie Anymore": {
+      "name": "(R) Non più un Novellino"
+    },
+    "(Sc) Daredevil": {
+      "name": "(Sc) Spericolato"
+    },
+    "(Sc) Ghost": {
+      "name": "(Sc) Fantasma"
+    },
+    "(Sc) Infiltrator": {
+      "name": "(Sc) Infiltrato"
+    },
+    "(Sc) Like the Wind": {
+      "name": "(Sc) Veloce come il Vento"
+    },
+    "(Sc) Panther-Like Grace": {
+      "name": "(Sc) Grazia Felina"
+    },
+    "(Sc) Ready For Anything": {
+      "name": "(Sc) Pronto a Tutto"
+    },
+    "(Sc) Sixth Sense": {
+      "name": "(Sc) Sesto Senso"
+    },
+    "(Sn) Akimbo": {
+      "name": "(Sn) Akimbo"
+    },
+    "(Sn) Ambush": {
+      "name": "(Sn) Imboscata"
+    },
+    "(Sn) Cover Fire": {
+      "name": "(Sn) Fuoco di Copertura"
+    },
+    "(Sn) Crimson Shot": {
+      "name": "(Sn) Colpo Cremisi"
+    },
+    "(Sn) Notches": {
+      "name": "(Sn) Tacche"
+    },
+    "(Sn) One Eye": {
+      "name": "(Sn) Occhio Solo"
+    },
+    "(Sn) Sharpshooter": {
+      "name": "(Sn) Cecchino"
+    },
+    "(So) Cavalry": {
+      "name": "(So) Cavalleria"
+    },
+    "(So) Eat Iron, Shit Nails": {
+      "name": "(So) Mangi Ferro, Caghi Chiodi"
+    },
+    "(So) Grenadier": {
+      "name": "(So) Granatiere"
+    },
+    "(So) Iron Will": {
+      "name": "(So) Volontà di Ferro"
+    },
+    "(So) Loaded For Bear": {
+      "name": "(So) Carico per l'Orso"
+    },
+    "(So) Over the Top": {
+      "name": "(So) All'Attacco!"
+    },
+    "(So) Relentless": {
+      "name": "(So) Inarrestabile"
+    }
+  }
+}

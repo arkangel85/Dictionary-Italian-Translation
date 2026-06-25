@@ -1,0 +1,104 @@
+{
+  "label": "Territori di caccia",
+  "mapping": {
+    "description": "system.description",
+    "class": {
+      "path": "system.class",
+      "converter": "convertClass"
+    }
+  },
+  "entries": {
+    "Accident": {
+      "name": "(Assassini) Incidente",
+      "description": "<p>Omicidio mascherato da tragico incidente.</p>"
+    },
+    "Acquisition": {
+      "name": "(Adepti) Acquisizione di artefatti",
+      "description": "<p>Recuperare un artefatto magico e consacrarlo alla divinità.</p>"
+    },
+    "Arcane/Weird": {
+      "name": "(Trasportatori) Mistico",
+      "description": "<p>Essenze spirituali, fantasmi, oggetti rituali.</p>"
+    },
+    "Arms": {
+      "name": "(Trasportatori) Armi",
+      "description": "<p>Armi militari, munizioni, esplosivi.</p>"
+    },
+    "Augury": {
+      "name": "(Adepti) Presagio",
+      "description": "<p>Agire in modo da attirare l'attenzione della propria divinità e/o ricevere il suo consiglio. <em>Variante non ufficiale dei territori di caccia.</em></p>"
+    },
+    "Battle": {
+      "name": "(Banditi) Battaglia",
+      "description": "<p>Soppressione diretta del nemico con la forza.</p>"
+    },
+    "Burglary": {
+      "name": "(Ombre) Scasso",
+      "description": "<p>Furti con effrazione e intrusione.</p>"
+    },
+    "Consecration": {
+      "name": "(Adepti) Consacrazione",
+      "description": "<p>Consacrare un luogo alla propria divinità.</p>"
+    },
+    "Contraband": {
+      "name": "(Trasportatori) Contrabbando",
+      "description": "<p>Oggetti di lusso, droghe, arte proibita e simili.</p>"
+    },
+    "Disappearance": {
+      "name": "(Assassini) Scomparsa",
+      "description": "<p>La vittima sparisce senza lasciare traccia.</p>"
+    },
+    "Espionage": {
+      "name": "(Ombre) Spionaggio",
+      "description": "<p>Recupero di informazioni segrete tramite furto o furtività.</p>"
+    },
+    "Extortion": {
+      "name": "(Banditi) Estorsione",
+      "description": "<p>Minacce di violenza per ottenere denaro.</p>"
+    },
+    "Murder": {
+      "name": "(Assassini) Esecuzione",
+      "description": "<p>Omicidio palese e dimostrativo.</p>"
+    },
+    "Passengers": {
+      "name": "(Trasportatori) Passeggeri",
+      "description": "<p>Persone o animali da trasportare di nascosto.</p>"
+    },
+    "Ransom": {
+      "name": "(Assassini) Rapimento",
+      "description": "<p>Sequestro di una persona per ottenere un riscatto.</p>"
+    },
+    "Robbery": {
+      "name": "(Ombre) Rapina",
+      "description": "<p>Furti con uso della forza o minacce.</p>"
+    },
+    "Sabotage": {
+      "name": "(Banditi, Ombre) Sabotaggio / Devastazione",
+      "description": "<p>Distruzione (Banditi) o danneggiamento (Ombre) di beni preziosi del nemico.</p>"
+    },
+    "Sacrifice": {
+      "name": "(Adepti) Sacrificio",
+      "description": "<p>Distruggere qualcosa di prezioso o importante in onore della propria divinità.</p>"
+    },
+    "Sale": {
+      "name": "(Spacciatori) Colpo grosso",
+      "description": "<p>Concludere una vendita particolarmente redditizia di merce di contrabbando o vietata a un acquirente facoltoso. <em>Variante non ufficiale dei territori di caccia.</em></p>"
+    },
+    "Show of Force": {
+      "name": "(Spacciatori) Dimostrazione di forza",
+      "description": "<p>Sopraffare il nemico per riaffermare il proprio dominio su un territorio.</p>"
+    },
+    "Smash & Grab": {
+      "name": "(Banditi) Agguato",
+      "description": "<p>Rapina armata.</p>"
+    },
+    "Socialize": {
+      "name": "(Spacciatori) Relazioni",
+      "description": "<p>Organizzare un evento sociale per migliorare i rapporti con clienti e fornitori.</p>"
+    },
+    "Supply": {
+      "name": "(Spacciatori) Rifornimenti",
+      "description": "<p>Trattativa per ricevere nuova merce o stabilire rapporti con un nuovo fornitore.</p>"
+    }
+  }
+}

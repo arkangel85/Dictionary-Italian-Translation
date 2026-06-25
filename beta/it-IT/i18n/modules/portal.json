@@ -1,0 +1,36 @@
+{
+  "portal-lib": {
+    "settings": {
+      "autoDelete": {
+        "name": "Eliminazione automatica dell'attore",
+        "hint": "Se abilitato, l'attore verrà eliminato senza conferma dopo l'annullamento della trasformazione."
+      },
+      "enableRouter": {
+        "name": "Abilita il router",
+        "hint": "Se attivato, gli utenti senza permessi da GM potranno usare il router del portale, che consente l’esecuzione di script per aggiornare documenti di cui non sono proprietari. IMPORTANTE: un utente malintenzionato o inesperto potrebbe danneggiare o compromettere il contenuto del mondo. Usa questa funzione solo con giocatori fidati."
+      }
+    },
+    "app": {},
+    "flags": {},
+    "ERR": {
+      "InvalidOrigin": "Portale: Posizione di origine non valida",
+      "InvalidTexture": "Portale: Texture non valida",
+      "InvalidNumber": "Portale: Numero non valido",
+      "InvalidColor": "Portale: Colore non valido",
+      "InvalidTransformTarget": "Portale: Destinazione della trasformazione non valida",
+      "InvalidTransformCreature": "Portale: Creatura non valida per la trasformazione",
+      "NoTokenData": "Portale: Nessun dato del token",
+      "NoTeleportTarget": "Portale: Nessuna destinazione di teletrasporto",
+      "OutOfRange": "Portale: Fuori portata, seleziona una nuova posizione"
+    },
+    "INFO": {
+      "RevertedTransformation": "Portale: Trasformazione annullata"
+    },
+    "DIALOG": {
+      "Title": "Portale: Evoca creature",
+      "TransformTitle": "Portale: Scegli la creatura da trasformare",
+      "DeleteTitle": "Portale: Elimina attore trasformato",
+      "DeleteContent": "L'attore trasformato non è più necessario e può essere eliminato. Continuare?"
+    }
+  }
+}

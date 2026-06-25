@@ -1,0 +1,148 @@
+{
+  "Powered by the Arkangel": "Powered by the Arkangel",
+  "PBTA": {
+    "Advantage": "Vantaggio",
+    "Ask": "Richiesta",
+    "AskTitle": "Scelta della caratteristica",
+    "Biography": "Biografia",
+    "Choices": "Scelte",
+    "ConditionsApplied": "Condizioni applicate:",
+    "Create": "Crea",
+    "Description": "Descrizione",
+    "description": "Giochi basati su PbtA in FoundryVTT!",
+    "Disadvantage": "Svantaggio",
+    "Equipment": "Equipaggiamento",
+    "EquipmentType": "Tipo di equipaggiamento",
+    "failure": "Fallimento (ottieni esperienza)",
+    "Formula": "Formula speciale di tiro",
+    "Forward": "Per il prossimo turno",
+    "Modifier": "Modificatore",
+    "MoveGroup": "Gruppo di mosse",
+    "MoveGroupHelp": "Più mosse in un gruppo saranno disponibili per una selezione 'e/o' nella creazione del personaggio.",
+    "Moves": "Mosse",
+    "MoveType": "Tipo di mossa",
+    "New": "Nuovo",
+    "Normal": "Normale",
+    "NoTemplate": "Nessun modello",
+    "Ongoing": "Per tutte le mosse",
+    "partial": "Successo parziale",
+    "Playbook": "Playbook",
+    "Prompt": "Richiesta",
+    "PromptTitle": "Inserisci il modificatore",
+    "Qty": "Qtà",
+    "Quantity": "Quantità",
+    "RequiresMove": "Richiede una mossa",
+    "Roll": "Tiro",
+    "RollFormula": "Formula di tiro",
+    "RollFormulaOverride": "Sovrascrivi formula di tiro",
+    "RollMove": "Tiro della mossa",
+    "success": "Successo",
+    "Tags": "Tag",
+    "TagsHelp": "(Tab – completamento automatico. Virgola – crea una nuova proprietà. Doppio clic sulla proprietà – modifica)",
+    "title": "Powered by the Apocalypse",
+    "Uses": "Utilizzi",
+    "Weight": "Peso",
+    "Wt": "Peso",
+    "Common": {
+      "Description": "Descrizione",
+      "Details": "Dettagli",
+      "Name": "Nome"
+    },
+    "Dialog": {
+      "Ask1": "Scegli la caratteristica per",
+      "Ask2": " della mossa.",
+      "ChooseConditions": "Seleziona tutti i modificatori condizionali:",
+      "Prompt1": "Scegli un modificatore per",
+      "Prompt2": " della mossa."
+    },
+    "Messages": {
+      "sheetConfig": {
+        "actorTypeRequired": "è richiesto il tipo di attore.",
+        "attribute": "Attributo",
+        "attributeMax": "deve avere la proprietà 'max'.",
+        "attributeOptions": "deve includere il gruppo 'options'.",
+        "attributeOptionsEmpty": "deve includere almeno un'opzione nel gruppo 'options'.",
+        "attributeType": "deve essere uno dei seguenti tipi:",
+        "attributeTypeNull": "non ha un tipo (forse una delle opzioni superiori è stata rinominata).",
+        "equipmentTypes": "è richiesto e deve contenere almeno un tipo di equipaggiamento.",
+        "groupAttributes": "deve essere un gruppo di attributi.",
+        "moveTypes": "è richiesto e deve contenere almeno un tipo di mossa.",
+        "noConfig": "Configurazione del foglio non aggiunta",
+        "reset": "Ripristina la configurazione del foglio",
+        "rollFormulaRequired": "'rollFormula' è richiesto.",
+        "rollResultsIncorrect": "'rollResults' è stato inserito in modo errato.",
+        "rollResultsRequired": "'rollResults' è richiesto.",
+        "statsRequired1": "'stats' è richiesto per",
+        "statsRequired2": "gruppo",
+        "statString1": "Caratteristica",
+        "statString2": "deve essere una stringa, come 'Forza'.",
+        "tomlError": "Errore di sintassi nel tuo file TOML alla riga {line} e colonna {column}. Vedi dettagli nella console."
+      }
+    },
+    "Settings": {
+      "button": {
+        "help": "Guida al sistema PbtA"
+      },
+      "stats": {
+        "name": "Caratteristiche",
+        "hint": "Inserisci una lista di caratteristiche/abilità separate da virgola. Ad esempio: \"For,Des,Cos,Int,Sag,Car\""
+      },
+      "advForward": {
+        "name": "Azzera VANT/SVANT dopo il tiro",
+        "hint": "Se abilitato, la selezione di vantaggio o svantaggio nella scheda personaggio verrà azzerata dopo ogni tiro."
+      },
+      "hideRollFormula": {
+        "name": "Nascondi formula di tiro",
+        "hint": "Nasconde la formula speciale di tiro dalla scheda personaggio."
+      },
+      "hideForward": {
+        "name": "Nascondi 'per il prossimo turno'",
+        "hint": "Nasconde l'opzione 'per il prossimo turno' dalla scheda personaggio."
+      },
+      "hideOngoing": {
+        "name": "Nascondi 'per tutte le mosse'",
+        "hint": "Nasconde 'per tutte le mosse' dalla scheda personaggio."
+      },
+      "hideRollMode": {
+        "name": "Nascondi modalità tiro",
+        "hint": "Nasconde la modalità di tiro (normale/vantaggio/svantaggio) dalla scheda personaggio."
+      },
+      "hideUses": {
+        "name": "Nascondi utilizzi",
+        "hint": "Nasconde i restanti utilizzi delle mosse per PG e PNG."
+      },
+      "itemIcons": {
+        "name": "Abilita icone",
+        "hint": "Abilita le icone per mosse, incantesimi ed equipaggiamenti nella scheda personaggio."
+      },
+      "sheetConfig": {
+        "label": "Configurazione foglio PbtA",
+        "name": "Configurazione fogli personaggio",
+        "hint": "Scegli la struttura dati per il foglio personaggio – caratteristiche, abilità e attributi.",
+        "additions": "Aggiunto:",
+        "confirm": "Conferma",
+        "confirmChanges": "Applica modifiche",
+        "confirmUpdate": "Conferma e aggiorna",
+        "cosmetic": "Modifiche estetiche (nome o descrizione):",
+        "deletions": "Rimosso:",
+        "maxValue": "Valore max modificato:",
+        "noteCancel": "Annulla e non salvare le modifiche",
+        "noteChangesDetected": "Sono state rilevate modifiche in uno o più tipi di attore. Controlla i cambiamenti e scegli:",
+        "noteConfirm": "Conferma senza aggiornare attori esistenti",
+        "noteConfirmUpdate": "Conferma e aggiorna attori esistenti",
+        "noteConfirmUpdateBold": "ATTENZIONE: I dati esistenti negli attributi rimossi saranno eliminati in modo permanente",
+        "notes1": "Benvenuto nel sistema PbtA!",
+        "notes2": "In futuro sarà disponibile un'interfaccia grafica per creare i fogli personaggio. Per ora si usa il formato TOML, simile ai file INI nei videogiochi.",
+        "notes3": "Consulta la documentazione tramite il link nella finestra di configurazione del foglio. Puoi anche chiedere aiuto nel canale #powered-by-the-apocalypse nel server Discord ufficiale di Foundry Virtual Tabletop.",
+        "options": "Opzioni di lista modificate (i valori saranno mantenuti):",
+        "resetDefaults": "Ripristina impostazioni",
+        "saveConfiguration": "Salva configurazione",
+        "title": "Configurazione del foglio personaggio",
+        "type": "Tipo modificato:",
+        "typeReset": "Tipo modificato (valore verrà azzerato):",
+        "sheetConfigDisabledModule": "Configurazione del foglio disabilitata perché un modulo fornisce un proprio foglio."
+      }
+    }
+  },
+  "PBTA_OTHER": "Altro"
+}

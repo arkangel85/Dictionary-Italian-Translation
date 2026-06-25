@@ -1,0 +1,30 @@
+{
+  "compact-scene-navigation": {
+    "ToggleFavorite": "Preferita",
+    "goToFolder": "Vai alla cartella",
+    "settings": {
+      "gmOnly": {
+        "name": "Solo per il GM",
+        "hint": "Se disattivato, i giocatori potranno vedere l'albero delle cartelle per qualsiasi scena a cui hanno accesso."
+      },
+      "autoHide": {
+        "name": "Nascondi automaticamente",
+        "hint": "Nasconde automaticamente il pannello di navigazione quando non viene utilizzato."
+      },
+      "useNavigation": {
+        "name": "Solo scene visibili nella navigazione",
+        "hint": "Se attivato, mostra al GM solo le scene contrassegnate come 'Mostra nella navigazione'; altrimenti mostra tutte. I giocatori vedranno sempre solo le scene contrassegnate come visibili."
+      },
+      "clickViewScene": {
+        "name": "Click sinistro per visualizzare la scena",
+        "hint": "Se attivato, cliccare su una scena nella barra laterale la aprirà in visualizzazione invece di aprire le sue impostazioni."
+      },
+      "dynamicSorting": {
+        "name": "Ordinamento dinamico",
+        "hint": "Se attivato, la scena attiva sarà sempre al primo posto e la scena visualizzata al secondo."
+      }
+    },
+    "app": {},
+    "flags": {}
+  }
+}

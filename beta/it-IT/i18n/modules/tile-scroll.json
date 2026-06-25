@@ -1,0 +1,15 @@
+{
+  "tile-scroll": {
+    "flags": {
+      "header": "Tile Scroll",
+      "enableScroll": "Scorrimento",
+      "enabled": "Abilitato",
+      "scrollSpeed": "Velocità",
+      "scrollDirection": "Direzione",
+      "enableRotate": "Rotazione",
+      "repeat": "Ripeti texture",
+      "pivot": "Asse di rotazione",
+      "offset": "Offset"
+    }
+  }
+}

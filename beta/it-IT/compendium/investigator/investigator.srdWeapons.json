@@ -1,0 +1,35 @@
+{
+  "label": "Armi",
+  "mapping": {
+    "category": "data.category"
+  },
+  "entries": {
+    "Firearm (heavy)": {
+      "name": "Arma da fuoco pesante"
+    },
+    "Firearm (light)": {
+      "name": "Arma da fuoco leggera"
+    },
+    "Fist/kick": {
+      "name": "Pugni e calci"
+    },
+    "Heavy club": {
+      "name": "Mazza pesante"
+    },
+    "Knife": {
+      "name": "Coltello"
+    },
+    "Machete": {
+      "name": "Machete"
+    },
+    "Police Baton": {
+      "name": "Manganello della polizia"
+    },
+    "Small improvised weapon": {
+      "name": "Arma improvvisata"
+    },
+    "Sword": {
+      "name": "Spada"
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "BG3.Hotbar": {
+    "Errors": {
+      "InvalidDrop": "Dati di trascinamento non validi: JSON non valido.",
+      "InvalidItem": "Dati oggetto non validi. Solo oggetti con UUID valido possono essere inseriti nella barra rapida.",
+      "ItemNotFound": "Impossibile ottenere l'oggetto tramite UUID. L'oggetto non è stato inserito nella barra rapida.",
+      "WrongToken": "Non puoi trascinare oggetti da un altro token su questa barra rapida.",
+      "UnableToRetrieve": "Impossibile ottenere i dati dell'oggetto.",
+      "MacroNotFound": "Macro non trovata",
+      "NoActor": "Attore non trovato",
+      "NoUIReference": "Riferimento all'interfaccia non trovato. Prova ad aggiornare la pagina."
+    },
+    "ContextMenu": {
+      "EditItem": "Modifica oggetto",
+      "ConfigureActivities": "Configura funzioni",
+      "Remove": "Rimuovi"
+    },
+    "UI": {
+      "AddRow": "Aggiungi riga",
+      "RemoveRow": "Rimuovi riga"
+    },
+    "SettingsMenu": {
+      "ResetLayout": "Reimposta layout",
+      "ClearAllItems": "Pulisci tutti gli oggetti",
+      "ImportLayout": "Importa layout",
+      "ExportLayout": "Esporta layout"
+    },
+    "Tooltips": {
+      "Action": "Azione",
+      "Range": "Gittata",
+      "Target": "Bersaglio",
+      "Duration": "Durata",
+      "Description": "Descrizione",
+      "LoadingDescription": "Caricamento descrizione...",
+      "NoDescription": "Descrizione non disponibile.",
+      "Permanent": "Permanente",
+      "RoundsRemaining": "Round rimanenti: {count}",
+      "TurnsRemaining": "Turni rimanenti: {count}",
+      "SecondsRemaining": "Secondi rimanenti: {count}",
+      "Status": "Stato",
+      "Active": "Attivo",
+      "Disabled": "Disabilitato"
+    },
+    "Ability": {
+      "Tooltip": "Mostra prove di caratteristica e tiri salvezza"
+    }
+  },
+  "BG3.Settings": {
+    "EnableUI": {
+      "Name": "Abilita interfaccia BG3 Hotbar",
+      "Hint": "Abilita o disabilita l'interfaccia della barra rapida in stile BG3. Disattiva se preferisci usare un'altra barra o quella predefinita di Foundry."
+    },
+    "ShowDamageRanges": {
+      "Name": "Mostra danni come intervalli",
+      "Hint": "Mostra i danni delle magie come intervalli min-max invece della notazione dei dadi (es. '1-8 fuoco' invece di '1d8 fuoco')"
+    },
+    "ShowMaterialDescription": {
+      "Name": "Mostra descrizione componenti materiali",
+      "Hint": "Mostra la descrizione completa dei componenti materiali nelle descrizioni delle magie (es. 'diamanti del valore di 300 mo, consumati dall'incantesimo')"
+    },
+    "EnableLightTooltip": {
+      "Name": "Impostazione tooltip semplificata",
+      "Hint": "Scegli il contenuto dei tooltip",
+      "Choices": {
+        "Full": "Completo",
+        "Light": "Solo nome e tipo oggetto",
+        "NoDesc": "Nascondi solo la descrizione"
+      }
+    },
+    "BypassSpellPreparationCheck": {
+      "Name": "Includi incantesimi non preparati",
+      "Hint": "Se abilitato, tutti gli incantesimi saranno mostrati nella barra rapida indipendentemente dallo stato di preparazione"
+    },
+    "EnforceSpellPreparationPC": {
+      "Name": "Richiedi preparazione incantesimi (Token associati)",
+      "Hint": "Se attivo, i token associati (inclusi i PG) mostreranno solo incantesimi preparati o speciali (innati, a volontà, del patto, rituali, sempre preparati). Altrimenti, mostra tutti gli incantesimi."
+    },
+    "EnforceSpellPreparationNPC": {
+      "Name": "Richiedi preparazione incantesimi (Token non associati)",
+      "Hint": "Se attivo, i token non associati mostreranno solo incantesimi preparati o speciali. Altrimenti, mostra tutti gli incantesimi."
+    },
+    "CollapseFoundryMacrobar": {
+      "Name": "Minimizza barra macro di Foundry",
+      "Hint": "Riduce automaticamente la barra macro di Foundry"
+    },
+    "ShowPassiveFeaturesContainer": {
+      "Name": "Mostra riquadro tratti passivi",
+      "Hint": "Mostra il contenitore dei tratti passivi sopra al ritratto"
+    },
+    "TooltipDelay": {
+      "Name": "Ritardo tooltip",
+      "Hint": "Tempo di attesa prima di mostrare i tooltip (in millisecondi)"
+    },
+    "FadeOutDelay": {
+      "Name": "Ritardo dissolvenza",
+      "Hint": "Secondi di attesa prima che la barra si dissolva"
+    },
+    "NormalOpacity": {
+      "Name": "Opacità normale",
+      "Hint": "Opacità della barra rapida al passaggio del mouse (da 0.1 a 1.0)"
+    },
+    "FadedOpacity": {
+      "Name": "Opacità dissolvenza",
+      "Hint": "Opacità della barra rapida senza mouse (da 0.0 a 1.0). Imposta 1 per disattivare la dissolvenza."
+    },
+    "AutoPopulateUnlinkedTokens": {
+      "Name": "Autocompilazione token non associati",
+      "Hint": "Riempi automaticamente la barra rapida per i nuovi token non associati secondo le impostazioni seguenti"
+    },
+    "Container1AutoPopulate": {
+      "Name": "Autocompilazione contenitore 1",
+      "Hint": "Quali tipi di oggetti inserire automaticamente nel primo contenitore (indice 0)"
+    },
+    "Container2AutoPopulate": {
+      "Name": "Autocompilazione contenitore 2",
+      "Hint": "Quali tipi di oggetti inserire automaticamente nel secondo contenitore (indice 1)"
+    },
+    "Container3AutoPopulate": {
+      "Name": "Autocompilazione contenitore 3",
+      "Hint": "Quali tipi di oggetti inserire automaticamente nel terzo contenitore (indice 2)"
+    },
+    "AutoPopulateOverflow": {
+      "Name": "Quando il contenitore è pieno",
+      "Hint": "Scegli come gestire gli oggetti in eccesso nel contenitore.",
+      "Expand": "Aggiungi nuove righe",
+      "NextContainer": "Sposta nel contenitore successivo"
+    },
+    "AutoPopulateFillDirection": {
+      "Name": "Direzione compilazione automatica",
+      "Hint": "Riempi prima righe (sinistra-destra) o colonne (alto-basso)",
+      "RowFirst": "Prima righe (sinistra-destra, poi giù)",
+      "ColumnFirst": "Prima colonne (alto-basso, poi destra)"
+    },
+    "ContainerAutoPopulate": {
+      "DialogTitle": "Autocompilazione contenitore",
+      "DefaultsTitle": "Imposta valori predefiniti per la compilazione",
+      "Name": "Scegli tipi di oggetti",
+      "Hint": "Seleziona quali tipi di oggetti inserire automaticamente in questo contenitore.",
+      "Weapons": "Armi",
+      "Features": "Tratti",
+      "Spells": "Incantesimi",
+      "Consumables": "Consumabili",
+      "Equipment": "Equipaggiamento",
+      "Tools": "Strumenti",
+      "Loot": "Bottino",
+      "Populate": "Compila",
+      "Cancel": "Annulla",
+      "Save": "Salva modifiche",
+      "SaveSuccess": "Impostazioni salvate con successo",
+      "Configure": "Configura contenitore",
+      "Export": "Esporta tema"
+    },
+    "HighlightStyle": {
+      "Name": "Stile evidenziazione",
+      "Hint": "Scegli come evidenziare gli oggetti durante il filtraggio",
+      "Bottom": "Bordo inferiore",
+      "Border": "Cornice completa"
+    },
+    "DefaultPortraitPreferences": {
+      "Name": "Visualizzazione ritratto predefinita",
+      "Hint": "Scegli se mostrare immagini token o ritratti dei personaggi. Sovrascrivibile per singolo token. Applicato a tutti se attivo la prima volta.",
+      "Token": "Usa sempre immagine token",
+      "Portrait": "Usa sempre ritratto personaggio"
+    },
+    "ShapePortraitPreferences": {
+      "Name": "Forma ritratto",
+      "Hint": "Scegli la forma del ritratto del personaggio.",
+      "Round": "Rotonda",
+      "Square": "Quadrata"
+    },
+    "BorderPortraitPreferences": {
+      "Name": "Cornice ritratto",
+      "Hint": "Scegli la cornice per il ritratto del personaggio.",
+      "None": "Nessuna cornice",
+      "Simple": "Semplice",
+      "Styled": "Stilizzata (solo rotonda)"
+    },
+    "BackgroundPortraitPreferences": {
+      "Name": "Sfondo ritratto",
+      "Hint": "Scegli il colore di sfondo per il ritratto del personaggio."
+    },
+    "ShowHealthOverlay": {
+      "Name": "Mostra overlay PV",
+      "Hint": ""
+    },
+    "ShowHPText": {
+      "Name": "Mostra testo PV",
+      "Hint": ""
+    },
+    "ShowRestTurnButton": {
+      "Name": "Mostra pulsanti riposo",
+      "Hint": ""
+    },
+    "OverlayModePortrait": {
+      "Name": "Overlay PV come maschera",
+      "Hint": "Se attivo, l'overlay non coprirà la parte trasparente del ritratto. Utile con ritratti dinamici."
+    },
+    "SettingsCategories": {
+      "HotbarContainer": "Pulsanti barra rapida",
+      "CombatContainer": "Contenitore azioni generali",
+      "Global": "Globali",
+      "Portrait": "Ritratto personaggio",
+      "Tooltip": "Tooltip",
+      "AutoPopulating": "Autocompilazione",
+      "FoundryUI": "Interfaccia Foundry",
+      "MidiQoL": "Sincronizzazione MidiQoL"
+    },
+    "MenuTheme": {
+      "Name": "Impostazioni tema",
+      "Hint": "Scegli tra i temi disponibili o crea il tuo.",
+      "Label": "Configura tema"
+    },
+    "scopeTheme": {
+      "Name": "Temi individuali",
+      "Hint": "Se attivo, ogni giocatore può scegliere il proprio tema. Altrimenti, sarà uguale per tutti."
+    },
+    "PlayerListVisibility": {
+      "Name": "Visibilità lista giocatori",
+      "Hint": "Gestisci la visibilità della lista giocatori in basso a sinistra.",
+      "Choices": {
+        "always": "Sempre visibile",
+        "hover": "Mostra al passaggio",
+        "hidden": "Nascondi completamente"
+      }
+    },
+    "ShowDeathSavingThrow": {
+      "Name": "Mostra tiri salvezza contro la morte",
+      "Hint": "Modalità di visualizzazione dei TS contro la morte.",
+      "Choices": {
+        "show": "Predefinito",
+        "hide": "Mai",
+        "only": "Solo cliccando l'icona del teschio"
+      }
+    },
+    "synchroMidiQoL": {
+      "BR": {
+        "Name": "Azioni bonus e reazioni",
+        "Hint": "Imposta azioni bonus e reazioni in base agli effetti attivi di MidiQoL."
+      },
+      "ADV": {
+        "Name": "Pulsanti vantaggio/svantaggio",
+        "Hint": "Aggiunge origine di vantaggio o svantaggio. Richiede il rewind attivo in MidiQoL."
+      }
+    },
+    "GamePause": {
+      "Name": "Grafica pausa in primo piano",
+      "Hint": "Se attivo, la grafica della pausa sarà visibile sopra l’interfaccia."
+    },
+    "AutoScale": {
+      "Name": "Scala interfaccia automatica",
+      "Hint": "Scala automaticamente l'interfaccia in base al browser. Disattiva la voce seguente se usato."
+    },
+    "Menu": {
+      "Global": {
+        "Name": "Impostazioni generali",
+        "Hint": "Interfaccia Foundry o impostazioni globali BG3",
+        "Label": "Impostazioni generali"
+      },
+      "Theme": {
+        "Name": "Impostazioni tema",
+        "Hint": "Scegli o crea un tema personalizzato.",
+        "Label": "Configura tema"
+      },
+      "Portrait": {
+        "Name": "Configura ritratto",
+        "Hint": "Impostazioni avanzate per i ritratti dei personaggi.",
+        "Label": "Impostazioni ritratto"
+      },
+      "Hotbar": {
+        "Name": "Configura barra rapida",
+        "Hint": "Impostazioni avanzate per la barra rapida.",
+        "Label": "Barra rapida"
+      },
+      "Combat": {
+        "Name": "Configura azioni generiche",
+        "Hint": "Impostazioni avanzate per azioni comuni.",
+        "Label": "Azioni generiche"
+      },
+      "Populate": {
+        "Name": "Configura autocompilazione",
+        "Hint": "Impostazioni avanzate per l'autocompilazione.",
+        "Label": "Autocompilazione"
+      },
+      "Tooltip": {
+        "Name": "Configura tooltip",
+        "Hint": "Impostazioni avanzate per i suggerimenti.",
+        "Label": "Tooltip"
+      },
+      "Midi": {
+        "Name": "Sincronizzazione MidiQoL",
+        "Hint": "Sincronizza le impostazioni con MidiQoL. Richiede il modulo attivo.",
+        "Label": "MidiQoL"
+      }
+    }
+  }
+}

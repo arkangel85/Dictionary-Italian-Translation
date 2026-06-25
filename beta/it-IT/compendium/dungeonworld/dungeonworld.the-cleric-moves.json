@@ -1,0 +1,148 @@
+{
+  "label": "Mosse del Chierico",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Anointed",
+      "name": "Unto",
+      "description": "Scegli un incantesimo in aggiunta a quello ottenuto con la mossa <i>Prescelto</i>. Quando la divinità te lo concede, considera il suo livello come se fosse inferiore di 1."
+    },
+    {
+      "id": "Apotheosis",
+      "name": "Apoteosi",
+      "description": "<b>La prima volta che preghi la tua divinità</b> (accompagnando la preghiera con una cerimonia) dopo aver scelto questa mossa, seleziona una caratteristica legata alla divinità (es. ali azzurre, occhio onniveggente). Ottieni permanentemente tale caratteristica."
+    },
+    {
+      "id": "Cast A Spell",
+      "name": "Lanciare Incantesimo",
+      "description": "<p>Quando <b>lanci un incantesimo clericale</b>, tira+SAG.</p><p>Nota che mantenere incantesimi prolungati può imporsi una penalità ai tuoi tiri di incantesimo.</p>",
+      "success": "L’incantesimo resta con te.",
+      "partial": "<p>Scegli uno:</p><ul><li>Attiri attenzioni indesiderate o ti ritrovi in una situazione difficile. Il GM lo descriverà.</li><li>L’uso della magia ti allontana dalla divinità — subisci -1 a tutti i tiri di incantesimo fino alla prossima preghiera.</li><li>Dopo il lancio, la divinità ti sottrae l’incantesimo. Per recuperarlo, devi passare circa un’ora in preghiera.</li></ul>"
+    },
+    {
+      "id": "Chosen One",
+      "name": "Prescelto",
+      "description": "Scegli un incantesimo. Quando la tua divinità te lo concede, considera il suo livello come inferiore di 1."
+    },
+    {
+      "id": "Commune",
+      "name": "Comunione",
+      "description": "Quando <b>trascorri circa un’ora in preghiera tranquilla alla tua divinità</b>, senza essere interrotto:<ul><li>Perdi tutti gli incantesimi attualmente concessi.</li><li>Ricevi nuovi incantesimi a scelta. La somma dei loro livelli non può superare il tuo livello+1, e nessuno può superare il tuo livello.</li><li>Prepari tutti i tuoi salmi. Non contano nel calcolo della somma di livelli degli incantesimi.</li></ul>"
+    },
+    {
+      "id": "Deity",
+      "name": "Divinità",
+      "description": "<p>Servi e veneri una divinità che ti dona poteri magici.</p><p>Dale un nome (es. Gelfert, Sakellus, Zorika o Kragon il Severissimo) e scegli un dominio:</p><ul><li>Cura e rigenerazione</li><li>Guerre sanguinose</li><li>Civiltà</li><li>Conoscenza e misteri</li><li>Oppressi e dimenticati</li><li>Coloro Che Dormono negli Abissi</li></ul><p>Scegli un precetto religioso:</p><ul><li>La religione predica la santità del dolore. Il tuo precetto: martirio.</li><li>È un culto segreto. Il tuo precetto: conoscenza nascosta.</li><li>Pratica i sacrifici. Il tuo precetto: offerte sacre.</li><li>Per questa fede, il combattimento è la prova suprema. Il tuo precetto: vittoria personale.</li></ul>"
+    },
+    {
+      "id": "Devoted Healer",
+      "name": "Guaritore Devoto",
+      "description": "Quando <b>curi qualcuno</b>, aggiungi il tuo livello ai PF recuperati."
+    },
+    {
+      "id": "Divine Armor",
+      "name": "Armatura Divina",
+      "description": "Se <b>non indossi armatura o scudo</b>, ottieni 3 di armatura."
+    },
+    {
+      "id": "Divine Guidance",
+      "name": "Segno Divino",
+      "description": "Quando <b>segui i precetti della tua fede</b>, la divinità ti invia una conoscenza utile o un dono legato al proprio dominio. Il GM descriverà cosa ricevi."
+    },
+    {
+      "id": "Divine Intervention",
+      "name": "Intervento Divino",
+      "description": "<b>Pregando</b>, ottieni una riserva pari a 1 (perdi tutta la riserva precedente). Quando tu o un alleato subite danni, puoi spendere 1 punto per invocare la divinità: questa interverrà (soffio di vento, luce divina, ecc.) evitando il danno."
+    },
+    {
+      "id": "Divine Invincibility",
+      "name": "Invincibilità Divina",
+      "description": "<b>Pregando</b>, ottieni una riserva pari a 2 (perdi tutta la riserva precedente). Quando tu o un alleato subite danni, puoi spendere 1 punto per invocare la divinità: questa interverrà (soffio di vento, luce divina, ecc.) evitando il danno."
+    },
+    {
+      "id": "Divine Protection",
+      "name": "Protezione Divina",
+      "description": "Se <b>non indossi armatura o scudo</b>, ottieni 2 di armatura."
+    },
+    {
+      "id": "Empower",
+      "name": "Potenziare",
+      "description": "Quando <b>lanci un incantesimo</b>, con un 10+ puoi scegliere anche una conseguenza da 7–9 per ottenere uno dei seguenti effetti aggiuntivi.",
+      "choices": "<ul><li>L’effetto dell’incantesimo è raddoppiato</li><li>Il numero di bersagli è raddoppiato</li></ul>"
+    },
+    {
+      "id": "First Aid",
+      "name": "Primo Soccorso",
+      "description": "<i>Cura Ferite Leggere</i> è per te un salmo e non conta nel limite dei livelli totali di incantesimo."
+    },
+    {
+      "id": "Greater Empower",
+      "name": "Potenziamento Supremo",
+      "description": "<p>Quando lanci un incantesimo, con un 10–11 puoi scegliere una conseguenza da 7–9 per ottenere uno dei seguenti effetti. Con 12+ ottieni l’effetto senza penalità:</p><ul><li>L’effetto dell’incantesimo è raddoppiato;</li><li>Il numero di bersagli è raddoppiato</li></ul>"
+    },
+    {
+      "id": "Greater First Aid",
+      "name": "Soccorsi Avanzati",
+      "description": "<i>Cura Ferite Moderate</i> è per te un salmo e non conta nel limite dei livelli totali di incantesimo."
+    },
+    {
+      "id": "Invigorate",
+      "name": "Rinvigorire",
+      "description": "Quando <b>curi qualcuno</b>, ottiene +2 al suo prossimo tiro per infliggere danni."
+    },
+    {
+      "id": "Martyr",
+      "name": "Martire",
+      "description": "Quando <b>accetti con fede il dolore inflitto da un danno</b>, puoi subire [[/roll 1d4]] danni extra (ignorano armatura) per ottenere +1 al prossimo tiro di incantesimo e un bonus ai danni inflitti o curati pari al tuo livello."
+    },
+    {
+      "id": "Multiclass Dabbler",
+      "name": "Multiclasse: Dilettante",
+      "description": "Scegli una mossa da un’altra classe come se il tuo livello fosse inferiore di 1."
+    },
+    {
+      "id": "Orison For Guidance",
+      "name": "Supplica per la Guida",
+      "description": "Quando <b>offri qualcosa di prezioso alla tua divinità e chiedi indicazioni</b>, essa ti dirà cosa desidera da te. Se ubbidisci, ottieni esperienza."
+    },
+    {
+      "id": "Penitent",
+      "name": "Pentito",
+      "description": "Quando <b>accogli con gioia il dolore ricevuto</b>, puoi accettare [[/roll 1d4]] danni extra (ignorano armatura) per ottenere +1 al prossimo incantesimo."
+    },
+    {
+      "id": "Providence",
+      "name": "Provvidenza",
+      "description": "Quando <b>lanci un incantesimo</b>, ignora il -1 per mantenere due incantesimi prolungati."
+    },
+    {
+      "id": "Reaper",
+      "name": "Mietitore",
+      "description": "Se, dopo una battaglia, <b>dedichi del tempo per onorare la vittoria e seppellire i morti</b>, ottieni +1 al prossimo tiro."
+    },
+    {
+      "id": "Serenity",
+      "name": "Serenità",
+      "description": "Ignora il primo malus -1 dovuto a incantesimi attivi."
+    },
+    {
+      "id": "The Scales Of Life And Death",
+      "name": "Tra Vita e Morte",
+      "description": "Quando <b>qualcuno compie l’<i>ultimo respiro</i> davanti a te</b>, ottiene +1 al tiro."
+    },
+    {
+      "id": "Turn Undead",
+      "name": "Scacciare i Non Morti",
+      "description": "Quando <b>sollevi il simbolo sacro e invochi la divinità</b>, tira+SAG.",
+      "success": "I non morti non possono avvicinarsi finché preghi e stringi il simbolo. I non morti intelligenti possono nuocerti da lontano. Inoltre, confondi brevemente i non morti senzienti e metti in fuga quelli privi di mente. Se sei ostile, l’effetto svanisce.",
+      "partial": "I non morti non possono avvicinarsi finché preghi e stringi il simbolo. I non morti intelligenti possono nuocerti da lontano."
+    }
+  ]
+}

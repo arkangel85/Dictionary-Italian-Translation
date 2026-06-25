@@ -1,0 +1,850 @@
+{
+  "label": "CY_BORG (Oggetti)",
+
+  "folders": {
+    "Apps": "App",
+    "Armor": "Armature",
+    "Booster Mods": "Booster",
+    "Burned Hacker": "Hacker Bruciato",
+    "Classless Punk": "Punk Senza Classe",
+    "Cybertech": "Cibertecnologia",
+    "Drugs": "Droghe",
+    "Discharged CorpKiller": "Assassino Corporativo Espulso",
+    "Equipment": "Equipaggiamento",
+    "Forsaken Gang-Goon": "Sgherro Abbandonato",
+    "Gear": "Roba",
+    "Infestations": "Infestazioni",
+    "Optional Classes": "Classi Opzionali",
+    "Orphaned Gearhead": "Meccanico Orfano",
+    "Shunned Nanomancer": "Nanonmante Ripudiato",
+    "Nano Powers": "Nanopoteri",
+    "Weapons": "Armi",
+    "Renegade Cyberslasher": "Cybersquarciatore Rinnegato"
+  },
+
+  "mapping": {
+    "description": "system.description",
+    "special": "system.special",
+    "triggered": "system.triggered",
+    "rolls": "system.rolls",
+    "items": "system.items",
+    "actorCreateMacro": "system.actorCreateMacro",
+    "createMacro": "system.createMacro"
+  },
+
+  "entries": {
+    ">eRase": {
+      "name": ">cAncElla",
+      "description": "Taglia o copia gli ultimi 10 minuti di informazioni salvate da qualsiasi tipo di dispositivo di registrazione/osservazione."
+    },
+    "9mm pistol": {
+      "name": "Pistola 9 mm"
+    },
+    "Additional joints": {
+      "name": "Articolazioni aggiuntive",
+      "description": "-2SL a tutti i test di presa, capacità di infilarsi in spazi ristretti."
+    },
+    "Adrenachrome_HST": {
+      "name": "Adrenocromo_HST",
+      "description": "Cura d6 HP, +1 a tutte le abilità per d6 round, poi -1 fino al riposo."
+    },
+    "Alien crabs": {
+      "name": "Granchi alieni",
+      "description": "Gli insetti si infilano sotto la pelle.",
+      "triggered": "Penetrano sempre più a fondo, ti buttano a terra, facendoti contorcere dal dolore per d6 round."
+    },
+    "Ammo Mag": {
+      "name": "Caricatore",
+      "description": "Le munizioni normali costano il 10% del prezzo dell’arma nuova. Se il prezzo dell’arma non è specificato, si presume che le munizioni siano più difficili da trovare e i costi variano tra 60–120¤.",
+      "default": "Caricatore"
+    },
+    "Ancient blade": {
+      "name": "Lama antica",
+      "description": "Ha preso 1.000 anime. O almeno così dici. Se colpisci per primo in combattimento, infliggi danno doppio."
+    },
+    "Ancient Revolver": {
+      "name": "Rivoltella antica"
+    },
+    "Armor-Piercing": {
+      "name": "Perforante",
+      "description": "Ignora d6 punti armatura."
+    },
+    "Assault Rifle": {
+      "name": "Fucile d'assalto"
+    },
+    "Assaults": {
+      "name": "Assalti",
+      "description": "Hai sempre preferito la vecchia scuola: entrambe le braccia alzate, corri dritto sul nemico. Qualunque arma tu abbia, ne avrai una per mano. Puoi usarla per un secondo attacco ogni round con SL14."
+    },
+    "Autocamo": {
+      "name": "Autocamo",
+      "description": "Proiezione sottocutanea di schemi anti-riconoscimento facciale in continuo cambiamento."
+    },
+    "Autofire expert": {
+      "name": "Esperto fuoco automatico",
+      "description": "I tuoi test con fuoco automatico hanno sempre -1SL."
+    },
+    "Backpack": {
+      "name": "Zaino",
+      "description": "Contiene fino a 7 oggetti di dimensione media."
+    },
+    "Barbed skeleton": {
+      "name": "Scheletro spinoso",
+      "description": "Schegge ossee appuntite sporgono vicino alle articolazioni. Vanno limate ogni due settimane o interferiscono coi movimenti.",
+      "triggered": "Una crescita improvvisa ti infligge d4 danni, provoca sanguinamento, e +2SL a tutte le azioni che richiedono movimento per un’ora."
+    },
+    "beaconworm": {
+      "name": "verme-localizzatore",
+      "description": "Inseriscilo in un dispositivo o cyberware: permette il tracciamento in tempo reale per d4 settimane."
+    },
+    "Benevolent suturedroids": {
+      "name": "Suturadroidi benevoli",
+      "description": "d2 persone guariscono d10 HP ciascuna. Se il risultato è 6 o più, il soggetto riceve anche emicrania."
+    },
+    "Bent prism": {
+      "name": "Prisma piegato",
+      "description": "Il bersaglio diventa invisibile, attacca e si difende a SL6. Dura d6 round o finché non subisce danni."
+    },
+    "Bestial, enlarged maw": {
+      "name": "Mascella bestiale ingrandita",
+      "triggered": "Quando si attiva, si apre in due parti e si espande ulteriormente. Subisci d8 danni, ma puoi mordere infliggendo d6 danni per un’ora."
+    },
+    "Bio/ID scanner": {
+      "name": "Scanner bio/ID",
+      "description": "Rintraccia un bersaglio umano entro 50 metri."
+    },
+    "Blackout": {
+      "name": "Blackout",
+      "description": "SL14 Resistenza o subisci d6 danni + cecità per un’ora."
+    },
+    "Bloated and moist": {
+      "name": "Gonfio e umido",
+      "triggered": "Ti gonfi ulteriormente, una sostanza grigiastra esce da ogni orifizio. +4SL a tutti i test per 10 minuti."
+    },
+    "Blood Snoot": {
+      "name": "Moccio sanguinante",
+      "description": "Rintraccia un hacker nemico infliggendo d4 danni a round finché non supera un test di Conoscenze SL12 o muore."
+    },
+    "Bloodthirst": {
+      "name": "Sete di sangue",
+      "description": "Per sopravvivere devi mangiare carne cruda ogni 2–3 ore.",
+      "triggered": "Non riesci più a controllarti. DEVE. MANGIARE. Per d3 round non puoi fare altro che cercare di mordere o lacerare l’arteria più vicina."
+    },
+    "BnE": {
+      "name": "Scassinatore",
+      "description": "Hai talento nel forzare ingressi. SL10 Destrezza per serrature meccaniche, SL10 Conoscenze per elettroniche. Parti con un set di strumenti per entrambi i tipi."
+    },
+    "BodyGun": {
+      "name": "BodyGun",
+      "description": "Pistola nascosta, a colpo singolo, grosso calibro, 2d10 danni."
+    },
+    "Boomboom": {
+      "name": "Boom-Boom",
+      "description": "d4 dispositivi semplici vicini esplodono (luci, schermi, telecamere, ecc.). Fanno d6 danni fino a d4 bersagli."
+    },
+    "Borgtrigga-0.5": {
+      "name": "Borgtrigga-0.5",
+      "description": "Induce una prova di CY-furia in un bersaglio vicino."
+    },
+    "Brainbox": {
+      "name": "Scatola cranica",
+      "description": "Una scatola nera per il cervello. Se intatta alla morte, la mente può essere trasferita in un’altra scatola cranica. Nuovo corpo o clone sono costosi e illegali (tranne per i ricchi)."
+    },
+    "Brawls": {
+      "name": "Rissa",
+      "description": "Test SL14 Destrezza per colpire in mischia. Infliggi danno normale e tutti gli alleati ottengono -2SL contro lo stesso nemico nel prossimo attacco."
+    },
+    "Breathing mask": {
+      "name": "Maschera respiratoria",
+      "description": "Fornisce ossigeno in ambienti gassosi o sott'acqua."
+    },
+    "Brick": {
+      "name": "Mattone"
+    },
+    "Brittle bones": {
+      "name": "Ossa fragili",
+      "description": "Quando calcoli il carico, considera la tua Forza come se fosse 1 punto in meno.",
+      "triggered": "Una vibrazione improvvisa. Suono di vetro che si infrange. Dolore acuto. Subisci 1 danno per ogni oggetto che stai trasportando."
+    },
+    "Broken Bottle": {
+      "name": "Bottiglia rotta"
+    },
+    "Bullseye": {
+      "name": "Occhio di bue",
+      "description": "Tutti i test che richiedono concentrazione (es. sparo, uso programmi) ottengono -2SL per d10 minuti."
+    },
+    "Burned Hacker": {
+      "name": "Hacker bruciato",
+      "description": "/.Eri uno dei migliori nel CY. Nessuno sapeva usare la tecnologia o piegare la realtà come te. @@@@@@@@@@@@.&_ <br />/.Non sai cosa è andato storto. Hai rovinato tutto. Forse sei stato tradito; forse sei stato negligente. <br />/.Hai visto la verità orribile, e ora sei bruciato. ///////////// <br />Niente collettivo, nessuna possibilità, nessun cazzo.",
+      "rolls": "cy-borg.cyborg-tables,Programmi,1\ncy-borg.cyborg-tables,Hai creato un programma,1\ncy-borg.cyborg-tables,Durante un'immersione profonda nel Cyber Spazio hai scoperto una terribile verità,1",
+      "items": "cy-borg.cyborg-items,Cyberdeck+,1"
+    },
+    "Burnt orange, stone-like skin": {
+      "name": "Pelle arancione bruciata, simile a pietra",
+      "description": "Riduci il danno ricevuto di d4, anche con fallimento difesa. Ma subisci d8 danni extra perché ti si stacca la pelle."
+    },
+    "Buzzeyes": {
+      "name": "Occhiali Ronzanti",
+      "description": "Occhi stile mosca con visione panoramica a 360°."
+    },
+    "C / Vortex": {
+      "name": "C / Vortice",
+      "description": "Tutti i test che richiedono creatività (es. uso Nanos) hanno -2SL per d10 minuti."
+    },
+    "Chainsaw": {
+      "name": "Motosega",
+      "description": "1 su 4 possibilità di ferirti con un colpo mancato",
+      "special": "1 su 4 possibilità di ferirti con un colpo mancato"
+    },
+    "Cheap clothes": {
+      "name": "Vestiti economici"
+    },
+    "Chill of the void": {
+      "name": "Gelo del vuoto",
+      "description": "Fino a d4 bersagli effettuano un test di Resistenza SL14 o subiscono d4 danni. Al round successivo il test è SL16 e i danni d8. Al terzo e quarto round il test resta SL16 e i danni sono 2d10. Il gelo ricopre l’area, e fiocchi di neve fluttuano nell’aria."
+    },
+    "Classless Punk": {
+      "name": "Punk senza classe"
+    },
+    "Cleanup": {
+      "name": "Ripulitore",
+      "description": "Sai come eliminare le prove da una scena del crimine. Parti con due bombe DNA e una grossa bottiglia d’acido."
+    },
+    "Cold": {
+      "name": "Freddo",
+      "description": "L’umidità congela sulla tua pelle ghiacciata.",
+      "triggered": "La tua temperatura corporea cala e l’aria attorno a te si fa gelida. Tu e chi ti sta vicino agite con +2SL per il prossimo minuto."
+    },
+    "Collapsible ladder": {
+      "name": "Scala pieghevole",
+      "description": "5 m."
+    },
+    "Combat Armor": {
+      "name": "Armatura da combattimento",
+      "description": "Dotata di auto-iniettore Adrenocromo_HST che si attiva se vieni pestato. +2SL ai test di Destrezza, inclusa Difesa."
+    },
+    "CopySwappy": {
+      "name": "CopySwappy",
+      "description": "Per d10 round tutta la tecnologia ti scambierà con un'altra persona nel raggio di 30 m e viceversa."
+    },
+    "Cosmic dust bots": {
+      "name": "Bot con polvere cosmica",
+      "description": "Un’area di diametro fino a 20 m viene coperta da polvere e oscurità per tutta la durata del combattimento o per 10 round. Ha il sapore di metallo arrugginito e sporco."
+    },
+    "Crawling carapace": {
+      "name": "Carapace strisciante",
+      "description": "Fino a d4 bersagli ricevono -d6 armatura per 4 round. A volte sembra che abbia una volontà propria… o forse è solo nella tua testa."
+    },
+    "Crime scene kit": {
+      "name": "Kit da scena del crimine"
+    },
+    "Crowbar": {
+      "name": "Piede di porco",
+      "description": "d4 danni"
+    },
+    "Crowd-control air cannon": {
+      "name": "Cannone ad aria per il controllo folle",
+      "description": "d6 danni, può colpire fino a d3 bersagli ravvicinati."
+    },
+    "Crystalline": {
+      "name": "Cristallino",
+      "description": "Piccoli cristalli crescono sul tuo corpo.",
+      "triggered": "Crescono fino a bloccarti completamente. Non puoi muoverti per d3 round e subisci danni tripli durante questo tempo."
+    },
+    "CTechAttak": {
+      "name": "Attacco CTech",
+      "description": "d3 bersagli cibernetici vicini perdono un totale di 4d10 HP."
+    },
+    "CWPC Metro card": {
+      "name": "Tessera metro CWPC",
+      "description": "rimangono d8 corse"
+    },
+    "Cyberdeck": {
+      "name": "Cyberdeck",
+      "description": "+1 slot Conoscenze"
+    },
+    "Cyberdeck+": {
+      "name": "Cyberdeck+",
+      "description": "+4 slot Conoscenze"
+    },
+    "De-fenc/der": {
+      "name": "Difen/sore",
+      "description": "Prendi il controllo di una torretta, drone o simile sistema di difesa per d6 round."
+    },
+    "Dead cell spirits": {
+      "name": "Spiriti cellulari morti",
+      "description": "Mangiando un frammento di qualcosa di morto, rivivi i suoi ultimi istanti come attraverso una lente offuscata. Test di Carisma SL14 per non subire d6 danni da trauma dell’ego."
+    },
+    "Deserter fangs": {
+      "name": "Zanne del disertore",
+      "description": "Attacco a morso SL10, danni d6. Rischio 2 su 6 di attacco gratuito contro di te."
+    },
+    "Discharged CorpKiller": {
+      "name": "Corpo-killer congedato",
+      "description": "Un bravo soldato in cattiva compagnia, sempre nelle guerre degli altri in nome dell’avidità. Il capitalismo ha inghiottito il tuo entusiasmo e ti ha scaricato senza liquidazione.",
+      "rolls": "cy-borg.cyborg-tables,Oggetti iniziali CorpKiller,1\ncy-borg.cyborg-tables,La tua vocazione,1",
+      "items": "cy-borg.cyborg-items,Esperto fuoco automatico,1",
+      "actorCreateMacro": "cy-borg.cyborg-macros,Creazione CorpKiller congedato"
+    },
+    "DNA bomb": {
+      "name": "Bomba DNA",
+      "description": "Riempe un’area di 10 m con materiale genetico misto"
+    },
+    "Drone suit": {
+      "name": "Tuta drone",
+      "description": "Volo lento ma silenzioso. Attacco e difesa in volo +4SL."
+    },
+    "Dual Logans": {
+      "name": "Doppi Logan",
+      "description": "Fanno un suono quando li sfoderi. Una volta per combattimento puoi sorprendere una vittima sfoderando gli artigli dai piedi e attaccare a SL8."
+    },
+    "DvG-sling": {
+      "name": "Fionda binaria",
+      "description": "Infligge danni a obiettivi cibernetici o veicoli a seconda della taglia: cane d6, umano d10, veicolo 2d8, più grande 2d12."
+    },
+    "E/Pulse": {
+      "name": "E/Pulsazione",
+      "description": "Infligge d6 danni extra a bersagli tecnologici o umani con almeno 2 cybermod."
+    },
+    "Elongated fingers": {
+      "name": "Dita allungate",
+      "description": "Il doppio della lunghezza normale.",
+      "triggered": "Si piegano dolorosamente. Per d10×10 minuti non puoi usare armi o oggetti che richiedano presa forte."
+    },
+    "Elongated, pointed and semi-translucent skull": {
+      "name": "Cranio allungato, appuntito e semi-trasparente",
+      "description": "Il tuo cervello brilla all’interno, come una candela."
+    },
+    "EndGame-Class ExoSuit": {
+      "name": "EsoTuta classe FineGioco",
+      "description": "Con iniettori personalizzabili, propulsori per salto, giunti motorizzati ecc. Non in vendita. +4SL ai test di Destrezza. Difesa +2SL, Resistenza e Forza -2SL. Può saltare 4× la tua altezza in lungo e in alto."
+    },
+    "ePulse grenade": {
+      "name": "Granata ePulse",
+      "description": "fino a d3 bersagli tecnici o umani con almeno 2 cybermod"
+    },
+    "Faceblock": {
+      "name": "BloccaVolto",
+      "description": "Blocca il riconoscimento facciale e la raccolta dati comportamentali."
+    },
+    "Fading": {
+      "name": "Svanente",
+      "description": "Sembri scomparire alla vista.",
+      "triggered": "Scompari dalla vista e dai sensori, restando però al buio per d4 round, poi ricompari casualmente entro 50 m dal punto originale."
+    },
+    "Fake ID": {
+      "name": "ID Falso",
+      "description": "Abbastanza buono per controlli casuali, ma potrebbe fallire se sei ricercato."
+    },
+    "False Flagger": {
+      "name": "Falso Allarme",
+      "description": "Simula un allarme o ne altera la posizione. Qualsiasi risposta a un vero allarme è ritardata di 2d6 minuti."
+    },
+    "Fencing": {
+      "name": "Recupero contatti",
+      "description": "Hai contatti per vendere quasi tutto. Una volta al giorno puoi effettuare un test di Carisma SL12 per ricordare il nome di qualcuno nel CY disposto a comprare qualunque merce illegale ti sia capitata."
+    },
+    "Filament knife": {
+      "name": "Coltello al filamento"
+    },
+    "Filament zweihander": {
+      "name": "Zweihander a filamento",
+      "description": "Inquieta chi ti sta attorno. I critici lanciano in aria il bersaglio, rendendolo facile da colpire (-2SL per gli altri)."
+    },
+    "First aid kit": {
+      "name": "Kit di pronto soccorso",
+      "description": "d3 usi. Ferma emorragie/infezioni e cura d6 HP."
+    },
+    "Flashbang": {
+      "name": "Granata stordente",
+      "special": "test Resistenza o +4SL per d4 round"
+    },
+    "Flashlight": {
+      "name": "Torcia"
+    },
+    "Flora": {
+      "name": "Flora",
+      "description": "La tua pelle è tinta di verde o viola. Dai tagli fuoriesce materia vegetale.",
+      "triggered": "Fiori ti sbocciano dalla bocca e urlano per 10 minuti, poi appassiscono. Durante questo periodo non puoi parlare e hai +2SL a tutte le azioni."
+    },
+    "Forsaken Gang-Goon": {
+      "name": "Sgherro abbandonato",
+      "description": "Vivevi con l’unica gang che ti rispettava. Erano la tua famiglia: hai ucciso, rubato e lottato per loro. Ora sono spariti, e devi sopravvivere da solo.",
+      "rolls": "cy-borg.cyborg-tables,Abilità dello Sgherro,1\ncy-borg.cyborg-tables,La tua gang,1",
+      "items": "cy-borg.cyborg-items,Furtivo,1"
+    },
+    "Frag": {
+      "name": "Granata a frammentazione",
+      "description": "Infligge d4 danni a d3 bersagli vicini."
+    },
+    "Gearhead": {
+      "name": "Meccanico",
+      "description": "Test Conoscenze SL10 per riparare tecnologia o pilotare veicoli/droni/macchine."
+    },
+    "Gills": {
+      "name": "Branchie",
+      "description": "Puoi respirare sott'acqua.",
+      "triggered": "Per d6 round non puoi respirare aria — ogni round effettua un test di Resistenza SL12 o subisci d4 danni."
+    },
+    "GodDAMN flail": {
+      "name": "Mazza maledetta",
+      "description": "Chiodata. Medioevale fino al midollo. Schiaccia e lacera l’armatura nemica riducendola di un livello quando infliggi almeno 6 danni."
+    },
+    "Grappling-hook crossbow": {
+      "name": "Balestra con rampino",
+      "description": "d4 danni se usata come arma"
+    },
+    "Grenade expert": {
+      "name": "Esperto di granate",
+      "description": "5 granate a mano + 5 stordenti. Lanci granate con -2SL."
+    },
+    "Grenade Launcher": {
+      "name": "Lanciagranate",
+      "description": "colpisce fino a d3 bersagli\nmontabile su fucile d’assalto"
+    },
+    "Hand grenade": {
+      "name": "Granata a mano",
+      "description": "Colpisce fino a d3 bersagli"
+    },
+    "Handy bot": {
+      "name": "Bot manuale",
+      "description": "Mano rimovibile con funzione drone, raggio d’azione 50 m."
+    },
+    "Heatseekers": {
+      "name": "Cercatori di calore",
+      "description": "-2SL quando spari a bersagli con calore corporeo."
+    },
+    "Heavy laser cannon": {
+      "name": "Cannon laser pesante",
+      "description": "d12 danni, test Carisma SL14 su umani, bot e animali. 3d12 danni, Carisma SL10 contro veicoli, torrette e simili."
+    },
+    "Hits": {
+      "name": "Colpisci",
+      "description": "In un attacco a sorpresa effettua test Destrezza SL10. Se ha successo, colpisci con un’arma da mischia infliggendo danno normale +3."
+    },
+    "Ill": {
+      "name": "Malato",
+      "description": "Test Resistenza SL14 o non puoi recuperare HP finché non ti curi professionalmente o con Succo Rosso."
+    },
+    "Incendiary shotgun": {
+      "name": "Fucile incendiario",
+      "description": "d10 danni, test Destrezza SL12 o materiali infiammabili prendono fuoco e infliggono +d6 danni al round successivo.",
+      "special": "Test DES SL12 o materiali infiammabili si incendiano: +d6 danni al round seguente"
+    },
+    "Inferno": {
+      "name": "Inferno",
+      "description": "Infligge d3 danni aggiuntivi (d8 su critico)."
+    },
+    "Knocker": {
+      "name": "Storditore",
+      "description": "Infligge d2 danni, test Resistenza SL12 o KO per d3 round."
+    },
+    "Laser turret": {
+      "name": "Torretta laser"
+    },
+    "Law1": {
+      "name": "Legge1",
+      "description": "Un effetto parallasse ti rende invisibile a ogni tecnologia (eccetto IA vere) per 10 minuti."
+    },
+    "Lifetap": {
+      "name": "Assorbivita",
+      "description": "Scegli due bersagli: uno guarisce, uno subisce danno. Il bersaglio da curare effettua test Carisma SL10 per guarire d6 HP, l’altro subisce d6 danni. Se fallisce, entrambi subiscono d3 danni. Si crea un ponte energetico e sanguinolento tra di loro."
+    },
+    "Lighter": {
+      "name": "Accendino"
+    },
+    "Lockpicks (electronic)": {
+      "name": "Grimaldelli (elettronici)"
+    },
+    "Lockpicks (mechanical)": {
+      "name": "Grimaldelli (meccanici)"
+    },
+    "Machete": {
+      "name": "Machete"
+    },
+    "Magnesium strip": {
+      "name": "Striscia di magnesio"
+    },
+    "Magnetic": {
+      "name": "Magnetico",
+      "description": "Attiri oggetti metallici. Di solito si nota solo a pochi cm dalla pelle.",
+      "triggered": "Oggetti metallici piccoli volano verso di te. +4SL contro armi metalliche da mischia o proiettili per d6 round."
+    },
+    "Micro torch cutter": {
+      "name": "Mini taglierino al plasma",
+      "description": "Basta per d4 usi."
+    },
+    "Milkwhite eyes that see through lies": {
+      "name": "Occhi lattiginosi che vedono la menzogna",
+      "description": "Una volta al giorno, se sospetti una bugia, effettua test Carisma SL8. Se riesci, puoi capire quando quella persona mente fino a fine giornata."
+    },
+    "Mirrorshades": {
+      "name": "Occhiali a specchio"
+    },
+    "Miura": {
+      "name": "Miura",
+      "description": "Test Resistenza SL12 o vai in furia per d6 round, colpendo bersagli casuali col miglior attacco disponibile. Attacco SL10, difesa SL14."
+    },
+    "Monosword": {
+      "name": "Mono-spada",
+      "description": "Io sono la spada. Shlak-shlak!"
+    },
+    "Mule pocket": {
+      "name": "Tasca da mulo",
+      "description": "Abbastanza grande per un’arma SmartGun™."
+    },
+    "Multitool": {
+      "name": "Multitool"
+    },
+    "Muscle-ups": {
+      "name": "Sovramuscoli",
+      "description": "+1 ai test di forza bruta come spingere o sollevare. +4 capacità di carico."
+    },
+    "Nailgun": {
+      "name": "Sparachiodi",
+      "description": "solo fuoco automatico",
+      "special": "solo fuoco automatico"
+    },
+    "Nanite echo": {
+      "name": "Eco nanitico",
+      "description": "I tuoi occhi diventano giallo-rossi.",
+      "triggered": "Una copia tua semitrasparente appare dietro di te e attacca te o l’alleato più debole. Ha 12 HP e infligge d6 danni con presa spettrale."
+    },
+    "Nanotrig": {
+      "name": "Nano-grilletto",
+      "description": "Test Carisma SL14 o scatena un’infezione Nano casuale temporanea."
+    },
+    "Noisemaker": {
+      "name": "Rumorifero",
+      "description": "Inonda una zona di 20 m con dati falsi per d4 minuti. Nessuna comunicazione o sorveglianza a distanza possibile."
+    },
+    "Nok_Nok": {
+      "name": "Toc_Toc",
+      "description": "Apre la porta chiusa più vicina. Può far scattare allarme."
+    },
+    "Old-school heavy machine gun": {
+      "name": "Mitragliatrice pesante old-school",
+      "description": "Danni d12a, si rompe se fai 1 al tiro danni. Riparabile con 10 minuti di calma."
+    },
+    "Optic camo suit": {
+      "name": "Tuta camo ottica",
+      "description": "Fermo: invisibile. In movimento: difficile da vedere. Usa d6."
+    },
+    "Orphaned Gearhead": {
+      "name": "Meccanico orfano",
+      "description": "Gli umani non sono affidabili. Fragili. Emotivamente deboli. Si rompono. Invece, hai imparato a fidarti del codice e dell’acciaio. Sai pilotare, riparare e controllare qualsiasi macchina. Quelle sì che non ti tradiscono.",
+      "rolls": "cy-borg.cyborg-tables,Oggetti iniziali del Meccanico,1\ncy-borg.cyborg-tables,Ti fidavi e loro,1",
+      "items": "cy-borg.cyborg-items,Meccanico,1",
+      "actorCreateMacro": "cy-borg.cyborg-macros,Creazione Meccanico Orfano"
+    },
+    "OSleep": {
+      "name": "NokSon",
+      "description": "Elimina il bisogno di dormire o riposare e i loro effetti negativi. Dopo 2 giorni, test Resistenza SL8 o svieni. Ripeti test ogni giorno con +2SL."
+    },
+    "Pack of realTobacco smokes": {
+      "name": "Pacchetto di RealTobacco™"
+    },
+    "Paracord": {
+      "name": "Corda Paracord",
+      "description": "30 m"
+    },
+    "PathMapper": {
+      "name": "MappaPercorso",
+      "description": "Usa sensori, telecamere e info pubbliche per creare mappa 3D dettagliata in raggio di ~100 m."
+    },
+    "Pineal gland stimulation": {
+      "name": "Stimolazione ghiandola pineale",
+      "description": "Per d4 round percepisci i flussi di informazione vicini. Puoi ascoltare messaggi, intuire direzioni di fonti dati o vedere gli ultimi secondi registrati su un dispositivo."
+    },
+    "Pink Ooze": {
+      "name": "Melma rosa",
+      "description": "Stimola tutti i recettori del dolore e piacere. Test Resistenza SL14 o ogni danno nei prossimi 5 min infligge +d4 danni."
+    },
+    "Pneumatic glove": {
+      "name": "Guanto pneumatico",
+      "description": "ignora armatura su critico",
+      "special": "ignora armatura su critico"
+    },
+    "Power tool": {
+      "name": "Attrezzo elettrico",
+      "description": "si rompe con tiro 1",
+      "special": "si rompe con tiro 1"
+    },
+    "Prototype Smart assault rifle": {
+      "name": "Fucile d’assalto Smart™ prototipo",
+      "description": "Danni d10a. Spara da dietro angoli, mira con camera, lanciagranate incluso."
+    },
+    "Psychic scalpels": {
+      "name": "Bisturi psichici",
+      "description": "Il bersaglio effettua test Carisma SL14 o perde d10 HP. Gli sanguinano gli occhi e le orecchie ronzano."
+    },
+    "Pulse Rifle": {
+      "name": "Fucile a impulsi",
+      "description": ""
+    },
+    "PulseWires": {
+      "name": "Cavi pulsanti",
+      "description": "+1 a Destrezza, Carisma, Forza o Resistenza per 2 ore. Ogni impulso costa 75¤."
+    },
+    "Radiance": {
+      "name": "Bagliore",
+      "description": "Una luce spettrale ti circonda. I contatori Geiger impazziscono vicino a te.",
+      "triggered": "Emetti una fiammata luminosa infliggendo d6 danni a te stesso e a fino d6 creature vicine."
+    },
+    "Rage": {
+      "name": "Furia",
+      "description": "Pelle tesa, sangue che bolle.",
+      "triggered": "Perdi il controllo ed attacchi tutto ciò che ti circonda per d4 round. Chi ti controlla preferisce usare poteri Nano offensivi prima dei pugni."
+    },
+    "Rattle": {
+      "name": "Chiacchierone",
+      "description": "Test Resistenza SL12 o non riesci a smettere di parlare per d6×10 minuti. Spesso riveli segreti."
+    },
+    "RCDOvrChargr": {
+      "name": "SovraccaricoRCD",
+      "description": "Un bersaglio ottiene +d6 ai test Destrezza e Forza per (Conoscenza + 3) round."
+    },
+    "Red Juice": {
+      "name": "Succo rosso",
+      "description": "Cura d10 HP una volta al giorno."
+    },
+    "Red Pain": {
+      "name": "Dolore rosso",
+      "description": "Test Resistenza SL12 o subisci d10 danni."
+    },
+    "Red-juice stimjector": {
+      "name": "Stim Succo Rosso",
+      "description": "d4 dosi. Recupera d10 HP."
+    },
+    "Remote control": {
+      "name": "Controllo remoto",
+      "description": "Un bersaglio a distanza di sputo deve eseguire un solo comando. Continuerai a sentire per sempre la loro voce muta echeggiare nella tua mente."
+    },
+    "Renegade Cyberslasher": {
+      "name": "Cybersquartatore Rinnegato",
+      "description": "Tu sei la MORTE incarnata — una furia di cromo, violenza e acciaio insanguinato. Ma non è rabbia cieca: un corpo potenziato e addestrato va di pari passo con una mente disciplinata. Prima uccidevi per un ideale. Ora? Lo fai per soldi.",
+      "rolls": "cy-borg.cyborg-tables,Cybertech,1,1d12\ncy-borg.cyborg-tables,Inizi ogni giorno con,1\ncy-borg.cyborg-tables,Oggetti iniziali Cybersquartatore,1"
+    },
+    "Retinal Com Device": {
+      "name": "Dispositivo Com Retinale",
+      "description": "Occhi “veri”, auricolare cromato e tutto ciò che sta in mezzo. <br />Trasmette notizie di fame, propaganda, pubblicità e Rete — direttamente nel tuo cranio. Accesso a siti, invio/ricezione di testi, immagini, video. La tua interfaccia col mondo tech. <br />Come tutto il resto, può essere hackerato."
+    },
+    "Retracting cyberclaws": {
+      "name": "Artigli cibernetici retrattili",
+      "description": "Molly o Logan, danno d6."
+    },
+    "RFID/keycard skimmer": {
+      "name": "Skimmer RFID/badge",
+      "description": "Probabilità cumulativa del 20% (max 60%) di clonare un codice da card o RFID."
+    },
+    "Ricochet": {
+      "name": "Rimbalzo",
+      "description": "Rimbalza da angoli e coperture, infligge d6 danni con test SL16."
+    },
+    "Rocket launcher": {
+      "name": "Lanciarazzi",
+      "description": "Colpisce d4 bersagli\nignora 2 livelli di armatura\nun solo colpo per combattimento"
+    },
+    "Rot": {
+      "name": "Marciume",
+      "description": "La pelle e la carne iniziano a marcire lentamente.",
+      "triggered": "Grossi lembi di pelle si staccano. Subisci d6 danni e fino a fine giornata ricevi +2 danni da fonti fisiche."
+    },
+    "Rough": {
+      "name": "Grezza",
+      "description": "Giacca rinforzata o kevlar completo."
+    },
+    "Scales cover most of your body": {
+      "name": "Scaglie coprono quasi tutto il corpo",
+      "description": "Tiri contro freddo, calore o radiazioni subiscono -4SL."
+    },
+    "Scum explosive": {
+      "name": "Esplosivo dei bastardi",
+      "description": "Sufficiente per una porta moderatamente rinforzata."
+    },
+    "Second mouth where your navel used to be": {
+      "name": "Seconda bocca dove avevi l’ombelico",
+      "description": "Cibo o droghe ingerite tramite la bocca-ombelico hanno il doppio dell’efficacia."
+    },
+    "Seed Pods": {
+      "name": "Baccelli",
+      "description": "Piccoli baccelli grandi come piselli coprono la maggior parte del tuo corpo.",
+      "triggered": "I semi esplodono dal corpo, indebolendoti per un'ora mentre ricrescono. Tutti i test fisici subiscono +4SL per quell’ora."
+    },
+    "Shockstick": {
+      "name": "Bastone elettrico",
+      "special": "test Resistenza o cadi a terra"
+    },
+    "Shotgun": {
+      "name": "Fucile a pompa",
+      "description": ""
+    },
+    "Shunned Nanomancer": {
+      "name": "Nanomante Ripudiato",
+      "description": "È dentro di te. Infetta la tua mente, deforma la tua carne. Ora la gente ti teme. Temono il potere che ti corrompe. Anche tu ne hai paura.",
+      "rolls": "cy-borg.cyborg-tables,Nano,1\ncy-borg.cyborg-tables,Oggetti Nanomante,1\ncy-borg.cyborg-tables,Ti sei infettato quando,1"
+    },
+    "SigilTag": {
+      "name": "Sigillo Invisibile",
+      "description": "Questo luogo e i sistemi vicini vengono marchiati con il tuo sigillo invisibile, permettendo l’attivazione remota di un programma come se fossi lì. Solo due luoghi possono essere marcati contemporaneamente."
+    },
+    "Silencer": {
+      "name": "Silenziatore"
+    },
+    "Skeleplating": {
+      "name": "Scheletratura metallica",
+      "description": "Scheletro ricoperto da sottile metallo, +10 HP."
+    },
+    "Skinhard": {
+      "name": "Pelle dura",
+      "description": "Pelle rinforzata che fornisce armatura -d2."
+    },
+    "Skinslot": {
+      "name": "Slot cutaneo",
+      "description": "Slot extra per una cyberdeck, nascosto sotto pelle."
+    },
+    "Small bottle of pulverized acid": {
+      "name": "Piccola bottiglietta di acido nebulizzato"
+    },
+    "Smartgun": {
+      "name": "SmartGun™",
+      "description": "d10a se collegata a SmartJack"
+    },
+    "Smarthair": {
+      "name": "Capelli intelligenti",
+      "description": "Puoi cambiare pettinatura a piacere."
+    },
+    "SmartJack": {
+      "name": "SmartJack",
+      "description": "Connessione neurale URS che permette l’uso completo della tecnologia Smart™."
+    },
+    "SmartWear": {
+      "name": "SmartWear",
+      "description": "Dotato di auto-iniettore Adrenacrom_HST che si attiva quando vieni pestato."
+    },
+    "Sniper Rifle": {
+      "name": "Fucile da cecchino",
+      "description": "×3 danni sui critici\n-4SL, +3 danni se miri per 2 round",
+      "special": "-4SL, +3 danni se miri per 2 round"
+    },
+    "Sonic blaster": {
+      "name": "Blaster sonico",
+      "description": "Ondata sonora stordente che colpisce fino a d3 bersagli e infligge d6 danni. Si ricarica automaticamente ogni 6 ore."
+    },
+    "Spray can/marker": {
+      "name": "Spray/marker"
+    },
+    "Starting Cyberdeck": {
+      "name": "Cyberdeck iniziale",
+      "description": "Dalla tabella dell’equipaggiamento iniziale.",
+      "createMacro": "cy-borg.macros,Slot cyberdeck iniziale"
+    },
+    "Stealthy": {
+      "name": "Furtivo",
+      "description": "Tutti i test di Carisma e Destrezza -2SL."
+    },
+    "Steelcutter chainsaw": {
+      "name": "Motosega taglia-acciaio",
+      "description": "Non fatta per combattere. Se infligge danno massimo, si incastra per d3 round infliggendo danni automatici."
+    },
+    "Strange leaf-looking knife": {
+      "name": "Strano coltello a forma di foglia",
+      "description": "Infligge d4 danni, test Resistenza o si perdono 1 HP per d6 round."
+    },
+    "Strangler": {
+      "name": "Strangolatore",
+      "description": "Filo nascosto nel dito che infligge d6 danni a round se in presa."
+    },
+    "StyleGuard": {
+      "name": "StyleGuard",
+      "description": "Sembra proprio abbigliamento normale!"
+    },
+    "Subdermal shockers": {
+      "name": "Shockers sottocutanei",
+      "description": "d4 danni a chi ti colpisce in corpo a corpo. +2SL per evitare danni elettrici."
+    },
+    "Sunset Chalk": {
+      "name": "Gesso del tramonto",
+      "description": "Test Resistenza SL14 o non puoi compiere atti violenti (tranne autodifesa) per d10 minuti."
+    },
+    "Superglue": {
+      "name": "Supercolla"
+    },
+    "Superlube": {
+      "name": "Supersbloccante"
+    },
+    "Swarm trip": {
+      "name": "Viaggio da sciame",
+      "description": "Per 10 minuti la tua coscienza si trasferisce in uno sciame volante di batteri. Puoi vedere ma non sentire né agire. Se il tuo corpo muore o non torni in tempo, rimarrai nello sciame per sempre."
+    },
+    "Taginjector": {
+      "name": "Iniettore di tag",
+      "description": "Non fa danno ma può iniettare un tracciante o una droga/veleno."
+    },
+    "Taser": {
+      "name": "Taser",
+      "special": "test Resistenza o cadi a terra"
+    },
+    "Taurs": {
+      "name": "Tauri",
+      "description": "Corna, infliggono d4 danni."
+    },
+    "tError": {
+      "name": "tErrore",
+      "description": "L’URS della vittima crea allucinazioni personalizzate. Test Carisma SL14 o sei paralizzato per d4 round."
+    },
+    "Third eye": {
+      "name": "Terzo occhio",
+      "description": "Occhio alieno al centro della fronte.",
+      "triggered": "La vista passa al terzo occhio, rivelando spettri incomprensibili. Per d6 round: -4SL a Carisma e Conoscenza, +4SL a tutto il resto."
+    },
+    "Tiny surveillance drone": {
+      "name": "Mini drone di sorveglianza",
+      "description": "Raggio 300 m, grande come una mosca"
+    },
+    "To dust": {
+      "name": "In polvere",
+      "description": "Mezzo metro cubo di materiale inorganico si disintegra. Se è impugnato o collegato a un essere cosciente, test SL14 per attivare."
+    },
+    "Too Many Throwing Knives": {
+      "name": "Troppi coltelli da lancio",
+      "description": "Due attacchi a round"
+    },
+    "TrolleySkipper": {
+      "name": "SkippaTram",
+      "description": "I sistemi di sicurezza automatizzati fanno fatica a inseguire il bersaglio selezionato e preferiscono altri."
+    },
+    "Tubes": {
+      "name": "Tubi",
+      "description": "Capelli gommosi che si muovono controvento.",
+      "triggered": "Si attorcigliano attorno a te e a d3 bersagli vicini. +4SL a tutti i test offensivi/difensivi finché non si liberano (Forza SL12 o aiuto esterno)."
+    },
+    "Two Small SMGs": {
+      "name": "Due micro mitragliette",
+      "description": "solo fuoco automatico",
+      "special": "solo fuoco automatico"
+    },
+    "Unarmed attack": {
+      "name": "Attacco senz'armi"
+    },
+    "Visionvisor": {
+      "name": "Visore multi-visione",
+      "description": "Zoom, termico, notturna, ultrasuoni."
+    },
+    "Vurt": {
+      "name": "Vurt",
+      "description": "d6 ore di allucinazioni intense condivise. (Non esistono dosi deboli)."
+    },
+    "WEIAN-Hammer": {
+      "name": "Martello 微安",
+      "description": "I dispositivi vicini eseguono la loro funzione: porte si aprono, sprinkler si attivano, registrazioni partono. Per 5 round puoi attivare 5 dispositivi."
+    },
+    "Wire-wrapped baseball bat": {
+      "name": "Mazza da baseball con filo spinato",
+      "description": "Collegata a una batteria. Puoi sovraccaricarla per +d4 danni al bersaglio e a te stesso."
+    },
+    "Zip ties": {
+      "name": "Fascette"
+    }
+  }
+}

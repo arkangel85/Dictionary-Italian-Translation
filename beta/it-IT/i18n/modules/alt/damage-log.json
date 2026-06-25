@@ -1,0 +1,17 @@
+{
+  "damage-log": {
+    "age-of-sigmar-soulbound": {
+      "toughness-name": "Costituzione"
+    },
+    "default": {
+      "hp-name": "Punti ferita"
+    },
+    "settings": {
+      "clamp-to-max": "Limita ai PF massimi",
+      "clamp-to-max-hint": "Quando si annulla il danno o si guarisce di nuovo, i punti ferita non possono superare il massimo.",
+      "clamp-to-min": "Limita ai PF minimi",
+      "clamp-to-min-hint": "Quando si subisce di nuovo danno o si annulla la guarigione, i punti ferita non possono scendere sotto il minimo.",
+      "show-limited-info-hint": "I giocatori vedranno il danno inflitto, ma non il valore precedente o la differenza nei punti ferita."
+    }
+  }
+}

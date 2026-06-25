@@ -1,0 +1,32 @@
+{
+  "LANCERINITIATIVE": {
+    "IconSettingsMenu": "Impostazioni icone",
+    "Icon": "Icona azione",
+    "IconDesc": "Classi CSS per rappresentare l’icona di attivazione.",
+    "IconSize": "Dimensione icona",
+    "IconPreview": "Anteprima icona",
+    "PCColor": "Colore dei personaggi giocanti",
+    "PCColorDesc": "Predefinito: #44abe0",
+    "FriendlyColor": "Colore degli alleati",
+    "FriendlyColorDesc": "Predefinito: #44abe0",
+    "NeutralColor": "Colore dei neutrali",
+    "NeutralColorDesc": "Predefinito: #146464",
+    "EnemyColor": "Colore dei nemici",
+    "EnemyColorDesc": "Predefinito: #d98f30",
+    "SecretColor": "Colore nascosto",
+    "SecretColorDesc": "Predefinito: #552f8c",
+    "DoneColor": "Colore inattivi",
+    "DoneColorDesc": "Predefinito: #444444",
+    "ActivatedLast": "Token attivato in fondo",
+    "ActivatedLastDesc": "Sposta in fondo alla lista il token che ha appena concluso il turno.",
+    "SortTracker": "Ordina il tracciatore",
+    "SortTrackerDesc": "Sposta il token del turno attuale all'inizio del tracciatore e quelli che hanno già agito alla fine.",
+    "EnableInitiative": "Abilita iniziativa casuale",
+    "EnableInitiativeDesc": "Aggiunge un pulsante per tirare l'iniziativa ai combattenti controllati.",
+    "ForceDisposition": "Forza l’atteggiamento",
+    "ForceDispositionDesc": "Tutti i partecipanti al combattimento avranno un atteggiamento specifico. 'Senza atteggiamento' disattiva i colori.",
+    "AddActivation": "Aggiungi attivazione",
+    "RemoveActivation": "Rimuovi attivazione",
+    "UndoActivation": "Annulla attivazione"
+  }
+}

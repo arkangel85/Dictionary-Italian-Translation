@@ -1,0 +1,75 @@
+{
+  "label": "GPS Abilità dei Mostri",
+  "folders": {
+    "Asteroid Spider": "Ragno Asteroide",
+    "Air Elemental": "Elementale dell'Aria",
+    "Sphinx of Wonder": "Sfinge delle Meraviglie",
+    "Fire Elemental": "Elementale del Fuoco",
+    "Water Elemental": "Elementale dell’Acqua",
+    "Sahuagin": "Sahuagin",
+    "Remorhaz": "Remorhaz",
+    "Rust Monster": "Mostro Rugginoso",
+    "Ice Spider Queen": "Regina dei Ragni di Ghiaccio",
+    "Boneclaw": "Artiglio d’Ossa",
+    "Whistler": "Fischiatore",
+    "Owl": "Gufo",
+    "Mindflayer": "Divoratore di Menti",
+    "Reduced-threat Remorhaz": "Remorhaz Indebolito",
+    "Berserker": "Berserker",
+    "Young Remorhaz": "Remorhaz Giovane",
+    "Feyr": "Feyr"
+  },
+  "entries": {
+    "Blood Frenzy": {
+      "name": "Frenesia Sanguinaria"
+    },
+    "Cold Aura": {
+      "name": "Aura Gelida"
+    },
+    "Deadly Reach": {
+      "name": "Portata Mortale"
+    },
+    "Fire Form": {
+      "name": "Forma di Fuoco"
+    },
+    "Flyby": {
+      "name": "Sorvolo"
+    },
+    "Freeze": {
+      "name": "Congelare"
+    },
+    "Heated Body": {
+      "name": "Corpo Incandescente"
+    },
+    "Nightmare Fuel": {
+      "name": "Carburante da Incubo"
+    },
+    "Otherworldly Melody": {
+      "name": "Melodia Ultraterrena"
+    },
+    "Psychic Swipe": {
+      "name": "Sferzata Psichica"
+    },
+    "Reckless": {
+      "name": "Sconsiderato"
+    },
+    "Reel": {
+      "name": "Trascinamento"
+    },
+    "Rust Metal": {
+      "name": "Corrosione del Metallo"
+    },
+    "Tentacles": {
+      "name": "Tentacoli"
+    },
+    "Touch": {
+      "name": "Tocco"
+    },
+    "Web Strand": {
+      "name": "Filo di Ragnatela"
+    },
+    "Whirlwind": {
+      "name": "Turbine"
+    }
+  }
+}

@@ -1,0 +1,1275 @@
+{
+  "GAME.paused": "Tu non puoi passare!",
+  "TYPES": {
+    "Actor": {
+      "community": "Compagnia",
+      "character": "Personaggio giocante",
+      "npc": "Personaggio non giocante",
+      "lore": "Saggio",
+      "adversary": "Avversario"
+    },
+    "Item": {
+      "trait": "Tratto",
+      "fell-ability": "Abilità oscura",
+      "skill": "Abilità",
+      "armour": "Armatura",
+      "weapon": "Arma",
+      "miscellaneous": "Varie",
+      "reward": "Ricompensa",
+      "virtues": "Virtù",
+      "journey-log": "Diario di viaggio",
+      "song": "Canzone",
+      "undertaking": "Impegno",
+      "standing": "Reputazione"
+    }
+  },
+  "tor2e": {
+    "types": {
+      "distinctiveFeature": "Tratto distintivo",
+      "flaw": "Difetto",
+      "trait": "Tratto",
+      "fell-ability": "Abilità oscura",
+      "skill": "Abilità",
+      "armour": "Armatura",
+      "weapon": "Arma",
+      "miscellaneous": "Varie",
+      "reward": "Ricompensa",
+      "virtues": "Virtù",
+      "journey-log": "Diario di viaggio",
+      "swords": "Spade",
+      "axes": "Asce",
+      "brawling": "Lotta",
+      "spears": "Lance",
+      "bows": "Archi",
+      "shield": "Scudi",
+      "head": "Elmi",
+      "leather": "Cuoiame",
+      "mail": "Maglia"
+    },
+    "actors": {
+      "biography": {
+        "age": "Età",
+        "fellowshipFocus": "Vincoli",
+        "title": "Titolo",
+        "years": "anni",
+        "culture": "Cultura",
+        "standardOfLiving": "Stile di vita",
+        "culturalBlessing": "Dono culturale",
+        "calling": "Vocazione",
+        "shadowPath": "Sentiero dell’Ombra"
+      },
+      "sections": {
+        "biography": "Biografia",
+        "traits": "Tratti",
+        "effects": "Effetti",
+        "attributes": "Attributi",
+        "skillGroups": "Categorie di abilità",
+        "combatProficiencies": "Competenze marziali",
+        "commonSkills": "Abilità comuni",
+        "weaponSkills": "Abilità marziali",
+        "rewards": "Ricompense",
+        "virtues": "Virtù",
+        "war-gear": "Equipaggiamento da guerra",
+        "equipment-gear": "Equipaggiamento da viaggio",
+        "resources": "Risorse",
+        "combat": "Combattimento",
+        "fellowship": "Compagnia",
+        "skillPoints": "Punti abilità",
+        "reputationPoints": "Punti reputazione",
+        "heroicStature": "Statuto eroico",
+        "treasure": "Tesoro",
+        "background": "Origine",
+        "company": "Compagnia",
+        "fellowshipPhase": "Fase di compagnia",
+        "members": "Membri",
+        "available-members": "Membri disponibili",
+        "patrons": "Protettori",
+        "name": "Nome",
+        "location": "Posizione",
+        "connections": "Contatti",
+        "travel": "Viaggio",
+        "taleOfYears": "Cronache degli anni",
+        "songs": "Canzoni",
+        "undertakings": "Impegni",
+        "standings": "Reputazioni",
+        "notes": "Note",
+        "rating": "Livello",
+        "journey-log": "Diario di viaggio",
+        "occupation": "Professione"
+      },
+      "details": {
+        "tech": {
+          "alt": "Immagine personaggio"
+        }
+      },
+      "fellAbilities": {
+        "title": "Abilità oscure"
+      },
+      "traits": {
+        "distinctiveFeatures": "Tratti distintivi",
+        "flaws": "Difetti"
+      },
+      "combatSkills": {
+        "title": "Abilità marziali"
+      },
+      "skills": {
+        "title": "Abilità",
+        "commonSkills": "Abilità comuni",
+        "combatSkills": "Abilità marziali",
+        "relevantSkills": "Abilità rilevanti",
+        "favoured": "(favor.)"
+      },
+      "types": {
+        "community": {
+          "title": "Compagnia"
+        },
+        "lore": {
+          "title": "Conoscenza"
+        },
+        "npc": {
+          "title": "PNG"
+        },
+        "adversary": {
+          "title": "Avversario"
+        },
+        "character": {
+          "title": "Personaggio"
+        }
+      },
+      "faction": {
+        "hostile": "Nemico",
+        "friendly": "Alleato"
+      },
+      "stats": {
+        "attributeLevel": "Livello",
+        "damage": {
+          "closedCombat": "Danno in mischia",
+          "rangedCombat": "Danno a distanza"
+        },
+        "hate": "Odio",
+        "might": "Potenza",
+        "parry": "Parata",
+        "noShield": "senza scudo",
+        "noHeadgear": "senza elmo",
+        "noArmour": "senza armatura",
+        "armour": "Armatura",
+        "endurance": "Resistenza",
+        "load": "Carico",
+        "hope": "Speranza",
+        "maxHope": "Speranza max",
+        "maxEndurance": "Resistenza max",
+        "rating": "Base",
+        "travelLoad": "Affaticamento",
+        "shadow": "Ombra",
+        "temporary": "Temporanea",
+        "shadowScars": "Cicatrici dell’Ombra",
+        "canBeAPatron": "Può essere un patrono?",
+        "initial": "Iniziale",
+        "fellowshipPoints": "Punti compagnia",
+        "eyeAwareness": "Consapevolezza dell'Occhio",
+        "current": "Attuale",
+        "faction": "Fazione",
+        "health": "Salute",
+        "state": "Stato",
+        "rest": "Riposo",
+        "max": "Massimo",
+        "min": "Minimo",
+        "bonus": {
+          "combat": {
+            "injury": "Ferita da arma",
+            "piercingBlow": "Colpo penetrante",
+            "heavyBlow": "Danno da colpo potente",
+            "pierce": "Penetrazione"
+          },
+          "defense": {
+            "protection": "Protezione",
+            "shieldParry": "Bonus parata"
+          },
+          "stats": {
+            "load": "Bonus carico"
+          },
+          "tn": {
+            "strength": "TN Forza",
+            "heart": "TN Cuore",
+            "wits": "TN Arguzia"
+          }
+        }
+      },
+      "stateOfHealth": {
+        "weary": "Affaticato",
+        "poisoned": "Avvelenato",
+        "miserable": "Abbattuto",
+        "wounded": "Ferito",
+        "temporary": "Temporaneo"
+      },
+      "combatAttributes": {
+        "damage": "Danno",
+        "ranged": "Attacco a distanza",
+        "parry": "Parata",
+        "shield": "Scudo",
+        "armour": "Armatura",
+        "headGear": "Elmo"
+      },
+      "chat": {
+        "warn": {
+          "title": "Avviso",
+          "hint": "Fai clic con il tasto destro per aprire il menu e applicare le modifiche.",
+          "weary": "<strong>{name}</strong> dovrebbe essere <strong>affaticato</strong>.",
+          "miserable": "<strong>{name}</strong> dovrebbe essere <strong>abbattuto</strong>.",
+          "wearyAndMiserable": "<strong>{name}</strong> dovrebbe essere <strong>affaticato</strong> e <strong>abbattuto</strong>."
+        },
+        "result": {
+          "title": "Risultato",
+          "weary": "<strong>{name}</strong> diventa <strong>affaticato</strong>.",
+          "miserable": "<strong>{name}</strong> diventa <strong>abbattuto</strong>.",
+          "wearyAndMiserable": "<strong>{name}</strong> diventa <strong>affaticato</strong> e <strong>abbattuto</strong>."
+        }
+      },
+      "community": {
+        "messages": {
+          "setDefaultActorManually": "Hai selezionato la Compagnia '{name}' come principale per questo mondo.",
+          "setDefaultActorAutomatically": "La Compagnia '{name}' è stata selezionata automaticamente come principale in questo mondo.",
+          "displayDefaultActor": "La Compagnia principale è '{name}'.",
+          "warnNoCommunityActor": "In questo mondo non è presente alcuna Compagnia, e alcune funzionalità non saranno disponibili finché non ne creerai una.",
+          "warnTooManyCommunityActors": "Ci sono più Compagnie in questo mondo ({size}). Il sistema non può determinare quale sia quella giusta. Selezionala manualmente nella scheda della Compagnia.",
+          "selectPlayer": "Seleziona interprete",
+          "select-a-player": "Seleziona un giocatore"
+        },
+        "title": "Compagnia",
+        "song": {
+          "title": "Canzone",
+          "used": "Usata",
+          "name": "Nome",
+          "type": "Tipo"
+        },
+        "undertakings": {
+          "active": "Attivo",
+          "type": "Tipo",
+          "season": "Stagione",
+          "location": "Luogo",
+          "name": "Nome",
+          "yule": "Yule",
+          "free": "Libero",
+          "calling": "Vocazione",
+          "enrichUndertakingAndCreate": "Crea impegno"
+        },
+        "journey-log": {
+          "year": "Anno",
+          "season": "Stagione",
+          "from": "Partenza",
+          "to": "Destinazione",
+          "duration": "Giorni in viaggio"
+        },
+        "make-default": {
+          "title": "Imposta come predefinito",
+          "description": "Due personaggi sono legati tra loro",
+          "label": "per impostare questa come Compagnia predefinita."
+        }
+      },
+      "character": {
+        "standings": {
+          "folk": "Popolo",
+          "rating": "Fama",
+          "location": "Luogo",
+          "reputation": "Reputazione"
+        }
+      }
+    },
+    "travel": {
+      "roles": {
+        "guide": {
+          "label": "Guida",
+          "skill": "viaggio"
+        },
+        "scouts": {
+          "label": "Esploratore",
+          "skill": "ricognizione"
+        },
+        "hunters": {
+          "label": "Cacciatore",
+          "skill": "caccia"
+        },
+        "lookouts": {
+          "label": "Sentinella",
+          "skill": "vigilanza"
+        }
+      }
+    },
+    "common": {
+      "type": "Tipo",
+      "group": "Gruppo",
+      "name": "Nome",
+      "description": "Descrizione",
+      "usage": "Utilizzo"
+    },
+    "items": {
+      "common": {
+        "load": "Carico",
+        "equipped": "Equipaggiato",
+        "dropped": "Caduto"
+      },
+      "shields": {
+        "none": "Nessuno",
+        "buckler": "Brocchiere",
+        "shield": "Scudo",
+        "greatShield": "Scudo grande"
+      },
+      "armours": {
+        "title": "Armatura",
+        "armour": "Armatura",
+        "protection": "Protezione",
+        "group": "Tipo",
+        "protection-roll": "Tiro di protezione",
+        "tech": {
+          "title": "Immagine di sfondo che rappresenta l'armatura.",
+          "alt": "Immagine dell'armatura"
+        }
+      },
+      "miscellaneous": {
+        "title": "Varie",
+        "equipment": "Equipaggiamento",
+        "tech": {
+          "title": "Immagine di sfondo che rappresenta vari oggetti.",
+          "alt": "Immagine di oggetti vari"
+        }
+      },
+      "traits": {
+        "title": "Tratto",
+        "tech": {
+          "title": "Immagine di sfondo che rappresenta un tratto.",
+          "alt": "Immagine del tratto"
+        }
+      },
+      "standings": {
+        "title": "Condizione",
+        "tech": {
+          "title": "Immagine di sfondo dell'oggetto Condizione.",
+          "alt": "Immagine rappresentante la Condizione."
+        }
+      },
+      "undertakings": {
+        "title": "Impresa",
+        "tech": {
+          "title": "Immagine di sfondo dell'oggetto Impresa.",
+          "alt": "Immagine rappresentante l'Impresa."
+        },
+        "messages": {
+          "create": "Crea un'impresa",
+          "cancel": "Annulla la creazione"
+        },
+        "roll-dialog": {
+          "title": "Arricchisci la tua impresa"
+        }
+      },
+      "songs": {
+        "title": "Canzone",
+        "chat": {
+          "character": "Personaggio",
+          "song": "Canzone",
+          "song-type": "Tipo di canzone",
+          "successMessage": "La canzone è stata suonata con successo e <b>{name}</b> ignora gli effetti dell'Essere <b>Affaticato</b> per la durata dell'impresa eroica."
+        },
+        "event": {
+          "title": "Evento di Tiro",
+          "description": "Alcuni tiri di dado su una canzone."
+        },
+        "roll-dialog": {
+          "title": "Seleziona il cantore"
+        },
+        "tech": {
+          "title": "Immagine di sfondo dell'oggetto Canzone che rappresenta alcune note musicali.",
+          "alt": "Immagine rappresentante l'oggetto Canzone."
+        }
+      },
+      "special-abilities": {
+        "title": "Abilità speciale",
+        "tech": {
+          "title": "Immagine di sfondo che rappresenta un'abilità speciale.",
+          "alt": "Immagine dell'abilità speciale"
+        }
+      },
+      "journey-log": {
+        "roll-dialog": {
+          "title": "Seleziona tipo di regione"
+        },
+        "chat": {
+          "region-type": "Tipo di regione:",
+          "event-type": "Tipo di evento:",
+          "target": "Bersaglio:"
+        },
+        "title": "Diario di viaggio",
+        "company": "Compagnia",
+        "mounts": "Cavalcature",
+        "journal": "Diario",
+        "journey-path": "Percorso del viaggio",
+        "events": {
+          "title": "Tiro evento",
+          "name": "Eventi"
+        },
+        "event": {
+          "name": "Evento",
+          "result": "Risultato",
+          "target": "Bersaglio",
+          "region": "Regione",
+          "description": "I dadi rotolano lungo il percorso del viaggio"
+        },
+        "region-types": {
+          "border-land": "Terre di confine",
+          "wild-land": "Terre selvagge",
+          "dark-land": "Terre oscure"
+        },
+        "attributes": {
+          "name": "Nome",
+          "role": "Ruolo",
+          "vigour": "Vigore",
+          "": "Affaticamento da viaggio",
+          "travel-fatigue": "Affaticamento da viaggio"
+        },
+        "actions": {
+          "import": {
+            "title": "Importa dati da attore Compagnia (Alt+CL). Attenzione: gli oggetti della Compagnia non saranno inclusi."
+          },
+          "add-member": {
+            "title": "Aggiungi personaggio alla Compagnia (Alt+CL)."
+          },
+          "delete-member": {
+            "title": "Rimuovi personaggio dalla Compagnia (Alt+CL)."
+          },
+          "add-mount": {
+            "title": "Aggiungi cavalcatura alla Compagnia (Alt+CL)."
+          },
+          "delete-mount": {
+            "title": "Rimuovi cavalcatura dalla Compagnia (Alt+CL)."
+          },
+          "add-event": {
+            "title": "Aggiungi evento alla Compagnia (Alt+CL)."
+          },
+          "add-event-with-roll": {
+            "title": "Aggiungi evento al diario con tiro automatico (Alt+CL)."
+          },
+          "delete-event": {
+            "title": "Elimina evento (ALT+CL)."
+          },
+          "re-roll-event": {
+            "title": "Ritira l'evento e sostituisci il risultato precedente (Alt+CL)."
+          }
+        },
+        "tech": {
+          "title": "Immagine di sfondo del Diario di Viaggio che rappresenta un percorso.",
+          "alt": "Immagine per il Diario di Viaggio"
+        }
+      },
+      "fellowship": {
+        "title": "Compagnia",
+        "tech": {
+          "title": "Immagine di sfondo che rappresenta la Compagnia.",
+          "alt": "Immagine della Compagnia"
+        }
+      },
+      "skills": {
+        "title": "Abilità",
+        "tech": {
+          "title": "Immagine di sfondo che rappresenta un'abilità.",
+          "alt": "Immagine dell'abilità"
+        }
+      },
+      "virtues": {
+        "title": "Virtù",
+        "tech": {
+          "title": "Immagine di sfondo che rappresenta una virtù.",
+          "alt": "Immagine della virtù"
+        }
+      },
+      "rewards": {
+        "title": "Ricompensa",
+        "tech": {
+          "title": "Immagine di sfondo che rappresenta una ricompensa.",
+          "alt": "Immagine della ricompensa"
+        }
+      },
+      "weapons": {
+        "title": "Arma",
+        "tech": {
+          "title": "Immagine di sfondo che rappresenta un'arma.",
+          "alt": "Immagine dell'arma"
+        }
+      }
+    },
+    "skills": {
+      "groups": {
+        "personality": "Personalità",
+        "movement": "Movimento",
+        "perception": "Percezione",
+        "survival": "Sopravvivenza",
+        "custom": "Personalizzato",
+        "vocation": "Vocazione",
+        "combat": "Combattimento"
+      },
+      "details": {
+        "skillGroup": "Categoria abilità",
+        "associatedStat": "Caratteristica associata",
+        "tech": {
+          "alt": "Immagine dell'abilità"
+        }
+      }
+    },
+    "traits": {
+      "groups": {
+        "distinctiveFeature": "Caratteristica distintiva",
+        "flaw": "Difetto"
+      },
+      "details": {
+        "traitGroup": "Categoria tratto",
+        "tech": {
+          "alt": "Immagine del tratto"
+        }
+      }
+    },
+    "standings": {
+      "folk": "Popolo",
+      "rating": "Valutazione",
+      "location": "Luogo",
+      "reputation": "Reputazione"
+    },
+    "undertakings": {
+      "active": "Attiva",
+      "name": "Nome",
+      "year": "Anno",
+      "season": "Stagione",
+      "location": "Luogo",
+      "canBeFree": "Può essere libera",
+      "canBeYule": "Solo Yule",
+      "yule": "Yule",
+      "free": "Libera",
+      "calling": "Vocazione"
+    },
+    "songs": {
+      "details": {
+        "songGroup": "Tipo di canzone"
+      },
+      "groups": {
+        "combat": "Canto della Vittoria",
+        "council": "Lamento",
+        "journey": "Canto del Cammino"
+      }
+    },
+    "reward": {
+      "groups": {
+        "cultural": "Ricompensa culturale",
+        "qualities": "Proprietà"
+      },
+      "details": {
+        "type": "Tipo di ricompensa",
+        "tech": {
+          "alt": "Immagine della ricompensa"
+        }
+      }
+    },
+    "virtues": {
+      "groups": {
+        "cultural": "Virtù culturali",
+        "masteries": "Virtù innata"
+      },
+      "details": {
+        "type": "Tipo di virtù",
+        "tech": {
+          "alt": "Immagine della virtù"
+        }
+      }
+    },
+    "specialAbilities": {
+      "groups": {
+        "hate": "Odio",
+        "virtues": "Virtù",
+        "valour": "Valore"
+      },
+      "details": {
+        "specialAbilityGroup": "Categoria abilità speciale",
+        "active": "Attiva",
+        "cost": "Costo",
+        "tech": {
+          "alt": "Immagine dell'abilità speciale"
+        }
+      }
+    },
+    "fellAbilities": {
+      "groups": {
+        "hate": "Odio"
+      },
+      "details": {
+        "fellAbilityGroup": "Categoria malvagità",
+        "active": "Attiva",
+        "cost": "Costo",
+        "tech": {
+          "alt": "Immagine della malvagità"
+        }
+      }
+    },
+    "weapons": {
+      "groups": {
+        "none": "-",
+        "brawling": "Lotta",
+        "swords": "Spade",
+        "axes": "Asce",
+        "bows": "Archi",
+        "spears": "Lance",
+        "bestial": "Bestiale"
+      },
+      "details": {
+        "weapon": "Arma",
+        "damage": "Danno",
+        "edge": "Difficoltà",
+        "injury": "Ferita",
+        "extendedWeaponSelectionHint": "(opzionale per armi speciali dei giocatori)",
+        "type": "Tipo",
+        "group": "Categoria",
+        "ranks": "Gradi",
+        "notes": "Note",
+        "skill-name": "Abilità",
+        "ranged": "A distanza",
+        "actions": "Azioni",
+        "twoHandWeapon": "A due mani",
+        "short": "Corta distanza",
+        "medium": "Media distanza",
+        "long": "Lunga distanza",
+        "description": "Descrizione",
+        "tech": {
+          "alt": "Immagine dell'arma",
+          "title": "Immagine di sfondo che rappresenta l’icona delle proprietà dell’arma.",
+          "caption": "Qualità"
+        }
+      }
+    },
+    "callings": {
+      "groups": {
+        "captain": "Comandante",
+        "scholar": "Studioso",
+        "champion": "Campione",
+        "treasure-hunter": "Cercatore di tesori",
+        "messenger": "Messaggero",
+        "warden": "Custode"
+      }
+    },
+    "armour": {
+      "title": {
+        "group": "Categoria dell’armatura"
+      },
+      "groups": {
+        "leather": "Armatura di cuoio",
+        "mail": "Cotta di maglia",
+        "head": "Elmo",
+        "shield": "Scudo"
+      }
+    },
+    "stats": {
+      "strength": "Forza",
+      "heart": "Carattere",
+      "wits": "Astuzia",
+      "favoured": "favorito"
+    },
+    "statureStats": {
+      "adventurePoints": "Punti Avventura",
+      "total": "totale",
+      "valour": "Valore",
+      "wisdom": "Saggezza"
+    },
+    "commonSkills": {
+      "awe": "Impressione",
+      "enhearten": "Incoraggiamento",
+      "persuade": "Persuasione",
+      "athletics": "Atletica",
+      "travel": "Viaggio",
+      "stealth": "Furtività",
+      "awareness": "Allerta",
+      "insight": "Intuito",
+      "scan": "Osservazione",
+      "explore": "Esplorazione",
+      "healing": "Guarigione",
+      "hunting": "Caccia",
+      "song": "Canto",
+      "courtesy": "Etichetta",
+      "riddle": "Enigma",
+      "craft": "Artigianato",
+      "battle": "Battaglia",
+      "lore": "Conoscenza"
+    },
+    "combatProficiencies": {
+      "brawling": "Lotta",
+      "axes": "Asce",
+      "swords": "Spade",
+      "spears": "Lance",
+      "bows": "Archi"
+    },
+    "standardOfLivingGroups": {
+      "poor": "Povero",
+      "frugal": "Frugale",
+      "common": "Comune",
+      "prosperous": "Prospero",
+      "rich": "Ricco",
+      "veryRich": "Lussuoso"
+    },
+    "skillGroups": {
+      "personality": "Personalità",
+      "movement": "Movimento",
+      "perception": "Percezione",
+      "survival": "Sopravvivenza",
+      "custom": "Personalizzato",
+      "vocation": "Vocazione",
+      "combat": "Combattimento"
+    },
+    "sheet": {
+      "actions": {
+        "rest": {
+          "dialog-box": {
+            "title": "Recupera punti Speranza dal Compagnia",
+            "community-point-label": "Punti Compagnia disponibili",
+            "required-hope-points": "Quanti punti vuoi recuperare?",
+            "actor-hope-points": "Punti Speranza (attuali/massimi):",
+            "submit-button": "Recupera",
+            "cancel-button": "Annulla",
+            "warn": {
+              "one-community_actor_expected": "Può esistere solo un attore di tipo Compagnia nel gioco!",
+              "not-enough-hope-points-available": "Non hai abbastanza Speranza disponibile (necessari: {required}, disponibili: {available})",
+              "too-many-hope-points-required": "Richiesti troppi punti Speranza (totale: {target}, massimo: {max})"
+            }
+          },
+          "short": {
+            "label": "Breve",
+            "noRestoredMessage": "{name} <b>non ha recuperato</b> vigore dopo un breve riposo ({name} è <b>completamente sano</b>).",
+            "restoredMessage": "{name} <b>ha recuperato {amount} vigore</b> dopo un breve riposo (vigore di {name} <b>è {endurance}</b>)",
+            "woundedRestoredMessage": "{name} <b>non ha recuperato</b> vigore dopo un breve riposo ({name} è <b>ferito</b>).",
+            "description": "clicca per recuperare vigore dopo un breve riposo (un'ora)",
+            "title": "Riposo breve"
+          },
+          "prolonged": {
+            "label": "Lungo",
+            "noRestoredMessage": "{name} <b>non ha recuperato</b> vigore dopo un lungo riposo ({name} è <b>completamente sano</b>).",
+            "restoredMessage": "{name} <b>ha recuperato completamente il vigore</b> dopo un lungo riposo ({name} è <b>completamente sano</b>).",
+            "woundedRestoredMessage": "{name} <b>ha recuperato {amount} vigore</b> dopo un lungo riposo, ma è ferito (vigore di {name} <b>è {endurance}</b>).",
+            "description": "clicca per recuperare vigore dopo un lungo riposo (una notte)",
+            "title": "Riposo lungo"
+          }
+        },
+        "roll": {
+          "hope": "Spendi un punto Speranza per aggiungere",
+          "lore": "Prova di Conoscenza",
+          "fatigue": "Prova di Affaticamento",
+          "skill": "tiro"
+        },
+        "toggle": {
+          "favoured": "Premi Alt+CL per selezionare un'abilità favorita",
+          "add-remove-skill": "Premi Alt+CL per aumentare il livello dell'abilità e Shift+Alt+CL per diminuirlo."
+        }
+      },
+      "journey-log": {
+        "delete": "[ALT+Click] Elimina Diario di Viaggio",
+        "edit": "Modifica Diario di Viaggio"
+      },
+      "standing": {
+        "delete": "[ALT+Click] Elimina Condizione",
+        "edit": "Modifica Condizione"
+      },
+      "undertaking": {
+        "delete": "[ALT+Click] Elimina Impresa",
+        "edit": "Modifica Impresa",
+        "toggle": "Attiva/Disattiva stato impresa",
+        "yule": "Yule o meno",
+        "free": "Gratuita o meno"
+      },
+      "song": {
+        "used-or-not": "Usata o no",
+        "play": "Usa questa canzone",
+        "toggle": "Attiva/Disattiva stato canzone usata",
+        "delete": "[ALT+Click] Elimina Canzone",
+        "edit": "Modifica Canzone"
+      },
+      "skill": {
+        "delete": "[ALT+Click] Elimina Oggetto",
+        "edit": "Modifica Oggetto",
+        "roll": "Tiro Oggetto",
+        "chat": "Invia in chat"
+      }
+    },
+    "roll": {
+      "warn": {
+        "noSkillFound": "Abilità {skillName} non trovata per l’attore {actorName}",
+        "clickOnWeaponInstead": "Clicca sull'arma per usarla, non sull'abilità di combattimento.",
+        "impossibleToFavouredAWeapon": "Impossibile selezionare un’arma favorita per questo personaggio."
+      },
+      "skill": "Clicca CL per effettuare una prova di abilità",
+      "difficulty": "Difficoltà",
+      "target": "Obiettivo",
+      "result": {
+        "success": "Successo",
+        "great-success": "Grande successo",
+        "extraordinary-success": "Successo straordinario",
+        "automatic-success": "Successo automatico",
+        "failure": "Fallimento",
+        "hidden": "Nascosto",
+        "automatic-failure": "Fallimento automatico"
+      },
+      "details": {
+        "tech": {
+          "title": "Controllo compito"
+        }
+      },
+      "special-success": {
+        "title": "Utilizzo successi speciali",
+        "label": "Numero di successi speciali",
+        "actions": {
+          "submit": "Conferma",
+          "cancel": "Annulla"
+        },
+        "tech": {
+          "title": "Controllo compito con tengwar"
+        }
+      }
+    },
+    "dice": {
+      "tengwar": "Rune tengwar",
+      "gandalf": "Runa di Gandalf",
+      "sauron": "Occhio di Sauron",
+      "standard": {
+        "label": "Successo",
+        "1": "dado normale 1",
+        "2": "dado normale 2",
+        "3": "dado normale 3",
+        "4": "dado normale 4",
+        "5": "dado normale 5",
+        "6": "dado normale con tengwar 6"
+      },
+      "weary": {
+        "label": "Successo con affaticamento",
+        "1": "dado affaticato 1",
+        "2": "dado affaticato 2",
+        "3": "dado affaticato 3",
+        "4": "dado affaticato 4",
+        "5": "dado affaticato 5",
+        "6": "dado affaticato con tengwar 6"
+      },
+      "feat": {
+        "label": "Impresa",
+        "description": "Dado impresa D12",
+        "1": "dado impresa 1",
+        "2": "dado impresa 2",
+        "3": "dado impresa 3",
+        "4": "dado impresa 4",
+        "5": "dado impresa 5",
+        "6": "dado impresa 6",
+        "7": "dado impresa 7",
+        "8": "dado impresa 8",
+        "9": "dado impresa 9",
+        "10": "dado impresa 10",
+        "11": "dado con Occhio di Sauron 11",
+        "12": "dado con Runa di Gandalf 12"
+      }
+    },
+    "popup": {
+      "actions": {
+        "save": "Salva",
+        "cancel": "Annulla"
+      },
+      "taskCheck": {
+        "armour": {},
+        "title": "Modifica {type}"
+      }
+    },
+    "chat": {
+      "actions": {
+        "roll": "Tiro",
+        "roll-result": "Risultato",
+        "test": "Prova",
+        "save": "Salva",
+        "cancel": "Annulla",
+        "hidden": "azione nascosta"
+      },
+      "taskCheck": {
+        "options": {
+          "roll-characteristics": {
+            "title": "Prova delle Caratteristiche",
+            "is-weary": "affaticato",
+            "is-miserable": "avvilito",
+            "is-inspired": "ispirato",
+            "is-favoured": "favorito",
+            "is-ill-favoured": "sfavorito"
+          },
+          "roll-combat": {
+            "title": "Informazioni di Combattimento",
+            "pc-stance": "in posizione {stance}",
+            "adv-stance": "contro posizione {stance}",
+            "engagement": "In combattimento con {number} nemici"
+          },
+          "roll-formula": "Formula di tiro",
+          "difficulty": "Difficoltà",
+          "tn": "SL",
+          "feat-die-value": "Valore del dado impresa",
+          "feat-dice": "Dado impresa",
+          "bonus-success-dice": "Dado bonus",
+          "bonus-penalty-dice": "Mod. dado",
+          "extended-penalty-dice": {
+            "label": "Valore bonus / penalità",
+            "hint": "inserire valore negativo per penalità o positivo per bonus"
+          },
+          "hope-point-bonus-dice": "Bonus da Speranza",
+          "inspired": "Ispirato",
+          "mastery-dice": "Dado maestria",
+          "favoured-ill-favoured": "Favorito / Sfavorito",
+          "bonus-penalty": "Bonus / Penalità",
+          "support-die": "Supporto compagno",
+          "advanced": "Avanzato",
+          "hope": "Speranza",
+          "worst": "peggiore",
+          "best": "migliore",
+          "health-impacts": "Impatto sulla salute",
+          "weary-not-weary": "Controllo affaticamento?",
+          "miserable-not-miserable": "Controllo avvilimento?",
+          "weary": "affaticato",
+          "result-modifier": "Mod. risultato",
+          "modifier": "Modificatore",
+          "not-weary": "non affaticato",
+          "miserable": "avvilito",
+          "not-miserable": "non avvilito"
+        },
+        "title": "Tiro {type}"
+      },
+      "error": {
+        "actorNotFound": "Attore non trovato con actorID: {actorId} e tokenId: {tokenId}"
+      },
+      "warn": {
+        "characterHasNotBeenUsedToCreateTheAction": "L'azione su cui vuoi spendere Speranza non è stata creata da questo personaggio, ma da {actorName}!"
+      }
+    },
+    "rolls": {
+      "protection": "Protezione",
+      "fear": "Paura",
+      "corruption": "Corruzione"
+    },
+    "combat": {
+      "error": {
+        "unableToRerollPrepBattle": "impossibile ripetere il tiro di preparazione alla battaglia perché il token {token} è di tipo {type} e non è un personaggio",
+        "itemNotFound": "Questo attore non possiede l'oggetto richiesto (nome: {name}, tipo: {type})",
+        "noActorAttachedToToken": "Impossibile aggiungere il token \"{name}\" al combattimento perché non è collegato ad alcun attore."
+      },
+      "warn": {
+        "noTokenSelectedToChangeStance": "Devi selezionare un token per cambiare la sua posizione.",
+        "tokenIsNotInCombat": "Il token selezionato non è in combattimento.",
+        "combatantIsNotACharacter": "Il token selezionato non è un personaggio.",
+        "invalidNewStance": "La nuova posizione selezionata non è valida.",
+        "noActorFound": "Nessun attore trovato con nome {name}",
+        "combatantNotInCombat": "Il token ({name}) che vuoi ingaggiare non fa parte del combattimento attivo o è fuori dal combattimento.",
+        "combatantDoesntExistInCombat": "L'attore con id ({id}) non è un partecipante al combattimento attivo.",
+        "noSkillNameAvailableWithExtendedWeaponSelection": "Il personaggio {actorName} non ha competenza ({name}) o abilità ({name}) in combattimento.",
+        "noSkillNameFoundWithExtendedWeaponSelection": "Il personaggio {actorName} non ha né competenza ({name}) né abilità ({name}) in combattimento.",
+        "noCombatProficiencyFound": "Il personaggio {actorName} non possiede la competenza ({name}). Aggiungi una competenza o usa un'abilità estesa.",
+        "incompleteItem": "{element} mancante per l’oggetto ({item}). È necessario selezionare {element}.",
+        "noValidTarget": "Per attaccare devi selezionare un solo token.",
+        "noValidCombatTarget": "Devi selezionare un token che partecipi al combattimento.",
+        "noValidWeaponEquipped": "Non hai un'arma equipaggiata adatta per usare l'abilità ({skill}).",
+        "tnIsWeird": "Il SL ha un valore non valido. Forse non hai impostato il valore di parata del nemico ({foeName}).",
+        "noTokenSelectedForEngagement": "Devi selezionare più token da far combattere tra loro.",
+        "numberOfTengwarNotCorrect": "Qualcosa è andato storto. Il numero di tengwar ({tengwar}) è 0 o inferiore! Non dovrebbe succedere.",
+        "impossibleForMonoFaction": "Devi selezionare almeno un token per ciascuna fazione.",
+        "impossibleForComplexEngagement": "Devi selezionare un solo token per ciascuna delle due fazioni, non più per entrambe."
+      },
+      "actions": {
+        "applyDamage": "Infliggi danno",
+        "applyWeary": "Applica stato Affaticato",
+        "applyWounded": "Applica stato Ferito",
+        "applyAll": "Infliggi danno e stati",
+        "applyAllStates": "Applica Affaticato, Ferito e Fuori Combattimento",
+        "applyOutOfCombat": "Segna Fuori Combattimento",
+        "applyWearyState": "Applica Affaticato",
+        "applyMiserableState": "Applica Avvilito",
+        "applyWearyAndMiserableState": "Applica Affaticato e Avvilito"
+      },
+      "special-success-action": {
+        "dagger-only": {
+          "title": "Solo Pugnale",
+          "label": "Solo Pugnale",
+          "description": "L'attaccante può usare solo un pugnale per attivare questo effetto."
+        },
+        "heavy-blow": {
+          "title": "Colpo Possente",
+          "alt": "La spada infligge un colpo possente",
+          "label": "Colpo Possente",
+          "description": "Aggiunge {amount} al danno."
+        },
+        "fend-off": {
+          "title": "Parata",
+          "alt": "Il personaggio schiva il colpo",
+          "label": "Parata",
+          "description": "Aggiunge +{amount} alla Parata contro il prossimo attacco."
+        },
+        "piercing-blow": {
+          "title": "Colpo Perforante",
+          "alt": "La lancia infligge un colpo perforante",
+          "label": "Colpo Perforante",
+          "description": "Aggiunge {amount} al dado impresa (SL: {edge}). {extra_desc}"
+        },
+        "gain-ground": {
+          "title": "Guadagna Terreno",
+          "alt": "Un colpo per ottenere posizione vantaggiosa",
+          "label": "Guadagna Terreno",
+          "description": "Tiro per ottenere un vantaggio di posizione."
+        },
+        "shield-thrust": {
+          "title": "Colpo di Scudo",
+          "alt": "Un potente colpo di scudo colpisce il bersaglio.",
+          "label": "Colpo di Scudo",
+          "description": "Spinge via invece di infliggere danno."
+        },
+        "seize": {
+          "title": "Afferra",
+          "alt": "Presa salda sull'avversario.",
+          "label": "Afferra",
+          "description": "L’attaccante afferra il bersaglio."
+        },
+        "break-shield": {
+          "title": "Scudo Infranto",
+          "alt": "Lo scudo si rompe in pezzi.",
+          "label": "Scudo Infranto",
+          "description": "L'attaccante distrugge lo scudo."
+        },
+        "none-custom": {
+          "title": "Nessuno/Personalizzato",
+          "alt": "Simbolo di annullamento",
+          "label": "Nessuno/Personalizzato",
+          "description": "Regole della casa"
+        }
+      },
+      "dicePool": {
+        "label": "Numero di dadi con successo"
+      },
+      "step": {
+        "initiative": {
+          "attack": {
+            "label": "Attacco",
+            "title": "Gruppo in posizione offensiva."
+          },
+          "defense": {
+            "label": "Difesa",
+            "title": "Gruppo in posizione difensiva."
+          },
+          "toggle": {
+            "title": "Alterna tra attacco e difesa."
+          }
+        },
+        "preparation": {
+          "label": "Preparazione",
+          "roll": {
+            "reroll": "Ripeti preparazione alla battaglia",
+            "label": "Preparazione alla battaglia",
+            "title": "Prova di preparazione alla battaglia"
+          }
+        },
+        "openingVolley": {
+          "label": "Volée Iniziale",
+          "roll": {
+            "label": "Volée Iniziale",
+            "title": "Prova della volée iniziale"
+          }
+        },
+        "closeCombat": {
+          "engagement": "Ingaggia Combattimento",
+          "label": "Combattimento Corpo a Corpo"
+        },
+        "default": {
+          "label": "Fase sconosciuta del combattimento"
+        }
+      },
+      "stance": {
+        "forward": {
+          "label": "All'attacco"
+        },
+        "open": {
+          "label": "Posizione Aperta"
+        },
+        "defensive": {
+          "label": "Posizione Difensiva"
+        },
+        "rearward": {
+          "label": "Retroguardia"
+        },
+        "skirmish": {
+          "label": "Mischia"
+        },
+        "default": {
+          "label": "Posizione sconosciuta"
+        }
+      },
+      "chat": {
+        "warn": {
+          "impossibleToRollInjury": "Impossibile eseguire il tiro per la tabella ferite."
+        },
+        "preparation-roll": {
+          "title": "Risultato Preparazione alla Battaglia",
+          "message": " ottiene <span class='key-point'>{successDiceBonus} dadi bonus</span> per questo combattimento."
+        },
+        "result": {
+          "title": "Risultato Attacco",
+          "help": "Fai clic destro per aprire il menu.",
+          "paragraph": "<span class='actor-name'>{attackerName}</span> attacca <span class='actor-name'>{targetName}</span> usando {weaponName} e infligge <a class='apply-damage-element' title='{hint}'>{totalDamage} danni<i class='fas fa-external-link-alt'></i></a>",
+          "specialResult": " con <a class='apply-special-result' title='{hint}'>{quantity} successi speciali<i class='fas fa-external-link-alt'></i></a> (<img src='systems/tor2e/assets/images/tengwar.png' data-edit='img' title='tengwar' height='15' width='15' alt='tengwar'/>)"
+        },
+        "details": {
+          "attackerRoll": "Tiro dell'attaccante:",
+          "successLevel": "Livello di Successo:",
+          "specialDamage": "Danno Speciale:",
+          "damage": {
+            "title": "Danno:",
+            "weapon": "[Arma ({weaponDamage})",
+            "bonus": " + Bonus del risultato ({bonusDamage})"
+          }
+        },
+        "piercing": {
+          "title": "Colpo Perforante",
+          "description": "<span class='actor-name'>{targetName}</span> deve effettuare <a class='button-protection-roll' data-tn-test={weaponInjuryValue}>una prova di protezione <i class='fas fa-dice'></i></a> con SL {weaponInjuryValue} (attacco contro {edge})."
+        },
+        "injuryRoll": {
+          "title": "Prova di Ferita",
+          "description": "<span class='actor-name'>{targetName}</span> è ferito e deve effettuare <a class='button-injury-roll'>una prova di ferita <i class='fas fa-dice'></i></a>."
+        },
+        "injury": {
+          "title": "Ferita",
+          "moderate": {
+            "type": "moderata",
+            "title": "Ferita Moderata",
+            "message": "<span class='actor-name'>{targetName}</span> subisce una <b>ferita moderata</b> fino alla fine del combattimento."
+          },
+          "severe": {
+            "type": "grave",
+            "title": "Ferita Grave",
+            "message": "<span class='actor-name'>{targetName}</span> subisce una <b>ferita grave</b> per {duration} giorni."
+          },
+          "grievous": {
+            "type": "critica",
+            "title": "Ferita Critica",
+            "message": "<span class='actor-name'>{targetName}</span> subisce una <b>ferita critica</b>, perde conoscenza e rischia la vita."
+          }
+        },
+        "effects": {
+          "title": "Effetti dell'attacco",
+          "damageDealt": "Danno inflitto:",
+          "protection": {
+            "is": " - ",
+            "wounded": "ferito!",
+            "protected": "protetto!"
+          },
+          "weary": {
+            "is": " affaticato."
+          },
+          "ooc": {
+            "is": " fuori combattimento."
+          }
+        }
+      }
+    },
+    "macro": {
+      "error": {
+        "noActorAvailable": "Seleziona un attore prima di usare la macro!",
+        "itemIsMissing": "L'oggetto {itemName} di tipo {itemType} non è disponibile per l'attore {actorName}!",
+        "skillIsMissing": "L'abilità {skillName} non è disponibile per l'attore {actorName}!",
+        "missingLoremasterRole": "Solo il Custode può usare questa azione.",
+        "wrongStatusEffect": "Lo stato '{statusEffect}' non esiste."
+      }
+    },
+    "effects": {
+      "wounded": "Ferito",
+      "poisoned": "Avvelenato",
+      "miserable": "Avvilito",
+      "weary": "Affaticato",
+      "unit": {
+        "days": "Giorni"
+      }
+    },
+    "journey-log": {
+      "sheet": {
+        "title": "Nome"
+      },
+      "log": {
+        "year": "Anno",
+        "season": "Stagione",
+        "from": "Partenza",
+        "to": "Destinazione",
+        "duration": "Giorni di viaggio"
+      }
+    },
+    "seasons": {
+      "winter": "Inverno",
+      "spring": "Primavera",
+      "summer": "Estate",
+      "autumn": "Autunno"
+    },
+    "roles": {
+      "guide": "Guida",
+      "scout": "Esploratore",
+      "lookout": "Sentinella",
+      "hunter": "Cacciatore",
+      "unassigned": "Non assegnato"
+    },
+    "evenTypes": {
+      "terrible-misfortune": "Sfortuna terribile",
+      "despair": "Disperazione",
+      "ill-choices": "Scelta sbagliata",
+      "mishap": "Inconveniente",
+      "short-cut": "Scorciatoia",
+      "chance-meeting": "Incontro casuale",
+      "joyful-sight": "Segno di buon auspicio"
+    },
+    "active-effect": {
+      "toggle": {
+        "help": "Usa Alt+clic sinistro per attivare/disattivare l'effetto"
+      }
+    },
+    "settings": {
+      "warn": {
+        "invalidLoadModifierSetting": "L'impostazione del modificatore di carico non è valida. Deve essere un numero o un attributo."
+      }
+    }
+  },
+  "SETTINGS": {
+    "setPauseMessage": "Testo di pausa",
+    "setPauseMessageDescription": "Messaggio visualizzato sopra l'immagine di pausa. Lasciare vuoto per usare il messaggio predefinito.",
+    "setSoloMode": "Modalità Vagabondo (Giocatore Singolo)",
+    "setSoloModeDescription": "Alcune funzionalità sono adattate alla modalità Vagabondo (es. solo posizione Battaglia, attore della compagnia semplificato)",
+    "setAddSkirmish": "Aggiungi posizione Battaglia",
+    "setAddSkirmishDescription": "Aggiunge la posizione del tiratore tra quelle disponibili, anche se non si gioca in modalità Vagabondo (giocatore singolo)",
+    "setNoneCustomCombatSpecialEffect": "Aggiungi effetti speciali di combattimento",
+    "setNoneCustomCombatSpecialEffectDescription": "Aggiunge l'effetto speciale 'Nessuno/speciale' per l'uso con regole casalinghe.",
+    "setTnBaseValue": "Imposta la difficoltà base",
+    "setTnBaseValueDescription": "Questa impostazione permette al Narratore di impostare un valore base personalizzato. Il manuale consiglia 20 per campagne e 18 per one-shot.",
+    "setExtendedWeaponSelection": "Elenco armi esteso",
+    "setExtendedWeaponSelectionDescription": "Attivare solo se il Narratore desidera usare regole casalinghe di combattimento (es. nuove competenze). Attivandolo, nella scheda dell’arma apparirà un campo per associare una nuova competenza invece del gruppo arma.",
+    "setUseAdversarySkills": "Permetti l'uso di abilità ai nemici",
+    "setUseAdversarySkillsDescription": "Nella seconda edizione i nemici non hanno abilità. Attivando questa opzione verranno aggiunte alle loro schede.",
+    "setOverrideEyeAwareness": "Supera il valore massimo di Allerta dell'Occhio",
+    "setOverrideEyeAwarenessDescription": "Il valore massimo è 24 per impostazione predefinita, ma puoi cambiarlo in base alle tue esigenze.",
+    "setRawModeForActiveEffectName": "Cambia modalità selezione Effetto Attivo",
+    "setRawModeForActiveEffectDescription": "Se sai cosa stai facendo, puoi cambiare la modalità di selezione degli effetti attivi (Selezionato: modalità lista / Deselezionato: modalità testo libero).",
+    "setAlwaysShowShieldThrustName": "Mostra sempre Colpo di Scudo",
+    "setAlwaysShowShieldThrustDescription": "Danno Speciale 'Colpo di Scudo': mostra questa opzione anche se la regola di visualizzazione (forza > attributo) non è soddisfatta.",
+    "setWarnLoreMasterForCharacterStateName": "Attiva avviso di stato",
+    "setWarnLoreMasterForCharacterStateDescription": "Attiva un messaggio di avviso in chat per ogni personaggio con stato Affaticato o Avvilito.",
+    "setShowHideRangeBlockName": "Mostra/nascondi distanza",
+    "setShowHideRangeBlockDescription": "Serve per mostrare la distanza nelle descrizioni delle armi, nelle schede dei personaggi e dei nemici.",
+    "disableAltClickName": "Disattiva Alt+Click sinistro",
+    "disableAltClickDescription": "Disattiva Alt+Click sinistro per impedire azioni come migliorare abilità o modificare stati di salute.",
+    "aldDefaultValueName": "Dati collegamento attore abilitati di default per PNG",
+    "aldDefaultValueDescription": "Imposta il valore predefinito per i Dati Collegamento Attore nei nuovi PNG.",
+    "setDisplayCommunityInfoAtStartValue": "Mostra la compagnia attiva",
+    "setDisplayCommunityInfoAtStartDescription": "Mostra il nome della compagnia principale all'accesso al gioco.",
+    "setModifiedLoadAsRequested": "Modifica il calcolo del Carico",
+    "setModifiedLoadAsRequestedDescription": "Utile per regole casalinghe che modificano come il Carico influenza l’Affaticamento. Di default, l'Affaticamento si attiva quando la Resistenza è pari o inferiore al Carico. Es: inserire attributes.strength o un valore numerico per modificare il limite.",
+    "setInlineElementFromUuidInDescription": "Integra Journal nella descrizione",
+    "setInlineElementFromUuidInDescriptionDescription": "Puoi integrare una pagina di Journal nella descrizione di un oggetto. Il contenuto della descrizione sarà sostituito con quello del Journal. Il campo descrizione deve contenere solo il link al Journal, altrimenti non funzionerà.",
+    "setJourneyLogCanBeModified": "Il Diario di Viaggio è modificabile",
+    "setJourneyLogCanBeModifiedDescription": "Permette ai giocatori di modificare il Diario di Viaggio incorporato nella scheda della Compagnia.",
+    "setStandingActivation": "Attivazione Reputazione",
+    "setStandingActivationDescription": "Permette al Custode di attivare o disattivare la funzione Reputazione per i personaggi. Modalità semplice: un solo valore per personaggio. Modalità estesa: usa oggetti Reputazione per tracciare la fama tra le fazioni.",
+    "standing": {
+      "none": "Nessuna",
+      "simple": "Semplice",
+      "extended": "Estesa"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "DUNE": {
+    "Name": "Nome",
+    "Type": "Tipo",
+    "Hatred": "Odio",
+    "Reason": "Motivo",
+    "Notes": "Note",
+    "Sheet": "Scheda personaggio",
+    "HouseSheet": "Scheda della Casata",
+    "Biography": "Biografia",
+    "HouseDetails": "Storia della Casata e altri dettagli",
+    "Skill": "Abilità",
+    "Focuses": "Specializzazioni",
+    "Determination": "Punti Determinazione",
+    "XP": "Punti Esperienza",
+    "Background": "Descrizione",
+    "Drive": "Motivazione",
+    "Statement": "Convinzione",
+    "House": "Casata",
+    "Role": "Ruolo",
+    "Faction": "Fazione",
+    "Ambition": "Ambizione",
+    "Traits": "Tratti",
+    "Talents": "Talenti",
+    "Assets": "Risorse",
+    "no_statement": " ",
+    "lock": "Blocca",
+    "unlock": "Sblocca",
+    "drag_talents": "Trascina qui i Talenti dalla libreria",
+    "drag_assets": "Trascina qui le Risorse dalla libreria",
+    "edit_drive": "Fai doppio clic sulla Motivazione per modificarla",
+    "edit_drives_hint": "Permetti ai giocatori di modificare la lista delle Motivazioni",
+    "battle": "Combattimento",
+    "communicate": "Comunicazione",
+    "discipline": "Disciplina",
+    "move": "Movimento",
+    "understand": "Comprensione",
+    "duty": "Dovere",
+    "faith": "Fede",
+    "justice": "Giustizia",
+    "power": "Potere",
+    "truth": "Verità",
+    "Homeworld": "Pianeta natale",
+    "Housetype": "Status della Casata",
+    "HouseTraits": "Tratti della Casata",
+    "domains": "Domini",
+    "enemies": "Nemici",
+    "motto": "Motto",
+    "crest": "Stemma della Casata",
+    "primary": "Dominio primario",
+    "secondary": "Dominio secondario",
+    "quality": "Quantità",
+    "notes": "Note",
+    "temporary": "Temporaneo",
+    "permanent": "Permanente",
+    "tracker": {
+      "momentum": "Slancio",
+      "threat": "Minaccia",
+      "title": "Punti"
+    },
+    "chat": {
+      "threat-increase": "{{player}} aggiunge punti Minaccia",
+      "momentum-decrease": "{{player}} riduce i punti Slancio"
+    },
+    "roll": {
+      "description": "Esegui una prova",
+      "roller": "Impostazioni del tiro",
+      "doroll": "Prova {type}",
+      "success": "successo",
+      "successPlural": "successi",
+      "complication": "Sorge una complicazione!",
+      "complicationPlural": "Si verificano |#| complicazioni!",
+      "complicationrange": "Probabilità di complicazione:",
+      "target": "Obiettivo",
+      "complicationFrom": "complicazione da",
+      "usingDetermination": "usando Determinazione",
+      "noDeterminationToSpend": "Determinazione insufficiente"
+    },
+    "counting": {
+      "one": "1",
+      "two": "2",
+      "three": "3",
+      "four": "4",
+      "five": "5"
+    },
+    "apps": {
+      "target": "Soglia di successo (Abilità + Motivazione)",
+      "dicepoolwindow": "Pool di dadi",
+      "focus": "Usare una specializzazione?",
+      "determination": "Spendere Determinazione?",
+      "complicationrange": "Probabilità di complicazione (di solito su 20)?",
+      "pool": "Quanti dadi nel pool",
+      "rolldice": "Tira"
+    },
+    "roles": {
+      "title": "Ruoli",
+      "Ruler": "Capo della Casata",
+      "Consort": "Consorte",
+      "Heir": "Erede",
+      "Advisor": "Consigliere",
+      "Chief Physician": "Medico Capo",
+      "Councillor": "Amministratore",
+      "Envoy": "Inviato",
+      "envoy": "Inviato",
+      "Marshall": "Giudice",
+      "Scholar": "Studioso Capo",
+      "Spymaster": "Maestro delle Spie",
+      "Swordmaster": "Maestro di Spada",
+      "Treasurer": "Tesoriere",
+      "Warmaster": "Maestro della Guerra"
+    },
+    "items": {
+      "faction": "Regolato da una fazione",
+      "skill": "Associato a un'abilità",
+      "drive": "Associato a una motivazione",
+      "choose": "Scegline uno",
+      "usage": "Come risorsa",
+      "keywords": "Parole chiave",
+      "note": "Nota del giocatore",
+      "quality": "Quantità",
+      "none": "Nessuno"
+    },
+    "domain": {
+      "area": "Area d’azione",
+      "field": "Campo",
+      "details": "Descrizione"
+    },
+    "skills": {
+      "Battle": "Combattimento",
+      "Communicate": "Comunicazione",
+      "Discipline": "Disciplina",
+      "Move": "Movimento",
+      "Understand": "Comprensione"
+    },
+    "drives": {
+      "Duty": "Dovere",
+      "Faith": "Fede",
+      "Justice": "Giustizia",
+      "Power": "Potere",
+      "Truth": "Verità",
+      "Challenge": "Sfida",
+      "Glory": "Gloria",
+      "Indulgence": "Indulgenza",
+      "Hate": "Odio",
+      "Honor": "Onore",
+      "Love": "Amore"
+    },
+    "errors": {
+      "minMomentumValue": "Lo Slancio non può essere inferiore a 0",
+      "maxMomentumValue": "Lo Slancio non può essere superiore a 6",
+      "minThreatValue": "La Minaccia non può essere inferiore a 0"
+    },
+    "ui": {
+      "areYouSureDelete": "Sei sicuro di voler eliminare {what}?",
+      "confirmDelete": "Elimina {what}"
+    }
+  },
+  "TYPES": {
+    "Actor": {
+      "Player Character": "Personaggio Giocante",
+      "Supporting Character": "Alleato",
+      "Non-Player Character": "Personaggio del GM",
+      "Asset": "Risorsa",
+      "House": "Casata"
+    },
+    "Item": {
+      "talent": "Talento",
+      "domain": "Dominio",
+      "enemy": "Nemico",
+      "trait": "Tratto",
+      "asset": "Risorsa"
+    }
+  }
+}

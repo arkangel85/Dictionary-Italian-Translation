@@ -1,0 +1,174 @@
+{
+  "label": "Incantesimi del Chierico",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Animate Dead",
+      "name": "Animare i Morti",
+      "description": "<p>Infondate uno spirito affamato in un cadavere fresco. Lo zombi risultante obbedisce ai vostri ordini, nei limiti delle sue capacità. Ha solo mosse base, tutte le caratteristiche a +1, e 1 PF. Ottiene anche [[/roll 1d4]] dei seguenti tratti:</p><ul><li>Capace. Una caratteristica ha +2.</li><li>Resistente. Ottiene +2 PF per ogni vostro livello.</li><li>Il cervello funziona ancora: può eseguire compiti complessi.</li><li>Non sembra morto (almeno per un giorno o due).</li></ul><p>Lo zombi esiste finché non subisce danni oltre i suoi PF, o finché non interrompete l’incantesimo. Finché è attivo, subite -1 a tutti i tiri per incantesimi.</p>"
+    },
+    {
+      "id": "Bless",
+      "name": "Benedizione",
+      "description": "La vostra divinità dona fortuna al combattente da voi scelto. Ottiene +1 a tutti i tiri durante il combattimento; voi subite -1 finché l’incantesimo dura."
+    },
+    {
+      "id": "Cause Fear",
+      "name": "Incute Paura",
+      "description": "Scegliete un bersaglio visibile e un oggetto vicino. Finché mantenete l’incantesimo, il bersaglio ha paura dell’oggetto (e voi subite -1 a tutti i tiri per incantesimi). La paura varia in base alla creatura: panico, aggressività, suppliche. Il bersaglio deve avere almeno intelligenza animale (non funziona su non morti o automi)."
+    },
+    {
+      "id": "Consume Unlife",
+      "name": "Consumare Nonvita",
+      "description": "Distruggete un non morto privo di raziocinio con un tocco. L’energia ottenuta può curare voi o un alleato toccato. La cura equivale ai PF residui della creatura distrutta."
+    },
+    {
+      "id": "Contagion",
+      "name": "Contagio",
+      "description": "Scegliete una creatura visibile. Finché <i>Contagio</i> è attivo, soffre della malattia da voi scelta. Subite -1 a tutti i tiri per incantesimi."
+    },
+    {
+      "id": "Control Weather",
+      "name": "Controllare il Tempo",
+      "description": "Pregate per ottenere pioggia, sole, vento o neve. La divinità risponderà entro un giorno. Il tempo cambierà secondo la vostra richiesta e durerà qualche giorno."
+    },
+    {
+      "id": "Cure Critical Wounds",
+      "name": "Cura Ferite Gravi",
+      "description": "Un alleato toccato guarisce [[/roll 3d8]] danni."
+    },
+    {
+      "id": "Cure Light Wounds",
+      "name": "Cura Ferite Leggere",
+      "description": "Il vostro tocco asciuga le ferite e lenisce le ossa rotte. L’alleato toccato guarisce [[/roll 1d8]] danni."
+    },
+    {
+      "id": "Cure Moderate Wounds",
+      "name": "Cura Ferite Moderate",
+      "description": "La vostra magia ferma il sanguinamento e rimette in sede le ossa. L’alleato toccato guarisce [[/roll 2d8]] danni."
+    },
+    {
+      "id": "Darkness",
+      "name": "Oscurità",
+      "description": "Scegliete un’area visibile. È avvolta in oscurità magica. Finché l’incantesimo è attivo, subite -1 a tutti i tiri per incantesimi."
+    },
+    {
+      "id": "Detect Alignment",
+      "name": "Individuazione Allineamento",
+      "description": "Scegliete un allineamento (Buono, Malvagio, Legale, Caotico). Per poco tempo potete percepirlo: come un’aura, un odore, una sensazione di caldo o freddo. Il GM deciderà come."
+    },
+    {
+      "id": "Divination",
+      "name": "Divinazione",
+      "description": "Nominate una persona, un luogo o oggetto. La vostra divinità vi mostra una visione chiara, come se foste lì accanto."
+    },
+    {
+      "id": "Divine Presence",
+      "name": "Presenza Divina",
+      "description": "Chiunque voglia avvicinarsi a voi deve prima chiedere permesso in modo chiaro. Chi si avvicina senza permesso subisce [[/roll 1d10]] danni extra ogni volta che viene ferito. Finché è attivo, subite -1 a tutti i tiri per incantesimi."
+    },
+    {
+      "id": "Guidance",
+      "name": "Guida Celeste",
+      "description": "Appare un simbolo della vostra divinità che indica una direzione o un’azione gradita. È solo un segno silenzioso, non una vera conversazione."
+    },
+    {
+      "id": "Harm",
+      "name": "Ferita",
+      "description": "Toccando un nemico, lo colpite con collera divina: infliggete [[/roll 2d8]] danni a lui e [[/roll 1d6]] a voi. Ignora armatura."
+    },
+    {
+      "id": "Heal",
+      "name": "Guarigione",
+      "description": "Toccate un alleato e lo guarite completamente, fino a un massimo pari ai vostri PF."
+    },
+    {
+      "id": "Hold Person",
+      "name": "Blocca Persona",
+      "description": "Scegliete una persona visibile. Finché non lanciate altri incantesimi e restate vicini, non può agire (solo parlare). L’effetto termina se subisce danno."
+    },
+    {
+      "id": "Light",
+      "name": "Luce",
+      "description": "Un oggetto toccato emette luce divina come una torcia. Non fa calore, è silenziosa e non consuma combustibile. Il colore lo scegliete voi. L’effetto dura solo in vostra presenza."
+    },
+    {
+      "id": "Magic Weapon",
+      "name": "Arma Magica",
+      "description": "L’arma che impugnate mentre lanciate l’incantesimo infligge [[/roll 1d4]] danni extra finché l’incantesimo dura. Subite -1 agli altri incantesimi finché è attivo."
+    },
+    {
+      "id": "Mark of Death",
+      "name": "Marchio di Morte",
+      "description": "Scegliete una creatura di cui conoscete il vero nome. Questo incantesimo incide rune indelebili su una superficie. Se la creatura le legge, morirà."
+    },
+    {
+      "id": "Plague",
+      "name": "Peste",
+      "description": "Nominate una città, villaggio o insediamento. Finché l’incantesimo dura, il luogo è colpito da una piaga legata al dominio della vostra divinità (locuste, morte dei primogeniti, ecc.). Subite -1 a tutti i tiri per incantesimi."
+    },
+    {
+      "id": "Repair",
+      "name": "Riparare",
+      "description": "Scegliete un evento passato della vittima. L’incantesimo annulla ogni effetto: danni, veleno, malattie, magie. Cura PF, malattie, neutralizza veleno, dissolve incantesimi."
+    },
+    {
+      "id": "Resurrection",
+      "name": "Resurrezione",
+      "description": "<p>Dite al GM che volete resuscitare un morto la cui anima non ha ancora lasciato il mondo. È sempre possibile, ma il GM imporrà una o più condizioni (o tutte):</p><ul><li>Richiede giorni/settimane/mesi.</li><li>Serve l’aiuto di ____________.</li><li>Serve una fortuna in denaro.</li><li>Dovete sacrificare ____________.</li></ul><p>Il GM può permettere di soddisfare i requisiti in seguito, ma finché non lo fate, la resurrezione non avviene. Oppure può rifiutare del tutto.</p>"
+    },
+    {
+      "id": "Revelation",
+      "name": "Rivelazione",
+      "description": "La divinità risponde alle vostre preghiere con una visione illuminante. Il GM chiarirà la situazione. Se agite secondo la visione, +1 al prossimo tiro."
+    },
+    {
+      "id": "Sanctify",
+      "name": "Santificare",
+      "description": "Cibo o bevanda toccati mentre lanciate l’incantesimo diventano benedetti (o maledetti) e purificati da ogni contaminazione terrena."
+    },
+    {
+      "id": "Sanctuary",
+      "name": "Santuario",
+      "description": "Tracciando un cerchio mentre recitate l’incantesimo, benedite quel luogo. Dentro il santuario, percepite chi ha intenzioni malvagie. Tutti i curati nel santuario guariscono [[/roll 1d4]] PF extra."
+    },
+    {
+      "id": "Sever",
+      "name": "Recidere",
+      "description": "Scegliete un arto della vittima — braccio, tentacolo, ala — e lo staccate. Non infligge danni, ma è molto doloroso. Finché è staccato, la creatura non può usarlo. Subite -1 a tutti i tiri per incantesimi finché è attivo."
+    },
+    {
+      "id": "Speak With Dead",
+      "name": "Parlare con i Morti",
+      "description": "Conversate brevemente con un cadavere. Risponderà a tre vostre domande nel miglior modo possibile, in base a ciò che sapeva in vita e ha appreso dopo la morte."
+    },
+    {
+      "id": "Storm Of Vengeance",
+      "name": "Tempesta della Vendetta",
+      "description": "La vostra divinità scatena una catastrofe atmosferica soprannaturale: pioggia acida o di sangue, nuvole di anime, vento che solleva case... chiedete e vi sarà concesso."
+    },
+    {
+      "id": "Trap Soul",
+      "name": "Trappola dell’Anima",
+      "description": "Intrappolate l’anima di una creatura morente in una gemma. È cosciente della prigionia, ma potete interagire con essa tramite incantesimi, dialoghi e simili. I tiri contro di essa hanno +1. Potete liberarla, ma non richiuderla."
+    },
+    {
+      "id": "True Seeing",
+      "name": "Vista Vera",
+      "description": "Vedete la realtà per com’è davvero. Illusioni svaniscono. Il GM descriverà l’ambiente privo di falsità. Subite -1 a tutti i tiri per incantesimi finché è attivo."
+    },
+    {
+      "id": "Word of Recall",
+      "name": "Parola del Ritorno",
+      "description": "Quando lanciate l’incantesimo, scegliete una parola. La prima volta che la pronunciate, voi e gli alleati che vi toccano verrete trasportati nel luogo dove l’avete lanciato. È attivo solo un luogo per volta: un nuovo incantesimo sostituisce il precedente."
+    },
+    {
+      "id": "Words of the Unspeaking",
+      "name": "Voce dei Senza Parola",
+      "description": "Toccando un oggetto, potete comunicare con lo spirito che lo abita. Risponderà a tre vostre domande, nei limiti delle sue conoscenze."
+    }
+  ]
+}

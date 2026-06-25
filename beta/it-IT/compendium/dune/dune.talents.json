@@ -1,0 +1,341 @@
+{
+  "label": "Talenti",
+  "mapping": {
+    "description": "system.description",
+    "rule": "system.rule",
+    "faction": "system.faction"
+  },
+  "folders": {},
+  "entries": {
+    "Guildsman": {
+      "name": "Guildsman",
+      "description": "Hai legami con la Confraternita dello Spazio, che ti garantiscono un accesso alle loro risorse superiore alla media. Non sei un Navigatore, ma potresti essere un agente, rappresentante, banchiere, diplomatico o simile associato della Confraternita.",
+      "rule": "Una volta per avventura, puoi invocare il tuo contatto con la Confraternita per usare le loro strutture o risorse, oppure organizzare un incontro con persone importanti all’interno della Confraternita. Non hai l’autorità di fare richieste formali alla Confraternita stessa. Se hai bisogno di usare le risorse della Confraternita più di una volta durante la stessa avventura, la seconda volta aggiunge +2 alla Minaccia, la terza +4, e così via, aumentando di +2 il costo ogni volta, poiché l’uso ripetuto rischia di attirare troppa attenzione su di te.",
+      "faction": "Confraternita dello Spazio"
+    },
+    "Cool Under Pressure": {
+      "name": "Freddo sotto pressione",
+      "description": "Quando la situazione si fa difficile, fai un respiro profondo e porti a termine il compito.",
+      "rule": "Quando scegli questo talento, seleziona un’unica abilità. Quando tenti un tiro con quella abilità, prima di tirare puoi spendere un punto Determinazione per ottenere automaticamente il successo, ma non generi Momentum. Si applicano comunque le condizioni normali per spendere Determinazione.",
+      "faction": ""
+    },
+    "Prana-Bindu": {
+      "name": "Prana-Bindu",
+      "description": "Hai il controllo assoluto del tuo corpo. Ogni muscolo e ogni nervo sono sotto il tuo controllo, e hai persino dominato la tua chimica corporea e il tuo metabolismo.",
+      "rule": "Ogni volta che tenti un test di Movimento o Disciplina che richiede il controllo del corpo, puoi rilanciare un singolo d20. Puoi controllare perfettamente il respiro, il battito cardiaco e i tuoi organi interni (inclusa la capacità di decidere se concepire un figlio e determinarne le caratteristiche fisiche e genetiche).",
+      "faction": "Bene Gesserit"
+    },
+    "Voice": {
+      "name": "Voce",
+      "description": "Sei addestrato a modulare la voce per influenzare la mente subconscia degli altri. Con questa abilità puoi manipolare sottilmente le persone, alterare motivazioni e umori o persino costringere all’azione i riluttanti.",
+      "rule": "Puoi usare Voce ogni volta che parli con qualcuno, purché tu possa osservarlo per un breve periodo e lui possa sentirti. Quando usi Voce, puoi aggiungere 1, 2 o 3 punti alla Minaccia per ottenere lo stesso numero di successi automatici in un test di Comunicazione volto a influenzare il bersaglio. Più successi automatici ottieni, più evidente sarà l’uso della Voce, e gli altri potrebbero notarlo. Il tuo addestramento ti permette anche di pagare successi automatici in qualsiasi test di resistenza agli effetti della Voce.",
+      "faction": "Bene Gesserit"
+    },
+    "Find Trouble": {
+      "name": "Trova guai",
+      "description": "Sai dove trovare l’elemento criminale ovunque tu vada.",
+      "rule": "Ovunque tu ti trovi, una volta per avventura puoi sempre metterti in contatto con il sottobosco criminale o il mercato nero (se esiste in quell’area). Questo non garantisce che siano ben disposti verso di te, solo che puoi trovare un contatto.",
+      "faction": ""
+    },
+    "Bold": {
+      "name": "Audace",
+      "description": "Quando corri rischi calcolati, tendi ad avere successo più spesso di quanto sembri ragionevole.",
+      "rule": "Quando scegli questo talento, seleziona un’unica abilità. Quando tenti un test con l’abilità scelta e acquisti d20 aggiuntivi generando Minaccia per il Narratore, puoi rilanciare un singolo d20 di quel pool.",
+      "faction": ""
+    },
+    "Subtle Words": {
+      "name": "Parole sottili",
+      "description": "Sei abile nello spostare gli altri con poche parole sussurrate al momento giusto. Anche loro potrebbero non rendersi conto dell’influenza sottile delle tue parole.",
+      "rule": "Quando tenti un test di Comunicazione e spendi Momentum per acquistare dadi, puoi creare gratuitamente un nuovo tratto sul personaggio a cui parli, che rifletta la tua influenza sui suoi pensieri o sul suo umore.",
+      "faction": ""
+    },
+    "Decisive Action": {
+      "name": "Azione decisiva",
+      "description": "Corri rischi in combattimento, spesso rischi che sembrano spericolati o inutili. Hai la capacità di far sì che queste scommesse paghino.",
+      "rule": "In un conflitto, quando ottieni successo in un test di Battaglia per rimuovere risorse di un avversario e hai acquistato dadi generando Minaccia, puoi spendere 2 punti Momentum per rimuovere una seconda risorsa nemica.",
+      "faction": ""
+    },
+    "Twisted Mentat": {
+      "name": "Mentat contorto",
+      "description": "Le tue abilità Mentat sono state plasmate e ingegnerizzate dai Bene Tleilax per lasciarti libero da categorie morali, tabù o decoro.",
+      "rule": "Ogni volta che tenti un test di Comprensione, generi un Momentum bonus per ogni dado che hai acquistato aggiungendo Minaccia. Questo Momentum extra può essere usato solo per Ottenere Informazioni sui modi più efficaci per danneggiare o infliggere dolore a una persona nella scena, o per creare un tratto che rappresenti una debolezza scoperta e sfruttabile.\nQuesto talento può essere scelto solo durante la creazione del personaggio.",
+      "faction": "Mentat"
+    },
+    "Dedication": {
+      "name": "Dedizione",
+      "description": "Il tuo impegno per una causa è incrollabile, e questo ti ha aiutato in molte situazioni difficili.",
+      "rule": "All’inizio di una scena, se nella riserva di Momentum di gruppo non ci sono punti, tira 1d20. Se ottieni un risultato pari o inferiore al tuo valore di Disciplina, aggiungi 1 alla riserva di Momentum di gruppo.",
+      "faction": ""
+    },
+    "Nimble": {
+      "name": "Agile",
+      "description": "Sei svelto, e pochi ostacoli possono impedirti di muoverti.",
+      "rule": "Quando tenti un test di Movimento per attraversare terreni difficili o ostacoli fisici (come in un duello o scontro), puoi ridurre la Difficoltà di 2. Se la Difficoltà diventa 0, puoi attraversare liberamente l’ostacolo come se non esistesse.",
+      "faction": ""
+    },
+    "To Fight Someone Is to Know Them": {
+      "name": "Combattere per conoscerli",
+      "description": "Sei esperto nello studiare i tuoi avversari durante il conflitto, imparando come pensano e ricavando segreti dai loro movimenti, attacchi e difese.",
+      "rule": "Quando scegli questo talento, seleziona un’abilità. Quando vinci un conflitto usando quell’abilità, ricevi 2 punti Momentum bonus, che puoi usare per Ottenere Informazioni o per creare un tratto che rappresenti una conoscenza o intuizione che hai guadagnato sul tuo avversario.",
+      "faction": ""
+    },
+    "Mentat Discipline": {
+      "name": "Disciplina Mentat",
+      "description": "Un intenso addestramento mentale e una formazione estensiva hanno sviluppato il tuo intelletto fino a renderlo straordinario. Puoi memorizzare e processare enormi quantità di informazioni a velocità incredibili.",
+      "rule": "Hai una memoria quasi perfetta, anche per dati complessi. Quando fai un test di Comprensione relativo al richiamare dati, uno dei tuoi d20 può essere considerato automaticamente un 1 invece di tirarlo.",
+      "faction": "Mentat"
+    },
+    "Imperial Conditioning": {
+      "name": "Condizionamento imperiale",
+      "description": "Attraverso un intenso condizionamento psicologico, non puoi togliere la vita a un essere umano né causarne danno. Questo è necessario, perché chi detiene potere e status deve essere libero dalla paura che i propri medici possano diventare assassini.",
+      "rule": "Non puoi intenzionalmente nuocere o uccidere un essere umano. Qualsiasi tentativo di costringerti a farlo fallisce automaticamente, e ottieni automaticamente successo in qualsiasi test di Persuasione per dimostrare che non intendi alcun male.",
+      "faction": "Suk"
+    },
+    "Intense Study": {
+      "name": "Studio intenso",
+      "description": "Sei estremamente colto e possiedi vaste conoscenze su un’ampia gamma di argomenti.",
+      "rule": "Una volta per scena, puoi usare la tua abilità Comprensione al posto di qualsiasi altra per un singolo test, e sei considerato avere un focus per quel test.",
+      "faction": ""
+    },
+    "Failed Navigator": {
+      "name": "Navigatore fallito",
+      "description": "Hai sostenuto le prove per diventare Navigatore della Confraternita, ma non hai raggiunto gli standard… eppure, per un attimo, la tua coscienza ha abbracciato l’universo. In momenti di stress, la tua mente talvolta rivive quell’esperienza, concedendoti un rapido lampo di intuizione.",
+      "rule": "Ogni volta che spendi un punto Determinazione, il Narratore ti concede un’intuizione aggiuntiva. Questa può riguardare le attività correnti o essere completamente scollegata.",
+      "faction": "Confraternita dello Spazio"
+    },
+    "Direct": {
+      "name": "Diretto",
+      "description": "La tua volontà e la tua presenza possono spingere gli altri ad agire rapidamente e con efficienza.",
+      "rule": "Una volta per scena, puoi ordinare a un alleato o subordinato di agire. Questo non richiede alcun test da parte tua, ma l’alleato può immediatamente tentare un’azione e tu puoi assistere in qualsiasi test cerchi di fare. Se avviene durante un conflitto, l’alleato agisce nel tuo turno indipendentemente dal fatto che abbia già agito, e questo non gli impedisce di agire di nuovo nel round.",
+      "faction": ""
+    },
+    "Collaboration": {
+      "name": "Collaborazione",
+      "description": "Hai guidato i tuoi alleati a sfruttare al meglio le tue competenze, e questo ha dato i suoi frutti.",
+      "rule": "Quando scegli questo talento, seleziona un’abilità con punteggio 6 o superiore. Ogni volta che un alleato tenta un test con quell’abilità e tu puoi comunicare con lui, puoi spendere 2 punti Momentum per permettergli di usare il tuo valore di quell’abilità e uno dei tuoi focus (se applicabile).",
+      "faction": ""
+    },
+    "Bolster": {
+      "name": "Rafforzare",
+      "description": "La tua certezza e determinazione sono un faro per gli altri, che altrimenti potrebbero vacillare.",
+      "rule": "Una volta per scena, quando un alleato fallisce un test, puoi spendere immediatamente 2 punti Momentum o aggiungere +2 alla Minaccia per permettergli di rilanciare il proprio pool di dadi. Quando rilancia, può usare il tuo valore di Disciplina al posto dell’abilità originaria.",
+      "faction": ""
+    },
+    "Dual Fealty": {
+      "name": "Doppia fedeltà",
+      "description": "Devi il tuo servizio e la tua vita a due fazioni differenti allo stesso modo, e hai la fiducia di entrambe.",
+      "rule": "Scegli due fazioni a cui essere leale. Normalmente saranno la tua Casa e un altro gruppo come i Bene Gesserit, ma possono essere qualsiasi due fazioni con cui hai contatti. Entrambe le fazioni sono consapevoli delle tue doppie lealtà e si aspettano che tu non tradisca l’una a favore dell’altra.\nPuoi interagire in termini amichevoli con membri di entrambe le fazioni senza timori di tradimento o pericoli.",
+      "faction": ""
+    },
+    "Make Haste": {
+      "name": "Vai di fretta",
+      "description": "La velocità ha valore, anche se comporta conseguenze.",
+      "rule": "Quando tenti un test di Movimento, puoi scegliere di subire una complicazione aggiuntiva in cambio di un successo automatico. In un conflitto, puoi aggiungere 1 alla Minaccia per agire per primo, indipendentemente da chi sarebbe altrimenti.",
+      "faction": ""
+    },
+    "Specialist": {
+      "name": "Specialista",
+      "description": "I tuoi incarichi ti richiedono di gestire un tipo maggiore di una specifica categoria di risorse.",
+      "rule": "Puoi selezionare questo talento più volte. Ogni volta scegli una categoria tra: duelli, guerre, spionaggio o intrigo. Aumenti di +2 il numero di risorse che possiedi, ma quelle due risorse devono appartenere alla categoria scelta.",
+      "faction": ""
+    },
+    "Putting Theory into Practice": {
+      "name": "Dalla teoria alla pratica",
+      "description": "Hai imparato a trasformare rapidamente le nuove conoscenze in un vantaggio pratico.",
+      "rule": "Una volta per scena, quando Ottieni Informazioni, puoi creare gratuitamente un tratto che deve rappresentare un vantaggio, un’opportunità o una debolezza identificata grazie alle informazioni ricevute.",
+      "faction": ""
+    },
+    "Calculated Prediction": {
+      "name": "Predizione calcolata",
+      "description": "Usando fatti e cifre memorizzati e la tua capacità di elaborazione, puoi tentare di prevedere il futuro. Nessuna previsione è perfetta al 100%, poiché potrebbero esserci variabili sconosciute che influenzano l’esito.",
+      "rule": "Puoi prendere qualche minuto per meditare e predire il futuro. Serve un test di Comprensione Difficoltà 4; se superi, puoi chiedere al Narratore di enunciare un evento probabile.\nPuoi chiedere una previsione aggiuntiva per ogni due punti Momentum che spendi. Il Narratore può tenere le previsioni vaghe e non ha l’obbligo di spiegare il contesto o il motivo per cui quell’evento è probabile.",
+      "faction": "Mentat"
+    },
+    "Verify": {
+      "name": "Verifica",
+      "description": "Hai così tanti dati a disposizione che puoi individuare le contraddizioni e determinare quali informazioni sono false.",
+      "rule": "Puoi spendere un punto Momentum per chiedere al Narratore se una determinata informazione sia vera o falsa. Non serve fare un test come con Ottieni Informazioni, e il dato può essere una tua supposizione tanto quanto un documento o un pettegolezzo.",
+      "faction": "Mentat"
+    },
+    "Hyperawareness": {
+      "name": "Ipercoscienza",
+      "description": "Il tuo addestramento ha affinato la tua consapevolezza a un grado incredibile, permettendoti di notare dettagli troppo piccoli per gli altri. Grazie a queste intuizioni, puoi svelare segreti e verità che sfuggono agli altri.",
+      "rule": "Ogni volta che spendi Momentum per Ottieni Informazioni sulla scena, sulla tua posizione attuale o su una persona che stai osservando, puoi fare due domande per il primo punto Momentum speso. Inoltre, i limiti di ciò che gli altri potrebbero notare non si applicano a te per queste domande.",
+      "faction": "Bene Gesserit"
+    },
+    "Masterful Innuendo": {
+      "name": "Allusione magistrale",
+      "description": "Sei un maestro del doppio senso, capace di trasmettere un messaggio esplicito e uno nascosto che solo i destinatari previsti comprenderanno.",
+      "rule": "Quando tenti un test di Comunicazione, puoi aumentare la Difficoltà di +1 per nascondere un messaggio segreto nelle tue parole. Devi dichiarare chi è il destinatario previsto. Gli altri non si accorgeranno del messaggio nascosto, a meno che non abbiano questo talento o un altro che permetta di rilevare ciò che normalmente è invisibile (come Ipercoscienza).",
+      "faction": ""
+    },
+    "Constantly Watching": {
+      "name": "Sempre vigile",
+      "description": "Sei guardingo, al limite della paranoia… e quasi nulla ti coglie di sorpresa.",
+      "rule": "Quando tenti un test per individuare pericoli o nemici nascosti, puoi ridurre la Difficoltà di 2, fino a un minimo di 0. Inoltre, una volta per scena, quando un nemico sceglie di mantenere l’iniziativa, puoi aumentare il costo di +2.",
+      "faction": ""
+    },
+    "The Reason I Fight": {
+      "name": "Il motivo per cui combatto",
+      "description": "La vittoria non dipende solo dall’abilità; chi ha una motivazione più profonda può trionfare anche quando le probabilità sono contro di lui.",
+      "rule": "Quando scegli questo talento, seleziona una delle tue motivazioni con punteggio 6 o superiore. Quando tenti un test di Battaglia usando quella motivazione e la dichiarazione corrisponde all’azione, puoi rilanciare 1d20.",
+      "faction": ""
+    },
+    "Advisor": {
+      "name": "Consigliere",
+      "description": "Hai un talento naturale nell’indirizzare gli altri attraverso i problemi.",
+      "rule": "Quando scegli questo talento, seleziona un’abilità. Ogni volta che assisti un alleato usando quell’abilità, l’alleato può rilanciare un singolo d20 del suo pool.",
+      "faction": ""
+    },
+    "Rapid Maneuver": {
+      "name": "Manovra rapida",
+      "description": "Sei veloce, capace di coprire terreno, trovare la via più breve e mettere in campo i tuoi strumenti più rapidamente della maggior parte.",
+      "rule": "Quando tenti un test per raggiungere rapidamente una destinazione a piedi o su veicolo, riduci la Difficoltà di 1. Durante un conflitto, quando muovi una risorsa, puoi spostarla di un’ulteriore zona spendendo 1 Momentum invece di 2.",
+      "faction": ""
+    },
+    "Mind Palace": {
+      "name": "Palazzo della Mente",
+      "description": "Hai un ricordo eccezionale e puoi ricostruire eventi e luoghi che hai vissuto con perfetta accuratezza, permettendoti di rivisitarli in seguito.",
+      "rule": "Puoi tentare un test di Comprendere a Difficoltà 0 per richiamare un evento passato o un luogo in cui sei già stato.\nIl Momentum generato in questo test può essere speso per richiamare fatti e dettagli su quell’evento o luogo; è trattato come Ottenere Informazioni, ma puoi fare domande su cose che hai già incontrato, non solo su quelle presenti nella scena.",
+      "faction": "Mentat"
+    },
+    "Performer": {
+      "name": "Artista",
+      "description": "La tua abilità con la musica o la poesia aiuta a calmare e ispirare i tuoi compagni.",
+      "rule": "Una volta per scena puoi intrattenere il gruppo con una breve performance. Potresti suonare il baliset, cantare, recitare una poesia, danzare o anche fare giocoleria. Al termine della performance puoi aggiungere 1 al pool di Momentum del gruppo.",
+      "faction": ""
+    },
+    "Binding Promise": {
+      "name": "Promessa Vincolante",
+      "description": "Attraverso il tuo contegno, la tua reputazione o il tuo modo di persuadere, rendi le persone riluttanti a tradire la loro parola.",
+      "rule": "Quando riesci in un test di Comunicare per persuadere qualcuno ad accettare una promessa o un accordo, puoi spendere uno, due o tre punti di Momentum per rendere vincolante quell’accordo. Se quella persona vuole infrangere la promessa, deve spendere Threat pari al doppio del Momentum speso.",
+      "faction": ""
+    },
+    "Hidden Motives": {
+      "name": "Motivi Nascosti",
+      "description": "Sei un maestro nel nascondere le tue intenzioni e motivazioni. Pochi sanno davvero cosa ti spinge, anche se credono di capirti.",
+      "rule": "Quando un avversario fallisce un test di Comprendere o Comunicare contro di te, puoi immediatamente creare un tratto che rifletta una falsa credenza che ha su di te.",
+      "faction": ""
+    },
+    "Improvised Weapon": {
+      "name": "Arma Improvisata",
+      "description": "Sai trasformare gli oggetti più innocui in armi letali in un attimo.",
+      "rule": "Una volta per scena puoi creare un asset di Qualità 0 (senza costo) che puoi usare in un conflitto personale o di schermaglia. Può essere un sasso, una bottiglia rotta o un frammento di vetro, ma è sufficiente per funzionare come arma. L’asset viene rimosso alla fine di qualsiasi conflitto in cui viene usato, poiché sarà troppo danneggiato per un secondo impiego.",
+      "faction": ""
+    },
+    "Combat Medic": {
+      "name": "Medico da Combattimento",
+      "description": "Sei abile nel fornire cure rapide, anche durante una battaglia.",
+      "rule": "Puoi spendere 1 punto di Momentum per ridurre di 2 la traccia del test esteso di un alleato in combattimento fisico come azione.",
+      "faction": "Suk"
+    },
+    "Mask of Power": {
+      "name": "Maschera di Potere",
+      "description": "Puoi insinuare di conoscere più segreti di un nemico di quanti ne possiedi davvero.",
+      "rule": "Una volta per scena puoi creare un asset (senza costo), come prove di ricatto o un favore dovuto, che ti permetta di iniziare un conflitto di intrigo o spionaggio con la persona che scegli. L’asset è una menzogna, ovviamente; non possiedi nulla, ma il tuo bersaglio non lo sa. L’asset viene rimosso al termine del conflitto e, se vieni sconfitto, la tua bluff viene scoperta e subisci una complicazione aggiuntiva.",
+      "faction": ""
+    },
+    "Adrenaline Shot": {
+      "name": "Iniezione di Adrenalina",
+      "description": "Sei abile nel rimettere in piedi le persone, anche se solo per far loro dimenticare il dolore per un momento.",
+      "rule": "Usando un’azione, il personaggio può rimuovere gli effetti di qualsiasi complicazione fisica da un personaggio nella stessa zona. Questa complicazione non viene rimossa definitivamente e ritorna alla fine della scena, a meno che non venga altrimenti eliminata. Questo talento può essere usato una sola volta per ciascun personaggio durante ogni scena, ma può essere usato su ogni personaggio.",
+      "faction": "Suk Doctor"
+    },
+    "Stirring Rhetoric": {
+      "name": "Retorica Coinvolgente",
+      "description": "Sei un abile oratore e le tue parole hanno peso e scopo.",
+      "rule": "Quando riesci in un test di Comunicare rivolto a un gruppo, puoi selezionare un numero di persone pari al tuo valore di Comunicare. Quei personaggi possono rilanciare un singolo d20 nel prossimo test che tenteranno utilizzando lo stesso incentivo su cui hai basato il tuo test di Comunicare.",
+      "faction": ""
+    },
+    "Deliberate Motion": {
+      "name": "Movimento Deliberato",
+      "description": "Ogni tuo passo è ponderato e hai un equilibrio eccezionale.",
+      "rule": "Quando tenti un test di Muoversi e subisci una o più complicazioni, puoi spendere Momentum per ignorare alcune o tutte le complicazioni; ogni complicazione ignorata costa 1 punto di Momentum.",
+      "faction": ""
+    },
+    "Subtle Step": {
+      "name": "Passo Sottile",
+      "description": "Sei esperto nei metodi per evitare di essere notato e riveli poco di ciò che non intendi.",
+      "rule": "Quando tenti un test di Muoversi per muoverti furtivamente o passare inosservato in un’area, o quando cerchi di spostare un asset in modo sottile durante un conflitto, il primo d20 extra che acquisti per il test è gratuito.",
+      "faction": ""
+    },
+    "Other Memory": {
+      "name": "Memoria Altra",
+      "description": "Hai subito l’Agonia assistita da un’altra Madre Reverenda e ora puoi attingere alle memorie e alla saggezza di tutti i tuoi antenati. Così facendo, sei diventato una Madre Reverenda delle Bene Gesserit.",
+      "rule": "Devi essere una Madre Reverenda delle Bene Gesserit (e avere un tratto appropriato che lo rifletta) per selezionare questo talento. Se questo talento viene scelto in gioco, un’altra Madre Reverenda deve essere presente e in contatto fisico per trasmetterti questa memoria genetica.\nOgni volta che tenti un test in cui sarebbe utile la conoscenza di eventi passati—anche quelli di molte generazioni fa—ottieni tre successi automatici. Puoi anche condividere la tua memoria genetica con altre Madri Reverende a volontà.",
+      "faction": "Bene Gesserit"
+    },
+    "Driven": {
+      "name": "Determinato",
+      "description": "La tua determinazione non vacilla.",
+      "rule": "Dopo aver speso un punto di Determinazione, tira 1d20. Se il risultato è pari o inferiore al tuo valore di Disciplina, riguadagni immediatamente quel punto di Determinazione.",
+      "faction": ""
+    },
+    "Rapid Recovery": {
+      "name": "Recupero Rapido",
+      "description": "Torni in forma da combattimento rapidamente dopo essere stato ferito, anche quando potrebbe essere rischioso tornare in azione.",
+      "rule": "Una volta per scena, all'inizio del tuo turno, puoi aggiungere +2 a Threat per rimuovere una complicazione che rappresenta una ferita. Inoltre, puoi pagare per Resistere alla Sconfitta un’ulteriore volta durante un conflitto.",
+      "faction": ""
+    },
+    "Master-at-Arms": {
+      "name": "Maestro d'Armi",
+      "description": "La tua esperienza in battaglia è notevole e pochi possono eguagliare la tua efficacia in combattimento.",
+      "rule": "All'inizio di un duello, una schermaglia o una scena di battaglia, seleziona un singolo asset che rappresenta un'arma da mischia o un'unità di truppe. Grazie alla tua abilità, puoi spendere 1 Momentum per aumentare di 1 la Qualità di quell’asset per il prossimo conflitto in questa scena.",
+      "faction": ""
+    },
+    "The Slow Blade": {
+      "name": "La Lama Lenta",
+      "description": "La lama lenta trafigge lo scudo. Sei esperto nei modi sottili per evitare le difese di un avversario.",
+      "rule": "Quando effettui un attacco durante un duello o una schermaglia usando un'arma da mischia, e compri uno o più dadi spendendo Momentum, puoi scegliere uno degli asset nemici nella stessa zona del tuo attacco; puoi ignorare quell’asset durante il tuo attacco.",
+      "faction": ""
+    },
+    "Resilience": {
+      "name": "Resilienza",
+      "description": "Ci vuole molto per abbatterti in un conflitto. Ti rialzi più spesso della maggior parte.",
+      "rule": "Di solito puoi “Resistere alla Sconfitta” solo una volta per scena.\nPuoi farlo due volte per scena, ma solo quando sei in un conflitto usando l’abilità indicata.",
+      "faction": "Fremen"
+    },
+    "Improved Resources": {
+      "name": "Risorse Migliorate",
+      "description": "Ti viene affidato un accesso maggiore agli strumenti e alle risorse di cui hai bisogno per raggiungere i tuoi obiettivi.",
+      "rule": "Puoi aumentare il numero di asset che possiedi di +1. Questo talento può essere acquistato più volte.",
+      "faction": ""
+    },
+    "Ransack": {
+      "name": "Saccheggio",
+      "description": "Quando il tempo è essenziale, dai priorità al risultato piuttosto che a coprire le tracce.",
+      "rule": "Quando tenti un test di Comprendere per perlustrare un’area, puoi aggiungere 2 a Threat per ridurre di 1 la difficoltà del test e dimezzare il tempo necessario per tentarlo.",
+      "faction": ""
+    },
+    "Priority Boarding": {
+      "name": "Imbarco Prioritario",
+      "description": "Puoi chiamare alcuni favori per assicurarti che gli ispettori della Gilda non impieghino troppo tempo a controllare i tuoi bagagli.",
+      "rule": "Non devi offrire tangenti per far sì che gli ispettori della Gilda si fidino della tua parola che tutto il tuo carico e i tuoi averi sono in regola. Questo ti permette di contrabbandare qualsiasi cosa a bordo di una nave della Gilda. Tuttavia, se qualcosa che hai portato a bordo crea problemi per la Gilda, perderai questo talento.",
+      "faction": "Spacing Guild"
+    },
+    "Passive Scrutiny": {
+      "name": "Scrutinio Passivo",
+      "description": "Noti rapidamente dettagli che potrebbero essere importanti in seguito.",
+      "rule": "Quando entri in una scena, puoi fare una domanda al Narratore come se avessi speso Momentum per Ottenere Informazioni.",
+      "faction": ""
+    },
+    "Rigorous Control": {
+      "name": "Controllo Rigoroso",
+      "description": "Sei un'isola di calma nel caos dell'universo, mantenendo il controllo su te stesso quando non puoi controllare nient'altro.",
+      "rule": "Ogni volta che stai tentando un compito esteso basato su una delle tue abilità, a costo di 1 Momentum puoi usare la tua Disciplina per quel requisito invece dell’abilità normalmente richiesta. Se il requisito sarebbe normalmente basato sulla Disciplina, aggiungi +1 al requisito finale per quel compito esteso.",
+      "faction": ""
+    },
+    "Cautious": {
+      "name": "Prudente",
+      "description": "Sei paziente e circospetto, agendo solo quando le probabilità sono a tuo favore.",
+      "rule": "Quando selezioni questo talento, scegli una singola abilità. Quando tenti un test usando quell’abilità e compri dadi extra spendendo Momentum, puoi rilanciare un singolo d20 in quel pool di dadi.",
+      "faction": ""
+    },
+    "Unquestionable Loyalty": {
+      "name": "Fedeltà Incontestabile",
+      "description": "La tua lealtà alla tua Casa è tale da poterti spingere all’azione anche nelle circostanze più disperate.",
+      "rule": "All'inizio di ogni avventura, inizi con un punto di Determinazione aggiuntivo. Questo punto extra può essere usato solo per un’azione direttamente al servizio della tua Casa.",
+      "faction": ""
+    }
+  }
+}

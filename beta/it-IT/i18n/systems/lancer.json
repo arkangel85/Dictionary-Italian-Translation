@@ -1,0 +1,432 @@
+{
+  "TYPES": {
+    "Actor": {
+      "deployable": "Dispiegabile",
+      "mech": "Mech",
+      "npc": "PNG",
+      "pilot": "Pilota"
+    },
+    "Item": {
+      "bond": "Legame",
+      "core_bonus": "Bonus Nucleo",
+      "frame": "Telaio",
+      "license": "Licenza",
+      "mech_system": "Sistema Mech",
+      "mech_weapon": "Arma Mech",
+      "npc_class": "Classe PNG",
+      "npc_feature": "Caratteristica PNG",
+      "npc_template": "Template PNG",
+      "organization": "Organizzazione",
+      "pilot_armor": "Armatura Pilota",
+      "pilot_gear": "Equipaggiamento Pilota",
+      "pilot_weapon": "Arma Pilota",
+      "reserve": "Riserva",
+      "skill": "Abilità",
+      "status": "Stato",
+      "talent": "Talento",
+      "weapon_mod": "Modifica Arma"
+    }
+  },
+  "lancer": {
+    "Actor": {
+      "FIELDS": {
+        "activations": { "label": "Attivazioni" }
+      }
+    },
+    "placeholder": {
+      "name": "Nome"
+    },
+    "common-sheet": {
+      "tabs": {
+        "effects": "<EFFETTI ATTIVI>"
+      }
+    },
+    "deployable-sheet": {
+      "tabs": {
+        "status": "<STATO>",
+        "config": "<CONFIGURAZIONE>"
+      },
+      "deployer": {
+        "label": "DISPIEGATO DA"
+      },
+      "stats": {
+        "label": "STATISTICHE"
+      }
+    },
+    "mech-sheet": {
+      "tabs": {
+        "stats": "<STATISTICHE>",
+        "loadout": "<EQUIPAGGIAMENTO>",
+        "talents": "<TALENTI>"
+      },
+      "core": {
+        "label": "NUCLEO"
+      },
+      "actions": {
+        "label": "AZIONI"
+      },
+      "macros": {
+        "label": "MACRO"
+      },
+      "system": {
+        "label": "EQUIPAGGIAMENTO",
+        "sp-used": "SP USATI"
+      }
+    },
+    "npc-sheet": {
+      "header": {
+        "class": "CLASSE:"
+      },
+      "class": {
+        "label": "CLASSE",
+        "none": "NESSUNA CLASSE"
+      },
+      "templates": {
+        "label": "TEMPLATE"
+      },
+      "features": {
+        "label": "CARATTERISTICHE"
+      },
+      "effects": {
+        "label": "EFFETTI ATTIVI"
+      }
+    },
+    "pilot-sheet": {
+      "header": {
+        "ll": "LIVELLO LICENZA:",
+        "cs": "NOME IN CODICE:",
+        "name": "NOME:",
+        "bg": "SPECIALIZZAZIONE:"
+      },
+      "tabs": {
+        "cloud": "<SINCRONIZZAZIONE>",
+        "dossier": "<FASCICOLO>",
+        "narrative": "<NARRATIVA>",
+        "tactical": "<TATTICA>",
+        "loadout": "<EQUIPAGGIAMENTO>",
+        "mech": "<MECH ATTIVO>"
+      },
+      "cloud-header": {
+        "label": "ID COLLEGAMENTO OMNINET",
+        "vaultID": "Carica da account Comp/Con",
+        "raw-placeholder": "oppure inserisci manualmente il codice"
+      },
+      "cloud-download": {
+        "label": "SCARICA",
+        "lastSync": "Sincronizzato: {timestamp}"
+      },
+      "cloud-upload": {
+        "label": "CARICA",
+        "wip": "FUNZIONE IN SVILUPPO"
+      },
+      "json-import": {
+        "label": "IMPORTA"
+      },
+      "dossier": {
+        "cs": "NOME IN CODICE",
+        "name": "NOME"
+      },
+      "narrative": {
+        "bond": "LEGAME CON {bondName}",
+        "burdens": "FARDI",
+        "clocks": "OROLOGI"
+      },
+      "tactical": {
+        "armor": "ARMATURA",
+        "weapons": "ARMI",
+        "gear": "EQUIPAGGIAMENTO",
+        "reserves": "RISERVE",
+        "licenses": "LICENZE",
+        "cores": "BONUS NUCLEO"
+      },
+      "abilities": {
+        "skills": "ATTIVATORI ABILITÀ",
+        "talents": "TALENTI"
+      }
+    },
+    "chat-card": {
+      "title": {
+        "attack": "// ATTACCO //",
+        "damage": "// DANNO //",
+        "reliable": "// AFFIDABILITÀ //",
+        "crit-damage": "// DANNO CRITICO //",
+        "self-heat": "// SURRECALDAMENTO //",
+        "defense-hit": "// ATTACCO CONTRO {defense} //",
+        "effect": "// EFFETTO //",
+        "on-attack": "// ALL’ATTACCO //",
+        "on-hit": "// ALL’IMPATTO //",
+        "on-crit": "// AL CRITICO //",
+        "charge-roll": "// CARICA //",
+        "recharged": "// RICARICATO //",
+        "structure": "// DANNO STRUTTURALE //",
+        "overheating": "// SURRECALDAMENTO //",
+        "cascade": "// COLLASSO //",
+        "check": "// PROVA :: {check} //",
+        "system": "// SISTEMA :: {title} //",
+        "mod": "// MOD :: {title} //",
+        "trait": "// TRATTO :: {title} //",
+        "tech": "// TECNICA :: {title} //",
+        "reaction": "// REAZIONE :: {title} //"
+      },
+      "label": {
+        "trigger": "ATTIVATORE",
+        "effect": "EFFETTO"
+      },
+      "attack": {
+        "crit": "CRITICO",
+        "hit": "COLPITO",
+        "miss": "MANCATO",
+        "roll-all-damage": "TIRA DANNO"
+      },
+      "exclamation": {
+        "overkill": "SOVRACCARICO!"
+      },
+      "overcharge": {
+        "charged": "{target} + :: CARICATO",
+        "uncharged": "{target} + :: SCARICO"
+      },
+      "remaining": "{total} / {max} RIMANENTI"
+    },
+    "floatingDamageNumbers": {
+      "name": "Numeri di danno fluttuanti",
+      "hint": "Mostra numeri di danno fluttuanti quando cambiano i valori, incluso l'applicazione di danni. Questa impostazione è personale per ogni utente."
+    },
+    "uiTheme": {
+      "name": "Colore dell'interfaccia",
+      "hint": "Schema di colori per l'interfaccia.",
+      "gms": "Rosso // GMS",
+      "gmsDark": "Scuro // GMS",
+      "msmc": "Turchese // MSMC",
+      "horus": "Verde // HORUS",
+      "ha": "Porpora // Harrison Armory",
+      "ssc": "Giallo // SSC",
+      "ipsn": "Blu // IPS-N",
+      "gal": "Arancione // GALSIM"
+    },
+    "statusIconsConfig": {
+      "menu-name": "Icone di stato",
+      "menu-label": "Configurazione delle icone di stato",
+      "menu-hint": "Configura le icone di stato mostrate sui token",
+      "defaultConditionsStatus": "Stati e condizioni predefinite",
+      "defaultConditionsStatus-desc": "Abilita le icone di stato predefinite",
+      "cancerConditionsStatus": "Stati e condizioni di Cancermantis",
+      "cancerConditionsStatus-desc": "Abilita le icone di stato e condizioni da Cancermantis",
+      "cancerNPCTemplates": "Template PNG di Cancermantis",
+      "cancerNPCTemplates-desc": "Abilita le icone dei template PNG di Cancermantis",
+      "hayleyConditionsStatus": "Stati e condizioni di Hayley",
+      "hayleyConditionsStatus-desc": "Abilita le icone di stato e condizioni da Hayley",
+      "hayleyPC": "Sistemi PG di Hayley",
+      "hayleyPC-desc": "Abilita le icone degli effetti dei sistemi PG di Hayley",
+      "hayleyNPC": "Sistemi PNG di Hayley",
+      "hayleyNPC-desc": "Abilita le icone degli effetti dei sistemi PNG di Hayley",
+      "hayleyUtility": "Utility di Hayley",
+      "hayleyUtility-desc": "Abilita le icone delle utility di Hayley",
+      "tommyConditionsStatus": "Stati e condizioni di Tommy",
+      "tommyConditionsStatus-desc": "Abilita le icone di stato e condizioni da Tommy"
+    },
+    "statusIconsNames": {
+      "abjure": "Ripudio",
+      "aceso": "Aceso",
+      "blind": "Cecità",
+      "bolster": "Rafforzamento",
+      "burn": "Bruciatura",
+      "camus_razor": "Rasoio di Camus",
+      "chain": "Catena",
+      "chains_of_prometheus": "Catene di Prometeo",
+      "clamp_bomb": "Bomba a morsetto",
+      "commander": "Comandante",
+      "cover_hard": "Copertura - Dura",
+      "cover_soft": "Copertura - Morbida",
+      "dangerzone": "Zona Pericolosa",
+      "destroyed": "Distrutto",
+      "dimensional_shackles": "Manette Dimensionali",
+      "dispersal_shield_1": "Scudo Dispersivo 1",
+      "dispersal_shield_2": "Scudo Dispersivo 2",
+      "dispersal_shield_3": "Scudo Dispersivo 3",
+      "dominions_breadth": "Ampiezza del Dominio",
+      "downandout": "Fuori combattimento",
+      "duat_gate": "Portale di Duat",
+      "echo_edge": "Bordo dell'Eco",
+      "elite": "Elite",
+      "engaged": "Corpo a Corpo",
+      "excommunicate": "Scomunica",
+      "exotic": "Esotico",
+      "exposed": "Esposizione",
+      "fade_cloak": "Mantello dell'Oblio",
+      "flaw_minus": "DIFETTO_meno",
+      "flaw_plus": "DIFETTO_piu",
+      "flying": "Volante",
+      "focus_down": "Concentrazione",
+      "follower_count": "Contatore Seguaci",
+      "grappled": "Afferrato",
+      "gravity": "Gravità",
+      "grind_maniple": "Manipolo Triturante",
+      "grunt": "Soldato",
+      "haste": "Fretta",
+      "hidden": "Nascosto",
+      "hiddeninvis": "Nascosto e Invisibile",
+      "hunter_lock": "Blocco del Cacciatore",
+      "hyperdense_armor": "Armatura Iperdensa",
+      "illusionary_subroutines": "Sottoprogrammi Illusori",
+      "immobilized": "Immobilizzato",
+      "impaired": "Menomato",
+      "imperial_eye": "Occhio Imperiale",
+      "intangible": "Intangibile",
+      "investiture": "Investitura",
+      "invisible": "Invisibile",
+      "jammed": "Interferenza",
+      "kraul_grapple": "Presa di Kraul",
+      "latch_drone": "Drone Agganciante",
+      "lockon": "Blocco Bersaglio",
+      "marked": "Marcato",
+      "mercenary": "Mercenario",
+      "metahook": "Gancio Meta",
+      "molten_puncture": "Perforazione Fusa",
+      "npc_tier_1": "Livello 1",
+      "npc_tier_2": "Livello 2",
+      "npc_tier_3": "Livello 3",
+      "overshield": "Scudo Extra",
+      "pain_transference": "Trasferimento Dolore",
+      "petrify": "Pietrificazione",
+      "pirate": "Pirata",
+      "prone": "Prono",
+      "reactor_meltdown": "Fusione del Reattore",
+      "resistance_burn": "Resistenza al Fuoco",
+      "resistance_energy": "Resistenza all'Energia",
+      "resistance_explosive": "Resistenza alle Esplosioni",
+      "resistance_heat": "Resistenza al Calore",
+      "resistance_kinetic": "Resistenza Cinetica",
+      "retort_loop": "Ciclo di Replica",
+      "rpv": "VDR",
+      "sanctuary": "Santuario",
+      "shahnameh": "Shahnameh",
+      "ship": "Nave",
+      "shredded": "Strappato",
+      "shutdown": "Spegnimento",
+      "slow": "Lento",
+      "spacer": "Astronauta",
+      "spike": "Punta",
+      "stasis": "Stasi",
+      "stunned": "Stordito",
+      "supercharger": "Sovralimentatore",
+      "sympathetic_shield": "Scudo Simpatico",
+      "tachyon_shield": "Scudo Tachionico",
+      "tear_down": "Smantellamento",
+      "terrify": "Terrorizza",
+      "tiercust": "Livello Personalizzato",
+      "tracking_bug": "Cimice Tracciante",
+      "trueblack": "Egida Nero Assoluto",
+      "ultra": "Ultra",
+      "unravel": "Dissoluzione",
+      "vehicle": "Veicolo",
+      "veteran": "Veterano",
+      "viral_logic": "Logica Virale",
+      "walk_of_kings": "Cammino dei Re",
+      "warp_sensors": "Sensori di Curvatura"
+    },
+    "automation": {
+      "menu-name": "Automazione",
+      "menu-label": "Impostazioni di automazione del sistema",
+      "menu-hint": "Seleziona quali funzionalità del sistema desideri automatizzare",
+      "master-switch": "Abilita automazione",
+      "master-switch-desc": "Disattiva se non desideri alcuna automazione.",
+      "attacks": "Calcolo dei tiri per colpire",
+      "attacks-desc": "Calcola automaticamente colpi e altri elementi di attacco.",
+      "damage": "Infliggere danno",
+      "damage-desc": "Infligge automaticamente danno ai bersagli.",
+      "structure": "Controllo struttura/pressione",
+      "structure-desc": "Esegue automaticamente controlli di struttura e pressione quando il mech raggiunge 0 PF o il limite di calore.",
+      "overcharge_heat": "Aggiunta calore da sovraccarico",
+      "overcharge_heat-desc": "Aggiunge automaticamente calore durante i controlli di sovraccarico.",
+      "attack_self_heat": "Auto-surriscaldamento da attacchi",
+      "attack_self_heat-desc": "Aggiunge automaticamente calore se l’arma ha tag Soppressione Totale o Calore.",
+      "remove_templates": "Rimuovi automaticamente i template",
+      "remove_templates-desc": "Rimuove automaticamente i template d’attacco all’inizio di ogni turno.",
+      "limited_loading": "Oggetti esclusivi e ricaricabili",
+      "limited_loading-desc": "Tiene automaticamente traccia degli oggetti con i tag Esclusivo e Ricaricabile.",
+      "npc_recharge": "Ricarica dei PNG",
+      "npc_recharge-desc": "Esegue automaticamente i controlli di ricarica dei sistemi dei PNG all’inizio del loro turno.",
+      "token_size": "Gestione della dimensione dei token",
+      "token_size-desc": "Imposta automaticamente la dimensione dei token in base alla dimensione indicata nei parametri dell’attore."
+    },
+    "actionTracker": {
+      "menu-name": "Tracciatore di Azioni",
+      "menu-label": "Configurazione del tracciatore di azioni",
+      "menu-hint": "Impostazioni di aspetto e automazione del tracciatore.",
+      "showHotbar": "Mostra barra rapida",
+      "showHotbar-desc": "Mostra la barra rapida delle azioni durante il combattimento.",
+      "allowPlayers": "Modificabile dai giocatori",
+      "allowPlayers-desc": "Consente ai giocatori di modificare le proprie azioni.",
+      "printMessages": "Messaggi in chat",
+      "printMessages-desc": "Mostra messaggi in chat all’inizio e alla fine del turno."
+    },
+    "initiative": {
+      "sorttracker": "Ordina tracciatore",
+      "sorttracker-desc": "Sposta il token che sta agendo in cima al tracciatore e quelli che hanno già agito in fondo.",
+      "appearancesettingslabel": "Impostazioni estetiche",
+      "appearancesettingsbutton": "Aspetto",
+      "appearancesettings-desc": "Configura colori e icone del tracciatore"
+    },
+    "squaregriddiagonals": {
+      "name": "Diagonali nella griglia quadrata",
+      "hint": "Seleziona come calcolare il movimento diagonale sulla griglia quadrata.",
+      "111": "1-1-1: la diagonale vale sempre 1 (default)",
+      "121": "1-2-1: la diagonale alterna tra 1 e 2",
+      "222": "2-2-2: la diagonale vale sempre 2",
+      "euc": "Esatto: distanza precisa arrotondata"
+    },
+    "effect": {
+      "categories": {
+        "passive": "Passivo",
+        "passthrough": "Trasversale",
+        "disabled": "Disattivato",
+        "inherited": "Ereditato"
+      }
+    },
+    "compendium": {
+      "core_macros": "Macro LANCER",
+      "lancer_info": "Informazioni LANCER",
+      "deployable": "Dispiegabili",
+      "mech-items": "Oggetti Mech",
+      "npc-actors": "PNG Predefiniti",
+      "npc-items": "Oggetti PNG",
+      "pilot-items": "Oggetti Pilota",
+      "player-actors": "Personaggi Giocatori Predefiniti",
+      "status-items": "Stati/Condizioni"
+    },
+    "tokenConfig": {
+      "manual_token_size": {
+        "label": "Dimensione token manuale",
+        "hint": "Ignora la configurazione automatica della dimensione del token"
+      }
+    }
+  },
+  "LANCERINITIATIVE": {
+    "IconSettingsMenu": "Impostazioni icone",
+    "Icon": "Icona di azione",
+    "IconDesc": "Classe CSS per l’icona di attivazione.",
+    "DeactivateIcon": "Icona di disattivazione",
+    "DeactivateIconDesc": "Classe CSS per l’icona di disattivazione.",
+    "IconSize": "Dimensione dell’icona",
+    "IconPreview": "Anteprima",
+    "PCColor": "Colore dei giocatori",
+    "PCColorDesc": "Predefinito: #44abe0",
+    "FriendlyColor": "Colore degli alleati",
+    "FriendlyColorDesc": "Predefinito: #44abe0",
+    "NeutralColor": "Colore dei neutrali",
+    "NeutralColorDesc": "Predefinito: #146464",
+    "EnemyColor": "Colore dei nemici",
+    "EnemyColorDesc": "Predefinito: #d98f30",
+    "DoneColor": "Colore degli inattivi",
+    "DoneColorDesc": "Predefinito: #aaaaaa",
+    "ActivatedLast": "Token attivato in fondo",
+    "ActivatedLastDesc": "Sposta i token che hanno già agito in fondo al tracciatore.",
+    "SortTracker": "Ordina tracciatore",
+    "SortTrackerDesc": "Sposta il token attivo in cima e quelli già attivati in fondo.",
+    "EnableInitiative": "Controllo dell’iniziativa",
+    "EnableInitiativeDesc": "Aggiunge un pulsante per controllare l’iniziativa.",
+    "AddActivation": "Aggiungi attivazione",
+    "RemoveActivation": "Rimuovi attivazione",
+    "UndoActivation": "Annulla attivazione"
+  }
+}

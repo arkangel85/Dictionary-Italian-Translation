@@ -1,0 +1,103 @@
+{
+  "rsr5e": {
+    "settings": {
+      "enableSkillQuickRoll.name": "Tiri rapidi di abilità",
+      "enableSkillQuickRoll.hint": "Cliccando su un’abilità verrà eseguito automaticamente un tiro, invece di aprire la finestra standard. Per aprire la finestra standard, tieni premuto il tasto 'Salta finestra'.",
+      "enableAbilityQuickRoll.name": "Tiri rapidi di caratteristiche",
+      "enableAbilityQuickRoll.hint": "Cliccando su una caratteristica o su un tiro salvezza verrà eseguito automaticamente un tiro. La finestra standard può essere aperta tenendo premuto 'Salta finestra'.",
+      "enableToolQuickRoll.name": "Tiri rapidi con strumenti",
+      "enableToolQuickRoll.hint": "Cliccando su uno strumento verrà eseguito automaticamente un tiro. Per la finestra standard, tieni premuto 'Salta finestra'.",
+      "enableActivityQuickRoll.name": "Tiri rapidi delle funzionalità",
+      "enableActivityQuickRoll.hint": "Cliccando su una funzionalità dell’oggetto verrà eseguito automaticamente un tiro. La finestra standard si apre tenendo premuto 'Salta finestra'.",
+      "enableVanillaQuickRoll.name": "Abilita modifica dei tiri standard",
+      "enableVanillaQuickRoll.hint": "Anche i tiri standard avranno lo stile e la funzionalità del modulo RSR. Si applica anche se il tiro è fatto saltando il rapido (tasto 'Salta finestra').",
+      "alwaysRollMulti.name": "Tirare sempre più dadi",
+      "alwaysRollMulti.hint": "Nei tiri rapidi, lancia sempre due dadi anche se vantaggio/svantaggio non sono applicati.",
+      "manualDamageMode.name": "Tiro danni manuale",
+      "manualDamageMode.hint": "Nei tiri rapidi, non tirare automaticamente il danno. Verrà mostrato un pulsante sulla carta in chat per farlo manualmente.",
+      "aggregateDamage.name": "Unifica i tipi di danno",
+      "aggregateDamage.hint": "Nei tiri rapidi, somma i danni dello stesso tipo in un unico campo.",
+      "enableD20Icons.name": "Mostra D20 nei tiri rapidi",
+      "enableD20Icons.hint": "Nei tiri rapidi, mostra un'icona con il valore naturale accanto al risultato finale.",
+      "enableDiceReroll.name": "Abilita rilancio dei dadi",
+      "enableDiceReroll.hint": "Consente di cliccare su un dado nella chat per rilanciarlo.",
+      "enableOverlayButtons.name": "Abilita pulsanti aggiuntivi",
+      "enableOverlayButtons.hint": "Aggiunge pulsanti extra di danno/cura sulla carta in chat nei tiri rapidi.",
+      "enableDamageButtons.name": "Mostra pulsanti di danno",
+      "enableDamageButtons.hint": "Mostra pulsanti per infliggere danno direttamente al token nella carta chat con danni.",
+      "alwaysShowButtons.name": "Mostra sempre pulsanti di danno",
+      "alwaysShowButtons.hint": "I pulsanti di danno saranno sempre visibili, non solo al passaggio del mouse.",
+      "applyDamageTo.name": "Applicazione danno/cura",
+      "applyDamageTo.hint": "Determina a quali token verrà applicato il danno o la cura tramite i pulsanti nella carta chat.",
+      "confirmRetroAdv.name": "Conferma vantaggio retroattivo",
+      "confirmRetroAdv.hint": "Mostra una finestra di conferma quando si applica vantaggio/svantaggio retroattivamente.",
+      "confirmRetroCrit.name": "Conferma critico retroattivo",
+      "confirmRetroCrit.hint": "Mostra una finestra di conferma quando si modifica retroattivamente il tiro in un colpo critico."
+    },
+    "choices": {
+      "rollModifierMode": {
+        "shiftAdv": "Shift ➔ Vantaggio, Ctrl/Cmd ➔ Svantaggio",
+        "ctrlAdv": "Ctrl/Cmd ➔ Vantaggio, Shift ➔ Svantaggio"
+      },
+      "apply": {
+        "0": "Token selezionati",
+        "1": "Token mirati",
+        "2": "Selezionati e mirati",
+        "3": "Priorità ai selezionati",
+        "4": "Priorità ai mirati"
+      },
+      "manual": {
+        "0": "Mai",
+        "1": "Solo tiri d'attacco",
+        "2": "Sempre"
+      }
+    },
+    "sheet": {
+      "tab": {
+        "title": "Tiro rapido",
+        "section": {
+          "defaultRoll": "Impostazioni di tiro predefinite",
+          "alternateRoll": "Impostazioni tiro alternativo"
+        },
+        "subsection": {
+          "main": "Principale",
+          "damage": "Tiri per danno"
+        }
+      },
+      "placeholder": {
+        "context": "Contesto",
+        "label": "Nome"
+      }
+    },
+    "chat": {
+      "buttons": {
+        "damageFull": "Infliggi danno pieno ai token selezionati",
+        "damageHalf": "Infliggi metà danno ai token selezionati",
+        "damageQuarter": "Infliggi un quarto di danno ai token selezionati",
+        "damageDouble": "Infliggi doppio danno ai token selezionati",
+        "healing": "Cura i token selezionati",
+        "healingTemp": "Aggiungi PF temporanei ai token selezionati",
+        "rollCrit": "Tiro per danno critico",
+        "rollAdvantage": "Tiro con vantaggio",
+        "rollDisadvantage": "Tiro con svantaggio",
+        "repeat": "Ripeti il tiro rapido"
+      },
+      "prompts": {
+        "retroCrit": "Aggiornare a critico?",
+        "retroAdv": "Tiro con {target}?"
+      }
+    },
+    "messages": {
+      "error": {
+        "incorrectTargetState": "Impossibile trasformare il tiro in {state}, poiché non è un'opzione valida (vantaggio o svantaggio).",
+        "rollIsNullOrUndefined": "Il tiro ha restituito null o undefined.",
+        "termIsNullOrUndefined": "La formula ha restituito null o undefined.",
+        "applyDamageNoPermission": "Non hai i permessi per infliggere danno a questo token.",
+        "applyDamageNoTokens": "Nessun token selezionato o mirato su cui applicare danno."
+      },
+      "warning": {
+        "emptyDamageField": "Uno o più campi di danno per questo oggetto non sono compilati. Assicurati che tutti i danni siano inseriti prima del tiro."
+      }
+    }
+  }
+}

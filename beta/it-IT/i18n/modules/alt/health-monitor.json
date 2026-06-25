@@ -1,0 +1,18 @@
+{
+  "healthMonitor": {
+    "chatMessage": {
+      "Immunity": "Immunità",
+      "Resistance": "Resistenza",
+      "Vulnerability": "Vulnerabilità",
+      "maxHP": "PF max"
+    },
+    "settings": {
+      "hideNPCs": {
+        "name": "Nascondi il log dei PF degli NPC ai giocatori"
+      },
+      "trackMax": {
+        "name": "Mostra modifiche ai PF massimi / PF temporanei massimi"
+      }
+    }
+  }
+}

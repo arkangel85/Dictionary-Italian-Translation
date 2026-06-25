@@ -1,0 +1,30 @@
+{
+  "label": "Abilità dei nemici",
+  "mapping": {
+    "category": "data.category"
+  },
+  "entries": {
+    "Athletics": {
+      "name": "Atletica",
+      "category": "Generali"
+    },
+    "Health": {
+      "name": "Salute",
+      "category": "Generali"
+    },
+    "Melee Attack": {
+      "name": "Attacco in mischia"
+    },
+    "Ranged Attack": {
+      "name": "Attacco a distanza"
+    },
+    "Scuffling": {
+      "name": "Rissa",
+      "category": "Generali"
+    },
+    "Shooting": {
+      "name": "Tiro",
+      "category": "Generali"
+    }
+  }
+}

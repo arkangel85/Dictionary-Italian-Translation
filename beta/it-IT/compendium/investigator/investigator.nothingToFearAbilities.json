@@ -1,0 +1,160 @@
+{
+  "label": "Abilità - Fear Itself",
+  "mapping": {
+    "category": "data.category"
+  },
+  "entries": {
+    "Athletics": {
+      "name": "Atletica",
+      "category": "Generali"
+    },
+    "Aura Reading": {
+      "name": "Lettura dell'aura",
+      "category": "Poteri mistici"
+    },
+    "Bullshit Detector": {
+      "name": "Intuito",
+      "category": "Interpersonali"
+    },
+    "Bureaucracy": {
+      "name": "Burocrazia",
+      "category": "Interpersonali"
+    },
+    "Cop Talk": {
+      "name": "Gergo della polizia",
+      "category": "Interpersonali"
+    },
+    "Driving": {
+      "name": "Guida",
+      "category": "Generali"
+    },
+    "Filch": {
+      "name": "Furtarello",
+      "category": "Generali"
+    },
+    "Flattery": {
+      "name": "Lusinga",
+      "category": "Interpersonali"
+    },
+    "Fleeing": {
+      "name": "Fuga",
+      "category": "Generali"
+    },
+    "Flirting": {
+      "name": "Flirt",
+      "category": "Interpersonali"
+    },
+    "Health": {
+      "name": "Salute",
+      "category": "Generali"
+    },
+    "Hiding": {
+      "name": "Nascondersi",
+      "category": "Generali"
+    },
+    "History": {
+      "name": "Storia",
+      "category": "Scientifiche"
+    },
+    "Impersonate": {
+      "name": "Impersonare",
+      "category": "Interpersonali"
+    },
+    "Infiltration": {
+      "name": "Infiltrazione",
+      "category": "Generali"
+    },
+    "Interrogation": {
+      "name": "Interrogatorio",
+      "category": "Interpersonali"
+    },
+    "Intimidation": {
+      "name": "Intimidazione",
+      "category": "Interpersonali"
+    },
+    "Languages": {
+      "name": "Lingue",
+      "category": "Scientifiche"
+    },
+    "Law": {
+      "name": "Legge",
+      "category": "Scientifiche"
+    },
+    "Mechanics": {
+      "name": "Meccanica",
+      "category": "Generali"
+    },
+    "Medic": {
+      "name": "Primo soccorso",
+      "category": "Generali"
+    },
+    "Medicine": {
+      "name": "Medicina",
+      "category": "Applicate"
+    },
+    "Negotiation": {
+      "name": "Negoziazione",
+      "category": "Interpersonali"
+    },
+    "Notice": {
+      "name": "Percezione",
+      "category": "Applicate"
+    },
+    "Occult Studies": {
+      "name": "Studi occulti",
+      "category": "Scientifiche"
+    },
+    "Outdoor Survival": {
+      "name": "Sopravvivenza",
+      "category": "Applicate"
+    },
+    "Photography": {
+      "name": "Fotografia",
+      "category": "Applicate"
+    },
+    "Preparedness": {
+      "name": "Prontezza",
+      "category": "Generali"
+    },
+    "Reassurance": {
+      "name": "Rassicurazione",
+      "category": "Interpersonali"
+    },
+    "Research": {
+      "name": "Ricerca",
+      "category": "Scientifiche"
+    },
+    "Science!": {
+      "name": "Scienze esatte",
+      "category": "Applicate"
+    },
+    "Scuffling": {
+      "name": "Rissa",
+      "category": "Generali"
+    },
+    "Sense Trouble": {
+      "name": "Sesto senso",
+      "category": "Generali"
+    },
+    "Shooting": {
+      "name": "Tiro",
+      "category": "Generali"
+    },
+    "Shrink": {
+      "name": "Fuga",
+      "category": "Generali"
+    },
+    "Stability": {
+      "name": "Autocontrollo",
+      "category": "Generali"
+    },
+    "Streetwise": {
+      "name": "Furbizia di strada",
+      "category": "Interpersonali"
+    },
+    "Trivia": {
+      "name": "Erudizione",
+      "category": "Scientifiche"
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "label": "Poteri base",
+  "entries": {
+    "Arcane Protection": {
+      "name": "Protezione sovrannaturale",
+      "trapping": "concentrazione, debole bagliore attorno al personaggio protetto, amuleto",
+      "description": "<p>Gli incantatori nemici ricevono una penalità di −2 (−4 con successo critico) se prendono di mira il personaggio protetto. Il danno è ridotto in modo simile.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Banish": {
+      "name": "Esilio",
+      "trapping": "oggetti sacri, simboli magici, manciata di sale",
+      "description": "<p>Richiede una prova contrapposta contro il carattere del bersaglio per scacciarlo.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Barrier": {
+      "name": "Barriera",
+      "trapping": "fuoco, ghiaccio, spine, campo di forza, ossa, energia",
+      "description": "<p>Genera una barriera lunga 5 pollici (10 iarde), alta 1 pollice (2 iarde) e con forza 10.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Beast Friend": {
+      "name": "Amico degli animali",
+      "trapping": "concentrazione e gesti",
+      "description": "<p>Permette di controllare gli animali.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Blast": {
+      "name": "Esplosione",
+      "trapping": "sfere di fuoco, ghiaccio, luminose o oscure, frecce colorate, sciami di insetti",
+      "description": "<p>Infligge 2d6 danni in area media.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Blind": {
+      "name": "Accecamento",
+      "trapping": "lampo di luce intensa, sabbia negli occhi, confusione",
+      "description": "<p>Impone una penalità di −2/−4 alle prove basate sulla vista.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Bolt": {
+      "name": "Freccia",
+      "trapping": "frecce di fuoco, ghiaccio, luce, colore, frecce d’ombra, sciami di insetti",
+      "description": "<p>Permette un attacco a distanza che infligge 2d6 danni (3d6 con successo critico).</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Boost/Lower Trait": {
+      "name": "Potenziare/Indebolire tratto",
+      "trapping": "mutazioni fisiche, aura luminosa, pozioni",
+      "description": "<p>Aumenta o diminuisce il valore di un'abilità o caratteristica scelta.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Burrow": {
+      "name": "Scavo sotterraneo",
+      "trapping": "il personaggio si nasconde sotto terra e riappare altrove",
+      "description": "<p>Permette di muoversi sottoterra.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Burst": {
+      "name": "Getto",
+      "trapping": "getto di fuoco, luce, altra materia o energia",
+      "description": "<p>Infligge 2d6 danni in area a cono.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Confusion": {
+      "name": "Confusione",
+      "trapping": "schema ipnotico di luci, illusioni brevi, suoni forti",
+      "description": "<p>Rende il bersaglio distratto e vulnerabile.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Damage Field": {
+      "name": "Campo distruttivo",
+      "trapping": "aura infuocata, spine, campo elettrico",
+      "description": "<p>Genera un'aura attorno al bersaglio che infligge 2d4 danni.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Darksight": {
+      "name": "Vista notturna",
+      "trapping": "occhi luminosi, pupille feline, ecolocalizzazione",
+      "description": "<p>Permette al bersaglio di ignorare fino a 4 punti di penalità per oscurità e fino a 6 con successo critico.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Deflection": {
+      "name": "Deviazione",
+      "trapping": "scudo magico, raffica di vento, guardiano spettrale",
+      "description": "<p>Impone una penalità di −2 agli attacchi a distanza o corpo a corpo sul bersaglio. Con successo critico, anche a entrambi.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Detect/Conceal Arcana": {
+      "name": "Rileva/Nascondi arcano",
+      "trapping": "gesti della mano, sussurri",
+      "description": "<p>Permette di rilevare magia per 5 turni o nasconderla per un'ora.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Disguise": {
+      "name": "Travestimento",
+      "trapping": "tratti sfocati, aspetto illusorio, cambio di acconciatura",
+      "description": "<p>Permette di assumere l'aspetto di un'altra persona.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Dispel": {
+      "name": "Dissolvi",
+      "trapping": "gesti della mano, sussurri",
+      "description": "<p>Annulla un incantesimo.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Divination": {
+      "name": "Divinazione",
+      "trapping": "preghiere, sedute esoteriche, contatti con demoni",
+      "description": "<p>Permette di porre domande a entità ultraterrene.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Drain Power Points": {
+      "name": "Prosciugamento",
+      "trapping": "preghiere, sussurri, gesti",
+      "description": "<p>Distrugge d6 Punti Potere del bersaglio se la prova di incanto contrapposta ha successo.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Elemental Manipulation": {
+      "name": "Manipolazione elementale",
+      "trapping": "alcuni gesti semplici",
+      "description": "<p>Permette di manipolare semplicemente gli elementi fondamentali.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Empathy": {
+      "name": "Empatia",
+      "trapping": "concentrazione, sorriso caldo, scambio di cortesie",
+      "description": "<p>Con un successo contrapposto contro il carattere del bersaglio fornisce un modificatore +1 (+2 con successo critico) alle prove sociali.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Entangle": {
+      "name": "Intrappolare",
+      "trapping": "bomba appiccicosa, liane, manette, ragnatele",
+      "description": "<p>Prende e immobilizza i nemici.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Environmental Protection": {
+      "name": "Protezione ambientale",
+      "trapping": "marchio sulla fronte, pozioni, branchie",
+      "description": "<p>Protegge il bersaglio da ambienti pericolosi.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Farsight": {
+      "name": "Vista acuta",
+      "trapping": "segnali illusori, vento guida, occhi d'aquila",
+      "description": "<p>Permette di vedere dettagli a lunga distanza, con successo critico riduce a metà le penalità da distanza.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Fear": {
+      "name": "Terrore",
+      "trapping": "gesti, bagliore sinistro, freddo gelido",
+      "description": "<p>Costringe il bersaglio a superare una prova di coraggio.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Fly": {
+      "name": "Volo",
+      "trapping": "vento impetuoso, ali, scope volanti",
+      "description": "<p>Permette al bersaglio di volare con passo 12.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Growth/Shrink": {
+      "name": "Crescita/Riduzione",
+      "trapping": "gesti, parole di potere, pozioni",
+      "description": "<p>Aumenta o diminuisce la dimensione del bersaglio.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Havoc": {
+      "name": "Tornado",
+      "trapping": "turbinio, sciame di fantasmi, campo respingente",
+      "description": "<p>Gli obiettivi in area media o a cono sono distratti e possono essere respinti.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Healing": {
+      "name": "Guarigione",
+      "trapping": "imposizione delle mani, tocco del simbolo sacro, preghiera",
+      "description": "<p>Guarisce ferite ricevute da meno di un'ora.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Illusion": {
+      "name": "Illusione",
+      "trapping": "incantesimi magici, ologrammi, proiettori eterei",
+      "description": "<p>Crea illusioni.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Intangibility": {
+      "name": "Incorporeità",
+      "trapping": "forma spettrale, corpo d'ombra, forma gassosa",
+      "description": "<p>Rende il bersaglio immateriale.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Invisibility": {
+      "name": "Invisibilità",
+      "trapping": "polvere, pozione, scintille iridescenti",
+      "description": "<p>Rende il bersaglio invisibile (penalità −4/−6 agli effetti su di esso).</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Light / Darkness": {
+      "name": "Luce / Oscurità",
+      "trapping": "torcia illusoria, luce solare, oscurità, nebbia fitta",
+      "description": "<p>Genera o rimuove l'illuminazione.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Mind Link": {
+      "name": "Collegamento mentale",
+      "trapping": "auricolari, talismani Dao, cristalli",
+      "description": "<p>Permette la comunicazione telepatica entro 1,5 km (8 km con successo critico).</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Mind Reading": {
+      "name": "Lettura del pensiero",
+      "trapping": "invasione psionica, lettura dell'anima",
+      "description": "<p>Con una prova superata contro l'astuzia del bersaglio permette di leggere i suoi pensieri.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Mind Wipe": {
+      "name": "Cancellazione della memoria",
+      "trapping": "pozione velenosa, parassiti, tocco alle tempie della vittima",
+      "description": "<p>Rimuove o altera i ricordi.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Object Reading": {
+      "name": "Psicometria",
+      "trapping": "contatto con l'oggetto, mani che brillano",
+      "description": "<p>Permette di vedere scene passate tramite il contatto con un oggetto.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Protection": {
+      "name": "Armatura",
+      "trapping": "bagliore misterioso, pelle indurita, armature eteree, molti naniti",
+      "description": "<p>Aggiunge 2 punti armatura o 2 punti resistenza con successo.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Puppet": {
+      "name": "Burattino",
+      "trapping": "occhi luminosi, trance, orologio da tasca oscillante, bambole voodoo",
+      "description": "<p>Richiede una prova contrapposta contro il carattere del bersaglio, permette di controllarlo.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Relief": {
+      "name": "Supporto",
+      "trapping": "preghiera, elisir",
+      "description": "<p>Rimuove stati specifici o aiuta a ignorare effetti di ferite e fatica.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Resurrection": {
+      "name": "Resurrezione",
+      "trapping": "cerimonia solenne, piante rare, amuleti magici, intervento divino",
+      "description": "<p>Riporta in vita i morti.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Shape Change": {
+      "name": "Trasformazione",
+      "trapping": "trasformazione, talismani, tatuaggi",
+      "description": "<p>Permette al mago di trasformarsi in varie creature.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Sloth/Speed": {
+      "name": "Rallentamento/Accelerazione",
+      "trapping": "rallentamento del tempo, movimento sfocato, macchia scivolosa di olio o ghiaccio",
+      "description": "<p>Aumenta o diminuisce la velocità di movimento e la coordinazione.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Slumber": {
+      "name": "Sonno",
+      "trapping": "ninna nanna, spargimento di polvere soporifera",
+      "description": "<p>Addormenta il bersaglio.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Smite": {
+      "name": "Colpo devastante",
+      "trapping": "bagliore colorato, rune, simboli, crepitio di energia, spine che crescono dalla lama",
+      "description": "<p>Aumenta il danno dell'arma del bersaglio di +2/+4.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Sound/Silence": {
+      "name": "Suono/Silenzio",
+      "trapping": "vibrazione dell'aria, campanello tintinnante o che smette di suonare",
+      "description": "<p>Genera o sopprime il suono.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Speak Language": {
+      "name": "Parlare lingue",
+      "trapping": "parole, immagini, gesti",
+      "description": "<p>Permette di parlare e comprendere lingue sconosciute.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Stun": {
+      "name": "Stordire",
+      "trapping": "frecce energetiche, granate stordenti, tuono, lampo di luce",
+      "description": "<p>Stordisce il bersaglio.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Summon Ally": {
+      "name": "Evocare alleato",
+      "trapping": "figurina di argilla che diventa un guerriero, tatuaggio vivente",
+      "description": "<p>Evoca un alleato fedele e senza paura.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Telekinesis": {
+      "name": "Telecinesi",
+      "trapping": "movimento della mano, gesto di bacchetta magica, sguardo intenso",
+      "description": "<p>Muove oggetti usando una forza d10 (d12 con successo critico).</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Teleport": {
+      "name": "Teletrasporto",
+      "trapping": "nuvola di fumo, dissolvimento nell'aria, trasformazione in freccia o fulmine",
+      "description": "<p>Teletrasporta il bersaglio fino a 12 pollici (24 con successo critico).</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Wall Walker": {
+      "name": "Camminatore di muri",
+      "trapping": "caratteristiche da ragno, peli adesivi su mani e piedi",
+      "description": "<p>Permette al bersaglio di camminare sui muri per metà del suo passo (intero passo con successo critico).</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Warrior's Gift": {
+      "name": "Dono del guerriero",
+      "trapping": "gesti, preghiere, sussurri, concentrazione",
+      "description": "<p>Il personaggio ottiene un tratto da combattimento.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Zombie": {
+      "name": "Zombie",
+      "trapping": "incisioni di simboli sui cadaveri, spargimento di ossa, rituali nel cimitero, libri di pelle umana",
+      "description": "<p>Evoca non morti controllati.</p><p>Descrizione completa dei poteri disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    }
+  }
+}

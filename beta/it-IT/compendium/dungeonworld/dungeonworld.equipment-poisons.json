@@ -1,0 +1,39 @@
+{
+  "label": "Equipaggiamento (Veleni)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "tags": "system.tags",
+    "tagsString": "system.tagsString"
+  },
+  "entries": [
+    {
+      "id": "Bloodweed",
+      "name": "Alga Sanguigna",
+      "description": "Finché il veleno ha effetto, ogni volta che la vittima infligge danni, sottrae [[/roll 1d4]] dal proprio risultato.",
+      "tags": "[{\"value\":\"pericoloso\"},{\"value\":\"tocco\"}]",
+      "tagsString": "pericoloso, tocco"
+    },
+    {
+      "id": "Goldenroot",
+      "name": "Radice Dorata",
+      "description": "La vittima considera la prima persona che incontra come un alleato fidato, finché non riceve prove del contrario.",
+      "tags": "[{\"value\":\"pericoloso\"},{\"value\":\"contatto\"}]",
+      "tagsString": "pericoloso, contatto"
+    },
+    {
+      "id": "Oil of Tagit",
+      "name": "Olio di Tagit",
+      "description": "La vittima cade in un sonno leggero.",
+      "tags": "[{\"value\":\"pericoloso\"},{\"value\":\"contatto\"}]",
+      "tagsString": "pericoloso, contatto"
+    },
+    {
+      "id": "Serpent's Tears",
+      "name": "Lacrime di Serpente",
+      "description": "Chiunque infligga danni alla vittima tira due volte e sceglie il risultato migliore.",
+      "tags": "[{\"value\":\"pericoloso\"},{\"value\":\"tocco\"}]",
+      "tagsString": "pericoloso, tocco"
+    }
+  ]
+}

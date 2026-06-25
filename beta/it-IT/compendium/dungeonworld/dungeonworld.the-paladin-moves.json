@@ -1,0 +1,139 @@
+{
+  "label": "Mosse del paladino",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Armored",
+      "name": "Abituato all’armatura",
+      "description": "Ignori la proprietà <i>ingombrante</i> delle armature."
+    },
+    {
+      "id": "Bloody Aegis",
+      "name": "Scudo di sangue",
+      "description": "Quando subisci danni, puoi stringere i denti e sopportare il dolore con la forza di volontà. In tal caso non subisci danno, ma subisci una ferita a tua scelta. Se hai già tutte e sei le ferite, non puoi usare questa mossa."
+    },
+    {
+      "id": "Charge!",
+      "name": "All’attacco!",
+      "description": "Quando <b>guida la tua squadra all’attacco</b>, i personaggi sotto il tuo comando ottengono +1 alla prossima mossa."
+    },
+    {
+      "id": "Divine Authority",
+      "name": "Investito dell’autorità divina",
+      "description": "Ottieni +1 ai tiri per dare ordini ai mercenari. Se ottieni un 12+, i mercenari superano rapidamente paura e dubbi ed eseguono l’ordine con precisione ed entusiasmo eccezionali."
+    },
+    {
+      "id": "Divine Favor",
+      "name": "Favorito dagli dei",
+      "description": "Scegli una divinità (inventata o già esistente). Ottieni la mossa <i>preghiera</i> e puoi lanciare incantesimi da chierico. Considerati un chierico di 1° livello. Ogni volta che sali di livello, aumenta di 1 anche il tuo livello da chierico."
+    },
+    {
+      "id": "Divine Protection",
+      "name": "Protezione divina",
+      "description": "Ottieni +2 all’armatura mentre sei in missione sacra."
+    },
+    {
+      "id": "Ever Onward",
+      "name": "Sempre avanti!",
+      "description": "Quando guidi la tua squadra all’attacco, chi ti segue ottiene +1 alla prossima mossa e +2 all’armatura, sempre per la prossima mossa."
+    },
+    {
+      "id": "Evidence Of Faith",
+      "name": "Segno della fede",
+      "description": "Quando <b>vedi magia divina</b>, puoi chiedere al GM da quale divinità proviene e come agisce. Ottieni +1 se agisci in base alla risposta."
+    },
+    {
+      "id": "Exterminatus",
+      "name": "Sterminio sacro",
+      "description": "Se <b>urli un giuramento per sconfiggere un nemico</b>, infliggi a lui [[/roll 2d4]] danni in più, ma infliggi 4 danni in meno a tutti gli altri. Questo effetto dura finché il nemico non viene sconfitto. Se fallisci o esci dal combattimento, puoi riconoscere il fallimento, ma l’effetto permane finché non espierai la colpa."
+    },
+    {
+      "id": "Holy Protection",
+      "name": "Protezione sacra",
+      "description": "Ottieni +1 all’armatura mentre sei in missione sacra."
+    },
+    {
+      "id": "Holy Smite",
+      "name": "Colpo sacro",
+      "description": "Durante una missione sacra, ottieni [[/roll 1d8]] danni bonus."
+    },
+    {
+      "id": "Hospitaller",
+      "name": "Ospitaliere",
+      "description": "Quando <b>curi un alleato</b>, curi [[/roll 1d8]] danni in più."
+    },
+    {
+      "id": "I Am The Law",
+      "name": "Io sono la Legge",
+      "description": "Quando, <b>invocando l’autorità divina, ordini qualcosa a un PNG</b>, tira+CAR.",
+      "success": "Ottieni +1 alla prossima mossa contro di lui. Lui sceglie:",
+      "partial": "Lui sceglie:",
+      "failure": "Agisce a modo suo, e tu ottieni -1 alla prossima mossa contro di lui.",
+      "choices": "<ul>\n<li>esegue l’ordine;</li>\n<li>si ritira lentamente, poi fugge;</li>\n<li>ti attacca.</li>\n</ul>"
+    },
+    {
+      "id": "Impervious Defender",
+      "name": "Difensore incrollabile",
+      "description": "Quando <i>difendi qualcuno</i>, ottieni sempre 1 riserva anche con 6-. Se ottieni un 12+, non ottieni riserva ma il nemico più vicino finisce in svantaggio: il GM ti dirà in cosa consiste questo vantaggio per te."
+    },
+    {
+      "id": "Indomitable",
+      "name": "Indomabile",
+      "description": "Se hai subito una ferita (anche tramite <i>scudo di sangue</i>), ottieni +1 alla prossima mossa contro chi te l’ha inflitta."
+    },
+    {
+      "id": "Lay On Hands",
+      "name": "Imposizione delle mani",
+      "description": "Quando <b>tocchi qualcuno pelle contro pelle e preghi per la sua guarigione</b>, tira+CAR.",
+      "success": "Curi [[/roll 1d8]] danni o una malattia.",
+      "partial": "Lo curi, ma assorbi tu il danno o la malattia."
+    },
+    {
+      "id": "Perfect Hospitaller",
+      "name": "Ospitaliere perfetto",
+      "description": "Curi un alleato infliggendo [[/roll 2d8]] danni in meno."
+    },
+    {
+      "id": "Perfect Knight",
+      "name": "Cavaliere perfetto",
+      "description": "Durante una missione sacra, scegli tre doni divini anziché due."
+    },
+    {
+      "id": "Quest",
+      "name": "Missione sacra",
+      "description": "Quando ti poni un obiettivo sacro con giuramento, preghiera e rito, scegli cosa intendi fare:\n<ul>\n<li>Uccidere _____________, una vera piaga su queste terre.</li>\n<li>Proteggere ___________ dall’ingiustizia.</li>\n<li>Rivelare tutta la verità su _____________.</li>\n</ul>\n\nPoi scegli due doni divini:\n<ul>\n<li>Sapere sempre dove si trova _____________.</li>\n<li>Immunità a ____________ (armi, fuoco, incantesimi, ecc.).</li>\n<li>Un segno evidente del potere divino.</li>\n<li>Capacità di percepire le bugie.</li>\n<li>Voce comprensibile da tutti, senza barriere linguistiche.</li>\n<li>Nessun bisogno di cibo, acqua o sonno.</li>\n</ul>\n\nIl GM poi ti dirà quali voti dovrai seguire per mantenere i doni:\n<ul>\n<li>Onore (niente trucchi o viltà)</li>\n<li>Astinenza (niente gola, alcol o lussuria)</li>\n<li>Pietà (rituali religiosi quotidiani)</li>\n<li>Valore (nessuna pietà per i malvagi)</li>\n<li>Verità (vietato mentire)</li>\n<li>Ospitalità (aiutare chiunque ne abbia bisogno)</li>\n</ul>"
+    },
+    {
+      "id": "Setup Strike",
+      "name": "Colpo d’appoggio",
+      "description": "Quando <b>fendi e squarci un nemico</b>, scegli un alleato: il suo attacco contro quel bersaglio infligge [[/roll 1d4]] danni in più."
+    },
+    {
+      "id": "Smite",
+      "name": "Colpo punitivo",
+      "description": "Durante una missione sacra, ottieni [[/roll 1d4]] danni bonus."
+    },
+    {
+      "id": "Staunch Defender",
+      "name": "Difensore saldo",
+      "description": "Quando <b>difendi qualcuno</b>, ottieni sempre 1 riserva, anche con 6-."
+    },
+    {
+      "id": "Tandem Strike",
+      "name": "Attacco coordinato",
+      "description": "Quando <i>fendi e squarci</i>, scegli un alleato: il suo attacco infligge [[/roll 1d4]] danni in più e ottiene +1 alla prossima mossa contro quel bersaglio."
+    },
+    {
+      "id": "Voice Of Authority",
+      "name": "Voce dell’autorità",
+      "description": "Ottieni +1 ai tiri per dare ordini ai mercenari."
+    }
+  ]
+}

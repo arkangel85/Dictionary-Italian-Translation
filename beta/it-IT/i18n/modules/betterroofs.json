@@ -1,0 +1,49 @@
+{
+  "betterroofs.settings.fogVisibility.name": "Visibilità tile attraverso la nebbia",
+  "betterroofs.settings.fogVisibility.hint": "Quanto sono visibili (luminosi) i tile mostrati attraverso la nebbia.",
+
+  "betterroofs.settings.forceFallback.name": "Modalità prestazioni",
+  "betterroofs.settings.forceFallback.hint": "Forza il cambio di modalità tetto da Maschera a Nascosto in caso di problemi di prestazioni.",
+
+  "betterroofs.settings.roomPreview.name": "Modalità avanzata",
+  "betterroofs.settings.roomPreview.hint": "All'apertura delle impostazioni del tile, mostra le strutture rilevate dal modulo. Permette anche il posizionamento manuale dei poligoni per le stanze. Utile per il debug.",
+
+  "betterroofs.settings.wbIntegration.name": "Integrazione Weather Blocker",
+  "betterroofs.settings.wbIntegration.hint": "Se il modulo Weather Blocker è attivo, il meteo verrà nascosto automaticamente all'interno degli edifici.",
+
+  "betterroofs.settings.occlusionRadius.name": "Raggio di ostruzione",
+  "betterroofs.settings.occlusionRadius.hint": "Moltiplicatore del raggio per la modalità di ostruzione circolare",
+
+  "betterroofs.tokenConfig.occlusionRadius.name": "Raggio di ostruzione",
+  "betterroofs.tokenConfig.occlusionRadius.placeholder": "Predefinito",
+
+  "betterroofs.tileConfig.showInFog.name": "Scoperta della nebbia di guerra",
+  "betterroofs.tileConfig.showInFog.hint": "Quando il tile è nel campo visivo del token, sarà visibile attraverso la nebbia di guerra. Non influisce sull’illuminazione.",
+  "betterroofs.tileConfig.brMode.name": "Modalità tetti avanzati",
+  "betterroofs.tileConfig.brMode.option0": "Nessuna (predefinita in Foundry)",
+  "betterroofs.tileConfig.brMode.option1": "Visibile (mostra il tile nella nebbia)",
+  "betterroofs.tileConfig.brMode.option2": "Nascosto (nasconde completamente il tile)",
+  "betterroofs.tileConfig.brMode.option3": "Maschera (ritaglia l’area del tile dalla vista)",
+
+  "betterroofs.tileConfig.manualPoly.name": "Muri selezionati",
+  "betterroofs.tileConfig.definePoly.name": "Definisci poligono",
+  "betterroofs.tileConfig.clearPoly.name": "Cancella poligono",
+  "betterroofs.tileConfig.definePoly.notify": "Seleziona i muri da usare per il poligono, poi premi di nuovo 'Definisci poligono' per confermare.",
+  "betterroofs.tileConfig.occlusionLinkId": "ID della sorgente di ostruzione",
+  "betterroofs.tileConfig.occlusionLinkIdHint": "Può essere qualsiasi testo. Se un token si trova su un tile con 'È sorgente di ostruzione', tutti i tile con lo stesso ID saranno oscurati. Utile per tetti collegati.",
+  "betterroofs.tileConfig.occlusionLinkSource": "È sorgente di ostruzione?",
+
+  "betterroofs.tileConfig.isbroken": "Il rilevamento automatico del poligono non è riuscito a questo livello. Attiva la modalità avanzata nelle impostazioni del modulo e disegna manualmente il poligono.",
+
+  "betterroofs.wallConfig.externalWall.name": "Muro esterno?",
+
+  "betterroofs.scenecontrols.walledges": "Muri ai bordi della scena",
+
+  "betterroofs.yesnodialog.yes": "Conferma",
+  "betterroofs.yesnodialog.no": "Annulla",
+  "betterroofs.yesnodialog.title": "Circonda i bordi della scena con muri",
+  "betterroofs.yesnodialog.desc": "Sei sicuro di voler circondare la scena con muri?",
+
+  "betterroofs.bulk.notification": "ATTENZIONE: Questa operazione cambierà le impostazioni di tutti i tile superiori selezionati. Se nessun tile è selezionato, verranno modificati tutti i tile superiori. I tile con modalità 'Nessuna' non verranno toccati.",
+  "betterroofs.bulk.title": "Modifica di tutti i tetti della scena"
+}

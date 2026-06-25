@@ -1,0 +1,203 @@
+{
+  "SEQUENCER": {
+    "OK": "OK",
+    "Cancel": "Annulla",
+    "PlayerPermissionsWarning": "Attenzione! Sei il GM e puoi creare effetti, ma per impostazione predefinita <strong>anche i giocatori possono farlo</strong>. Puoi modificare questa impostazione nei permessi qui:",
+    "Error": {
+      "CouldNotPlay": "Impossibile riprodurre"
+    },
+    "Player": {
+      "Title": "Riproduttore",
+      "SwitchToLayer": "Passa al livello",
+      "PathInput": "Inserisci il percorso del file o database",
+      "AllUsers": "Tutti gli utenti",
+      "Presets": "Preimpostazioni:",
+      "PresetsDefault": "Predefinita",
+      "ApplyPresetTitle": "Applica preimpostazione",
+      "ApplyPresetContent": "Sei sicuro di voler applicare la preimpostazione \"{preset_name}\"? I dati non salvati verranno persi.",
+      "CreateNewPresetTitle": "Crea nuova preimpostazione effetto",
+      "CreateNewPresetInputLabel": "Inserisci il nome della preimpostazione",
+      "CopyPresetTitle": "Copia preimpostazione effetto",
+      "CopyPresetInputLabel": "Inserisci il nome della preimpostazione",
+      "DefaultErrorTitle": "Errore",
+      "DefaultErrorContent": "Il nome non può essere \"default\". È già utilizzato da Sequencer.",
+      "OverwritePresetTitle": "Sovrascrivere la preimpostazione?",
+      "OverwritePresetContent": "Sei sicuro di voler sovrascrivere la preimpostazione \"{preset_name}\"?",
+      "DeletePresetTitle": "Eliminare la preimpostazione?",
+      "DeletePresetContent": "Sei sicuro di voler eliminare la preimpostazione \"{preset_name}\"?",
+      "Option": {
+        "Scale": "Scala",
+        "BelowTokens": "Sotto i token",
+        "SnapToGrid": "Allinea alla griglia",
+        "Rotation": "Rotazione",
+        "Randomize": "Casuale",
+        "FadeIn": "Apparizione",
+        "FadeOut": "Scomparsa",
+        "ScaleIn": "Ingrandimento",
+        "ScaleOut": "Riduzione",
+        "MirrorX": "Specchia X",
+        "MirrorY": "Specchia Y",
+        "OffsetX": "Offset X",
+        "OffsetY": "Offset Y",
+        "RandomOffset": "Valore",
+        "GridUnits": "Unità griglia",
+        "Repeat": "Ripeti",
+        "Repetitions": "Ripetizioni",
+        "DelayMin": "(ms)",
+        "DelayMax": "",
+        "DragBehavior": "Comportamento trascinamento",
+        "DragStretch": "Allunga",
+        "DragMove": "Muovi",
+        "MoveSpeed": "Velocità",
+        "Preload": "Precaricamento",
+        "AttachTo": "Collega al punto iniziale",
+        "StretchToAttach": "Collega al punto finale",
+        "Persist": "Persistente"
+      }
+    },
+    "SidebarButtons": {
+      "Select": "Seleziona effetto",
+      "Play": "Riproduci effetto",
+      "Manager": "Gestore Sequencer",
+      "Database": "Database Sequencer"
+    },
+    "Hotkeys": {
+      "PlayTool": {
+        "Shift": "Riproduttore - Riproduci più effetti contemporaneamente",
+        "Control": "Riproduttore - Riproduci più effetti in sequenza",
+        "Alt": "Riproduttore - Collega a oggetto sulla scena"
+      },
+      "SelectTool": {
+        "Control": "Selezione - Allinea alla griglia",
+        "Alt": "Selezione - Collega a oggetto sulla scena",
+        "Delete": "Selezione - Elimina effetto selezionato"
+      }
+    },
+    "Manager": {
+      "Title": "Gestore",
+      "NothingPlaying": "Nessun effetto in riproduzione",
+      "PersistentEffects": "Effetti persistenti:",
+      "TemporaryEffects": "Effetti temporanei:",
+      "Sounds": "Suoni:",
+      "PlayersEffect": "Effetto di {user_name}",
+      "UnknownEffect": "Effetto senza proprietario",
+      "EndAllEffects": "Termina tutti gli effetti",
+      "EndAllSounds": "Termina tutti i suoni"
+    },
+    "Sequences": {
+      "Title": "Animazioni",
+      "NoSequences": "Nessuna animazione attiva",
+      "AbortSequence": "Termina animazione",
+      "AbortSection": "Termina sezione",
+      "ClearFinished": "Pulisci completati",
+      "Clear": "Pulisci",
+      "StopAll": "Ferma tutto"
+    },
+    "HowTo": {
+      "Title": "Guida",
+      "Welcome": "Benvenuto negli effetti di Sequencer!",
+      "Explanation": "Il Riproduttore <i class=\"fas fa-play-circle\"></i> permette di avviare effetti sulla scena, mentre nel Gestore <i class=\"fas fa-film\"></i> puoi gestire quelli esistenti.",
+      "PermissionsExplanation": "Sei il GM e puoi creare effetti, ma anche i giocatori possono farlo. Puoi cambiare questa opzione nei permessi:",
+      "PlayerExplanation": "Quando usi il Riproduttore <i class=\"fas fa-play-circle\"></i> devi selezionare un effetto. Clicca su <strong>seleziona file</strong> per sfogliare il database oppure scrivi un nome nella ricerca. Puoi anche usare il pulsante <i class=\"fas fa-file-import\"></i> per scegliere manualmente un file.",
+      "LayerExplanation": "Dopo aver selezionato il file, puoi compiere azioni sul livello <i class=\"fas fa-list-ol\"></i> di Sequencer.",
+      "OpenModuleSettings": "Apri impostazioni modulo",
+      "Click": "LMB",
+      "ClickLabel": "Riproduce l'effetto sul posto",
+      "ClickDrag": "LMB + trascina",
+      "ClickDragLabel": "Riproduce l'effetto esteso fino alla destinazione",
+      "Shift": "Shift",
+      "ShiftLabel": "Riproduce più effetti contemporaneamente al rilascio del tasto",
+      "ShiftControl": "Control",
+      "ShiftControlLabel": "Riproduce più effetti in sequenza con ritardo",
+      "MoreToCome": "...e molto altro nei futuri aggiornamenti!"
+    },
+    "ManagerUI": "Gestore Sequencer",
+    "Database": {
+      "Title": "Database Sequencer",
+      "AllPacks": "Tutti i pacchetti",
+      "Search": "Cerca...",
+      "ButtonFilepath": "Percorso file",
+      "ButtonDatabasePath": "Percorso database",
+      "ShowAllRanges": "Mostra tutte le distanze",
+      "ShowSubLists": "Mostra sottoliste",
+      "ListView": "Lista",
+      "Video": "Video",
+      "Sound": "Suono",
+      "All": "Tutti",
+      "FileTypePredicate": "Per filtrare per tipo, attiva 'Mostra tutte le distanze'.",
+      "PlayPreview": "Anteprima",
+      "CopyFilePath": "Copia percorso file",
+      "CopyDatabasePath": "Copia percorso database Sequencer"
+    },
+    "Setting": {
+      "DatabaseViewer": {
+        "Title": "Database Sequencer",
+        "Label": "Apri database"
+      },
+      "EnablePixiFix": {
+        "Title": "Correzione trasparenza PIXI",
+        "Label": "Corregge la trasparenza degli effetti che non si mostrano correttamente in alcuni browser."
+      },
+      "EnableGlobalPixiFix": {
+        "Title": "Correzione PIXI globale",
+        "Label": "Corregge la trasparenza per tutti i file WEBM. Usare con cautela."
+      },
+      "EnableAboveUIScreenspace": {
+        "Title": "Effetti sopra l'interfaccia",
+        "Label": "Attiva effetti che si sovrappongono a tutti gli elementi dell'interfaccia. Usare con cautela."
+      },
+      "Debug": {
+        "Title": "Abilita debug",
+        "Label": "Le informazioni di debug di Sequencer saranno mostrate nella console."
+      },
+      "ShowTools": {
+        "Title": "Strumenti Sequencer",
+        "Label": "Mostra il pulsante Sequencer nella barra laterale."
+      },
+      "ShowTokenTools": {
+        "Title": "Strumenti Sequencer nei token",
+        "Label": "Mostra il pulsante Sequencer nella gestione dei token."
+      },
+      "EnableEffects": {
+        "Title": "Abilita effetti",
+        "Label": "Consente la riproduzione di effetti su questo client."
+      },
+      "EnableSounds": {
+        "Title": "Abilita suoni",
+        "Label": "Consente la riproduzione di suoni su questo client."
+      },
+      "ExternalEffectOpacity": {
+        "Title": "Effetti esterni semitrasparenti",
+        "Label": "Mostra gli effetti destinati ad altri giocatori in modo attenuato. Gli effetti sono sempre visibili al GM."
+      },
+      "Permission": {
+        "EffectCreate": {
+          "Title": "Sequencer: riproduzione effetti",
+          "Label": "Permetti ai giocatori con il ruolo selezionato (o superiore) di riprodurre effetti tramite macro o riproduttore."
+        },
+        "EffectDelete": {
+          "Title": "Sequencer: eliminazione effetti",
+          "Label": "Permetti ai giocatori con il ruolo selezionato (o superiore) di eliminare effetti dal gestore."
+        },
+        "SoundCreate": {
+          "Title": "Sequencer: riproduzione suoni",
+          "Label": "Permetti ai giocatori con il ruolo selezionato (o superiore) di riprodurre suoni"
+        },
+        "PreloadClients": {
+          "Title": "Sequencer: precaricamento per altri",
+          "Label": "Permetti ai giocatori con il ruolo selezionato (o superiore) di precaricare effetti e suoni per altri giocatori."
+        },
+        "UseSidebarTools": {
+          "Title": "Sequencer: utilizzo strumenti",
+          "Label": "Permetti ai giocatori con il ruolo selezionato (o superiore) di usare gli strumenti Sequencer nella barra laterale."
+        }
+      }
+    },
+    "Permission": {
+      "Player": "Giocatore o superiore",
+      "Trusted": "Affidabile o superiore",
+      "Assistant": "Assistente o superiore",
+      "GM": "Solo GM"
+    }
+  }
+}

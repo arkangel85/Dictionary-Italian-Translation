@@ -1,0 +1,15 @@
+{
+  "label": "GPS Capacità Razziali",
+  "folders": {
+    "Variant Aasimar": "Aasimar (Variante)",
+    "Harengon": "Harengon"
+  },
+  "entries": {
+    "Celestial Resistance (Variant Aasimar)": {
+      "name": "Resistenza Celestiale"
+    },
+    "Rabbit Hop": {
+      "name": "Salto del Coniglio"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "bitd-alt.hello": "ciao",
+  "bitd-alt.items": "Oggetti",
+  "bitd-alt.armor": "Armatura",
+  "bitd-alt.heavy": "Pesante",
+  "bitd-alt.AddNewItem": "Aggiungi nuovo oggetto",
+  "bitd-alt.AddExistingItem": "Aggiungi oggetto esistente",
+  "bitd-alt.DeleteItem": "Elimina oggetto",
+  "bitd-alt.AddNewAbility": "Aggiungi nuova abilità",
+  "bitd-alt.AddExistingAbility": "Aggiungi abilità esistente",
+  "bitd-alt.DeleteAbility": "Elimina abilità",
+  "bitd-alt.Acquaintances": "Conoscenze",
+  "bitd-alt.SwitchPlaybook": "Cambia scheda",
+  "bitd-alt.Ok": "Ok",
+  "bitd-alt.Cancel": "Annulla",
+  "bitd-alt.SelectToAddAbility": "Seleziona talento",
+  "bitd-alt.SelectToAddItem": "Seleziona oggetto",
+  "bitd-alt.Attributes": {
+    "attune": "<strong>Sintonizzandoti</strong> con qualcuno, usi astuzia, fascino o logica. <em>Puoi mentire in modo convincente. Puoi persuadere qualcuno a fare ciò che vuoi. Puoi usare argomentazioni difficili da confutare. Puoi provare a suscitare simpatia o obbedienza con l'inganno (ma il comando diretto o la conversazione potrebbero essere più adatti).</em>",
+    "command": "Dando <strong>un ordine</strong>, ottieni obbedienza immediata. <em>Puoi intimidire o minacciare per ottenere ciò che vuoi. Puoi guidare una banda in azioni coordinate. Puoi ordinare agli altri per negoziare (ma la conversazione potrebbe funzionare meglio).</em>",
+    "consort": "Durante la <strong>conversazione</strong>, ti relazioni con amici e conoscenti. <em>Puoi ottenere accesso a risorse, informazioni, persone o luoghi. Puoi fare buona impressione o guadagnarti fiducia con il tuo charme. Puoi fare nuove amicizie o rafforzare quelle esistenti. Puoi cercare di influenzare le azioni degli amici tramite pressione sociale (ma un comando diretto potrebbe essere più efficace).</em>",
+    "finesse": "<strong>Destrezza</strong> è utile quando servono abilità manuali o azioni discrete. <em>Puoi rubare con destrezza. Puoi guidare un veicolo o cavalcare. Puoi duellare con stile. Puoi provarla in combattimento reale (ma la rissa potrebbe essere più adatta). Puoi tentare di scassinare una serratura (ma l’artigianato potrebbe essere più indicato).</em>",
+    "hunt": "Con la <strong>caccia</strong>, insegui un bersaglio. <em>Puoi pedinare qualcuno o trovarlo. Puoi tendere un’imboscata. Puoi colpire da lontano con precisione. Puoi usare armi da fuoco anche in mischia (ma la rissa potrebbe funzionare meglio).</em>",
+    "prowl": "Con <strong>furtività</strong>, ti muovi silenziosamente e inosservato. <em>Puoi evitare le guardie o nasconderti. Puoi correre e saltare tra i tetti. Puoi attaccare da dietro in un agguato. Puoi sorprendere un nemico già in combattimento (ma la rissa potrebbe essere più adatta).</em>",
+    "skirmish": "In una <strong>rissa</strong>, combatti da vicino in uno scontro difficile da evitare. <em>Puoi combattere a mani nude o lottare. Puoi colpire con armi da taglio. Puoi prendere o difendere una posizione. Puoi mostrare abilità in duello (ma la destrezza potrebbe essere migliore).</em>",
+    "study": "Quando <strong>studi</strong>, osservi i dettagli e interpreti ciò che scopri. <em>Puoi cercare informazioni in documenti o libri. Puoi fare ricerche su argomenti esoterici. Puoi analizzare una persona per capire se mente. Puoi interpretare eventi complessi rapidamente (ma la ricognizione potrebbe essere più adatta).</em>",
+    "survey": "Durante una <strong>ricognizione</strong>, osservi e prevedi possibili sviluppi. <em>Puoi cogliere segnali di pericolo. Puoi trovare il momento giusto per agire o un punto debole. Puoi valutare le intenzioni di qualcuno (ma lo studio potrebbe essere migliore). Puoi cercare un buon punto per un’imboscata (ma la caccia potrebbe essere più efficace).</em>",
+    "sway": "Con <strong>influenza</strong>, apri la mente al campo spettrale o canalizzi energia elettroplasmica. <em>Puoi parlare con fantasmi o comprendere la fantomologia. Puoi percepire l’invisibile per orientarti (ma la ricognizione potrebbe essere più adatta).</em>",
+    "tinker": "<strong>Artigianato</strong> ti aiuta a lavorare su dispositivi e costruzioni. <em>Puoi costruire o modificare dispositivi. Puoi scassinare serrature o casseforti. Puoi disattivare allarmi o trappole. Puoi riconfigurare dispositivi in tutta la città. Puoi provare a guidare veicoli usando le tue conoscenze tecniche (ma la destrezza potrebbe essere più utile).</em>",
+    "wreck": "<strong>Distruzione</strong> è l’annientamento fisico diretto. <em>Puoi abbattere porte o muri con una mazza o esplosivi. Puoi causare disordine o sabotaggio. Puoi combattere cercando di schiacciare il nemico con forza bruta (ma la rissa potrebbe essere più adatta).</em>"
+  }
+}

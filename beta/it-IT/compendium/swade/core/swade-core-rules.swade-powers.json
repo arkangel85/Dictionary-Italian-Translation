@@ -1,0 +1,221 @@
+{
+  "label": "Poteri",
+  "entries": {
+    "Arcane Protection": {
+      "name": "Protezione arcana",
+      "trapping": "concentrazione, alone luminoso attorno al bersaglio, amuleto"
+    },
+    "Banish": {
+      "name": "Esilio",
+      "trapping": "oggetti sacri, simboli magici, manciata di sale"
+    },
+    "Barrier": {
+      "name": "Barriera",
+      "trapping": "fuoco, ghiaccio, spine, campo di forza, ossa, energia"
+    },
+    "Beast Friend": {
+      "name": "Amico delle bestie",
+      "trapping": "concentrazione e gesti"
+    },
+    "Blast": {
+      "name": "Esplosione",
+      "trapping": "sferette infuocate, ghiacciate, luminose o oscure, frecce colorate, sciami di insetti"
+    },
+    "Blind": {
+      "name": "Cecità",
+      "trapping": "lampo abbagliante, sabbia negli occhi, confusione"
+    },
+    "Bolt": {
+      "name": "Dardo",
+      "trapping": "frecce di fuoco, ghiaccio, luce, colore, oscurità, sciami d'insetti"
+    },
+    "Boost/Lower Trait": {
+      "name": "Potenziare/Indebolire tratto",
+      "trapping": "mutazioni fisiche, aura luminosa, pozioni"
+    },
+    "Burrow": {
+      "name": "Scavo",
+      "trapping": "il personaggio scompare sotto terra e riappare altrove"
+    },
+    "Burst": {
+      "name": "Fiotto",
+      "trapping": "getto di fuoco, luce, materia o energia"
+    },
+    "Confusion": {
+      "name": "Confusione",
+      "trapping": "schema ipnotico di luci, illusioni brevi, suoni assordanti"
+    },
+    "Damage Field": {
+      "name": "Campo distruttivo",
+      "trapping": "aura infuocata, spine, campo elettrico"
+    },
+    "Darksight": {
+      "name": "Vista notturna",
+      "trapping": "occhi luminosi, pupille feline, ecolocalizzazione"
+    },
+    "Deflection": {
+      "name": "Deviazione",
+      "trapping": "scudo magico, raffica di vento, guardiano etereo"
+    },
+    "Detect/Conceal Arcana": {
+      "name": "Rivelare/Nascondere arcano",
+      "trapping": "gesti delle mani, sussurri"
+    },
+    "Disguise": {
+      "name": "Travestimento",
+      "trapping": "tratti sfocati, aspetto illusorio, cambio di acconciatura"
+    },
+    "Dispel": {
+      "name": "Dissolvi",
+      "trapping": "gesti delle mani, sussurri"
+    },
+    "Divination": {
+      "name": "Divinazione",
+      "trapping": "preghiere, sedute esoteriche, contatto con demoni"
+    },
+    "Drain Power Points": {
+      "name": "Prosciugamento",
+      "trapping": "preghiera, sussurri, gesti"
+    },
+    "Elemental Manipulation": {
+      "name": "Manipolazione elementale",
+      "trapping": "alcuni gesti semplici"
+    },
+    "Empathy": {
+      "name": "Empatia",
+      "trapping": "concentrazione, sorriso caloroso, gentilezza"
+    },
+    "Entangle": {
+      "name": "Intrappolare",
+      "trapping": "bomba appiccicosa, liane, manette, ragnatele"
+    },
+    "Environmental Protection": {
+      "name": "Protezione ambientale",
+      "trapping": "marchio sulla fronte, pozioni, branchie"
+    },
+    "Farsight": {
+      "name": "Vista acuta",
+      "trapping": "segni illusori, vento che guida, occhi d'aquila"
+    },
+    "Fear": {
+      "name": "Terrore",
+      "trapping": "gesti, bagliore sinistro, gelo penetrante"
+    },
+    "Fly": {
+      "name": "Volo",
+      "trapping": "vento impetuoso, ali, scope volanti"
+    },
+    "Growth/Shrink": {
+      "name": "Ingrandire/Ridurre",
+      "trapping": "gesti, parole magiche, pozioni"
+    },
+    "Havoc": {
+      "name": "Caos",
+      "trapping": "tornado, spiriti in tempesta, campo di respingimento"
+    },
+    "Healing": {
+      "name": "Guarigione",
+      "trapping": "imposizione delle mani, simbolo sacro, preghiera"
+    },
+    "Illusion": {
+      "name": "Illusione",
+      "trapping": "incantesimi, ologrammi, proiettori eterei"
+    },
+    "Intangibility": {
+      "name": "Incorporeità",
+      "trapping": "forma spettrale, corpo d’ombra, forma gassosa"
+    },
+    "Invisibility": {
+      "name": "Invisibilità",
+      "trapping": "polvere, pozione, scintille iridescenti"
+    },
+    "Light / Darkness": {
+      "name": "Luce/Oscurità",
+      "trapping": "torcia illusoria, luce solare, tenebra, nebbia fitta"
+    },
+    "Mind Link": {
+      "name": "Collegamento mentale",
+      "trapping": "auricolari, talismani Dao, cristalli"
+    },
+    "Mind Reading": {
+      "name": "Lettura del pensiero",
+      "trapping": "invasione psionica, lettura dell’anima"
+    },
+    "Mind Wipe": {
+      "name": "Cancellazione mentale",
+      "trapping": "pozione tossica, parassiti, tocco alle tempie"
+    },
+    "Object Reading": {
+      "name": "Psicometria",
+      "trapping": "tocco dell'oggetto, mani che brillano"
+    },
+    "Protection": {
+      "name": "Armatura",
+      "trapping": "bagliore misterioso, pelle indurita, armature eteree, naniti"
+    },
+    "Puppet": {
+      "name": "Burattino",
+      "trapping": "occhi luminosi, trance, orologio oscillante, bambole voodoo"
+    },
+    "Relief": {
+      "name": "Sollievo",
+      "trapping": "preghiera, elisir"
+    },
+    "Resurrection": {
+      "name": "Resurrezione",
+      "trapping": "cerimonia solenne, piante rare, amuleti magici, intervento divino"
+    },
+    "Shape Change": {
+      "name": "Mutazione",
+      "trapping": "trasformazione, talismani, tatuaggi"
+    },
+    "Sloth/Speed": {
+      "name": "Rallentare/Velocizzare",
+      "trapping": "tempo rallentato, movimento sfocato, olio o ghiaccio scivoloso"
+    },
+    "Slumber": {
+      "name": "Sonno",
+      "trapping": "ninnananna, polvere del sonno"
+    },
+    "Smite": {
+      "name": "Colpo sacro",
+      "trapping": "bagliori colorati, rune, simboli, crepitio di energia, spine sull’arma"
+    },
+    "Sound/Silence": {
+      "name": "Suono/Silenzio",
+      "trapping": "aria che vibra, campanello che suona o tace"
+    },
+    "Speak Language": {
+      "name": "Parlare lingue",
+      "trapping": "parole, immagini, gesti"
+    },
+    "Stun": {
+      "name": "Stordimento",
+      "trapping": "dardi di energia, granate stordenti, tuono, lampo"
+    },
+    "Summon Ally": {
+      "name": "Evoca alleato",
+      "trapping": "statuetta che si anima, tatuaggio vivente"
+    },
+    "Telekinesis": {
+      "name": "Telecinesi",
+      "trapping": "gesto della mano, bacchetta magica, sguardo fisso"
+    },
+    "Teleport": {
+      "name": "Teletrasporto",
+      "trapping": "nube di fumo, dissolvenza, trasformazione in freccia o fulmine"
+    },
+    "Wall Walker": {
+      "name": "Camminare sui muri",
+      "trapping": "aspetto da ragno, peli adesivi su mani e piedi"
+    },
+    "Warrior's Gift": {
+      "name": "Dono del guerriero",
+      "trapping": "gesti, preghiere, sussurri, concentrazione"
+    },
+    "Zombie": {
+      "name": "Zombi",
+      "trapping": "simboli incisi su cadaveri, ossa sparse, rituali cimiteriali, libri di pelle umana"
+    }
+  }
+}

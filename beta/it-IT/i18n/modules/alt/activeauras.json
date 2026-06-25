@@ -1,0 +1,8 @@
+{
+  "ACTIVEAURAS": {
+    "FORM_SaveDC": "CD del tiro salvezza",
+    "FORM_SaveEnable": "Tipo di tiro salvezza",
+    "SaveNotify": "${tokenName} ha superato il tiro salvezza contro ${oldEffectDataLabel}",
+    "removeDeadHint": "Quando i PF del token raggiungono 0, rimuovere tutte le aure"
+  }
+}

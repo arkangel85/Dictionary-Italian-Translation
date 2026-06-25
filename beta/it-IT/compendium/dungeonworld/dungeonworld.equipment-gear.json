@@ -1,0 +1,91 @@
+{
+  "label": "Equipaggiamento (per Dungeon)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "tags": "system.tags",
+    "tagsString": "system.tagsString"
+  },
+  "entries": [
+    {
+      "id": "Adventuring Gear",
+      "name": "Equipaggiamento dell’Avventuriero",
+      "description": "Uno zaino con tutto il necessario: picchetti, corde, gesso, pertiche e simili. Quando ti serve un oggetto comune, frughi nello zaino, lo trovi e cancelli 1 utilizzo.",
+      "tags": "[{\"value\":\"20 monete\"}]",
+      "tagsString": "20 monete"
+    },
+    {
+      "id": "Anti-Toxin",
+      "name": "Antidoto",
+      "description": "Bevendo l’antidoto, annulli immediatamente l’effetto di un veleno.",
+      "tags": "[{\"value\":\"10 monete\"}]",
+      "tagsString": "10 monete"
+    },
+    {
+      "id": "Bag of Books",
+      "name": "Borsa di Libri",
+      "description": "Se nella borsa c'è il libro giusto, quando <i>scavi nella memoria</i> puoi consultarlo e ottenere +1 al tiro.",
+      "tags": "[{\"value\":\"10 monete\"}]",
+      "tagsString": "10 monete"
+    },
+    {
+      "id": "Bandages",
+      "name": "Bende",
+      "description": "Se hai qualche minuto per medicare un alleato, gli restituisci 4 PF e cancelli 1 utilizzo.",
+      "tags": "[{\"value\":\"lento\"}]",
+      "tagsString": "lento"
+    },
+    {
+      "id": "Dungeon Rations",
+      "name": "Razioni da Dungeon",
+      "description": "Non sono buone, ma si possono mangiare.",
+      "tags": "[{\"value\":\"razione\"}]",
+      "tagsString": "razione"
+    },
+    {
+      "id": "Dwarven Hardtack",
+      "name": "Gallette Nane",
+      "description": "I nani dicono che il sapore ricorda loro casa. Gli altri dicono che ricorda casa... se casa fosse una porcilaia in fiamme.",
+      "tags": "[{\"value\":\"razione\"},{\"value\":\"solo per nani\"}]",
+      "tagsString": "razione, solo per nani"
+    },
+    {
+      "id": "Elven Bread",
+      "name": "Pane Elfico",
+      "description": "Solo i migliori amici degli elfi possono assaggiare questa delizia.",
+      "tags": "[{\"value\":\"razione\"}]",
+      "tagsString": "razione"
+    },
+    {
+      "id": "Halfling Pipeleaf",
+      "name": "Tabacco dei Mezz’uomini",
+      "description": "Quando condividi questo tabacco con qualcuno, cancelli 2 utilizzi e ottieni +1 al prossimo tentativo di <i>negoziare</i> con lui."
+    },
+    {
+      "id": "Healing Potion",
+      "name": "Pozione di Guarigione",
+      "description": "Bevendola tutta, curi 10 PF o una ferita.",
+      "tags": "[{\"value\":\"50 monete\"}]",
+      "tagsString": "50 monete"
+    },
+    {
+      "id": "Keg of Dwarven Stout",
+      "name": "Boccale di Birra Nani",
+      "description": "Se apri il barile e lo offri a tutti, ottieni +1 al tiro di <i>festeggiamento</i>. Se lo bevi da solo… sarai MOLTO ubriaco."
+    },
+    {
+      "id": "Personal Feast",
+      "name": "Banchetto Personale",
+      "description": "Almeno, è esteticamente impressionante.",
+      "tags": "[{\"value\":\"razione\"}]",
+      "tagsString": "razione"
+    },
+    {
+      "id": "Poultices and Herbs",
+      "name": "Impacchi e Erbe",
+      "description": "Se curi le ferite di qualcuno con impacchi e erbe, gli restituisci 7 PF e cancelli 1 utilizzo.",
+      "tags": "[{\"value\":\"lento\"}]",
+      "tagsString": "lento"
+    }
+  ]
+}

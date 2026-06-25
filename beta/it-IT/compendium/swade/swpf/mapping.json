@@ -1,0 +1,32 @@
+{
+  "Item": {
+    "description": "system.description",
+    "category": {
+      "path": "system.category",
+      "converter": "convertiCategoria"
+    },
+    "requirements": {
+      "path": "system.requirements",
+      "converter": "convertiRequisiti"
+    },
+    "trapping": "system.trapping",
+    "rank": {
+      "path": "system.rank",
+      "converter": "convertiGrado"
+    },
+    "range": {
+      "path": "system.range",
+      "converter": "convertiGittata"
+    },
+    "duration": {
+      "path": "system.duration",
+      "converter": "convertiDurata"
+    }
+  },
+  "Actor": {
+    "items": {
+      "path": "items",
+      "converter": "daPacchetto"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "bossbar": {
+    "settings": {
+      "currentHpPath": {
+        "name": "Percorso ai PF attuali",
+        "hint": "Percorso ai punti ferita attuali dell'attore"
+      },
+      "maxHpPath": {
+        "name": "Percorso ai PF massimi",
+        "hint": "Percorso ai punti ferita massimi dell'attore"
+      },
+      "woundsSystem": {
+        "name": "Sistema di ferite",
+        "hint": "Se il tuo sistema usa le ferite invece dei PF, attiva questa opzione."
+      }
+    }
+  }
+}

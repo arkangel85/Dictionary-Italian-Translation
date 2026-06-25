@@ -1,0 +1,31 @@
+{
+  "df-curvy-walls": {
+    "errorLibWrapperMissing": "'DF Curvy Walls' richiede il modulo 'libWrapper'. Installa e attiva 'libWrapper'.",
+    "cubic": "Curva di Bézier cubica",
+    "quadratic": "Curva di Bézier quadratica",
+    "circle": "Curva ellittica",
+    "rectangle": "Rettangolo",
+    "increment": "Aumenta segmenti",
+    "decrement": "Diminuisci segmenti",
+    "apply": "Applica curvatura al livello",
+    "cancel": "Strumento di cancellazione",
+    "cubic_lock_handles": "Collega i controlli della curva alle estremità della linea",
+    "ellipse_close": "Chiudi il cerchio durante il taglio",
+    "ellipse_finish_slice": "Aggiungi muro corto nel punto di taglio",
+    "ellipse_increment": "Aumenta l'intervallo dell'angolo",
+    "ellipse_decrement": "Diminuisci l'intervallo dell'angolo",
+    "trace_curve_with_points": "Posiziona punti sulla scena per creare una curva",
+    "SettingPreserve_Name": "Mantieni stato dello strumento",
+    "SettingPreserve_Hint": "Se abilitato, lo strumento manterrà l’ultimo stato quando torni al livello muri.",
+    "SettingDropKey_Name": "Tasto per posizionare lo strumento",
+    "SettingDropKey_Hint": "Tasto da tenere premuto quando fai clic per piazzare lo strumento con le impostazioni precedenti.",
+    "SettingDropKey_OptionAlt": "Alt",
+    "SettingDropKey_OptionCtrl": "Ctrl",
+    "SettingSmallHandlesName": "Controlli e nomi ridotti",
+    "SettingSmallHandlesHint": "I controlli delle curve e i nomi verranno ridotti in dimensione",
+    "pointmapapply": "Crea posizionamento con punti",
+    "pointmap_quad": "Posiziona 3 punti per creare una curva di Bézier quadratica.<br>Ctrl + clic sinistro per rimuovere un punto. Clic sinistro + trascina per spostare un punto.",
+    "pointmap_circ": "Posiziona da 2 a 3 punti per creare un'ellisse.<br>Ctrl + clic sinistro per rimuovere un punto. Clic sinistro + trascina per spostare un punto.",
+    "pointmap_rect": "Posiziona da 2 a 4 punti per creare un rettangolo.<br>Ctrl + clic sinistro per rimuovere un punto. Clic sinistro + trascina per spostare un punto."
+  }
+}

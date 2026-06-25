@@ -1,0 +1,133 @@
+{
+  "about-face": {
+    "keybindings": {
+      "lockRotation": {
+        "name": "Blocca Rotazione",
+        "hint": "Attiva/disattiva il blocco della rotazione del token. I token con la rotazione bloccata non ruoteranno automaticamente durante il movimento, ma possono essere ruotati manualmente con Shift+rotella.",
+        "tooltip": {
+          "true": "Rotazione bloccata attiva.",
+          "false": "Rotazione bloccata disattiva."
+        }
+      },
+      "toggleTokenRotation": {
+        "name": "Attiva/Disattiva rotazione del token",
+        "hint": "I token non ruoteranno durante il movimento. Utile per giochi con campo visivo.",
+        "tooltip": {
+          "false": "Rotazione del token durante il movimento sbloccata.",
+          "true": "Rotazione del token durante il movimento bloccata."
+        }
+      }
+    },
+    "sceneConfig": {
+      "hint": "Configurazione di About Face per questa scena.",
+      "apply": "Applica ai token esistenti",
+      "scene-enabled": {
+        "name": "Abilita in questa scena",
+        "hint": "Fa ruotare il token durante il movimento. Se disattivato, il token può essere ruotato manualmente (Ctrl/Shift+rotella)."
+      },
+      "lockRotation": {
+        "name": "Blocca la rotazione",
+        "hint": "Tutti i token in questa scena saranno creati con la rotazione bloccata per impostazione predefinita."
+      },
+      "lockArrowRotation": {
+        "name": "Blocca la rotazione dell'indicatore",
+        "hint": "L'indicatore non cambierà direzione durante il movimento del token. Usa SHIFT + tasto direzionale per ruotare l'indicatore."
+      }
+    },
+    "tokenConfig": {
+      "rotationOffset": {
+        "name": "Offset di rotazione"
+      }
+    },
+    "options": {
+      "changeEverySceneDialog": "Vuoi applicare queste impostazioni a tutte le scene?",
+      "disable-indicator": "Disattiva indicatore direzionale",
+      "individual-token-text": "Mostrare l’indicatore per questo token?",
+      "facing": "Direzione",
+      "arrowColor": {
+        "name": "Colore dell’indicatore",
+        "hint": "Scegli il colore dell’indicatore direzionale.",
+        "colorPicker": "Selettore colore"
+      },
+      "arrowDistance": {
+        "name": "Distanza dell’indicatore",
+        "hint": "Imposta un moltiplicatore per la distanza dell’indicatore. Formula: dimensione massima × (moltiplicatore / 2)."
+      },
+      "disableAnimations": {
+        "name": "Disattiva animazioni",
+        "hint": "Disattiva le animazioni durante il movimento.",
+        "choices": {
+          "none": "Nessuna",
+          "mirror": "Durante il mirroring",
+          "rotation": "Durante la rotazione",
+          "all": "Durante mirroring e rotazione"
+        }
+      },
+      "hideIndicatorOnDead": {
+        "name": "Nascondi indicatore sui token morti",
+        "hint": "L’indicatore sarà nascosto sui token contrassegnati come sconfitti (icona del teschio)."
+      },
+      "indicatorDrawingType": {
+        "name": "Tipo di disegno dell’indicatore",
+        "hint": "Cambia il tipo di visualizzazione dell’indicatore.",
+        "options": {
+          "arrow": "Freccia",
+          "line": "Linea"
+        }
+      },
+      "lockArrowRotation": {
+        "name": "Blocca la rotazione dell’indicatore",
+        "hint": "Tutte le scene saranno create con l’indicatore bloccato. L’indicatore non cambierà direzione durante il movimento del token. Usa SHIFT + tasto direzionale per ruotarlo."
+      },
+      "lockArrowToFace": {
+        "name": "Allinea indicatore alla tessera più vicina",
+        "hint": "L’indicatore verrà agganciato alla tessera più vicina verso cui è diretto durante il movimento. Ignora l'opzione 'Blocca la rotazione dell’indicatore'."
+      },
+      "lockRotation": {
+        "name": "Blocca la rotazione",
+        "hint": "Tutte le scene saranno create con la rotazione bloccata. I token non ruoteranno automaticamente durante il movimento."
+      },
+      "lockVisionToRotation": {
+        "name": "Fissa la visione alla rotazione",
+        "hint": "La visione del token seguirà la sua rotazione invece della direzione dell’indicatore. Utile nei giochi con angolo visivo. SHIFT + tasto direzionale sovrascrive questa impostazione. Funziona solo se 'Mirroring o rotazione del token' è impostato su 'Rotazione'."
+      },
+      "enable-indicator": {
+        "name": "Indicatori sui token NPC",
+        "hint": "Aggiunge un indicatore direzionale sui token NPC.",
+        "choices": {
+          "0": "Mai",
+          "1": "Al passaggio del mouse",
+          "2": "Sempre"
+        }
+      },
+      "enable-indicator-pc": {
+        "name": "Indicatori sui token dei giocatori",
+        "hint": "Aggiunge un indicatore direzionale sui token dei giocatori."
+      },
+      "flip-or-rotate": {
+        "name": "Mirroring o rotazione del token",
+        "hint": "Invece di ruotare, il token verrà specchiato.",
+        "choices": {
+          "global": "Globale",
+          "rotate": "Rotazione",
+          "flip-h": "Specchia orizzontalmente",
+          "flip-v": "Specchia verticalmente"
+        }
+      },
+      "facing-direction": {
+        "name": "Direzione iniziale",
+        "hint": "Direzione predefinita della rotazione del token.",
+        "choices": {
+          "right": "Destra",
+          "left": "Sinistra",
+          "down": "Giù",
+          "up": "Su"
+        }
+      },
+      "indicator-sprite": {
+        "name": "Dimensione indicatore",
+        "hint": "Cambia la dimensione dell’icona dell’indicatore."
+      }
+    }
+  }
+}

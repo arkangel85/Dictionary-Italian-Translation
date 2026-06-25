@@ -1,0 +1,23 @@
+{
+  "action-pack": {
+    "action-type": {
+      "reaction": "Reazione"
+    },
+    "category": {
+      "spell0": "Trucchetto",
+      "spell1": "1° livello",
+      "spell2": "2° livello",
+      "spell3": "3° livello",
+      "spell4": "4° livello",
+      "spell5": "5° livello",
+      "spell6": "6° livello",
+      "spell7": "7° livello",
+      "spell8": "8° livello",
+      "spell9": "9° livello"
+    },
+    "flag": {
+      "reaction": "RE",
+      "reaction-title": "Reazione"
+    }
+  }
+}

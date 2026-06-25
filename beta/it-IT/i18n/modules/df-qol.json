@@ -1,0 +1,65 @@
+{
+  "DF-QOL.errorLibWrapperMissing": "'DF Quality of Life' richiede il modulo 'libWrapper'. Installa e attiva 'libWrapper'.",
+  "DF_QOL": {
+    "QuickRoll": {
+      "Title": "Abilita tiri rapidi per le tabelle casuali",
+      "Hint": "Aggiunge un'opzione nel menu del tasto destro delle tabelle casuali che consente tiri rapidi senza aprire la finestra della tabella (richiede riavvio).",
+      "MenuItem": "Tiro rapido"
+    },
+    "AutoFocus": {
+      "Title": "Abilita auto-focus sul campo nome",
+      "Hint": "Quando si crea un nuovo documento (attori, oggetti, tabelle, scene, ecc.), il campo nome verrà selezionato automaticamente senza dover cliccarci sopra."
+    },
+    "FolderTextColour": {
+      "Name": "Abilita colore per i titoli delle cartelle",
+      "Hint": "Aggiunge la possibilità di impostare un colore ai titoli delle cartelle."
+    },
+    "BetterToggle": {
+      "Name": "Evidenziazione migliorata per i pulsanti della scena",
+      "Hint": "Modifica l'aspetto dei pulsanti di controllo scena per rendere più visibili quelli attivi (viola)."
+    },
+    "ReloadGame": {
+      "Title": "Riavviare il gioco?",
+      "Content": "<p style=\"margin:1em 0\">Alcune modifiche avranno effetto solo dopo il riavvio. Vuoi riavviare il mondo adesso?</p>"
+    },
+    "BetterAttack": {
+      "Name": "Abilita evidenziazione migliorata dei pulsanti di attacco",
+      "Hint": "I pulsanti di attacco sono difficili da notare nelle schede chat. Questa opzione aggiunge un bordo verde per gli attacchi con vantaggio e rosso per quelli con svantaggio."
+    },
+    "VehicleUnit": {
+      "SettingName": "Abilita unità di peso per i veicoli",
+      "SettingHint": "Permette di cambiare l'unità base di peso usata dai veicoli",
+      "ConfigName": "Unità di peso",
+      "ConfigHint": "Unità di peso usata nei calcoli.",
+      "Units_LongTon": "Ton lunga (2240 lb)",
+      "Units_ShortTon": "Ton corta (2000 lb)",
+      "Units_Pounds": "Libbre (1 lb)",
+      "ConvertTitle": "Convertire la capacità di carico",
+      "ConvertContent": "Vuoi convertire la capacità di carico attuale da '{{OLD}}' a '{{NEW}}'?"
+    },
+    "DayNight": {
+      "ProgressSettingName": "Mostra transizione giorno/notte",
+      "ProgressSettingHint": "Quando è attiva l’animazione giorno/notte, questa opzione mostra una barra di avanzamento durante l’animazione.",
+      "DurationSettingName": "Durata transizione giorno/notte (secondi)",
+      "DurationSettingHint": "Tempo richiesto per completare l’animazione giorno/notte in secondi (1–60)."
+    },
+    "TemplateTargeting": {
+      "SettingName": "Puntamento automatico con sagoma",
+      "SettingHint": "Quando si piazza una sagoma sopra i token, questi vengono automaticamente selezionati come bersagli.",
+      "PreviewName": "Evidenzia token mirati",
+      "PreviewHint": "Mostra griglia evidenziata e anteprima del puntamento quando si muove o si crea una sagoma.",
+      "ToggleTitle": "Puntamento automatico dei token",
+      "Patch5e_Name": "Usa stile sagome D&D5e",
+      "Patch5e_Hint": "Di default, Foundry richiede che il centro della cella sia all'interno della sagoma. Questa opzione cambia il comportamento per selezionare le celle se la sagoma le attraversa in qualsiasi punto (escluse le circolari).",
+      "Patch5e_Circle_Name": "Non escludere le sagome circolari",
+      "Patch5e_Circle_Hint": "(richiede 'Usa stile sagome D&D5e') Abilita per far funzionare le sagome circolari come le altre (seleziona celle se attraversate in qualsiasi punto)."
+    },
+    "TokenLock": {
+      "Setting.EnableName": "Blocco token",
+      "Setting.EnableHint": "Abilita un'icona a forma di lucchetto nell'interfaccia dei token per bloccare il loro movimento.",
+      "Setting.AllowGMName": "Blocco token: ignora GM",
+      "Setting.AllowGMHint": "Permette al GM di muovere token bloccati. Utile se vuoi impedire ai giocatori di muovere i propri token.",
+      "LockTitle": "Blocco movimento"
+    }
+  }
+}

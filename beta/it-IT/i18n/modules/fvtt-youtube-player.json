@@ -1,0 +1,43 @@
+{
+  "fvtt-youtube-player": {
+    "deleteTrack": "Eliminare traccia?",
+    "deleteTrackContent": "Sei sicuro di voler eliminare questa traccia?",
+    "deletePlaylist": "Eliminare playlist?",
+    "deletePlaylistContent": "Sei sicuro di voler eliminare questa playlist?",
+    "fetchingTitle": "Ricerca video per titolo...",
+    "playlistName": "Nome della playlist",
+    "playlistNameContent": "Stai importando delle playlist. Vuoi creare una nuova playlist o aggiungere le tracce a quella attuale? Lascia il campo vuoto per aggiungere alla playlist corrente.",
+    "TOOLTIP": {
+      "play": "Riproduci",
+      "stop": "Ferma",
+      "toggle-playlists": "Playlist",
+      "add-to-playlist": "Aggiungi alla playlist",
+      "create-playlist": "Crea playlist",
+      "delete-playlist": "Elimina playlist",
+      "delete-track": "Elimina",
+      "rename-playlist": "Premi 'Enter' per rinominare",
+      "loop": "Ripeti audio",
+      "toggle-playlist": "Riproduzione automatica",
+      "search": "Cerca su YouTube"
+    },
+    "settings": {
+      "googleApiKey": {
+        "name": "Chiave API di YouTube",
+        "hint": "La chiave API viene usata per analizzare le playlist e per la ricerca. Di default i tuoi richiami passano tramite il mio server, ma puoi usare la tua chiave per superare il limite di richieste. La chiave è necessaria per la funzionalità di ricerca. Puoi ottenerla su https://console.developers.google.com/apis/credentials"
+      },
+      "importExport": {
+        "name": "Importa/Esporta",
+        "label": "Apri pannello di importazione/esportazione",
+        "hint": "Importa/esporta playlist"
+      }
+    },
+    "import-export": {
+      "title": "Importa/Esporta playlist",
+      "import": "Importa",
+      "export": "Esporta"
+    },
+    "app": {},
+    "flags": {},
+    "noApiKey": "Attenzione: nessuna chiave API impostata. Per usare la funzione di ricerca, devi configurarla nelle impostazioni del modulo. Consulta la wiki per maggiori informazioni."
+  }
+}

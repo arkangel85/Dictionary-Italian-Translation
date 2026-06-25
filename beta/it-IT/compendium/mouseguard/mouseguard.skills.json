@@ -1,0 +1,179 @@
+{
+  "label": "Abilità",
+  "mapping": {
+    "description": "system.description"
+  },
+
+  "entries": [
+    {
+      "id": "Administrator",
+      "name": "Amministratore",
+      "description": "<p>I personaggi con questa abilità gestiscono insediamenti o gruppi di topi. Scrivono leggi, si occupano delle finanze, compilano rapporti e distribuiscono le risorse.</p><p>Un personaggio con l'abilità «Amministratore» può essere aiutato con scorte (registri o documenti) da un altro personaggio con l'abilità «Archivista».</p><h2>Fattori dell'abilità</h2><p><strong>Tipo</strong>: rapporto; bilancio; legge; norme di approvvigionamento.</p><p><strong>Per chi</strong>: un topo; pattuglia; avamposto o fortezza; attività commerciale; quartiere; cittadina; grande città.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Archivista» e «Oratore».</p>"
+    },
+    {
+      "id": "Apiarist",
+      "name": "Apicoltore",
+      "description": "<p>I personaggi con questa abilità possono allevare api e raccogliere miele e cera.</p><h2>Fattori dell'abilità</h2><p><strong>Api</strong>: fuchi; api operaie; ape regina; intero alveare.</p><p><strong>Prodotto</strong>: miele; cera.</p><p><strong>Azione</strong>: calmare; infuriare; aizzare lo sciame.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Studioso», «Insettologo» e «Esperto di animali».</p>"
+    },
+    {
+      "id": "Archivist",
+      "name": "Archivista",
+      "description": "<p>I personaggi con questa abilità si occupano della registrazione e conservazione delle informazioni sugli eventi storici. Sanno anche come trovare informazioni negli archivi e nelle biblioteche.</p><p>Un personaggio con l'abilità «Archivista» può essere aiutato con scorte (carta) da un altro personaggio con l'abilità «Mugnaio» e (inchiostro) da un «Insettologo».</p><h2>Fattori dell'abilità</h2><p><strong>Scrittura</strong>: leggibile; chiara; semplice.</p><p><strong>Ricerca</strong>: qualcosa di specifico; poco noto; perduto; parzialmente conservato.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Cartografo» e «Amministratore».</p>"
+    },
+    {
+      "id": "Armorer",
+      "name": "Armaiolo",
+      "description": "<p>I personaggi con questa abilità creano armature e armi per le guardie e le milizie cittadine.</p><p>Un personaggio con l'abilità «Armaiolo» può essere aiutato con scorte da personaggi con le abilità «Fabbro», «Insettologo» e «Tessitore».</p><h2>Fattori dell'abilità</h2><p>«Armaiolo» utilizza fattori speciali che permettono di creare armi e armature personalizzate.</p><p><strong>Armi</strong>: pugnali e bastoni; lance e fionde; spade e archi; asce e mazze; uncini con corde e alabarde.</p><p><strong>Armature e scudi (iniziano con difficoltà </strong><strong>PR</strong><strong> 2)</strong>: scudo; armatura leggera; armatura pesante.</p><h3>Pesante, scomodo e ingombrante</h3><p>Se durante la creazione di un'arma o armatura il giocatore fallisce la prova «Armaiolo», il GM può aggiungere 1 o 2 delle seguenti caratteristiche all’oggetto prodotto:</p><ul><li><p><strong>Ingrandito</strong>: -1D in Difesa o Finta;</p></li><li><p><strong>Ingombrante</strong>: -1D in Manovra o Finta;</p></li><li><p><strong>Grezzamente realizzato</strong>: -1D in Manovra o Attacco;</p></li><li><p><strong>Rallentante</strong>: -1D in Difesa o Finta;</p></li><li><p><strong>Scomodo</strong>: -1D in Manovra e -1D nelle prove «Ricognitore» o «Natura» quando il personaggio deve muoversi furtivamente o nascondersi;</p></li><li><p><strong>Complicato</strong>: -1D in Attacco;</p></li><li><p><strong>Pesante</strong>: -1D nella prova di «Salute» per recuperare da «Affaticato» (se usato in uno scontro nel turno precedente del GM o dei giocatori).</p></li></ul><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Fabbro» e «Studioso».</p>"
+    },
+    {
+      "id": "Baker",
+      "name": "Fornaio",
+      "description": "<p>I personaggi con questa abilità possono cuocere pane profumato, biscotti deliziosi e dolci pasticcini.</p><p>Un personaggio con l'abilità «Fornaio» può essere aiutato con scorte da personaggi con le abilità «Birraio», «Mugnaio» e «Apicoltore».</p><h2>Fattori dell'abilità</h2><p><strong>Ingredienti</strong>: farina; semi e cereali; piante selvatiche commestibili.</p><p><strong>Per chi</strong>: un topo; due topi; pattuglia; famiglia; panetteria.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Studioso».</p>"
+    },
+    {
+      "id": "Boatcrafter",
+      "name": "Costruttore di barche",
+      "description": "<p>I personaggi con questa abilità si intendono di tutto ciò che riguarda zattere, barche e navi. Possono costruire qualsiasi tipo di imbarcazione: dalle barchette di foglie a vere e proprie imbarcazioni di legno. Sanno anche governarle e tracciare rotte.</p><p>Un personaggio con l'abilità «Costruttore di barche» può essere aiutato con scorte (assi e tronchi) da un altro personaggio con l'abilità «Falegname» e (pelli e cuoio) da un «Cacciatore». Queste scorte rendono le imbarcazioni più resistenti.</p><h2>Fattori dell'abilità</h2><p><strong>Utilizzo</strong>: una volta; molte volte.</p><p><strong>Capacità</strong>: un topo; due topi; pattuglia; carico; una decina di topi.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Falegname» e «Studioso».</p>"
+    },
+    {
+      "id": "Brewer",
+      "name": "Birraio",
+      "description": "<p>I personaggi con questa abilità sono noti e rispettati, perché producono birra per gli abitanti delle città dei topi. Se in un insediamento manca acqua potabile, gli abitanti bevono solo birra.</p><p>Un personaggio con l'abilità «Birraio» può essere aiutato con scorte (malto) da un altro personaggio con l'abilità «Mugnaio» e (miele) da un «Apicoltore».</p><h2>Fattori dell'abilità</h2><p><strong>Qualità della birra</strong>: normale; buona; eccellente.</p><p><strong>Per chi</strong>: diversi topi; taverna o locanda; cittadina.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Studioso».</p>"
+    },
+    {
+      "id": "Carpenter",
+      "name": "Falegname",
+      "description": "<p>I personaggi con questa abilità costruiscono oggetti in legno: mobili, porte, scale, impalcature, ruote, manici e molto altro.</p><p>Un personaggio con l'abilità «Falegname» può essere aiutato con scorte (legname) da altri personaggi con le abilità «Raccoglitore» e «Manovale», e (ferramenta e utensili) da un «Fabbro».</p><h2>Fattori dell'abilità</h2><p><strong>Tipo</strong>: utensili domestici (scodelle, tazze ecc.), assi o materiali da costruzione; parti in legno o scale; mobili; piccole costruzioni (baracca); stanza</p><p>o parete esterna ampia e alta; casetta</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Studioso».</p>"
+    },
+    {
+      "id": "Cartographer",
+      "name": "Cartografo",
+      "description": "<p>I personaggi con questa abilità sanno creare e leggere mappe geografiche. Un personaggio con l'abilità «Cartografo» può essere aiutato con scorte (carta) da un altro con l'abilità «Mugnaio» e (inchiostro) da un «Insettologo».</p><h2>Fattori dell'abilità</h2><p><strong>Difficoltà della mappa</strong>: semplice; dettagliata; molto precisa.</p><p><strong>Informazioni</strong>: ispezione diretta; appunti di qualcun altro (non cartografo); racconto di qualcun altro.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Archivista» e «Guida».</p>"
+    },
+    {
+      "id": "Cook",
+      "name": "Cuoco",
+      "description": "<p>Ogni pattuglia dovrebbe avere un topo con questa abilità. Il cibo aiuta a sopravvivere alla fame quando i personaggi si trovano in luoghi selvaggi, lontani da casa o da una locanda accogliente.</p><p>Un personaggio con l'abilità «Cuoco» può essere aiutato con scorte da topi con le abilità «Raccoglitore» o «Mugnaio», o da chiunque abbia usato le proprie capacità naturali per trovare provviste.</p><p>Per rimuovere dallo stato «Affamato/Assetato» un personaggio, si effettua una prova di «Cuoco» con difficoltà variabile in base ai fattori elencati e alla situazione in gioco.</p><h2>Fattori dell'abilità</h2><p><strong>Per chi</strong>: un topo; due topi; pattuglia; grande famiglia; ristorante; quartiere.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Fornaio».</p>"
+    },
+    {
+      "id": "Fighter",
+      "name": "Combattente",
+      "description": "<p>Per natura, i topi non sono portati per il combattimento. Grazie all’addestramento, però, possono superare l’istinto di fuggire e imparare a catturare, ferire e persino uccidere i propri nemici usando zampe, denti, armi e qualsiasi altro equipaggiamento utile.</p><h2>Fattori dell'abilità</h2><p>L’abilità «Combattente» si usa in prove contrapposte contro la caratteristica «Natura» o contro un altro «Combattente». In alcuni tipi di conflitto, si può usare anche in prove normali.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Cacciatore».</p>"
+    },
+    {
+      "id": "Glazier",
+      "name": "Vetraio",
+      "description": "<p>I personaggi con questa abilità sanno fabbricare bicchieri e vasi in vetro, finestre e lenti di vario tipo. È un'abilità rara e molto apprezzata, poiché i prodotti in vetro sono fragili e costosi da produrre.</p><h2>Fattori dell'abilità</h2><p><strong>Qualità</strong>: semplice; funzionale; elegante.</p><p><strong>Dimensione</strong>: piccola; media; grande.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Studioso».</p>"
+    },
+    {
+      "id": "Haggler",
+      "name": "Affarista",
+      "description": "<p>«Affarista» è un’abilità sociale specifica per negoziare prezzi di beni e servizi. Si può usare per ridurre la difficoltà di una prova di «Risorse» oppure per alzare o abbassare il prezzo di un oggetto.</p><h2>Fattori dell'abilità</h2><p>L’abilità «Affarista» è quasi sempre usata in prove contrapposte contro l’abilità «Affarista» o la caratteristica «Volontà» dell’avversario. Si può usare anche nelle trattative.</p><p>Se superi la prova di «Affarista», puoi modificare la difficoltà di una prova di «Risorse» di 1 punto a tuo favore (più facile o più difficile, a seconda del tuo scopo).</p><p>Se invece fallisci la prova, sarà l’avversario a modificare la difficoltà della prova di «Risorse» a suo favore.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Persuasore».</p>"
+    },
+    {
+      "id": "Harvester",
+      "name": "Raccoglitore",
+      "description": "<p>I topi con questa abilità sono fondamentali per gli insediamenti nelle Terre. Raccolgono semi selvatici, bacche, radici, erbe, frutti e altri materiali utili.</p><p>I raccoglitori possono usare recipienti di terracotta per conservare il raccolto. Questi recipienti, creati da un personaggio con l’abilità «Vasaio», sono considerati scorte.</p><h2>Fattori dell'abilità</h2><p><strong>Periodo</strong>: fine estate e inizio autunno; inizio estate e fine primavera; fine autunno; inverno.</p><p><strong>Per chi</strong>: pattuglia; grande famiglia; panificio o ristorante; quartiere; cittadina; grande città.</p><p><strong>Condizioni avverse (usare solo se presenti in gioco)</strong>: inondazioni; siccità.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Osservatore del meteo».</p>"
+    },
+    {
+      "id": "Healer",
+      "name": "Guaritore",
+      "description": "<p>I personaggi con questa abilità si occupano della salute e del benessere degli altri topi.</p><p>Un personaggio con l’abilità «Guaritore» può essere aiutato con scorte (erbe) da un «Raccoglitore» e (medicinali) da uno «Studioso».</p><p>Con questa abilità si possono creare impacchi e pozioni per alleviare gli stati «Affaticato» e «Irritato». Questi rimedi sono considerati scorte quando si effettua una prova di «Volontà» o «Salute» per recuperare da tali stati.</p><h2>Fattori dell'abilità</h2><p><strong>Cura per</strong>: ferite (DR 3); malattie (DR 4).</p><p><strong>Rimedi per stati</strong>: «Affaticato»; «Malato»; «Ferito»; «Affamato»; «Irritato».</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Studioso».</p>"
+    },
+    {
+      "id": "Hunter",
+      "name": "Cacciatore",
+      "description": "<p>I topi coraggiosi con questa abilità si avventurano nelle terre selvagge per affrontare varie creature (erbivori, spazzini e persino predatori).</p><p>Usando l’ingegno e l’abilità, riescono a rintracciare, catturare, scacciare o uccidere animali che potrebbero minacciare i topi.</p><h2>Fattori dell'abilità</h2><p>L’abilità «Cacciatore» si usa in prove contrapposte contro «Natura» o durante scontri contro bestie selvagge. Può anche essere impiegata per ottenere informazioni su un animale: dove si nutre, cosa mangia, quali armi usa.</p><p><strong>Tracce e abitudini</strong>: orme; cibo/prede; armi; nido/tana.</p><p><strong>Tipo di bestia</strong>: preda; predatore.</p><p><strong>Livello della creatura nell’«Ordine Naturale»</strong>: insetto; pesce piccolo; pipistrello; donnola; castoro; volpe; coyote; lupo; orso.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Esperto di animali».</p>"
+    },
+    {
+      "id": "Insectrist",
+      "name": "Insettologo",
+      "description": "<p>I topi con questa abilità addestrano insetti (coleotteri, bruchi, vermi, ecc.) per compiti vari. I coleotteri diventano assistenti, i bruchi e i ragni forniscono seta, i vermi concimano la terra. I grilli possono essere usati per prevedere il tempo, le formiche per trasportare carichi leggeri.</p><h2>Fattori dell'abilità</h2><p><strong>Tipo di insetto</strong>: grillo; coleottero; bruco o verme; formica; ragno.</p><p><strong>Numero</strong>: uno; molti; moltissimi.</p><p><strong>Risultato</strong>: svolge un compito; obbedisce ai comandi; produce qualcosa.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Esperto di animali».</p>"
+    },
+    {
+      "id": "Instructor",
+      "name": "Istruttore",
+      "description": "<p>I topi con questa abilità sanno insegnare agli altri. Con «Istruttore», un personaggio può far avanzare le abilità di un altro, purché il proprio livello nell’abilità insegnata sia superiore a quello dell’allievo.</p><p>Se non è più alto, l’istruttore può farsi aiutare da un altro personaggio con quell’abilità: insegnano insieme (lavoro di squadra).</p><p>Superando la prova di «Istruttore», si segna una casella «P» o «N» (a scelta) nella scheda dell’allievo, non dell’istruttore. Si può usare per migliorare un'abilità esistente o insegnarne una nuova.</p><h2>Fattori dell'abilità</h2><p>La difficoltà della prova è pari al valore attuale di «Natura» dell’allievo. Se la Natura è ridotta, si usa il valore ridotto; altrimenti, quello massimo.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l’abilità che si sta insegnando.</p>"
+    },
+    {
+      "id": "Laborer",
+      "name": "Manovale",
+      "description": "<p>I topi con questa abilità rappresentano la forza lavoro di ogni insediamento. Raccolgono legna per i falegnami, pietre per i muratori, metalli per i fabbri, scavano fossati, trasportano carichi e svolgono mille lavori diversi.</p><p>Servono strumenti (scorte), realizzati da topi con l’abilità «Fabbro».</p><p>Un personaggio con l’abilità «Manovale» può aiutare in prove delle abilità: «Vasaio», «Muratore», «Fabbro», «Guaritore», «Costruttore di barche», «Mugnaio», «Insettologo», «Armaiolo», «Fornaio», «Birraio», «Falegname», «Apicoltore», «Raccoglitore», «Vetraio», «Tessitore» e «Studioso».</p><h2>Fattori dell'abilità</h2><p><strong>Tipo di lavoro</strong>: raccolta di legna; estrazione di pietra; estrazione di metallo.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con qualsiasi abilità pertinente.</p>"
+    },
+    {
+      "id": "Loremouse",
+      "name": "Esperto di animali",
+      "description": "<p>I topi con questa abilità studiano la vita e le abitudini degli animali. Possono usarla per comunicazioni basilari e per riconoscere caratteristiche naturali delle creature.</p><h2>Fattori dell'abilità</h2><p><strong>Comunicazione (min. difficoltà 2)</strong>: uccelli; mammiferi; rettili; anfibi e creature acquatiche.</p><p><strong>Caratteristiche naturali</strong>: si effettua una prova contrapposta «Esperto di animali» vs. «Natura» dell’animale. In caso di successo, il GM rivela tutte le caratteristiche naturali della creatura.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Cacciatore» e «Studioso».</p>"
+    },
+    {
+      "id": "Manipulator",
+      "name": "Manipolatore",
+      "description": "<p>I personaggi con questa abilità usano bugie, mezze verità, dettagli crudi, banalità o intimidazioni per ottenere ciò che desiderano o raggiungere i propri obiettivi.</p><h2>Fattori dell'abilità</h2><p>Si usa in prove contrapposte contro le abilità «Manipolatore», «Persuasore» o la caratteristica «Volontà» dell’avversario. In alcuni conflitti si può usare anche in prove normali.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Persuasore».</p>"
+    },
+    {
+      "id": "Militarist",
+      "name": "Militare",
+      "description": "<p>Un vero comandante conosce l’organizzazione, il rifornimento e il comando delle armate dei topi durante la guerra.</p><p>I topi con questa abilità sono rari. I topi non amano formare grandi eserciti o marciare in formazione.</p><h2>Fattori dell'abilità</h2><p>L’abilità «Militare» si usa nei conflitti e nelle prove contrapposte, ma anche in prove normali con difficoltà stabilita dal GM, considerando:</p><p><strong>Tradizioni</strong>: popolazione con tradizione militare; popolazione bellicosa; popolazione pacifica.</p><p><strong>Dimensione</strong>: avamposto; fortezza; cittadina; grande città; castello o cittadella.</p><p><strong>Azione</strong>: distruggere; difendere; fortificare.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Amministratore».</p>"
+    },
+    {
+      "id": "Miller",
+      "name": "Mugnaio",
+      "description": "<p>Con le macine, i personaggi con questa abilità trasformano materiali solidi in farine e polveri, da usare in cucina, birrificazione e lavorazioni industriali.</p><h2>Fattori dell'abilità</h2><p><strong>Tipo d’azione</strong>: macinatura di cereali; produzione di polveri per malte; produzione di carta.</p><p><strong>Per chi</strong>: pattuglia; famiglia; attività o grande costruzione; cittadina; grande città.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Studioso».</p>"
+    },
+    {
+      "id": "Orator",
+      "name": "Oratore",
+      "description": "<p>I personaggi con questa abilità sanno tenere discorsi pubblici. Non è utile nelle discussioni private, ma serve per motivare gruppi di topi ad agire.</p><h2>Fattori dell'abilità</h2><p>Si usa in prove contrapposte contro l’abilità «Oratore» o la caratteristica «Volontà» dell’opponente. Contro «Oratore» quando si compete per attirare l’attenzione del pubblico. Contro «Volontà» quando si vuole ispirare la folla all’azione. Utilizzabile anche in alcuni conflitti.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Manipolatore» o conoscenze appropriate.</p>"
+    },
+    {
+      "id": "Pathfinder",
+      "name": "Guida",
+      "description": "<p>I topi con questa abilità tracciano percorsi tra insediamenti, verso fonti di cibo, minerali, materiali da costruzione, ruscelli, laghi e campi di erbe. È una delle abilità più importanti.</p><p>Un personaggio con l’abilità «Guida» può essere aiutato con scorte (mappe) da un «Cartografo».</p><h2>Fattori dell'abilità</h2><p>Se la guida (o la sua pattuglia) vuole arrivare prima di un'altra, serve una prova contrapposta contro la «Guida» del rivale.</p><p><strong>Destinazione</strong>: vicina; viaggio breve; viaggio lungo; luogo isolato o isola.</p><p><strong>Percorso</strong>: ben noto; poco usato; invaso o rovinato; da tracciare da zero.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Ricognitore», «Cacciatore» e «Osservatore del meteo».</p>"
+    },
+    {
+      "id": "Persuader",
+      "name": "Persuasore",
+      "description": "<p>I personaggi con questa abilità sanno convincere il loro interlocutore. Riescono a spiegare con calma e logica perché, nel proprio interesse, dovrebbe aiutare o fare ciò che gli si chiede.</p><p>Non si usa per discorsi pubblici: è un’abilità da conversazione privata.</p><h2>Fattori dell'abilità</h2><p>Si utilizza in prove contrapposte contro le abilità «Persuasore», «Manipolatore» o la caratteristica «Volontà». In alcuni conflitti si può usare anche in prove normali.</p><p>Per convincere qualcuno ad agire secondo le proprie indicazioni, si effettua una prova contrapposta «Persuasore» contro «Volontà» del bersaglio. Se invece si vuole dimostrare di avere ragione in una disputa, la prova sarà «Persuasore» contro «Persuasore» dell'avversario.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Manipolatore».</p>"
+    },
+    {
+      "id": "Potter",
+      "name": "Vasaio",
+      "description": "<p>I personaggi con questa abilità creano oggetti d’argilla per mangiare (ciotole e piatti), cucinare e conservare alimenti (vasi).</p><h2>Fattori dell'abilità</h2><p><strong>Per conservare</strong>: cibo; liquidi.</p><p><strong>Tipo</strong>: semplice; funzionale; decorativo.</p><p><strong>Dimensione</strong>: piccolo; grande; molto grande.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Vetraio» e «Fornaio».</p>"
+    },
+    {
+      "id": "Scientist",
+      "name": "Studioso",
+      "description": "<p>I topi con questa abilità possiedono grande conoscenza. Comprende astronomia, biologia, chimica, fisica e geologia. Nelle ricerche, può essere aiutato con scorte (appunti d’archivio) da un «Archivista» o (essenze ed estratti) da un «Insettologo». Per creare medicine può usare muschio curativo di Moshviaz o resina di Podjelnik.</p><h2>Fattori dell'abilità</h2><p><strong>Campo di ricerca</strong>: geologia/minerali; chimica; fisica/ingegneria; biologia; astronomia.</p><p><strong>Effetto desiderato</strong>: danno; beneficio.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con conoscenze appropriate.</p>"
+    },
+    {
+      "id": "Scout",
+      "name": "Ricognitore",
+      "description": "<p>Specialisti nel rilevare predatori in agguato, infiltrarsi dietro le linee, seguire bersagli e scoprire oggetti nascosti.</p><h2>Fattori dell'abilità</h2><p>Si usa quasi sempre in prove contrapposte contro «Ricognitore» o «Natura». In caso di ricerca di indizi o persone ignare, si può fare una prova normale con difficoltà calcolata come segue:</p><p><strong>Dimensione bersaglio</strong>: grande; come un topo; piccola; minuscola.</p><p><strong>Posizione</strong>: nota; approssimativa; «da qualche parte da quelle parti».</p><p><strong>Tempo</strong>: lasciato in questa stagione; nella stagione scorsa; l’anno scorso.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Guida» e «Cacciatore».</p>"
+    },
+    {
+      "id": "Smith",
+      "name": "Fabbro",
+      "description": "<p>I personaggi con questa abilità lavorano i metalli per creare aghi, lame, utensili da cucina, strumenti da lavoro e ferramenta (cerniere, perni, chiodi).</p><p>Non si può usare per creare armi o armature, serve l’abilità «Armaiolo».</p><h2>Fattori dell'abilità</h2><p><strong>Tipo di oggetto</strong>: ferramenta; utensili da cucina; attrezzi; strutture metalliche piccole (cancelletti); grandi (recinzioni); pavimenti o grate.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Manovale» e «Armaiolo».</p>"
+    },
+    {
+      "id": "Stonemason",
+      "name": "Muratore",
+      "description": "<p>I topi con questa abilità sanno scolpire la pietra e costruire con essa muri, ponti e edifici.</p><p>Per lavorare meglio, hanno bisogno di buoni strumenti (scorte), fabbricati da un personaggio con l'abilità «Fabbro».</p><h2>Fattori dell'abilità</h2><p><strong>Complessità</strong>: struttura semplice (es. muro); struttura media (es. colonna); struttura complessa (es. arco); struttura fortificata (es. bastione).</p><p><strong>Dimensione</strong>: piccola (grande come un tavolo); media (come un muro interno); grande (come una casa).</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Manovale».</p>"
+    },
+    {
+      "id": "Survivalist",
+      "name": "Sopravvissuto",
+      "description": "<p>I topi con questa abilità sanno costruire rifugi, trovare acqua, accendere fuochi e riparare equipaggiamenti.</p><p>Regola speciale: Se un personaggio con questa abilità fallisce una prova, non acquisisce lo stato «Irritato».</p><h2>Fattori dell'abilità</h2><p><strong>Azione</strong>: costruire; trovare acqua; accendere fuoco in condizioni avverse; costruire uno strumento con ciò che si ha; riparare una falla in una barca.</p><p><strong>Per chi</strong>: un topo; pattuglia; gruppo numeroso.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con le abilità «Cacciatore» e «Osservatore del meteo».</p>"
+    },
+    {
+      "id": "Weather Watcher",
+      "name": "Osservatore del meteo",
+      "description": "<p>Con questa abilità si possono prevedere cambiamenti climatici osservando suolo e vegetazione, il movimento delle nuvole, il vento, l’umidità e fenomeni celesti.</p><h2>Fattori dell'abilità</h2><p>È una potente abilità: permette al giocatore di cambiare le condizioni meteo in gioco. Se la prova ha successo, può decidere il nuovo clima per un lungo periodo o per tutta la sessione.</p><p>Per cambiare il meteo si effettua una prova contrapposta tra «Osservatore del meteo» e la «difficoltà stagionale» (inverno 7, primavera 6, estate 4, autunno 5). Il tiro stagionale è fatto dal GM.</p><p>Se il giocatore vince, prevede il tempo e sceglie un evento atmosferico dalla lista della stagione in corso.</p><p>Con 2+ successi oltre la soglia, può scegliere anche eventi «fuori stagione».</p><p>Il cambiamento avverrà all’inizio della prossima sessione o durante quella attuale, se si verifica un evento narrativo legato al clima. La nuova condizione resterà attiva fino al prossimo evento simile o fino a fine sessione.</p><p>Nota: eventi fuori stagione possono avere conseguenze (siccità, alluvioni, parassiti, epidemie), introdotte dal GM secondo la storia e il clima precedente.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con l'abilità «Studioso».</p>"
+    },
+    {
+      "id": "Weaver",
+      "name": "Tessitore",
+      "description": "<p>I personaggi con questa abilità producono tessuti e confezionano mantelli, grembiuli, coperte, lenzuola e arazzi.</p><p>Gli oggetti prodotti con quest’abilità possono essere usati come scorte nelle prove per recuperare dallo stato «Affaticato» causato da freddo e/o umidità.</p><p>Un personaggio con l’abilità «Tessitore» può ricevere scorte da: un «Cacciatore» (pelli e pellicce), un «Raccoglitore» (fibre vegetali), un «Insettologo» (filato di seta), un «Muratore», uno «Studioso» o ancora un «Insettologo» (coloranti).</p><h2>Fattori dell'abilità</h2><p><strong>Tipo</strong>: coperta; biancheria; mantello; abbigliamento; arazzo.</p><h2>In una prova di questa abilità si può aiutare</h2><p>Con una conoscenza pertinente.</p>"
+    }
+  ]
+}

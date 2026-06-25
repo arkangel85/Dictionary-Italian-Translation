@@ -1,0 +1,59 @@
+{
+  "tidbits": {
+    "message": {
+      "didYouKnow": "Lo sapevi?",
+      "tidbits": "Consigli",
+      "reroll": "Un altro consiglio!"
+    },
+    "settings": {
+      "showChatMessage": {
+        "name": "Mostra messaggio in chat",
+        "hint": "Mostra un consiglio sussurrato al login.",
+        "choices": {
+          "everyone": "A tutti",
+          "players": "Ai giocatori",
+          "gamemaster": "Al master",
+          "none": "A nessuno"
+        }
+      },
+      "showLoadingScreen": {
+        "name": "Mostra schermata di caricamento",
+        "hint": "Mostra i consigli durante il caricamento della scena.",
+        "choices": {
+          "everyone": "A tutti",
+          "players": "Ai giocatori",
+          "gamemaster": "Al master",
+          "none": "A nessuno"
+        }
+      },
+      "startupLoadingScreen": {
+        "name": "Durata schermata iniziale",
+        "hint": "Tempo in secondi per mostrare i consigli all’avvio del modulo, 0 per disattivare."
+      },
+      "loadingScreenMinimumDuration": {
+        "name": "Durata minima della schermata dei consigli",
+        "hint": "Tempo in secondi di visualizzazione durante il caricamento della scena."
+      },
+      "loadingScreenGradient": {
+        "name": "Gradiente per la schermata di caricamento",
+        "hint": "Applica un gradiente all'immagine per migliorare la leggibilità del testo e sfoca l'immagine."
+      },
+      "pauseText": {
+        "name": "Testo durante la pausa",
+        "hint": "Mostra i consigli quando il gioco è in pausa"
+      },
+      "useDefaultSources": {
+        "name": "Usa fonte predefinita",
+        "hint": "Usa l’elenco incorporato di consigli (in inglese)."
+      },
+      "customSource": {
+        "name": "Fonte personalizzata",
+        "hint": "File JSON personalizzato come sorgente dei consigli. Lascia vuoto per disattivare."
+      },
+      "imageSource": {
+        "name": "Fonte delle immagini",
+        "hint": "Cartella utilizzata per le schermate di caricamento. Lascia vuoto per disattivare."
+      }
+    }
+  }
+}

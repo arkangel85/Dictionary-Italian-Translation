@@ -1,0 +1,293 @@
+{
+  "WORLD.GameSystem": "Sistema di gioco",
+  "WH": {
+    "Badge": {
+      "Notes": "NOTE",
+      "Issues": "PROBLEMI",
+      "Wiki": "WIKI",
+      "Discord": "DISCORD"
+    },
+    "Initializer": {
+      "SettingName": "Moduli premium Warhammer",
+      "SettingLabel": "Gestione moduli",
+      "SettingHint": "Impostazioni di importazione per i moduli premium Warhammer",
+      "Title": "Inizializzazione modulo Warhammer",
+      "Text": "<h3>Inizializza, aggiorna o elimina i contenuti dei moduli ufficiali premium Warhammer</h3>",
+      "HelpText": "<p>Hai bisogno di aiuto? Consulta la <a href=https://moo-man.github.io/WFRP4e-FoundryVTT/pages/premium.html#initializiation>Wiki</a></p>",
+      "Tooltips": {
+        "NotInstalled": "Modulo non installato! Se hai acquistato questo modulo, assicurati che sia installato nel <strong>menu principale</strong> di Foundry",
+        "NotActive": "Modulo non attivo! Vai su <strong>Gestione moduli</strong> nella barra laterale per attivare questo modulo nel mondo."
+      },
+      "Action": {
+        "Initialize": "Inizializza",
+        "Update": "Aggiorna",
+        "Delete": "Elimina"
+      },
+      "UpdaterTitle": "Aggiornamento {module}",
+      "UpdaterText": "<p>Questo processo importerà nuovi documenti e sovrascriverà quelli già importati.</p><p>CIÒ SIGNIFICA CHE TUTTE LE MODIFICHE APPORTATE SARANNO SOVRASCRITTE. Questo non si applica ai documenti di proprietà dei giocatori.</p><p>Utilizza questa funzione solo se hai già inizializzato questo modulo in precedenza.</p>",
+      "UpdaterExclude": "Escludi nomi modificati",
+      "UpdaterExcludeHint": "Se il nome del documento è stato modificato, non verrà aggiornato.",
+      "OverwriteActors": "Sovrascrivi attori",
+      "OverwriteMacros": "Sovrascrivi macro",
+      "OverwriteJournals": "Sovrascrivi diari",
+      "OverwriteTables": "Sovrascrivi tabelle",
+      "OverwriteScenes": "Sovrascrivi scene"
+    },
+    "AdvancedConfig": "Sovrascrivi effetti",
+    "Scripts": "Script",
+    "CannotDeleteItemEffect": "Questo effetto è collegato a un oggetto dell'attore. Rimuovi l'oggetto o l'effetto dall'oggetto.",
+    "ItemDialog": "Finestra oggetto",
+    "ValueDialog": "Finestra valore",
+    "Initialize": "Inizializza",
+    "ScriptConfig": "Configurazione script",
+    "DiffEditor": "Editor differenze",
+    "ScriptEditor": "Editor script",
+    "AddScript": "Aggiungi script",
+    "EffectFiltered": "Effetto filtrato",
+    "EffectPrevented": "Effetto impedito",
+    "DeletingEffectItems": "Eliminazione effetti: {items}",
+    "ItemsNotAllowed": "Questo oggetto non può essere aggiunto a questo tipo di attore.",
+    "DiffDescription": "La 'differenza' rappresenta le modifiche da apportare all'oggetto originale. Può essere eseguita manualmente o generata trascinando un oggetto dello stesso tipo.",
+    "BugReporter": {
+      "Title": "Segnala un errore",
+      "APIReached": "Hai raggiunto il limite dell’API di GitHub. Dovrai attendere un’ora oppure inviare il report manualmente su GitHub.",
+      "Updated": "<p>Tutti i moduli Warhammer sono aggiornati!</p>",
+      "NotUpdated": "<p>Questi moduli Warhammer non sono aggiornati all’ultima versione</p>",
+      "PostSuccess": "Errore segnalato con successo! Il link è nella console.",
+      "PostError": "Impossibile inviare il report dell'errore. Controlla la console.",
+      "GeneralBugReportError": "Qualcosa è andato storto",
+      "LoadingIssues": "Errore di caricamento",
+      "BugReportFormError": "Compila il modulo",
+      "BugReportNameError": "Inserisci il tuo nome Discord o email.",
+      "Troubleshooting": "Prima di segnalare un errore, consulta la pagina <a href='{url}'>Risoluzione problemi</a>.",
+      "Contact": "Contatto",
+      "ContactPlaceholder": "Nome Discord o Email",
+      "Warning": "<b>Attenzione</b>: Questa informazione sarà visibile pubblicamente su GitHub. Si consiglia di usare il nome Discord anziché l’email. Altrimenti, contattami direttamente (<a href='mailto:russellt@cubicle7games.com'>Moo Man</a>).",
+      "MatchingIssues": "Questo problema è già stato segnalato?",
+      "DescriptionPlaceholder": "Cosa è successo, come riprodurlo, ecc.",
+      "ManyModules": "Hai moduli non ufficiali attivi. Potrebbero essere la causa? Prova a disattivare tutti i moduli non ufficiali Warhammer.",
+      "AlertHint": "Questo report non è riproducibile o necessita ulteriori informazioni. Clicca sul titolo per i dettagli.",
+      "NeedsAttention": "RICHIEDE ATTENZIONE",
+      "Resolved": "RISOLTO"
+    },
+    "Choice": {
+      "Options": "Opzioni",
+      "Option": "Opzione",
+      "AND": "E",
+      "OR": "O",
+      "Config": "Configurazione scelta",
+      "CreateOption": "Crea opzione",
+      "CreateOptionDetails": "<p>Seleziona il tipo di opzione.</p><p><strong>Segnaposto</strong>: un oggetto privo di dati tranne il nome, sarà creato come tipo Equipaggiamento</p><p><strong>Filtro</strong>: definisce filtri per selezionare oggetti</p>",
+      "Placeholder": "Segnaposto",
+      "Filter": "Filtro",
+      "FilterPath": "Percorso",
+      "FilterOperation": "Operazione",
+      "FilterValue": "Valore"
+    },
+    "Initialization": {
+      "DeleteModuleContent": "Elimina contenuti del modulo",
+      "DeleteModuleContentPrompt": "<p><strong>ATTENZIONE</strong>: Questo eliminerà tutti i contenuti legati al modulo <strong>{id}</strong> importati in questo mondo.</p><p>Sei sicuro di voler continuare?</p>",
+      "ResolveDuplicates": "Risolvi duplicati"
+    },
+    "Item": {
+      "Category": {
+        "Physical": "Oggetto",
+        "Vehicle": "Veicolo"
+      }
+    },
+    "ScriptLock": "Script bloccati",
+    "ScriptLockTT": "Gli script non possono essere modificati se sono collegati. Per modificarli: copiali, sblocca, incolla e modifica.",
+    "Script": "Script",
+    "ScriptTrigger": "Trigger",
+    "Targeter": "Miratore",
+    "TargeterTT": "Esegui questo script nella finestra di qualsiasi attore che mira a questo attore.",
+    "DefendingAgainst": "Difesa contro",
+    "DefendingAgainstTT": "Esegui questo script nella finestra dell'attore bersagliato da questo attore o oggetto",
+    "DialogScript": "Script del dialogo",
+    "HideScript": "Nascondi script",
+    "ActivateScript": "Attiva script",
+    "SubmissionScript": "Script invio",
+    "ManualEffectKeys": "Chiavi effetto manuale",
+    "DeleteEffect": "Elimina effetto",
+    "DeleteEffectHint": "Elimina l'effetto attivo dopo l'esecuzione dello script",
+    "NewScript": "Nuovo script",
+    "NewEffect": "Nuovo effetto",
+    "NewItem": "Nuovo oggetto",
+    "Trigger": {
+      "Manual": "Manuale",
+      "Immediate": "Immediato",
+      "Dialog": "Dialogo",
+      "OnCreate": "Alla creazione",
+      "PrepareBaseData": "Prepara dati base",
+      "PrePrepareDerivedData": "Pre-preparazione dati derivati",
+      "PrepareDerivedData": "Prepara dati derivati",
+      "PrepareOwnedItemBaseData": "Prepara dati base oggetto posseduto",
+      "PrePrepareOwnedItemDerivedData": "Pre-preparazione dati derivati oggetto posseduto",
+      "PrepareOwnedItemDerivedData": "Prepara dati derivati oggetto posseduto",
+      "PrepareOwnedItems": "Prepara oggetti posseduti",
+      "PrepareOwnedData": "Prepara dati posseduti",
+      "PreApplyDamage": "Prima di applicare danno",
+      "ApplyDamage": "Applica danno",
+      "PreTakeDamage": "Prima di subire danno",
+      "TakeDamage": "Subisci danno",
+      "CreateToken": "Crea token",
+      "CreateItem": "Crea oggetto",
+      "PreUpdateDocument": "Prima dell'aggiornamento documento",
+      "UpdateDocument": "Aggiorna documento",
+      "CreateCondition": "Crea condizione",
+      "DeleteEffect": "Elimina effetto",
+      "StartRound": "Inizio round",
+      "EndRound": "Fine round",
+      "StartTurn": "Inizio turno",
+      "EndTurn": "Fine turno",
+      "UpdateCombat": "Aggiorna combattimento",
+      "StartCombat": "Inizia combattimento",
+      "EndCombat": "Termina combattimento"
+    },
+    "ErrorNoZones": "Nessuna zona disponibile. Aggiungi regioni sulla scena per creare zone.",
+    "ErrorUnableToFindEffect": "Impossibile trovare l'effetto da applicare.",
+    "PickZone": "Seleziona la zona a cui applicare l’effetto attivo.",
+    "TransferData": {
+      "TransferType": "Tipo di trasferimento",
+      "TransferTypeHint": "Imposta come trasferire o applicare l’effetto attivo.",
+      "DocumentType": "Tipo documento",
+      "DocumentTypeHint": "A quale documento applicare l'effetto attivo",
+      "AvoidTest": "Evita test",
+      "AvoidTestNone": "Nessuno",
+      "AvoidTestItem": "Oggetto",
+      "AvoidTestCustom": "Personalizzato",
+      "AvoidTestScript": "Script",
+      "AvoidTestHint": "Definisci un test che, se superato, impedisce l'applicazione dell’effetto.",
+      "Opposed": "Contrapposto",
+      "Prevention": "Prevenzione",
+      "PreventionHint": "Evita l'effetto se il test è superato.",
+      "Reversed": "Invertito",
+      "ReversedHint": "Previene l'effetto se il test fallisce.",
+      "AreaDuration": "Durata effetto area",
+      "AreaDurationInstantaneous": "Istantaneo",
+      "AreaDurationSustained": "Continuato",
+      "TransferredAura": "Aura trasferita",
+      "TransferredAuraHint": "Applica questa aura al bersaglio (o a sé) invece di applicarla sempre a sé",
+      "RenderAura": "Visualizza aura",
+      "RenderAuraHint": "Visualizza l’aura sulla scena come sagoma misurabile",
+      "Keep": "Mantieni",
+      "KeepHint": "Previene la rimozione dell'effetto uscendo dalla regione",
+      "Radius": "Raggio",
+      "RadiusHint": "Raggio del modello",
+      "TemplateData": "Dati modello",
+      "TemplateDataHint": "Configura i dati del modello, come colore o texture",
+      "TestIndependent": "Test indipendente",
+      "TestIndependentHint": "Se abilitato, l'effetto può essere attivato direttamente dalla scheda dell’attore",
+      "PreApplyScript": "Script prima dell’applicazione",
+      "PreApplyScriptHint": "Eseguito prima di applicare l’effetto - eseguito sulla fonte. Restituisce false per impedirne l’effetto.",
+      "EquipTransfer": "Trasferisci all'equipaggiamento",
+      "EquipTransferHint": "Trasferisci l'effetto solo se equipaggiato",
+      "EnableScript": "Script di attivazione",
+      "EnableScriptHint": "Condizione per attivare o disattivare l’effetto",
+      "Filter": "Filtro",
+      "FilterHint": "Script per filtrare i documenti a cui applicare l’effetto. Deve restituire <strong>true</strong> per impedirlo.",
+      "Prompt": "Richiesta",
+      "PromptHint": "Fornisci una selezione all’utente per scegliere un documento su cui applicare l’effetto.",
+      "SelfOnly": "Solo a sé",
+      "SelfOnlyHint": "L’effetto si applica solo all’attore proprietario",
+      "SkipImmediatePlacement": "Salta Immediati in piazzamento",
+      "SkipImmediatePlacementHint": "Previene l'esecuzione di script immediati al piazzamento.",
+      "ZoneType": "Tipo di zona",
+      "ZoneTypeHint": "<strong>Effetto zona</strong>: effetto collegato alla zona. <strong>Token nella zona</strong>: effetto applicato ai token all'interno. <strong>Segui il token</strong>: applicato alla zona occupata dal token.",
+      "AdvancedConfig": "Configurazione avanzata"
+    },
+    "TransferType": {
+      "Document": "Documento proprietario",
+      "Damage": "Danno",
+      "Target": "Bersaglio",
+      "Area": "Regione",
+      "Aura": "Aura",
+      "Zone": "Zona",
+      "Other": "Altro"
+    },
+    "ApplyTooltips": {
+      "Self": "Applica l'effetto all'attore originale",
+      "Target": "Applica l'effetto ai bersagli dell'azione o ai token attualmente selezionati.",
+      "Area": "Posiziona un modello per l'effetto, applicandolo ai token all'interno.",
+      "Zone": "Seleziona una Zona per applicare questo effetto ai token al suo interno."
+    },
+    "Dialog.Modifiers": "Modificatori",
+    "Dialog.UserEntry": "Personalizzato",
+    "Dialog.Initial": "Iniziale",
+    "PlaceEffect": "Posiziona {name}",
+    "ApplyEffect": "Applica {name}",
+    "ZoneEffect": "Effetto zona",
+    "TokensInZone": "Token nella zona",
+    "FollowToken": "Segui il token",
+    "SendingSocketRequest": "Invio richiesta tramite socket",
+    "ZoneConfig": "Configurazione zona",
+    "ZoneEffects": "Effetti applicati alla zona",
+    "Warning": {
+      "RenderAuraChange": "Per visualizzare il cambiamento dell’aura, disattiva e riattiva l’effetto originale oppure sostituisci il token nella scena."
+    },
+    "Error": {
+      "NotValidChoiceType": "Tipo di scelta non valido",
+      "LibraryOutaded": "La libreria Warhammer è obsoleta. {system} richiede almeno la versione {minimum}.",
+      "ID": "L'ID per {name} esiste già nella collezione. Il documento ha ricevuto un ID univoco.",
+      "CreateZoneEffect": "Gli effetti devono essere creati tramite un effetto attivo con tipo di trasferimento 'Zona'",
+      "NoTargetedActors": "Nessun attore bersaglio!",
+      "NoActorAssigned": "Nessun attore assegnato. Puoi assegnare attori tramite la Configurazione giocatore nell'angolo in basso a sinistra dello schermo.",
+      "NoTargets": "Nessun attore bersaglio!"
+    },
+    "CompendiumBrowser": {
+      "WorldItems": "Mostra oggetti del mondo nel browser",
+      "FilterClear": "Cancella filtri",
+      "Column": {
+        "Results": "Risultati",
+        "Source": "Fonte"
+      },
+      "Title": "Browser delle raccolte",
+      "Action": {
+        "Open": "Apri browser raccolte"
+      },
+      "Filters": {
+        "Label": "Filtri",
+        "HasDarkvision": "Ha visione nel buio",
+        "HasSpellcasting": "Ha capacità magiche",
+        "SearchResults": "Risultati della ricerca"
+      },
+      "Selection": {
+        "Label": "Selezionato: {summary}",
+        "Select": "Seleziona",
+        "Summary": {
+          "Max": "<span class=\"value\">{value}</span> su un massimo di {max}",
+          "Min": "<span class=\"value\">{value}</span> su un minimo di {min}",
+          "Range": "<span class=\"value\">{value}</span> da {min} a {max}",
+          "Single": "<span class=\"value\">{value}</span> su {max}"
+        },
+        "Warning": {
+          "Document": {
+            "one": "documento",
+            "other": "documenti",
+            "few": "documenti",
+            "many": "documenti"
+          },
+          "Max": "È necessario selezionare al massimo {max} {document}, selezionati {value}.",
+          "Min": "È necessario selezionare almeno {min} {document}, selezionati {value}.",
+          "Range": "È necessario selezionare da {min} a {max} documenti, selezionati {value}.",
+          "Single": "È necessario selezionare {max} {document}, selezionati {value}."
+        }
+      },
+      "Sources": {
+        "Name": "Fonti delle raccolte",
+        "Label": "Configura fonti",
+        "FilterPackages": "Filtra moduli",
+        "Hint": "Contenuto di quali moduli sarà visibile nel browser."
+      },
+      "Tabs": {
+        "Feat.other": "Caratteristiche",
+        "Item.other": "Oggetti",
+        "Monster.other": "Mostri"
+      },
+      "Types": {
+        "Label": "Tipi"
+      }
+    }
+  },
+  "EFFECT.TABS.scripts": "Script"
+}

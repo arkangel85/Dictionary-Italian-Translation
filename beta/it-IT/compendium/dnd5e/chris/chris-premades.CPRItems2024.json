@@ -1,0 +1,17 @@
+{
+  "label": "CPR Oggetti",
+  "entries": {
+    "Unarmed Strike": {
+      "name": "Colpo senz'armi [Unarmed Strike]"
+    },
+    "Healer's Kit": {
+      "name": "Kit del Guaritore [Healer's Kit]"
+    },
+    "Unarmed Strike (Tavern Brawler)": {
+      "name": "Colpo senz'armi (Rissoso da Taverna [Tavern Brawler])"
+    },
+    "Unarmed Strike (Unarmed Fighting)": {
+      "name": "Colpo senz'armi (Combattimento Senz'Armi [Unarmed Fighting])"
+    }
+  }
+}

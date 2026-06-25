@@ -1,0 +1,208 @@
+{
+  "label": "Abilità - Night's Black Agents",
+  "mapping": {
+    "category": "data.category"
+  },
+  "entries": {
+    "Accounting": {
+      "name": "Contabilità",
+      "category": "Scientifiche"
+    },
+    "Archaeology": {
+      "name": "Archeologia",
+      "category": "Scientifiche"
+    },
+    "Architecture": {
+      "name": "Architettura",
+      "category": "Scientifiche"
+    },
+    "Art History": {
+      "name": "Storia dell'arte",
+      "category": "Scientifiche"
+    },
+    "Astronomy": {
+      "name": "Astronomia",
+      "category": "Applicate"
+    },
+    "Athletics": {
+      "name": "Atletica",
+      "category": "Generali"
+    },
+    "Bullshit Detector": {
+      "name": "Intuito",
+      "category": "Interpersonali"
+    },
+    "Bureaucracy": {
+      "name": "Burocrazia",
+      "category": "Interpersonali"
+    },
+    "Chemistry": {
+      "name": "Chimica",
+      "category": "Applicate"
+    },
+    "Conceal": {
+      "name": "Nascondere",
+      "category": "Generali"
+    },
+    "Cop Talk": {
+      "name": "Gergo della polizia",
+      "category": "Interpersonali"
+    },
+    "Cryptography": {
+      "name": "Crittografia",
+      "category": "Applicate"
+    },
+    "Disguise": {
+      "name": "Travestimento",
+      "category": "Generali"
+    },
+    "Driving": {
+      "name": "Guida",
+      "category": "Generali"
+    },
+    "Electronic Surveillance": {
+      "name": "Sorveglianza elettronica",
+      "category": "Applicate"
+    },
+    "Filch": {
+      "name": "Furtarello",
+      "category": "Generali"
+    },
+    "Flattery": {
+      "name": "Lusinga",
+      "category": "Interpersonali"
+    },
+    "Flirting": {
+      "name": "Flirt",
+      "category": "Interpersonali"
+    },
+    "Forgery": {
+      "name": "Falsificazione",
+      "category": "Applicate"
+    },
+    "Gambling": {
+      "name": "Gioco d'azzardo",
+      "category": "Generali"
+    },
+    "Hand-to-Hand": {
+      "name": "Corpo a corpo",
+      "category": "Generali"
+    },
+    "Health": {
+      "name": "Salute",
+      "category": "Generali"
+    },
+    "High Society": {
+      "name": "Alta società",
+      "category": "Interpersonali"
+    },
+    "History": {
+      "name": "Storia",
+      "category": "Scientifiche"
+    },
+    "Infiltration": {
+      "name": "Infiltrazione",
+      "category": "Generali"
+    },
+    "Interrogation": {
+      "name": "Interrogatorio",
+      "category": "Interpersonali"
+    },
+    "Intimidation": {
+      "name": "Intimidazione",
+      "category": "Interpersonali"
+    },
+    "Languages": {
+      "name": "Lingue",
+      "category": "Scientifiche"
+    },
+    "Law": {
+      "name": "Legge",
+      "category": "Scientifiche"
+    },
+    "Mechanics": {
+      "name": "Meccanica",
+      "category": "Generali"
+    },
+    "Medic": {
+      "name": "Primo soccorso",
+      "category": "Generali"
+    },
+    "Military Science": {
+      "name": "Scienze militari",
+      "category": "Scientifiche"
+    },
+    "Negotiation": {
+      "name": "Negoziazione",
+      "category": "Interpersonali"
+    },
+    "Network": {
+      "name": "Contatti",
+      "category": "Generali"
+    },
+    "Notice": {
+      "name": "Percezione",
+      "category": "Applicate"
+    },
+    "Occult Studies": {
+      "name": "Studi occulti",
+      "category": "Scientifiche"
+    },
+    "Outdoor Survival": {
+      "name": "Sopravvivenza",
+      "category": "Applicate"
+    },
+    "Photography": {
+      "name": "Fotografia",
+      "category": "Applicate"
+    },
+    "Piloting": {
+      "name": "Pilotaggio",
+      "category": "Generali"
+    },
+    "Preparedness": {
+      "name": "Prontezza",
+      "category": "Generali"
+    },
+    "Reassurance": {
+      "name": "Rassicurazione",
+      "category": "Interpersonali"
+    },
+    "Research": {
+      "name": "Ricerca",
+      "category": "Scientifiche"
+    },
+    "Sense Trouble": {
+      "name": "Sesto senso",
+      "category": "Generali"
+    },
+    "Shooting": {
+      "name": "Tiro",
+      "category": "Generali"
+    },
+    "Shrink": {
+      "name": "Fuga",
+      "category": "Generali"
+    },
+    "Stability": {
+      "name": "Autocontrollo",
+      "category": "Generali"
+    },
+    "Streetwise": {
+      "name": "Furbizia di strada",
+      "category": "Interpersonali"
+    },
+    "Surveillance": {
+      "name": "Sorveglianza",
+      "category": "Generali"
+    },
+    "Tradecraft": {
+      "name": "Tecniche da spia",
+      "category": "Interpersonali"
+    },
+    "Traffic Analysis": {
+      "name": "Analisi del traffico",
+      "category": "Applicate"
+    }
+  }
+}

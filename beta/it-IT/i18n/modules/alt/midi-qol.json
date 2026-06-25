@@ -1,0 +1,3416 @@
+{
+  "midi-qol.ItemDeleteCheck.Name": "Conferma eliminazione oggetto",
+  "midi-qol.ItemDeleteCheck.Hint": "Apri una finestra di conferma quando si tenta di eliminare un oggetto dalla scheda del personaggio.",
+  "midi-qol.DamageImmunities.Name": "Applicare immunità",
+  "midi-qol.DamageImmunities.Hint": "Quando si utilizzano i pulsanti di danno di midi-qol o il danno viene applicato automaticamente, vengono prese in considerazione immunità, vulnerabilità e resistenze del bersaglio. Vengono controllati tutti i tipi di danno.",
+  "midi-qol.WorldKeyMappings.Name": "Configurazione tasti rapidi per il mondo e i partecipanti",
+  "midi-qol.WorldKeyMappings.Blurb1": "L'assegnazione dei tasti è configurata individualmente per ogni partecipante. Per forzare assegnazioni identiche, è possibile usare moduli per impostazioni condivise.",
+  "midi-qol.WorldKeyMappings.Blurb2": "Ho testato con successo 'Controllo forzato dei partecipanti'",
+  "midi-qol.SpeedAbilityRolls.Name": "Abilita tiri rapidi per TS/abilità/abilità",
+  "midi-qol.ShowItemDetails.Name": "Mostrare dettagli oggetto nella scheda chat",
+  "midi-qol.ShowItemDetails.Hint": "Se abilitato, le informazioni dell'oggetto verranno mostrate nella scheda chat. Puoi usare le impostazioni di sistema DnD5e per nascondere automaticamente le descrizioni.",
+  "midi-qol.AutoRollAttack.Name": "Effettuare automaticamente il tiro per colpire se presente",
+  "midi-qol.AutoRollAttack.Hint": "Quando viene effettuato un tiro per colpire, vengono utilizzate le impostazioni di avanzamento automatico per decidere il comportamento.",
+  "midi-qol.AutoFastForward.Name": "Avanzamento automatico dei tiri",
+  "midi-qol.AutoFastForward.Hint": "Avanza sempre automaticamente il tiro per colpire o per danno, si applica anche alla pressione dei pulsanti attacco/danno.",
+  "midi-qol.AutoCheckHit.Name": "Controllo automatico del colpo",
+  "midi-qol.AutoCheckHit.Hint": "Verifica se l'attacco colpisce i bersagli selezionati. Se colpisce e l'applicazione automatica del danno è abilitata, verrà inflitto il danno. Se disattivato, midi-qol assume che l'attacco colpisca e prosegue con il tiro per danno.",
+  "midi-qol.RequiresTargets.Name": "Richiedere selezione dei bersagli",
+  "midi-qol.RequiresTargets.Hint": "Richiede che i token siano selezionati come bersagli prima di effettuare un tiro. 'Mai' non richiede mai bersagli, 'in combattimento' solo durante il combattimento, 'sempre' ogni volta che si usa un oggetto con bersagli.",
+  "midi-qol.requiresTargetsOptions": {
+    "none": "Mai",
+    "combat": "In combattimento",
+    "always": "Sempre"
+  },
+  "midi-qol.AutoApplyDamage.Name": "Applicazione automatica del danno",
+  "midi-qol.AutoApplyDamage.Hint": "Applica automaticamente il danno ai bersagli colpiti (se è attivo il controllo automatico del colpo) o a quelli selezionati manualmente.",
+  "midi-qol.PlayerDamageCard.Name": "Mostrare la scheda del danno per i giocatori",
+  "midi-qol.PlayerDamageCard.Hint": "Versione semplificata della scheda del danno. Mostrata solo se viene mostrata quella per il GM. Non viene mostrata al GM.",
+  "midi-qol.PlayerCardDamageDifferent.Name": "Mostra la scheda del danno al giocatore se il danno tirato è diverso da quello inflitto",
+  "midi-qol.ItemRollButtons.Name": "Aggiungere pulsanti di attacco/danno all’oggetto in inventario",
+  "midi-qol.ItemRollButtons.Hint": "Aggiunge pulsanti di tiro nella descrizione dell’oggetto — supportano Ctrl(Cmd)/Alt/Shift per saltare la finestra di dialogo.",
+  "midi-qol.AddChatDamageButtons.Name": "Aggiungere pulsanti di danno al messaggio in chat",
+  "midi-qol.AddChatDamageButtons.Hint": "Aggiunge pulsanti di danno a qualsiasi messaggio in chat relativo a un tiro per danno — cliccarli infligge danno ai token evidenziati, NON a quelli selezionati come bersaglio (comportamento come da menu a tendina).",
+  "midi-qol.AddChatDamageButtonsOptions": {
+    "none": "No",
+    "gm": "Solo GM",
+    "pc": "Solo giocatori",
+    "both": "Tutti"
+  },
+  "midi-qol.AutoRollDamage.Name": "Tiro automatico del danno",
+  "midi-qol.AutoRollDamage.Hint": "Esegue automaticamente il tiro per danno dopo il tiro per colpire. Se l’opzione è 'al colpo', eseguirà il tiro solo se l’attacco colpisce o se il controllo del colpo è disattivato.",
+  "midi-qol.AutoCheckSaves.Name": "Controllo automatico dei tiri salvezza",
+  "midi-qol.AutoCheckSaves.Hint": "Controlla automaticamente il tiro salvezza quando necessario. Se disattivato, si presume che tutti i bersagli falliscano il tiro.",
+  "midi-qol.DisplaySaveDC.Name": "Mostrare CD dei tiri salvezza",
+  "midi-qol.DisplaySaveDC.Hint": "Se disattivato, la CD del tiro salvezza sarà nascosta ai giocatori (solo per scheda combinata).",
+  "midi-qol.AutoRemoveTargets.Name": "Rimuovere i bersagli alla fine del turno",
+  "midi-qol.AutoRemoveTargets.Hint": "Scegli quali bersagli rimuovere automaticamente alla fine del tuo turno.",
+  "midi-qol.buttons.roll": "Tiro normale",
+  "midi-qol.buttons.attack": "Attacco",
+  "midi-qol.buttons.damage": "Danno",
+  "midi-qol.buttons.altDamage": "Danno alternativo",
+  "midi-qol.buttons.extraDamage": "Danno extra",
+  "midi-qol.buttons.versatileDamage": "Danno versatile",
+  "midi-qol.buttons.versatileAttack": "Attacco versatile",
+  "midi-qol.buttons.info": "Informazioni",
+  "midi-qol.buttons.itemUse": "Usa",
+  "midi-qol.reallyDelete": "Eliminare davvero questo oggetto",
+  "midi-qol.sure": "Sei sicuro?",
+  "midi-qol.criticals": "Colpo critico a",
+  "midi-qol.fumbles": "Fallimento critico su",
+  "midi-qol.hits": "Colpito",
+  "midi-qol.hitsEC": "Colpito (CE)",
+  "midi-qol.misses": "Mancato",
+  "midi-qol.save-success": "Successo",
+  "midi-qol.save-failure": "Fallimento",
+  "midi-qol.save-drawn": "Pari",
+  "midi-qol.damage-applied": "Punti ferita aggiornati",
+  "midi-qol.noItemNamed": "Il token selezionato non possiede un oggetto chiamato",
+  "midi-qol.noTokens": "Impossibile applicare effetto — nessun token selezionato come bersaglio",
+  "midi-qol.HideNPCNames.Name": "Nascondi nomi dei token",
+  "midi-qol.HideNPCNames.Hint": "Nasconde i nomi dei token nei messaggi di chat relativi a colpi/salvezze",
+  "midi-qol.noTemplateSeen": "Il modello non è stato posizionato",
+  "midi-qol.AutoTarget.Name": "Selezione automatica dei bersagli al posizionamento del modello",
+  "midi-qol.AutoTarget.Hint": "Quando viene posizionato un modello (es. un incantesimo), seleziona automaticamente i token come bersagli. Se è attiva l'opzione 'Centro + Levels' per il blocco delle armi a distanza, verranno usati i modelli volumetrici di Levels (se installati)",
+  "noDamageonSaveSpellsv9": "Spruzzo acido, Bagliore della lama, Fragore tonante, Derisione crudele, Crea fiamma, Laccio di fulmini, Spruzzo velenoso, Raffica di frecce, Disintegrazione, Fiamma sacra, Congelamento, Sciame, Rintocco funebre, Parola di luce, Catapulta, Scossa tellurica, Tentacoli neri di Evard, Fame di Hadar",
+  "midi-qol.fullDamageText": "{damageType}",
+  "midi-qol._comment for translators_fullDamage": "Le due stringhe seguenti sono usate da midi-qol per rilevare effetti nella descrizione dell'incantesimo",
+  "midi-qol.fullDamage": "danno completo se si ha successo",
+  "midi-qol.fullDamageAlt": "richiede tiro salvezza",
+  "midi-qol.undoDamageFrom": "Annulla il danno da",
+  "midi-qol.noGM": "Nessun GM connesso — impossibile applicare effetti o aggiornare PF",
+  "midi-qol.noSelection": "Nessun attore/token selezionato",
+  "midi-qol.showGM.Name": "Il GM vede tutti i messaggi privati",
+  "midi-qol.showGM.Hint": "Il GM vede tutti i messaggi privati anche se la configurazione di gioco dice il contrario.",
+  "midi-qol.ColoredBorders.Name": "Messaggi con bordi colorati",
+  "midi-qol.ColoredBorders.Hint": "Ogni messaggio in chat avrà un bordo colorato in base ai personaggi del giocatore.",
+  "midi-qol.AutoEffects.Name": "Applicazione automatica degli effetti degli oggetti ai bersagli",
+  "midi-qol.AutoEffects.Hint": "Applica automaticamente gli effetti attivi degli oggetti ai bersagli colpiti, che hanno fallito un TS o non potevano effettuarlo. Funziona meglio con About Time e/o Times Up.",
+  "midi-qol.AutoEffectsOptions": {
+    "off": "Non applicare automaticamente effetti",
+    "applyNoButton": "Applica effetti, non mostrare pulsante",
+    "applyRemove": "Applica effetti, rimuovi pulsante",
+    "applyLeave": "Applica effetti, lascia il pulsante"
+  },
+  "midi-qol.RangeTarget.Name": "Selezione automatica dei bersagli per attacchi/incantesimi a distanza",
+  "midi-qol.RangeTarget.Hint": "Seleziona automaticamente il bersaglio di un attacco/incantesimo a distanza se il tipo di bersaglio è creatura/nemico/alleato.",
+  "midi-qol.PlayerRollSaves.Name": "Chiedere ai giocatori di effettuare i TS",
+  "midi-qol.PlayerRollSaves.Hint": "I giocatori effettuano i propri tiri salvezza. Se impostato su No, i moduli li lanceranno al posto loro. Altrimenti, i giocatori riceveranno un messaggio in chat, un LMRTFY o un prompt su Monk’s Token Bar.",
+  "midi-qol.rollNPCSaves.Name": "Chiedere al GM di effettuare TS per attori non collegati",
+  "midi-qol.rollNPCLinkedSaves.Name": "Chiedere al GM di effettuare TS per attori collegati",
+  "midi-qol.rollNPCSaves.Hint": "Se impostato su Automatico, il modulo lancerà automaticamente i TS per l’attore. Altrimenti, il GM riceverà un LMRTFY, un prompt su Monk’s Token Bar o un messaggio in chat.",
+  "midi-qol.PlayerSaveTimeout.Name": "Timeout prima che il GM effettui un TS per il giocatore",
+  "midi-qol.PlayerSaveTimeout.Hint": "Tempo di attesa (in secondi) prima che venga effettuato un tiro salvezza al posto del giocatore.",
+  "midi-qol.MagicResistant": "resistenza alla magia",
+  "midi-qol.MagicResistanceFeat": "resistenza alla magia",
+  "midi-qol._comment for translators_halfDamage": "Testo usato da midi per rilevare effetti nella descrizione dell’incantesimo",
+  "midi-qol.halfDamage": "Subisce solo metà del danno",
+  "midi-qol._comment for translators_halfDamageAlt": "Testo usato da midi per rilevare effetti nella descrizione dell’incantesimo",
+  "midi-qol.halfDamageAlt": "metà del danno",
+  "midi-qol.halfDamageText": "{damageType}",
+  "midi-qol._comment for translators_noDamage": "Entrambe le righe vengono usate da midi-qol per rilevare effetti nella descrizione dell’incantesimo",
+  "midi-qol.noDamage": "supera con successo il tiro salvezza",
+  "midi-qol.noDamageAlt": "incantesimo al successo",
+  "midi-qol.noDamageText": "nessun danno se ha successo",
+  "midi-qol.PreRollChecks.Name": "Sperimentale: Controlli pre-tiro per avanzamento rapido o macro",
+  "midi-qol.PreRollChecks.Hint": "Sperimentale: Controlli prima del tiro dell’oggetto. Il tiratore deve trovarsi in un’area valida e avere più di 0 PF.",
+  "midi-qol.noTargets": "Devi selezionare un bersaglio prima di effettuare il tiro d’attacco.",
+  "midi-qol.wrongNumberTargets": "Devi selezionare almeno {allowedTargets} bersaglio(i) prima dell’attacco.",
+  "midi-qol.noSaveTargets": "nessun bersaglio per il tiro salvezza",
+  "midi-qol.UseTokenNames.Name": "Le schede in chat usano il nome del token",
+  "midi-qol.UseTokenNames.Hint": "Nelle schede chat e nei nomi dei bersagli viene usato il nome del token invece del nome dell’attore.",
+  "midi-qol.CriticalDamage.Name": "Metodo di calcolo del danno critico per i giocatori",
+  "midi-qol.CriticalDamage.Hint": "'Predefinito DnD5e' — tutti i dadi danno sono raddoppiati nel numero; 'dadi base max.' — solo i dadi standard vengono massimizzati; 'dadi critici max.' — solo i dadi extra da critico sono massimizzati; 'tutti i dadi max.' — tutti i dadi hanno risultato massimo; 'danno raddoppiato' — ogni risultato dei dadi viene raddoppiato; 'Esplosione dadi critici' — tutti i dadi critici esplodono; 'Solo dadi extra da critico dell’arma' — solo il campo extra critico dell’oggetto viene applicato.",
+  "midi-qol.CriticalDamageGM.Name": "Metodo di calcolo del danno critico per il GM",
+  "midi-qol.CriticalDamageGM.Hint": "",
+  "midi-qol.CriticalDamageChoices": {
+    "default": "Predefinito DnD5e",
+    "maxDamage": "Dadi base max.",
+    "maxCrit": "Dado critico max. (valore)",
+    "maxCritRoll": "Dado critico max. (tiro)",
+    "maxAll": "Tutti i dadi max.",
+    "doubleDice": "Danno raddoppiato",
+    "explode": "Esplosione dadi critici",
+    "maxDamageExplode": "Dadi base max. + Esplosione",
+    "explodeCharacter": "Esplosione critici (PG)",
+    "explodeNPC": "Esplosione critici (PNG)",
+    "baseDamage": "Solo dadi extra da critico dell’arma",
+    "maxBaseRollCrit": "Tiro critico base max.",
+    "bestOfTwo": "Tira due volte il dado danno e prendi il più alto"
+  },
+  "midi-qol.MergeCard.Name": "Unione tiri in un'unica scheda",
+  "midi-qol.MergeCard.Hint": "Unisce attacco, colpo, danno e TS in un'unica scheda chat.",
+  "midi-qol.MergeCardCondensed.Name": "Compatta i tiri di attacco/danno",
+  "midi-qol.MergeCardCondensed.Hint": "Risparmia spazio nella chat riducendo i tiri di attacco e danno.",
+  "midi-qol.ConfigTitle": "Impostazioni Midi-qol",
+  "midi-qol.WorkflowSettings": "Impostazioni del flusso di lavoro",
+  "midi-qol.CheckSaveText.Name": "Controllare la descrizione dell’oggetto",
+  "midi-qol.CheckSaveText.Hint": "Controlla la descrizione dell’oggetto per rilevare tiri salvezza — se è presente 'half as much damage', verrà applicato metà danno in caso di successo. Se disattivato, si applica il comportamento predefinito.",
+  "midi-qol.Save": "Salva impostazioni",
+  "midi-qol.saving-throws": "tiri salvezza",
+  "midi-qol.saving-throw": "tiro salvezza",
+  "midi-qol.ability-check": "Prova caratteristica",
+  "midi-qol.ability-checks": "Prove di caratteristica",
+  "midi-qol.skill-check": "Prova abilità",
+  "midi-qol.noAttackRoll": "Devi effettuare un tiro per colpire prima del tiro per danno.",
+  "midi-qol.config": "Impostazioni midi-qol",
+  "midi-qol.Hint": "Configura le diverse opzioni del flusso di lavoro Midi-qol. Ce ne sono molte, preparati.",
+  "midi-qol.DiceSound.Name": "Tiro d’attacco",
+  "midi-qol.AttackRoll": "Tiro d’attacco",
+  "midi-qol.CriticalSoundName": "Colpo critico",
+  "midi-qol.FumbleSoundName": "Fallimento critico",
+  "midi-qol.DiceSounds.Hint": "Suoni da riprodurre per i diversi tipi di tiro. Valido SOLO per la scheda combinata.",
+  "midi-qol.CustomSoundsPlaylist.Name": "Playlist",
+  "midi-qol.WeaponUseSound.Name": "Uso dell’arma",
+  "midi-qol.WeaponUseSoundRanged.Name": "Uso arma (a distanza)",
+  "midi-qol.SpellUseSound.Name": "Lancio incantesimo",
+  "midi-qol.PotionUseSound.Name": "Uso pozione",
+  "midi-qol.SpellUseSoundRanged.Name": "Lancio incantesimo (a distanza)",
+  "midi-qol.ItemUseSound.Name": "Uso oggetto",
+  "midi-qol.AutoFastForwardAbilityRolls.Name": "Avanzamento automatico tiri caratteristica",
+  "midi-qol.AutoFastForwardAbilityRolls.Hint": "Quando clicchi su una caratteristica, tiro salvezza o abilità, il tiro verrà eseguito automaticamente senza conferma.",
+  "midi-qol.UseCustomSounds.Name": "Abilita suoni personalizzati Midi-qol",
+  "midi-qol.UseCustomSounds.Hint": "Se abilitato, sostituisce i suoni di sistema. Puoi configurarli tramite l'app Midi-qol Sound Settings.",
+  "midi-qol:Debug.Name": "Abilita debug",
+  "midi-qol:Debug.Hint": "'Avvisi' mostra informazioni generali; 'debug' fornisce dettagli aggiuntivi; 'tutto' attiva anche CONFIG.debug.hooks",
+  "midi-qol.DebugOptions": {
+    "none": "No",
+    "warn": "Avvisi",
+    "debug": "Debug",
+    "all": "Tutto"
+  },
+  "midi-qol.speedItemRollsOptions": {
+    "off": "No",
+    "on": "Sì",
+    "onCard": "Abilita e mostra scheda oggetto"
+  },
+  "midi-qol.autoCheckHitOptions": {
+    "none": "No",
+    "all": "Controlla — visibile a tutti",
+    "whisper": "Controlla — visibile solo al GM"
+  },
+  "midi-qol.clickOptions": {
+    "off": "No",
+    "attack": "Solo tiri d’attacco",
+    "damage": "Solo tiri di danno",
+    "all": "Attacco e danno"
+  },
+  "midi-qol.autoTargetOptions": {
+    "none": "No",
+    "always": "Sempre",
+    "alwaysIgnoreIncapacitated": "Sempre - Ignora Incoscienti/Morti",
+    "alwaysIgnoreDefeated": "Sempre — ignora sconfitti",
+    "wallsBlock": "Bloccato dai muri",
+    "wallsBlockIgnoreIncapacitated": "Muri bloccano - Ignora Incoscienti/Morti",
+    "wallsBlockIgnoreDefeated": "Muri bloccano — ignora sconfitti",
+    "dftemplates": "Usa DF Template Enhancements",
+    "walledtemplates": "Usa Walled Templates"
+  },
+  "midi-qol.autoCheckSavesOptions": {
+    "none": "No",
+    "allNoRoll": "TS — mostra solo risultato",
+    "all": "TS — mostra risultato e tiro",
+    "whisper": "TS — solo GM vede risultato",
+    "allShow": "TS — tutti vedono risultato e tiro"
+  },
+  "midi-qol.rangeTargetOptions": {
+    "none": "No",
+    "always": "Sempre",
+    "alwaysIgnoreIncapacitated": "Sempre - Ignora Incoscienti/Morti",
+    "alwaysIgnoreDefeated": "Sempre — ignora sconfitti",
+    "wallsBlock": "Bloccato dai muri",
+    "wallsBlockIgnoreIncapacitated": "Muri bloccano - Ignora Incoscienti/Morti",
+    "wallsBlockIgnoreDefeated": "Muri bloccano — ignora sconfitti"
+  },
+  "midi-qol.autoRollDamageOptions": {
+    "none": "Mai",
+    "always": "Sempre",
+    "saveOnly": "Solo su TS",
+    "onHit": "Richiede tiro per colpire"
+  },
+  "midi-qol.autoApplyDamageOptions": {
+    "none": "No",
+    "noCard": "No + mostra scheda danno",
+    "noCardMisses": "No + scheda danno e mancate",
+    "yes": "Sì",
+    "yesCard": "Sì + mostra scheda danno",
+    "yesCardMisses": "Sì + scheda danno e mancate",
+    "yesCardNPC": "Sì (NPC), No (giocatori) + scheda danno"
+  },
+  "midi-qol.playerDamageCardOptions": {
+    "none": "Non mostrare",
+    "playerresults": "Risultato giocatore",
+    "playerbuttons": "Risultato giocatore + pulsanti",
+    "npcplayerresults": "Giocatore e PNG: risultato",
+    "npcplayerbuttons": "Giocatore e PNG: risultato + pulsanti"
+  },
+  "midi-qol.removeButtonsOptions": {
+    "off": "No",
+    "attack": "Solo attacco",
+    "damage": "Solo danno",
+    "all": "Attacco e danno",
+    "everything": "Tutti i pulsanti"
+  },
+  "midi-qol.damageImmunitiesOptions": {
+    "none": "Mai",
+    "immunityDefault": "Applica immunità",
+    "immunityPhysical": "Applica anche a fisico"
+  },
+  "midi-qol.showItemDetailsOptions": {
+    "none": "No",
+    "cardOnly": "Solo nella scheda",
+    "pc": "Dettagli: solo giocatori",
+    "all": "Dettagli: PNG + giocatori"
+  },
+  "midi-qol.rollNPCSavesOptions": {
+    "none": "Messaggio chat",
+    "auto": "Auto",
+    "autoDialog": "Auto con finestra",
+    "mtb": "Monk's TokenBar",
+    "rer": "Rippers Epic Rolls"
+  },
+  "midi-qol.playerRollSavesOptions": {
+    "none": "No",
+    "noneDialog": "Auto con finestra",
+    "chat": "Messaggio in chat",
+    "mtb": "Monk's TokenBar",
+    "rer": "Rippers Epic Rolls"
+  },
+  "midi-qol.playerRollSavesOptionsReduced": {
+    "none": "No",
+    "letme": "Let Me Roll That For You",
+    "chat": "Messaggio chat"
+  },
+  "midi-qol.AutoRemoveTargetsOptions": {
+    "none": "No",
+    "dead": "Da sconfitti, dopo tiro",
+    "allGM": "Da sconfitti + tutti bersagli GM",
+    "all": "Tutti i bersagli"
+  },
+  "midi-qol.ColoredBordersOptions": {
+    "none": "No",
+    "borders": "Solo bordo",
+    "borderNamesText": "Bordo e nome",
+    "borderNamesBackground": "Bordo e sfondo del nome"
+  },
+  "midi-qol.hideRollDetailsOptions": {
+    "none": "No",
+    "detailsDSN": "Formula + DSN",
+    "details": "Formula",
+    "d20Only": "Solo d20 attacco + danno",
+    "hitDamage": "Colpo/mancato + danno",
+    "hitCriticalDamage": "Colpo/mancato/critico + danno",
+    "attackTotalOnly": "Solo valore totale attacco",
+    "d20AttackOnly": "Solo d20 attacco",
+    "all": "Tutto il tiro"
+  },
+  "midi-qol.RollOtherDamageOptions": {
+    "none": "No",
+    "always": "Tira sempre",
+    "condition": "Altro stato è vero",
+    "ifSave": "Se è presente TS"
+  },
+  "midi-qol.potion": "Pozione",
+  "midi-qol.HideRollDetails.Name": "Nascondere dettagli dei tiri GM",
+  "midi-qol.HideRollDetails.Hint": "Scegli quali dettagli dei tiri del GM mostrare o nascondere ai giocatori:",
+  "midi-qol.HideRollDetails.HintLong": {
+    "none": "No — non nascondere nulla",
+    "detailsDSN": "Formula + DSN: nasconde formula, ma mantiene DSN",
+    "details": "Formula: nasconde tutto, incluso DSN",
+    "d20Only": "Solo d20 + danno totale",
+    "hitDamage": "Colpito/mancato + danno totale",
+    "d20attackOnly": "Solo d20 tiro attacco",
+    "all": "Tutto — nasconde ogni dettaglio ai giocatori"
+  },
+  "midi-qol.DiceRolled": "<div>Lanciato</div>",
+  "midi-qol.ForceHideRoll.Name": "Nascondere davvero i tiri privati/ciechi/personali",
+  "midi-qol.ForceHideRoll.Hint": "Non mostra nulla a chi non è destinatario dei tiri di tipo: privato/cieco/personale. Grazie a felix.mueller.86@web.de",
+  "midi-qol.EnableWorkflow.Name": "Abilita il supporto all’automazione dei tiri",
+  "midi-qol.EnableWorkflow.Hint": "Se attivato, puoi configurare il flusso di lavoro dalla relativa scheda impostazioni.",
+  "midi-qol.magicalProp": "Magico",
+  "midi-qol.confirmTargetsProp": "Conferma bersagli",
+  "midi-qol.noDamageSaveProp": "Nessun danno",
+  "midi-qol.fullDamageSaveProp": "Danno pieno",
+  "midi-qol.defaultDamageType": "Nessuno",
+  "midi-qol.halfDamageSaveProp": "Metà danno",
+  "midi-qol.rollOtherProp": "Tira anche formula alternativa",
+  "midi-qol.otherCritProp": "Critico alternativo",
+  "midi-qol.magicalDamageProp": "Danno magico",
+  "midi-qol.magicalEffectProp": "Effetto magico",
+  "midi-qol.concentrationEffectProp": "Concentrazione",
+  "midi-qol.noConcentrationEffectProp": "Nessun TS per concentrazione",
+  "midi-qol.toggleEffectProp": "Attiva/disattiva effetto",
+  "midi-qol.playerControlsInvisibleTokens.Name": "I giocatori controllano i loro token invisibili",
+  "midi-qol.playerControlsInvisibleTokens.Hint": "Opzione sperimentale — potrebbe funzionare.",
+  "midi-qol.Debug.Name": "Abilita debug",
+  "midi-qol.Debug.Hint": "Imposta su 'nessuno' per non affollare la console. 'tutto' abilita CONFIG.hooks.debug",
+  "midi-qol.AllowUseMacro.Name": "Abilita macro all’uso oggetto",
+  "midi-qol.AllowActorUseMacro.Name": "Abilita macro all’uso attore",
+  "midi-qol.AllowUseMacro.Hint": "Aggiunge un campo per specificare una macro da eseguire all’uso. Vedi README per dettagli.",
+  "midi-qol.onUseMacroLabel": "Macro all’uso",
+  "midi-qol.onUseMacroOptions": {
+    "preTargeting": "Prima della selezione bersagli (*)",
+    "preItemRoll": "Prima del tiro dell’oggetto (*)",
+    "templatePlaced": "Solo al piazzamento modello",
+    "preAttackRoll": "Prima del tiro per colpire",
+    "preCheckHits": "Prima del controllo colpo",
+    "postAttackRoll": "Dopo il tiro per colpire",
+    "preDamageRoll": "Prima del tiro danno",
+    "postDamageRoll": "Dopo il tiro danno",
+    "damageBonus": "Restituisce bonus danno",
+    "preSave": "Prima dei TS",
+    "postSave": "Dopo i TS",
+    "preDamageApplication": "Prima di applicare il danno",
+    "preActiveEffects": "Prima degli effetti attivi",
+    "postActiveEffects": "Dopo gli effetti attivi",
+    "isTargeted": "Bersaglio selezionato, prima del tiro",
+    "isPreAttacked": "Il bersaglio sta per essere attaccato",
+    "isAttacked": "Attore bersaglio dell’attacco",
+    "isHit": "Attore colpito",
+    "preTargetSave": "Bersaglio pronto per TS",
+    "isSave": "Attore ha effettuato TS",
+    "isSaveSuccess": "Attore ha superato TS",
+    "isSaveFailure": "Attore ha fallito TS",
+    "preTargetDamageApplication": "Bersaglio riceverà danno",
+    "postTargetEffectApplication": "Effetto applicato al bersaglio",
+    "isDamaged": "Attore ha subito danno",
+    "all": "Tutti"
+  },
+  "midi-qol.DragDropTarget.Name": "Bersaglio con trascinamento",
+  "midi-qol.DragDropTarget.Hint": "Permette di trascinare un oggetto su un token per attaccarlo.",
+  "midi-qol.AutoAttack.Name": "Tiro attacco automatico",
+  "midi-qol.AutoDamage.Name": "Tiro danno automatico",
+  "midi-qol.AutoFastForwardAttack.Name": "Avanzamento rapido attacco",
+  "midi-qol.AutoFastForwardDamage.Name": "Avanzamento rapido danno",
+  "midi-qol.midi-none": "Nessun danno",
+  "midi-qol.noType": "Nessun tipo",
+  "midi-qol.ItemList": "Seleziona gli oggetti da mostrare nella scheda",
+  "midi-qol.DisplayItems": "Mostra dettagli",
+  "midi-qol.fastForward": "(rapido)",
+  "midi-qol.RollOtherDamage.Name": "Usa formula danno alternativa per armi",
+  "midi-qol.RollOtherSpellDamage.Name": "Usa formula danno alternativa per incantesimi",
+  "midi-qol.RollOtherDamage.Hint": "'No' non lancia la formula alternativa; 'se TS' la usa solo se è presente TS; 'condizione' la usa se la condizione è vuota o vera.",
+  "midi-qol.ApplyEffects": "Applica effetti attivi",
+  "midi-qol.spell-damage": "Danno da incantesimo",
+  "midi-qol.RemoveButtons.Name": "Rimuovi i pulsanti dopo il tiro",
+  "midi-qol.ActiveConcentrationSpell.Title": "Incantesimo attivo con concentrazione",
+  "midi-qol.ActiveConcentrationSpell.ContentNamed": "Stai già concentrandoti su <em>@NAME@</em>. Vuoi interrompere e continuare?",
+  "midi-qol.ActiveConcentrationSpell.ContentGeneric": "<p>Hai già un incantesimo in concentrazione. Interromperlo e proseguire?</p>",
+  "midi-qol.ConcentrationAutomation.Name": "Abilita automazione concentrazione",
+  "midi-qol.ConcentrationAutomation.Hint": "Se attivo, midi-qol gestirà la concentrazione. Richiede l’autocheck dei TS. Disabilita la concentrazione di CUB.",
+  "midi-qol.SingleConcentrationRoll.Name": "Unico TS concentrazione",
+  "midi-qol.SingleConcentrationRoll.Hint": "Se attivo e l’attacco infligge danno + TS + altro danno, solo un TS sarà richiesto.",
+  "midi-qol.TempHPDamageConcentrationCheck.Name": "TS concentrazione da HP temporanei",
+  "midi-qol.TempHPDamageConcentrationCheck.Hint": "Se attivo, la perdita di HP temporanei provoca un TS di concentrazione.",
+  "midi-qol.RemoveConcentrationEffects.Name": "Interrompi concentrazione rimuovendo effetti",
+  "midi-qol.RemoveConcentrationEffects.Hint": "Controlla se tutti gli effetti legati a un incantesimo con concentrazione sono stati rimossi per terminare la concentrazione.",
+  "midi-qol.RemoveConcentrationEffectsOptions": {
+    "none": "Mai",
+    "effects": "Controlla effetti",
+    "effectsTemplates": "Controlla effetti e template"
+  },
+  "midi-qol.GMSettings": "GM",
+  "midi-qol.PlayerSettings": "Giocatore",
+  "midi-qol.SoundSettings.Tab": "Suoni",
+  "midi-qol.Workflow": "Flusso",
+  "midi-qol.Misc": "Varie",
+  "midi-qol.Targeting": "Bersagliamento",
+  "midi-qol.Special": "Speciali",
+  "midi-qol.Hits": "Colpi",
+  "midi-qol.Misses": "mancato su",
+  "midi-qol.Saves": "TS",
+  "midi-qol.SavesBase": "Se il bersaglio supera il TS, l’oggetto fa:",
+  "midi-qol.SavesBonus": "Se il bersaglio supera il TS, il macro bonus danno fa:",
+  "midi-qol.SavesOther": "Se il bersaglio supera il TS, la formula alternativa fa:",
+  "midi-qol.Damage": "Danno",
+  "midi-qol.Concentrating": "Concentrazione",
+  "midi-qol.concentrationCheckName": "Controllo concentrazione",
+  "midi-qol.DamageMacro.Name": "Macro bonus danno",
+  "midi-qol.concentrationActivationCondition": "Concentrazione",
+  "midi-qol.DamageMacro.Hint": "Elenco di macro (separate da virgole) da eseguire al calcolo danno.",
+  "midi-qol.AttackMacro.Name": "Macro bonus attacco",
+  "midi-qol.AttackMacro.Hint": "Elenco di macro (separate da virgole) da eseguire al tiro per colpire.",
+  "midi-qol.DAEMidiQOL": "Speciale per DAE/Midi-qol",
+  "midi-qol.Optional": "Regole",
+  "midi-qol.Mechanics": "Meccaniche",
+  "midi-qol.OptionalRules.Name": "Regole opzionali",
+  "midi-qol.OptionalRules.Hint": "Regole di D&D 5e che potresti voler abilitare. Generalmente incompatibili con Better Rolls.",
+  "midi-qol.InvisAdvantage.Name": "Attaccanti invisibili hanno vantaggio (svantaggio se non vedono la vittima)",
+  "midi-qol.InvisAdvantage.Hint": "<strong>RAW:</strong> invisibili hanno vantaggio, chi attacca un invisibile ha svantaggio",
+  "midi-qol.InvisAdvantageOptions": {
+    "none": "Non applicare",
+    "RAW": "Secondo le regole",
+    "vision": "Usa la visione del token"
+  },
+  "midi-qol.InvisVision.Name": "Usa la visione per il controllo",
+  "midi-qol.InvisVision.Hint": "<strong>Attivo:</strong> tutti i token vedono. <br><strong>Disattivo:</strong> i token senza vista vedono tutto",
+  "midi-qol.HiddenAdvantage.Name": "Attaccanti Nascosti hanno vantaggio/svantaggio",
+  "midi-qol.HiddenAdvantage.Hint": "Chi è Nascosto ha vantaggio, chi attacca un Nascosto ha svantaggio",
+  "midi-qol.HiddenAdvantageOptions": {
+    "none": "Non applicare",
+    "effect": "Controlla stato 'Nascosto'",
+    "perceptive": "Perceptive"
+  },
+  "midi-qol.CantSeeAdvantage.Hint": "<strong>Usa la visione token</strong>: invisibili hanno vantaggio se non visti, svantaggio se non vedono",
+  "midi-qol.CheckRange.Name": "Controlla portata arma in attacco",
+  "midi-qol.CheckRangeOptions": {
+    "none": "Non controllare",
+    "longfail": "Oltre la portata max: fallisce",
+    "longdisadv": "Oltre la portata max: svantaggio"
+  },
+  "midi-qol.NearbyFoe.Name": "Attacchi a distanza svantaggiati se nemico è vicino",
+  "midi-qol.WallsBlockRange.Name": "I muri bloccano attacchi a distanza",
+  "midi-qol.WallsBlockRange.Hint1": "No = muri non bloccano",
+  "midi-qol.WallsBlockRange.Hint2": "Centro = controlla linea dal centro",
+  "midi-qol.WallsBlockRange.Hint3": "Centro + Levels = come sopra, ma con Levels",
+  "midi-qol.WallsBlockRange.Hint4": "Levels Auto Cover = usa levelsautocover",
+  "midi-qol.WallsBlockRange.Hint5": "Alternative Token Visibility = usa ATV",
+  "midi-qol.WallsBlockRangeOptionsNew": {
+    "none": "No",
+    "center": "Dal centro",
+    "centerLevels": "Centro + Levels",
+    "levelsautocover": "Levels Auto Cover",
+    "simbuls-cover-calculator": "Simbuls Cover Calculator",
+    "tokencover": "Copertura token alternativa",
+    "tokenvisibility": "Alternative Token Visibility - Obsoleto"
+  },
+  "midi-qol.NearbyAllyRanged.Name": "(Homebrew) Svantaggio se alleato vicino al bersaglio",
+  "midi-qol.WallsBlockRangeOptions": {
+    "none": "No",
+    "center": "Dal centro",
+    "centerLevels": "Centro + Levels"
+  },
+  "midi-qol.CoverCalculation.Name": "Calcola copertura",
+  "midi-qol.CoverCalculation.Hint": "Determina CA con moduli di copertura",
+  "midi-qol.CoverCalculationOptions": {
+    "none": "No",
+    "simbuls-cover-calculator": "Simbuls Cover Calculator",
+    "levelsautocover": "Levels Auto Cover",
+    "tokencover": "Copertura token alternativa",
+    "tokenvisibility": "Visibilità token alternativa - Obsoleta"
+  },
+  "midi-qol.NearbyAllyRanged.Hint": "Gli attacchi a distanza sono svantaggiati se un alleato è entro 5 piedi dalla creatura. Valori 0 = disattivato",
+  "midi-qol.Incapacitated.Name": "Incapacità: niente azioni o reazioni",
+  "midi-qol.RemoveHiddenInvis.Name": "Attacco rimuove 'Nascosto' (usa CV/CE/CUB)",
+  "midi-qol.CriticalSaves.Name": "(Homebrew) Tiri salvezza critici sono sempre successi/fallimenti",
+  "midi-qol.MaxDRValue.Name": "(Homebrew) Applica solo la miglior riduzione danno",
+  "midi-qol.DRAllPerDamageDetail.Name": "(Homebrew) DRALL applica a tutti i tipi di danno",
+  "midi-qol.DRAllPerDamageDetail.Hint": "Disattivato: DRALL si applica solo una volta al danno totale",
+  "midi-qol.invisible": "Invisibile",
+  "midi-qol.hidden": "Nascosto",
+  "midi-qol.nevertarget": "Mai come bersaglio",
+  "midi-qol.DamageCardMultHeader": "Moltiplicatore",
+  "midi-qol.DamageCardUndoHeader": "Annulla",
+  "midi-qol.DamageCardApplyHeader": "Applica",
+  "midi-qol.DamageCardCalc": "Calcolo",
+  "midi-qol.DamageCardHeal": "Cura",
+  "midi-qol.DamageCardAll": "Tutti",
+  "midi-qol.StatsTitle": "Statistiche dei tiri",
+  "midi-qol.RollStats": "Statistiche",
+  "midi-qol.RollStatsConfig": "Configura statistiche",
+  "midi-qol.RemoveStats": "Cancella tutte le statistiche per",
+  "midi-qol.ClearStats": "Cancella tutte le statistiche",
+  "midi-qol.EndSession": "Cancella statistiche sessione",
+  "midi-qol.KeepRollStats.Name": "Mantieni tutte le statistiche",
+  "midi-qol.KeepRollStats.Hint": "Registra i dati di attacchi e danni degli attori.",
+  "midi-qol.SaveStatsEvery.Name": "Salva statistiche ogni",
+  "midi-qol.SaveStatsEvery.Hint": "Salva le statistiche ogni N tiri. Ogni attacco e danno conta come un tiro. Valori suggeriti: da 10 a 20 o più.",
+  "midi-qol.PlayerStatsOnly.Name": "Solo statistiche dei giocatori",
+  "midi-qol.PlayerStatsOnly.Hint": "Registra solo le statistiche degli attori appartenenti ai giocatori.",
+  "midi-qol.ShowStats": "Mostra finestra statistiche",
+  "midi-qol.DefaultSaveMult.Name": "Moltiplicatore TS predefinito",
+  "midi-qol.DefaultSaveMult.Hint": "Se non ci sono altri modificatori, i TS ridurranno il danno dell'attacco iniziale di questa frazione. Predefinito: 0.5 (metà danno). Modificare solo se si conosce bene il funzionamento.",
+  "midi-qol.RequireMagical.Name": "Richiedi proprietà 'Magico'",
+  "midi-qol.RequireMagical.Hint": "La proprietà 'Magico' può provenire da un'arma o da midi-qol. Se disattivato: gli oggetti non-arma fanno danno magico per default. Se 'Solo incantesimi': solo gli incantesimi infliggono danno magico. 'Tutto': nulla infligge danno magico per default.",
+  "midi-qol.RequireMagicalOptions": {
+    "off": "'No' – gli oggetti non arma infliggono danno magico",
+    "nonspell": "'Solo incantesimi' – solo gli incantesimi infliggono danno magico",
+    "allitems": "Tutti gli oggetti infliggono danno non magico"
+  },
+  "midi-qol.DoConcentrationCheck.Name": "Richiedi TS concentrazione al danno",
+  "midi-qol.DoConcentrationCheckOptions": {
+    "none": "Mai",
+    "chatOnly": "Solo in chat (comportamento dnd5e)",
+    "chat": "Messaggio in chat + tiro automatico",
+    "item": "Tiro oggetto di concentrazione"
+  },
+  "midi-qol.DoConcentrationCheck.Hint": "<strong>Solo in chat</strong>: mostra un messaggio in chat con pulsante<br><strong>Messaggio + tiro automatico</strong>: messaggio in chat + TS automatico (richiede dnd5e)<br><strong>Tiro oggetto concentrazione</strong>: esegue il TS (comportamento midi)",
+  "midi-qol.RemoveConcentration.Name": "Interrompi concentrazione al fallimento",
+  "midi-qol.UsePlayerPortrait.Name": "Usa ritratto attore nelle carte chat",
+  "midi-qol.UsePlayerPortrait.Hint": "Mostra il ritratto dell’attore invece dell’immagine del token nelle carte di Midi-qol",
+  "midi-qol.DistanceIncludesHeight.Name": "Includi altezza nel calcolo distanza",
+  "midi-qol.NoSocketLib": "Midi-qol richiede il modulo socketlib installato e attivo",
+  "midi-qol.confirm": "Finestra di conferma",
+  "midi-qol.ExportConfig": "Esporta impostazioni Midi-qol in file JSON",
+  "midi-qol.ImportConfig": "Importa impostazioni Midi-qol da file JSON",
+  "midi-qol.flags.midi-qol.bardicInspiration": "Ispirazione bardica",
+  "midi-qol.ExportJSon": "Esporta statistiche dei tiri in JSON",
+  "midi-qol.ExportCSV": "Esporta statistiche dei tiri in CSV",
+  "midi-qol.AutoCEEffectsOptions": {
+    "none": "Non applicare",
+    "itempri": "Applica effetti oggetto, se assenti usa Convenient Effects",
+    "cepri": "Applica Convenient Effects, se assenti usa effetti oggetto",
+    "both": "Applica entrambi"
+  },
+  "midi-qol.AutoCEEffects.Name": "Applica Convenient Effects",
+  "midi-qol.AutoCEEffects.Hint": "Applica Convenient Effects con lo stesso nome dell’oggetto usato. Richiede applicazione automatica effetti attivi attiva.",
+  "midi-qol.BonusACCover": "CA da copertura",
+  "midi-qol.NoChangelogs": "Midi-qol raccomanda i moduli ChangeLogs e Module Manager+ per mostrare i log dei cambiamenti.",
+  "midi-qol.ActiveDefenceString": "Difesa attiva",
+  "midi-qol.ActiveDefence.Name": "Difesa attiva",
+  "midi-qol.ActiveDefence.Hint": "I giocatori tirano difesa invece che il GM tirare per colpire. Richiede LMRTFY. Non compatibile con Better Rolls",
+  "midi-qol.ActiveDefenceShow.Name": "Visualizzazione standard difesa attiva",
+  "midi-qol.ActiveDefenceShow.Hint": "Con 'Tiro personale' il tiro è sempre nascosto al GM",
+  "midi-qol.PromptDamageRoll.Name": "Finestra tiro danno migliorata",
+  "midi-qol.PromptDamageRoll.Hint": "Sostituisce la finestra standard del danno con una più avanzata che consente la selezione del tipo di danno",
+  "midi-qol.GMHide3dDice.Name": "Nascondi dadi DSN del GM (sovrascrive altre impostazioni)",
+  "midi-qol.GhostRolls.Name": "Usa 'ghost roll' DSN invece di nascondere i tiri (solo carte combinate)",
+  "midi-qol.convenientEffectsOn": "Applica Convenient Effects",
+  "midi-qol.convenientEffectsOff": "Non applicare Convenient Effects",
+  "midi-qol.ConsumeResource.Name": "Salta finestra risorse",
+  "midi-qol.ConsumeResource.Hint": "Se attivo, salta il popup risorse. Se mancano slot/richieste vantaggio/svantaggio, la finestra apparirà comunque.",
+  "midi-qol.ConsumeResourceOptions": {
+    "none": "Nessun consumo automatico",
+    "spell": "Consumo automatico slot incantesimo",
+    "item": "Consumo automatico risorse/usi",
+    "both": "Consumo automatico entrambi"
+  },
+  "midi-qol.ChallengeModeArmor.Name": "Abilita modalità difesa avanzata",
+  "midi-qol.ChallengeModeArmorOptions": {
+    "none": "Non usare difesa avanzata",
+    "challenge": "Difesa avanzata (base)",
+    "scale": "Difesa avanzata (scalata)",
+    "scaleNoAR": "Difesa avanzata (scalata senza AR)"
+  },
+  "midi-qol.ChallengeModeArmor.Hint": "Introduce un sistema di difesa avanzata. Vedi README per dettagli",
+  "midi-qol.ChallengeModeArmorScale.Hint": "Richiede modalità difesa avanzata. Cambia le regole di calcolo. Vedi README",
+  "midi-qol.ChallengeModeArmorScaleNoAR.Hint": "Calcolo avanzato senza riduzione danno AR. Vedi README",
+  "midi-qol.NonSilverPhysical": "Fisico non argentato",
+  "midi-qol.NonAdamantinePhysical": "Fisico non adamantino",
+  "midi-qol.NonMagicalPhysical": "Fisico non magico",
+  "midi-qol.Physical": "Fisico",
+  "midi-qol.Magical": "Magico",
+  "midi-qol.NonMagical": "Non magico",
+  "midi-qol.SpellDamage": "Danno da incantesimo",
+  "midi-qol.NonSpellDamage": "Danno non magico",
+  "midi-qol.ConditionHeader": "Condizioni attivazione",
+  "midi-qol.EffectActivationCondition.Name": "Applica effetti se condizione vera",
+  "midi-qol.EffectActivation": "Condizioni attivazione effetto",
+  "midi-qol.ItemActivationCondition.Name": "Uso oggetto se condizione vera",
+  "midi-qol.ReactionActivationCondition.Name": "Reazione se condizione vera",
+  "midi-qol.OtherActivationCondition.Name": "Formula alternativa se condizione vera",
+  "midi-qol.HPUpdated": "Punti ferita aggiornati",
+  "midi-qol.HPNPCUpdated": "PF NPC aggiornati",
+  "midi-qol.HPNotUpdated": "PF non aggiornati",
+  "midi-qol.reactionDamaged": "Al danno ricevuto",
+  "midi-qol.reactionManual": "Manuale",
+  "midi-qol.reactionPreAttack": "Prima dell'attacco",
+  "midi-qol.ddbGL.Name": "Abilita supporto ddb-game-log",
+  "midi-qol.ddbGL.Hint": "Usa log di ddb-game-log per attacchi/danni/TS nel workflow Midi-qol",
+  "midi-qol.ShowReactionChatMessage.Name": "Mostra richieste reazione in chat",
+  "midi-qol.reactionFlavorHit": "{actorName} è stato colpito da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorTargeted": "{actorName} è il bersaglio di {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorMiss": "{actorName} è stato mancato da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorCrit": "{actorName} ha subito un colpo critico da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorFumble": "{actorName} è stato mancato criticamente da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorHeal": "{actorName} è stato curato da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorDamage": "{actorName} ha subito danno da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorAttacked": "{actorName} è stato attaccato da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorPreAttack": "{actorName} sta per essere attaccato da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorSave": "{actorName} deve superare un TS da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorSaveFail": "{actorName} ha fallito un TS da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorSaveSuccess": "{actorName} ha superato un TS da {itemName} e può usare una reazione",
+  "midi-qol.reactionFlavorMoved": "si è mosso",
+  "midi-qol.reactionUsed": "Reazione usata",
+  "midi-qol.bonusActionUsed": "Azione bonus usata",
+  "midi-qol.AccelKeysOverride.Name": "Priorità scorciatoie Midi-qol",
+  "midi-qol.AccelKeysOverride.Hint": "Se attivo, i tasti rapidi vantaggio/svantaggio saranno gestiti da Midi-qol",
+  "midi-qol.NoWorkflow": "Nessun workflow per {itemName}",
+  "midi-qol._comment for translators_DeferText": "Il testo sotto serve a midi-qol per identificare i dati nel campo macro uso. Se cambiato, aggiornare anche i valori macro.",
+  "midi-qol.DeferText": "[Defer]",
+  "midi-qol._comment for translators_ItemMacroText": "Il testo sotto serve a midi-qol per identificare i dati nel campo macro uso. Se cambiato, aggiornare anche i valori macro.",
+  "midi-qol.ItemMacroText": "ItemMacro",
+  "midi-qol.TargetConfirmationConfig.Name": "Conferma bersaglio",
+  "midi-qol.TargetConfirmationConfig.Hint": "Conferma selezione bersagli prima di usare un oggetto",
+  "midi-qol.TargetConfirmation.Name": "Conferma bersaglio",
+  "midi-qol.TargetConfirmation.Blurb": "Seleziona fino a {targetCount} {targetType}. Shift-Clic per selezione multipla",
+  "midi-qol.TargetConfirmation.BlurbAny": "Seleziona qualsiasi numero di bersagli. Shift-Clic per selezione multipla",
+  "midi-qol.AddDead.Name": "Aggiungi effetto quando PF = 0",
+  "midi-qol.AddDead.Hint1": "Personaggi giocanti",
+  "midi-qol.AddDead.Hint2": "Personaggi del GM",
+  "midi-qol.AddDeadOptions": {
+    "none": "Non aggiornare",
+    "overlay": "Aggiungi effetto come overlay",
+    "normal": "Aggiungi effetto come icona"
+  },
+  "midi-qol.Wounded": "Ferito",
+  "midi-qol.AddWounded.Name": "Segna come Ferito sotto una certa % PF",
+  "midi-qol.AddWounded.Hint": "Aggiunge Convenient Effect 'Ferito' sotto una % di PF. 0 = disattivato",
+  "midi-qol.debugCallTiming.Name": "Abilita log durata",
+  "midi-qol.debugCallTiming.Hint": "Registra quanto tempo impiega ogni operazione",
+  "midi-qol.autoFailFriendly": "Fallimento automatico su amici",
+  "midi-qol.FailFriendly": "Amici falliscono",
+  "midi-qol.SaveFriendly": "Amici superano",
+  "midi-qol.OffHandWeapon": "Mano secondaria",
+  "midi-qol.RollToggle.Hint": "Attiva/disattiva tiri rapidi/auto per attacco/danno/caratteristica",
+  "midi-qol.RollToggle.Name": "Alterna tiro",
+  "midi-qol.FastForward.Hint": "Avanza il prossimo tiro",
+  "midi-qol.FastForward.Name": "Avanzamento",
+  "midi-qol.KeysAdvantage.Hint": "Tiro con vantaggio",
+  "midi-qol.KeysDisadvantage.Hint": "Tiro con svantaggio",
+  "midi-qol.KeysCritical.Hint": "Tiro danno critico (da carta chat)",
+  "midi-qol.KeysVersatile.Hint": "Tiro danno versatile",
+  "midi-qol.KeysOther.Hint": "Formula danno alternativa",
+  "midi-qol.FixStickyKeys.Name": "Correggi tasti alt/ctrl/shift bloccati",
+  "midi-qol.FixStickyKeys.Hint": "Abilitando questa opzione Midi-qol correggerà l’errore dei tasti bloccati",
+  "midi-qol.DisplaySaveAdvantage.Name": "Mostra se il TS aveva vantaggio/svantaggio",
+  "midi-qol.QuickSettings": "Impostazioni rapide",
+  "midi-qol.QuickSettingsBlurb": {
+    "1": "Le impostazioni rapide permettono di scegliere configurazioni preimpostate.",
+    "2": "Cliccando una di queste, tutte le impostazioni verranno aggiornate con i valori consigliati.",
+    "3": "Dopo il clic sarà mostrato un elenco delle modifiche.",
+    "4": "Suggerimenti per migliorare le preimpostazioni sono benvenuti."
+  },
+  "midi-qol.Reaction.Title": "Gestione reazioni",
+  "midi-qol.GMDoReactionsOptions": {
+    "all": "Attivo",
+    "allMI": "Attivo + oggetti magici",
+    "none": "Disattivo"
+  },
+  "midi-qol.DoReactionsOptions": {
+    "all": "Attivo",
+    "allMI": "Attivo + oggetti magici",
+    "none": "Disattivo"
+  },
+  "midi-qol.ShowReactionAttackRoll.Name": "Mostra tiro per colpire",
+  "midi-qol.ShowReactionAttackRollOptions": {
+    "none": "Solo se colpisce",
+    "d20": "Solo dado d20",
+    "all": "Risultato del tiro per colpire",
+    "allCrit": "Risultato colpo + critico"
+  },
+  "midi-qol.Reactions": "Conferma delle Reazioni",
+  "midi-qol.ReactionsTab": "Reazioni",
+  "midi-qol.DoReactions.Name": "Verificare le reazioni dei giocatori",
+  "midi-qol.DoReactions.Hint": "L'attore attaccato potrà usare una reazione prima del tiro. Le reazioni al colpo richiedono l'autoverifica. Le reazioni al danno si attivano quando viene inflitto danno.",
+  "midi-qol.GMDoReactions.Name": "Verificare le reazioni degli NPC/GM",
+  "midi-qol.ReactionTimeout.Name": "Timeout per la reazione",
+  "midi-qol.ReactionTimeout.Hint": "Quanto tempo attendere prima di presumere che nessuna reazione venga usata.",
+  "midi-qol.NoOptionalRules.Name": "Senza regole opzionali",
+  "midi-qol.NoOptionalRules.Hint": "Disattiva le regole opzionali per questo tiro",
+  "midi-qol.RecordAOO.Name": "Monitorare l'attacco d'opportunità",
+  "midi-qol.RecordAOO.Hint": "Se un attore attacca fuori dal suo turno, sarà considerato come uso della reazione",
+  "midi-qol.RecordAOOOptions": {
+    "none": "Non controllare",
+    "character": "Solo i giocatori",
+    "all": "Tutti gli attori"
+  },
+  "midi-qol.EnforceReactions.Name": "Tracciare le reazioni",
+  "midi-qol.EnforceReactions.Hint": "Se la reazione è già stata usata in questo round, verrà mostrato un avviso.",
+  "midi-qol.EnforceBonusActions.Name": "Tracciare le azioni bonus",
+  "midi-qol.EnforceBonusActions.Hint": "Se un'azione bonus è già stata usata in questo round, verrà mostrato un avviso.",
+  "midi-qol.EnforceReactionsOptions": {
+    "none": "Non controllare",
+    "displayOnly": "Mostra icona di stato",
+    "character": "Traccia solo i giocatori",
+    "all": "Traccia tutti gli attori"
+  },
+  "midi-qol.EnforceReactions.Title": "Uso della Reazione",
+  "midi-qol.EnforceReactions.Content": "Hai già usato una reazione in questo round. Continuare comunque?",
+  "midi-qol.DisplayHitResultNumeric.Name": "Mostra quanto l'attacco ha colpito o mancato (verso il bersaglio)",
+  "midi-qol.EnforceBonusActions.Title": "Uso dell'Azione Bonus",
+  "midi-qol.EnforceBonusActions.Content": "Hai già usato un'azione bonus in questo round. Continuare comunque?",
+  "midi-qol.MidiProperties": "Proprietà dell’oggetto Midi-qol",
+  "midi-qol.SoundSettings.Name": "Impostazioni suoni speciali Midi-qol",
+  "midi-qol.SoundSettings.Hint": "Configura i suoni speciali Midi-qol per i tiri degli oggetti",
+  "midi-qol.SoundSettings.Label": "Impostazioni suoni Midi-qol",
+  "midi-qol.SoundSettingsBlurb": {
+    "1": "Iniziamo...",
+    "2": "Scegli 'Crea playlist d'esempio' per creare una playlist con suoni di base",
+    "3": "Scegli 'Impostazioni base' e sperimenta",
+    "4": "Altre impostazioni aggiungono dettagli"
+  },
+  "midi-qol.AddRow": "Aggiungi riga",
+  "midi-qol.CheckFlanking.Name": "Abilita regole di accerchiamento",
+  "midi-qol.CheckFlanking.Hint": "Verifica se tu e gli alleati state accerchiando un nemico. Dà vantaggio all'attaccante e/o applica <strong>Effetto Convenient Flanked</strong> all'attaccante o al bersaglio.",
+  "midi-qol.CheckFlankingOptions": {
+    "off": "No",
+    "ceonly": "Solo effetto Convenient",
+    "advonly": "Solo vantaggio",
+    "ceadv": "Effetto CE + Vantaggio",
+    "ceflanked": "Solo stato CE 'Accerchiato'",
+    "ceflankedNoconga": "CE Accerchiato + no conga line"
+  },
+  "midi-qol.Flanked": "Accerchiato",
+  "midi-qol.RollAlternate.Name": "Sposta formula del tiro nel tooltip",
+  "midi-qol.RollAlternate.Hint": "Mostra i tiri alternativi nella carta unificata, spostando la formula nel tooltip e mostrando vantaggio/svantaggio se necessario",
+  "midi-qol.RollAlternateOptions": {
+    "off": "Tooltip standard",
+    "formula": "Formula → Tooltip",
+    "adv": "Attribuzione avanzata",
+    "formulaadv": "Formula → Tooltip + attribuzione avanzata"
+  },
+  "midi-qol.OptionalCritRule.Name": "(Homebrew) Margine critico",
+  "midi-qol.OptionalCritRule.Hint": "Un attacco è critico se supera di X la CA. -1 per disattivare",
+  "midi-qol.CriticalNat20.Name": "(Homebrew) Abilita critico naturale su 20",
+  "midi-qol.CriticalNat20.Hint": "Un 20 naturale sarà considerato critico anche se il totale non supera la CA",
+  "midi-qol.ActorOnUseMacros": "Attore quando usa macro",
+  "midi-qol.MacroPass": "Passaggio macro",
+  "midi-qol.MacroName": "Nome della macro",
+  "midi-qol.DamageRolled": "Danno tirato",
+  "midi-qol.DamageApplied": "Danno applicato",
+  "midi-qol.FumbleThreshold": "Soglia fallimento critico",
+  "midi-qol.ActionSpecialDurationImmediate.Name": "Consumare 1 attacco/colpo/azione immediatamente",
+  "midi-qol.ActionSpecialDurationImmediate.Hint": "Non aspettare il tiro danno per terminare effetti con durata 1 attacco/colpo/azione",
+  "midi-qol.IgnoreSpellReactionRestriction.Name": "Permetti qualsiasi incantesimo di reazione",
+  "midi-qol.IgnoreSpellReactionRestriction.Hint": "Non richiedere slot o preparazione per incantesimi di reazione",
+  "midi-qol.DamageVulnerabilityMultiplier.Name": "La vulnerabilità moltiplica il danno per",
+  "midi-qol.DamageResistanceMultiplier.Name": "La resistenza riduce il danno a",
+  "midi-qol.DamageImmunityMultiplier.Name": "L'immunità riduce il danno a",
+  "midi-qol.ShowFastForward.Name": "Mostra avanzamento rapido",
+  "midi-qol.ShowFastForward.Hint": "Mostra l’indicatore di avanzamento rapido sui pulsanti di attacco/danno",
+  "midi-qol.MeasuredTemplate": "Template misurato",
+  "midi-qol.AutoRemoveTemplate.Name": "Rimuovi automaticamente template alla fine dell’incantesimo",
+  "midi-qol.AutoRemoveSummonedCreature.Name": "Rimuovi automaticamente creature evocate alla fine della concentrazione",
+  "midi-qol.AttackPerTarget.Name": "Tiro separato per ogni bersaglio",
+  "midi-qol.SkillAbilityCheckAdvantage.Name": "Il vantaggio sui tratti fornisce vantaggio alle abilità",
+  "midi-qol.SkillAbilityCheckAdvantage.Hint": "Se un attore ha vantaggio/svantaggio su un tratto, lo avrà anche sulle abilità collegate",
+  "midi-qol.ignoreTotalCover": "Ignora copertura totale",
+  "midi-qol.InitPromptTitle": "Tiro Iniziativa",
+  "midi-qol.HighlightSuccess.Name": "Colore per Colpito/Mancato/TS",
+  "midi-qol.HighlightSuccess.Hint": "Colpito e TS superati in verde, mancato e fallito in rosso",
+  "midi-qol.HighLightCriticalAttackOnly.Name": "Evidenzia solo critici",
+  "midi-qol.HighLightCriticalAttackOnly.Hint": "Sovrascrive la colorazione dnd5e: solo critici evidenziati",
+  "midi-qol.OptionalRuleVitality.Name": "(Homebrew) Vitalità",
+  "midi-qol.OptionalRuleVitality.Hint": "Quando una creatura a 0 PF prende danni, consuma vitalità. Se esaurita, muore",
+  "midi-qol.AutoRerollInitiative.Name": "Ritira automaticamente l'iniziativa",
+  "midi-qol.AutoRerollInitiative.Hint": "Ritira automaticamente l'iniziativa all'inizio del round. Può interferire con effetti di durata round/turno",
+  "midi-qol.RollChecksBlind.Name": "Tutti i check dei giocatori sono ciechi",
+  "midi-qol.RollSavesBlind.Name": "Tutti i TS dei giocatori sono ciechi",
+  "midi-qol.RollSkillsBlind.Name": "Tutte le prove abilità dei giocatori sono cieche",
+  "midi-qol.UndoWorkflow": {
+    "Name": "Sperimentale: Supporto annulla tiro",
+    "Hint": "Se attivo, midi salverà i dati di ogni tiro. Usare solo in test. Annulla con MidiQOL.undoMostRecentWorkflow()",
+    "title": "Annulla workflow",
+    "actorName": "Nome attore",
+    "itemName": "Nome oggetto",
+    "targetName": "Nome bersaglio",
+    "removeFirstWorkflow": "Rimuovi primo/ultimo workflow (ATTENZIONE)",
+    "undoFirstWorkflow": "Annulla primo/ultimo workflow",
+    "GMOnly": "Solo il GM può annullare workflow"
+  },
+  "midi-qol.cubNotSupported": "Combat Utility Belt non sarà supportato in v11. Midi terminerà il supporto a CUB da 11.1.0",
+  "midi-qol.ContestedRoll": "Tiro contrapposto",
+  "midi-qol.versus": "contro",
+  "midi-qol.Skipped": "Saltato",
+  "midi-qol.ExportTroubleShooting": "Esporta dati diagnostici",
+  "midi-qol.TroubleShooter.Name": "Apri strumento diagnostico",
+  "midi-qol.TroubleShooter.Hint": "Aiuta a identificare problemi e raccogliere configurazioni",
+  "midi-qol.TroubleShooter.Label": "Strumento diagnostico",
+  "midi-qol.Summary": "Riepilogo",
+  "midi-qol.CommonModules": "Moduli comuni",
+  "midi-qol.Problems": "Problemi",
+  "midi-qol.AllModules": "Tutti i moduli",
+  "midi-qol.Errors": "Errori",
+  "midi-qol.Inactive": "Inattivi",
+  "midi-qol.Active": "Attivi",
+  "midi-qol.EnforceSingleWeaponTarget.Name": "Arma può colpire solo un bersaglio",
+  "midi-qol.EnforceSingleWeaponTarget.Hint": "Un'arma senza bersagli specificati colpisce solo uno",
+  "midi-qol.DisplayBonusRolls.Name": "Mostra carte bonus opzionali",
+  "midi-qol.DisplayBonusRolls.Hint": "Mostra in chat le carte prima/dopo un bonus opzionale",
+  "midi-qol.MergeCardMulti.Name": "Aggiungi pulsanti extra",
+  "midi-qol.MergeCardMulti.Hint": "Aggiunge pulsanti vantaggio/svantaggio e critico/non critico agli oggetti",
+  "midi-qol.ConfirmAttackDamage.Name": "Mostra pulsante conferma tiro",
+  "midi-qol.ConfirmAttackDamage.Hint": "Pausa dopo la richiesta di conferma tiro",
+  "midi-qol.ConfirmAttackDamageOptions": {
+    "none": "Nessuna conferma",
+    "gmOnly": "Solo GM può confermare",
+    "GMPlayer": "GM e giocatore possono confermare"
+  },
+  "midi-qol.ConfirmRoll": "Conferma",
+  "midi-qol.ConfirmMiss": "Conferma mancato",
+  "midi-qol.ConfirmHit": "Conferma colpito",
+  "midi-qol.AverageDamage.Name": "Tutti i danni usano media",
+  "midi-qol.AverageDamageOptions": {
+    "none": "No",
+    "npc": "Solo PNG",
+    "character": "Solo PG",
+    "all": "Tutti i danni"
+  },
+  "midi-qol.GriddedGridless.Name": "Griglia invisibile",
+  "midi-qol.GridlessFudge.Name": "Margine d'errore",
+  "midi-qol.GridlessFudge.Hint": "Sottrai questo valore alla distanza misurata (in ft/m)",
+  "midi-qol.GriddedGridless.Hint": "Se attivo, midi userà sempre la griglia anche su scene senza griglia",
+  "midi-qol.targetConfirmationPosition": "Posizione conferma bersaglio",
+  "midi-qol.TargetConfirmationEnabled": "Abilita conferma bersaglio",
+  "midi-qol.TargetConfirmationAll": "Conferma sempre",
+  "midi-qol.TargetConfirmationNoneTargeted": "Conferma se nessuno selezionato",
+  "midi-qol.TargetConfirmation.hasAttack": "Conferma se è stato effettuato un attacco",
+  "midi-qol.TargetConfirmationCreatureTarget": "Conferma se bersaglio è una creatura",
+  "midi-qol.TargetConfirmationSelfTarget": "Conferma se si è selezionati se stessi",
+  "midi-qol.TargetConfirmationAoETarget": "Conferma se effetto ad area",
+  "midi-qol.TargetConfirmationRangedAoE": "Conferma se effetto ad area a distanza",
+  "midi-qol.TargetConfirmationLongRangeTarget": "Conferma se bersaglio lontano",
+  "midi-qol.TargetConfirmationCoveredTarget": "Conferma se bersaglio ha copertura",
+  "midi-qol.TargetConfirmationMixedDisposition": "Conferma se ci sono alleati e nemici",
+  "midi-qol.TargetConfirmationAllies": "Conferma se un alleato è bersaglio",
+  "midi-qol.OutOfRange": "Fuori portata",
+  "midi-qol.SaveDROrder.Name": "Ordine di riduzione danno",
+  "midi-qol.SaveDROrder.Hint": "Ordine in cui applicare la riduzione del danno",
+  "midi-qol.SaveDROrderOptions": {
+    "DRSavedr": "Riduzione → TS → Resistenza",
+    "SaveDRdr": "TS → Riduzione → Resistenza"
+  },
+  "midi-qol.WaitingForPreviousWorkflow": "Il tiro precedente {name} non è stato completato.",
+  "midi-qol.ConfirmTargetOptions": {
+    "default": "Impostazioni Midi",
+    "always": "Sempre",
+    "never": "Mai"
+  },
+  "midi-qol.SaveDamageOptions": {
+    "default": "Impostazioni Midi",
+    "fulldam": "Danno pieno",
+    "halfdam": "Danno dimezzato",
+    "nodam": "Nessun danno"
+  },
+  "midi-qol.MidiSettings": "Impostazioni Midi",
+  "midi-qol.ConcentrationIncapacitatedConditionCheck.Name": "Interrompi concentrazione per condizione Incapacitato",
+  "midi-qol.ConcentrationIncapacitatedConditionCheck.Hint": "Condizioni come Morte, Incoscienza, Pietrificazione, Paralisi e Stordimento interrompono la concentrazione",
+  "midi-qol.AoETargetType.Name": "Tipo di bersaglio per area",
+  "midi-qol.AoETargetType.Hint": "Midi selezionerà solo i token del tipo specificato per aree d'effetto",
+  "midi-qol.AoETargetTypeOptions": {
+    "any": "Qualsiasi",
+    "ally": "Alleato",
+    "notAlly": "Non alleato",
+    "enemy": "Nemico",
+    "notEnemy": "Non nemico",
+    "neutral": "Neutrale",
+    "notNeutral": "Non neutrale",
+    "hostile": "Ostile",
+    "notHostile": "Non ostile",
+    "Friendly": "Amichevole",
+    "notFriendly": "Non amichevole"
+  },
+  "midi-qol.AoETargetTypeIncludeSelf.Name": "Includi se stessi nei bersagli",
+  "midi-qol.AutoCompleteWorkflow.Name": "Completamento automatico workflow",
+  "midi-qol.AutoCompleteWorkflow.Hint": "Segna i workflow come completati se terminano prima. Non eseguirà controlli aggiuntivi.",
+  "midi-qol.emanationNoTemplate": "Emanazione – Nessun template",
+  "midi-qol.AddFakeDice.Name": "Aggiungi dado finto ai dadi GM (Dice So Nice)",
+  "midi-qol.MidiFieldsTab.Name": "Mostra schede midi in finestra separata",
+  "midi-qol.UndoChatColor.Name": "Colorazione annulla chat",
+  "midi-qol.UndoChatColor.Hint": "Rimuove o colora la carta chat quando si annulla",
+  "DND5E.DamageApplication.Change.Absorption": "Assorbimento {type}",
+  "DND5E.DamageApplication.Change.Spell": "Incantesimo proprio",
+  "DND5E.DamageApplication.Change.Magic": "Magico proprio",
+  "DND5E.DamageApplication.Change.Nonmagic": "Non magico proprio",
+  "DND5E.DamageApplication.Change.Saved": "TS superato {type}",
+  "DND5E.DamageApplication.Change.SuperSaver": "1/2 o niente danno {type}",
+  "DND5E.DamageApplication.Change.SemiSuperSaver": "Tutto o niente danno {type}",
+  "DND5E.DamageApplication.Change.UncannyDodge": "Schivata prodigiosa {type}",
+  "DND5E.DamageApplication.Change.DR": "Riduzione Danno",
+  "midi-qol.SettingsSearch": "Cerca impostazioni",
+  "midi-qol.MidiPropertiesTab.Name": "Ruolo minimo per accedere alle proprietà midi",
+  "midi-qol.MidiPropertiesTab.Hint": "Ruolo minimo per accedere alla scheda midi-qol degli oggetti. <strong>Richiede ricarica dopo modifica</strong>",
+  "midi-qol.CollapsibleTargets.Name": "Bersagli comprimibili",
+  "midi-qol.CollapsibleTargets.Hint": "Consente di comprimere/espandere la sezione bersagli nella carta",
+  "midi-qol.AutoRemoveInstantaneousTemplate.Name": "Rimozione automatica template istantanei",
+  "midi-qol.AutoRemoveInstantaneousTemplate.Hint": "I template creati da oggetti con durata istantanea saranno rimossi dopo il tiro",
+  "midi-qol.ReplaceDefaultActivities.Name": "Sostituisci funzioni dnd5e con quelle Midi",
+  "midi-qol.ReplaceDefaultActivities.Hint": "Le funzioni useranno le versioni Midi. Utile per automatizzare oggetti da compendi",
+  "midi-qol.AutoMergeActivityOther.Name": "Unisci automaticamente funzioni in Attacco (Midi) (Richiede reload)",
+  "midi-qol.AutoMergeActivityOther.Hint": "Un oggetto con Attacco + una funzione sarà unito in Attacco (Midi)",
+  "midi-qol.ConfirmAmmunition.Name": "Conferma munizioni prima del tiro attacco",
+  "midi-qol.ActivityNamePrefix.Name": "Prefisso funzione",
+  "midi-qol.ActivityNamePrefix.Hint": "Aggiunge un prefisso a ogni funzione Midi. Richiede reload",
+  "midi-qol.TriggeredActivityTargetOptions": {
+    "self": "Proprietario oggetto",
+    "targets": "Stessi bersagli",
+    "hitTargets": "Bersagli colpiti",
+    "missedTargets": "Bersagli mancati",
+    "failedSaves": "Bersagli che hanno fallito il TS",
+    "saveTargets": "Bersagli che hanno superato il TS",
+    "retarget": "Scegli nuovi bersagli"
+  },
+  "midi-qol.TriggeredActivityRollAsOptions": {
+    "self": "Proprietario oggetto",
+    "firstTarget": "Primo bersaglio",
+    "firstHitTarget": "Primo colpito",
+    "firstMissedTarget": "Primo mancato",
+    "firstSaveTarget": "Primo TS superato",
+    "firstFailedSaveTarget": "Primo TS fallito"
+  },
+  "midi-qol.SHARED": {
+    "use-condition": {
+      "header": "Condizione di utilizzo"
+    },
+    "ignore": {
+      "header": "Ignora modifiche al danno"
+    },
+    "FIELDS": {
+      "useConditionText": {
+        "label": "Condizione di utilizzo della funzione",
+        "hint": "Permetti l’utilizzo della funzione solo se soddisfa la condizione"
+      },
+      "effectConditionText": {
+        "label": "Condizione di applicazione effetto attivo",
+        "hint": "Permetti l’effetto attivo solo se soddisfa la condizione"
+      },
+      "midiProperties": {
+        "forceDialog": {
+          "label": "Forza finestra di configurazione",
+          "hint": "Forza apertura della finestra di configurazione al tiro d’attacco"
+        },
+        "confirmTargets": {
+          "label": "Conferma bersagli",
+          "hint": "Conferma i bersagli prima del tiro"
+        },
+        "automationOnly": {
+          "label": "Solo automazione",
+          "hint": "La funzione è usabile solo tramite automazione midi"
+        },
+        "identifier": {
+          "label": "Identificatore",
+          "hint": "Identificatore della funzione"
+        },
+        "triggeredActivityId": {
+          "label": "Attiva funzione",
+          "hint": "Esegui funzione collegata"
+        },
+        "triggeredActivityConditionText": {
+          "label": "Condizione di attivazione",
+          "hint": "Condizione per attivare la funzione"
+        },
+        "triggeredActivityTargets": {
+          "label": "Bersagli della funzione",
+          "hint": "Seleziona bersagli della funzione attivata"
+        },
+        "triggeredActivityRollAs": {
+          "label": "Tira come",
+          "hint": "Esegui il tiro come se fosse fatto da..."
+        },
+        "otherActivityCompatible": {
+          "label": "Funzione alternativa",
+          "hint": "Può essere usata come funzione alternativa"
+        },
+        "ignoreTraits": {
+          "idi": {
+            "label": "Immunità",
+            "hint": "Ignora immunità al danno"
+          },
+          "idr": {
+            "label": "Resistenza",
+            "hint": "Ignora resistenza al danno"
+          },
+          "idv": {
+            "label": "Vulnerabilità",
+            "hint": "Ignora vulnerabilità al danno"
+          },
+          "ida": {
+            "label": "Assorbimento",
+            "hint": "Ignora assorbimento del danno"
+          },
+          "idm": {
+            "label": "Modificatore",
+            "hint": "Ignora modificatori al danno"
+          }
+        }
+      },
+      "ActivityMacro": {
+        "label": "Macro della funzione",
+        "hint": "Macro da eseguire all’utilizzo della funzione"
+      },
+      "useSystemActivity": {
+        "label": "Usa funzioni di sistema",
+        "hint": "Usa funzioni native di dnd5e al posto di quelle midi"
+      },
+      "ignoreTraits": {
+        "idi": {
+          "label": "Ignora immunità",
+          "hint": "Ignora immunità al momento del danno"
+        },
+        "idr": {
+          "label": "Ignora resistenze",
+          "hint": "Ignora resistenze al momento del danno"
+        },
+        "idv": {
+          "label": "Ignora vulnerabilità",
+          "hint": "Ignora vulnerabilità al momento del danno"
+        },
+        "ida": {
+          "label": "Ignora assorbimenti",
+          "hint": "Ignora assorbimenti al momento del danno"
+        }
+      }
+    }
+  },
+  "midi-qol.FORWARD": {
+    "Title": {
+      "one": "Reindirizzamento (Midi)",
+      "other": "Reindirizzamenti (Midi)"
+    }
+  },
+  "midi-qol.CAST": {
+    "Title": {
+      "one": "Lancio (Midi)",
+      "other": "Lanci (Midi)"
+    }
+  },
+  "midi-qol.ATTACK": {
+    "Title": {
+      "one": "Attacco (Midi)",
+      "other": "Attacchi (Midi)"
+    },
+    "extras": {
+      "header": "Parametri attacco (Midi)"
+    },
+    "FIELDS": {
+      "attackMode": {
+        "label": "Modalità attacco",
+        "hint": "Modalità di attacco predefinita"
+      },
+      "ammunition": {
+        "label": "Munizioni",
+        "hint": "Munizione consumata di default"
+      },
+      "otherActivityId": {
+        "label": "Funzione secondaria",
+        "hint": "Funzione secondaria che infligge danni aggiuntivi"
+      }
+    }
+  },
+  "midi-qol.DAMAGE": {
+    "Title": {
+      "one": "Danno (Midi)",
+      "other": "Danni (Midi)"
+    }
+  },
+  "midi-qol.ENCHANT": {
+    "Title": {
+      "one": "Incantamento (Midi)",
+      "other": "Incantamenti (Midi)"
+    }
+  },
+  "midi-qol.HEAL": {
+    "Title": {
+      "one": "Cura (Midi)",
+      "other": "Cure (Midi)"
+    }
+  },
+  "midi-qol.SAVE": {
+    "Title": {
+      "one": "Tiro salvezza (Midi)",
+      "other": "Tiri salvezza (Midi)"
+    }
+  },
+  "midi-qol.UTILITY": {
+    "Title": {
+      "one": "Utilità (Midi)",
+      "other": "Utilità (Midi)"
+    }
+  },
+  "midi-qol.SUMMON": {
+    "Title": {
+      "one": "Evocazione (Midi)",
+      "other": "Evocazioni (Midi)"
+    }
+  },
+  "midi-qol.CHECK": {
+    "Title": {
+      "one": "Controllo (Midi)",
+      "other": "Controlli (Midi)"
+    }
+  },
+  "midi-qol.fields": {
+    "use-condition-header": "Condizione d’uso funzione Midi",
+    "attack-extras": "Campi aggiuntivi attacco Midi",
+    "effects-conditon": "Condizione effetto Midi",
+    "force-dialog": "Forza apertura dialogo",
+    "midi-automation-only": "Solo uso automatizzato via midi"
+  },
+  "midi-qol.BaseDamageFlavor": "Danno base",
+  "midi-qol.OtherDamageFlavor": "Danno aggiuntivo",
+  "midi-qol.RequireAmmunition.Name": "Richiedi munizioni",
+  "midi-qol.CheckTwoHanded.Name": "Richiedi mano libera per attacchi a due mani",
+  "midi-qol.NoAmmunition": "{name} non è presente nel tuo inventario",
+  "midi-qol.TwoHandedShieldWarning": "Non puoi usare un attacco a due mani/seconda mano mentre impugni uno scudo",
+  "dae.MidiQOL.fieldData": {
+    "flags.midi-qol.absorption.acid": {
+      "name": "Assorbimento Acido",
+      "description": "Converte il danno da acido in guarigione."
+    },
+    "flags.midi-qol.absorption.bludgeoning": {
+      "name": "Assorbimento Contundente",
+      "description": "Converte il danno contundente in guarigione."
+    },
+    "flags.midi-qol.absorption.cold": {
+      "name": "Assorbimento Gelo",
+      "description": "Converte il danno da gelo in guarigione."
+    },
+    "flags.midi-qol.absorption.fire": {
+      "name": "Assorbimento Fuoco",
+      "description": "Converte il danno da fuoco in guarigione."
+    },
+    "flags.midi-qol.absorption.force": {
+      "name": "Assorbimento Forza",
+      "description": "Converte il danno da forza in guarigione."
+    },
+    "flags.midi-qol.absorption.lightning": {
+      "name": "Assorbimento Fulmine",
+      "description": "Converte il danno da fulmine in guarigione."
+    },
+    "flags.midi-qol.absorption.midi-none": {
+      "name": "Assorbimento Nessun tipo",
+      "description": ""
+    },
+    "flags.midi-qol.absorption.necrotic": {
+      "name": "Assorbimento Necrotico",
+      "description": "Converte il danno necrotico in guarigione."
+    },
+    "flags.midi-qol.absorption.none": {
+      "name": "Nessun assorbimento",
+      "description": ""
+    },
+    "flags.midi-qol.absorption.piercing": {
+      "name": "Assorbimento Perforante",
+      "description": "Converte il danno perforante in guarigione."
+    },
+    "flags.midi-qol.absorption.poison": {
+      "name": "Assorbimento Veleno",
+      "description": "Converte il danno da veleno in guarigione."
+    },
+    "flags.midi-qol.absorption.psychic": {
+      "name": "Assorbimento Psichico",
+      "description": "Converte il danno psichico in guarigione."
+    },
+    "flags.midi-qol.absorption.radiant": {
+      "name": "Assorbimento Radiante",
+      "description": "Converte il danno radiante in guarigione."
+    },
+    "flags.midi-qol.absorption.slashing": {
+      "name": "Assorbimento Tagliente",
+      "description": "Converte il danno tagliente in guarigione."
+    },
+    "flags.midi-qol.absorption.thunder": {
+      "name": "Assorbimento Tuono",
+      "description": "Converte il danno da tuono in guarigione."
+    },
+    "flags.midi-qol.advantage.ability.all": {
+      "name": "Vantaggio Tutte le prove",
+      "description": "Vantaggio su tutti i tiri salvezza, prove di abilità e caratteristiche."
+    },
+    "flags.midi-qol.advantage.ability.check.all": {
+      "name": "Vantaggio su tutte le prove",
+      "description": "Vantaggio su tutte le prove di caratteristica e abilità."
+    },
+    "flags.midi-qol.advantage.ability.check.cha": {
+      "name": "Vantaggio su prove Carisma",
+      "description": "Vantaggio su prove basate sul Carisma."
+    },
+    "flags.midi-qol.advantage.ability.check.con": {
+      "name": "Vantaggio su prove Costituzione",
+      "description": "Vantaggio su prove basate sulla Costituzione."
+    },
+    "flags.midi-qol.advantage.ability.check.dex": {
+      "name": "Vantaggio su prove Destrezza",
+      "description": "Vantaggio su prove basate sulla Destrezza."
+    },
+    "flags.midi-qol.advantage.ability.check.int": {
+      "name": "Vantaggio su prove Intelligenza",
+      "description": "Vantaggio su prove basate sull’Intelligenza."
+    },
+    "flags.midi-qol.advantage.ability.check.str": {
+      "name": "Vantaggio su prove Forza",
+      "description": "Vantaggio su prove basate sulla Forza."
+    },
+    "flags.midi-qol.advantage.ability.check.wis": {
+      "name": "Vantaggio su prove Saggezza",
+      "description": "Vantaggio su prove basate sulla Saggezza."
+    },
+    "flags.midi-qol.advantage.ability.save.all": {
+      "name": "Vantaggio su tutti i tiri salvezza",
+      "description": "Vantaggio su tutti i tiri salvezza."
+    },
+    "flags.midi-qol.advantage.ability.save.cha": {
+      "name": "Vantaggio su tiri salvezza Carisma",
+      "description": "Vantaggio su tiri salvezza basati sul Carisma."
+    },
+    "flags.midi-qol.advantage.ability.save.con": {
+      "name": "Vantaggio su tiri salvezza Costituzione",
+      "description": "Vantaggio su tiri salvezza basati sulla Costituzione."
+    },
+    "flags.midi-qol.advantage.ability.save.dex": {
+      "name": "Vantaggio su tiri salvezza Destrezza",
+      "description": "Vantaggio su tiri salvezza basati sulla Destrezza."
+    },
+    "flags.midi-qol.advantage.ability.save.int": {
+      "name": "Vantaggio su tiri salvezza Intelligenza",
+      "description": "Vantaggio su tiri salvezza basati sull’Intelligenza."
+    },
+    "flags.midi-qol.advantage.ability.save.str": {
+      "name": "Vantaggio su tiri salvezza Forza",
+      "description": "Vantaggio su tiri salvezza basati sulla Forza."
+    },
+    "flags.midi-qol.advantage.ability.save.wis": {
+      "name": "Vantaggio su tiri salvezza Saggezza",
+      "description": "Vantaggio su tiri salvezza basati sulla Saggezza."
+    },
+    "flags.midi-qol.advantage.all": {
+      "name": "Vantaggio su tutto",
+      "description": "Vantaggio su tutti i tiri d20."
+    },
+    "flags.midi-qol.advantage.attack.all": {
+      "name": "Vantaggio su tutti gli attacchi",
+      "description": "Vantaggio su tutti i tipi di attacchi (mischia, a distanza e magie)."
+    },
+    "flags.midi-qol.advantage.attack.cha": {
+      "name": "Vantaggio su attacchi basati su Carisma",
+      "description": "Vantaggio su attacchi che usano il Carisma."
+    },
+    "flags.midi-qol.advantage.attack.con": {
+      "name": "Vantaggio su attacchi basati su Costituzione",
+      "description": "Vantaggio su attacchi che usano la Costituzione."
+    },
+    "flags.midi-qol.advantage.attack.dex": {
+      "name": "Vantaggio su attacchi basati su Destrezza",
+      "description": "Vantaggio su attacchi che usano la Destrezza."
+    },
+    "flags.midi-qol.advantage.attack.heal": {
+      "name": "Vantaggio su attacchi curativi",
+      "description": ""
+    },
+    "flags.midi-qol.advantage.attack.int": {
+      "name": "Vantaggio su attacchi basati su Intelligenza",
+      "description": "Vantaggio su attacchi che usano l’Intelligenza."
+    },
+    "flags.midi-qol.advantage.attack.msak": {
+      "name": "Vantaggio su attacchi magici in mischia",
+      "description": "Vantaggio su attacchi in mischia con incantesimi."
+    },
+    "flags.midi-qol.advantage.attack.mwak": {
+      "name": "Vantaggio su attacchi con armi da mischia",
+      "description": "Vantaggio su attacchi in mischia con armi."
+    },
+    "flags.midi-qol.advantage.attack.other": {
+      "name": "Vantaggio su altri attacchi",
+      "description": ""
+    },
+    "flags.midi-qol.advantage.attack.rsak": {
+      "name": "Vantaggio su attacchi magici a distanza",
+      "description": "Vantaggio su attacchi a distanza con incantesimi."
+    },
+    "flags.midi-qol.advantage.attack.rwak": {
+      "name": "Vantaggio su attacchi con armi a distanza",
+      "description": "Vantaggio su attacchi a distanza con armi."
+    },
+    "flags.midi-qol.advantage.attack.save": {
+      "name": "Vantaggio su attacchi a tiro salvezza",
+      "description": "Vantaggio su tutti gli attacchi che richiedono tiro salvezza"
+    },
+    "flags.midi-qol.advantage.attack.str": {
+      "name": "Vantaggio su attacchi basati su Forza",
+      "description": "Vantaggio su attacchi che usano la Forza."
+    },
+    "flags.midi-qol.advantage.attack.util": {
+      "name": "Vantaggio su attacchi di utilità",
+      "description": "Vantaggio su tutti gli attacchi di tipo utilità"
+    },
+    "flags.midi-qol.advantage.attack.wis": {
+      "name": "Vantaggio su attacchi basati su Saggezza",
+      "description": "Vantaggio su attacchi che usano la Saggezza."
+    },
+    "flags.midi-qol.fail.disadvantage.heavy": {
+      "name": "Svantaggio da armatura pesante",
+      "description": "Svantaggio su Furtività a causa di armatura pesante"
+    },
+    "flags.midi-qol.": {
+      "name": "Flag MIDI-QOL",
+      "description": ""
+    },
+    "flags.midi-qol.DR.msak": {
+      "name": "Riduzione danno (magia mischia) (Deprecato)",
+      "description": "Usa i campi system.traits.dm con valore negativo."
+    },
+    "flags.midi-qol.DR.mwak": {
+      "name": "Riduzione danno (arma mischia) (Deprecato)",
+      "description": "Usa i campi system.traits.dm con valore negativo."
+    },
+    "flags.midi-qol.DR.non-adamant": {
+      "name": "Riduzione danno (non adamantio) (Deprecato)",
+      "description": "Usa i campi system.traits.dm con valore negativo."
+    },
+    "flags.midi-qol.DR.non-magical": {
+      "name": "Riduzione danno (non magico) (Deprecato)",
+      "description": "Usa i campi system.traits.dm con valore negativo."
+    },
+    "flags.midi-qol.DR.non-magical-physical": {
+      "name": "Riduzione danno (fisico non magico) (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.non-physical": {
+      "name": "Riduzione danno (non fisico) (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.non-silver": {
+      "name": "Riduzione danno (non argentato) (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.other": {
+      "name": "Riduzione danno (altro) (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.rsak": {
+      "name": "Riduzione danno (magia a distanza) (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.rwak": {
+      "name": "Riduzione danno (arma a distanza) (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.save": {
+      "name": "Riduzione danno (tiro salvezza) (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.util": {
+      "name": "Riduzione danno (utilità) (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.acid": {
+      "name": "Riduzione danno acido (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.all": {
+      "name": "Riduzione totale del danno (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.bludgeoning": {
+      "name": "Riduzione danno contundente (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.cold": {
+      "name": "Riduzione danno da gelo (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.final": {
+      "name": "Riduzione danno finale (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.fire": {
+      "name": "Riduzione danno da fuoco (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.force": {
+      "name": "Riduzione danno da forza (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.healing": {
+      "name": "Riduzione guarigione (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.lightning": {
+      "name": "Riduzione danno da fulmine (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.midi-none": {
+      "name": "Nessuna riduzione danno midi (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.necrotic": {
+      "name": "Riduzione danno necrotico (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.none": {
+      "name": "Nessuna riduzione danno (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.piercing": {
+      "name": "Riduzione danno perforante (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.poison": {
+      "name": "Riduzione danno da veleno (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.psychic": {
+      "name": "Riduzione danno psichico (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.radiant": {
+      "name": "Riduzione danno radiante (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.slashing": {
+      "name": "Riduzione danno tagliente (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.temphp": {
+      "name": "Riduzione punti ferita temporanei (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.DR.thunder": {
+      "name": "Riduzione danno da tuono (Deprecato)",
+      "description": "Utilizza i campi system.traits.dm con valore negativo al posto di questo."
+    },
+    "flags.midi-qol.OverTime": {
+      "name": "Effetti nel tempo",
+      "description": ""
+    },
+    "flags.midi-qol.advantage.concentration": {
+      "name": "Vantaggio (Concentrazione)",
+      "description": "Vantaggio sulle prove di concentrazione."
+    },
+    "flags.midi-qol.advantage.deathSave": {
+      "name": "Vantaggio (Tiro salvezza contro la morte)",
+      "description": "Vantaggio sui tiri salvezza contro la morte."
+    },
+    "flags.midi-qol.advantage.skill.acr": {
+      "name": "Vantaggio (Acrobazia)",
+      "description": "Vantaggio sulle prove di Acrobazia."
+    },
+    "flags.midi-qol.advantage.skill.all": {
+      "name": "Vantaggio (Tutte le abilità)",
+      "description": "Vantaggio su tutte le prove di abilità."
+    },
+    "flags.midi-qol.advantage.skill.ani": {
+      "name": "Vantaggio (Addestrare animali)",
+      "description": "Vantaggio sulle prove di Addestrare animali."
+    },
+    "flags.midi-qol.advantage.skill.arc": {
+      "name": "Vantaggio (Arcano)",
+      "description": "Vantaggio sulle prove di Arcano."
+    },
+    "flags.midi-qol.advantage.skill.ath": {
+      "name": "Vantaggio (Atletica)",
+      "description": "Vantaggio sulle prove di Atletica."
+    },
+    "flags.midi-qol.advantage.skill.dec": {
+      "name": "Vantaggio (Inganno)",
+      "description": "Vantaggio sulle prove di Inganno."
+    },
+    "flags.midi-qol.advantage.skill.his": {
+      "name": "Vantaggio (Storia)",
+      "description": "Vantaggio sulle prove di Storia."
+    },
+    "flags.midi-qol.advantage.skill.ins": {
+      "name": "Vantaggio (Intuizione)",
+      "description": "Vantaggio sulle prove di Intuizione."
+    },
+    "flags.midi-qol.advantage.skill.inv": {
+      "name": "Vantaggio (Investigazione)",
+      "description": "Vantaggio sulle prove di Investigazione."
+    },
+    "flags.midi-qol.advantage.skill.itm": {
+      "name": "Vantaggio (Intimidazione)",
+      "description": "Vantaggio sulle prove di Intimidazione."
+    },
+    "flags.midi-qol.advantage.skill.med": {
+      "name": "Vantaggio (Medicina)",
+      "description": "Vantaggio sulle prove di Medicina."
+    },
+    "flags.midi-qol.advantage.skill.nat": {
+      "name": "Vantaggio (Natura)",
+      "description": "Vantaggio sulle prove di Natura."
+    },
+    "flags.midi-qol.advantage.skill.per": {
+      "name": "Vantaggio (Persuasione)",
+      "description": "Vantaggio sulle prove di Persuasione."
+    },
+    "flags.midi-qol.advantage.skill.prc": {
+      "name": "Vantaggio (Percezione)",
+      "description": "Vantaggio sulle prove di Percezione."
+    },
+    "flags.midi-qol.advantage.skill.prf": {
+      "name": "Vantaggio (Intrattenere)",
+      "description": "Vantaggio sulle prove di Intrattenere."
+    },
+    "flags.midi-qol.advantage.skill.rel": {
+      "name": "Vantaggio (Religione)",
+      "description": "Vantaggio sulle prove di Religione."
+    },
+    "flags.midi-qol.advantage.skill.slt": {
+      "name": "Vantaggio (Rapidità di mano)",
+      "description": "Vantaggio sulle prove di Rapidità di mano."
+    },
+    "flags.midi-qol.advantage.skill.ste": {
+      "name": "Vantaggio (Furtività)",
+      "description": "Vantaggio sulle prove di Furtività."
+    },
+    "flags.midi-qol.advantage.skill.sur": {
+      "name": "Vantaggio (Sopravvivenza)",
+      "description": "Vantaggio sulle prove di Sopravvivenza."
+    },
+    "flags.midi-qol.carefulSpells": {
+      "name": "Incantesimi cauti",
+      "description": "I bersagli selezionati dell'incantesimo superano automaticamente il tiro salvezza."
+    },
+    "flags.midi-qol.concentrationSaveBonus": {
+      "name": "Bonus ai tiri di concentrazione",
+      "description": ""
+    },
+    "flags.midi-qol.critical.all": {
+      "name": "Colpo critico (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.heal": {
+      "name": "Colpo critico (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.msak": {
+      "name": "Colpo critico (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.mwak": {
+      "name": "Colpo critico (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.other": {
+      "name": "Colpo critico (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.rsak": {
+      "name": "Colpo critico (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.rwak": {
+      "name": "Colpo critico (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.save": {
+      "name": "Colpo critico (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.critical.util": {
+      "name": "Colpo critico (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.damage.reroll-kh": {
+      "name": "Ritira il danno (Tieni il più alto)",
+      "description": ""
+    },
+    "flags.midi-qol.damage.reroll-kl": {
+      "name": "Ritira il danno (Tieni il più basso)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.all": {
+      "name": "Svantaggio (Tutte le caratteristiche)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.all": {
+      "name": "Svantaggio (Tutti i controlli di caratteristica)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.cha": {
+      "name": "Svantaggio (Controlli Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.con": {
+      "name": "Svantaggio (Controlli Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.dex": {
+      "name": "Svantaggio (Controlli Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.int": {
+      "name": "Svantaggio (Controlli Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.str": {
+      "name": "Svantaggio (Controlli Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.check.wis": {
+      "name": "Svantaggio (Controlli Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.all": {
+      "name": "Svantaggio (Tutti i tiri salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.cha": {
+      "name": "Svantaggio (TS Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.con": {
+      "name": "Svantaggio (TS Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.dex": {
+      "name": "Svantaggio (TS Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.int": {
+      "name": "Svantaggio (TS Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.str": {
+      "name": "Svantaggio (TS Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.ability.save.wis": {
+      "name": "Svantaggio (TS Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.all": {
+      "name": "Svantaggio totale",
+      "description": "Svantaggio su tutti i tiri d20."
+    },
+    "flags.midi-qol.disadvantage.attack.all": {
+      "name": "Svantaggio (Tutti gli attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.cha": {
+      "name": "Svantaggio (Attacchi basati su Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.con": {
+      "name": "Svantaggio (Attacchi basati su Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.dex": {
+      "name": "Svantaggio (Attacchi basati su Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.heal": {
+      "name": "Svantaggio (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.int": {
+      "name": "Svantaggio (Attacchi basati su Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.msak": {
+      "name": "Svantaggio (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.mwak": {
+      "name": "Svantaggio (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.other": {
+      "name": "Svantaggio (Altri attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.rsak": {
+      "name": "Svantaggio (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.rwak": {
+      "name": "Svantaggio (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.save": {
+      "name": "Svantaggio (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.util": {
+      "name": "Svantaggio (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.attack.wis": {
+      "name": "Svantaggio (Attacchi basati su Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.concentration": {
+      "name": "Svantaggio (Concentrazione)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.deathSave": {
+      "name": "Svantaggio (Tiro salvezza contro la morte)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.acr": {
+      "name": "Svantaggio (Acrobazia)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.all": {
+      "name": "Svantaggio (Tutte le abilità)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.ani": {
+      "name": "Svantaggio (Addestrare animali)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.arc": {
+      "name": "Svantaggio (Arcano)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.ath": {
+      "name": "Svantaggio (Atletica)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.dec": {
+      "name": "Svantaggio (Inganno)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.his": {
+      "name": "Svantaggio (Storia)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.ins": {
+      "name": "Svantaggio (Intuizione)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.inv": {
+      "name": "Svantaggio (Indagare)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.itm": {
+      "name": "Svantaggio (Intimidazione)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.med": {
+      "name": "Svantaggio (Medicina)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.nat": {
+      "name": "Svantaggio (Natura)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.per": {
+      "name": "Svantaggio (Persuasione)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.prc": {
+      "name": "Svantaggio (Percezione)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.prf": {
+      "name": "Svantaggio (Intrattenere)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.rel": {
+      "name": "Svantaggio (Religione)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.slt": {
+      "name": "Svantaggio (Rapidità di mano)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.ste": {
+      "name": "Svantaggio (Furtività)",
+      "description": ""
+    },
+    "flags.midi-qol.disadvantage.skill.sur": {
+      "name": "Svantaggio (Sopravvivenza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.all": {
+      "name": "Fallimento (Tutte le caratteristiche)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.all": {
+      "name": "Fallimento (Tutti i controlli di caratteristica)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.cha": {
+      "name": "Fallimento (Controlli Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.con": {
+      "name": "Fallimento (Controlli Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.dex": {
+      "name": "Fallimento (Controlli Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.int": {
+      "name": "Fallimento (Controlli Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.str": {
+      "name": "Fallimento (Controlli Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.check.wis": {
+      "name": "Fallimento (Controlli Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.all": {
+      "name": "Fallimento (Tutti i tiri salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.cha": {
+      "name": "Fallimento (TS Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.con": {
+      "name": "Fallimento (TS Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.dex": {
+      "name": "Fallimento (TS Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.int": {
+      "name": "Fallimento (TS Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.str": {
+      "name": "Fallimento (TS Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.ability.save.wis": {
+      "name": "Fallimento (TS Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.all": {
+      "name": "Fallimento (Tutte le azioni)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.all": {
+      "name": "Fallimento (Tutti gli attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.heal": {
+      "name": "Fallimento (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.msak": {
+      "name": "Fallimento (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.mwak": {
+      "name": "Fallimento (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.other": {
+      "name": "Fallimento (Altri attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.rsak": {
+      "name": "Fallimento (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.rwak": {
+      "name": "Fallimento (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.save": {
+      "name": "Fallimento (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.attack.util": {
+      "name": "Fallimento (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.all": {
+      "name": "Fallimento critico (Tutto)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.heal": {
+      "name": "Fallimento critico (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.msak": {
+      "name": "Fallimento critico (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.mwak": {
+      "name": "Fallimento critico (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.other": {
+      "name": "Fallimento critico (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.rsak": {
+      "name": "Fallimento critico (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.rwak": {
+      "name": "Fallimento critico (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.save": {
+      "name": "Fallimento critico (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.critical.util": {
+      "name": "Fallimento critico (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.acr": {
+      "name": "Fallimento (Acrobazia)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.all": {
+      "name": "Fallimento (Tutte le abilità)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.ani": {
+      "name": "Fallimento (Addestrare animali)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.arc": {
+      "name": "Fallimento (Arcano)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.ath": {
+      "name": "Fallimento (Atletica)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.dec": {
+      "name": "Fallimento (Inganno)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.his": {
+      "name": "Fallimento (Storia)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.ins": {
+      "name": "Fallimento (Intuizione)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.inv": {
+      "name": "Fallimento (Indagare)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.itm": {
+      "name": "Fallimento (Intimidazione)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.med": {
+      "name": "Fallimento (Medicina)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.nat": {
+      "name": "Fallimento (Natura)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.per": {
+      "name": "Fallimento (Persuasione)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.prc": {
+      "name": "Fallimento (Percezione)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.prf": {
+      "name": "Fallimento (Intrattenere)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.rel": {
+      "name": "Fallimento (Religione)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.slt": {
+      "name": "Fallimento (Rapidità di mano)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.ste": {
+      "name": "Fallimento (Furtività)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.skill.sur": {
+      "name": "Fallimento (Sopravvivenza)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.spell.material": {
+      "name": "Fallimento (Componente materiale)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.spell.somatic": {
+      "name": "Fallimento (Componente somatico)",
+      "description": ""
+    },
+    "flags.midi-qol.fail.spell.vocal": {
+      "name": "Fallimento (Componente verbale)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.all": {
+      "name": "Concede vantaggio (Tutti gli attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.heal": {
+      "name": "Concede vantaggio (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.msak": {
+      "name": "Concede vantaggio (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.mwak": {
+      "name": "Concede vantaggio (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.other": {
+      "name": "Concede vantaggio (Altri attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.rsak": {
+      "name": "Concede vantaggio (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.rwak": {
+      "name": "Concede vantaggio (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.save": {
+      "name": "Concede vantaggio (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.attack.util": {
+      "name": "Concede vantaggio (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.all": {
+      "name": "Concede vantaggio (Tutti i controlli)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.cha": {
+      "name": "Concede vantaggio (Controlli Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.con": {
+      "name": "Concede vantaggio (Controlli Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.dex": {
+      "name": "Concede vantaggio (Controlli Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.int": {
+      "name": "Concede vantaggio (Controlli Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.str": {
+      "name": "Concede vantaggio (Controlli Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.check.wis": {
+      "name": "Concede vantaggio (Controlli Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.all": {
+      "name": "Concede vantaggio (Tutti i tiri salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.cha": {
+      "name": "Concede vantaggio (TS Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.con": {
+      "name": "Concede vantaggio (TS Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.dex": {
+      "name": "Concede vantaggio (TS Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.int": {
+      "name": "Concede vantaggio (TS Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.str": {
+      "name": "Concede vantaggio (TS Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.save.wis": {
+      "name": "Concede vantaggio (TS Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.all": {
+      "name": "Concede vantaggio (Tutte le abilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.cha": {
+      "name": "Concede vantaggio (Abilità basate su Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.con": {
+      "name": "Concede vantaggio (Abilità basate su Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.dex": {
+      "name": "Concede vantaggio (Abilità basate su Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.int": {
+      "name": "Concede vantaggio (Abilità basate su Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.str": {
+      "name": "Concede vantaggio (Abilità basate su Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.advantage.skill.wis": {
+      "name": "Concede vantaggio (Abilità basate su Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.all": {
+      "name": "Concede bonus all'attacco (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.heal": {
+      "name": "Concede bonus all'attacco (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.msak": {
+      "name": "Concede bonus all'attacco (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.mwak": {
+      "name": "Concede bonus all'attacco (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.other": {
+      "name": "Concede bonus all'attacco (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.rsak": {
+      "name": "Concede bonus all'attacco (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.rwak": {
+      "name": "Concede bonus all'attacco (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.save": {
+      "name": "Concede bonus all'attacco (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.bonus.util": {
+      "name": "Concede bonus all'attacco (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.fail.all": {
+      "name": "Concede fallimento (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.all": {
+      "name": "Concede successo (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.heal": {
+      "name": "Concede successo (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.msak": {
+      "name": "Concede successo (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.mwak": {
+      "name": "Concede successo (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.other": {
+      "name": "Concede successo (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.rsak": {
+      "name": "Concede successo (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.rwak": {
+      "name": "Concede successo (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.save": {
+      "name": "Concede successo (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.attack.success.util": {
+      "name": "Concede successo (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.all": {
+      "name": "Concede colpo critico (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.heal": {
+      "name": "Concede colpo critico (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.msak": {
+      "name": "Concede colpo critico (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.mwak": {
+      "name": "Concede colpo critico (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.other": {
+      "name": "Concede colpo critico (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.range": {
+      "name": "Concede colpo critico (Portata)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.rsak": {
+      "name": "Concede colpo critico (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.rwak": {
+      "name": "Concede colpo critico (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.save": {
+      "name": "Concede colpo critico (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.critical.util": {
+      "name": "Concede colpo critico (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.criticalThreshold": {
+      "name": "Soglia di colpo critico",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.all": {
+      "name": "Concede svantaggio (Tutti gli attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.heal": {
+      "name": "Concede svantaggio (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.msak": {
+      "name": "Concede svantaggio (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.mwak": {
+      "name": "Concede svantaggio (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.other": {
+      "name": "Concede svantaggio (Altri attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.rsak": {
+      "name": "Concede svantaggio (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.rwak": {
+      "name": "Concede svantaggio (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.save": {
+      "name": "Concede svantaggio (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.attack.util": {
+      "name": "Concede svantaggio (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.all": {
+      "name": "Concede svantaggio (Tutti i controlli)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.cha": {
+      "name": "Concede svantaggio (Controlli Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.con": {
+      "name": "Concede svantaggio (Controlli Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.dex": {
+      "name": "Concede svantaggio (Controlli Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.int": {
+      "name": "Concede svantaggio (Controlli Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.str": {
+      "name": "Concede svantaggio (Controlli Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.check.wis": {
+      "name": "Concede svantaggio (Controlli Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.all": {
+      "name": "Concede svantaggio (Tutti i tiri salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.cha": {
+      "name": "Concede svantaggio (TS Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.con": {
+      "name": "Concede svantaggio (TS Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.dex": {
+      "name": "Concede svantaggio (TS Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.int": {
+      "name": "Concede svantaggio (TS Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.str": {
+      "name": "Concede svantaggio (TS Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.save.wis": {
+      "name": "Concede svantaggio (TS Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.all": {
+      "name": "Concede svantaggio (Tutte le abilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.cha": {
+      "name": "Concede svantaggio (Abilità basate su Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.con": {
+      "name": "Concede svantaggio (Abilità basate su Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.dex": {
+      "name": "Concede svantaggio (Abilità basate su Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.int": {
+      "name": "Concede svantaggio (Abilità basate su Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.str": {
+      "name": "Concede svantaggio (Abilità basate su Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.disadvantage.skill.wis": {
+      "name": "Concede svantaggio (Abilità basate su Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.all": {
+      "name": "Concede vantaggio in caso di fallimento (Tutti gli attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.heal": {
+      "name": "Concede vantaggio in caso di fallimento (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.msak": {
+      "name": "Concede vantaggio in caso di fallimento (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.mwak": {
+      "name": "Concede vantaggio in caso di fallimento (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.other": {
+      "name": "Concede vantaggio in caso di fallimento (Altri attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.rsak": {
+      "name": "Concede vantaggio in caso di fallimento (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.rwak": {
+      "name": "Concede vantaggio in caso di fallimento (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.save": {
+      "name": "Concede vantaggio in caso di fallimento (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.advantage.attack.util": {
+      "name": "Concede vantaggio in caso di fallimento (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.all": {
+      "name": "Concede svantaggio in caso di fallimento (Tutti gli attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.heal": {
+      "name": "Concede svantaggio in caso di fallimento (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.msak": {
+      "name": "Concede svantaggio in caso di fallimento (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.mwak": {
+      "name": "Concede svantaggio in caso di fallimento (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.other": {
+      "name": "Concede svantaggio in caso di fallimento (Altri attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.rsak": {
+      "name": "Concede svantaggio in caso di fallimento (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.rwak": {
+      "name": "Concede svantaggio in caso di fallimento (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.save": {
+      "name": "Concede svantaggio in caso di fallimento (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.fail.disadvantage.attack.util": {
+      "name": "Concede svantaggio in caso di fallimento (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.max.damage.all": {
+      "name": "Concede danno massimo (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.max.damage.heal": {
+      "name": "Concede danno massimo (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.max.damage.msak": {
+      "name": "Concede danno massimo (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.max.damage.mwak": {
+      "name": "Concede danno massimo (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.max.damage.other": {
+      "name": "Concede danno massimo (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.max.damage.rsak": {
+      "name": "Concede danno massimo (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.max.damage.rwak": {
+      "name": "Concede danno massimo (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.max.damage.save": {
+      "name": "Concede danno massimo (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.max.damage.util": {
+      "name": "Concede danno massimo (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.all": {
+      "name": "Concede danno minimo (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.heal": {
+      "name": "Concede danno minimo (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.msak": {
+      "name": "Concede danno minimo (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.mwak": {
+      "name": "Concede danno minimo (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.other": {
+      "name": "Concede danno minimo (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.rsak": {
+      "name": "Concede danno minimo (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.rwak": {
+      "name": "Concede danno minimo (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.save": {
+      "name": "Concede danno minimo (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.min.damage.util": {
+      "name": "Concede danno minimo (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.all": {
+      "name": "Concede colpo non critico (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.heal": {
+      "name": "Concede colpo non critico (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.msak": {
+      "name": "Concede colpo non critico (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.mwak": {
+      "name": "Concede colpo non critico (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.other": {
+      "name": "Concede colpo non critico (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.rsak": {
+      "name": "Concede colpo non critico (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.rwak": {
+      "name": "Concede colpo non critico (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.save": {
+      "name": "Concede colpo non critico (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.grants.noCritical.util": {
+      "name": "Concede colpo non critico (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.ignoreNearbyFoes": {
+      "name": "Ignora i nemici vicini",
+      "description": "Ignora lo svantaggio sugli attacchi a distanza quando c'è un nemico adiacente"
+    },
+    "flags.midi-qol.inMotion": { "name": "In movimento", "description": "" },
+    "flags.midi-qol.long.all": {
+      "name": "Lunga distanza (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.long.heal": {
+      "name": "Lunga distanza (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.long.msak": {
+      "name": "Lunga distanza (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.long.mwak": {
+      "name": "Lunga distanza (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.long.other": {
+      "name": "Lunga distanza (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.long.rsak": {
+      "name": "Lunga distanza (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.long.rwak": {
+      "name": "Lunga distanza (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.long.save": {
+      "name": "Lunga distanza (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.long.util": {
+      "name": "Lunga distanza (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.all": {
+      "name": "Resistenza magica (Tutto)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.cha": {
+      "name": "Resistenza magica (Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.check.all": {
+      "name": "Resistenza magica (Prove)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.con": {
+      "name": "Resistenza magica (Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.dex": {
+      "name": "Resistenza magica (Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.int": {
+      "name": "Resistenza magica (Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.save.all": {
+      "name": "Resistenza magica (Tiri salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.skill.all": {
+      "name": "Resistenza magica (Abilità)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.str": {
+      "name": "Resistenza magica (Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.magicResistance.wis": {
+      "name": "Resistenza magica (Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all": {
+      "name": "Vulnerabilità magica (Tutto)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.cha": {
+      "name": "Vulnerabilità magica (Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.con": {
+      "name": "Vulnerabilità magica (Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.dex": {
+      "name": "Vulnerabilità magica (Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.int": {
+      "name": "Vulnerabilità magica (Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.str": {
+      "name": "Vulnerabilità magica (Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.magicVulnerability.all.wis": {
+      "name": "Vulnerabilità magica (Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.max.ability.check.all": {
+      "name": "Prova caratteristica massima (Tutto)",
+      "description": "Valore massimo del d20 per tutte le prove di caratteristica"
+    },
+    "flags.midi-qol.max.ability.check.cha": {
+      "name": "Prova caratteristica massima (Carisma)",
+      "description": "Valore massimo del d20 per le prove di Carisma"
+    },
+    "flags.midi-qol.max.ability.check.con": {
+      "name": "Prova caratteristica massima (Costituzione)",
+      "description": "Valore massimo del d20 per le prove di Costituzione"
+    },
+    "flags.midi-qol.max.ability.check.dex": {
+      "name": "Prova caratteristica massima (Destrezza)",
+      "description": "Valore massimo del d20 per le prove di Destrezza"
+    },
+    "flags.midi-qol.max.ability.check.int": {
+      "name": "Prova caratteristica massima (Intelligenza)",
+      "description": "Valore massimo del d20 per le prove di Intelligenza"
+    },
+    "flags.midi-qol.max.ability.check.str": {
+      "name": "Prova caratteristica massima (Forza)",
+      "description": "Valore massimo del d20 per le prove di Forza"
+    },
+    "flags.midi-qol.max.ability.check.wis": {
+      "name": "Prova caratteristica massima (Saggezza)",
+      "description": "Valore massimo del d20 per le prove di Saggezza"
+    },
+    "flags.midi-qol.max.ability.save.all": {
+      "name": "TS massimo (Tutti)",
+      "description": "Valore massimo del d20 per tutti i tiri salvezza"
+    },
+    "flags.midi-qol.max.ability.save.cha": {
+      "name": "TS massimo (Carisma)",
+      "description": "Valore massimo del d20 per i tiri salvezza su Carisma"
+    },
+    "flags.midi-qol.max.ability.save.con": {
+      "name": "TS massimo (Costituzione)",
+      "description": "Valore massimo del d20 per i tiri salvezza su Costituzione"
+    },
+    "flags.midi-qol.max.ability.save.concentration": {
+      "name": "TS massimo (Concentrazione)",
+      "description": "Valore massimo del d20 per i tiri salvezza per mantenere la concentrazione"
+    },
+    "flags.midi-qol.max.ability.save.dex": {
+      "name": "TS massimo (Destrezza)",
+      "description": "Valore massimo del d20 per i tiri salvezza su Destrezza"
+    },
+    "flags.midi-qol.max.ability.save.int": {
+      "name": "TS massimo (Intelligenza)",
+      "description": "Valore massimo del d20 per i tiri salvezza su Intelligenza"
+    },
+    "flags.midi-qol.max.ability.save.str": {
+      "name": "TS massimo (Forza)",
+      "description": "Valore massimo del d20 per i tiri salvezza su Forza"
+    },
+    "flags.midi-qol.max.ability.save.wis": {
+      "name": "TS massimo (Saggezza)",
+      "description": "Valore massimo del d20 per i tiri salvezza su Saggezza"
+    },
+    "flags.midi-qol.max.damage.all": {
+      "name": "Danno massimo (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.heal": {
+      "name": "Danno massimo (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.msak": {
+      "name": "Danno massimo (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.mwak": {
+      "name": "Danno massimo (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.other": {
+      "name": "Danno massimo (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.rsak": {
+      "name": "Danno massimo (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.rwak": {
+      "name": "Danno massimo (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.save": {
+      "name": "Danno massimo (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.max.damage.util": {
+      "name": "Danno massimo (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.max.skill.all": {
+      "name": "Prova abilità massima (Tutte)",
+      "description": "Valore massimo del d20 per tutte le prove di abilità"
+    },
+    "flags.midi-qol.min.ability.check.all": {
+      "name": "Prova caratteristica minima (Tutte)",
+      "description": "Valore minimo del d20 per tutte le prove di caratteristica"
+    },
+    "flags.midi-qol.min.ability.check.cha": {
+      "name": "Prova caratteristica minima (Carisma)",
+      "description": "Valore minimo del d20 per le prove di Carisma"
+    },
+    "flags.midi-qol.min.ability.check.con": {
+      "name": "Prova caratteristica minima (Costituzione)",
+      "description": "Valore minimo del d20 per le prove di Costituzione"
+    },
+    "flags.midi-qol.min.ability.check.dex": {
+      "name": "Prova caratteristica minima (Destrezza)",
+      "description": "Valore minimo del d20 per le prove di Destrezza"
+    },
+    "flags.midi-qol.min.ability.check.int": {
+      "name": "Prova caratteristica minima (Intelligenza)",
+      "description": "Valore minimo del d20 per le prove di Intelligenza"
+    },
+    "flags.midi-qol.min.ability.check.str": {
+      "name": "Prova caratteristica minima (Forza)",
+      "description": "Valore minimo del d20 per le prove di Forza"
+    },
+    "flags.midi-qol.min.ability.check.wis": {
+      "name": "Prova caratteristica minima (Saggezza)",
+      "description": "Valore minimo del d20 per le prove di Saggezza"
+    },
+    "flags.midi-qol.min.ability.save.all": {
+      "name": "TS minimo (Tutti)",
+      "description": "Valore minimo del d20 per tutti i tiri salvezza"
+    },
+    "flags.midi-qol.min.ability.save.cha": {
+      "name": "TS minimo (Carisma)",
+      "description": "Valore minimo del d20 per i tiri salvezza su Carisma"
+    },
+    "flags.midi-qol.min.ability.save.con": {
+      "name": "TS minimo (Costituzione)",
+      "description": "Valore minimo del d20 per i tiri salvezza su Costituzione"
+    },
+    "flags.midi-qol.min.ability.save.concentration": {
+      "name": "TS minimo (Concentrazione)",
+      "description": "Valore minimo del d20 per i tiri salvezza per mantenere la concentrazione"
+    },
+    "flags.midi-qol.min.ability.save.dex": {
+      "name": "TS minimo (Destrezza)",
+      "description": "Valore minimo del d20 per i tiri salvezza su Destrezza"
+    },
+    "flags.midi-qol.min.ability.save.int": {
+      "name": "TS minimo (Intelligenza)",
+      "description": "Valore minimo del d20 per i tiri salvezza su Intelligenza."
+    },
+    "flags.midi-qol.min.ability.save.str": {
+      "name": "TS minimo (Forza)",
+      "description": "Valore minimo del d20 per i tiri salvezza su Forza."
+    },
+    "flags.midi-qol.min.ability.save.wis": {
+      "name": "TS minimo (Saggezza)",
+      "description": "Valore minimo del d20 per i tiri salvezza su Saggezza."
+    },
+    "flags.midi-qol.min.damage.all": {
+      "name": "Danno minimo (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.min.damage.heal": {
+      "name": "Danno minimo (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.min.damage.msak": {
+      "name": "Danno minimo (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.min.damage.mwak": {
+      "name": "Danno minimo (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.min.damage.other": {
+      "name": "Danno minimo (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.min.damage.rsak": {
+      "name": "Danno minimo (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.min.damage.rwak": {
+      "name": "Danno minimo (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.min.damage.save": {
+      "name": "Danno minimo (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.min.damage.util": {
+      "name": "Danno minimo (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.neverTarget": {
+      "name": "Mai prendere di mira",
+      "description": ""
+    },
+    "flags.midi-qol.noCritical.all": {
+      "name": "Nessun critico (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.noCritical.heal": {
+      "name": "Nessun critico (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.noCritical.msak": {
+      "name": "Nessun critico (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.noCritical.mwak": {
+      "name": "Nessun critico (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.noCritical.other": {
+      "name": "Nessun critico (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.noCritical.rsak": {
+      "name": "Nessun critico (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.noCritical.rwak": {
+      "name": "Nessun critico (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.noCritical.save": {
+      "name": "Nessun critico (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.noCritical.util": {
+      "name": "Nessun critico (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.onUseMacroName": { "name": "", "description": "" },
+    "flags.midi-qol.optional.NAME.macroToCall": {
+      "name": "",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.ac": {
+      "name": "CA opzionale",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.activation": {
+      "name": "Attivazione opzionale",
+      "description": "Condizione di attivazione per ottenere un bonus opzionale."
+    },
+    "flags.midi-qol.optional.NAME.attack.all": {
+      "name": "Bonus opzionale all'attacco (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.all": {
+      "name": "Attacco opzionale Fallito (Tutti)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.heal": {
+      "name": "Attacco opzionale Fallito (Cura)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.msak": {
+      "name": "Attacco opzionale Fallito (Mischia con incantesimo)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.mwak": {
+      "name": "Attacco opzionale Fallito (Mischia con arma)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.other": {
+      "name": "Attacco opzionale Fallito (Altro)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.rsak": {
+      "name": "Attacco opzionale Fallito (Distanza con incantesimo)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.rwak": {
+      "name": "Attacco opzionale Fallito (Distanza con arma)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.save": {
+      "name": "Attacco opzionale Fallito (Tiro salvezza)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.attack.fail.util": {
+      "name": "Attacco opzionale Fallito (Utilità)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.attack.heal": {
+      "name": "Bonus opzionale all'attacco (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.attack.msak": {
+      "name": "Bonus opzionale all'attacco (Mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.attack.mwak": {
+      "name": "Bonus opzionale all'attacco (Mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.attack.other": {
+      "name": "Bonus opzionale all'attacco (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.attack.rsak": {
+      "name": "Bonus opzionale all'attacco (Distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.attack.rwak": {
+      "name": "Bonus opzionale all'attacco (Distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.attack.save": {
+      "name": "Bonus opzionale all'attacco (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.attack.util": {
+      "name": "Bonus opzionale all'attacco (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.check.all": {
+      "name": "Bonus opzionale alla prova (Tutte)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.check.cha": {
+      "name": "Bonus opzionale alla prova (Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.check.con": {
+      "name": "Bonus opzionale alla prova (Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.check.dex": {
+      "name": "Bonus opzionale alla prova (Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.check.fail.all": {
+      "name": "Bonus opzionale alla prova fallita (Tutte)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.check.fail.cha": {
+      "name": "Bonus opzionale alla prova fallita (Carisma)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.check.fail.con": {
+      "name": "Bonus opzionale alla prova fallita (Costituzione)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.check.fail.dex": {
+      "name": "Bonus opzionale alla prova fallita (Destrezza)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.check.fail.int": {
+      "name": "Bonus opzionale alla prova fallita (Intelligenza)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.check.fail.str": {
+      "name": "Bonus opzionale alla prova fallita (Forza)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.check.fail.wis": {
+      "name": "Bonus opzionale alla prova fallita (Saggezza)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.check.int": {
+      "name": "Bonus opzionale alla prova (Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.check.str": {
+      "name": "Bonus opzionale alla prova (Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.check.wis": {
+      "name": "Bonus opzionale alla prova (Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.count": {
+      "name": "Contatore opzionale",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.countAlt": {
+      "name": "Contatore alternativo opzionale",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.criticalDamage": {
+      "name": "Danno critico opzionale",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.damage.all": {
+      "name": "Danno opzionale (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.damage.heal": {
+      "name": "Danno opzionale (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.damage.msak": {
+      "name": "Danno opzionale (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.damage.mwak": {
+      "name": "Danno opzionale (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.damage.other": {
+      "name": "Danno opzionale (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.damage.rsak": {
+      "name": "Danno opzionale (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.damage.rwak": {
+      "name": "Danno opzionale (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.damage.save": {
+      "name": "Danno opzionale (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.damage.util": {
+      "name": "Danno opzionale (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.force": {
+      "name": "Forzatura opzionale",
+      "description": "Condizione per forzare l’attivazione del bonus"
+    },
+    "flags.midi-qol.optional.NAME.label": {
+      "name": "Etichetta opzionale",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.save.all": {
+      "name": "Bonus opzionale ai TS (Tutti)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.save.cha": {
+      "name": "Bonus opzionale ai TS (Carisma)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.save.con": {
+      "name": "Bonus opzionale ai TS (Costituzione)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.save.dex": {
+      "name": "Bonus opzionale ai TS (Destrezza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.save.fail.all": {
+      "name": "Bonus opzionale ai TS falliti (Tutti)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.save.fail.cha": {
+      "name": "Bonus opzionale ai TS falliti (Carisma)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.save.fail.con": {
+      "name": "Bonus opzionale ai TS falliti (Costituzione)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.save.fail.dex": {
+      "name": "Bonus opzionale ai TS falliti (Destrezza)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.save.fail.int": {
+      "name": "Bonus opzionale ai TS falliti (Intelligenza)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.save.fail.str": {
+      "name": "Bonus opzionale ai TS falliti (Forza)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.save.fail.wis": {
+      "name": "Bonus opzionale ai TS falliti (Saggezza)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.save.int": {
+      "name": "Bonus opzionale ai TS (Intelligenza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.save.str": {
+      "name": "Bonus opzionale ai TS (Forza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.save.wis": {
+      "name": "Bonus opzionale ai TS (Saggezza)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.acr": {
+      "name": "Bonus opzionale a Abilità (Acrobazia)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.all": {
+      "name": "Bonus opzionale a Abilità (Tutte)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.ani": {
+      "name": "Bonus opzionale a Abilità (Addestrare animali)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.arc": {
+      "name": "Bonus opzionale a Abilità (Arcano)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.ath": {
+      "name": "Bonus opzionale a Abilità (Atletica)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.fail.all": {
+      "name": "Bonus opzionale a Abilità fallite (Tutte)",
+      "description": "Solo in caso di fallimento"
+    },
+    "flags.midi-qol.optional.NAME.skill.his": {
+      "name": "Bonus opzionale a Abilità (Storia)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.ins": {
+      "name": "Bonus opzionale a Abilità (Intuizione)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.inv": {
+      "name": "Bonus opzionale a Abilità (Indagare)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.itm": {
+      "name": "Bonus opzionale a Abilità (Intimidazione)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.med": {
+      "name": "Bonus opzionale a Abilità (Medicina)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.nat": {
+      "name": "Bonus opzionale a Abilità (Natura)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.per": {
+      "name": "Bonus opzionale a Abilità (Persuasione)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.prc": {
+      "name": "Bonus opzionale a Abilità (Percezione)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.prf": {
+      "name": "Bonus opzionale a Abilità (Intrattenere)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.rel": {
+      "name": "Bonus opzionale a Abilità (Religione)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.slt": {
+      "name": "Bonus opzionale a Abilità (Rapidità di mano)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.ste": {
+      "name": "Bonus opzionale a Abilità (Furtività)",
+      "description": ""
+    },
+    "flags.midi-qol.optional.NAME.skill.sur": {
+      "name": "Bonus opzionale a Abilità (Sopravvivenza)",
+      "description": ""
+    },
+    "flags.midi-qol.potentCantrip": {
+      "name": "Trucchetto Potente",
+      "description": ""
+    },
+    "flags.midi-qol.range.all": {
+      "name": "Distanza (Tutto)",
+      "description": ""
+    },
+    "flags.midi-qol.range.heal": {
+      "name": "Distanza (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.range.msak": {
+      "name": "Distanza (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.range.mwak": {
+      "name": "Distanza (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.range.other": {
+      "name": "Distanza (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.range.rsak": {
+      "name": "Distanza (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.range.rwak": {
+      "name": "Distanza (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.range.save": {
+      "name": "Distanza (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.range.util": {
+      "name": "Distanza (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.rangeOverride.attack.all": {
+      "name": "Sovrascrivi gittata (Tutti gli attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.rangeOverride.attack.heal": {
+      "name": "Sovrascrivi gittata (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.rangeOverride.attack.msak": {
+      "name": "Sovrascrivi gittata (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.rangeOverride.attack.mwak": {
+      "name": "Sovrascrivi gittata (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.rangeOverride.attack.other": {
+      "name": "Sovrascrivi gittata (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.rangeOverride.attack.rsak": {
+      "name": "Sovrascrivi gittata (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.rangeOverride.attack.rwak": {
+      "name": "Sovrascrivi gittata (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.rangeOverride.attack.save": {
+      "name": "Sovrascrivi gittata (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.rangeOverride.attack.util": {
+      "name": "Sovrascrivi gittata (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.sculptSpells": {
+      "name": "Modellazione incantesimi",
+      "description": "I bersagli selezionati superano automaticamente il tiro salvezza e ottengono lo stato \"super-saver\"."
+    },
+    "flags.midi-qol.semiSuperSaver.all": {
+      "name": "Semi super-saver (Tutti)",
+      "description": "Nessun danno dai tiri salvezza se riusciti."
+    },
+    "flags.midi-qol.semiSuperSaver.cha": {
+      "name": "Semi super-saver (Carisma)",
+      "description": "Nessun danno dai tiri salvezza se riusciti."
+    },
+    "flags.midi-qol.semiSuperSaver.con": {
+      "name": "Semi super-saver (Costituzione)",
+      "description": "Nessun danno dai tiri salvezza se riusciti."
+    },
+    "flags.midi-qol.semiSuperSaver.dex": {
+      "name": "Semi super-saver (Destrezza)",
+      "description": "Nessun danno dai tiri salvezza se riusciti."
+    },
+    "flags.midi-qol.semiSuperSaver.int": {
+      "name": "Semi super-saver (Intelligenza)",
+      "description": "Nessun danno dai tiri salvezza se riusciti."
+    },
+    "flags.midi-qol.semiSuperSaver.str": {
+      "name": "Semi super-saver (Forza)",
+      "description": "Nessun danno dai tiri salvezza se riusciti."
+    },
+    "flags.midi-qol.semiSuperSaver.wis": {
+      "name": "Semi super-saver (Saggezza)",
+      "description": "Nessun danno dai tiri salvezza se riusciti."
+    },
+    "flags.midi-qol.sharpShooter": {
+      "name": "Tiratore scelto",
+      "description": ""
+    },
+    "flags.midi-qol.success.attack.all": {
+      "name": "Successo (Tutti gli attacchi)",
+      "description": ""
+    },
+    "flags.midi-qol.success.attack.heal": {
+      "name": "Successo (Cura)",
+      "description": ""
+    },
+    "flags.midi-qol.success.attack.msak": {
+      "name": "Successo (Attacco in mischia con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.success.attack.mwak": {
+      "name": "Successo (Attacco in mischia con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.success.attack.other": {
+      "name": "Successo (Altro)",
+      "description": ""
+    },
+    "flags.midi-qol.success.attack.rsak": {
+      "name": "Successo (Attacco a distanza con incantesimo)",
+      "description": ""
+    },
+    "flags.midi-qol.success.attack.rwak": {
+      "name": "Successo (Attacco a distanza con arma)",
+      "description": ""
+    },
+    "flags.midi-qol.success.attack.save": {
+      "name": "Successo (Tiro salvezza)",
+      "description": ""
+    },
+    "flags.midi-qol.success.attack.util": {
+      "name": "Successo (Utilità)",
+      "description": ""
+    },
+    "flags.midi-qol.superSaver.all": {
+      "name": "Super-saver (Tutti)",
+      "description": "Nessun danno dai TS se riusciti, metà danno se falliti."
+    },
+    "flags.midi-qol.superSaver.cha": {
+      "name": "Super-saver (Carisma)",
+      "description": "Nessun danno dai TS se riusciti, metà danno se falliti."
+    },
+    "flags.midi-qol.superSaver.con": {
+      "name": "Super-saver (Costituzione)",
+      "description": "Nessun danno dai TS se riusciti, metà danno se falliti."
+    },
+    "flags.midi-qol.superSaver.dex": {
+      "name": "Super-saver (Destrezza)",
+      "description": "Nessun danno dai TS se riusciti, metà danno se falliti."
+    },
+    "flags.midi-qol.superSaver.int": {
+      "name": "Super-saver (Intelligenza)",
+      "description": "Nessun danno dai TS se riusciti, metà danno se falliti."
+    },
+    "flags.midi-qol.superSaver.str": {
+      "name": "Super-saver (Forza)",
+      "description": "Nessun danno dai TS se riusciti, metà danno se falliti."
+    },
+    "flags.midi-qol.superSaver.wis": {
+      "name": "Super-saver (Saggezza)",
+      "description": "Nessun danno dai TS se riusciti, metà danno se falliti."
+    },
+    "flags.midi-qol.uncanny-dodge": {
+      "name": "Schivata prodigiosa",
+      "description": ""
+    }
+  }
+}

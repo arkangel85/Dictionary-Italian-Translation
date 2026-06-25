@@ -1,0 +1,84 @@
+{
+  "OpenLock.Settings": {
+    "ThievesTool": "Strumenti da ladro",
+    "ThievesToolTitle": "Strumenti da ladro:",
+    "ThievesToolHint": "Nome dell’oggetto che rappresenta gli Strumenti da ladro",
+    "removeLock": "Rimuovere la serratura",
+    "removeLockHint": "Se attivo, la serratura verrà rimossa dal forziere una volta aperto.",
+    "perceptionDistance": "Distanza massima di Percezione",
+    "perceptionDistanceHint": "Distanza massima per i tiri di Percezione (in caselle della griglia)",
+    "interactDistance": "Distanza massima di interazione",
+    "interactDistanceHint": "Distanza massima per interagire con le serrature (in caselle della griglia)",
+    "repeatCheck": "Ripetizione del controllo",
+    "repeatCheckHint": "Se attivo, i giocatori potranno ripetere i controlli per rilevare il bottino"
+  },
+
+  "OpenLock.Btn": {
+    "BreakLock": "Forzare",
+    "PickLock": "Scassinare",
+    "DontTouch": "Non toccare",
+    "OpenChest": "Aprire",
+    "DisarmTrap": "Disinnescare trappola"
+  },
+
+  "OpenLock.MsgDialog": {
+    "TrapAlert": "Attenzione! È stata rilevata una trappola!",
+    "HaveKey": "Hai la chiave per questo forziere",
+    "HasLock": "Il forziere è chiuso a chiave",
+    "Title": "Apri il forziere",
+    "TitleCheck": "Controlla la trappola",
+    "Content": "Il forziere è chiuso a chiave, come vuoi aprirlo?",
+    "ContentCheck": "Cosa desideri fare con il forziere?",
+    "ConsumableLock": "Chiudi a chiave",
+    "TrapDisarm": "Trappola disinnescata!"
+  },
+
+  "OpenLock.MsgChat": {
+    "Used": "Usato:",
+    "Loot": "Aperto:",
+    "SearchTitle": "Controlla il bottino",
+    "TitleDisarm": "Disinnescare la trappola",
+    "TrapDisarm": "Trappola disinnescata:",
+    "OpenTitle": "Aprire il forziere",
+    "NotLock": "Questo oggetto non ha un meccanismo di chiusura",
+    "hasLock": "Chiuso a chiave:",
+    "Yes": "Sì",
+    "No": "No",
+    "Dontfound": "Non trovato",
+    "haveKey": "Chiave disponibile:",
+    "haveTrap": "Trappole:",
+    "StranghtOpen": "Serratura forzata:",
+    "TrapOnOpen": "La trappola è scattata!",
+    "ToolOpen": "Serratura scassinata:",
+    "BreakTools": "Gli strumenti da ladro si sono rotti!",
+    "NeedKey": "Richiesta chiave:",
+    "HavePermission": "{token} ha i permessi",
+    "Door": "Porta:"
+  },
+
+  "OpenLock.ItemLabel": {
+    "disarmTrapDC": "CD Disinnesco",
+    "passiveDC": "CD Rilevamento passivo",
+    "findTrapDC": "CD Rilevamento trappola",
+    "Perception": "Percezione",
+    "Investigation": "Indagare",
+    "forceLockDC": "CD Forzatura serratura",
+    "openLockDC": "CD Scasso serratura",
+    "toolsBreak": "Soglia rottura strumenti",
+    "resetTrap": "Ripristina trappola",
+    "keylock": "Nome della chiave",
+    "sheetEnabled": "Attiva serratura/trappola",
+    "OpenTitle": "Apre forzieri",
+    "wallCoord": "Coordinate del muro",
+    "tabOpenLock": "Imposta serratura"
+  },
+
+  "OpenLock.Errors": {
+    "noSelect": "Seleziona un token",
+    "noToken": "Nessun token selezionato come bersaglio",
+    "novalidLoot": "bottino non valido",
+    "invalidDistance": "Distanza massima di interazione: {dist} caselle",
+    "invalidCheck": "{token} non può rilevare il bottino più di una volta (mostrato l’ultimo controllo)",
+    "notHaveTools": "Non possiedi {tools}"
+  }
+}

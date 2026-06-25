@@ -1,0 +1,22 @@
+{
+  "enhancedcombathud": {
+    "settings": {
+      "color-reaction": {
+        "hint": "Colore della scheda delle reazioni",
+        "text": "Colore delle reazioni"
+      },
+      "color-tooltip": {
+        "hint": "Colore dei suggerimenti per tiri salvezza/abilità/strumenti"
+      },
+      "rangefinder": {
+        "hint": "Abilita il Cercatore di Gittata per la Canvas 3D quando si passa il mouse sugli oggetti nell'HUD. 'Solo distanza' mostra la distanza dal bersaglio. La distanza è rossa se il bersaglio è fuori portata. La 'Modalità di gioco' mostra la probabilità di colpire il bersaglio (per attacchi e tiri salvezza)."
+      },
+      "showTooltipsSpecial": {
+        "hint": "Mostra i suggerimenti al passaggio del mouse sulle azioni speciali (Schivare, Ritirata, ecc.)"
+      }
+    },
+    "themeOptions": {
+      "reaction": "Colore delle reazioni"
+    }
+  }
+}

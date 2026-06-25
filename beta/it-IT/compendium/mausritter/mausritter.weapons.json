@@ -1,0 +1,123 @@
+{
+  "label": "Armi",
+  "mapping": {
+    "description": "system.description",
+    "tag": "system.tag"
+  },
+  "entries": {
+    "Axe": {
+      "name": "Ascia",
+      "description": "",
+      "tag": "Media"
+    },
+    "Bow": {
+      "name": "Arco",
+      "description": "",
+      "tag": "Pesante a distanza"
+    },
+    "Cleaver": {
+      "name": "Mannaia",
+      "description": "",
+      "tag": "Leggera"
+    },
+    "Dagger": {
+      "name": "Pugnale",
+      "description": "",
+      "tag": "Leggera"
+    },
+    "Hammer": {
+      "name": "Martello",
+      "description": "",
+      "tag": "Media"
+    },
+    "Hookarm": {
+      "name": "Braccio ad uncino",
+      "description": "",
+      "tag": "Pesante"
+    },
+    "Improvised": {
+      "name": "Improvvisata",
+      "description": "",
+      "tag": "Improvvisata"
+    },
+    "Mace": {
+      "name": "Mazza",
+      "description": "",
+      "tag": "Media"
+    },
+    "Needle": {
+      "name": "Ago",
+      "description": "",
+      "tag": "Leggera"
+    },
+    "Pick": {
+      "name": "Piccone",
+      "description": "",
+      "tag": "Media"
+    },
+    "Sling": {
+      "name": "Fionda",
+      "description": "",
+      "tag": "Leggera a distanza"
+    },
+    "Spear": {
+      "name": "Lancia",
+      "description": "",
+      "tag": "Pesante"
+    },
+    "Sword": {
+      "name": "Spada",
+      "description": "",
+      "tag": "Media"
+    },
+    "Warhammer": {
+      "name": "Martello da guerra",
+      "description": "",
+      "tag": "Pesante"
+    },
+    "Natural Armor": {
+      "name": "Armatura naturale"
+    },
+    "Warband Scale": {
+      "name": "Scala gruppo da guerra",
+      "description": "Gli attacchi di gruppi contro creature <strong>più piccole per scala</strong> sono <strong>potenziati</strong>. I gruppi <strong>ignorano</strong> il danno subito da tali creature, a meno che non infliggano effetti particolarmente distruttivi."
+    },
+    "Bite": {
+      "name": "Morso"
+    },
+    "Swipe": {
+      "name": "Sventagliata"
+    },
+    "Venomous Bite": {
+      "name": "Morso velenoso",
+      "description": "Infligge danno alla destrezza, non alla forza.\n<strong>Danno critico:</strong> il suo veleno ha effetto, infliggendo [[/r d12]] alla forza."
+    },
+    "Snake Bite": {
+      "name": "Morso di serpente",
+      "description": "<strong>Danno critico:</strong> inghiotte la vittima intera infliggendo [[/r d4]] alla forza ogni round, finché non viene salvata o scappa."
+    },
+    "Poison Bite": {
+      "name": "Morso tossico",
+      "description": "<strong>Danno critico:</strong> avvolge la vittima nella ragnatela.",
+      "tag": "Riduce destrezza"
+    },
+    "Peck": {
+      "name": "Beccata"
+    },
+    "Silver Rapier": {
+      "name": "Spada argentata",
+      "tag": "Leggera"
+    },
+    "Frog Spear": {
+      "name": "Lancia di rana",
+      "tag": "Pesante"
+    },
+    "Frog Tongue": {
+      "name": "Lingua di rana"
+    },
+    "Chilling Touch": {
+      "name": "Tocco agghiacciante",
+      "tag": "Danno alla volontà"
+    }
+  }
+}

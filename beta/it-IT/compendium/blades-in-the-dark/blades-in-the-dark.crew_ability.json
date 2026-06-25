@@ -1,0 +1,204 @@
+{
+  "label": "Talenti di Squadra",
+  "mapping": {
+    "description": "system.description",
+    "class": {
+      "path": "system.class",
+      "converter": "convertClass"
+    }
+  },
+  "entries": {
+    "(A) Crow's Veil": {
+      "name": "(A) Velo del Corvo",
+      "description": "Gli omicidi durante un colpo non aumentano ulteriormente il <strong>sospetto</strong>."
+    },
+    "(A) Deadly": {
+      "name": "(A) Letali",
+      "description": "Ogni personaggio della squadra può aggiungere +1 al proprio livello di <strong>mischia</strong>, <strong>caccia</strong> o <strong>infiltrazione</strong>."
+    },
+    "(A) Emberdeath": {
+      "name": "(A) Morte Ardente",
+      "description": "Spendendo 3 <strong>punti stress</strong>, puoi incanalare energia elettroplasmatica dal campo spettrale per distruggere corpo e spirito."
+    },
+    "(A) No Traces": {
+      "name": "(A) Nessuna Traccia",
+      "description": "Quando agite furtivamente o simulate un incidente, ottenete metà del <strong>valore reputazionale</strong> della vittima. Se alla fine del riposo il <strong>sospetto</strong> è 0, guadagnate 1 punto reputazione."
+    },
+    "(A) Patron": {
+      "name": "(A) Patrono",
+      "description": "Quando aumentate il vostro <strong>rango</strong>, pagate <strong>la metà</strong> del costo in monete."
+    },
+    "(A) Predators": {
+      "name": "(A) Predatori",
+      "description": "Usando i piani \"furtività\" o \"inganno\" per uccidere, tirate <strong>+d6</strong> durante la <strong>prova di ingaggio</strong>."
+    },
+    "(A) Veteran": {
+      "name": "(A) Talento Speciale",
+      "description": "Scegliete un talento da un'altra fonte."
+    },
+    "(A) Vipers": {
+      "name": "(A) Vipere",
+      "description": "Acquisendo o creando veleni, ottenete <strong>+1 all'efficacia</strong> del tiro. Siete immuni agli effetti dei vostri veleni."
+    },
+    "(Br) Blood Brothers": {
+      "name": "(B) Fratelli di Sangue",
+      "description": "Quando combattete insieme ai vostri sottoposti, essi tirano <strong>+d6</strong> nelle azioni di squadra. Tutti i sottoposti ottengono gratuitamente il tipo \"<strong>picchiatori</strong>\" (aggiungetelo se già lo hanno)."
+    },
+    "(Br) Dangerous": {
+      "name": "(B) Pericolosi",
+      "description": "Ogni personaggio della squadra può aggiungere +1 al proprio livello di <strong>mischia</strong>, <strong>caccia</strong> o <strong>distruzione</strong> (fino a un massimo di 3)."
+    },
+    "(Br) Door Kickers": {
+      "name": "(B) Spaccaporte",
+      "description": "Usando il piano \"assalto\", tirate <strong>+d6</strong> nella <strong>prova di ingaggio</strong>."
+    },
+    "(Br) Fiends": {
+      "name": "(B) Demoni",
+      "description": "Ogni vostro <strong>livello di ricercato</strong> conta come <strong>territorio</strong>."
+    },
+    "(Br) Forged In The Fire": {
+      "name": "(B) Forgiati nel Fuoco",
+      "description": "Tirate <strong>+d6</strong> nei <strong>tiri di resistenza</strong>."
+    },
+    "(Br) Patron": {
+      "name": "(B) Patrono",
+      "description": "Quando aumentate il vostro <strong>rango</strong>, pagate <strong>la metà</strong> del costo in monete."
+    },
+    "(Br) Veteran": {
+      "name": "(B) Talento Speciale",
+      "description": "Scegliete un talento da un'altra fonte."
+    },
+    "(Br) War Dogs": {
+      "name": "(B) Cani da Guerra",
+      "description": "Durante una guerra con un'altra organizzazione (relazioni –3), non perdete controllo e i personaggi ottengono comunque 2 azioni nel riposo."
+    },
+    "(C) Anointed": {
+      "name": "(C) Unzione Divina",
+      "description": "Tirate <strong>+d6</strong> nei <strong>tiri di resistenza</strong> contro pericoli soprannaturali e nei tiri di <strong>guarigione</strong> per danni mistici."
+    },
+    "(C) Bound in Darkness": {
+      "name": "(C) Legati nell'Oscurità",
+      "description": "Potete usare <strong>azioni di squadra</strong> con qualsiasi membro del culto, a prescindere dalla distanza. Per 1 stress potete sussurrare un messaggio udibile da tutti i membri."
+    },
+    "(C) Chosen": {
+      "name": "(C) Prescelti",
+      "description": "Ogni personaggio può aggiungere +1 a <strong>studio</strong>, <strong>manipolazione</strong> o <strong>risonanza</strong> (fino al massimo di 3)."
+    },
+    "(C) Conviction": {
+      "name": "(C) Devozione",
+      "description": "Passione extra: culto. Nessuna ossessione per i sacrifici. La divinità può <strong>intervenire</strong>."
+    },
+    "(C) Glory Incarnate": {
+      "name": "(C) Gloria Incarnata",
+      "description": "La vostra divinità si manifesta talvolta nel mondo dei mortali."
+    },
+    "(C) Sealed in Blood": {
+      "name": "(C) Sigillo di Sangue",
+      "description": "Ogni sacrificio umano riduce il costo di un rituale di <strong>3 stress</strong>."
+    },
+    "(C) Veteran": {
+      "name": "(C) Talento Speciale",
+      "description": "Scegliete un talento da un'altra fonte."
+    },
+    "(C) Zealotry": {
+      "name": "(C) Fanatismo",
+      "description": "I sottoposti tirano <strong>+d6</strong> contro nemici della fede."
+    },
+    "(H) Accord": {
+      "name": "(H) Accordi",
+      "description": ""
+    },
+    "(H) Ghost Market": {
+      "name": "(H) Mercato Fantasma",
+      "description": "Fino a tre vostri alleati <strong>(relazioni +3)</strong> contano come <strong>territori</strong>."
+    },
+    "(H) High Society": {
+      "name": "(H) Alta Società",
+      "description": "Durante il riposo, riducete il <strong>sospetto</strong> di 1. In <strong>raccolta informazioni</strong> sull'élite, tirate <strong>+d6</strong>."
+    },
+    "(H) Hooked": {
+      "name": "(H) Dipendenza",
+      "description": "I vostri sottoposti usano la vostra merce. Aggiungono un difetto (<em>facoltativo</em>, <em>indisciplinato</em> o <em>feroce</em>), ma ottengono <strong>+1 qualità</strong> (fino a 4)."
+    },
+    "(H) Patron": {
+      "name": "(H) Patrono",
+      "description": "Quando aumentate il vostro <strong>rango</strong>, pagate <strong>la metà</strong> del costo in monete."
+    },
+    "(H) Silver Tongues": {
+      "name": "(H) Lingue d'Argento",
+      "description": "Ogni personaggio può aggiungere +1 a <strong>manipolazione</strong>, <strong>comunicazione</strong> o <strong>comando</strong>."
+    },
+    "(H) The Good Stuff": {
+      "name": "(H) Roba Buona",
+      "description": "Qualità della merce = <strong>rango +2</strong>. Il GM vi dirà chi è dipendente dal vostro prodotto nelle altre fazioni."
+    },
+    "(H) Veteran": {
+      "name": "(H) Talento Speciale",
+      "description": "Scegliete un talento da un'altra fonte."
+    },
+    "(Sh) Everyone Steals": {
+      "name": "(T) Tutti Rubano",
+      "description": "Ogni personaggio può aggiungere +1 a <strong>infiltrazione</strong>, <strong>artigianato</strong> o <strong>destrezza</strong> (fino a 3)."
+    },
+    "(Sh) Ghost Echoes": {
+      "name": "(T) Echi Spettrali",
+      "description": "Tutti i membri possono vedere e interagire con strutture e oggetti spettrali nel campo etereo."
+    },
+    "(Sh) Pack Rats": {
+      "name": "(T) Accumulatori",
+      "description": "Quando <strong>acquisite risorse</strong>, tirate <strong>+d6</strong>."
+    },
+    "(Sh) Patron": {
+      "name": "(T) Patrono",
+      "description": "Quando aumentate il vostro <strong>rango</strong>, pagate <strong>la metà</strong> del costo in monete."
+    },
+    "(Sh) Second Story": {
+      "name": "(T) Seconda Entrata",
+      "description": "Quando infiltrate, tirate <strong>+d6</strong> nella <strong>prova di ingaggio</strong>."
+    },
+    "(Sh) Slippery": {
+      "name": "(T) Sfuggenti",
+      "description": "Quando tirate per le <strong>complicazioni</strong> del riposo, lanciate due volte e scegliete. Per <strong>deviare sospetti</strong>, tirate <strong>+d6</strong>."
+    },
+    "(Sh) Synchronized": {
+      "name": "(T) Sincronizzati",
+      "description": "Nelle azioni di squadra, se più personaggi ottengono <strong>6</strong>, contatelo come <strong>successo impressionante</strong>."
+    },
+    "(Sh) Veteran": {
+      "name": "(T) Talento Speciale",
+      "description": "Scegliete un talento da un'altra fonte."
+    },
+    "(Sm) All Hands": {
+      "name": "(M) Tutti all’Opera",
+      "description": "Durante il <strong>riposo</strong>, un <strong>sottoposto</strong> può eseguire un'azione per <strong>acquisire risorse</strong>, <strong>deviare sospetti</strong> o <strong>lavorare a un progetto a lungo termine</strong>."
+    },
+    "(Sm) Ghost Passage": {
+      "name": "(M) Passaggio Spettrale",
+      "description": "La squadra è immune alla possessione. Potete trasportare uno spettro all'interno di voi."
+    },
+    "(Sm) Just Passing Through": {
+      "name": "(M) Solo di Passaggio",
+      "description": "Durante il <strong>riposo</strong>, riducete il <strong>sospetto</strong> di 1. Se è 4 o meno, tirate +d6 quando cercate di passare per cittadini comuni."
+    },
+    "(Sm) Leverage": {
+      "name": "(M) Influenza",
+      "description": "Quando ottenete reputazione, ne guadagnate 1 in più."
+    },
+    "(Sm) Like Part of the Family": {
+      "name": "(M) Parte della Famiglia",
+      "description": "Create un veicolo come se fosse un <strong>sottoposto</strong>. La qualità per <strong>azioni di squadra</strong> = rango +1."
+    },
+    "(Sm) Reavers": {
+      "name": "(M) Predoni",
+      "description": "<strong>+1 all’efficacia</strong> nei conflitti in veicolo (velocità e danno). Il veicolo ha <strong>armatura</strong>."
+    },
+    "(Sm) Renegades": {
+      "name": "(M) Rinnegati",
+      "description": "Ogni personaggio può aggiungere +1 a <strong>mischia</strong>, <strong>infiltrazione</strong> o <strong>destrezza</strong> (fino a 3)."
+    },
+    "(Sm) Veteran": {
+      "name": "(M) Talento Speciale",
+      "description": "Scegliete un talento da un'altra fonte."
+    }
+  }
+}

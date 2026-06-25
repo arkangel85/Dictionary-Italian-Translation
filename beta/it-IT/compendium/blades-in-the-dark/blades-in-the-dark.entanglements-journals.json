@@ -1,0 +1,113 @@
+{
+  "label": "Registro delle Disgrazie",
+  "entries": {
+    "Arrest": {
+      "name": "Arresto",
+      "pages": {
+        "Arrest": {
+          "name": "Arresto",
+          "text": "<p>L'ispettore ha consegnato i risultati dell'indagine al giudice e le Guardie Blu hanno ricevuto un mandato per il vostro arresto. Mandano contro di voi una squadra d'assalto (una banda almeno pari al vostro <strong>livello di ricercato</strong>). Potete pagarli spendendo un numero di <strong>monete</strong> pari al vostro <strong>livello di ricercato +3</strong>, lasciare che arrestino qualcuno (questo azzera il <strong>sospetto</strong>), oppure tentare di evitare la cattura.</p>\n<p><em>Si sente bussare con un manganello alla finestra. «Avanti, tutti in piedi e fuori! Niente resistenza!» Dal tono, sembra il sergente Clellan. Guardando fuori, vedete un distaccamento di guardie di una ventina di uomini pronti a combattere. Clellan borbotta abbastanza piano che solo voi potete sentirlo: «O forse ho sbagliato indirizzo?» Si schiarisce la voce e aspetta che gli venga offerto del denaro.</em></p>"
+        }
+      }
+    },
+    "Cooperation": {
+      "name": "Collaborazione",
+      "pages": {
+        "Cooperation": {
+          "name": "Collaborazione",
+          "text": "<p>Un'organizzazione con cui avete rapporti amichevoli (+3) chiede un favore. Potete accettare di aiutarli, oppure perdere <strong>1 punto reputazione</strong> per ogni rango dell'organizzazione, o ancora perdere <strong>1 livello di relazione</strong> con loro. Se non avete organizzazioni alleate, questa volta vi va bene e non succede nulla.</p>"
+        }
+      }
+    },
+    "Demonic Notice": {
+      "name": "Offerta demoniaca",
+      "pages": {
+        "Demonic Notice": {
+          "name": "Offerta demoniaca",
+          "text": "<p>Un demone propone alla vostra banda un patto oscuro. Potete firmare il contratto; nascondervi finché non perde interesse (perdendo <strong>3 punti reputazione</strong>), oppure affrontarlo con altri mezzi.</p>"
+        }
+      }
+    },
+    "Flipped": {
+      "name": "Voltagabbana",
+      "pages": {
+        "Flipped": {
+          "name": "Voltagabbana",
+          "text": "<p>Uno dei vostri nemici convince qualcuno dei vostri contatti, alleati o clienti a passare dalla sua parte, sfruttando i <strong>sospetti</strong> che ricadono su di voi. Da ora in poi, quella persona è leale a un'altra organizzazione.</p>\n<p><em>Sentite dire che Laroz ora lavora per i Macellai. Qualcuno l'ha visto parlare con Galka... sicuramente è stata lei a organizzare tutto! Rimuovete Laroz dai vostri contatti finché non sistemate la situazione.</em></p>"
+        }
+      }
+    },
+    "Gang Trouble": {
+      "name": "Guai con la banda",
+      "pages": {
+        "Gang Trouble": {
+          "name": "Guai con la banda",
+          "text": "<p>Una delle vostre bande (o un altro aiutante) causa problemi legati ai suoi difetti. Potete perdere la faccia (un numero di <strong>punti reputazione</strong> pari al vostro rango +1), punire pubblicamente un membro della banda, oppure prepararvi a eventuali ritorsioni da parte delle vittime.</p>\n<p><em>Dopo un raid riuscito contro il covo dei Cappucci Rossi, finito in una carneficina, la vostra banda più feroce ha perso ogni freno. Attaccano ogni iruviano che passa per l'Incrocio del Corvo, finché non mutilano gravemente un cittadino. La voce si sparge ovunque. È così che gli Ematologi «controllano» i loro scagnozzi? Arcy decide di dare l’esempio e punisce uno dei colpevoli davanti a tutti: lo sbatte contro il bancone della taverna dove è avvenuta la rissa, lasciandogli un orribile sfregio. Il GM stabilisce che questo completa l’orologio “La banda si vendica”, iniziato dopo che Arcy li aveva maltrattati in passato. Mancava una sola casella.</em></p>"
+        }
+      }
+    },
+    "Interrogation": {
+      "name": "Interrogatorio",
+      "pages": {
+        "Interrogation": {
+          "name": "Interrogatorio",
+          "text": "<p>Le Guardie Blu catturano uno dei personaggi e lo interrogano sui crimini del gruppo. Come ti hanno preso? Puoi corromperli (<strong>3 monete</strong>), oppure subire pestaggi (<strong>ferita di Livello 2</strong>) e rivelare tutto (<strong>sospetto +3</strong>). Puoi cercare di mitigare questi effetti con <strong>prove separate</strong> per ciascuno.</p>\n<p><em>Alcuni giocatori odiano vedere il loro personaggio catturato! Ricordateli che è normale nella vita di un criminale. È un’occasione per mostrare il carattere del personaggio. Parlerà? Resisterà? O farà un patto?</em></p>"
+        }
+      }
+    },
+    "Questioning": {
+      "name": "Domande",
+      "pages": {
+        "Questioning": {
+          "name": "Domande",
+          "text": "<p>Le Guardie interrogano un vostro aiutante o contatto sui vostri crimini. Perché hanno scelto proprio lui? Potete corromperli (<strong>2 monete</strong>) oppure tirare una <strong>prova di fortuna</strong> per sapere quanto ha parlato (<strong>1-3: sospetto +2, 4–5: sospetto +1</strong>).</p>\n<p><em>Per valutare quanto sa tenere la bocca chiusa, tirate 2 dadi. Se è un criminale navigato o di ferro volontà — 3 o 4 dadi. Se è debole o onesto — 1 o 0 dadi.</em></p>"
+        }
+      }
+    },
+    "Reprisals": {
+      "name": "Ritorsione",
+      "pages": {
+        "Reprisals": {
+          "name": "Ritorsione",
+          "text": "<p>Un’organizzazione ostile vi prende di mira (o qualcuno a voi vicino). Potete pagare <strong>1 punto reputazione</strong> e <strong>1 moneta</strong> per rango come scuse, lasciare che compiano la loro vendetta, o affrontarli per dimostrare chi comanda.</p>"
+        }
+      }
+    },
+    "Rivals": {
+      "name": "Rivali",
+      "pages": {
+        "Rivals": {
+          "name": "Rivali",
+          "text": "<p>Un’organizzazione neutrale inizia a fare pressioni. Minacciano voi o qualcuno a voi vicino. Dovete scegliere se perdere <strong>1 punto reputazione</strong> o <strong>1 moneta</strong> per rango, oppure contrastarli e peggiorare i rapporti con loro di 1 livello.</p>"
+        }
+      }
+    },
+    "Show of Force": {
+      "name": "Dimostrazione di forza",
+      "pages": {
+        "Show of Force": {
+          "name": "Dimostrazione di forza",
+          "text": "<p>Un’organizzazione con cui avete rapporti negativi (sotto zero) minaccia i vostri domini. Dovete cedere un <strong>bene</strong>, o andare allo scontro (relazione -3). Se non avete beni, perdete <strong>controllo</strong>.</p>"
+        }
+      }
+    },
+    "The Usual Suspects": {
+      "name": "Soliti sospetti",
+      "pages": {
+        "The Usual Suspects": {
+          "name": "Soliti sospetti",
+          "text": "<p>Le Guardie Blu arrestano qualcuno legato alla vostra banda. Un giocatore sceglie un amico o benefattore che può essere stato coinvolto. Potete pagare una tangente (<strong>1 moneta</strong>), oppure fare una <strong>prova di fortuna</strong> per vedere quanto resiste all’interrogatorio (<strong>1-3: sospetto +2, 4–5: ferita di Livello 2</strong>).</p>"
+        }
+      }
+    },
+    "Unquiet Dead": {
+      "name": "Morti inquieti",
+      "pages": {
+        "Unquiet Dead": {
+          "name": "Morti inquieti",
+          "text": "<p>Un fantasma inizia a darvi la caccia — forse una vostra vittima recente? Potete ingaggiare un mistico o un Dorsale per distruggerlo o esorcizzarlo, oppure affrontarlo voi stessi.</p>\n<p><em>Potete ingaggiare un PNG durante il <strong>recupero risorse</strong> nel downtime (vedi pag. 178). La sua qualità determina il tiro di fortuna per capire quanto riesce a fare contro il fantasma.</em></p>"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "label": "CPR Abilità dei Mostri",
+  "folders": {
+    "Mimic": "Mimic",
+    "Hoard Mimic": "Mimic del Tesoro",
+    "Minotaur": "Minotauro",
+    "Hobgoblin Devastator": "Devastatore Hobgoblin",
+    "Dune Mimic": "Mimic delle Dune",
+    "Giant Mimic": "Mimic Gigante",
+    "Shield Guardian": "Guardiano con Scudo",
+    "Hobgoblin Warlord": "Signore della Guerra Hobgoblin",
+    "Elemental": "Elementale",
+    "Earth Elemental Myrmidon": "Mirmidone Elementale della Terra",
+    "Hobgoblin Captain": "Capitano Hobgoblin",
+    "Spitting Mimic": "Mimic Sputatore",
+    "Evoker Wizard": "Mago Evocatore",
+    "Fey": "Creatura Fatata",
+    "Humanoid": "Umanoide",
+    "Monstrosity": "Mostruosità",
+    "Hobgoblin": "Hobgoblin",
+    "Construct": "Costrutto"
+  },
+  "entries": {
+    "Adhesive (Object Form Only)": {
+      "name": "Adesivo (solo in forma di oggetto)"
+    },
+    "Adhesive (Object or Terrain Form Only)": {
+      "name": "Adesivo (solo in forma di oggetto o terreno)"
+    },
+    "Army Arcana": {
+      "name": "Magia Militare"
+    },
+    "Bound": {
+      "name": "Vincolato all'Amuleto"
+    },
+    "Caustic Mist": {
+      "name": "Nebbia Caustica"
+    },
+    "Charge": {
+      "name": "Carica"
+    },
+    "Devastating Bolt": {
+      "name": "Dardo Devastante"
+    },
+    "Gore": {
+      "name": "Colpo di Corna"
+    },
+    "Leadership": {
+      "name": "Leadership"
+    },
+    "Martial Advantage": {
+      "name": "Vantaggio Marziale"
+    },
+    "Parry": {
+      "name": "Parata"
+    },
+    "Pseudopod": {
+      "name": "Pseudopode"
+    },
+    "Pseudopods": {
+      "name": "Pseudopodi"
+    },
+    "Regeneration": {
+      "name": "Rigenerazione"
+    },
+    "Sculpted Explosion": {
+      "name": "Esplosione Modellata"
+    },
+    "Shield": {
+      "name": "Scudo"
+    },
+    "Shield Bash": {
+      "name": "Colpo di Scudo"
+    },
+    "Spell Storing": {
+      "name": "Conservazione di Incantesimi"
+    },
+    "Spit Acid": {
+      "name": "Sputo Acido"
+    },
+    "Thunderous Strike": {
+      "name": "Colpo Tonante"
+    }
+  }
+}

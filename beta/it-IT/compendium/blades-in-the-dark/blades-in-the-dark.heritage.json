@@ -1,0 +1,32 @@
+{
+  "label": "Origine",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Akoros": {
+      "name": "Akoros",
+      "description": "Terra di foreste pietrificate oscure e colline rocciose. La ricchezza delle città costiere si basa sulla caccia ai leviatani e sulle colonie minerarie dell'entroterra. Gli Akorosiani sono talvolta chiamati imperiali, poiché l’Impero ha avuto origine proprio lì. La maggior parte ha la pelle chiara e i capelli scuri. <br /><br />La regione più grande e industrializzata dell’Impero. Qui si trovano la capitale e la Città dell’Oscurità. Un complesso mosaico culturale sviluppatosi nei secoli, simile all’Europa."
+    },
+    "Iruvia": {
+      "name": "Iruvia",
+      "description": "Terra di deserti neri, montagne d’ossidiana e vulcani in eruzione. Si dice che in Iruvia i demoni ricoprano apertamente cariche elevate. Gli abitanti sono per lo più scuri di pelle e capelli. <br /><br />Se vuoi interpretare uno straniero misterioso agli occhi della gente del posto, Iruvia è la scelta giusta: un ricco e potente regno meridionale, in gran parte desertico, con un mix culturale che ricorda l’antica Persia, l’Egitto e l’India."
+    },
+    "Severos": {
+      "name": "Severos",
+      "description": "Terra di pianure spazzate dal vento, coperte di arbusti scuri e vegetazione spinosa. Al di fuori delle città imperiali costiere, alcuni nativi severosiani vivono ancora in tribù nomadi, cavalcando cavalli in grado di cacciare i fantasmi. La maggior parte ha la pelle bruna e i capelli scuri. <br /><br />Se vuoi provenire da una terra selvaggia agli occhi dell’Impero, scegli Severos. Fuori dai pochi insediamenti imperiali, la popolazione autoctona mantiene uno stile di vita da tribù equestri nomadi, sparse sulle terre morte e sopravvissute tra le rovine di antiche fortezze magiche che ancora respingono gli spiriti."
+    },
+    "Skovlan": {
+      "name": "Skovlan",
+      "description": "Terra inospitale di montagne fredde e tundra aspra. Gli Skovlanesi furono gli ultimi a sottomettersi all’Impero. La maggior parte ha la pelle pallida e capelli chiari o rossi. <br /><br />Se vuoi interpretare un membro di un popolo depredato, Skovlan fa per te. Un regno insulare separato da Doskvol da uno stretto canale. Fu annesso per ultimo all’Impero dopo la Guerra dell’Unità durata 36 anni, terminata solo pochi anni fa. Molti skovlanesi sono diventati rifugiati in cerca di una nuova vita a Doskvol."
+    },
+    "The Dagger Isles": {
+      "name": "Isole Pugnale",
+      "description": "Arcipelago tropicale ricoperto di fitte giungle, ora oscurate e distorte dalla magia aliena del Cataclisma. Si dice che la gente qui viva senza barriere elettrostatiche. Com'è possibile? Gli isolani autoctoni hanno per lo più pelle ramata e capelli scuri. <br /><br />Se vuoi essere un vagabondo senza radici, le Isole Pugnale fanno per te. Qui la gente spesso cresce a bordo delle navi e viaggia molto prima di stabilirsi. Noti come corsari e mercanti, vivono senza barriere elettrostatiche e sanno affrontare gli spiriti con altri metodi."
+    },
+    "Tycheros": {
+      "name": "Tycheros",
+      "description": "Terre lontane e separate dall’Impero. Si dice che nei tycherosiani («stranieri», come vengono chiamati) scorra sangue demoniaco. <br /><br />Se vuoi essere veramente insolito, Tycheros può essere la tua patria. Un luogo semi-leggendario a nord, oltre il Mare Vuoto. Si dice che lì vivano dei semi-demoni. Se il tuo personaggio è originario di Tycheros, ha sicuramente un tratto demoniaco: occhi neri da squalo, piume al posto dei capelli, e così via."
+    }
+  }
+}

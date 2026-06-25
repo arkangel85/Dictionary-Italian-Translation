@@ -1,0 +1,44 @@
+{
+  "GIVE_XP": {
+    "DistributeForm": {
+      "SelectFriendlies": "Seleziona quali alleati riceveranno punti esperienza",
+      "SelectHostiles": "Seleziona quali nemici forniranno punti esperienza",
+      "TotalXp": "Punti esperienza totali",
+      "XPModifier": "Modificatore dei punti esperienza",
+      "XpPerCreature": "PE per ogni creatura alleata"
+    }
+  },
+  "SETTINGS": {
+    "Concentrator": {
+      "HealthAttributeH": "Nome dell'attributo che determina i punti ferita nel tuo sistema",
+      "HealthAttributeN": "Nome dei punti ferita"
+    },
+    "GiveXP": {
+      "EnableH": "Abilita la distribuzione dei punti esperienza ai giocatori dopo la vittoria sui nemici",
+      "EnableN": "Abilita l’assegnazione dei PE",
+      "ModifierH": "Moltiplica i PE ricevuti per questo valore",
+      "ModifierN": "Modificatore dei punti esperienza"
+    },
+    "MightySummoner": {
+      "EnableH": "(Solo D&D5) Controlla automaticamente se il proprietario di un attore neutrale possiede anche un attore con il talento Evocatore Potente. In tal caso, quando il token neutrale viene inserito sulla scena, i suoi PF saranno generati automaticamente secondo la formula.",
+      "EnableN": "Abilita Evocatore Potente",
+      "FeatNameH": "Nome del talento da verificare",
+      "FeatNameN": "Nome del talento Evocatore Potente"
+    },
+    "TokenUtility": {
+      "AutoRollHostileHpH": "Quando un token ostile viene inserito sulla scena, i suoi PF saranno tirati automaticamente",
+      "AutoRollHostileHpN": "Tira automaticamente i PF dei token ostili",
+      "HideAutoRollH": "Se i PF dei token ostili vengono tirati automaticamente, nascondi questo tiro ai giocatori",
+      "HideAutoRollN": "Nascondi i tiri automatici dei PF"
+    }
+  },
+  "combat-utility-belt": {
+    "ENHANCED_CONDITIONS": {
+      "OptionConfig": {
+        "BlindToken": {
+          "Notes": "Quando si applica questa condizione, il token diventa accecato"
+        }
+      }
+    }
+  }
+}

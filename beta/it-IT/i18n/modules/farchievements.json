@@ -1,0 +1,179 @@
+{
+  "Farchievements.Settings.EnableChatBarButton": {
+    "Text": "Abilita pulsante nella barra della chat",
+    "Hint": "Permette di aprire la finestra dei traguardi dalla barra della chat."
+  },
+  "Farchievements.Settings.EnableAchievementMessage": {
+    "Text": "Abilita messaggi in chat",
+    "Hint": "Invia un messaggio quando un giocatore ottiene un traguardo."
+  },
+  "Farchievements.Settings.EnableScoreboard": {
+    "Text": "Abilita la classifica",
+    "Hint": "Attiva la classifica dei giocatori."
+  },
+  "Farchievements.Settings.EnableConfettiSupport": {
+    "Text": "Abilita Confetti",
+    "Hint": "Abilita il supporto al modulo Confetti."
+  },
+  "Farchievements.Settings.EnableContextButton": {
+    "Text": "Abilita pulsante nel menu contestuale della lista giocatori",
+    "Hint": "Abilita un pulsante nel menu contestuale della lista giocatori."
+  },
+  "Farchievements.Settings.OmniView": {
+    "Text": "Vista griglia",
+    "Hint": "Modalità griglia"
+  },
+  "Farchievements.Settings.ListView": {
+    "Text": "Vista elenco",
+    "Hint": "Cambia la visualizzazione dei traguardi in modalità elenco."
+  },
+  "Farchievements.Settings.loadPerPage": {
+    "Text": "Caricamenti per pagina",
+    "Hint": "Quanti traguardi vengono mostrati per volta nella pagina"
+  },
+  "Farchievements.Settings.GameSettingsButton": {
+    "Text": "Pulsante impostazioni",
+    "Hint": "Aggiunge un pulsante nel menu delle impostazioni di gioco."
+  },
+  "Farchievements.Settings.AchievementWindowTitle": {
+    "Text": "Titolo finestra",
+    "Hint": "Titolo della finestra dei traguardi."
+  },
+  "Farchievements.Settings.PlayerBackColor": {
+    "Text": "Colore di sfondo del giocatore",
+    "Hint": "Usa il colore del giocatore come schema di sfondo per la schermata dei traguardi."
+  },
+  "Farchievements.Settings.HideUnknown": {
+    "Text": "Nascondi traguardi sconosciuti",
+    "Hint": "Nasconde completamente i traguardi sconosciuti ai giocatori."
+  },
+  "Farchievements.Settings.UnknownName": {
+    "Text": "Traguardi sconosciuti",
+    "Hint": "Nome predefinito per i traguardi sconosciuti (lascia vuoto per disabilitare)."
+  },
+  "Farchievements.Settings.AlwaysShowName": {
+    "Text": "Mostra sempre il nome",
+    "Hint": "Mostra sempre il nome del traguardo"
+  },
+  "Farchievements.Settings.UnknownDes": {
+    "Text": "Descrizione traguardi sconosciuti",
+    "Hint": "Descrizione predefinita dei traguardi sconosciuti (lascia vuoto per disabilitare)"
+  },
+  "Farchievements.Settings.AlwaysShowDes": {
+    "Text": "Mostra sempre la descrizione",
+    "Hint": "Mostra sempre la descrizione del traguardo."
+  },
+  "Farchievements.Settings.DescriptionOnHover": {
+    "Text": "Descrizione al passaggio del mouse",
+    "Hint": "Mostra la descrizione solo al passaggio del mouse sul traguardo."
+  },
+  "Farchievements.Settings.achamount": {
+    "Text": "Numero di traguardi",
+    "Hint": "Numero di traguardi."
+  },
+  "Farchievements.Settings.standarticon": {
+    "Text": "Icona standard dei traguardi",
+    "Hint": "Icona predefinita."
+  },
+  "Farchievements.Settings.standardBackground": {
+    "Text": "Sfondo standard della visualizzazione traguardi",
+    "Hint": "Sfondo predefinito per l’elenco dei traguardi."
+  },
+  "Farchievements.Settings.bannerBackground": {
+    "Text": "Sfondo banner",
+    "Hint": "Sfondo per il banner dei traguardi (2000 x 180 px)."
+  },
+  "Farchievements.Settings.achievementStinger": {
+    "Text": "Effetto sonoro prolungato",
+    "Hint": "Suono lungo che verrà riprodotto durante alcune animazioni."
+  },
+  "Farchievements.Settings.achievementStingerVolume": {
+    "Text": "Volume effetto sonoro prolungato",
+    "Hint": "Livello del volume per tutti gli effetti sonori. Si consiglia di mantenerlo basso."
+  },
+  "Farchievements.Settings.achpretext": {
+    "Text": "Prefisso nuovo traguardo",
+    "Hint": "Prefisso che appare prima del nome del traguardo nel banner."
+  },
+  "Farchievements.Settings.greyscale": {
+    "Text": "Traguardi sconosciuti in scala di grigi",
+    "Hint": "Mostra l’icona del traguardo in scala di grigi invece di un’icona misteriosa."
+  },
+  "Farchievements.Settings.mystery": {
+    "Text": "Icona misteriosa",
+    "Hint": "Icona predefinita per i traguardi sconosciuti."
+  },
+  "Farchievements.Settings.AchievementData": {
+    "Text": "Dati traguardi (NON TOCCARE)",
+    "Hint": "Qui vengono salvati i dati dei traguardi (NON TOCCARE)"
+  },
+  "Farchievements.Settings.achievementdataNEW": {
+    "Text": "Nuovi dati traguardi (NON TOCCARE)",
+    "Hint": "Qui vengono salvati i nuovi dati dei traguardi (NON TOCCARE)"
+  },
+  "Farchievements.Settings.ClientDataList": {
+    "Text": "Elenco dati client (NON TOCCARE)",
+    "Hint": "Sarà sincronizzato tra i client (NON TOCCARE)"
+  },
+  "Farchievements.Settings.ClientData": {
+    "Text": "Dati client (NON TOCCARE)",
+    "Hint": "Traguardi dei vostri client (NON TOCCARE)"
+  },
+  "Farchievements.Settings.loadSettingsForPlayer": {
+    "Text": "Carica impostazioni per giocatore (NON TOCCARE)",
+    "Hint": "Carica impostazioni per giocatore (NON TOCCARE)"
+  },
+  "Farchievements.Settings.bannerAnimation": {
+    "Text": "Animazione banner",
+    "Hint": "Seleziona animazione e suono per il banner"
+  },
+  "Farchievements.Settings.achievementSound": {
+    "Text": "Suono traguardi",
+    "Hint": "Suoni brevi che verranno riprodotti durante certe animazioni."
+  },
+  "Farchievements.Settings.achievementSoundVolume": {
+    "Text": "Volume suono traguardi",
+    "Hint": "Livello del volume per i suoni dei traguardi. Si consiglia di mantenerlo basso."
+  },
+  "Farchievements.Notification": {
+    "Prefix": "Farchievements | ",
+    "PlayerIdChanged": "ID giocatore cambiato, rimuovi il giocatore con ID: ",
+    "UserDoesNotExist": "Questo utente non esiste.",
+    "NoAchievements": "Questo utente non ha traguardi.",
+    "OverwriteWithNothing": "Non dovresti sovrascrivere i dati con il vuoto.",
+    "InvalidData": "Sembra che questi dati non siano validi. Assicurati di aver copiato quelli corretti.",
+    "NoChange": "I dati non sono cambiati.",
+    "Overwritten": "I traguardi di questo mondo sono stati sovrascritti.",
+    "CopiedToClipboard": "Traguardi copiati negli appunti."
+  },
+  "Farchievements.Title": "Farchievements",
+  "Farchievements.Achievement": "Traguardo",
+  "Farchievements.Achievements": "Traguardi",
+  "Farchievements.ViewAchievements": "Visualizza traguardi",
+  "Farchievements.NewAchievement": "Nuovo traguardo:",
+  "Farchievements.AchievementsSynced": "Traguardi sincronizzati",
+  "Farchievements.GainedAchivement": "ottenuto",
+  "Farchievements.Html.SeeEverything": "Vedi tutto",
+  "Farchievements.Html.Scoreboard": "Classifica",
+  "Farchievements.Html.GMView": "Vista GM",
+  "Farchievements.Html.YourAchievements": "I tuoi traguardi",
+  "Farchievements.Html.MyAchievements": "I miei traguardi",
+  "Farchievements.Html.PlayersAchievements": " - traguardo",
+  "Farchievements.Html.PushChangesNow": "Clicca per applicare modifiche",
+  "Farchievements.Html.ScoreText": "Punti",
+  "Farchievements.Html.GlowText": "Brilla",
+  "Farchievements.Html.LoadPerPage": "Caricamenti per pagina",
+  "Farchievements.Html.ImportExport": {
+    "Title": "Importa/Esporta traguardi",
+    "Body": "Questo è un piccolo strumento per importare ed esportare i tuoi traguardi. <b>Assicurati di avere un backup completo prima anche solo di pensare a sovrascrivere qualcosa!</b>",
+    "ClipboardOverwrite": "Sovrascrivi dagli appunti",
+    "CopyToClipboard": "Copia negli appunti"
+  },
+  "Farchievements.Html.SanitySaver": {
+    "Title": "Farchievements",
+    "Body1": "<p>Sembra che tu abbia ottenuto <b>",
+    "Body2": " nuovi</b> traguardi. Vuoi saltare l’animazione o vederli tutti?</p>",
+    "ButtonSeeAll": "Guarda l’animazione",
+    "ButtonSkip": "Salta"
+  }
+}

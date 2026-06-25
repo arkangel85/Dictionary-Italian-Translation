@@ -1,0 +1,101 @@
+{
+  "gatherer": {
+    "gathered": "Raccolto",
+    "minigame": {
+      "title": "Sfida di raccolta"
+    },
+    "sheet": {
+      "err": {
+        "noDraws": "Questa fonte di raccolta è esaurita e non può essere utilizzata finché non si rigenera.",
+        "noActor": "Nessun attore selezionato per iniziare la raccolta. Seleziona un token o assegnati un attore.",
+        "noReq": "Non soddisfi i requisiti per raccogliere. Mancano:",
+        "noItem": "Oggetto non trovato. Assicurati di aver inserito correttamente il nome e riprova.",
+        "noExp": "Non hai raccolto nulla in questo luogo...",
+        "noGM": "Per iniziare la raccolta è necessaria la presenza di un GM in partita."
+      },
+      "gather": "Raccogli",
+      "reset": "Rigenera",
+      "remaining": "Tentativi rimasti",
+      "time": "Rigenerazione tra",
+      "quantity": "Quantità",
+      "waitingFirst": "In attesa del primo tentativo"
+    },
+    "flags": {
+      "table": {
+        "label": "Tabella casuale"
+      },
+      "time": {
+        "label": "Tempo",
+        "placeholder": "Tempo per la rigenerazione in ore"
+      },
+      "quantity": {
+        "label": "Quantità",
+        "placeholder": "Numero o formula di tiro"
+      },
+      "draws": {
+        "label": "Tentativi",
+        "placeholder": "Tentativi prima che la fonte si esaurisca",
+        "notes": "Lascia vuoto per usare l’apposita pagina Gatherer"
+      },
+      "require": {
+        "label": "Requisiti",
+        "placeholder": "Elenco oggetti separati da virgola"
+      },
+      "minigame": {
+        "label": "Sfida",
+        "placeholder": "Durata della sfida in millisecondi"
+      },
+      "expression": {
+        "label": "Formula",
+        "placeholder": "Macro da eseguire per la condizione"
+      },
+      "systemAbil": {
+        "label": "Prova"
+      },
+      "DC": {
+        "label": "CD",
+        "placeholder": "Classe di difficoltà"
+      },
+      "toolCheck": {
+        "label": "Strumento",
+        "placeholder": "Nome dello strumento"
+      },
+      "toolDC": {
+        "label": "CD",
+        "placeholder": "Classe di difficoltà"
+      },
+      "gatherSheet": {
+        "label": "Scheda di raccolta",
+        "placeholder": "Trascina qui la pagina Gatherer"
+      }
+    },
+    "gatherer-actor-config": {
+      "title": "Impostazioni Gatherer",
+      "notes": "Per raccogliere dal token selezionato, crea una macro:",
+      "notes2": "Oppure usa una scorciatoia da tastiera:"
+    },
+    "error": {
+      "notGatherer": "Questa non è una scheda Gatherer. Seleziona una scheda Gatherer e riprova.",
+      "noDraws": "Non è più possibile raccogliere risorse da questa creatura.",
+      "noJournal": "Nessun luogo di raccolta associato a questo token. Seleziona un token che ne abbia uno.",
+      "cantHarvest": "Non sono soddisfatte le condizioni per la raccolta da questo token."
+    },
+    "settings": {
+      "resourcePath": {
+        "name": "Percorso risorsa per il controllo",
+        "hint": "Percorso per verificare se è possibile raccogliere. In D&D5e, ad esempio, sarà 'attributes.hp.value', per controllare se la creatura è ancora viva."
+      },
+      "quantityPath": {
+        "name": "Percorso quantità",
+        "hint": "Percorso relativo a 'system' per indicare la quantità. In D&D5e sarà 'quantity'."
+      },
+      "resourceValue": {
+        "name": "Valore risorsa per il controllo",
+        "hint": "Valore usato per verificare la possibilità di raccolta. In D&D5e sarà '0', cioè controllare se i PF sono a 0."
+      },
+      "enableHarvesting": {
+        "name": "Abilita raccolta dai token"
+      }
+    }
+  }
+}

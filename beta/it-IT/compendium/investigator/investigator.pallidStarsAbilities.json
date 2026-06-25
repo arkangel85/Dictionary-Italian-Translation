@@ -1,0 +1,172 @@
+{
+  "label": "Abilità - Ashen Stars",
+  "mapping": {
+    "category": "data.category"
+  },
+  "entries": {
+    "Anthropology": {
+      "name": "Antropologia",
+      "category": "Scientifiche"
+    },
+    "Archaeology": {
+      "name": "Archeologia",
+      "category": "Scientifiche"
+    },
+    "Astronomy": {
+      "name": "Astronomia",
+      "category": "Applicate"
+    },
+    "Athletics": {
+      "name": "Atletica",
+      "category": "Generali"
+    },
+    "Botany": {
+      "name": "Botanica",
+      "category": "Scientifiche"
+    },
+    "Bullshit Detector": {
+      "name": "Perspicacia",
+      "category": "Interpersonali"
+    },
+    "Bureaucracy": {
+      "name": "Burocrazia",
+      "category": "Interpersonali"
+    },
+    "Business Affairs": {
+      "name": "Affari",
+      "category": "Generali"
+    },
+    "Chemistry": {
+      "name": "Chimica",
+      "category": "Applicate"
+    },
+    "Cop Talk": {
+      "name": "Gergo della polizia",
+      "category": "Interpersonali"
+    },
+    "Cryptography": {
+      "name": "Crittografia",
+      "category": "Applicate"
+    },
+    "Culture": {
+      "name": "Cultura",
+      "category": "Scientifiche"
+    },
+    "Data Retrieval": {
+      "name": "Recupero dati",
+      "category": "Applicate"
+    },
+    "Evidence Collection": {
+      "name": "Raccolta prove",
+      "category": "Applicate"
+    },
+    "Explosive Devices": {
+      "name": "Esplosivi",
+      "category": "Applicate"
+    },
+    "Filch": {
+      "name": "Furtarello",
+      "category": "Generali"
+    },
+    "Flattery": {
+      "name": "Adulazione",
+      "category": "Interpersonali"
+    },
+    "Flirting": {
+      "name": "Flirt",
+      "category": "Interpersonali"
+    },
+    "Forensic Accounting": {
+      "name": "Contabilità forense",
+      "category": "Scientifiche"
+    },
+    "Forensic Anthropology": {
+      "name": "Antropologia forense",
+      "category": "Applicate"
+    },
+    "Forensic Psychology": {
+      "name": "Psicologia forense",
+      "category": "Scientifiche"
+    },
+    "Geology": {
+      "name": "Geologia",
+      "category": "Scientifiche"
+    },
+    "Health": {
+      "name": "Salute",
+      "category": "Generali"
+    },
+    "History": {
+      "name": "Storia",
+      "category": "Scientifiche"
+    },
+    "Impersonate": {
+      "name": "Imitazione",
+      "category": "Interpersonali"
+    },
+    "Infiltration": {
+      "name": "Infiltrazione",
+      "category": "Generali"
+    },
+    "Inspiration": {
+      "name": "Ispirazione",
+      "category": "Interpersonali"
+    },
+    "Interrogation": {
+      "name": "Interrogatorio",
+      "category": "Interpersonali"
+    },
+    "Intimidation": {
+      "name": "Intimidazione",
+      "category": "Interpersonali"
+    },
+    "Law": {
+      "name": "Giurisprudenza",
+      "category": "Scientifiche"
+    },
+    "Linguistics": {
+      "name": "Linguistica",
+      "category": "Scientifiche"
+    },
+    "Medic": {
+      "name": "Primo soccorso",
+      "category": "Generali"
+    },
+    "Negotiation": {
+      "name": "Negoziazione",
+      "category": "Interpersonali"
+    },
+    "Preparedness": {
+      "name": "Prontezza",
+      "category": "Generali"
+    },
+    "Public Relations": {
+      "name": "Relazioni pubbliche",
+      "category": "Generali"
+    },
+    "Reassurance": {
+      "name": "Rassicurazione",
+      "category": "Interpersonali"
+    },
+    "Respect": {
+      "name": "Rispetto",
+      "category": "Interpersonali"
+    },
+    "Scuffling": {
+      "name": "Rissa",
+      "category": "Generali"
+    },
+    "Sense Trouble": {
+      "name": "Percezione del pericolo",
+      "category": "Generali"
+    },
+    "Shooting": {
+      "name": "Tiro",
+      "category": "Generali"
+    },
+    "Surveillance": {
+      "name": "Sorveglianza",
+      "category": "Generali"
+    }
+  }
+}

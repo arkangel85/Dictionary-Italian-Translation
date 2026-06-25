@@ -1,0 +1,5 @@
+{
+"DF_SETTINGS_CLARITY.errorLibWrapperMissing": "'DF Settings Clarity' richiede il modulo 'libWrapper'. Installa e attiva 'libWrapper'.",
+"DF_SETTINGS_CLARITY.Scope_world": "Solo GM",
+"DF_SETTINGS_CLARITY.Scope_client": "Individuale"
+}

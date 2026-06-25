@@ -1,0 +1,10 @@
+{
+  "rarity-colors.rarityFlag.name": "Colori di rarità",
+  "rarity-colors.rarityFlag.hint": "I nomi degli oggetti saranno colorati in base alla loro rarità",
+
+  "rarity-colors.spellFlag.name": "Colora gli incantesimi",
+  "rarity-colors.spellFlag.hint": "Anche gli incantesimi verranno colorati",
+
+  "rarity-colors.featFlag.name": "Colora le capacità",
+  "rarity-colors.featFlag.hint": "Anche le capacità verranno colorate"
+}

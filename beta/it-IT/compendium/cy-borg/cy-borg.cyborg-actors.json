@@ -1,0 +1,56 @@
+{
+  "label": "CY_BORG (Attori)",
+
+  "folders": {
+    "NPCs": "Personaggi del Master",
+    "Vehicles": "Veicoli",
+    "Optional Classes": "Classi Opzionali",
+    "Orphaned Gearhead": "Orfano Ingranaggista"
+  },
+
+  "mapping": {
+    "description": "system.description"
+  },
+
+  "entries": {
+    "AdBot2000": {
+      "name": "AdBot2000"
+    },
+    "Armored van": {
+      "name": "Furgone blindato",
+      "description": "Cinque posti pieni di ogni tipo di cianfrusaglia. Sotto tutto questo si trova un vano per contrabbando. Una volta al giorno effettua un test di Conoscenze CD8 per trovare un pezzo di ricambio utile a riparare una tecnologia rotta."
+    },
+    "Fly-sized surveillance drones": {
+      "name": "Mini droni di sorveglianza",
+      "description": "Tre droni volanti, dotati rispettivamente di videocamera, scanner 3D e sensore termico. Estremamente fragili. Presunto strumento di spionaggio aziendale."
+    },
+    "Flying drone": {
+      "name": "Drone volante",
+      "description": "Drone volante. Esegue comandi di base. Conoscenze+d12 PF, -d6 Armatura e fucile d’assalto (d8d)."
+    },
+    "Old-school motorcycle": {
+      "name": "Moto vecchio stile",
+      "description": "Difficile trovare carburante."
+    },
+    "Prototype crawler drone": {
+      "name": "Drone cingolato prototipale",
+      "description": "Drone cingolato prototipale con torretta laser (d12d). Conoscenze+d10 PF, -d6 Armatura. Può eseguire comandi complessi. Richiede un hard reset dopo aver subito danni massimi."
+    },
+    "Robo-K9": {
+      "name": "Robo-K9",
+      "description": "Piccolo ma hackerato. d6+2 PF, morso d4, obbedisce solo a te."
+    },
+    "Semi-autonomous quad-bot": {
+      "name": "Camminatore semi-autonomo",
+      "description": "Camminatore semi-autonomo con strumenti integrati, tra cui uno scanner sanitario e una torcia. Fedele ma con una sua personalità. I morsi infliggono d4 danni, Conoscenze+d8 PF e -d2 armatura."
+    },
+    "Stolen taxi": {
+      "name": "Taxi rubato",
+      "description": "Transponder falsificati o rimossi. Può attivare allarmi nelle zone ad alta sicurezza."
+    },
+    "Walking weapons platform": {
+      "name": "Piattaforma d’arma semovente",
+      "description": "Indistruttibile, abbastanza grande da poterci salire sopra, ma maledettamente scomoda. La batteria a grosso calibro (2d10) distrugge la maggior parte di muri, porte e veicoli con un colpo solo. C’è una possibilità di 2 su 6 che si rompa dopo ogni sparo. Ripararla richiede d4 ore."
+    }
+  }
+}

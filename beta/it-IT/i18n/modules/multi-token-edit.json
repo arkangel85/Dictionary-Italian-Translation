@@ -1,0 +1,223 @@
+{
+  "MassEdit": {
+    "behavior": {
+      "linkToken": {
+        "linkId": {
+          "label": "ID collegamento",
+          "hint": "ID utilizzato per stabilire un collegamento tra l'area e il token."
+        }
+      }
+    },
+    "form": {
+      "immediate-update-title": "Applica automaticamente le modifiche alla modifica dei campi.",
+      "global-search-title": "Abilita la ricerca globale",
+      "global-delete-title": "Elimina",
+      "actions": "Azioni",
+      "images": "Immagini",
+      "shaders": "Shader",
+      "delete-warning": "ELIMINAZIONE [{count}] {document}",
+      "proceed": "Vuoi procedere?",
+      "search-and-edit": "Cerca e modifica",
+      "apply-on-current-scene": "Applica alla scena corrente",
+      "apply-on-all-scenes": "Applica a tutte le scene",
+      "apply-update-proto": "Applica e aggiorna il prototipo",
+      "apply-json": "Applica i dati JSON",
+      "mass-search-title": "Ricerca di massa {document}",
+      "mass-edit-title": "Modifica di massa {document} [ {count} ]",
+      "adding": "Aggiunta",
+      "subtracting": "Sottrazione"
+    },
+    "dialog": {
+      "search-document": "Tipo di documento da cercare:",
+      "document-not-found": "Nessun documento del tipo {document} trovato."
+    },
+    "generic-form": {
+      "step-size": "Dimensione del passo",
+      "define-range": "Definisci intervallo",
+      "define-dropdown": "Definisci elenco",
+      "pinned": "Bloccato"
+    },
+    "clipboard": {
+      "copy": "Modifica di massa: Dati {document} copiati negli appunti",
+      "paste": "Modifica di massa: Dati incollati in {count} {document}"
+    },
+    "macro": {
+      "dependency-warning": "Questa macro richiede il modulo attivo {module}.",
+      "target-all-title": "La macro verrà applicata a TUTTI i {document} durante l'esecuzione nell'ambito selezionato.",
+      "target-ids": "ID attualmente selezionati",
+      "target-ids-title": "Gli identificativi dei documenti selezionati verranno salvati nella macro.",
+      "target-search-title": "La macro cercherà {document} corrispondenti a determinati campi durante l'esecuzione.",
+      "target-tagger-title": "La macro prenderà di mira i tag del modulo Tagger durante l'esecuzione.",
+      "target-current-scene-title": "La macro verrà applicata alla scena attiva corrente."
+    },
+    "keybindings": {
+      "presetApply": {
+        "name": "Navigatore preset",
+        "hint": "Apri il navigatore oggetti e configurazione scena."
+      },
+      "presetApplyScene": {
+        "name": "Navigatore preset scena",
+        "hint": "Apri il navigatore preset per le scene."
+      },
+      "selectKey": {
+        "name": "Ricerca e selezione oggetti",
+        "hint": "Apri la finestra di configurazione per scegliere i campi con cui cercare e selezionare oggetti piazzabili nella scena corrente."
+      },
+      "editKey": {
+        "name": "Modifica di massa oggetti",
+        "hint": "Apri la finestra di configurazione per aggiornare tutti gli oggetti selezionati contemporaneamente."
+      },
+      "genericForm": {
+        "name": "Modulo generico multi-oggetto",
+        "hint": "Apri la finestra di configurazione per aggiornare tutti gli oggetti selezionati contemporaneamente."
+      },
+      "linkerMenu": {
+        "name": "Menu collegamento",
+        "hint": "Apri il menu per creare ed eliminare collegamenti tra oggetti piazzabili."
+      },
+      "placeableEdit": {
+        "name": "Anteprima modifica oggetti",
+        "hint": "Gli oggetti selezionati entreranno in modalità anteprima per trasformazioni di massa."
+      }
+    },
+    "settings": {
+      "autoSnap": {
+        "name": "Aggancia automatico alla griglia",
+        "hint": "Usando 'Intervallo definito' nel menu coordinate casuali, i valori verranno agganciati automaticamente alla griglia."
+      },
+      "panToSearch": {
+        "name": "Centra sulla ricerca",
+        "hint": "Centra automaticamente la vista sul primo oggetto trovato."
+      },
+      "tmfxFieldsEnable": {
+        "name": "Campi TMFX",
+        "hint": "Il colore DungeonDraft e il filtro template verranno aggiunti ai moduli Mass Edit. Selezionandoli, verranno applicati filtri TokenMagicFX."
+      },
+      "enableFlagsTab": {
+        "name": "Scheda Flags",
+        "hint": "Aggiunge una scheda 'Flags' nei moduli Mass Edit per aggiornare o rimuovere i flag dei documenti."
+      },
+      "rangeToTextbox": {
+        "name": "Input manuale per intervalli",
+        "hint": "Converte le etichette dei cursori in campi di testo modificabili."
+      },
+      "singleDocDefaultConfig": {
+        "name": "Oggetto singolo: configurazione predefinita",
+        "hint": "Apri il menu di configurazione predefinito per oggetti singoli selezionati o passati con il cursore, invece del modulo Mass Edit."
+      },
+      "cssEdit": {
+        "name": "Modifica CSS",
+        "hint": "Personalizza l'aspetto dell'interfaccia Mass Edit."
+      }
+    },
+    "randomizer": {
+      "interpolate": "Interpolazione",
+      "interpolateReverse": "Interpolazione (inversa)",
+      "pickRange": "Seleziona intervallo",
+      "addImagesToList": "Aggiungi immagini all'elenco",
+      "listOfImages": "Elenco di immagini da usare nella randomizzazione",
+      "selectFolder": "Seleziona cartella",
+      "includeSubfolders": "Includi sottocartelle",
+      "sequential": "Sequenziale",
+      "findAndReplace": "Trova e sostituisci",
+      "findAndReplaceRegex": "Trova e sostituisci (RegEx)",
+      "generators": "Generatori",
+      "listOfStrings": "Elenco stringhe per generazione casuale",
+      "allowDuplicates": "Consenti duplicati",
+      "stepSize": "Dimensione passo",
+      "snapToGrid": "Aggancia alla griglia"
+    },
+    "presets": {
+      "preset-browser": "Esplora preset",
+      "drag-placeable-message": "Trascina un oggetto per creare un preset.",
+      "drag-placeable": "Oggetto trascinabile",
+      "drag-placeable-hint": "Oggetti aggiuntivi da posizionare insieme al preset.",
+      "drag-over-message": "CREA PRESET",
+      "default-name": "Nuovo preset",
+      "spawning": "Spawn",
+      "main": "Principale",
+      "tags": "Tag",
+      "warn-no-fields": "Nessun campo selezionato, impossibile aggiornare.",
+      "imported": "{count} preset importati.",
+      "import": "Importa preset",
+      "assign": "{count} {document} assegnati ai preset.",
+      "select-compendium": "Seleziona compendio",
+      "export-directory-message": "Questa operazione trasformerà la destinazione in una cartella di preset Mass Edit. Assicurati che non contenga voci non preset.",
+      "working-directory-message": "Cambia cartella dove salvare i preset. Non deve contenere voci che non siano preset.",
+      "update-preset": "Aggiorna preset",
+      "delete-fields": "Elimina campi",
+      "select-delete": "Seleziona i campi da rimuovere da questo preset.",
+      "select-modify": "Seleziona i campi da modificare al momento del posizionamento.",
+      "data-edit": "Modifica dati {document} salvati nei preset.",
+      "data-assign": "Assegna {document} attualmente selezionati al preset.",
+      "controls": {
+        "activate-brush": "Attiva pennello",
+        "document-lock": "Blocca la categoria di default alla riapertura del modulo.",
+        "layer-switch": "Cambio automatico layer.",
+        "external-compendiums": "Mostra compendi esterni",
+        "scale-to-grid": "Scala oggetti secondo la griglia.",
+        "virtual-directory": "Mostra cartelle virtuali"
+      },
+      "export-as-json": "Esporta come JSON",
+      "open-journal": "Apri diario",
+      "apply-to-selected": "Applica agli oggetti selezionati",
+      "apply-to-selected-warn": "Non è possibile applicare preset misti a tipi diversi di documento.",
+      "export-to-compendium": "Esporta in compendio",
+      "copy-to-clipboard": "Copia negli appunti",
+      "copy-source-to-clipboard": "Copia codice sorgente negli appunti",
+      "keep-ids": "Mantieni ID",
+      "keep-ids-hint": "Preset e cartelle con ID uguali verranno sovrascritti nella destinazione.",
+      "search-presets": "Cerca preset",
+      "search-presets-folders": "Cerca preset e cartelle",
+      "delete-presets-warn": "Stai per eliminare i preset [ {count} ].",
+      "spawn-random": "Crea un oggetto casuale anziché l'intero gruppo.",
+      "bag": {
+        "search": "Cerca",
+        "appearance": "Aspetto",
+        "misc": "Varie"
+      }
+    },
+    "css": {
+      "pick": "Seleziona stile:"
+    },
+    "common": {
+      "range": "Intervallo",
+      "min": "Min",
+      "max": "Max",
+      "random": "Casuale",
+      "randomize": "Randomizza",
+      "color": "Colore",
+      "method": "Metodo",
+      "find": "Trova",
+      "replace": "Sostituisci",
+      "list": "Lista",
+      "generate": "Genera",
+      "pin": "Blocca",
+      "preset": "Preset",
+      "presets": "Preset",
+      "delete": "Elimina",
+      "apply": "Applica",
+      "ratio": "Rapporto",
+      "options": "Opzioni",
+      "all": "Tutti",
+      "swap": "Scambia",
+      "import": "Importa",
+      "copy": "Copia",
+      "paste": "Incolla",
+      "data": "Dati",
+      "modify": "Modifica",
+      "placeable": "Oggetto",
+      "attach": "Allega",
+      "attached": "Allegato"
+    }
+  },
+  "TYPES": {
+    "RegionBehavior": {
+      "multi-token-edit": {
+        "linkToken": "Collega token",
+        "spawnPreset": "Posiziona preset",
+        "deSpawnPreset": "Rimuovi preset"
+      }
+    }
+  }
+}

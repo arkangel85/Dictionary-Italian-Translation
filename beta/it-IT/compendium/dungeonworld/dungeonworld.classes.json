@@ -1,0 +1,576 @@
+{
+  "label": "Classi",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "equipment0": "system.equipment.0.label",
+    "equipment1": "system.equipment.1.label",
+    "equipment2": "system.equipment.2.label",
+    "equipment3": "system.equipment.3.label",
+    "equipment4": "system.equipment.4.label",
+    "equipment5": "system.equipment.5.label",
+    "races1": "system.races.0.label",
+    "races2": "system.races.1.label",
+    "races3": "system.races.2.label",
+    "races4": "system.races.3.label",
+    "races5": "system.races.4.label",
+    "races-description1": "system.races.0.description",
+    "races-description2": "system.races.1.description",
+    "races-description3": "system.races.2.description",
+    "races-description4": "system.races.3.description",
+    "races-description5": "system.races.4.description",
+    "alignments1": "system.alignments.0.label",
+    "alignments2": "system.alignments.1.label",
+    "alignments3": "system.alignments.2.label",
+    "alignments4": "system.alignments.3.label",
+    "alignments5": "system.alignments.4.label",
+    "alignments-description1": "system.alignments.0.description",
+    "alignments-description2": "system.alignments.1.description",
+    "alignments-description3": "system.alignments.2.description",
+    "alignments-description4": "system.alignments.3.description",
+    "alignments-description5": "system.alignments.4.description"
+  },
+  "entries": [
+    {
+      "id": "The Bard",
+      "name": "Bardo",
+      "description": "<p>Le saghe narrano che la vita degli eroi sia una sequenza di strade e battaglie, dove guadagnano ricchezze e gloria. Ci sarà pure un briciolo di verità in quelle storie raccontate nelle taverne piene di contadini, no? Canzoni che ispirano nobili e popolani, che calmano bestie feroci o infondono furia nei cuori degli uomini, non nascono certo dal nulla.</p>\n<p>Piacere di conoscerti, sei un Bardo. Lingua affilata, mente brillante. Maestro della parola, favorito delle Muse. Un menestrello racconta storie, ma solo un vero bardo dona loro vita. Allaccia bene gli stivali, nobile oratore. Affila il pugnale nascosto nella manica e rispondi alla chiamata. Qualcuno deve stare in prima linea a combattere fianco a fianco con assassini, furfanti e aspiranti eroi. Nessuno scriverà meglio di te l’epopea del tuo stesso eroismo. Avanti, e con il canto nel cuore!</p>",
+      "races": {
+        "0": {
+          "label": "Elfo",
+          "description": "Quando ti trovi in un luogo che ritieni importante, puoi chiedere al master un fatto storico su quel posto."
+        },
+        "1": {
+          "label": "Umano",
+          "description": "Quando entri per la prima volta in un insediamento civilizzato, c’è sempre qualcuno che mantiene viva la tradizione di offrire ospitalità ai menestrelli e ti invita a casa sua."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Buono",
+          "description": "Usa la tua arte per aiutare gli altri."
+        },
+        "1": {
+          "label": "Neutrale",
+          "description": "Allontanati da un conflitto o stempera una situazione tesa."
+        },
+        "2": {
+          "label": "Caotico",
+          "description": "Spingi gli altri a prendere decisioni importanti impulsivamente."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["6JcOoZ8CNqYxLgyQ"]
+        },
+        "1": {
+          "label": "Scegli uno strumento (peso 0 ciascuno)",
+          "mode": "radio",
+          "items": [
+            "t0FCRrKNif8IVLdZ",
+            "Pg5OKCxvZLZIlUqZ",
+            "bIDVbZVEJSWPcBi1",
+            "IsyhcXjdMpUzK3r5",
+            "aXVYHRjX2eoRTtCQ",
+            "lG9aDTZcWfYBHCjj"
+          ]
+        },
+        "2": {
+          "label": "Scegli cosa indossi",
+          "mode": "radio",
+          "items": [null, null, "oGiXIqNQbukIjf06", "wQPaK1s3OX41qxTz"]
+        },
+        "3": {
+          "label": "Scegli la tua arma",
+          "mode": "checkbox",
+          "items": [
+            "5dSrhoG0LBXY6RyD",
+            "jSFKrGehEa3y26cO",
+            "WrnuJ6j8JerAozDO",
+            "Bj8EezgO0DZ9OhVQ"
+          ]
+        },
+        "4": {
+          "label": "Scegline uno",
+          "mode": "radio",
+          "items": ["YwHV7WYzTPSAOorl", "Z7tBUvJQZEk6YHXv", "Faznfc01XOrNYIOn"]
+        }
+      }
+    },
+    {
+      "id": "The Barbarian",
+      "name": "Barbaro",
+      "description": "<p>Sei giunto fin qui da terre sconosciute. Con la spada in pugno. Un devastatore. Un assassino.</p>\n<p>Che il mago pronunci i suoi incantesimi. A che serve la magia, quando l'acciaio taglia carne e ossa? Il paladino giura fedeltà a una divinità. Che speri nel suo dio da favola — tu sei padrone di te stesso.</p>\n<p>Vieni da angoli remoti del Mondo dei Dungeon in cerca di…? Gloria? Tesori? Spargimenti di sangue? In fondo non ha importanza. Ti chiamano barbaro. Incivile. Lascia che lo facciano. Il loro mondo di leggi e lussi è effimero.</p>\n<p>Tu sai cosa conta davvero nella vita.</p>",
+      "races": {
+        "0": {
+          "label": "Forestiero",
+          "description": "Puoi essere elfo, nano, halfling o umano, ma tu e il tuo popolo non appartenete a queste terre. All'inizio di ogni sessione il master ti porrà una domanda sulla tua terra d’origine, sul motivo per cui l’hai lasciata o su ciò che hai abbandonato. Se rispondi, segna esperienza."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Neutrale",
+          "description": "Insegna a qualcuno le usanze del tuo popolo."
+        },
+        "1": {
+          "label": "Caotico",
+          "description": "Rifiuta le convenzioni del mondo civilizzato."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["6JcOoZ8CNqYxLgyQ", "nMag6sXXRqc6SC4Q", "1YuCznJbmL9wFSjk"]
+        },
+        "1": {
+          "label": "Scegli un'arma",
+          "mode": "radio",
+          "items": ["NKIo4WZMF7cWgpAi", "SIDfurffR6QYixJk"]
+        },
+        "2": {
+          "label": "Scegli una delle seguenti opzioni",
+          "mode": "checkbox",
+          "items": ["YwHV7WYzTPSAOorl", "6JcOoZ8CNqYxLgyQ", "ic5dH6aNzBgEuTjA"]
+        }
+      }
+    },
+    {
+      "id": "The Fighter",
+      "name": "Guerriero",
+      "description": "<p>Non è un lavoro che porta riconoscimenti — giorno dopo giorno lanciarti nel cuore del pericolo, contando solo sulla tua armatura e sull’abilità con le armi. I tuoi compagni non suoneranno corni dorati quando prendi una pugnalata nei vicoli di qualche taverna di Baxburg. E un coro angelico non canterà la tua gloria quando li trascinerai via urlanti dal bordo degli Abissi della Follia.</p>\n<p>Che si fottano. Tu lo fai per non ammorbidire il cuore. Per la gloria. Per il fragore del combattimento. Per il sangue caldo che verrà versato. Tu sei una bestia d'acciaio. I tuoi amici hanno spade d'acciaio, ma tu, Guerriero, sei fatto di acciaio. Lascia che si lamentino intorno al fuoco — tu porti le tue cicatrici con orgoglio.</p>\n<p>Sei come un muro, e ogni pericolo dovrà frantumarsi contro di te. Alla fine, sarai l’ultimo a rimanere in piedi.</p>",
+      "races": {
+        "0": {
+          "label": "Nano",
+          "description": "Quando tratti con un beone, puoi usare COS invece di CAR."
+        },
+        "1": {
+          "label": "Elfo",
+          "description": "Scegli un tipo di arma: nelle tue mani è sempre precisa*."
+        },
+        "2": {
+          "label": "Halfling",
+          "description": "Se ti salvi da un pericolo usando la tua piccola statura a tuo vantaggio, ottieni +1."
+        },
+        "3": {
+          "label": "Umano",
+          "description": "Una volta per combattimento puoi rilanciare un tiro danni (tuo o altrui)."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Buono",
+          "description": "Proteggi qualcuno più debole di te."
+        },
+        "1": {
+          "label": "Neutrale",
+          "description": "Sconfiggi un avversario degno."
+        },
+        "2": {
+          "label": "Malvagio",
+          "description": "Uccidi un nemico disarmato o arresosi."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["6JcOoZ8CNqYxLgyQ", "OJIrFGgbVe3wXlnD"]
+        },
+        "1": {
+          "label": "Scegli la tua protezione",
+          "mode": "radio",
+          "items": ["ic5dH6aNzBgEuTjA", "YwHV7WYzTPSAOorl", "oJ490334TfVi40Zj"]
+        },
+        "2": {
+          "label": "Scegli due opzioni",
+          "mode": "checkbox",
+          "items": [
+            "CMhNmAwhLVZk9lfq",
+            "FkfxRU6NiOzEzkIy",
+            "4rXRNHipSXLO6pnP",
+            "6JcOoZ8CNqYxLgyQ",
+            "ZbQQw1Is1jIFCzaA"
+          ],
+          "objects": []
+        }
+      }
+    },
+    {
+      "id": "The Wizard",
+      "name": "Mago",
+      "description": "<p>Questo mondo ha delle leggi. Non leggi degli uomini o ordini di tiranni da quattro soldi. Leggi vere. Ciò che cade, precipita. Dal nulla non nasce nulla. I morti restano morti. Giusto? Le persone si raccontano tante fandonie per dormire sonni tranquilli.</p>\n<p>Ma tu hai passato una vita sui libri. Gli esperimenti ti hanno portato sull’orlo della follia, e gli incantesimi di evocazione hanno messo in pericolo la tua anima. Per cosa? Per il potere, ovvio! Non il potere di comandare gli uomini, ma quello di far bollire il sangue nelle vene. Di chiamare fulmini dal cielo o fuoco dalle viscere della terra. Di violare le leggi della realtà a cui tutti si aggrappano.</p>\n<p>Ti guardano con sospetto? Ti chiamano stregone o demonologo? Lascia fare. Possono forse lanciare palle di fuoco dagli occhi? Appunto.</p>",
+      "races": {
+        "0": {
+          "label": "Elfo",
+          "description": "La magia è nel tuo sangue. Tratta 'individuare magia' come un cantrip."
+        },
+        "1": {
+          "label": "Umano",
+          "description": "Puoi lanciare un incantesimo da chierico come se fosse un incantesimo da mago."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Buono",
+          "description": "Usa la magia per aiutare direttamente qualcuno."
+        },
+        "1": {
+          "label": "Neutrale",
+          "description": "Scopri un segreto legato alla magia."
+        },
+        "2": {
+          "label": "Malvagio",
+          "description": "Semina terrore e panico con la tua magia."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["q0OQPBduCalAA99o", "6JcOoZ8CNqYxLgyQ"]
+        },
+        "1": {
+          "label": "Scegli la tua protezione",
+          "mode": "checkbox",
+          "items": ["CMhNmAwhLVZk9lfq", "oGiXIqNQbukIjf06", "iaxOPwJIrsnzGJWr"]
+        },
+        "2": {
+          "label": "Scegli la tua arma",
+          "mode": "radio",
+          "items": ["nMag6sXXRqc6SC4Q", "xu45M9oglN3VEWHC"]
+        },
+        "3": {
+          "label": "Scegline uno",
+          "mode": "radio",
+          "items": ["CMhNmAwhLVZk9lfq", "4rXRNHipSXLO6pnP"],
+          "objects": []
+        }
+      }
+    },
+    {
+      "id": "The Thief",
+      "name": "Ladro",
+      "description": "<p>Lo sai di cosa parlano accanto al fuoco. Di risse, di dei che sorridono al vostro allegro gruppo dai cieli. E tu, intanto, sorridi tra te e te contando le monete — è questo ciò che conta davvero! Solo tu conosci il segreto dell’universo: il denaro non puzza.</p>\n<p>Certo, si lamenteranno ogni volta che sgattaioli via in silenzio, ma senza di te finirebbero presto tagliati a metà da una ghigliottina nascosta nel soffitto o avvelenati da una trappola a spine. Che brontolino pure. Una volta finito il lavoro, ricorderai la loro morte eroica e brinderai in loro onore…</p>\n<p>…Seduto nel tuo castello. Pieno d’oro.</p>\n<p>Dopotutto, sei un farabutto.</p>",
+      "races": {
+        "0": {
+          "label": "Halfling",
+          "description": "Quando attacchi con un’arma a distanza, infliggi +2 danni."
+        },
+        "1": {
+          "label": "Umano",
+          "description": "Se stai ricordando informazioni su crimini o situazioni simili, ottieni +1 al tiro."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Caotico",
+          "description": "Lanciati nel pericolo senza alcun piano."
+        },
+        "1": {
+          "label": "Neutrale",
+          "description": "Agisci di nascosto, entra nei luoghi senza farti notare."
+        },
+        "2": {
+          "label": "Malvagio",
+          "description": "Trova un capro espiatorio se sei in pericolo o a rischio punizione."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["6JcOoZ8CNqYxLgyQ", "oGiXIqNQbukIjf06", "fYXLx7SefHMLGUPa"]
+        },
+        "1": {
+          "label": "Scegli un'arma",
+          "mode": "checkbox",
+          "items": ["nMag6sXXRqc6SC4Q", "Bj8EezgO0DZ9OhVQ", "TJ5kn5ewO47RhbkT"]
+        },
+        "2": {
+          "label": "Scegli un’arma a distanza",
+          "mode": "checkbox",
+          "items": ["onun19OKLyZ4fP9X", "jSFKrGehEa3y26cO", "WrnuJ6j8JerAozDO"]
+        },
+        "3": {
+          "label": "Scegli una delle seguenti opzioni",
+          "mode": "radio",
+          "items": ["YwHV7WYzTPSAOorl", "CMhNmAwhLVZk9lfq"]
+        }
+      }
+    },
+    {
+      "id": "The Druid",
+      "name": "Druido",
+      "description": "<p>Seduto accanto al fuoco, guardati intorno. Cosa ti ha spinto a unirti a questa compagnia intrisa di sudore e polvere cittadina? Forse la gentilezza? Forse li proteggerai come una madre orsa con i suoi cuccioli? Dopotutto, sono il tuo branco. Strani fratelli e sorelle, certo. Ma senza i tuoi sensi acuti — e i tuoi artigli più affilati — non sopravvivranno.</p>\n<p>Tu sei figlio dei boschetti sacri, nato dalla terra e segnato dagli spiriti della natura. Forse un tempo avevi un’altra vita, cittadina. Ma non più. Hai lasciato quel corpo fisso nel passato. Ascolta i tuoi compagni mentre pregano idoli di pietra e lucidano corazze d’argento. Parlano della gloria che li attende in città — quella pustola sulla faccia del mondo. I loro dei sono bambini. Le loro armature solo un’illusione.</p>\n<p>Tu segui l’antica via. Indossi la pelle che la natura stessa ti ha donato. Prenderai la tua parte del bottino, certo, ma diverrai come loro? Il tempo lo dirà…</p>",
+      "races": {
+        "0": {
+          "label": "Elfo",
+          "description": "La linfa degli alberi antichi scorre in te. La Grande Foresta è sempre considerata una tua terra."
+        },
+        "1": {
+          "label": "Umano",
+          "description": "Come il tuo popolo ha addomesticato gli animali, così puoi trasformarti in ogni animale domestico oltre ai soliti."
+        },
+        "2": {
+          "label": "Halfling",
+          "description": "Canti i canti curativi del ruscello e della primavera. Quando fate campo, tu e i tuoi alleati guarite +1d6."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Caotico",
+          "description": "Distruggi un simbolo della civiltà."
+        },
+        "1": {
+          "label": "Buono",
+          "description": "Aiuta qualcosa o qualcuno a crescere."
+        },
+        "2": {
+          "label": "Neutrale",
+          "description": "Elimina una minaccia innaturale."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["1YuCznJbmL9wFSjk"]
+        },
+        "1": {
+          "label": "Scegli la tua difesa",
+          "mode": "radio",
+          "items": ["yEnHhE8w9Qe4f2je", "FkfxRU6NiOzEzkIy"]
+        },
+        "2": {
+          "label": "Scegli il tuo armamento",
+          "mode": "radio",
+          "items": ["3lS1W8B7DbzAeYn8", "xu45M9oglN3VEWHC", "4wGxPYN283j74dcF"]
+        },
+        "3": {
+          "label": "Scegli equipaggiamento",
+          "mode": "radio",
+          "items": [
+            "YwHV7WYzTPSAOorl",
+            "ZbQQw1Is1jIFCzaA",
+            "Faznfc01XOrNYIOn",
+            "4rXRNHipSXLO6pnP"
+          ]
+        }
+      }
+    },
+    {
+      "id": "The Cleric",
+      "name": "Chierico",
+      "description": "<p>Le terre del Mondo dei Dungeon sono sprofondate nel caos. Oltre i bastioni della fede e della civiltà, si estendono lande selvagge piene di bestie feroci, non-morti e altri mostri. In queste terre non ci sono dei. Ecco perché lì servite voi.</p>\n<p>Portare la luce della propria divinità nelle tenebre della barbarie non è solo la vostra natura: è il vostro destino. A voi spetta il compito di convertire con la spada, la mazza e la magia. Scendete negli abissi più oscuri delle terre selvagge per piantare i semi della fede. Alcuni dicono che gli dei vanno custoditi nel cuore. Sciocchezze. Il divino vive sulla punta della vostra lama.</p>\n<p>Mostrate al mondo chi è il suo vero sovrano.</p>",
+      "races": {
+        "0": {
+          "label": "Nano",
+          "description": "Tu e la pietra siete uno. Pregando, ottieni un salmo speciale: la Voce dei Muti, che ti permette di parlare solo con gli spiriti della roccia."
+        },
+        "1": {
+          "label": "Umano",
+          "description": "La tua fede promuove l'apertura mentale. Scegli un incantesimo da mago: lo ottieni e puoi lanciarlo come se fosse da chierico."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Buono",
+          "description": "Cura qualcun altro nonostante il pericolo."
+        },
+        "1": {
+          "label": "Legale",
+          "description": "Segui i precetti della tua divinità o chiesa anche a tuo rischio."
+        },
+        "2": {
+          "label": "Malvagio",
+          "description": "Ferisce qualcuno per dimostrare il potere della tua fede o chiesa."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["Iy4Iw8nsJXNIz8bG", "6JcOoZ8CNqYxLgyQ"],
+          "objects": []
+        },
+        "1": {
+          "label": "Scegli un mezzo di protezione",
+          "mode": "radio",
+          "items": ["ic5dH6aNzBgEuTjA", "FkfxRU6NiOzEzkIy"],
+          "objects": []
+        },
+        "2": {
+          "label": "Scegli con cosa sei armato",
+          "mode": "checkbox",
+          "items": [
+            "fvtXSG3oibD5SuIP",
+            "LmjG7mONJ7GIBHIc",
+            "xu45M9oglN3VEWHC",
+            "Z7tBUvJQZEk6YHXv"
+          ]
+        },
+        "3": {
+          "label": "Scegli uno",
+          "mode": "checkbox",
+          "items": ["6JcOoZ8CNqYxLgyQ", "YwHV7WYzTPSAOorl", "CMhNmAwhLVZk9lfq"]
+        }
+      }
+    },
+    {
+      "id": "The Immolator",
+      "name": "L'Arso",
+      "description": "<p>Alcuni rivolgono preghiere agli dei, scioccamente chiedendo forza. Altri, troppo intelligenti, studiano manoscritti fino a rovinarsi. C'è chi ancora agita una spada o muove la lingua. Ma non tu. In qualche modo e per qualche motivo hai ottenuto il tuo potere in un altro modo, attraverso il fuoco e la sofferenza. Hai offerto un sacrificio... e in cambio hai ottenuto il controllo di forze oltre la comprensione dei mortali.</p>\n<p>E ti senti alla grande.</p>\n<p>Ora sei una fiamma inarrestabile che brucia tutto intorno con la sua passione, lasciandosi alle spalle solo rovine. Tutti lo sentono. Il tuo fuoco accende una scintilla nell'animo dei tuoi compagni, ispirandoli a compiere imprese e avventure. Non ti sei mai sentito così vivo! E se i guai seguono la tua scia di fumo e cenere, è solo un motivo in più per vivere al massimo.</p>\n<p>Vivi in fretta, muori giovane e assicurati che dei tuoi nemici non resti nemmeno la cenere.</p>",
+      "races": {
+        "0": {
+          "label": "Umano",
+          "description": "Quando accampi vicino a un grande fuoco aperto, recuperi tutti i tuoi PF."
+        },
+        "1": {
+          "label": "Salamandra",
+          "description": "Il calore e il fuoco di origine non magica non possono farti del male."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Malvagio",
+          "description": "Sacrifica qualcuno al fuoco che non è pronto a morire o non acconsente al suo destino."
+        },
+        "1": {
+          "label": "Caotico",
+          "description": "Diffondi idee o opinioni pericolose e nuove."
+        },
+        "2": {
+          "label": "Neutrale",
+          "description": "Scambia un'offerta volontaria per un favore reso."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["XVQlZSht2K5vp3te", "YwHV7WYzTPSAOorl", "CMhNmAwhLVZk9lfq"],
+          "objects": [
+            {
+              "_id": "XVQlZSht2K5vp3te",
+              "name": "Simbolo",
+              "permission": {
+                "default": 0,
+                "Z8KGVPKcXF0jSV2e": 3
+              },
+              "type": "equipment",
+              "data": {
+                "name": "",
+                "description": "<p>Un simbolo dei tuoi sacrifici passati, descrivilo:</p>",
+                "quantity": 1,
+                "weight": 0,
+                "uses": 0,
+                "tags": "",
+                "tagsString": "",
+                "magic": false,
+                "itemType": "",
+                "attributes": {}
+              },
+              "flags": {},
+              "img": "icons/svg/mystery-man.svg",
+              "effects": []
+            }
+          ]
+        },
+        "1": {
+          "label": "Scegli due",
+          "mode": "checkbox",
+          "items": ["6JcOoZ8CNqYxLgyQ", "CMhNmAwhLVZk9lfq"],
+          "objects": []
+        }
+      }
+    },
+    {
+      "id": "The Paladin",
+      "name": "Paladino",
+      "description": "<p>L'inferno ti attende. Tormenti eterni — nel fuoco, nel gelo o qualunque altra forma che rifletta i peccati dell'empietà — e in questo mondo, i dannati sono legione! Solo tu stai tra l'abisso e la salvezza. Una macchina da guerra corazzata, un santo guerriero del Bene e della Luce. I sacerdoti pregano i loro dei nelle tenebre. I guerrieri servono il 'bene' con la lama, ma tu conosci la verità. Solo tu.</p>\n<p>Tu sei gli occhi degli dei, le loro mani, la loro vendetta incarnata. I cieli ti hanno dotato di rettitudine, virtù e, ovviamente, giustizia e lungimiranza.</p>\n<p>I tuoi scopi, a differenza di quelli dei tuoi compagni, sono puri. Guida questi sciocchi, Paladino. Porta su di te questo fardello sacro e porta la salvezza in questo mondo corrotto. Guai ai vinti.</p>",
+      "races": {
+        "0": {
+          "label": "Umano",
+          "description": "Quando dedichi anche solo pochi secondi a pregare per un segno dall'alto e chiedi: «Dove si nasconde il male qui vicino?», il master te lo rivelerà onestamente."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Legale",
+          "description": "Nega misericordia a un colpevole o a un miscredente."
+        },
+        "1": {
+          "label": "Buono",
+          "description": "Proteggi i deboli, anche a rischio della tua vita."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["6JcOoZ8CNqYxLgyQ", "oJ490334TfVi40Zj", "UCiBklwx0UIjYvLo"]
+        },
+        "1": {
+          "label": "Scegli con cosa sei armato",
+          "mode": "checkbox",
+          "items": ["FCIpaJDix5XCpWsz", "TuCJte0lt1C8CgyS", "FkfxRU6NiOzEzkIy"]
+        },
+        "2": {
+          "label": "Scegli uno dei due",
+          "mode": "checkbox",
+          "items": ["YwHV7WYzTPSAOorl", "6JcOoZ8CNqYxLgyQ", "CMhNmAwhLVZk9lfq"]
+        }
+      }
+    },
+    {
+      "id": "The Ranger",
+      "name": "Ranger",
+      "description": "<p>I tuoi compagni sono gente di città. Non hanno mai sentito l'ululato del lupo. Non hanno mai sentito il respiro del vento sulle gelide lande orientali. Hai cacciato prede con solo un coltello e un arco, mentre loro? No, di certo. È per questo che hanno bisogno di te.</p>\n<p>Guida. Cacciatore. Bestia selvaggia. Hai camminato da solo per molto tempo, finché una forza — il destino, forse — ti ha legato a questi compagni. Forse sono coraggiosi. Forse forti. Ma solo tu conosci i segreti delle terre selvagge.</p>\n<p>Senza di te, sono perduti. Guidali attraverso sangue e nebbia, viandante.</p>",
+      "races": {
+        "0": {
+          "label": "Elfo",
+          "description": "Quando intraprendi un viaggio pericoloso in terre selvagge, riesci sempre nel ruolo che scegli: considera di aver ottenuto 10+."
+        },
+        "1": {
+          "label": "Umano",
+          "description": "Quando accampi in un dungeon o in una città, non consumi razioni."
+        }
+      },
+      "alignments": {
+        "0": {
+          "label": "Caotico",
+          "description": "Libera gli altri dalla prigionia, reale o metaforica."
+        },
+        "1": {
+          "label": "Buono",
+          "description": "Combatti contro creature contro natura, anche se pericolose."
+        },
+        "2": {
+          "label": "Neutrale",
+          "description": "Aiuta animali o spiriti delle terre selvagge."
+        }
+      },
+      "equipment": {
+        "0": {
+          "label": "Equipaggiamento iniziale",
+          "mode": "checkbox",
+          "items": ["6JcOoZ8CNqYxLgyQ", "oGiXIqNQbukIjf06", "WrnuJ6j8JerAozDO"]
+        },
+        "1": {
+          "label": "Scegli con cosa sei armato",
+          "mode": "checkbox",
+          "items": ["ygblVgrWgzUHEUax", "Bj8EezgO0DZ9OhVQ", "4wGxPYN283j74dcF"]
+        },
+        "2": {
+          "label": "Scegli una delle opzioni",
+          "mode": "checkbox",
+          "items": ["YwHV7WYzTPSAOorl", "6JcOoZ8CNqYxLgyQ", "WrnuJ6j8JerAozDO"],
+          "objects": []
+        }
+      }
+    }
+  ]
+}

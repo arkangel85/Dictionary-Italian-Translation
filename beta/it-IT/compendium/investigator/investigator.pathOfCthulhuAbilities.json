@@ -1,0 +1,172 @@
+{
+  "label": "Abilità - Trail of Cthulhu",
+  "mapping": {
+    "category": "data.category"
+  },
+  "entries": {
+    "Anthropology": {
+      "name": "Antropologia",
+      "category": "Scientifiche"
+    },
+    "Archeology": {
+      "name": "Archeologia",
+      "category": "Scientifiche"
+    },
+    "Archaeology": {
+      "name": "Archeologia",
+      "category": "Scientifiche"
+    },
+    "Architecture": {
+      "name": "Architettura",
+      "category": "Scientifiche"
+    },
+    "Art History": {
+      "name": "Storia dell’arte",
+      "category": "Scientifiche"
+    },
+    "Astronomy": {
+      "name": "Astronomia",
+      "category": "Applicate"
+    },
+    "Athletics": {
+      "name": "Atletica",
+      "category": "Generali"
+    },
+    "Bureaucracy": {
+      "name": "Burocrazia",
+      "category": "Interpersonali"
+    },
+    "Chemistry": {
+      "name": "Chimica",
+      "category": "Applicate"
+    },
+    "Conceal": {
+      "name": "Occultamento",
+      "category": "Generali"
+    },
+    "Cop Talk": {
+      "name": "Gergo della polizia",
+      "category": "Interpersonali"
+    },
+    "Craft": {
+      "name": "Artigianato",
+      "category": "Applicate"
+    },
+    "Cryptography": {
+      "name": "Crittografia",
+      "category": "Scientifiche"
+    },
+    "Disguise": {
+      "name": "Travestimento",
+      "category": "Generali"
+    },
+    "Driving": {
+      "name": "Guida",
+      "category": "Generali"
+    },
+    "Evidence Collection": {
+      "name": "Raccolta prove",
+      "category": "Applicate"
+    },
+    "Explosives": {
+      "name": "Esplosivi",
+      "category": "Generali"
+    },
+    "Filch": {
+      "name": "Furtarello",
+      "category": "Generali"
+    },
+    "First Aid": {
+      "name": "Primo soccorso",
+      "category": "Generali"
+    },
+    "Flattery": {
+      "name": "Adulazione",
+      "category": "Interpersonali"
+    },
+    "Fleeing": {
+      "name": "Fuga",
+      "category": "Generali"
+    },
+    "Geology": {
+      "name": "Geologia",
+      "category": "Scientifiche"
+    },
+    "Health": {
+      "name": "Salute",
+      "category": "Generali"
+    },
+    "History": {
+      "name": "Storia",
+      "category": "Scientifiche"
+    },
+    "Hypnosis": {
+      "name": "Ipnosi",
+      "category": "Generali"
+    },
+    "Interrogation": {
+      "name": "Interrogatorio",
+      "category": "Interpersonali"
+    },
+    "Intimidation": {
+      "name": "Intimidazione",
+      "category": "Interpersonali"
+    },
+    "Languages": {
+      "name": "Lingue",
+      "category": "Scientifiche"
+    },
+    "Law": {
+      "name": "Legge",
+      "category": "Scientifiche"
+    },
+    "Locksmith": {
+      "name": "Serrature",
+      "category": "Applicate"
+    },
+    "Mechanics": {
+      "name": "Meccanica",
+      "category": "Generali"
+    },
+    "Oral History": {
+      "name": "Storia orale",
+      "category": "Interpersonali"
+    },
+    "Photography": {
+      "name": "Fotografia",
+      "category": "Applicate"
+    },
+    "Piloting": {
+      "name": "Pilotaggio",
+      "category": "Generali"
+    },
+    "Preparedness": {
+      "name": "Prontezza",
+      "category": "Generali"
+    },
+    "Reassurance": {
+      "name": "Rassicurazione",
+      "category": "Interpersonali"
+    },
+    "Riding": {
+      "name": "Equitazione",
+      "category": "Generali"
+    },
+    "Scuffling": {
+      "name": "Rissa",
+      "category": "Generali"
+    },
+    "Sense Trouble": {
+      "name": "Percezione del pericolo",
+      "category": "Generali"
+    },
+    "Stability": {
+      "name": "Stabilità",
+      "category": "Generali"
+    },
+    "Streetwise": {
+      "name": "Fiuto da strada",
+      "category": "Interpersonali"
+    }
+  }
+}

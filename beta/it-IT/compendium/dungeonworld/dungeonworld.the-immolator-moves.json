@@ -1,0 +1,133 @@
+{
+  "label": "Mosse dell'Incendiario",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Burning Brand",
+      "name": "Marchio Infuocato",
+      "description": "Quando <b>crei un’arma fatta di pura fiamma</b>, tira+COS. Puoi usare INT al posto di FOR o DES per attaccare con quest’arma. L’arma ha sempre le proprietà <i>infuocata, contatto, pericolosa</i> e ha 3 cariche. Ogni attacco consuma una carica.",
+      "success": "Scegli due proprietà dall’elenco.",
+      "partial": "Scegli una proprietà dall’elenco.",
+      "choices": "<ul><li>portata (mano)</li><li>lanciabile, vicino</li><li>+1 ai danni</li><li>rimuovi la proprietà pericolosa</li></ul>"
+    },
+    {
+      "id": "Burning Bridges",
+      "name": "Bruciare i Ponti",
+      "description": "Quando <b>devi compiere il <i>ultimo respiro</i></b>, puoi invece cancellare uno dei tuoi legami. Questo riduce permanentemente il tuo numero massimo di legami. Rimani vivo con [[/roll 1d6]] PF. Se non hai più legami, effettua <i>ultimo respiro</i> normalmente."
+    },
+    {
+      "id": "Burning Ring Of Fire",
+      "name": "Anello di Fuoco",
+      "description": "Quando <b>nutri un personaggio consenziente con il tuo fuoco interiore</b>, tira+CAR. Il legame (se ha successo) non può essere spezzato senza magia.",
+      "success": "Siete connessi: potete percepirvi e condividere emozioni a qualsiasi distanza.",
+      "partial": "Il legame è instabile e pericoloso: se uno subisce una ferita, la subisce anche l’altro.",
+      "failure": "Entrambi cancellate ogni legame reciproco. Potete crearne di nuovi <i>alla fine della sessione</i>."
+    },
+    {
+      "id": "Burns Half As Long",
+      "name": "Brucia a Metà",
+      "description": "Quando <b>sacrifici una vittoria al fuoco del destino</b>, considera ogni 10+ come un fallimento."
+    },
+    {
+      "id": "Burns Twice As Bright",
+      "name": "Brucia Due Volte Più Forte",
+      "description": "Quando <b>irradi i fuochi del destino</b>, puoi considerare un fallimento come 7–9, oppure un 7–9 come un 10+. Vale anche per i tiri altrui. Dichiara al GM cosa hai perso: emozioni, un ricordo, una parte di te. Non puoi riusare questa mossa finché non usi <i>Brucia a Metà</i>."
+    },
+    {
+      "id": "Fanning The Flames",
+      "name": "Attizzare le Fiamme",
+      "description": "Puoi <i>risvegliare l’interesse</i> di un gruppo di una decina di persone."
+    },
+    {
+      "id": "Fighting Fire with Fire",
+      "name": "Combattere con il Fuoco",
+      "description": "Quando <b>subisci danno</b> (dopo la riduzione armatura), il tuo fuoco interiore può aiutarti. Tira [[/roll 1d4]] e aggiungilo alla riserva del <i>Marchio Infuocato</i> (se attivo) oppure sottrai quel numero ai danni subiti."
+    },
+    {
+      "id": "Firebrand",
+      "name": "Pungolo Infuocato",
+      "description": "Quando proponi un’idea nuova a un PNG, tira+CAR.",
+      "success": "Ci crede e si lascia coinvolgere.",
+      "partial": "La passione svanisce dopo un giorno o due.",
+      "failure": "Reagisce con disapprovazione esplicita."
+    },
+    {
+      "id": "From Hell’s Heart",
+      "name": "Fiamma Infernale",
+      "description": "Quando <b>generi fiamme con una mossa</b>, puoi decidere che siano nere e infernali. Non bruciano fisicamente, ma corrodono l’anima e ignorano l’armatura. Non danneggiano creature prive di anima."
+    },
+    {
+      "id": "Give Me Fuel, Give Me Fire",
+      "name": "Dammi il Fuoco",
+      "description": "Quando <b>guardi qualcuno negli occhi</b>, puoi chiedere al giocatore: «Cosa alimenta il fuoco dei tuoi desideri?». Deve rispondere sinceramente, anche se il personaggio non lo sa o vuole nasconderlo."
+    },
+    {
+      "id": "Hand Crafted",
+      "name": "Forgiato a Mano",
+      "description": "Puoi usare le mani come strumenti e plasmare oggetti metallici con il fuoco. Puoi creare armi, armature, gioielli e simili. Puoi anche fonderli. Se sei in pericolo o di fretta, potresti dover <i>sfuggire a una minaccia</i>."
+    },
+    {
+      "id": "Lore Of Flame",
+      "name": "Sapienza delle Fiamme",
+      "description": "Quando <b>scruti il fuoco in cerca di risposte</b>, tira+SAG. In caso di successo, il GM ti rivela qualcosa di utile e interessante.",
+      "success": "Il GM fornisce dettagli precisi.",
+      "partial": "Hai una vaga intuizione. Se sai già tutto, il GM te lo dice."
+    },
+    {
+      "id": "Moth To The Flame",
+      "name": "Come una Falena",
+      "description": "Quando sopraffai una mente debole con il tuo fuoco interiore, tira+SAG.",
+      "success": "La volontà della creatura è annullata: ti seguirà e obbedirà finché non verrà spaventata o distratta.",
+      "partial": "Basta a distrarla o confonderla.",
+      "failure": "È turbata: il tuo fuoco ha risvegliato i suoi desideri nascosti."
+    },
+    {
+      "id": "Ogdru Jahad",
+      "name": "Ogdru Jahad",
+      "description": "Ottieni la mossa del mago <i>rituale</i>. Il GM ti dirà sempre cosa devi sacrificare per ottenere l’effetto desiderato."
+    },
+    {
+      "id": "Sick Burn",
+      "name": "Bruciatura Umiliante",
+      "description": "Quando insulti un PNG, tira+CAR.",
+      "success": "Rimane senza parole, sentendo il giudizio degli altri.",
+      "partial": "Hai esagerato: prima o poi si vendicherà.",
+      "failure": "Hai passato il limite: ora hai un problema immediato."
+    },
+    {
+      "id": "The Enkindler",
+      "name": "L’Incendiario",
+      "description": "Quando ispiri gli altri a compiere atti eroici, tira+CAR.",
+      "success": "Superano la paura, pieni di coraggio.",
+      "partial": "L’effetto svanisce presto: vogliono ritirarsi o scappare.",
+      "failure": "La tua presenza li spaventa."
+    },
+    {
+      "id": "This Killing Fire",
+      "name": "Fiamma Letale",
+      "description": "Aggiungi queste proprietà come opzioni per il <i>Marchio Infuocato</i>: <i>potente, straziante, impatto, vicino, lontano</i>."
+    },
+    {
+      "id": "Watch The World Burn",
+      "name": "Vedere il Mondo Bruciare",
+      "description": "Quando <b>apri un varco sul Piano del Fuoco e scateni una tempesta</b>, dichiara al GM cosa sacrifichi e tira+SAG. Una pioggia infuocata devasta un’area grande quanto un villaggio.",
+      "success": "Puoi fermare la tempesta in qualsiasi momento.",
+      "partial": "Il fuoco si diffonde incontrollato, spinto dai venti.",
+      "failure": "Qualcosa di malvagio, intelligente e affamato entra nel tuo mondo insieme alla tempesta."
+    },
+    {
+      "id": "Zuko Style",
+      "name": "Stile Zuko",
+      "description": "Quando <b>plasmi il fuoco con la tua volontà</b>, tira+SAG.",
+      "success": "Si muove come desideri e prende la forma voluta finché ha combustibile.",
+      "partial": "Brucia solo per qualche istante."
+    }
+  ]
+}

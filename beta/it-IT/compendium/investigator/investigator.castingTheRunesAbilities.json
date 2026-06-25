@@ -1,0 +1,260 @@
+{
+  "label": "Abilità - Casting the Runes",
+  "mapping": {
+    "category": "data.category"
+  },
+  "entries": {
+    "Anthropology": {
+      "name": "Antropologia",
+      "category": "Scientifiche"
+    },
+    "Archaeology": {
+      "name": "Archeologia",
+      "category": "Scientifiche"
+    },
+    "Architecture": {
+      "name": "Architettura",
+      "category": "Scientifiche"
+    },
+    "Art": {
+      "name": "Arte",
+      "category": "Applicate"
+    },
+    "Art History": {
+      "name": "Storia dell'arte",
+      "category": "Scientifiche"
+    },
+    "Assess Honesty": {
+      "name": "Intuito",
+      "category": "Interpersonali"
+    },
+    "Astronomy": {
+      "name": "Astronomia",
+      "category": "Applicate"
+    },
+    "Athletics": {
+      "name": "Atletica",
+      "category": "Generali"
+    },
+    "Bargain": {
+      "name": "Contrattazione",
+      "category": "Interpersonali"
+    },
+    "Biology": {
+      "name": "Biologia",
+      "category": "Scientifiche"
+    },
+    "Bookkeeping": {
+      "name": "Contabilità",
+      "category": "Applicate"
+    },
+    "Bureaucracy": {
+      "name": "Burocrazia",
+      "category": "Generali"
+    },
+    "Charm": {
+      "name": "Fascino",
+      "category": "Interpersonali"
+    },
+    "Chemistry": {
+      "name": "Chimica",
+      "category": "Applicate"
+    },
+    "Class": {
+      "name": "Status sociale",
+      "category": "Interpersonali"
+    },
+    "Conceal": {
+      "name": "Nascondere",
+      "category": "Generali"
+    },
+    "Connections": {
+      "name": "Contatti",
+      "category": "Generali"
+    },
+    "Contemplation": {
+      "name": "Contemplazione",
+      "category": "Scientifiche"
+    },
+    "Craft": {
+      "name": "Artigianato",
+      "category": "Applicate"
+    },
+    "Criminology": {
+      "name": "Criminologia",
+      "category": "Scientifiche"
+    },
+    "Cryptography": {
+      "name": "Crittografia",
+      "category": "Applicate"
+    },
+    "Demolition": {
+      "name": "Esplosivi",
+      "category": "Generali"
+    },
+    "Disguise": {
+      "name": "Travestimento",
+      "category": "Generali"
+    },
+    "Driving": {
+      "name": "Guida",
+      "category": "Generali"
+    },
+    "Evidence Collection": {
+      "name": "Raccolta prove",
+      "category": "Applicate"
+    },
+    "Fieldcraft": {
+      "name": "Tecniche di campo",
+      "category": "Applicate"
+    },
+    "Filch": {
+      "name": "Furtarello",
+      "category": "Generali"
+    },
+    "Firearms": {
+      "name": "Armi da fuoco",
+      "category": "Generali"
+    },
+    "First Aid": {
+      "name": "Primo soccorso",
+      "category": "Generali"
+    },
+    "Fleeing": {
+      "name": "Fuga",
+      "category": "Generali"
+    },
+    "Folklore": {
+      "name": "Folclore",
+      "category": "Scientifiche"
+    },
+    "Forensics": {
+      "name": "Medicina legale",
+      "category": "Applicate"
+    },
+    "Gambling": {
+      "name": "Giochi d'azzardo",
+      "category": "Generali"
+    },
+    "Geology": {
+      "name": "Geologia",
+      "category": "Scientifiche"
+    },
+    "Health": {
+      "name": "Salute",
+      "category": "Generali"
+    },
+    "History": {
+      "name": "Storia",
+      "category": "Scientifiche"
+    },
+    "Hypnosis": {
+      "name": "Ipnosi",
+      "category": "Generali"
+    },
+    "Interrogation": {
+      "name": "Interrogatorio",
+      "category": "Interpersonali"
+    },
+    "Intimidation": {
+      "name": "Intimidazione",
+      "category": "Interpersonali"
+    },
+    "Language": {
+      "name": "Linguaggio",
+      "category": "Scientifiche"
+    },
+    "Law": {
+      "name": "Diritto",
+      "category": "Scientifiche"
+    },
+    "Library Use": {
+      "name": "Ricerca in biblioteca",
+      "category": "Scientifiche"
+    },
+    "Mechanics": {
+      "name": "Meccanica",
+      "category": "Generali"
+    },
+    "Medicine": {
+      "name": "Medicina",
+      "category": "Scientifiche"
+    },
+    "Navigation": {
+      "name": "Navigazione",
+      "category": "Generali"
+    },
+    "Occult": {
+      "name": "Occultismo",
+      "category": "Scientifiche"
+    },
+    "Pharmacy": {
+      "name": "Farmaceutica",
+      "category": "Applicate"
+    },
+    "Photography": {
+      "name": "Fotografia",
+      "category": "Applicate"
+    },
+    "Physics": {
+      "name": "Fisica",
+      "category": "Scientifiche"
+    },
+    "Preparedness": {
+      "name": "Prontezza",
+      "category": "Generali"
+    },
+    "Psychoanalysis": {
+      "name": "Psicoanalisi",
+      "category": "Generali"
+    },
+    "Reassurance": {
+      "name": "Rassicurazione",
+      "category": "Interpersonali"
+    },
+    "Riding": {
+      "name": "Equitazione",
+      "category": "Generali"
+    },
+    "Sailing": {
+      "name": "Navigazione nautica",
+      "category": "Generali"
+    },
+    "Scuffling": {
+      "name": "Rissa",
+      "category": "Generali"
+    },
+    "Sense Trouble": {
+      "name": "Percezione del pericolo",
+      "category": "Generali"
+    },
+    "Shadowing": {
+      "name": "Pedinamento",
+      "category": "Generali"
+    },
+    "Stability": {
+      "name": "Autocontrollo",
+      "category": "Generali"
+    },
+    "Stealth": {
+      "name": "Furtività",
+      "category": "Generali"
+    },
+    "Streetwise": {
+      "name": "Furbizia di strada",
+      "category": "Interpersonali"
+    },
+    "Theology": {
+      "name": "Teologia",
+      "category": "Scientifiche"
+    },
+    "Trade": {
+      "name": "Commercio",
+      "category": "Generali"
+    },
+    "Weapons": {
+      "name": "Scherma",
+      "category": "Generali"
+    }
+  }
+}

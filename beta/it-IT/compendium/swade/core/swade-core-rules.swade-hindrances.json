@@ -1,0 +1,176 @@
+{
+  "label": "Difetti",
+  "entries": {
+    "All Thumbs": {
+      "name": "Mani di pasta frolla"
+    },
+    "Anemic": {
+      "name": "Debolezza fisica"
+    },
+    "Arrogant": {
+      "name": "Arroganza"
+    },
+    "Bad Eyes": {
+      "name": "Vista debole"
+    },
+    "Bad Luck": {
+      "name": "Sfortuna"
+    },
+    "Big Mouth": {
+      "name": "Lingua lunga"
+    },
+    "Blind": {
+      "name": "Cecità"
+    },
+    "Bloodthirsty": {
+      "name": "Assetato di sangue"
+    },
+    "Can't Swim": {
+      "name": "Non sa nuotare"
+    },
+    "Cautious": {
+      "name": "Eccesso di prudenza"
+    },
+    "Clueless": {
+      "name": "Sbadataggine"
+    },
+    "Clumsy": {
+      "name": "Goffaggine"
+    },
+    "Code of Honor": {
+      "name": "Codice d'onore"
+    },
+    "Curious": {
+      "name": "Curiosità"
+    },
+    "Death Wish": {
+      "name": "Desiderio di morte"
+    },
+    "Delusional": {
+      "name": "Illuso"
+    },
+    "Doubting Thomas": {
+      "name": "Scettico"
+    },
+    "Driven": {
+      "name": "Ossessione"
+    },
+    "Elderly": {
+      "name": "Vecchiaia"
+    },
+    "Enemy": {
+      "name": "Nemico"
+    },
+    "Greedy": {
+      "name": "Avidità"
+    },
+    "Habit": {
+      "name": "Cattiva abitudine"
+    },
+    "Hard of Hearing": {
+      "name": "Difficoltà uditive"
+    },
+    "Heroic": {
+      "name": "Eroismo"
+    },
+    "Hesitant": {
+      "name": "Lentezza decisionale"
+    },
+    "Illiterate": {
+      "name": "Analfabetismo"
+    },
+    "Impulsive": {
+      "name": "Impulsività"
+    },
+    "Jealous": {
+      "name": "Gelosia"
+    },
+    "Loyal": {
+      "name": "Fedeltà"
+    },
+    "Mean": {
+      "name": "Cattivo carattere"
+    },
+    "Mild Mannered": {
+      "name": "Mitezza"
+    },
+    "Mute": {
+      "name": "Mutismo"
+    },
+    "Obese": {
+      "name": "Obesità"
+    },
+    "Obligation": {
+      "name": "Obbligo"
+    },
+    "One Arm": {
+      "name": "Manca un braccio"
+    },
+    "One Eye": {
+      "name": "Manca un occhio"
+    },
+    "Outsider": {
+      "name": "Emarginato"
+    },
+    "Overconfident": {
+      "name": "Eccessiva fiducia"
+    },
+    "Pacifist": {
+      "name": "Pacifismo"
+    },
+    "Phobia": {
+      "name": "Fobia"
+    },
+    "Poverty": {
+      "name": "Indigenza"
+    },
+    "Quirk": {
+      "name": "Bizzarria"
+    },
+    "Ruthless": {
+      "name": "Spietatezza"
+    },
+    "Secret": {
+      "name": "Segreto"
+    },
+    "Shamed": {
+      "name": "Vergogna"
+    },
+    "Slow": {
+      "name": "Zoppia"
+    },
+    "Small": {
+      "name": "Bassa statura"
+    },
+    "Stubborn": {
+      "name": "Ostinazione"
+    },
+    "Suspicious": {
+      "name": "Paranoia"
+    },
+    "Thin Skinned": {
+      "name": "Permalosità"
+    },
+    "Timid": {
+      "name": "Timidezza"
+    },
+    "Tongue-Tied": {
+      "name": "Balbuzie"
+    },
+    "Ugly": {
+      "name": "Bruttezza"
+    },
+    "Vengeful": {
+      "name": "Vendicativo"
+    },
+    "Vow": {
+      "name": "Giuramento"
+    },
+    "Wanted": {
+      "name": "Ricercato"
+    },
+    "Young": {
+      "name": "Gioventù"
+    }
+  }
+}

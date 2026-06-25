@@ -1,0 +1,18 @@
+{
+  "rsr5e": {
+    "chat": {
+      "buttons": {
+        "healingTemp": "Aggiungi punti ferita temporanei ai token selezionati"
+      }
+    },
+    "settings": {
+      "enableAbilityQuickRoll": {
+        "hint": "Cliccando su una caratteristica o un tiro salvezza verrà eseguita automaticamente una prova senza la finestra di conferma. Per ottenere il comportamento standard, tieni premuto Alt mentre clicchi."
+      },
+      "enableDeathQuickRoll": {
+        "hint": "Cliccando su un tiro salvezza contro la morte verrà eseguita automaticamente una prova senza la finestra di conferma. Per ottenere la finestra standard, tieni premuto Alt mentre clicchi.",
+        "name": "Tiri salvezza contro la morte rapidi"
+      }
+    }
+  }
+}

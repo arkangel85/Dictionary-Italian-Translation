@@ -1,0 +1,37 @@
+{
+  "label": "Passato",
+  "mapping": {
+    "description": "system.description"
+  },
+
+  "entries": {
+    "Academic": {
+      "name": "Studioso",
+      "description": "ricercatore, insegnante o studente presso l'Accademia di Duskvol, filosofo, giornalista, ecc."
+    },
+    "Labor": {
+      "name": "Lavoratore",
+      "description": "operaio di fabbrica o delle ferrovie, servitore, cocchiere, scaricatore di porto, marinaio, ecc."
+    },
+    "Law": {
+      "name": "Giurista",
+      "description": "avvocato, Giubba Blu, ispettore o persino Custode degli Spiriti, guardia di Ironhook, ecc."
+    },
+    "Military": {
+      "name": "Militare",
+      "description": "soldato imperiale o skovlandese, mercenario, esploratore, stratega, istruttore, ecc."
+    },
+    "Noble": {
+      "name": "Nobile",
+      "description": "giovane aristocratico, cortigiano, discendente di una casata decaduta, ecc."
+    },
+    "Trade": {
+      "name": "Commerciante",
+      "description": "negoziante, mercante, artigiano abile, spedizioniere, ecc."
+    },
+    "Underworld": {
+      "name": "Malvivente",
+      "description": "orfano di strada, membro di una gang, teppista o qualsiasi altro emarginato cresciuto per le strade."
+    }
+  }
+}

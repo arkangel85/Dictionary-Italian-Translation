@@ -1,0 +1,142 @@
+{
+  "label": "Mosse del Bardo",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "A Little Help From My Friends",
+      "name": "Con un piccolo aiuto dagli amici",
+      "description": "Quando <b>aiuti con successo qualcuno</b>, ottieni anche tu +1 alla prossima mossa."
+    },
+    {
+      "id": "A Port In The Storm",
+      "name": "Un porto nella tempesta",
+      "description": "Quando <b>torni in un insediamento in cui sei già stato</b>, indica al GM quando è successo. Lui ti dirà cosa è cambiato nel frattempo."
+    },
+    {
+      "id": "An Ear For Magic",
+      "name": "Orecchio per la magia",
+      "description": "Quando <b>senti un nemico lanciare un incantesimo</b>, il GM ti dirà il nome e l’effetto dell’incantesimo. Ottieni +1 alla prossima mossa se agisci in base a queste informazioni."
+    },
+    {
+      "id": "Arcane Art",
+      "name": "Arte Arcana",
+      "description": "<b>Intessendo la tua esibizione in un incantesimo da bardo</b>, scegli un alleato e un effetto, poi tira+CAR.",
+      "choices": "<ul>\n<li>il bersaglio cura [[/roll 1d8]] danni;</li>\n<li>il bersaglio ottiene +[[/roll 1d4]] al prossimo tiro per infliggere danni;</li>\n<li>la mente del bersaglio si libera da un incantamento;</li>\n<li>il prossimo aiuto riuscito sul bersaglio fornirà un bonus di +2 invece di +1.</li>\n</ul>",
+      "success": "L'effetto scelto viene applicato all'alleato.",
+      "partial": "Il tuo incantesimo funziona, ma a scelta del GM: o attiri attenzioni indesiderate, o l'incanto colpisce anche altri bersagli."
+    },
+    {
+      "id": "Bamboozle",
+      "name": "Confondere",
+      "description": "Quando <b><i>contratti</i> con qualcuno</b>, con 7+ ottieni anche +1 alla prossima mossa che coinvolge quella persona."
+    },
+    {
+      "id": "Bardic Lore",
+      "name": "Conoscenze Bardiche",
+      "description": "Scegli un ambito di specializzazione:\n<ul>\n<li>incantesimi e magia;</li>\n<li>morti e non morti;</li>\n<li>eventi storici del mondo conosciuto;</li>\n<li>creature insolite;</li>\n<li>piani d’esistenza;</li>\n<li>leggende di eroi del passato;</li>\n<li>divinità e i loro servitori.</li>\n</ul>\nQuando <b>incontri per la prima volta una creatura, oggetto o luogo importante</b> (secondo te), se rientra nella tua area, puoi fare una domanda al GM. Lui risponderà sinceramente, e potrà chiederti da quale leggenda, ballata o storia conosci queste informazioni."
+    },
+    {
+      "id": "Charming & Open",
+      "name": "Affascinante e Sincero",
+      "description": "Quando <b>parli apertamente con qualcuno</b>, puoi fare al giocatore che controlla quel personaggio una domanda tra queste. Lui deve rispondere sinceramente, poi ti farà a sua volta una delle stesse domande (a cui dovrai rispondere sinceramente).\n<ul>\n<li>A chi sei fedele?</li>\n<li>Cosa vorresti che facessi?</li>\n<li>Come posso convincerti a fare ________?</li>\n<li>Onestamente, come ti senti in questo momento?</li>\n<li>Qual è il tuo desiderio più profondo?</li>\n</ul>"
+    },
+    {
+      "id": "Con",
+      "name": "Truffare",
+      "description": "Quando <b><i>contratti</i> con qualcuno</b>, con 7+ ottieni +1 al prossimo tiro di interazione con quel personaggio. Inoltre, puoi fargli una domanda a cui deve rispondere sinceramente."
+    },
+    {
+      "id": "Devious",
+      "name": "Subdolo",
+      "description": "Quando <b>usi la mossa <i>Affascinante e Sincero</i></b>, puoi anche chiedere: “Hai un punto debole che potrei sfruttare?” Chi risponde non può farti la stessa domanda."
+    },
+    {
+      "id": "Duelist’s Block",
+      "name": "Parata del Duellante",
+      "description": "Dopo aver usato <i>colpisci e affetta</i>, ottieni +2 armatura fino alla fine del prossimo turno."
+    },
+    {
+      "id": "Duelist’s Parry",
+      "name": "Schivata del Duellante",
+      "description": "Dopo <i>colpisci e affetta</i>, ottieni +1 armatura fino alla fine del prossimo turno."
+    },
+    {
+      "id": "Eldritch Chord",
+      "name": "Accordo Infernale",
+      "description": "Quando <b>usi la <i>magia dell’arte</i></b>, scegli due effetti. Puoi anche raddoppiarne uno."
+    },
+    {
+      "id": "Eldritch Tones",
+      "name": "Toni Arcani",
+      "description": "La tua <i>magia dell’arte</i> è potente — puoi scegliere due effetti invece di uno."
+    },
+    {
+      "id": "Healing Chorus",
+      "name": "Coro Curativo",
+      "description": "<b>Quando curi usando la <i>magia dell’arte</i></b>, guarisci [[/roll 2d8]] danni in più."
+    },
+    {
+      "id": "Healing Song",
+      "name": "Canzone Curativa",
+      "description": "Quando <b>usi la magia dell’arte per guarire</b>, curi [[/roll 1d8]] danni extra."
+    },
+    {
+      "id": "It Goes To Eleven",
+      "name": "Volume al Massimo",
+      "description": "Quando <b>scateni la potenza folle della tua musica su un nemico</b> (magari un assolo di liuto o fiati infernali): scegli un bersaglio che può sentirti e tira+CAR.",
+      "success": "Costringi il bersaglio ad attaccare il suo alleato più vicino.",
+      "partial": "Attacca comunque un alleato, ma attira anche la sua attenzione e rabbia su di te."
+    },
+    {
+      "id": "Metal Hurlant",
+      "name": "Urlo Metallico",
+      "description": "Quando <b>urli in modo spaventoso o suoni un accordo distruttivo</b>, scegli un bersaglio e tira+COS.",
+      "success": "Il bersaglio subisce [[/roll 1d10]] danni ed è assordato per alcuni minuti.",
+      "partial": "Infliggi comunque danni, ma la forza dell’urlo colpisce anche un secondo bersaglio a scelta del GM."
+    },
+    {
+      "id": "Multiclass Dabbler",
+      "name": "Multiclasse: Dilettante",
+      "description": "Scegli una mossa di un’altra classe, considerando il tuo livello come inferiore di 1."
+    },
+    {
+      "id": "Multiclass Initiate",
+      "name": "Multiclasse: Iniziato",
+      "description": "Scegli una mossa di un’altra classe, considerando il tuo livello come inferiore di 1."
+    },
+    {
+      "id": "Multiclass Master",
+      "name": "Multiclasse: Maestro",
+      "description": "Scegli una mossa di un’altra classe, considerando il tuo livello come inferiore di 1."
+    },
+    {
+      "id": "Reputation",
+      "name": "Reputazione",
+      "description": "Quando incontri qualcuno che ha sentito cantare di te, tira+CAR.",
+      "success": "Di al GM due fatti che questa persona ha sentito su di te.",
+      "partial": "Di al GM un fatto; il secondo lo inventerà lui."
+    },
+    {
+      "id": "Unforgettable Face",
+      "name": "Volto Indimenticabile",
+      "description": "Quando <b>incontri qualcuno che hai già visto</b> (a tua discrezione), ottieni +1 al prossimo tiro che lo coinvolge."
+    },
+    {
+      "id": "Vicious Blast",
+      "name": "Esplosione Spietata",
+      "description": "Quando <b>usi la <i>magia dell’arte</i> per dare un bonus al danno</b>, il bonus aumenta di [[/roll 2d4]]."
+    },
+    {
+      "id": "Vicious Cacophony",
+      "name": "Cacofonia Spietata",
+      "description": "Quando <b>usi la magia dell’arte per dare un bonus al danno</b>, il bonus aumenta di [[/roll 1d4]]."
+    }
+  ]
+}

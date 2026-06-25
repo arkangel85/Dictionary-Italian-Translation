@@ -1,0 +1,1 @@
+import{b as e}from"./shared.js";function t(){e(`dune`)}export{t as init};

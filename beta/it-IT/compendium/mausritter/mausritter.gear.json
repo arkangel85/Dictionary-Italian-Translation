@@ -1,0 +1,315 @@
+{
+  "label": "Equipaggiamento",
+  "mapping": {
+    "description": "system.description",
+    "tag": "system.tag"
+  },
+  "entries": {
+    "20p IOU from a noblemouse": {
+      "name": "Pagherò da 20 z. di un topo nobile",
+      "description": ""
+    },
+    "Arrows": {
+      "name": "Frecce",
+      "description": "",
+      "tag": "Munizioni"
+    },
+    "Bag of bat teeth": {
+      "name": "Sacco di denti di pipistrello",
+      "description": ""
+    },
+    "Barrel of ale": {
+      "name": "Barile di birra",
+      "description": ""
+    },
+    "Battery": {
+      "name": "Batteria",
+      "description": ""
+    },
+    "Bedroll": {
+      "name": "Sacco a pelo",
+      "description": ""
+    },
+    "Bellows": {
+      "name": "Mantice",
+      "description": ""
+    },
+    "Book": {
+      "name": "Libro",
+      "description": ""
+    },
+    "Bottle": {
+      "name": "Bottiglia",
+      "description": ""
+    },
+    "Bottle of milk": {
+      "name": "Bottiglia di latte",
+      "description": ""
+    },
+    "Bucket": {
+      "name": "Secchio",
+      "description": ""
+    },
+    "Caltrops": {
+      "name": "Triboli",
+      "description": ""
+    },
+    "Chalk": {
+      "name": "Gessetto",
+      "description": ""
+    },
+    "Cheese": {
+      "name": "Pezzo di formaggio",
+      "description": ""
+    },
+    "Cheesewheel": {
+      "name": "Forma di formaggio",
+      "description": ""
+    },
+    "Chisel": {
+      "name": "Scalpello",
+      "description": ""
+    },
+    "Compass": {
+      "name": "Bussola",
+      "description": ""
+    },
+    "Cookpots": {
+      "name": "Pentolone",
+      "description": ""
+    },
+    "Crowbar": {
+      "name": "Piede di porco",
+      "description": ""
+    },
+    "Dice": {
+      "name": "Dadi",
+      "description": ""
+    },
+    "Disguise kit": {
+      "name": "Kit per travestimenti",
+      "description": ""
+    },
+    "Drill": {
+      "name": "Trapano",
+      "description": ""
+    },
+    "Electric Lantern": {
+      "name": "Lanterna elettrica",
+      "description": ""
+    },
+    "Felt hat": {
+      "name": "Cappello di feltro",
+      "description": ""
+    },
+    "Fishing Hook": {
+      "name": "Amo da pesca",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Flask of coffee": {
+      "name": "Fiaschetta di caffè",
+      "description": ""
+    },
+    "Glue": {
+      "name": "Colla",
+      "description": ""
+    },
+    "Goggles": {
+      "name": "Occhiali protettivi",
+      "description": ""
+    },
+    "Grease": {
+      "name": "Grasso lubrificante",
+      "description": ""
+    },
+    "Hammer": {
+      "name": "Martello",
+      "description": ""
+    },
+    "Hireling": {
+      "name": "Portatore: ratto da soma",
+      "description": ""
+    },
+    "Hireling: Drunken torchbearer": {
+      "name": "Portatore: fiacchifero ubriaco",
+      "description": ""
+    },
+    "Hireling: Loyal beetle": {
+      "name": "Portatore: scarabeo fedele",
+      "description": ""
+    },
+    "Holy Symbol": {
+      "name": "Simbolo sacro",
+      "description": ""
+    },
+    "Hourglass": {
+      "name": "Clessidra",
+      "description": ""
+    },
+    "Incense Stick": {
+      "name": "Bastoncino d'incenso",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Instrument": {
+      "name": "Strumento musicale",
+      "description": ""
+    },
+    "Jar of honey": {
+      "name": "Barattolo di miele",
+      "description": ""
+    },
+    "Key": {
+      "name": "Chiave",
+      "description": ""
+    },
+    "Lantern": {
+      "name": "Lanterna",
+      "description": ""
+    },
+    "Lens": {
+      "name": "Lente",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Loaded dice": {
+      "name": "Dadi truccati",
+      "description": ""
+    },
+    "Lockpicks": {
+      "name": "Grimaldelli",
+      "description": ""
+    },
+    "Matchbox": {
+      "name": "Scatola di fiammiferi",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Metal File": {
+      "name": "Lima di metallo",
+      "description": ""
+    },
+    "Mirror": {
+      "name": "Specchio",
+      "description": ""
+    },
+    "Moustrap": {
+      "name": "Trappola per topi",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Mushrooms": {
+      "name": "Funghi",
+      "description": ""
+    },
+    "Necklace Chain": {
+      "name": "Catena per collana",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Net": {
+      "name": "Rete",
+      "description": ""
+    },
+    "Padlock and Key": {
+      "name": "Lucchetto con chiave, grande",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Perfume": {
+      "name": "Profumo",
+      "description": ""
+    },
+    "Pip Purse": {
+      "name": "Borsellino per semini",
+      "description": ""
+    },
+    "Poison": {
+      "name": "Veleno",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Quill & ink": {
+      "name": "Piuma e inchiostro",
+      "description": ""
+    },
+    "Rations": {
+      "name": "Razioni",
+      "description": ""
+    },
+    "Scrap of obscure book": {
+      "name": "Frammento di libro oscuro",
+      "description": ""
+    },
+    "Sealed documents": {
+      "name": "Documenti sigillati",
+      "description": ""
+    },
+    "Shears": {
+      "name": "Forbici",
+      "description": ""
+    },
+    "Shovel": {
+      "name": "Pala",
+      "description": ""
+    },
+    "Soap": {
+      "name": "Sapone, pezzo piccolo",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Spore Mask": {
+      "name": "Maschera antifungo",
+      "description": ""
+    },
+    "Stones": {
+      "name": "Sassi",
+      "description": "",
+      "tag": "Munizioni"
+    },
+    "Tent": {
+      "name": "Tenda",
+      "description": ""
+    },
+    "Thread": {
+      "name": "Filo, rocchetto",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Torches": {
+      "name": "Fascio di torce",
+      "description": ""
+    },
+    "Treasure map": {
+      "name": "Mappa del tesoro",
+      "description": ""
+    },
+    "Twine": {
+      "name": "Spago, gomitolo",
+      "description": "",
+      "tag": "Fatto dagli umani"
+    },
+    "Waterskin": {
+      "name": "Otre d'acqua",
+      "description": ""
+    },
+    "Whistle": {
+      "name": "Fischietto",
+      "description": ""
+    },
+    "Wire, spool": {
+      "name": "Filo metallico, rocchetto",
+      "description": ""
+    },
+    "Wooden Pole": {
+      "name": "Palo di legno",
+      "description": "",
+      "tag": "6 pollici"
+    },
+    "Wooden Spikes": {
+      "name": "Punte di legno",
+      "description": ""
+    }
+  }
+}

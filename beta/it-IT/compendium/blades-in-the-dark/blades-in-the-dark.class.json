@@ -1,0 +1,60 @@
+{
+  "label": "Schede",
+  "mapping": {
+    "description": "system.description",
+    "experience_clues": "system.experience_clues"
+  },
+
+  "entries": {
+    "Cutter": {
+      "name": "Macellaio",
+      "description": "Un picchiatore pericoloso e intimidatorio",
+      "experience_clues": "Hai cercato di risolvere un problema con la violenza o la coercizione."
+    },
+    "Ghost": {
+      "name": "Fantasma",
+      "description": "Uno spirito incorporeo in cerca di vendetta",
+      "experience_clues": "Ti sei vendicato di chi, secondo te, lo meritava. Hai espresso la tua rabbia o affrontato questioni legate alla tua origine o al tuo passato. Hai avuto problemi a causa del tuo bisogno o delle tue ossessioni. (TUTTO IL RESTO NON DÀ ESPERIENZA)"
+    },
+    "Hound": {
+      "name": "Segugio",
+      "description": "Un tiratore scelto e tracciatore",
+      "experience_clues": "Hai cercato di risolvere un problema tramite tracciamento o violenza."
+    },
+    "Hull": {
+      "name": "Automa",
+      "description": "Uno spirito che anima una creazione dell'ingegneria elettroscopica",
+      "experience_clues": "Hai svolto il tuo compito nonostante pericoli o difficoltà. Hai represso o ignorato le tue convinzioni, scopi, origini o passato umani. Hai avuto problemi a causa della tua usura. (TUTTO IL RESTO NON DÀ ESPERIENZA)"
+    },
+    "Leech": {
+      "name": "Tecnico",
+      "description": "Uno specialista in meccanica e sabotaggi",
+      "experience_clues": "Hai cercato di risolvere un problema con la tua abilità tecnica o creando confusione."
+    },
+    "Lurk": {
+      "name": "Furfante",
+      "description": "Un sabotatore e scassinatore furtivo",
+      "experience_clues": "Hai cercato di risolvere un problema con la furtività o hai evitato abilmente il pericolo."
+    },
+    "Slide": {
+      "name": "Artista",
+      "description": "Un sottile manipolatore e spia",
+      "experience_clues": "Hai cercato di risolvere un problema con l'inganno o influenzando le persone."
+    },
+    "Spider": {
+      "name": "Burattinaio",
+      "description": "Un calcolatore astuto",
+      "experience_clues": "Hai cercato di risolvere un problema con astuzia o cospirazione segreta."
+    },
+    "Vampire": {
+      "name": "Vampiro",
+      "description": "Uno spirito che anima un corpo un tempo vivo",
+      "experience_clues": "Hai dimostrato superiorità o ucciso senza pietà."
+    },
+    "Whisper": {
+      "name": "Mistico",
+      "description": "Uno studioso e praticante di teoria magica",
+      "experience_clues": "Hai cercato di risolvere un problema con la conoscenza o con poteri magici."
+    }
+  }
+}

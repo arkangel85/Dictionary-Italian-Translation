@@ -1,0 +1,134 @@
+{
+  "label": "Mosse del Guerriero",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "choices": "system.choices"
+  },
+  "entries": [
+    {
+      "id": "Armor Mastery",
+      "name": "Maestro della Difesa",
+      "description": "Quando <b>assorbi un colpo diretto con la tua armatura o scudo</b>, non subisci danni, ma devi ridurre la corazza della tua armatura (o scudo) di 1 ogni volta che usi questa manovra. Se la corazza scende a 0, l’oggetto è distrutto."
+    },
+    {
+      "id": "Armored",
+      "name": "Abituato all’Armatura",
+      "description": "Ignori la proprietà <i>ingombrante</i> dell’armatura."
+    },
+    {
+      "id": "Armored Perfection",
+      "name": "Difesa Perfetta",
+      "description": "Quando <b>assorbi un colpo con l’armatura o lo scudo</b>, non subisci danni e ottieni +1 al prossimo tiro contro l’attaccante. Tuttavia, devi ridurre la corazza dell’armatura o dello scudo (a tua scelta) di 1 ogni volta che usi questa manovra. Se la corazza scende a 0, l’oggetto è distrutto."
+    },
+    {
+      "id": "Bend Bars, Lift Gates",
+      "name": "Piegare Sbarre, Forzare Porte",
+      "description": "Quando <b>cerchi di distruggere un ostacolo inanimato con la forza bruta</b>, tira+FOR.",
+      "success": "Scegli tre opzioni dall’elenco.",
+      "partial": "Scegli due opzioni dall’elenco.",
+      "choises": "<ul><li>Lo fai rapidamente.</li><li>Non danneggi nulla di prezioso.</li><li>Lo fai senza fare troppo rumore.</li><li>Puoi riparare facilmente ciò che hai rotto.</li></ul>"
+    },
+    {
+      "id": "Blacksmith",
+      "name": "Fabbro",
+      "description": "Quando hai accesso a una forgia, puoi trasferire proprietà magiche da un’arma a un’altra, fondendole nella tua arma distintiva. L’arma originale viene distrutta."
+    },
+    {
+      "id": "Bloodthirsty",
+      "name": "Assetato di Sangue",
+      "description": "Ottieni un bonus di +[[/roll 1d8]] ai danni inflitti."
+    },
+    {
+      "id": "Evil Eye",
+      "name": "Occhio Maligno",
+      "description": "<p>All’inizio della battaglia, tira+CAR.</p><p>Se guardi negli occhi un PNG vicino e spendi una riserva, esso resta paralizzato o indietreggia, incapace di agire finché non distogli lo sguardo.</p>",
+      "success": "La tua riserva è 2.",
+      "partial": "La tua riserva è 1.",
+      "failure": "I nemici ti identificano come minaccia principale."
+    },
+    {
+      "id": "Eye For Weaponry",
+      "name": "Occhio per le Armi",
+      "description": "Osservando l’arma di un nemico, puoi chiedere al GM quanti danni infligge."
+    },
+    {
+      "id": "Heirloom",
+      "name": "Retaggio",
+      "description": "Quando <b>ascolti gli spiriti nella tua arma distintiva</b>, ti inviano visioni legate alla situazione attuale. A volte, però, ti faranno domande. Tira+CAR.",
+      "success": "Il GM ti descrive una visione chiara.",
+      "partial": "La visione è confusa e ambigua."
+    },
+    {
+      "id": "Improved Weapon",
+      "name": "Arma Migliorata",
+      "description": "La tua arma distintiva guadagna una proprietà speciale aggiuntiva."
+    },
+    {
+      "id": "Interrogator",
+      "name": "Interrogatore",
+      "description": "Quando <b><i>contratti</i> usando la minaccia della forza fisica</b>, puoi usare FOR al posto di CAR."
+    },
+    {
+      "id": "Iron Hide",
+      "name": "Pelle di Ferro",
+      "description": "Ottieni +1 all’armatura."
+    },
+    {
+      "id": "Merciless",
+      "name": "Senza Pietà",
+      "description": "Ottieni un bonus di +[[/roll 1d4]] ai danni inflitti."
+    },
+    {
+      "id": "Multiclass Dabbler",
+      "name": "Multiclasse: Dilettante",
+      "description": "Scegli una mossa di un’altra classe, trattando il tuo livello come inferiore di 1."
+    },
+    {
+      "id": "Multiclass Initiate",
+      "name": "Multiclasse: Iniziato",
+      "description": "Scegli una mossa di un’altra classe, trattando il tuo livello come inferiore di 1."
+    },
+    {
+      "id": "Scent Of Blood",
+      "name": "Odore di Sangue",
+      "description": "Se usi <i>colpisci e affetta</i>, il tuo prossimo attacco alla stessa creatura infligge +[[/roll 1d4]] danni."
+    },
+    {
+      "id": "Seeing Red",
+      "name": "Sguardo da Assassino",
+      "description": "Quando <i>analizzi la situazione</i> durante il combattimento, ottieni +1 al tiro."
+    },
+    {
+      "id": "Signature Weapon",
+      "name": "Arma Distintiva",
+      "description": "<p><i>La tua arma distintiva è unica. Può essere persa solo in casi estremi, ma anche allora puoi tentare di recuperarla.</i></p><p>È la tua arma. Ce ne sono molte simili al mondo, ma questa è tua. È il tuo migliore amico. Tu sei il suo padrone, e lei è la padrona della tua vita. Senza di te è inutile, e senza di lei lo sei tu. Portala con onore.</p><p>Scegli un’arma dalla lista (peso 2 ciascuna):</p><ul><li>Spada</li><li>Ascia</li><li>Martello</li><li>Lancia</li><li>Mazza ferrata</li><li>Pugni</li></ul><p>Scegli la lunghezza dell’arma:</p><ul><li>Mano</li><li>Colpo di spada</li><li>Portata di lancia</li></ul><p>Scegli due proprietà speciali:</p><ul><li>Uncinata e spinata. +1 ai danni, peso +1.</li><li>Affilata. Penetrazione armatura +2.</li><li>Bilanciata. Aggiunge la proprietà preciso.</li><li>Lama seghettata. +1 ai danni.</li><li>Brilla in presenza di un tipo di creatura (scegli tu).</li><li>Enorme. Aggiunge potente e devastante.</li><li>Versatile. Scegli una seconda lunghezza.</li><li>Fatta a regola d’arte. Peso -1.</li></ul><p>Scegli l’aspetto:</p><ul><li>Antica</li><li>Impeccabile</li><li>Riccamente decorata</li><li>Intrisa di sangue</li><li>Oscura</li></ul>"
+    },
+    {
+      "id": "Steel Hide",
+      "name": "Pelle d’Acciaio",
+      "description": "Ottieni +2 all’armatura."
+    },
+    {
+      "id": "Superior Warrior",
+      "name": "Guerriero Superiore",
+      "description": "Quando, usando <i>colpisci e affetta</i>, ottieni un 12+, non solo infliggi danno senza subire contrattacchi, ma impressioni profondamente, spezzi il morale o spaventi il tuo avversario."
+    },
+    {
+      "id": "Taste Of Blood",
+      "name": "Sapore di Sangue",
+      "description": "Se <b><i>colpisci e affetta</i></b>, il tuo prossimo attacco alla stessa creatura infligge +[[/roll 1d8]] danni."
+    },
+    {
+      "id": "Through Death’s Eyes",
+      "name": "Attraverso gli Occhi della Morte",
+      "description": "<p><b>All’inizio della battaglia</b>, tira+SAG.</p><p>Puoi nominare solo PNG. Se esiste anche solo una remota possibilità che la visione si realizzi, il GM deve agire di conseguenza.</p>",
+      "success": "Nomina chi sopravvivrà <i>e</i> chi morirà.",
+      "partial": "Nomina chi sopravvivrà <i>oppure</i> chi morirà.",
+      "failure": "Vedi la tua morte e subisci -1 a tutte le mosse finché la battaglia non è finita."
+    }
+  ]
+}

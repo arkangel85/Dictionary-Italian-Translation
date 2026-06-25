@@ -1,0 +1,9827 @@
+{
+  "melee": [
+    {
+      "label": "ascia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Axe"
+      }
+    },
+    {
+      "label": "colpo potente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bash"
+      }
+    },
+    {
+      "label": "manganello",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Baton"
+      }
+    },
+    {
+      "label": "becco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Beak"
+      }
+    },
+    {
+      "label": "lama",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blade"
+      }
+    },
+    {
+      "label": "osso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bone"
+      }
+    },
+    {
+      "label": "farfalla",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Butterfly"
+      }
+    },
+    {
+      "label": "catena",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Chain"
+      }
+    },
+    {
+      "label": "randello",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Club"
+      }
+    },
+    {
+      "label": "sciabola",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cutlass"
+      }
+    },
+    {
+      "label": "pugnale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dagger"
+      }
+    },
+    {
+      "label": "falchion",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Falchion"
+      }
+    },
+    {
+      "label": "pugno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fist"
+      }
+    },
+    {
+      "label": "mazza ferrata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flail"
+      }
+    },
+    {
+      "label": "raffica di colpi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flurry of Blows"
+      }
+    },
+    {
+      "label": "forcone",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fork"
+      }
+    },
+    {
+      "label": "glava",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Glaive"
+      }
+    },
+    {
+      "label": "ascia bipenne",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Greataxe"
+      }
+    },
+    {
+      "label": "mazza pesante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Greatclub"
+      }
+    },
+    {
+      "label": "spadone",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Greatsword"
+      }
+    },
+    {
+      "label": "alabarda",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Halberd"
+      }
+    },
+    {
+      "label": "martello",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hammer"
+      }
+    },
+    {
+      "label": "accetta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Handaxe"
+      }
+    },
+    {
+      "label": "arpione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Harpoon"
+      }
+    },
+    {
+      "label": "zoccolo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hoof"
+      }
+    },
+    {
+      "label": "uncino",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hook"
+      }
+    },
+    {
+      "label": "zoccoli",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hooves"
+      }
+    },
+    {
+      "label": "corno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Horn"
+      }
+    },
+    {
+      "label": "katana",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Katana"
+      }
+    },
+    {
+      "label": "katar",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Katar"
+      }
+    },
+    {
+      "label": "coltello",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Knife"
+      }
+    },
+    {
+      "label": "lancia da cavalleria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lance"
+      }
+    },
+    {
+      "label": "spada laser",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lasersword"
+      }
+    },
+    {
+      "label": "mazza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mace"
+      }
+    },
+    {
+      "label": "machete",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Machete"
+      }
+    },
+    {
+      "label": "martello a due mani",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Maul"
+      }
+    },
+    {
+      "label": "mazza chiodata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Morningstar"
+      }
+    },
+    {
+      "label": "naginata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Naginata"
+      }
+    },
+    {
+      "label": "odachi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Odachi"
+      }
+    },
+    {
+      "label": "piccone",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pick"
+      }
+    },
+    {
+      "label": "picca",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pike"
+      }
+    },
+    {
+      "label": "chela",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pincer"
+      }
+    },
+    {
+      "label": "pseudopode",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pseudopod"
+      }
+    },
+    {
+      "label": "bastone da guerra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Quarterstaff"
+      }
+    },
+    {
+      "label": "testata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ram"
+      }
+    },
+    {
+      "label": "rapiera",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rapier"
+      }
+    },
+    {
+      "label": "scimitarra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Scimitar"
+      }
+    },
+    {
+      "label": "falce",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Scythe"
+      }
+    },
+    {
+      "label": "scudo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shield"
+      }
+    },
+    {
+      "label": "shillelagh",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shillelagh"
+      }
+    },
+    {
+      "label": "spada corta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shortsword"
+      }
+    },
+    {
+      "label": "falcetto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sickle"
+      }
+    },
+    {
+      "label": "colpo schiacciante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Slam"
+      }
+    },
+    {
+      "label": "lancia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spear"
+      }
+    },
+    {
+      "label": "spina",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spike"
+      }
+    },
+    {
+      "label": "pugnalata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stab"
+      }
+    },
+    {
+      "label": "bastone",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Staff"
+      }
+    },
+    {
+      "label": "colpo del vento d'acciaio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Steel Wind Strike"
+      }
+    },
+    {
+      "label": "pungiglione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sting"
+      }
+    },
+    {
+      "label": "aculeo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stinger"
+      }
+    },
+    {
+      "label": "calpestamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stomp"
+      }
+    },
+    {
+      "label": "colpo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Strike"
+      }
+    },
+    {
+      "label": "colpo stordente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stunning Strike"
+      }
+    },
+    {
+      "label": "spada",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sword"
+      }
+    },
+    {
+      "label": "coda",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tail"
+      }
+    },
+    {
+      "label": "tanto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tanto"
+      }
+    },
+    {
+      "label": "tridente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Trident"
+      }
+    },
+    {
+      "label": "zanna",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tusk"
+      }
+    },
+    {
+      "label": "colpo senz’armi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Unarmed Strike"
+      }
+    },
+    {
+      "label": "martello da guerra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Warhammer"
+      }
+    },
+    {
+      "label": "frusta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Whip"
+      }
+    },
+    {
+      "label": "ala",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wing"
+      }
+    },
+    {
+      "label": "chiave inglese",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wrench"
+      }
+    },
+    {
+      "label": "yklwa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Yklwa"
+      }
+    },
+    {
+      "label": "antenne",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antennae"
+      }
+    },
+    {
+      "label": "barba",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Beard"
+      }
+    },
+    {
+      "label": "colpo brutale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Brutal Strike"
+      }
+    },
+    {
+      "label": "carica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Charge"
+      }
+    },
+    {
+      "label": "artiglio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Claw"
+      }
+    },
+    {
+      "label": "deviazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Deflect"
+      }
+    },
+    {
+      "label": "colpo elementale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Elemental Strike"
+      }
+    },
+    {
+      "label": "lacerazione potenziata dalla forza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Force-Empowered Rend"
+      }
+    },
+    {
+      "label": "zampa anteriore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Foreleg"
+      }
+    },
+    {
+      "label": "incornata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gore"
+      }
+    },
+    {
+      "label": "presa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Grapple"
+      }
+    },
+    {
+      "label": "gythka",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gythka"
+      }
+    },
+    {
+      "label": "intercettazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Interception"
+      }
+    },
+    {
+      "label": "spada lunga",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Longsword"
+      }
+    },
+    {
+      "label": "arti marziali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Martial Arts"
+      }
+    },
+    {
+      "label": "nodachi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Nodachi"
+      }
+    },
+    {
+      "label": "nunchaku",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Nunchaku"
+      }
+    },
+    {
+      "label": "tecnica del palmo aperto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Open Hand Technique"
+      }
+    },
+    {
+      "label": "padella",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pan"
+      }
+    },
+    {
+      "label": "parata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Parry"
+      }
+    },
+    {
+      "label": "ferocia primordiale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Primal Savagery"
+      }
+    },
+    {
+      "label": "pugno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Punch"
+      }
+    },
+    {
+      "label": "palmo tremante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Quivering Palm"
+      }
+    },
+    {
+      "label": "graffio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rake"
+      }
+    },
+    {
+      "label": "rappresaglia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Retaliation"
+      }
+    },
+    {
+      "label": "graffi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Scratch"
+      }
+    },
+    {
+      "label": "spinta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shove"
+      }
+    },
+    {
+      "label": "fendente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Slash"
+      }
+    },
+    {
+      "label": "capelli di serpente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Snake Hair"
+      }
+    },
+    {
+      "label": "bastone",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stick"
+      }
+    },
+    {
+      "label": "tachi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tachi"
+      }
+    },
+    {
+      "label": "zampa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Talon"
+      }
+    },
+    {
+      "label": "tonfa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tonfa"
+      }
+    },
+    {
+      "label": "calpestamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Trample"
+      }
+    },
+    {
+      "label": "disarmato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Unarmed"
+      }
+    },
+    {
+      "label": "wakizashi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wakizashi"
+      }
+    },
+    {
+      "label": "piccone da guerra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "War Pick"
+      }
+    },
+    {
+      "label": "yari",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Yari"
+      }
+    },
+    {
+      "label": "lacerazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rend"
+      }
+    }
+  ],
+  "range": [
+    {
+      "label": "freccia acida",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Acid Arrow"
+      }
+    },
+    {
+      "label": "spruzzo acido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Acid Splash"
+      }
+    },
+    {
+      "label": "alchemico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Alchemist's"
+      }
+    },
+    {
+      "label": "fucile ad antimateria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antimatter Rifle"
+      }
+    },
+    {
+      "label": "antipatia/simpatia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antipathy/Sympathy"
+      }
+    },
+    {
+      "label": "esplosione arcana",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Burst"
+      }
+    },
+    {
+      "label": "raggio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Beam"
+      }
+    },
+    {
+      "label": "succhiamento di sangue",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blood Drain"
+      }
+    },
+    {
+      "label": "cerbottana",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blowgun"
+      }
+    },
+    {
+      "label": "bomba",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bomb"
+      }
+    },
+    {
+      "label": "boomerang",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Boomerang"
+      }
+    },
+    {
+      "label": "masso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Boulder"
+      }
+    },
+    {
+      "label": "arco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bow"
+      }
+    },
+    {
+      "label": "fumi di oturo bruciato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Burnt Othur Fumes"
+      }
+    },
+    {
+      "label": "catapulta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Catapult"
+      }
+    },
+    {
+      "label": "munizione per catapulta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Catapult Munition"
+      }
+    },
+    {
+      "label": "catena di fulmini",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Chain Lightning"
+      }
+    },
+    {
+      "label": "chakram",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Chakram"
+      }
+    },
+    {
+      "label": "dardo del caos",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Chaos Bolt"
+      }
+    },
+    {
+      "label": "sfera cromatica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Chromatic Orb"
+      }
+    },
+    {
+      "label": "contagio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Contagion"
+      }
+    },
+    {
+      "label": "balestra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Crossbow"
+      }
+    },
+    {
+      "label": "danza macabra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Danse Macabre"
+      }
+    },
+    {
+      "label": "dardo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dart"
+      }
+    },
+    {
+      "label": "disintegrazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Disintegrate"
+      }
+    },
+    {
+      "label": "bacio drenante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Draining Kiss"
+      }
+    },
+    {
+      "label": "dinamite",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dynamite"
+      }
+    },
+    {
+      "label": "esplosione eldritch",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Eldritch Blast"
+      }
+    },
+    {
+      "label": "abbondanza di nemici",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Enemies Abound"
+      }
+    },
+    {
+      "label": "essenza di etere",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Essence of Ether"
+      }
+    },
+    {
+      "label": "debilitazione mentale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Feeblemind"
+      }
+    },
+    {
+      "label": "dito della morte",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Finger of Death"
+      }
+    },
+    {
+      "label": "dardo di fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fire Bolt"
+      }
+    },
+    {
+      "label": "raggio di fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fire Ray"
+      }
+    },
+    {
+      "label": "granata a frammentazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fragmentation Grenade"
+      }
+    },
+    {
+      "label": "granata di Gnomengarde",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gnomengarde Grenade"
+      }
+    },
+    {
+      "label": "dardo funerario",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Grave Bolt"
+      }
+    },
+    {
+      "label": "granata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Grenade"
+      }
+    },
+    {
+      "label": "lanciatore di granate",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Grenade Launcher"
+      }
+    },
+    {
+      "label": "dardo guida",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Guiding Bolt"
+      }
+    },
+    {
+      "label": "arma da fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gun"
+      }
+    },
+    {
+      "label": "acqua santa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Holy Water"
+      }
+    },
+    {
+      "label": "lancio di fiamme",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hurl Flame"
+      }
+    },
+    {
+      "label": "coltello di ghiaccio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ice Knife"
+      }
+    },
+    {
+      "label": "giavellotto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Javelin"
+      }
+    },
+    {
+      "label": "kunai",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Kunai"
+      }
+    },
+    {
+      "label": "laser",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Laser"
+      }
+    },
+    {
+      "label": "assorbimento vitale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Life Drain"
+      }
+    },
+    {
+      "label": "trasferimento vitale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Life Transference"
+      }
+    },
+    {
+      "label": "lazo di fulmine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lightning Lure"
+      }
+    },
+    {
+      "label": "dardo magico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magic Missile"
+      }
+    },
+    {
+      "label": "pietra magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magic Stone"
+      }
+    },
+    {
+      "label": "malizia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Malice"
+      }
+    },
+    {
+      "label": "labirinto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Maze"
+      }
+    },
+    {
+      "label": "scheggia mentale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mind Sliver"
+      }
+    },
+    {
+      "label": "punta mentale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mind Spike"
+      }
+    },
+    {
+      "label": "missile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Missile"
+      }
+    },
+    {
+      "label": "moschetto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Musket"
+      }
+    },
+    {
+      "label": "ondata di energia negativa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Negative Energy Flood"
+      }
+    },
+    {
+      "label": "pistola",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pistol"
+      }
+    },
+    {
+      "label": "vincolo planare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Planar Binding"
+      }
+    },
+    {
+      "label": "spruzzo velenoso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Poison Spray"
+      }
+    },
+    {
+      "label": "urlo psichico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Psychic Scream"
+      }
+    },
+    {
+      "label": "raggio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ray"
+      }
+    },
+    {
+      "label": "raggio di indebolimento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ray of Enfeeblement"
+      }
+    },
+    {
+      "label": "raggio di gelo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ray of Frost"
+      }
+    },
+    {
+      "label": "raggio di malattia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ray of Sickness"
+      }
+    },
+    {
+      "label": "rivoltella",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Revolver"
+      }
+    },
+    {
+      "label": "fucile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rifle"
+      }
+    },
+    {
+      "label": "roccia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rock"
+      }
+    },
+    {
+      "label": "raggio ustionante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Scorching Ray"
+      }
+    },
+    {
+      "label": "fucile a canne mozze",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shotgun"
+      }
+    },
+    {
+      "label": "shuriken",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shuriken"
+      }
+    },
+    {
+      "label": "masso d’assedio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Siege Boulder"
+      }
+    },
+    {
+      "label": "fionda",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sling"
+      }
+    },
+    {
+      "label": "granata fumogena",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Smoke Grenade"
+      }
+    },
+    {
+      "label": "palla di neve",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Snow Ball"
+      }
+    },
+    {
+      "label": "gabbia d’anime",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Soul Cage"
+      }
+    },
+    {
+      "label": "lama solare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sun Blade"
+      }
+    },
+    {
+      "label": "frusta mentale di Tasha",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tasha's Mind Whip"
+      }
+    },
+    {
+      "label": "legame telepatico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Telepathic Bond"
+      }
+    },
+    {
+      "label": "dardo stregonesco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Witch Bolt"
+      }
+    },
+    {
+      "label": "ostilità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antagonize"
+      }
+    },
+    {
+      "label": "automatico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Automatic"
+      }
+    },
+    {
+      "label": "mente risvegliata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Awakened Mind"
+      }
+    },
+    {
+      "label": "difese ammalianti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Beguiling Defenses"
+      }
+    },
+    {
+      "label": "combustione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Burn"
+      }
+    },
+    {
+      "label": "scoppio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Burst"
+      }
+    },
+    {
+      "label": "raggio di fascino",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Charm Ray"
+      }
+    },
+    {
+      "label": "chatkcha",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Chatkcha"
+      }
+    },
+    {
+      "label": "soffio di cenere",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cinder Breath"
+      }
+    },
+    {
+      "label": "raggio di confusione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Confusion Ray"
+      }
+    },
+    {
+      "label": "consumo della vita",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Consume Life"
+      }
+    },
+    {
+      "label": "raggio della morte",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Death Ray"
+      }
+    },
+    {
+      "label": "divoramento dell’intelletto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Devour Intellect"
+      }
+    },
+    {
+      "label": "raggio di disintegrazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Disintegration Ray"
+      }
+    },
+    {
+      "label": "dominare la mente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dominate Mind"
+      }
+    },
+    {
+      "label": "esplosione eldritch",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Eldritch Burst"
+      }
+    },
+    {
+      "label": "assorbimento di energia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Energy Drain"
+      }
+    },
+    {
+      "label": "raggio di esaurimento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Enervation Ray"
+      }
+    },
+    {
+      "label": "raggio della paura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fear Ray"
+      }
+    },
+    {
+      "label": "dardo infuocato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fiery Bolt"
+      }
+    },
+    {
+      "label": "balestra ad energia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Force Ballista"
+      }
+    },
+    {
+      "label": "dardo di forza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Force Bolt"
+      }
+    },
+    {
+      "label": "moneta luminosa di Jim",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Jim's Glowing Coin"
+      }
+    },
+    {
+      "label": "lanciatore di fulmini",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lightning Launcher"
+      }
+    },
+    {
+      "label": "colpo di fulmine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lightning Strike"
+      }
+    },
+    {
+      "label": "lancio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lob"
+      }
+    },
+    {
+      "label": "arco lungo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Longbow"
+      }
+    },
+    {
+      "label": "messaggio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Message"
+      }
+    },
+    {
+      "label": "modifica memoria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Modify Memory"
+      }
+    },
+    {
+      "label": "soffio di fango",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mud Breath"
+      }
+    },
+    {
+      "label": "ago",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Needle"
+      }
+    },
+    {
+      "label": "raggio dell’incubo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Nightmare Ray"
+      }
+    },
+    {
+      "label": "raggio paralizzante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Paralyzing Ray"
+      }
+    },
+    {
+      "label": "raggio di pietrificazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Petrification Ray"
+      }
+    },
+    {
+      "label": "raggio velenoso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Poison Ray"
+      }
+    },
+    {
+      "label": "possessone",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Possession"
+      }
+    },
+    {
+      "label": "proboscide",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Proboscis"
+      }
+    },
+    {
+      "label": "creazione di fiamma",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Produce Flame"
+      }
+    },
+    {
+      "label": "raggio radioso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Radiant Ray"
+      }
+    },
+    {
+      "label": "frantumazione mentale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rend Mind"
+      }
+    },
+    {
+      "label": "ripristino dell’equilibrio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Restore Balance"
+      }
+    },
+    {
+      "label": "lancio di roccia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rock Launch"
+      }
+    },
+    {
+      "label": "scossa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shock"
+      }
+    },
+    {
+      "label": "tocco folgorante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shocking Grasp"
+      }
+    },
+    {
+      "label": "arco corto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shortbow"
+      }
+    },
+    {
+      "label": "raggio del sonno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sleep Ray"
+      }
+    },
+    {
+      "label": "raggio rallentante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Slowing Ray"
+      }
+    },
+    {
+      "label": "lucciola stellare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Starry Wisp"
+      }
+    },
+    {
+      "label": "spruzzo nauseabondo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stench Spray"
+      }
+    },
+    {
+      "label": "slancio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Surge"
+      }
+    },
+    {
+      "label": "raggio telecinetico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Telekinetic Ray"
+      }
+    },
+    {
+      "label": "spinta telecinetica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Telekinetic Thrust"
+      }
+    },
+    {
+      "label": "discorso telepatico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Telepathic Speech"
+      }
+    },
+    {
+      "label": "spina",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Thorn"
+      }
+    },
+    {
+      "label": "guanti tonanti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Thunder Gauntlet"
+      }
+    },
+    {
+      "label": "Colpo di fulmine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Thunderbolt"
+      }
+    },
+    {
+      "label": "Ragnatela",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Web"
+      }
+    },
+    {
+      "label": "Raggio ferente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wounding Ray"
+      }
+    }
+  ],
+  "ontoken": [
+    {
+      "label": "Assorbimento degli elementi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Absorb Elements"
+      }
+    },
+    {
+      "label": "Fiala di acido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Acid (vial)"
+      }
+    },
+    {
+      "label": "Impeto d’azione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Action Surge"
+      }
+    },
+    {
+      "label": "Aiuto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aid"
+      }
+    },
+    {
+      "label": "Bolla d’aria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Air Bubble"
+      }
+    },
+    {
+      "label": "Allarme",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Alarm"
+      }
+    },
+    {
+      "label": "Alterazione del proprio aspetto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Alter Self"
+      }
+    },
+    {
+      "label": "Amicizia animale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Animal Friendship"
+      }
+    },
+    {
+      "label": "Messaggero animale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Animal Messenger"
+      }
+    },
+    {
+      "label": "Forme animali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Animal Shapes"
+      }
+    },
+    {
+      "label": "Animazione dei morti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Animate Dead"
+      }
+    },
+    {
+      "label": "Animazione degli oggetti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Animate Objects"
+      }
+    },
+    {
+      "label": "Occhio arcano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Eye"
+      }
+    },
+    {
+      "label": "Mano arcana",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Hand"
+      }
+    },
+    {
+      "label": "Serratura arcana",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Lock"
+      }
+    },
+    {
+      "label": "Recupero arcano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Recovery"
+      }
+    },
+    {
+      "label": "Spada arcana",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Sword"
+      }
+    },
+    {
+      "label": "Armatura di Agathys",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Armor of Agathys"
+      }
+    },
+    {
+      "label": "Braccia di Hadar",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arms of Hadar"
+      }
+    },
+    {
+      "label": "Passo di Ashardalon",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ashardalon's Stride"
+      }
+    },
+    {
+      "label": "Sangue dell’assassino",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Assassin's Blood"
+      }
+    },
+    {
+      "label": "Proiezione astrale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Astral Projection"
+      }
+    },
+    {
+      "label": "Presagio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Augury"
+      }
+    },
+    {
+      "label": "Risveglio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Awaken"
+      }
+    },
+    {
+      "label": "Sventura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bane"
+      }
+    },
+    {
+      "label": "Esilio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Banishment"
+      }
+    },
+    {
+      "label": "Ispirazione bardica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bardic Inspiration"
+      }
+    },
+    {
+      "label": "Pelle di corteccia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Barkskin"
+      }
+    },
+    {
+      "label": "Faro di speranza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Beacon of Hope"
+      }
+    },
+    {
+      "label": "Legame con la bestia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Beast Bond"
+      }
+    },
+    {
+      "label": "Sensi bestiali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Beast Sense"
+      }
+    },
+    {
+      "label": "Impartire maledizione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bestow Curse"
+      }
+    },
+    {
+      "label": "Mano di Bigby",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bigby's Hand"
+      }
+    },
+    {
+      "label": "Morso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bite"
+      }
+    },
+    {
+      "label": "Lama della distruzione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blade of Disaster"
+      }
+    },
+    {
+      "label": "Parata della lama",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blade Ward"
+      }
+    },
+    {
+      "label": "Benedizione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bless"
+      }
+    },
+    {
+      "label": "Guaritore benedetto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blessed Healer"
+      }
+    },
+    {
+      "label": "Colpi benedetti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blessed Strikes"
+      }
+    },
+    {
+      "label": "Avvizzimento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blight"
+      }
+    },
+    {
+      "label": "Cecità/Sordità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blindness/Deafness"
+      }
+    },
+    {
+      "label": "Sfarfallio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blink"
+      }
+    },
+    {
+      "label": "Sfocatura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blur"
+      }
+    },
+    {
+      "label": "Lama tonante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Booming Blade"
+      }
+    },
+    {
+      "label": "Conoscenza presa in prestito",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Borrowed Knowledge"
+      }
+    },
+    {
+      "label": "Pisolino",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Catnap"
+      }
+    },
+    {
+      "label": "Causa paura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cause Fear"
+      }
+    },
+    {
+      "label": "Cerimonia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ceremony"
+      }
+    },
+    {
+      "label": "Canalizzazione divina",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Channel Divinity"
+      }
+    },
+    {
+      "label": "Incantamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Charm"
+      }
+    },
+    {
+      "label": "Incantare umanoide",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Charm Person"
+      }
+    },
+    {
+      "label": "Figli della notte",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Children of the Night"
+      }
+    },
+    {
+      "label": "Tocco gelido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Chill Touch"
+      }
+    },
+    {
+      "label": "Chiaroveggenza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Clairvoyance"
+      }
+    },
+    {
+      "label": "Artiglio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Claw"
+      }
+    },
+    {
+      "label": "Tocco purificatore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cleansing Touch"
+      }
+    },
+    {
+      "label": "Clone",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Clone"
+      }
+    },
+    {
+      "label": "Comando",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Command"
+      }
+    },
+    {
+      "label": "Comunione divina",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Commune"
+      }
+    },
+    {
+      "label": "Comunione con la natura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Commune with Nature"
+      }
+    },
+    {
+      "label": "Sfida a duello",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Compelled Duel"
+      }
+    },
+    {
+      "label": "Comprendere i linguaggi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Comprehend Languages"
+      }
+    },
+    {
+      "label": "Costrizione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Compulsion"
+      }
+    },
+    {
+      "label": "Confusione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Confusion"
+      }
+    },
+    {
+      "label": "Evocare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Conjure"
+      }
+    },
+    {
+      "label": "Stritolamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Constrict"
+      }
+    },
+    {
+      "label": "Contatto con altro piano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Contact Other Plane"
+      }
+    },
+    {
+      "label": "Contingenza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Contingency"
+      }
+    },
+    {
+      "label": "Fiamma perpetua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Continual Flame"
+      }
+    },
+    {
+      "label": "Sbarramento di frecce",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cordon of Arrows"
+      }
+    },
+    {
+      "label": "Controincanto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Countercharm"
+      }
+    },
+    {
+      "label": "Controincantesimo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Counterspell"
+      }
+    },
+    {
+      "label": "Muco del divoratore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Crawler Mucus"
+      }
+    },
+    {
+      "label": "Creare cibo e acqua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Create Food and Water"
+      }
+    },
+    {
+      "label": "Creare omuncolo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Create Homunculus"
+      }
+    },
+    {
+      "label": "Creare timone di spelljamming",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Create Spelljamming Helm"
+      }
+    },
+    {
+      "label": "Creare non morti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Create Undead"
+      }
+    },
+    {
+      "label": "Corona della follia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Crown of Madness"
+      }
+    },
+    {
+      "label": "Corona di stelle",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Crown of Stars"
+      }
+    },
+    {
+      "label": "Azione scaltra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cunning Action"
+      }
+    },
+    {
+      "label": "Cura ferite",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cure Wounds"
+      }
+    },
+    {
+      "label": "Luci danzanti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dancing Lights"
+      }
+    },
+    {
+      "label": "Visione del buio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Darkvision"
+      }
+    },
+    {
+      "label": "Protezione dalla morte",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Death Ward"
+      }
+    },
+    {
+      "label": "Tiro difensivo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Defense Roll"
+      }
+    },
+    {
+      "label": "Deviazione dei proiettili",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Deflect Missiles"
+      }
+    },
+    {
+      "label": "Semipiano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Demiplane"
+      }
+    },
+    {
+      "label": "Individuazione dei pensieri",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Detect Thoughts"
+      }
+    },
+    {
+      "label": "Camuffare sé stesso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Disguise Self"
+      }
+    },
+    {
+      "label": "Dissolvi bene e male",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dispel Evil and Good"
+      }
+    },
+    {
+      "label": "Dissolvi magia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dispel Magic"
+      }
+    },
+    {
+      "label": "Sussurri dissonanti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dissonant Whispers"
+      }
+    },
+    {
+      "label": "Divinazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Divination"
+      }
+    },
+    {
+      "label": "Favore divino",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Divine Favor"
+      }
+    },
+    {
+      "label": "Intervento divino",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Divine Intervention"
+      }
+    },
+    {
+      "label": "Senso divino",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Divine Sense"
+      }
+    },
+    {
+      "label": "Punizione divina",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Divine Smite"
+      }
+    },
+    {
+      "label": "Colpo divino",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Divine Strike"
+      }
+    },
+    {
+      "label": "Parola divina",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Divine Word"
+      }
+    },
+    {
+      "label": "Dominare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dominate"
+      }
+    },
+    {
+      "label": "Trasformazione draconica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Draconic Transformation"
+      }
+    },
+    {
+      "label": "Sogno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dream"
+      }
+    },
+    {
+      "label": "Sogno del velo blu",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dream of the Blue Veil"
+      }
+    },
+    {
+      "label": "Veleno dei drow",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Drow Poison"
+      }
+    },
+    {
+      "label": "Bosco del druido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Druid Grove"
+      }
+    },
+    {
+      "label": "Arte druidica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Druidcraft"
+      }
+    },
+    {
+      "label": "Tremore terrestre",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Earth Tremor"
+      }
+    },
+    {
+      "label": "Vincolo della terra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Earthbind"
+      }
+    },
+    {
+      "label": "Maestro arcano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Eldritch Master"
+      }
+    },
+    {
+      "label": "Punizione arcana",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Eldritch Smite"
+      }
+    },
+    {
+      "label": "Arma elementale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Elemental Weapon"
+      }
+    },
+    {
+      "label": "Corpo vuoto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Empty Body"
+      }
+    },
+    {
+      "label": "Codifica dei pensieri",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Encode Thoughts"
+      }
+    },
+    {
+      "label": "Potenziare abilità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Enhance Ability"
+      }
+    },
+    {
+      "label": "Ingrandire/Ridurre",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Enlarge/Reduce"
+      }
+    },
+    {
+      "label": "Colpo intrappolante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ensnaring Strike"
+      }
+    },
+    {
+      "label": "Discorso accattivante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Enthrall"
+      }
+    },
+    {
+      "label": "Eterizzazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Etherealness"
+      }
+    },
+    {
+      "label": "Respiro dell’euforia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Euphoria Breath"
+      }
+    },
+    {
+      "label": "Ritirata rapida",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Expeditious Retreat"
+      }
+    },
+    {
+      "label": "Estrazione del cervello",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Extract Brain"
+      }
+    },
+    {
+      "label": "Sguardo terrificante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Eyebite"
+      }
+    },
+    {
+      "label": "Fuoco fatato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Faerie Fire"
+      }
+    },
+    {
+      "label": "Segugio fedele",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Faithful Hound"
+      }
+    },
+    {
+      "label": "Vita illusoria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "False Life"
+      }
+    },
+    {
+      "label": "Caduta morbida",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Feather Fall"
+      }
+    },
+    {
+      "label": "Morte apparente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Feign Death"
+      }
+    },
+    {
+      "label": "Evoca famiglio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Find Familiar"
+      }
+    },
+    {
+      "label": "Evoca destriero superiore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Find Greater Steed"
+      }
+    },
+    {
+      "label": "Evoca destriero",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Find Steed"
+      }
+    },
+    {
+      "label": "Trova il sentiero",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Find the Path"
+      }
+    },
+    {
+      "label": "Individua trappole",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Find Traps"
+      }
+    },
+    {
+      "label": "Scudo di platino di Fizban",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fizban's Platinum Shield"
+      }
+    },
+    {
+      "label": "Frecce infuocate",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flame Arrows"
+      }
+    },
+    {
+      "label": "Lama di fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flame Blade"
+      }
+    },
+    {
+      "label": "Guizzo di genio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flash of Genius"
+      }
+    },
+    {
+      "label": "Carne in pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flesh to Stone"
+      }
+    },
+    {
+      "label": "Disco fluttuante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Floating Disk"
+      }
+    },
+    {
+      "label": "Volare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fly"
+      }
+    },
+    {
+      "label": "Sorvolo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flyby"
+      }
+    },
+    {
+      "label": "Divieto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Forbiddance"
+      }
+    },
+    {
+      "label": "Preveggenza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Foresight"
+      }
+    },
+    {
+      "label": "Libertà di movimento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Freedom of Movement"
+      }
+    },
+    {
+      "label": "Amicizia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Friends"
+      }
+    },
+    {
+      "label": "Presenza terrificante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Frightful Presence"
+      }
+    },
+    {
+      "label": "Assideramento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Frostbite"
+      }
+    },
+    {
+      "label": "Forma gassosa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gaseous Form"
+      }
+    },
+    {
+      "label": "Portale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gate"
+      }
+    },
+    {
+      "label": "Sguardo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gaze"
+      }
+    },
+    {
+      "label": "Geas",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Geas"
+      }
+    },
+    {
+      "label": "Riposo gentile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gentle Repose"
+      }
+    },
+    {
+      "label": "Insetto gigante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Giant Insect"
+      }
+    },
+    {
+      "label": "Bagliore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Glare"
+      }
+    },
+    {
+      "label": "Lingua sciolta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Glibness"
+      }
+    },
+    {
+      "label": "Glifo di interdizione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Glyph of Warding"
+      }
+    },
+    {
+      "label": "Bacche benefiche",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Goodberry"
+      }
+    },
+    {
+      "label": "Corna",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gore"
+      }
+    },
+    {
+      "label": "Vite afferrante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Grasping Vine"
+      }
+    },
+    {
+      "label": "Lama fiammeggiante verde",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Green-Flame Blade"
+      }
+    },
+    {
+      "label": "Guardiano della fede",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Guardian of Faith"
+      }
+    },
+    {
+      "label": "Guardiano della natura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Guardian of Nature"
+      }
+    },
+    {
+      "label": "Protezione magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Guards and Wards"
+      }
+    },
+    {
+      "label": "Guida",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Guidance"
+      }
+    },
+    {
+      "label": "Raffica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gust"
+      }
+    },
+    {
+      "label": "Pioggia di spine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hail of Thorns"
+      }
+    },
+    {
+      "label": "Danno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Harm"
+      }
+    },
+    {
+      "label": "Rapidità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Haste"
+      }
+    },
+    {
+      "label": "Cura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Heal"
+      }
+    },
+    {
+      "label": "Impeto curativo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Healing Surge"
+      }
+    },
+    {
+      "label": "Tocco curativo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Healing Touch"
+      }
+    },
+    {
+      "label": "Parola curativa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Healing Word"
+      }
+    },
+    {
+      "label": "Metallo bollente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Heat Metal"
+      }
+    },
+    {
+      "label": "Ritorsione infernale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hellish Rebuke"
+      }
+    },
+    {
+      "label": "Banchetto degli eroi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Heroes' Feast"
+      }
+    },
+    {
+      "label": "Eroismo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Heroism"
+      }
+    },
+    {
+      "label": "Maledizione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hex"
+      }
+    },
+    {
+      "label": "Nascondersi in piena vista",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hide in Plain Sight"
+      }
+    },
+    {
+      "label": "Risata orrenda",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hideous Laughter"
+      }
+    },
+    {
+      "label": "Blocca mostro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hold Monster"
+      }
+    },
+    {
+      "label": "Blocca persona",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hold Person"
+      }
+    },
+    {
+      "label": "Arma sacra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Holy Weapon"
+      }
+    },
+    {
+      "label": "Aspetto terrificante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Horrifying Visage"
+      }
+    },
+    {
+      "label": "Marchio del cacciatore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hunter's Mark"
+      }
+    },
+    {
+      "label": "Identificare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Identify"
+      }
+    },
+    {
+      "label": "Drago illusorio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Illusory Dragon"
+      }
+    },
+    {
+      "label": "Scrittura illusoria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Illusory Script"
+      }
+    },
+    {
+      "label": "Immolazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Immolation"
+      }
+    },
+    {
+      "label": "Imprigionamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Imprisonment"
+      }
+    },
+    {
+      "label": "Indomito",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Indomitable"
+      }
+    },
+    {
+      "label": "Richiamo infernale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Infernal Calling"
+      }
+    },
+    {
+      "label": "Infestazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Infestation"
+      }
+    },
+    {
+      "label": "Infliggi ferite",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Inflict Wounds"
+      }
+    },
+    {
+      "label": "Inchiostro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ink"
+      }
+    },
+    {
+      "label": "Fortezza mentale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Intellect Fortress"
+      }
+    },
+    {
+      "label": "Investitura della fiamma",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Investiture of Flame"
+      }
+    },
+    {
+      "label": "Investitura del ghiaccio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Investiture of Ice"
+      }
+    },
+    {
+      "label": "Investitura della pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Investiture of Stone"
+      }
+    },
+    {
+      "label": "Investitura del vento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Investiture of Wind"
+      }
+    },
+    {
+      "label": "Invisibilità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Invisibility"
+      }
+    },
+    {
+      "label": "Invulnerabilità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Invulnerability"
+      }
+    },
+    {
+      "label": "Danza irresistibile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Irresistible Dance"
+      }
+    },
+    {
+      "label": "Salto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Jump"
+      }
+    },
+    {
+      "label": "Scatto cinetico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Kinetic Jaunt"
+      }
+    },
+    {
+      "label": "Bussare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Knock"
+      }
+    },
+    {
+      "label": "Imposizione delle mani",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lay on Hands"
+      }
+    },
+    {
+      "label": "Conoscenza delle leggende",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Legend Lore"
+      }
+    },
+    {
+      "label": "Levitazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Levitate"
+      }
+    },
+    {
+      "label": "Luce",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Light"
+      }
+    },
+    {
+      "label": "Freccia di fulmine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lightning Arrow"
+      }
+    },
+    {
+      "label": "Localizza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Locate"
+      }
+    },
+    {
+      "label": "Passo lungo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Longstrider"
+      }
+    },
+    {
+      "label": "Maelstrom",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Maelstrom"
+      }
+    },
+    {
+      "label": "Armatura magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mage Armor"
+      }
+    },
+    {
+      "label": "Mano magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mage Hand"
+      }
+    },
+    {
+      "label": "Aura magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magic Aura"
+      }
+    },
+    {
+      "label": "Vaso magico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magic Jar"
+      }
+    },
+    {
+      "label": "Bocca magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magic Mouth"
+      }
+    },
+    {
+      "label": "Arma magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magic Weapon"
+      }
+    },
+    {
+      "label": "Ingegneria magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magical Tinkering"
+      }
+    },
+    {
+      "label": "Mansione magnifica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magnificent Mansion"
+      }
+    },
+    {
+      "label": "Cura di massa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mass Heal"
+      }
+    },
+    {
+      "label": "Fusione nella pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Meld into Stone"
+      }
+    },
+    {
+      "label": "Meteore minute di Melf",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Melf's Minute Meteors"
+      }
+    },
+    {
+      "label": "Riparare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mending"
+      }
+    },
+    {
+      "label": "Prigione mentale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mental Prison"
+      }
+    },
+    {
+      "label": "Messaggio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Message"
+      }
+    },
+    {
+      "label": "Metamagia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Metamagic"
+      }
+    },
+    {
+      "label": "Lacrime di mezzanotte",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Midnight Tears"
+      }
+    },
+    {
+      "label": "Fortezza possente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mighty Fortress"
+      }
+    },
+    {
+      "label": "Schermatura mentale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mind Blank"
+      }
+    },
+    {
+      "label": "Immagine speculare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mirror Image"
+      }
+    },
+    {
+      "label": "Depistare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mislead"
+      }
+    },
+    {
+      "label": "Modificare memoria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Modify Memory"
+      }
+    },
+    {
+      "label": "Modellare la terra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mold Earth"
+      }
+    },
+    {
+      "label": "Spada di Mordenkainen",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mordenkainen's Sword"
+      }
+    },
+    {
+      "label": "Rete",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Net"
+      }
+    },
+    {
+      "label": "Non individuabile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Nondetection"
+      }
+    },
+    {
+      "label": "Olio di Taggit",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Oil of Taggit"
+      }
+    },
+    {
+      "label": "Tintura pallida",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pale Tincture"
+      }
+    },
+    {
+      "label": "Passaggio attraverso il muro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Passwall"
+      }
+    },
+    {
+      "label": "Difesa paziente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Patient Defense"
+      }
+    },
+    {
+      "label": "Perfezione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Perfect Self"
+      }
+    },
+    {
+      "label": "Assassino illusorio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Phantasmal Killer"
+      }
+    },
+    {
+      "label": "Cavallo fantasma",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Phantom Steed"
+      }
+    },
+    {
+      "label": "Alleato planare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Planar Ally"
+      }
+    },
+    {
+      "label": "Trasferimento planare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Plane Shift"
+      }
+    },
+    {
+      "label": "Crescita delle piante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Plant Growth"
+      }
+    },
+    {
+      "label": "Veleno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Poison"
+      }
+    },
+    {
+      "label": "Polimorfismo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Polymorph"
+      }
+    },
+    {
+      "label": "Pozione di",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Potion of"
+      }
+    },
+    {
+      "label": "Pozione di veleno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Potion of Poison"
+      }
+    },
+    {
+      "label": "Parola di potere",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Power Word"
+      }
+    },
+    {
+      "label": "Parola di potere: Guarigione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Power Word Heal"
+      }
+    },
+    {
+      "label": "Preghiera di guarigione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Prayer of Healing"
+      }
+    },
+    {
+      "label": "Prestidigitazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Prestidigitation"
+      }
+    },
+    {
+      "label": "Ferocia primordiale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Primal Savagery"
+      }
+    },
+    {
+      "label": "Consapevolezza primitiva",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Primeval Awareness"
+      }
+    },
+    {
+      "label": "Guardiano primordiale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Primordial Ward"
+      }
+    },
+    {
+      "label": "Proiezione dell’immagine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Project Image"
+      }
+    },
+    {
+      "label": "Protezione dall’energia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Protection from Energy"
+      }
+    },
+    {
+      "label": "Protezione dal bene e dal male",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Protection from Evil and Good"
+      }
+    },
+    {
+      "label": "Protezione dal veleno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Protection from Poison"
+      }
+    },
+    {
+      "label": "Veleno del verme viola",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Purple Worm Poison"
+      }
+    },
+    {
+      "label": "Guarigione accelerata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Quickened Healing"
+      }
+    },
+    {
+      "label": "Furia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rage"
+      }
+    },
+    {
+      "label": "Resurrezione minore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Raise Dead"
+      }
+    },
+    {
+      "label": "Lancia psichica di Raulothim",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Raulothim's Psychic Lance"
+      }
+    },
+    {
+      "label": "Rigenerazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Regenerate"
+      }
+    },
+    {
+      "label": "Reincarnazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Reincarnate"
+      }
+    },
+    {
+      "label": "Rimozione maledizione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Remove Curse"
+      }
+    },
+    {
+      "label": "Sfera resiliente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Resilient Sphere"
+      }
+    },
+    {
+      "label": "Resistenza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Resistance"
+      }
+    },
+    {
+      "label": "Ristabilimento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Restoration"
+      }
+    },
+    {
+      "label": "Resurrezione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Resurrection"
+      }
+    },
+    {
+      "label": "Reviviscenza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Revivify"
+      }
+    },
+    {
+      "label": "Trucco della corda",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rope Trick"
+      }
+    },
+    {
+      "label": "Fiamma sacra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sacred Flame"
+      }
+    },
+    {
+      "label": "Santuario",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sanctuary"
+      }
+    },
+    {
+      "label": "Puntura debilitante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sapping Sting"
+      }
+    },
+    {
+      "label": "Dispersone",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Scatter"
+      }
+    },
+    {
+      "label": "Chiaroveggenza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Scrying"
+      }
+    },
+    {
+      "label": "Secondo fiato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Second Wind"
+      }
+    },
+    {
+      "label": "Scrigno segreto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Secret Chest"
+      }
+    },
+    {
+      "label": "Vedere l’invisibile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "See Invisibility"
+      }
+    },
+    {
+      "label": "Parvenze",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Seeming"
+      }
+    },
+    {
+      "label": "Invio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sending"
+      }
+    },
+    {
+      "label": "Segregazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sequester"
+      }
+    },
+    {
+      "label": "Veleno di serpente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Serpent Venom"
+      }
+    },
+    {
+      "label": "Lama d’ombra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shadow Blade"
+      }
+    },
+    {
+      "label": "Ombra della pena",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shadow of Moil"
+      }
+    },
+    {
+      "label": "Modellare l’acqua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shape Water"
+      }
+    },
+    {
+      "label": "Mutamento di forma",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shapechange"
+      }
+    },
+    {
+      "label": "Scudo della fede",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shield of Faith"
+      }
+    },
+    {
+      "label": "Tocco folgorante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shocking Grasp"
+      }
+    },
+    {
+      "label": "Pungenti d’argento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Silvery Barbs"
+      }
+    },
+    {
+      "label": "Simulacro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Simulacrum"
+      }
+    },
+    {
+      "label": "Potenziamento delle abilità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Skill Empowerment"
+      }
+    },
+    {
+      "label": "Scrittura celeste",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Skywrite"
+      }
+    },
+    {
+      "label": "Caduta rallentata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Slow Fall"
+      }
+    },
+    {
+      "label": "Punizione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Smite"
+      }
+    },
+    {
+      "label": "Trappola",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Snare"
+      }
+    },
+    {
+      "label": "Attacco furtivo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sneak Attack"
+      }
+    },
+    {
+      "label": "Canto del riposo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Song of Rest"
+      }
+    },
+    {
+      "label": "Punti stregoneria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sorcery Points"
+      }
+    },
+    {
+      "label": "Anima dell’invenzione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Soul of Artifice"
+      }
+    },
+    {
+      "label": "Salvare il morente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spare the Dying"
+      }
+    },
+    {
+      "label": "Parlare con gli animali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Speak with Animals"
+      }
+    },
+    {
+      "label": "Parlare con i morti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Speak with Dead"
+      }
+    },
+    {
+      "label": "Parlare con le piante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Speak with Plants"
+      }
+    },
+    {
+      "label": "Zanne spettrali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spectral Fangs"
+      }
+    },
+    {
+      "label": "Zampe di ragno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spider Climb"
+      }
+    },
+    {
+      "label": "Velo spirituale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spirit Shroud"
+      }
+    },
+    {
+      "label": "Arma spirituale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spiritual Weapon"
+      }
+    },
+    {
+      "label": "Spora",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spore"
+      }
+    },
+    {
+      "label": "Passo del vento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Step of the Wind"
+      }
+    },
+    {
+      "label": "Quiete della mente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stillness of Mind"
+      }
+    },
+    {
+      "label": "Modellare la pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stone Shape"
+      }
+    },
+    {
+      "label": "Pelle di pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stoneskin"
+      }
+    },
+    {
+      "label": "Colpo di fortuna",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stroke of Luck"
+      }
+    },
+    {
+      "label": "Suggestione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Suggestion"
+      }
+    },
+    {
+      "label": "Evocazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon"
+      }
+    },
+    {
+      "label": "Ingoiare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Swallow"
+      }
+    },
+    {
+      "label": "Faretra rapida",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Swift Quiver"
+      }
+    },
+    {
+      "label": "Esplosione di spade",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sword Burst"
+      }
+    },
+    {
+      "label": "Simbolo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Symbol"
+      }
+    },
+    {
+      "label": "Artiglio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Talon"
+      }
+    },
+    {
+      "label": "Aspetto ultraterreno di Tasha",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tasha's Otherworldly Guise"
+      }
+    },
+    {
+      "label": "Telecinesi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Telekinesis"
+      }
+    },
+    {
+      "label": "Telepatia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Telepathy"
+      }
+    },
+    {
+      "label": "Tempio degli dei",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Temple of the Gods"
+      }
+    },
+    {
+      "label": "Trasformazione di Tenser",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tenser's Transformation"
+      }
+    },
+    {
+      "label": "Tentacolo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tentacle"
+      }
+    },
+    {
+      "label": "Taumaturgia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Thaumaturgy"
+      }
+    },
+    {
+      "label": "Fragore di tuono",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Thunderclap"
+      }
+    },
+    {
+      "label": "Ondata di marea",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tidal Wave"
+      }
+    },
+    {
+      "label": "Fermo nel tempo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Time Stop"
+      }
+    },
+    {
+      "label": "Piccolo servitore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tiny Servant"
+      }
+    },
+    {
+      "label": "Rintocco funebre",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Toll the Dead"
+      }
+    },
+    {
+      "label": "Lingua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tongue"
+      }
+    },
+    {
+      "label": "Lingue",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tongues"
+      }
+    },
+    {
+      "label": "Torpo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Torpor"
+      }
+    },
+    {
+      "label": "Tocco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Touch"
+      }
+    },
+    {
+      "label": "Viaggio tra le piante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Transport via Plants"
+      }
+    },
+    {
+      "label": "Cammino degli alberi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tree Stride"
+      }
+    },
+    {
+      "label": "Visione del vero",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "True Seeing"
+      }
+    },
+    {
+      "label": "Colpo sicuro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "True Strike"
+      }
+    },
+    {
+      "label": "Siero della verità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Truth Serum"
+      }
+    },
+    {
+      "label": "Tsunami",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tsunami"
+      }
+    },
+    {
+      "label": "Schivata incredibile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Uncanny Dodge"
+      }
+    },
+    {
+      "label": "Servo invisibile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Unseen Servant"
+      }
+    },
+    {
+      "label": "Parole inquietanti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Unsettling Words"
+      }
+    },
+    {
+      "label": "Tocco vampirico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vampiric Touch"
+      }
+    },
+    {
+      "label": "Sparizione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vanish"
+      }
+    },
+    {
+      "label": "Insulto tagliente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vicious Mockery"
+      }
+    },
+    {
+      "label": "Benedizione della vigilanza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vigilant Blessing"
+      }
+    },
+    {
+      "label": "Vortice di distorsione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vortex Warp"
+      }
+    },
+    {
+      "label": "Legame protettivo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Warding Bond"
+      }
+    },
+    {
+      "label": "Respiro acquatico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Water Breathing"
+      }
+    },
+    {
+      "label": "Camminare sull’acqua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Water Walk"
+      }
+    },
+    {
+      "label": "Forma selvatica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wild Shape"
+      }
+    },
+    {
+      "label": "Viaggio del vento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wind Walk"
+      }
+    },
+    {
+      "label": "Desiderio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wish"
+      }
+    },
+    {
+      "label": "Tocco disseccante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Withering Touch"
+      }
+    },
+    {
+      "label": "Parola di radiosità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Word of Radiance"
+      }
+    },
+    {
+      "label": "Parola di richiamo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Word of Recall"
+      }
+    },
+    {
+      "label": "Veleno di viverna",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wyvern Poison"
+      }
+    },
+    {
+      "label": "Colpo di Zefiro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Zephyr Strike"
+      }
+    },
+    {
+      "label": "Biasimo dei nemici",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Abjure Foes"
+      }
+    },
+    {
+      "label": "Scarica di adrenalina",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Adrenaline Rush"
+      }
+    },
+    {
+      "label": "Armatura arcana",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Armor"
+      }
+    },
+    {
+      "label": "Portale arcano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Gate"
+      }
+    },
+    {
+      "label": "Scossa arcana",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Jolt"
+      }
+    },
+    {
+      "label": "Custode arcano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Ward"
+      }
+    },
+    {
+      "label": "Modello di armatura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Armor Model"
+      }
+    },
+    {
+      "label": "Controllo della fortuna",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bend Luck"
+      }
+    },
+    {
+      "label": "Muro di lame",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blade Barrier"
+      }
+    },
+    {
+      "label": "Incoraggiamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bolster"
+      }
+    },
+    {
+      "label": "Rami dell’Albero",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Branches of the Tree"
+      }
+    },
+    {
+      "label": "Balza di forza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bulwark of Force"
+      }
+    },
+    {
+      "label": "Cacofonia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cacophony"
+      }
+    },
+    {
+      "label": "Resilienza celestiale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Celestial Resilience"
+      }
+    },
+    {
+      "label": "Rivelazione celeste",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Celestial Revelation"
+      }
+    },
+    {
+      "label": "Incantare mostro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Charm Monster"
+      }
+    },
+    {
+      "label": "Combattente chiaroveggente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Clairvoyant Combatant"
+      }
+    },
+    {
+      "label": "Mantello d’ombre",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cloak of Shadows"
+      }
+    },
+    {
+      "label": "Evoca animali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Conjure Animals"
+      }
+    },
+    {
+      "label": "Evoca elementale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Conjure Elemental"
+      }
+    },
+    {
+      "label": "Evoca fata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Conjure Fey"
+      }
+    },
+    {
+      "label": "Controllare il clima",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Control Weather"
+      }
+    },
+    {
+      "label": "Caos controllato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Controlled Chaos"
+      }
+    },
+    {
+      "label": "Presagio cosmico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cosmic Omen"
+      }
+    },
+    {
+      "label": "Crea Magen",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Create Magen"
+      }
+    },
+    {
+      "label": "Schiacciamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Crush"
+      }
+    },
+    {
+      "label": "Colpo astuto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cunning Strike"
+      }
+    },
+    {
+      "label": "Parole taglienti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cutting Words"
+      }
+    },
+    {
+      "label": "Benedizione del Tenebroso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dark One's Blessing"
+      }
+    },
+    {
+      "label": "Fortuna del Tenebroso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dark One's Own Luck"
+      }
+    },
+    {
+      "label": "Colpo mortale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Death Strike"
+      }
+    },
+    {
+      "label": "Campo difensivo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Defensive Field"
+      }
+    },
+    {
+      "label": "Tattiche difensive",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Defensive Tactics"
+      }
+    },
+    {
+      "label": "Colpi sleali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Devious Strikes"
+      }
+    },
+    {
+      "label": "Sopravvissuto disciplinato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Disciplined Survivor"
+      }
+    },
+    {
+      "label": "Dominare bestia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dominate Beast"
+      }
+    },
+    {
+      "label": "Dominare mostro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dominate Monster"
+      }
+    },
+    {
+      "label": "Dominare umanoide",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dominate Person"
+      }
+    },
+    {
+      "label": "Volo draconico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Draconic Flight"
+      }
+    },
+    {
+      "label": "Agguato minaccioso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dread Ambusher"
+      }
+    },
+    {
+      "label": "Colpi terrificanti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dreadful Strikes"
+      }
+    },
+    {
+      "label": "Terremoto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Earthquake"
+      }
+    },
+    {
+      "label": "Cannone eldritch",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Eldritch Cannon"
+      }
+    },
+    {
+      "label": "Affinità elementale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Elemental Affinity"
+      }
+    },
+    {
+      "label": "Sintonia elementale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Elemental Attunement"
+      }
+    },
+    {
+      "label": "Sciagura elementale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Elemental Bane"
+      }
+    },
+    {
+      "label": "Evocazione potenziata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Empowered Evocation"
+      }
+    },
+    {
+      "label": "Armi avvelenate",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Envenom Weapons"
+      }
+    },
+    {
+      "label": "Vista eterea",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ethereal Sight"
+      }
+    },
+    {
+      "label": "Fabbricazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fabricate"
+      }
+    },
+    {
+      "label": "Polvere di fata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Faerie Dust"
+      }
+    },
+    {
+      "label": "Mani rapide",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fast Hands"
+      }
+    },
+    {
+      "label": "Aura di fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fire Aura"
+      }
+    },
+    {
+      "label": "Tempesta di fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fire Storm"
+      }
+    },
+    {
+      "label": "Fonte d’ispirazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Font of Inspiration"
+      }
+    },
+    {
+      "label": "Fonte di magia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Font of Magic"
+      }
+    },
+    {
+      "label": "Gabbia di forza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Forcecage"
+      }
+    },
+    {
+      "label": "Dono della parlantina",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gift of Gab"
+      }
+    },
+    {
+      "label": "Difesa gloriosa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Glorious Defense"
+      }
+    },
+    {
+      "label": "Comprensione superiore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Greater Comprehension"
+      }
+    },
+    {
+      "label": "Invisibilità superiore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Greater Invisibility"
+      }
+    },
+    {
+      "label": "Restauro superiore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Greater Restoration"
+      }
+    },
+    {
+      "label": "Mano del danno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hand of Harm"
+      }
+    },
+    {
+      "label": "Mano curativa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hand of Healing"
+      }
+    },
+    {
+      "label": "Mano della misericordia suprema",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hand of Ultimate Mercy"
+      }
+    },
+    {
+      "label": "Mani curative",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Healing Hands"
+      }
+    },
+    {
+      "label": "Luce curativa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Healing Light"
+      }
+    },
+    {
+      "label": "Sguardo del cuore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Heart Sight"
+      }
+    },
+    {
+      "label": "Ninfea sacra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Holy Nimbus"
+      }
+    },
+    {
+      "label": "Fame di Hadar",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hunger of Hadar"
+      }
+    },
+    {
+      "label": "Difesa del cacciatore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hunter's Defense"
+      }
+    },
+    {
+      "label": "Preda del cacciatore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hunter's Prey"
+      }
+    },
+    {
+      "label": "Lancio attraverso gli Inferi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hurl Through Hell"
+      }
+    },
+    {
+      "label": "Realtà illusoria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Illusory Reality"
+      }
+    },
+    {
+      "label": "Sé illusorio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Illusory Self"
+      }
+    },
+    {
+      "label": "Istigare l’avidità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Incite Greed"
+      }
+    },
+    {
+      "label": "Esperienza nell’infiltrazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Infiltration Expertise"
+      }
+    },
+    {
+      "label": "Evocazioni istantanee",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Instant Summons"
+      }
+    },
+    {
+      "label": "Invocazione del duplicato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Invoke Duplicity"
+      }
+    },
+    {
+      "label": "Mascella",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Jaw"
+      }
+    },
+    {
+      "label": "Localizza creatura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Locate Creature"
+      }
+    },
+    {
+      "label": "Astuzia magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magical Cunning"
+      }
+    },
+    {
+      "label": "Mantello d’ispirazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mantle of Inspiration"
+      }
+    },
+    {
+      "label": "Polimorfismo di massa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mass Polymorph"
+      }
+    },
+    {
+      "label": "Pioggia di meteoriti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Meteor Swarm"
+      }
+    },
+    {
+      "label": "Mimic",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mimic"
+      }
+    },
+    {
+      "label": "Derisione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mockery"
+      }
+    },
+    {
+      "label": "Discorso motivazionale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Motivational Speech"
+      }
+    },
+    {
+      "label": "Muovere la terra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Move Earth"
+      }
+    },
+    {
+      "label": "Recupero naturale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Natural Recovery"
+      }
+    },
+    {
+      "label": "Fuga agile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Nimble Escape"
+      }
+    },
+    {
+      "label": "Sovraccarico magico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Overchannel"
+      }
+    },
+    {
+      "label": "Parola del potere: Morte",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Power Word Kill"
+      }
+    },
+    {
+      "label": "Parola del potere: Dolore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Power Word Pain"
+      }
+    },
+    {
+      "label": "Parola del potere: Stordimento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Power Word Stun"
+      }
+    },
+    {
+      "label": "Preservazione della vita",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Preserve Life"
+      }
+    },
+    {
+      "label": "Compagno primordiale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Primal Companion"
+      }
+    },
+    {
+      "label": "Santuario privato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Private Sanctum"
+      }
+    },
+    {
+      "label": "Proiezione della barriera",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Projected Ward"
+      }
+    },
+    {
+      "label": "Schianto psichico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Psychic Crush"
+      }
+    },
+    {
+      "label": "Anima radiosa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Radiant Soul"
+      }
+    },
+    {
+      "label": "Furia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rampage"
+      }
+    },
+    {
+      "label": "Rigenerazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Regeneration"
+      }
+    },
+    {
+      "label": "Resistenza instancabile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Relentless Endurance"
+      }
+    },
+    {
+      "label": "Riparazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Repair"
+      }
+    },
+    {
+      "label": "Rivelazione nella carne",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Revelation in Flesh"
+      }
+    },
+    {
+      "label": "Arma sacra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sacred Weapon"
+      }
+    },
+    {
+      "label": "Incenerimento dei non morti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sear Undead"
+      }
+    },
+    {
+      "label": "Vendetta rovente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Searing Vengeance"
+      }
+    },
+    {
+      "label": "Shillelagh",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shillelagh"
+      }
+    },
+    {
+      "label": "Scudo scintillante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shimmering Shield"
+      }
+    },
+    {
+      "label": "Melma",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Slime"
+      }
+    },
+    {
+      "label": "Ripristino dello stregone",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sorcerous Restoration"
+      }
+    },
+    {
+      "label": "Incarnazione della stregoneria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sorcery Incarnate"
+      }
+    },
+    {
+      "label": "Riflessione magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spell Reflection"
+      }
+    },
+    {
+      "label": "Ladro di incantesimi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spell Thief"
+      }
+    },
+    {
+      "label": "Spirito della Morte",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spirit of Death"
+      }
+    },
+    {
+      "label": "Furia del predatore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stalker's Flurry"
+      }
+    },
+    {
+      "label": "Difensore d'acciaio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Steel Defender"
+      }
+    },
+    {
+      "label": "Tempesta della vendetta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Storm of Vengeance"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito dell’aberrazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Aberration"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito della bestia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Beast"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito celestiale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Celestial"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito costrutto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Construct"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito draconico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Draconic Spirit"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito elementale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Elemental"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito fatato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Fey"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito demoniaco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Fiend"
+      }
+    },
+    {
+      "label": "Evocazione del demone superiore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Greater Demon"
+      }
+    },
+    {
+      "label": "Evocazione dei demoni minori",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Lesser Demon"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito dell’ombra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Shadowspawn"
+      }
+    },
+    {
+      "label": "Evocazione dello spirito non morto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Summon Undead"
+      }
+    },
+    {
+      "label": "Furtività suprema",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Supreme Sneak"
+      }
+    },
+    {
+      "label": "Mente tattica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tactical Mind"
+      }
+    },
+    {
+      "label": "Cambio tattico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tactical Shift"
+      }
+    },
+    {
+      "label": "Impulso domato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tamed Surge"
+      }
+    },
+    {
+      "label": "Telecinetico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Telekinetic"
+      }
+    },
+    {
+      "label": "Cerchio di teletrasporto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Teleportation Circle"
+      }
+    },
+    {
+      "label": "Vite",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tendril"
+      }
+    },
+    {
+      "label": "Frusta spinosa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Thorn Whip"
+      }
+    },
+    {
+      "label": "Maree del Caos",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tides of Chaos"
+      }
+    },
+    {
+      "label": "Instancabile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tireless"
+      }
+    },
+    {
+      "label": "Metabolismo straordinario",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Uncanny Metabolism"
+      }
+    },
+    {
+      "label": "Sentinella immortale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Undying Sentinel"
+      }
+    },
+    {
+      "label": "Vitalità dell’Albero",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vitality of the Tree"
+      }
+    },
+    {
+      "label": "Voto di inimicizia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vow of Enmity"
+      }
+    },
+    {
+      "label": "Legame d’armi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "War Bond"
+      }
+    },
+    {
+      "label": "Grido di guerra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "War Cry"
+      }
+    },
+    {
+      "label": "Bagliore protettivo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Warding Flare"
+      }
+    },
+    {
+      "label": "Percezione della distorsione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Warp Sense"
+      }
+    },
+    {
+      "label": "Guerriero degli Dei",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Warrior of the Gods"
+      }
+    },
+    {
+      "label": "Intuito inquietante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Weird Insight"
+      }
+    },
+    {
+      "label": "Ondata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Whelm"
+      }
+    },
+    {
+      "label": "Tornado",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Whirlwind"
+      }
+    },
+    {
+      "label": "Integrità del corpo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wholeness of Body"
+      }
+    },
+    {
+      "label": "Rinascita selvaggia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wild Resurgence"
+      }
+    },
+    {
+      "label": "Presenza zelante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Zealous Presence"
+      }
+    }
+  ],
+  "templatefx": [
+    {
+      "label": "Appassimento Orribile di Abi-Dalzim",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Abi-Dalzim's Horrid Wilting"
+      }
+    },
+    {
+      "label": "Soffio Acido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Acid Breath"
+      }
+    },
+    {
+      "label": "Fiammata di Aganazzar",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aganazzar's Scorcher"
+      }
+    },
+    {
+      "label": "Sfere di Metallo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ball Bearings"
+      }
+    },
+    {
+      "label": "Tentacoli Neri",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Black Tentacles"
+      }
+    },
+    {
+      "label": "Muro di Lame",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blade Barrier"
+      }
+    },
+    {
+      "label": "Ossa della Terra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bones of the Earth"
+      }
+    },
+    {
+      "label": "Mani Fiammeggianti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Burning Hands"
+      }
+    },
+    {
+      "label": "Richiamo del Fulmine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Call Lightning"
+      }
+    },
+    {
+      "label": "Placare le Emozioni",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Calm Emotions"
+      }
+    },
+    {
+      "label": "Infuso Caustico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Caustic Brew"
+      }
+    },
+    {
+      "label": "Cerchio della Morte",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Circle of Death"
+      }
+    },
+    {
+      "label": "Nube di Pugnali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cloud of Daggers"
+      }
+    },
+    {
+      "label": "Nebbia Mortale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cloudkill"
+      }
+    },
+    {
+      "label": "Soffio Gelido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cold Breath"
+      }
+    },
+    {
+      "label": "Spruzzo di Colori",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Color Spray"
+      }
+    },
+    {
+      "label": "Cono di Freddo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cone of Cold"
+      }
+    },
+    {
+      "label": "Confusione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Confusion"
+      }
+    },
+    {
+      "label": "Evocazione di Volée",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Conjure Volley"
+      }
+    },
+    {
+      "label": "Controllo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Control"
+      }
+    },
+    {
+      "label": "Controllo dei Venti",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Control Winds"
+      }
+    },
+    {
+      "label": "Crea un Falò",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Create Bonfire"
+      }
+    },
+    {
+      "label": "Crea o Distruggi Acqua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Create or Destroy Water"
+      }
+    },
+    {
+      "label": "Creazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Creation"
+      }
+    },
+    {
+      "label": "Mantello del Crociato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Crusader's Mantle"
+      }
+    },
+    {
+      "label": "Oscurità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Darkness"
+      }
+    },
+    {
+      "label": "Alba",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dawn"
+      }
+    },
+    {
+      "label": "Luce del Giorno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Daylight"
+      }
+    },
+    {
+      "label": "Ondata Distruttiva",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Destructive Wave"
+      }
+    },
+    {
+      "label": "Trasformazione Draconica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Draconic Transformation"
+      }
+    },
+    {
+      "label": "Soffio del Drago",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dragon's Breath"
+      }
+    },
+    {
+      "label": "Diavolo di Polvere",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dust Devil"
+      }
+    },
+    {
+      "label": "Terremoto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Earthquake"
+      }
+    },
+    {
+      "label": "Intralciare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Entangle"
+      }
+    },
+    {
+      "label": "Terra Eruente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Erupting Earth"
+      }
+    },
+    {
+      "label": "Fabbricare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fabricate"
+      }
+    },
+    {
+      "label": "Paura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fear"
+      }
+    },
+    {
+      "label": "Soffio di Fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fire Breath"
+      }
+    },
+    {
+      "label": "Tempesta di Fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fire Storm"
+      }
+    },
+    {
+      "label": "Colonna di Fiamme",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flame Strike"
+      }
+    },
+    {
+      "label": "Sfera Fiammeggiante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flaming Sphere"
+      }
+    },
+    {
+      "label": "Nube di Nebbia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fog Cloud"
+      }
+    },
+    {
+      "label": "Gabbia di Forza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Forcecage"
+      }
+    },
+    {
+      "label": "Globo di Invulnerabilità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Globe of Invulnerability"
+      }
+    },
+    {
+      "label": "Grasso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Grease"
+      }
+    },
+    {
+      "label": "Raffica di Vento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gust of Wind"
+      }
+    },
+    {
+      "label": "Consacrazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hallow"
+      }
+    },
+    {
+      "label": "Terreno Illusorio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hallucinatory Terrain"
+      }
+    },
+    {
+      "label": "Spirito Curativo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Healing Spirit"
+      }
+    },
+    {
+      "label": "Fame di Hadar",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hunger of Hadar"
+      }
+    },
+    {
+      "label": "Schema Ipnotico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hypnotic Pattern"
+      }
+    },
+    {
+      "label": "Tempesta di Ghiaccio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ice Storm"
+      }
+    },
+    {
+      "label": "Immagine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Image"
+      }
+    },
+    {
+      "label": "Nube Incendiaria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Incendiary Cloud"
+      }
+    },
+    {
+      "label": "Sciame di Cavallette",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Insect Plague"
+      }
+    },
+    {
+      "label": "Investitura del Ghiaccio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Investiture of Ice"
+      }
+    },
+    {
+      "label": "Investitura del Vento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Investiture of Wind"
+      }
+    },
+    {
+      "label": "Fulmine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lightning Bolt"
+      }
+    },
+    {
+      "label": "Soffio di Fulmine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lightning Breath"
+      }
+    },
+    {
+      "label": "Cerchio Magico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Magic Circle"
+      }
+    },
+    {
+      "label": "Cura Ferite di Massa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mass Cure Wounds"
+      }
+    },
+    {
+      "label": "Presa Terrestre di Maximilian",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Maximilian's Earthen Grasp"
+      }
+    },
+    {
+      "label": "Esplosione Mentale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mind Blast"
+      }
+    },
+    {
+      "label": "Illusione Minore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Minor Illusion"
+      }
+    },
+    {
+      "label": "Miraggio Arcano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mirage Arcane"
+      }
+    },
+    {
+      "label": "Raggio Lunare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Moonbeam"
+      }
+    },
+    {
+      "label": "Muovere la Terra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Move Earth"
+      }
+    },
+    {
+      "label": "Marachella di Nathair",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Nathair's Mischief"
+      }
+    },
+    {
+      "label": "Soffio Paralizzante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Paralyzing Breath"
+      }
+    },
+    {
+      "label": "Forza Fantasmatica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Phantasmal Force"
+      }
+    },
+    {
+      "label": "Soffio Velenoso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Poison Breath"
+      }
+    },
+    {
+      "label": "Spruzzo Prismatico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Prismatic Spray"
+      }
+    },
+    {
+      "label": "Muro Prismatico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Prismatic Wall"
+      }
+    },
+    {
+      "label": "Santuario Privato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Private Sanctum"
+      }
+    },
+    {
+      "label": "Illusione Programmata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Programmed Illusion"
+      }
+    },
+    {
+      "label": "Purificare Cibo e Bevande",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Purify Food and Drink"
+      }
+    },
+    {
+      "label": "Fuochi d'Artificio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pyrotechnics"
+      }
+    },
+    {
+      "label": "Soffio di Repulsione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Repulsion Breath"
+      }
+    },
+    {
+      "label": "Gravità Invertita",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Reverse Gravity"
+      }
+    },
+    {
+      "label": "Ghiaccio Vincolante di Rime",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rime's Binding Ice"
+      }
+    },
+    {
+      "label": "Frantumare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shatter"
+      }
+    },
+    {
+      "label": "Bagliore Nauseante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sickening Radiance"
+      }
+    },
+    {
+      "label": "Silenzio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Silence"
+      }
+    },
+    {
+      "label": "Tempesta di Nevischio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sleet Storm"
+      }
+    },
+    {
+      "label": "Rallentare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Slow"
+      }
+    },
+    {
+      "label": "Soffio Rallentante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Slowing Breath"
+      }
+    },
+    {
+      "label": "Crescita Spinosa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spike Growth"
+      }
+    },
+    {
+      "label": "Arma Spirituale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spiritual Weapon"
+      }
+    },
+    {
+      "label": "Nube Puzzolente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stinking Cloud"
+      }
+    },
+    {
+      "label": "Tempesta della Vendetta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Storm of Vengeance"
+      }
+    },
+    {
+      "label": "Sfera della Tempesta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Storm Sphere"
+      }
+    },
+    {
+      "label": "Raggio Solare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sunbeam"
+      }
+    },
+    {
+      "label": "Esplosione Solare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sunburst"
+      }
+    },
+    {
+      "label": "Esplosione Sinaptica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Synaptic Static"
+      }
+    },
+    {
+      "label": "Cerchio di Teletrasporto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Teleportation Circle"
+      }
+    },
+    {
+      "label": "Capanna",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tiny Hut"
+      }
+    },
+    {
+      "label": "Trasmutare Roccia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Transmute Rock"
+      }
+    },
+    {
+      "label": "Muro di Fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wall of Fire"
+      }
+    },
+    {
+      "label": "Muro di Forza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wall of Force"
+      }
+    },
+    {
+      "label": "Muro di Ghiaccio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wall of Ice"
+      }
+    },
+    {
+      "label": "Muro di Luce",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wall of Light"
+      }
+    },
+    {
+      "label": "Muro di Sabbia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wall of Sand"
+      }
+    },
+    {
+      "label": "Muro di Pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wall of Stone"
+      }
+    },
+    {
+      "label": "Muro di Spine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wall of Thorns"
+      }
+    },
+    {
+      "label": "Muro d'Acqua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wall of Water"
+      }
+    },
+    {
+      "label": "Vento Protettivo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Warding Wind"
+      }
+    },
+    {
+      "label": "Sfera d'Acqua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Watery Sphere"
+      }
+    },
+    {
+      "label": "Soffio Indebolente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Weakening Breath"
+      }
+    },
+    {
+      "label": "Ragnatela",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Web"
+      }
+    },
+    {
+      "label": "Orrore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Weird"
+      }
+    },
+    {
+      "label": "Tromba d'Aria",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Whirlwind"
+      }
+    },
+    {
+      "label": "Muro di Vento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wind Wall"
+      }
+    },
+    {
+      "label": "Appassire e Fiorire",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wither and Bloom"
+      }
+    },
+    {
+      "label": "Ira della Natura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wrath of Nature"
+      }
+    },
+    {
+      "label": "Zona della Verità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Zone of Truth"
+      }
+    },
+    {
+      "label": "Spruzzo Acido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Acid Splash"
+      }
+    },
+    {
+      "label": "Allarme",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Alarm"
+      }
+    },
+    {
+      "label": "Cono di Antimagia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antimagic Cone"
+      }
+    },
+    {
+      "label": "Antipatia/Simpatia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antipathy/Sympathy"
+      }
+    },
+    {
+      "label": "Braccia di Hadar",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arms of Hadar"
+      }
+    },
+    {
+      "label": "Aura di Annientamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Annihilation"
+      }
+    },
+    {
+      "label": "Respiro Accecante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blinding Breath"
+      }
+    },
+    {
+      "label": "Evoca Celestiale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Conjure Celestial"
+      }
+    },
+    {
+      "label": "Controlla le Fiamme",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Control Flames"
+      }
+    },
+    {
+      "label": "Controllo dell’Acqua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Control Water"
+      }
+    },
+    {
+      "label": "Controllo del Clima",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Control Weather"
+      }
+    },
+    {
+      "label": "Esplosione Mortale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Death Burst"
+      }
+    },
+    {
+      "label": "Interruzione della Vita",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Disrupt Life"
+      }
+    },
+    {
+      "label": "Distorsione del Valore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Distort Value"
+      }
+    },
+    {
+      "label": "Esplosione Elementale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Elemental Burst"
+      }
+    },
+    {
+      "label": "Elementalismo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Elementalism"
+      }
+    },
+    {
+      "label": "Respiro Euforico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Euphoria Breath"
+      }
+    },
+    {
+      "label": "Fuoco Fatato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Faerie Fire"
+      }
+    },
+    {
+      "label": "Nube Fetida",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fetid Cloud"
+      }
+    },
+    {
+      "label": "Lanciafiamme",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flamethrower"
+      }
+    },
+    {
+      "label": "Respiro Gelido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Frost Breath"
+      }
+    },
+    {
+      "label": "Dita Gelide",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Frost Fingers"
+      }
+    },
+    {
+      "label": "Sigillo del Portale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Gate Seal"
+      }
+    },
+    {
+      "label": "Pioggia di Spine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hail of Thorns"
+      }
+    },
+    {
+      "label": "Banchetto degli Eroi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Heroes' Feast"
+      }
+    },
+    {
+      "label": "Ululato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Howl"
+      }
+    },
+    {
+      "label": "Pugnale di Ghiaccio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ice Knife"
+      }
+    },
+    {
+      "label": "Bagliore Ardente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ignited Illumination"
+      }
+    },
+    {
+      "label": "Nube d’Inchiostro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ink Cloud"
+      }
+    },
+    {
+      "label": "Investitura della Fiamma",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Investiture of Flame"
+      }
+    },
+    {
+      "label": "Investitura della Pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Investiture of Stone"
+      }
+    },
+    {
+      "label": "Aiuto della Terra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Land's Aid"
+      }
+    },
+    {
+      "label": "Tempesta con Fulmini",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Lightning Storm"
+      }
+    },
+    {
+      "label": "Sciame di Meteore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Meteor Swarm"
+      }
+    },
+    {
+      "label": "Fuga Nebbiosa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Misty Escape"
+      }
+    },
+    {
+      "label": "Modellare la Terra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mold Earth"
+      }
+    },
+    {
+      "label": "Respiro Necrotico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Necrotic Breath"
+      }
+    },
+    {
+      "label": "Cono di Energia Negativa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Negative Energy Cone"
+      }
+    },
+    {
+      "label": "Respiro Pietrificante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Petrifying Breath"
+      }
+    },
+    {
+      "label": "Sguardo Pietrificante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Petrifying Gaze"
+      }
+    },
+    {
+      "label": "Crescita delle Piante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Plant Growth"
+      }
+    },
+    {
+      "label": "Protettore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Protector"
+      }
+    },
+    {
+      "label": "Splendore dell'Alba",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Radiance of the Dawn"
+      }
+    },
+    {
+      "label": "Respiro d'Ombra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shadow Breath"
+      }
+    },
+    {
+      "label": "Modellare l’Acqua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shape Water"
+      }
+    },
+    {
+      "label": "Grido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shriek"
+      }
+    },
+    {
+      "label": "Respiro Soporifero",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sleep Breath"
+      }
+    },
+    {
+      "label": "Respiro di Vapore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Steam Breath"
+      }
+    },
+    {
+      "label": "Puzzo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stench"
+      }
+    },
+    {
+      "label": "Esplosione di Spade",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sword Burst"
+      }
+    },
+    {
+      "label": "Simbolo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Symbol"
+      }
+    },
+    {
+      "label": "Presenza Terrificante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Terrifying Presence"
+      }
+    },
+    {
+      "label": "Onda di Marea",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tidal Wave"
+      }
+    },
+    {
+      "label": "Tsunami",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tsunami"
+      }
+    },
+    {
+      "label": "Volto Inquietante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Unsettling Visage"
+      }
+    },
+    {
+      "label": "Implosione Distorta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Warping Implosion"
+      }
+    },
+    {
+      "label": "Parola della Luce",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Word of Radiance"
+      }
+    },
+    {
+      "label": "Ira del Mare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Wrath of the Sea"
+      }
+    }
+  ],
+  "preset": [
+    {
+      "label": "Caltrop",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Caltrop"
+      }
+    },
+    {
+      "label": "Evoca Raffica di Proiettili",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Conjure Barrage"
+      }
+    },
+    {
+      "label": "Palla di Fuoco Ritardata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Delayed Blast Fireball"
+      }
+    },
+    {
+      "label": "Porta Dimensionale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dimension Door"
+      }
+    },
+    {
+      "label": "Indebolimento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Enervation"
+      }
+    },
+    {
+      "label": "Passo Lontano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Far Step"
+      }
+    },
+    {
+      "label": "Palla di Fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fireball"
+      }
+    },
+    {
+      "label": "Sfera Ghiacciata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Freezing Sphere"
+      }
+    },
+    {
+      "label": "Sciame di Meteore",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Meteor Swarm"
+      }
+    },
+    {
+      "label": "Passo Nebbioso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Misty Step"
+      }
+    },
+    {
+      "label": "Sonno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sleep"
+      }
+    },
+    {
+      "label": "Valanga di Palle di Neve di Snilloc",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Snilloc's Snowball Swarm"
+      }
+    },
+    {
+      "label": "Passo della Luce Stellare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Starlight Step"
+      }
+    },
+    {
+      "label": "Teletrasporto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Teleport"
+      }
+    },
+    {
+      "label": "Passo Tonante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Thunder Step"
+      }
+    },
+    {
+      "label": "Onda Tonante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Thunderwave"
+      }
+    },
+    {
+      "label": "Sfera Vitriolica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vitriolic Sphere"
+      }
+    },
+    {
+      "label": "Scarica della Strega",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Witch Bolt"
+      }
+    },
+    {
+      "label": "Impulso Arcano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Charge"
+      }
+    },
+    {
+      "label": "Magia Incantatrice",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bewitching Magic"
+      }
+    },
+    {
+      "label": "Camminata tra le Nuvole",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Cloud's Jaunt"
+      }
+    },
+    {
+      "label": "Caduta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Drop"
+      }
+    },
+    {
+      "label": "Passo Agile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fleet Step"
+      }
+    },
+    {
+      "label": "Pugnale di Ghiaccio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ice Knife"
+      }
+    },
+    {
+      "label": "Salto",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Leap"
+      }
+    },
+    {
+      "label": "Passo nel Chiarore Lunare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Moonlight Step"
+      }
+    },
+    {
+      "label": "Balzo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pounce"
+      }
+    },
+    {
+      "label": "Teletrasporto Psichico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Psychic Teleportation"
+      }
+    },
+    {
+      "label": "Passo d’Ombra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shadow Step"
+      }
+    },
+    {
+      "label": "Schivata Ombrosa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shadowy Dodge"
+      }
+    },
+    {
+      "label": "Spruzzo di Carte",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spray of Cards"
+      }
+    },
+    {
+      "label": "Passo del Vento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Step of the Wind"
+      }
+    },
+    {
+      "label": "Passi della Fata",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Steps of the Fey"
+      }
+    },
+    {
+      "label": "Fragore di Tuono",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Thunderclap"
+      }
+    },
+    {
+      "label": "Viaggio sull’Albero",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Travel along the Tree"
+      }
+    },
+    {
+      "label": "Scavo di Tunnel",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Tunneler"
+      }
+    },
+    {
+      "label": "Tocco Vampirico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vampiric Touch"
+      }
+    }
+  ],
+  "aura": [
+    {
+      "label": "Barriera Antivita",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antilife Shell"
+      }
+    },
+    {
+      "label": "Campo di Antimagia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antimagic Field"
+      }
+    },
+    {
+      "label": "Aura di",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of"
+      }
+    },
+    {
+      "label": "Aura di Annientamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Annihilation"
+      }
+    },
+    {
+      "label": "Aura di Vitalità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Vitality"
+      }
+    },
+    {
+      "label": "Cerchio del Potere",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Circle of Power"
+      }
+    },
+    {
+      "label": "Individuazione del Bene e del Male",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Detect Evil and Good"
+      }
+    },
+    {
+      "label": "Individuazione della Magia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Detect Magic"
+      }
+    },
+    {
+      "label": "Individuazione di Veleni e Malattie",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Detect Poison and Disease"
+      }
+    },
+    {
+      "label": "Aura Sacra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Holy Aura"
+      }
+    },
+    {
+      "label": "Passo Invisibile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pass without Trace"
+      }
+    },
+    {
+      "label": "Consumo Radiante",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Radiant Consumption"
+      }
+    },
+    {
+      "label": "Guardiani Spirituali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Spirit Guardians"
+      }
+    }
+  ],
+  "aefx": [
+    {
+      "label": "Custode di Abiurazione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Abjuration Ward"
+      }
+    },
+    {
+      "label": "Sventura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bane"
+      }
+    },
+    {
+      "label": "Pelle di Corteccia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Barkskin"
+      }
+    },
+    {
+      "label": "Benedizione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bless"
+      }
+    },
+    {
+      "label": "Scudo Gelido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Chill Shield"
+      }
+    },
+    {
+      "label": "Scudo di Fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Fire Shield"
+      }
+    },
+    {
+      "label": "Armatura Magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mage Armor"
+      }
+    },
+    {
+      "label": "Scudo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shield"
+      }
+    },
+    {
+      "label": "Scudo Caldo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Warm Shield"
+      }
+    },
+    {
+      "label": "Assorbimento Acido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Absorb Acid"
+      }
+    },
+    {
+      "label": "Assorbimento Freddo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Absorb Cold"
+      }
+    },
+    {
+      "label": "Assorbimento Fuoco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Absorb Fire"
+      }
+    },
+    {
+      "label": "Assorbimento Fulmine",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Absorb Lightning"
+      }
+    },
+    {
+      "label": "Assorbimento Tuono",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Absorb Thunder"
+      }
+    },
+    {
+      "label": "Barriera Antivita",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antilife Shell"
+      }
+    },
+    {
+      "label": "Campo di Antimagia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Antimagic Field"
+      }
+    },
+    {
+      "label": "Custode Arcano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Arcane Ward"
+      }
+    },
+    {
+      "label": "Armatura di Agathys",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Armor of Agathys"
+      }
+    },
+    {
+      "label": "Aura della Conquista",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Conquest"
+      }
+    },
+    {
+      "label": "Aura del Coraggio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Courage"
+      }
+    },
+    {
+      "label": "Aura della Devozione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Devotion"
+      }
+    },
+    {
+      "label": "Aura della Vita",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Life"
+      }
+    },
+    {
+      "label": "Aura di Protezione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Protection"
+      }
+    },
+    {
+      "label": "Aura della Purezza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Purity"
+      }
+    },
+    {
+      "label": "Aura del Guardiano",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of the Guardian"
+      }
+    },
+    {
+      "label": "Aura di Vitalità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Vitality"
+      }
+    },
+    {
+      "label": "Aura di Protezione Magica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Aura of Warding"
+      }
+    },
+    {
+      "label": "Angelo della Vendetta",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Avenging Angel"
+      }
+    },
+    {
+      "label": "Ispirazione Bardica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bardic Inspiration"
+      }
+    },
+    {
+      "label": "Bastione della Legge",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Bastion of Law"
+      }
+    },
+    {
+      "label": "Furia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Berserk"
+      }
+    },
+    {
+      "label": "Custodia dalle Lame",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blade Ward"
+      }
+    },
+    {
+      "label": "Sfumatura",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Blur"
+      }
+    },
+    {
+      "label": "Incantato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Charmed"
+      }
+    },
+    {
+      "label": "Cerchio del Potere",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Circle of Power"
+      }
+    },
+    {
+      "label": "Concentrazione: Investitura della Fiamma",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Concentrating: Investiture of Flame"
+      }
+    },
+    {
+      "label": "Concentrazione: Investitura del Ghiaccio",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Concentrating: Investiture of Ice"
+      }
+    },
+    {
+      "label": "Concentrazione: Investitura della Pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Concentrating: Investiture of Stone"
+      }
+    },
+    {
+      "label": "Concentrazione: Investitura del Vento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Concentrating: Investiture of Wind"
+      }
+    },
+    {
+      "label": "Concentrazione: Guardiani Spirituali",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Concentrating: Spirit Guardians"
+      }
+    },
+    {
+      "label": "Concentrazione: Raggio Solare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Concentrating: Sunbeam"
+      }
+    },
+    {
+      "label": "Concentrazione: Presenza Regale di Yolande",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Concentrating: Yolande's Regal Presence"
+      }
+    },
+    {
+      "label": "Evocazione di Creature del Bosco",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Conjure Woodland Beings"
+      }
+    },
+    {
+      "label": "Contagio: Veleno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Contagion: Poison"
+      }
+    },
+    {
+      "label": "Controllare l’Acqua",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Control Water"
+      }
+    },
+    {
+      "label": "Ricoperto di Acido",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Covered in Acid"
+      }
+    },
+    {
+      "label": "Corona della Follia: Incantato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Crown of Madness: Charmed"
+      }
+    },
+    {
+      "label": "Mantello del Crociato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Crusader's Mantle"
+      }
+    },
+    {
+      "label": "Individuazione del Bene e del Male",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Detect Evil and Good"
+      }
+    },
+    {
+      "label": "Individuazione della Magia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Detect Magic"
+      }
+    },
+    {
+      "label": "Individuazione di Veleni e Malattie",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Detect Poison and Disease"
+      }
+    },
+    {
+      "label": "Trasformazione Draconica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Draconic Transformation"
+      }
+    },
+    {
+      "label": "Ali di Drago",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Dragon Wings"
+      }
+    },
+    {
+      "label": "Affinità Elementale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Elemental Attunement"
+      }
+    },
+    {
+      "label": "Colpo Intrappolante: Immobilizzato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Ensnaring Strike: Restrained"
+      }
+    },
+    {
+      "label": "Intrappolamento: Immobilizzato",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Entangle: Restrained"
+      }
+    },
+    {
+      "label": "Discorso Ipnotico",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Enthralled"
+      }
+    },
+    {
+      "label": "Ritirata Rapida",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Expeditious Retreat"
+      }
+    },
+    {
+      "label": "Carne in Pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Flesh to Stone: "
+      }
+    },
+    {
+      "label": "Luce Verde",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Green Light"
+      }
+    },
+    {
+      "label": "Rapidità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Haste"
+      }
+    },
+    {
+      "label": "Metallo Bollente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Heat Metal: "
+      }
+    },
+    {
+      "label": "Blocca Mostro",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hold Monster: "
+      }
+    },
+    {
+      "label": "Blocca Persona",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hold Person: "
+      }
+    },
+    {
+      "label": "Aura Sacra (Aura)",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Holy Aura (Aura)"
+      }
+    },
+    {
+      "label": "Trama Ipnotica",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Hypnotic Pattern: "
+      }
+    },
+    {
+      "label": "Prigionia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Imprisonment: "
+      }
+    },
+    {
+      "label": "Fortezza Mentale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Intellect Fortress"
+      }
+    },
+    {
+      "label": "Invulnerabilità",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Invulnerability"
+      }
+    },
+    {
+      "label": "Risata Incontrollabile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Laughing Uncontrollably"
+      }
+    },
+    {
+      "label": "Leggenda Vivente",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Living Legend"
+      }
+    },
+    {
+      "label": "Passolungo",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Longstrider"
+      }
+    },
+    {
+      "label": "Suggestione di Massa",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Mass Suggestion"
+      }
+    },
+    {
+      "label": "Passo Invisibile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Pass without Trace"
+      }
+    },
+    {
+      "label": "Atleta Incomparabile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Peerless Athlete"
+      }
+    },
+    {
+      "label": "Custode Primordiale",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Primordial Ward"
+      }
+    },
+    {
+      "label": "Furia",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Rage"
+      }
+    },
+    {
+      "label": "Resistenza",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Resistance: "
+      }
+    },
+    {
+      "label": "Scudo della Fede",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Shield of Faith"
+      }
+    },
+    {
+      "label": "Sonno",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Sleep: "
+      }
+    },
+    {
+      "label": "Rallentamento",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Slow"
+      }
+    },
+    {
+      "label": "Forma Stellare",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Starry Form"
+      }
+    },
+    {
+      "label": "Conoscenza della Pietra: Tremosenso",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stonecunning: Tremorsense"
+      }
+    },
+    {
+      "label": "Pelle di Pietra",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Stoneskin"
+      }
+    },
+    {
+      "label": "Suggestione",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Suggestion"
+      }
+    },
+    {
+      "label": "Scarica Sinaptica: Pensieri Confusi",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Synaptic Static: Muddled Thoughts"
+      }
+    },
+    {
+      "label": "Maestà Infrangibile",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Unbreakable Majesty"
+      }
+    },
+    {
+      "label": "Scherno Crudele",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Vicious Mockery"
+      }
+    },
+    {
+      "label": "Luce Viola",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Violet Light"
+      }
+    },
+    {
+      "label": "Maestà Regale di Yolande: Prono",
+      "advanced": {
+        "exactMatch": false
+      },
+      "metaData": {
+        "label": "Yolande's Regal Presence: Prone"
+      }
+    }
+  ],
+  "version": 5
+}

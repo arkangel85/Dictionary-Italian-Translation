@@ -1,0 +1,162 @@
+{
+  "TYPES.Item.masks-newgeneration-unofficial.influence": "Influenza",
+  "MASKS-SHEETS": {
+    "SheetConfig": {
+      "character": "Scheda delle Maschere"
+    },
+    "Settings": {
+      "enable_dark_mode": {
+        "name": "Modalità scura",
+        "hint": "Utilizza la modalità scura per tutte le schede."
+      }
+    },
+    "Description": {
+      "Abilities": "Abilità e descrizione dei poteri",
+      "Backstory": "Retroscena",
+      "Look": "Aspetto",
+      "Relationships": "Relazioni",
+      "TheTeam": "Quando la nostra squadra si è riunita per la prima volta",
+      "Moment": "Momento di verità",
+      "Notes": "Note"
+    },
+    "Influences": "Influenza",
+    "HasInfluence": "Ha influenza su di te",
+    "HaveInfluence": "Hai influenza su di loro",
+    "Influence-Lock": "Blocca influenza",
+    "Influence-Unlock": "Sblocca influenza",
+    "InfluenceCreate": "Crea influenza",
+    "Person-Name": "Nome",
+    "Shift-Labels": {
+      "label": "Spostamento etichette",
+      "stat": "Etichetta",
+      "stats": "Etichette"
+    },
+    "NPCSheets": {
+      "realName": "Nome reale",
+      "conditions": {
+        "label": "Condizioni",
+        "description": "Seleziona ciò che si applica:",
+        "options": {
+          "0": "Paura",
+          "1": "Rabbia",
+          "2": "Senso di colpa",
+          "3": "Disperazione",
+          "4": "Insicurezza"
+        }
+      },
+      "driveLabel": "Motivazione",
+      "abilitiesLabel": "Abilità",
+      "generationLabel": "Generazione",
+      "moveTypes": {
+        "villainLabel": "Mosse del cattivo",
+        "conditionLabel": "Mosse di condizione"
+      }
+    },
+    "CharacterSheets": {
+      "statToggle": "Bloccato",
+      "rollResults": {
+        "complications": "Complicazioni...",
+        "partialSuccess": "Successo parziale",
+        "success": "Successo!"
+      },
+      "stats": {
+        "danger": "Audacia",
+        "freak": "Stranezza",
+        "savior": "Altruismo",
+        "superior": "Arroganza",
+        "mundane": "Normalità"
+      },
+      "realNameLabel": "Nome reale",
+      "xpLabel": "Potenziale",
+      "conditions": {
+        "label": "Condizioni",
+        "description": "Seleziona ciò che si applica:",
+        "options": {
+          "0": "Paura (-2 quando affronti una minaccia)",
+          "1": "Rabbia (-2 quando conforti o leggi qualcuno)",
+          "2": "Senso di colpa (-2 quando provochi o valuti)",
+          "3": "Disperazione (-2 quando ti abbandoni)",
+          "4": "Insicurezza (-2 quando difendi o rifiuti)"
+        }
+      },
+      "momentUnlocked": {
+        "label": "Momento di verità",
+        "checkboxLabel": "Sbloccato"
+      },
+      "influenceLabel": "Influenza",
+      "advancementsLabel": "Avanzamenti",
+      "advancementsDescription": "Ottieni un avanzamento quando riempi la barra. Scegline uno dall'elenco.",
+      "laterAdvancesLabel": "Avanzamenti successivi",
+      "laterAdvancesDescription": "Quando hai ottenuto cinque avanzamenti iniziali, puoi scegliere dall'elenco successivo.",
+      "details": {
+        "lookLabel": "Aspetto",
+        "abilitiesLabel": "Abilità",
+        "momentLabel": "Momento di verità",
+        "backstoryLabel": "Retroscena",
+        "teamLabel": "Quando la nostra squadra si è unita",
+        "relationshipsLabel": "Relazioni",
+        "biographyLabel": "Note"
+      },
+      "moveTypes": {
+        "basicLabel": "Mosse base",
+        "playbookLabel": "Mosse del libretto",
+        "rulesLabel": "Regole",
+        "adultLabel": "Mosse adulte"
+      },
+      "Playbooks": {
+        "theDoomed": {
+          "track": "Traccia del Destino",
+          "bringsDoomCloser": {
+            "label": "Destino",
+            "description": "Cosa avvicina il destino? Scegli due."
+          },
+          "sanctuary": {
+            "features": {
+              "label": "Caratteristiche del santuario",
+              "description": "Scegli tre caratteristiche del santuario:"
+            },
+            "downsides": {
+              "label": "Svantaggi del santuario",
+              "description": "Scegli due svantaggi del santuario:"
+            }
+          }
+        },
+        "theBull": {
+          "label": "Cuore Toro"
+        },
+        "theNovaLabel": "Calore compresso",
+        "theProtege": {
+          "resources": {
+            "label": "Risorse del mentore",
+            "description": "Scegli fino a tre risorse fornite dal mentore:"
+          },
+          "label": "Etichette del mentore"
+        },
+        "theSoldierLabel": "Soldato",
+        "theHarbingerLabel": "Punti ricordo",
+        "theNomadLabel": "Influenza ceduta",
+        "theScionGreatestEnemyLabel": "Nemico",
+        "theScionGreatestVictimLabel": "Vittima",
+        "theScionPersonalIdolLabel": "Idolo",
+        "theScionGreatestLeaderLabel": "Leader",
+        "theScionGreatestHeroLabel": "Eroe",
+        "theScionBiggestCelebrityLabel": "Celebrità",
+        "theHarbinger": {
+          "label": "Ricordi"
+        },
+        "theBrainLabel": "Vergogna",
+        "theStarAdvantagesLabel": "Vantaggi dei fan",
+        "theStarDemandsLabel": "Richieste dei fan",
+        "theInnocentLabel": "Te stesso dal futuro",
+        "theNewbornLabel": "Lezioni",
+        "theReformedLabel": "Amici discutibili",
+        "theJanusLabel": "Obblighi",
+        "theLegacy": {
+          "label": "Membri precedenti",
+          "value": " <i>: ancora attivi e conosciuti in città.</i><br> <i>: si sono ritirati e osservano da lontano.</i><br> <i>: possibile candidato alla tua eredità.</i><br> <i>: il più grande nemico affrontato dalla tua eredità.</i>"
+        },
+        "theBeaconLabel": "Motivazioni"
+      }
+    }
+  }
+}

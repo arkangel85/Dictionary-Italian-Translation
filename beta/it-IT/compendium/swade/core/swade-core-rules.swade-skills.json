@@ -1,0 +1,120 @@
+{
+  "label": "Abilità",
+  "entries": {
+    "Academics": {
+      "name": "Conoscenze accademiche",
+      "description": "<article class=\"swade-core\"> <p>Conoscenze accademiche rappresenta la cultura generale del personaggio in ambiti umanistici: arte, sociologia, letteratura, storia, archeologia, ecc. È utile, ad esempio, per ricordare la data di fine del calendario Maya o citare una battuta dal <cite>«Macbeth»</cite>.</p> </article>"
+    },
+    "Athletics": {
+      "name": "Atletica",
+      "description": "<article class=\"swade-core\"> <p>Atletica riflette la preparazione fisica generale del personaggio e le sue abilità pratiche: arrampicarsi, saltare, mantenere l'equilibrio, andare in bicicletta, nuotare, sciare, lanciare oggetti. Se il personaggio si affida più alla Forza che all'Agilità, potrebbe trarre beneficio dal vantaggio @Compendium[swade-core-rules.swade-edges.Силач]{Forzuto}, che collega questa abilità alla @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Forza} invece che all'@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Agilità}.</p> </article>"
+    },
+    "Battle": {
+      "name": "Arte militare",
+      "description": "<article class=\"swade-core\"> <p>Arte militare unisce strategia e tattica in combattimento. Influenza la conoscenza generale della guerra ed è necessaria per comandare truppe in battaglie di massa (vedi pag. 163).</p> </article>"
+    },
+    "Boating": {
+      "name": "Navigazione",
+      "description": "<article class=\"swade-core\"> <p>Navigazione consente al personaggio di manovrare la maggior parte delle imbarcazioni del suo mondo. Include nozioni su nodi, vele, correnti e altro.</p> </article>"
+    },
+    "Common Knowledge": {
+      "name": "Cultura generale",
+      "description": "<article class=\"swade-core\"> <p>Cultura generale rappresenta tutto ciò che il personaggio sa sul mondo e la società. Include etichetta, geografia, cultura, tecnologie comuni, tendenze, pettegolezzi, e sapere generico ottenuto senza particolare sforzo. Permette anche di sapere a chi rivolgersi per ottenere informazioni.</p> </article>"
+    },
+    "Driving": {
+      "name": "Guida",
+      "description": "<article class=\"swade-core\"> <p>Guida permette di manovrare veicoli terrestri tipici del mondo del personaggio: auto, moto, carri armati, ecc. (Per biciclette e simili si usa @Compendium[swade-core-rules.swade-skills.Атлетика]{Atletica}, per carri trainati da animali @Compendium[swade-core-rules.swade-skills.Верховая езда]{Equitazione}).</p> <p>In mondi moderni non si richiedono prove per la guida ordinaria, solo in situazioni pericolose o stressanti (vedi @Compendium[swade-core-rules.swade-rules.Chases and Vehicles]{Inseguimenti}, pag. 173).</p> </article>"
+    },
+    "Electronics": {
+      "name": "Elettronica",
+      "description": "<article class=\"swade-core\"> <p>Elettronica consente l’uso di dispositivi complessi come pannelli di controllo industriali o sensori di astronavi. Per dispositivi comuni basta cultura generale. Per riparazioni elettroniche si usa @Compendium[swade-core-rules.swade-skills.Ремонт]{Riparazione}.</p> </article>"
+    },
+    "Faith": {
+      "name": "Fede",
+      "description": "<article class=\"swade-core\"> <p>Fede si utilizza in combinazione con il vantaggio @Compendium[swade-core-rules.swade-edges.Мистический дар (чудеса)]{Dono mistico (miracoli)}.</p> </article>"
+    },
+    "Fighting": {
+      "name": "Combattimento",
+      "description": "<article class=\"swade-core\"> <p>Combattimento indica le capacità nel corpo a corpo: pugni, asce, spade laser, arti marziali. Le regole dettagliate sono nella @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03combat00000000]{terza sezione}, con molte manovre disponibili.</p> </article>"
+    },
+    "Focus": {
+      "name": "Talento",
+      "description": "<article class=\"swade-core\"> <p>Talento si usa con il vantaggio @Compendium[swade-core-rules.swade-edges.Мистический дар (феномен)]{Dono mistico (fenomeno)}.</p> </article>"
+    },
+    "Gambling": {
+      "name": "Giochi d'azzardo",
+      "description": "<article class=\"swade-core\"> <p>Utile ovunque: saloon western, caserme, taverne portuali, astronavi. Una prova unica determina il risultato di un'ora di gioco. Si concorda una posta ($10, 10 monete, ecc.). Ogni giocatore fa una prova: chi ha il risultato più basso paga chi ha il più alto la differenza × posta.</p> <p class=\"embedded-example\"><strong>Esempio:</strong> Red ottiene 10, Gabe 4. Gabe paga a Red 6 × $10 = $60.</p> <p><strong>Barare:</strong> Un baro ottiene +2. Il Master può modificare questo bonus. Con un <em>fallimento critico</em>, il personaggio viene scoperto e le conseguenze dipendono dal mondo di gioco.</p> </article>"
+    },
+    "Hacking": {
+      "name": "Hacking"
+    },
+    "Healing": {
+      "name": "Guarigione"
+    },
+    "Intimidation": {
+      "name": "Intimidazione"
+    },
+    "Language": {
+      "name": "Lingua"
+    },
+    "Notice": {
+      "name": "Percezione",
+      "description": "<article class=\"swade-core\"> <p>Percezione riflette l'attenzione generale del personaggio. Serve per sentire suoni, notare sguardi, percepire odori, individuare imboscate o oggetti nascosti, ma anche per cogliere emozioni o bugie negli altri.</p> <p>Una prova riuscita fornisce informazioni base; un successo con alzata ne rivela di più (posizione esatta, distanza, bugia specifica, ecc.).</p> </article>"
+    },
+    "Occult": {
+      "name": "Occultismo"
+    },
+    "Performance": {
+      "name": "Esibizione"
+    },
+    "Persuasion": {
+      "name": "Persuasione",
+      "description": "<article class=\"swade-core\"> <p>Persuasione è la capacità di influenzare gli altri con logica, inganno, promesse o lusinghe. Non controlla la volontà altrui, ma può modificare la loro opinione. Ad esempio, un ladro potrebbe restituire un oggetto caro ma tenersi tutto il resto.</p> <p>Usata con Aiuto agli alleati (pag. 145) richiede una prova. In caso di resistenza, si effettua una prova contrapposta contro il Carisma dell’avversario. Il Master applica modificatori in base al contesto e al metodo.</p> <p><strong>Tipo di reazione:</strong> Dipende dalla predisposizione dell’interlocutore, decisa dal Master o con una tabella (pag. 47). Una prova riuscita migliora la reazione di 1 grado, con alzata di 2. È il massimo per un singolo incontro.</p> <p>Un fallimento blocca ulteriori tentativi fino a fine scena. Un critico peggiora la reazione di 2 gradi.</p> <p><strong>Relazioni sociali:</strong> Una prova può coprire ore di dialoghi con diversi PNG. Per dettagli, vedi il capitolo relazioni sociali a pag. 197.</p> </article>"
+    },
+    "Piloting": {
+      "name": "Pilotaggio"
+    },
+    "Psionics": {
+      "name": "Psionica"
+    },
+    "Repair": {
+      "name": "Riparazione"
+    },
+    "Research": {
+      "name": "Ricerca"
+    },
+    "Riding": {
+      "name": "Equitazione",
+      "description": "<article class=\"swade-core\"> <p>Equitazione consente di cavalcare qualsiasi animale da sella o guidare carri trainati. Include cavalli, cammelli, draghi, carrozze, diligenze, ecc. Le regole per il combattimento a cavallo sono a pag. 136.</p> </article>"
+    },
+    "Science": {
+      "name": "Scienza"
+    },
+    "Shooting": {
+      "name": "Tiro"
+    },
+    "Spellcasting": {
+      "name": "Incantamento"
+    },
+    "Stealth": {
+      "name": "Furtività"
+    },
+    "Survival": {
+      "name": "Sopravvivenza"
+    },
+    "Taunt": {
+      "name": "Provocazione"
+    },
+    "Thievery": {
+      "name": "Furto",
+      "description": "<article class=\"swade-core\"> <p>Furto copre scassinare serrature, borseggiare, manomettere trappole, ingannare. Una prova riuscita permette di riuscire in queste azioni senza resistenza. Con alzata si ottengono vantaggi (più velocità, niente allarme, ecc.).</p> <p>In presenza di osservatori, si effettua una prova contrapposta contro Percezione.</p> <p>Il Master assegna modificatori: −4 per serrature complesse, +1 per nascondere una pistola sotto un cappotto. Un fallimento comporta che il personaggio viene scoperto o capisce che ci vorrà molto più tempo. Un critico può far scattare una trappola o bloccare la serratura.</p> <p><strong>Limitazioni:</strong> Il furto elettronico è limitato dal livello di Elettronica del personaggio. Si usa il più basso tra i due valori.</p> </article>"
+    },
+    "Unskilled Attempt": {
+      "name": "Tentativo maldestro"
+    },
+    "Weird Science": {
+      "name": "Scienza bizzarra",
+      "description": "<article class=\"swade-core\"> <p>Scienziati pazzi, alchimisti e inventori popolano molti mondi di <cite>Savage Worlds</cite> dove esistono magia o tecnologie avanzate. Sebbene i loro metodi varino, tutti usano la scienza bizzarra in combinazione con il @Compendium[swade-core-rules.swade-edges.Мистический дар (безумная наука)]{Dono mistico (scienza bizzarra)}.</p> </article>"
+    }
+  }
+}

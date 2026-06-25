@@ -1,0 +1,192 @@
+{
+  "DND5E": {
+    "ADVANCEMENT.AbilityScoreImprovement.CapDisplay.few": "Max {points} punti per caratteristica",
+    "ADVANCEMENT.AbilityScoreImprovement.CapDisplay.many": "Max {points} punti per caratteristica",
+
+    "ADVANCEMENT.AbilityScoreImprovement.PointsRemaining.few": "Rimangono {points} punti",
+    "ADVANCEMENT.AbilityScoreImprovement.PointsRemaining.many": "Rimangono {points} punti",
+
+    "SpellSlotN.few": "{n}° slot incantesimo",
+    "SpellSlotN.many": "{n}° slot incantesimo",
+
+    "SpellSlotsN.few": "Slot incantesimo di livello {n}",
+    "SpellSlotsN.many": "Slot incantesimo di livello {n}",
+
+    "TraitCIPlural.few": "Immunità alle condizioni",
+    "TraitCIPlural.many": "Immunità alle condizioni",
+
+    "TraitDIPlural.few": "Immunità ai danni",
+    "TraitDIPlural.many": "Immunità ai danni",
+
+    "TraitDRPlural.few": "Resistenze ai danni",
+    "TraitDRPlural.many": "Resistenze ai danni",
+
+    "TraitDVPlural.few": "Vulnerabilità ai danni",
+    "TraitDVPlural.many": "Vulnerabilità ai danni",
+
+    "TraitGenericPlural.few": "Tratti",
+    "TraitGenericPlural.many": "Tratti",
+
+    "TraitLanguagesPlural.few": "Lingue",
+    "TraitLanguagesPlural.many": "Lingue",
+
+    "TraitArmorPlural.few": "Competenza nelle armature",
+    "TraitArmorPlural.many": "Competenza nelle armature",
+
+    "TraitArmorLegacyPlural.few": "Competenze nelle armature",
+    "TraitArmorLegacyPlural.many": "Competenze nelle armature",
+
+    "TraitSavesPlural.few": "Competenza nei tiri salvezza",
+    "TraitSavesPlural.many": "Competenze nei tiri salvezza",
+
+    "TraitSkillsPlural.few": "Competenza nelle abilità",
+    "TraitSkillsPlural.many": "Competenze nelle abilità",
+
+    "TraitToolPlural.few": "Competenza negli strumenti",
+    "TraitToolPlural.many": "Competenze negli strumenti",
+
+    "TraitWeaponPlural.few": "Competenza nelle armi",
+    "TraitWeaponPlural.many": "Competenze nelle armi",
+
+    "Group.Member.few": "membri",
+    "Group.Member.many": "membri",
+
+    "CompendiumBrowser.Selection.Warning.Document.few": "documento",
+    "CompendiumBrowser.Selection.Warning.Document.many": "documenti",
+
+    "CompendiumBrowser.Tabs.Feat.few": "Privilegi",
+    "CompendiumBrowser.Tabs.Feat.many": "Privilegi",
+
+    "CompendiumBrowser.Tabs.Item.few": "Oggetti",
+    "CompendiumBrowser.Tabs.Item.many": "Oggetti",
+
+    "CompendiumBrowser.Tabs.Monster.few": "Mostri",
+    "CompendiumBrowser.Tabs.Monster.many": "Mostri",
+
+    "Bastion.Attack.Result.Deaths.few": "<strong>{deaths}</strong> difensore è stato ucciso durante l'attacco al bastione.",
+    "Bastion.Attack.Result.Deaths.many": "<strong>{deaths}</strong> difensori sono stati uccisi durante l'attacco al bastione.",
+
+    "LegActN.few": "{n}° azione leggendaria",
+    "LegActN.many": "{n}° azione leggendaria",
+
+    "LegendaryAction.Ordinal.few": "{n}° azione leggendaria",
+    "LegendaryAction.Ordinal.many": "{n}° azione leggendaria",
+
+    "ACTIVATION.Type.Legendary.Counted.few": "{number} azioni leggendarie",
+    "ACTIVATION.Type.Legendary.Counted.many": "{number} azioni leggendarie",
+
+    "CONSUMPTION.Type.Use.few": "utilizzi",
+    "CONSUMPTION.Type.Use.many": "utilizzi",
+
+    "COMBATANT.Counted.few": "{number} combattente",
+    "COMBATANT.Counted.many": "{number} combattenti",
+
+    "ExperiencePoints.Boons.few": "{number} beneficio",
+    "ExperiencePoints.Boons.many": "{number} benefici",
+
+    "TARGET.Type.Ally.Counted.few": "{number} alleato",
+    "TARGET.Type.Ally.Counted.many": "{number} alleati",
+
+    "TARGET.Type.Circle.Counted.few": "{number} cerchio",
+    "TARGET.Type.Circle.Counted.many": "{number} cerchi",
+
+    "TARGET.Type.Cone.Counted.few": "{number} cono",
+    "TARGET.Type.Cone.Counted.many": "{number} coni",
+
+    "TARGET.Type.Creature.Counted.few": "{number} creatura",
+    "TARGET.Type.Creature.Counted.many": "{number} creature",
+
+    "TARGET.Type.CreatureOrObject.Counted.few": "{number} creatura o oggetto",
+    "TARGET.Type.CreatureOrObject.Counted.many": "{number} creature o oggetti",
+
+    "TARGET.Type.Cube.Counted.few": "{number} cubo",
+    "TARGET.Type.Cube.Counted.many": "{number} cubi",
+
+    "TARGET.Type.Cylinder.Counted.few": "{number} cilindro",
+    "TARGET.Type.Cylinder.Counted.many": "{number} cilindri",
+
+    "TARGET.Type.Emanation.Counted.few": "{number} emanazione",
+    "TARGET.Type.Emanation.Counted.many": "{number} emanazioni",
+
+    "TARGET.Type.Enemy.Counted.few": "{number} nemico",
+    "TARGET.Type.Enemy.Counted.many": "{number} nemici",
+
+    "TARGET.Type.Line.Counted.few": "{number} linea",
+    "TARGET.Type.Line.Counted.many": "{number} linee",
+
+    "TARGET.Type.Object.Counted.few": "{number} oggetto",
+    "TARGET.Type.Object.Counted.many": "{number} oggetti",
+
+    "TARGET.Type.Radius.Counted.few": "{number} raggio",
+    "TARGET.Type.Radius.Counted.many": "{number} raggi",
+
+    "TARGET.Type.Sphere.Counted.few": "{number} sfera",
+    "TARGET.Type.Sphere.Counted.many": "{number} sfere",
+
+    "TARGET.Type.Space.Counted.few": "{number} spazio",
+    "TARGET.Type.Space.Counted.many": "{number} spazi",
+
+    "TARGET.Type.Square.Counted.few": "{number} quadrato",
+    "TARGET.Type.Square.Counted.many": "{number} quadrati",
+
+    "TARGET.Type.Target.Counted.few": "{number} bersaglio",
+    "TARGET.Type.Target.Counted.many": "{number} bersagli",
+
+    "TARGET.Type.Wall.Counted.few": "{number} muro",
+    "TARGET.Type.Wall.Counted.many": "{number} muri",
+
+    "TARGET.Type.WillingCreature.Counted.few": "{number} creatura consenziente",
+    "TARGET.Type.WillingCreature.Counted.many": "{number} creature consenzienti",
+
+    "UNITS.WEIGHT.Megagram.Counted.narrow.few": "{number}Mg",
+    "UNITS.WEIGHT.Megagram.Counted.narrow.many": "{number}Mg",
+
+    "UNITS.WEIGHT.Megagram.Counted.short.few": "{number} Mg",
+    "UNITS.WEIGHT.Megagram.Counted.short.many": "{number} Mg",
+
+    "UNITS.WEIGHT.Megagram.Counted.long.few": "{number} megagrammo",
+    "UNITS.WEIGHT.Megagram.Counted.long.many": "{number} megagrammi",
+
+    "UNITS.WEIGHT.Ton.Counted.narrow.few": "{number}t",
+    "UNITS.WEIGHT.Ton.Counted.narrow.many": "{number}t",
+
+    "UNITS.WEIGHT.Ton.Counted.short.few": "{number} t",
+    "UNITS.WEIGHT.Ton.Counted.short.many": "{number} t",
+
+    "UNITS.WEIGHT.Ton.Counted.long.few": "{number} tonnellata",
+    "UNITS.WEIGHT.Ton.Counted.long.many": "{number} tonnellate",
+
+    "UNITS.TIME.Round.Counted.few": "{number} round",
+    "UNITS.TIME.Round.Counted.many": "{number} round",
+
+    "UNITS.TIME.Turn.Counted.few": "{number} turno",
+    "UNITS.TIME.Turn.Counted.many": "{number} turni",
+
+    "UNITS.VOLUME.CubicFoot.Counted.narrow.few": "{number}ft³",
+    "UNITS.VOLUME.CubicFoot.Counted.narrow.many": "{number}ft³",
+
+    "UNITS.VOLUME.CubicFoot.Counted.short.few": "{number} ft³",
+    "UNITS.VOLUME.CubicFoot.Counted.short.many": "{number} ft³",
+
+    "UNITS.VOLUME.CubicFoot.Counted.long.few": "{number} piede cubico",
+    "UNITS.VOLUME.CubicFoot.Counted.long.many": "{number} piedi cubici",
+
+    "UNITS.VOLUME.Liter.Counted.narrow.one": "{number}l",
+    "UNITS.VOLUME.Liter.Counted.narrow.few": "{number}l",
+    "UNITS.VOLUME.Liter.Counted.narrow.many": "{number}l",
+
+    "UNITS.VOLUME.Liter.Counted.short.one": "{number} l",
+    "UNITS.VOLUME.Liter.Counted.short.few": "{number} l",
+    "UNITS.VOLUME.Liter.Counted.short.many": "{number} l",
+
+    "UNITS.VOLUME.Liter.Counted.long.one": "{number} litro",
+    "UNITS.VOLUME.Liter.Counted.long.few": "{number} litri",
+    "UNITS.VOLUME.Liter.Counted.long.many": "{number} litri",
+
+    "HITPOINTS.Counted.few": "{number} punto ferita",
+    "HITPOINTS.Counted.many": "{number} punti ferita",
+
+    "HITDICE.Counted.few": "{number} dado vita",
+    "HITDICE.Counted.many": "{number} dadi vita"
+  }
+}

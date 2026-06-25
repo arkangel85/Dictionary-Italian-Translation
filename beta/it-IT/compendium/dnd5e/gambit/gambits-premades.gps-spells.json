@@ -1,0 +1,128 @@
+{
+  "label": "GPS Incantesimi",
+  "entries": {
+    "Enemies Abound": {
+      "name": "Nemici Ovunque / Enemies Abound"
+    },
+    "Ashardalon's Stride": {
+      "name": "Falciata di Ashardalon / Ashardalon's Stride"
+    },
+    "Black Tentacles": {
+      "name": "Tentacoli neri di Evard / Evard’s black tentacles"
+    },
+    "Cause Fear": {
+      "name": "Causare Paura / Cause Fear"
+    },
+    "Circle of Power": {
+      "name": "Circolo di Potere / Circle of Power"
+    },
+    "Cloud of Daggers": {
+      "name": "Nube di Pugnali / Cloud of Daggers"
+    },
+    "Command": {
+      "name": "Comando / Command"
+    },
+    "Confusion": {
+      "name": "Confusione / Confusion"
+    },
+    "Counterspell": {
+      "name": "Controincantesimo / Counterspell"
+    },
+    "Dimension Door": {
+      "name": "Porta Dimensionale / Dimension Door"
+    },
+    "Dissonant Whispers": {
+      "name": "Sussurri Dissonanti / Dissonant Whispers"
+    },
+    "Enervation": {
+      "name": "Esaurimento / Enervation"
+    },
+    "Entangle": {
+      "name": "Intralciare / Entangle"
+    },
+    "Fireball": {
+      "name": "Palla di Fuoco / Fireball"
+    },
+    "Fizban's Platinum Shield": {
+      "name": "Scudo di Platino di Fizban / Fizban's Platinum Shield"
+    },
+    "Foresight": {
+      "name": "Preveggenza / Foresight"
+    },
+    "Fortune's Favour": {
+      "name": "Favore della Fortuna / Fortune's Favor"
+    },
+    "Hellish Rebuke": {
+      "name": "Rimprovero Infernale / Hellish rebuke"
+    },
+    "Heroes' Feast": {
+      "name": "Banchetto degli Eroi / Heroes' Feast"
+    },
+    "Hideous Laughter": {
+      "name": "Risata Incontenibile di Tasha / Tasha's hideous laughter"
+    },
+    "Holy Aura": {
+      "name": "Aura Sacra / Holy aura"
+    },
+    "Ice Knife": {
+      "name": "Coltello di Ghiaccio / Ice Knife"
+    },
+    "Identify": {
+      "name": "Identificare / Identify"
+    },
+    "Infestation": {
+      "name": "Infestazione / Infestation"
+    },
+    "Intellect Fortress": {
+      "name": "Fortezza Mentale / Intellect Fortress"
+    },
+    "Jump": {
+      "name": "Balzo / Jumping Jolt"
+    },
+    "Kinetic Jaunt": {
+      "name": "Passeggiata Cinética / Kinetic Jaunt"
+    },
+    "Light": {
+      "name": "Luce / Call Lightning"
+    },
+    "Mental Prison": {
+      "name": "Prigione Mentale / Mental Prison"
+    },
+    "Motivational Speech": {
+      "name": "Discorso Motivazionale / Motivational Speech"
+    },
+    "Phantasmal Killer": {
+      "name": "Assassino Fantasmatico / Phantasmal Killer"
+    },
+    "Power Word Heal": {
+      "name": "Parola di Potere: Cura / Power Word Heal"
+    },
+    "Power Word Stun": {
+      "name": "Parola di Potere: Stordisci / Power Word Stun"
+    },
+    "Ray of Sickness": {
+      "name": "Raggio di Malattia / Ray of Sickness"
+    },
+    "Scatter": {
+      "name": "Disperdi / Scatter"
+    },
+    "Silvery Barbs": {
+      "name": "Pungenti d'Argento / Silvery Barbs"
+    },
+    "Stinking Cloud": {
+      "name": "Nube Maleodorante / Stinking Cloud"
+    },
+    "Temporal Shunt": {
+      "name": "Deviazione Temporale / Temporal Shunt"
+    },
+    "Vicious Mockery": {
+      "name": "Derisione Crudele / Vicious Mockery"
+    },
+    "Web": {
+      "name": "Ragnatela / Web"
+    },
+    "Zephyr Strike": {
+      "name": "Colpo di Zefiro / Zephyr Strike"
+    }
+  }
+}

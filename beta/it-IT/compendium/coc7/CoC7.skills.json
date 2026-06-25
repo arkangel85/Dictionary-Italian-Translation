@@ -1,0 +1,579 @@
+{
+  "label": "Abilità",
+  "mapping": {
+    "skill": "system.skillName",
+    "specialization": "system.specialization"
+  },
+  "entries": {
+    "Accounting": {
+      "name": "Contabilità",
+      "skill": "Contabilità",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Animal Handling": {
+      "name": "Addestramento Animali",
+      "skill": "Addestramento Animali",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Anthropology": {
+      "name": "Antropologia",
+      "skill": "Antropologia",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Appraise": {
+      "name": "Valutare",
+      "skill": "Valutare",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Archaeology": {
+      "name": "Archeologia",
+      "skill": "Archeologia",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Art/Craft (Acting)": {
+      "name": "Arte/Mestiere (Recitazione)",
+      "skill": "Recitazione",
+      "specialization": "Arte/Mestiere",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Art/Craft (Any)": {
+      "name": "Arte/Mestiere (Qualsiasi)",
+      "skill": "Qualsiasi",
+      "specialization": "Arte/Mestiere",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Art/Craft (Fine Art)": {
+      "name": "Arte/Mestiere (Belle Arti)",
+      "skill": "Belle Arti",
+      "specialization": "Arte/Mestiere",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Art/Craft (Forgery)": {
+      "name": "Arte/Mestiere (Falsificazione)",
+      "skill": "Falsificazione",
+      "specialization": "Arte/Mestiere",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Art/Craft (Photography)": {
+      "name": "Arte/Mestiere (Fotografia)",
+      "skill": "Fotografia",
+      "specialization": "Arte/Mestiere",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Charm": {
+      "name": "Fascino",
+      "skill": "Fascino",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Civics": {
+      "name": "Diritto Civile",
+      "skill": "Diritto Civile",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in Cthulhu Invictus</p>"
+    },
+    "Climb": {
+      "name": "Arrampicarsi",
+      "skill": "Arrampicarsi",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Computer Use": {
+      "name": "Uso Computer",
+      "skill": "Uso Computer",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Credit Rating": {
+      "name": "Status Sociale",
+      "skill": "Status Sociale",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Cthulhu Mythos": {
+      "name": "Miti di Cthulhu",
+      "skill": "Miti di Cthulhu",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Demolitions": {
+      "name": "Esplosivi",
+      "skill": "Esplosivi",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Disguise": {
+      "name": "Travestimento",
+      "skill": "Travestimento",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Diving": {
+      "name": "Immersione",
+      "skill": "Immersione",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Dodge": {
+      "name": "Schivare",
+      "skill": "Schivare",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Drive Auto": {
+      "name": "Guidare (Auto)",
+      "skill": "Guidare (Auto)",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Drive Carriage": {
+      "name": "Guidare (Carrozza)",
+      "skill": "Guidare (Carrozza)",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in Cthulhu by Gaslight</p>"
+    },
+    "Drive Horse / Oxen": {
+      "name": "Condurre Cavalli / Buoi",
+      "skill": "Condurre Cavalli / Buoi",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in Cthulhu Invictus</p>"
+    },
+    "Drive Wagon / Coach": {
+      "name": "Guidare (Carro / Diligenza)",
+      "skill": "Guidare (Carro / Diligenza)",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in Down Darker Trails</p>"
+    },
+    "Electrical Repair": {
+      "name": "Riparazioni Elettriche",
+      "skill": "Riparazioni Elettriche",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Electronics": {
+      "name": "Elettronica",
+      "skill": "Elettronica",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Empire": {
+      "name": "Impero",
+      "skill": "Impero",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in Cthulhu Invictus</p>"
+    },
+    "Fast Talk": {
+      "name": "Persuasione",
+      "skill": "Persuasione",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Any)": {
+      "name": "Combattimento Ravvicinato (Qualsiasi)",
+      "skill": "Qualsiasi",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Axe)": {
+      "name": "Combattimento Ravvicinato (Ascia)",
+      "skill": "Ascia",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Brawl)": {
+      "name": "Combattimento Ravvicinato (Rissa)",
+      "skill": "Rissa",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Chainsaw)": {
+      "name": "Combattimento Ravvicinato (Motosega)",
+      "skill": "Motosega",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Flail)": {
+      "name": "Combattimento Ravvicinato (Mazza Ferrata)",
+      "skill": "Mazza Ferrata",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Garrote)": {
+      "name": "Combattimento Ravvicinato (Garrota)",
+      "skill": "Garrota",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Spear)": {
+      "name": "Combattimento Ravvicinato (Lancia)",
+      "skill": "Lancia",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Sword)": {
+      "name": "Combattimento Ravvicinato (Spada)",
+      "skill": "Spada",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Throw)": {
+      "name": "Combattimento Ravvicinato (Lancio)",
+      "skill": "Lancio",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Fighting (Whip)": {
+      "name": "Combattimento Ravvicinato (Frusta)",
+      "skill": "Frusta",
+      "specialization": "Combattimento Ravvicinato",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Firearms (Any)": {
+      "name": "Armi da Fuoco (Qualsiasi)",
+      "skill": "Qualsiasi",
+      "specialization": "Armi da Fuoco",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Firearms (Artillery)": {
+      "name": "Armi da Fuoco (Artiglieria)",
+      "skill": "Artiglieria",
+      "specialization": "Armi da Fuoco",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Firearms (Bow)": {
+      "name": "Armi da Fuoco (Arco)",
+      "skill": "Arco",
+      "specialization": "Armi da Fuoco",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Firearms (Flamethrower)": {
+      "name": "Armi da Fuoco (Lanciafiamme)",
+      "skill": "Lanciafiamme",
+      "specialization": "Armi da Fuoco",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Firearms (Handgun)": {
+      "name": "Armi da Fuoco (Pistola)",
+      "skill": "Pistola",
+      "specialization": "Armi da Fuoco",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Firearms (Heavy Weapons)": {
+      "name": "Armi da Fuoco (Armi Pesanti)",
+      "skill": "Armi Pesanti",
+      "specialization": "Armi da Fuoco",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Firearms (Machine Gun)": {
+      "name": "Armi da Fuoco (Mitragliatrice)",
+      "skill": "Mitragliatrice",
+      "specialization": "Armi da Fuoco",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Firearms (Rifle/Shotgun)": {
+      "name": "Armi da Fuoco (Fucile/Fucile a Pompa)",
+      "skill": "Fucile/Fucile a Pompa",
+      "specialization": "Armi da Fuoco",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Firearms (Submachine Gun)": {
+      "name": "Armi da Fuoco (Mitraglietta)",
+      "skill": "Mitraglietta",
+      "specialization": "Armi da Fuoco",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "First Aid": {
+      "name": "Pronto Soccorso",
+      "skill": "Pronto Soccorso",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Gambling": {
+      "name": "Giochi d'Azzardo",
+      "skill": "Giochi d'Azzardo",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in Down Darker Trails</p>"
+    },
+    "History": {
+      "name": "Storia",
+      "skill": "Storia",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Hypnosis": {
+      "name": "Ipnosi",
+      "skill": "Ipnosi",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Intimidate": {
+      "name": "Intimidire",
+      "skill": "Intimidire",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Jump": {
+      "name": "Saltare",
+      "skill": "Saltare",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Language (Any)": {
+      "name": "Lingua (Qualsiasi)",
+      "skill": "Qualsiasi",
+      "specialization": "Lingua",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Language (Own)": {
+      "name": "Lingua (Madrelingua)",
+      "skill": "Madrelingua",
+      "specialization": "Lingua",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Law": {
+      "name": "Legge",
+      "skill": "Legge",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Library Use": {
+      "name": "Uso Biblioteca",
+      "skill": "Uso Biblioteca",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Listen": {
+      "name": "Ascoltare",
+      "skill": "Ascoltare",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Locksmith": {
+      "name": "Scassinare",
+      "skill": "Scassinare",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Lore (Any)": {
+      "name": "Conoscenze Occulte (Qualsiasi)",
+      "skill": "Qualsiasi",
+      "specialization": "Conoscenze Occulte",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Mechanical Repair": {
+      "name": "Riparazioni Meccaniche",
+      "skill": "Riparazioni Meccaniche",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Medicine": {
+      "name": "Medicina",
+      "skill": "Medicina",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Natural World": {
+      "name": "Scienze Naturali",
+      "skill": "Scienze Naturali",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Navigate": {
+      "name": "Navigazione",
+      "skill": "Navigazione",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Occult": {
+      "name": "Occulto",
+      "skill": "Occulto",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Operate Heavy Machinery": {
+      "name": "Uso Macchinari Pesanti",
+      "skill": "Uso Macchinari Pesanti",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Persuade": {
+      "name": "Persuadere",
+      "skill": "Persuadere",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Pilot (Any)": {
+      "name": "Pilotare (Qualsiasi)",
+      "skill": "Qualsiasi",
+      "specialization": "Pilotare",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Psychoanalysis": {
+      "name": "Psicoanalisi",
+      "skill": "Psicoanalisi",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Psychology": {
+      "name": "Psicologia",
+      "skill": "Psicologia",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Read Lips": {
+      "name": "Lettura del Labiale",
+      "skill": "Lettura del Labiale",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Ride": {
+      "name": "Equitazione",
+      "skill": "Equitazione",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Rope Use": {
+      "name": "Uso della Corda",
+      "skill": "Uso della Corda",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in Down Darker Trails</p>"
+    },
+    "Science (Any)": {
+      "name": "Scienza (Qualsiasi)",
+      "skill": "Qualsiasi",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Astronomy)": {
+      "name": "Scienza (Astronomia)",
+      "skill": "Astronomia",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Biology)": {
+      "name": "Scienza (Biologia)",
+      "skill": "Biologia",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Botany)": {
+      "name": "Scienza (Botanica)",
+      "skill": "Botanica",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Chemistry)": {
+      "name": "Scienza (Chimica)",
+      "skill": "Chimica",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Cryptography)": {
+      "name": "Scienza (Crittografia)",
+      "skill": "Crittografia",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Engineering)": {
+      "name": "Scienza (Ingegneria)",
+      "skill": "Ingegneria",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Forensics)": {
+      "name": "Scienza (Criminalistica)",
+      "skill": "Criminalistica",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Geology)": {
+      "name": "Scienza (Geologia)",
+      "skill": "Geologia",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Mathematics)": {
+      "name": "Scienza (Matematica)",
+      "skill": "Matematica",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Meteorology)": {
+      "name": "Scienza (Meteorologia)",
+      "skill": "Meteorologia",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Pharmacy)": {
+      "name": "Scienza (Farmacologia)",
+      "skill": "Farmacologia",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Physics)": {
+      "name": "Scienza (Fisica)",
+      "skill": "Fisica",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Science (Zoology)": {
+      "name": "Scienza (Zoologia)",
+      "skill": "Zoologia",
+      "specialization": "Scienza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Sleight of Hand": {
+      "name": "Prestidigitazione",
+      "skill": "Prestidigitazione",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Spot Hidden": {
+      "name": "Individuare",
+      "skill": "Individuare",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Stealth": {
+      "name": "Furtività",
+      "skill": "Furtività",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Survival (Any)": {
+      "name": "Sopravvivenza (Qualsiasi)",
+      "skill": "Qualsiasi",
+      "specialization": "Sopravvivenza",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Swim": {
+      "name": "Nuotare",
+      "skill": "Nuotare",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Track": {
+      "name": "Tracciare",
+      "skill": "Tracciare",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Track (Any)": {
+      "name": "Tracciare (Qualsiasi)",
+      "skill": "Qualsiasi",
+      "specialization": "Tracciare",
+      "description": "<p>Vedi descrizione in «Il Richiamo di Cthulhu. Il Manuale del Custode»</p>"
+    },
+    "Trap": {
+      "name": "Trappole",
+      "skill": "Trappole",
+      "specialization": "",
+      "description": "<p>Vedi descrizione in Down Darker Trails</p>"
+    }
+  }
+}

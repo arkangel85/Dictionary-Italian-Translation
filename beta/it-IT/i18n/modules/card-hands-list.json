@@ -1,0 +1,13 @@
+{
+  "CARDHANDSLIST": {
+    "Heading": "Mani di carte",
+    "DrawCard": "Pesca una carta",
+    "Open": "Scopri",
+    "Favorite": "Aggiungi ai preferiti",
+    "ObserverLevel": {
+      "Name": "Mani degli osservatori",
+      "Hint": "Saranno incluse le mani a cui i partecipanti hanno solo i diritti da osservatore. Per impostazione predefinita, solo le mani con diritti da proprietario."
+    },
+    "FaceDown": "Coperta"
+  }
+}

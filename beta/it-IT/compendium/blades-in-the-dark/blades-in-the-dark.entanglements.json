@@ -1,0 +1,32 @@
+{
+  "label": "Tabelle delle Disgrazie",
+  "entries": {
+    "Entanglements - Heat 0-3": {
+      "name": "Disgrazie - Livello di Sospetto 0-3",
+      "description": "Se escono due risultati, il GM sceglie la disgrazia più adatta alla situazione di gioco.",
+      "results": {
+        "1-3": "Soliti sospetti o guai con la banda",
+        "4-5": "Morti inquieti o rivali",
+        "6-6": "Collaborazione"
+      }
+    },
+    "Entanglements - Heat 4/5": {
+      "name": "Disgrazie - Livello di Sospetto 4-5",
+      "description": "Se escono due risultati, il GM sceglie la disgrazia più adatta alla situazione di gioco.",
+      "results": {
+        "1-3": "Guai con la banda o domande",
+        "4-5": "Morti inquieti o ritorsione",
+        "6-6": "Dimostrazione di forza"
+      }
+    },
+    "Entanglements - Heat 6+": {
+      "name": "Disgrazie - Livello di Sospetto 6+",
+      "description": "Se escono due risultati, il GM sceglie la disgrazia più adatta alla situazione di gioco.",
+      "results": {
+        "1-3": "Interrogatorio o voltagabbana",
+        "4-5": "Dimostrazione di forza o offerta demoniaca",
+        "6-6": "Arresto"
+      }
+    }
+  }
+}

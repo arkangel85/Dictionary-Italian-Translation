@@ -1,0 +1,38 @@
+{
+  "label": "Mosse del Master / Principi",
+  "mapping": {
+    "name": "name"
+  },
+  "entries": [
+    {
+      "id": "Principals",
+      "name": "Principi",
+      "pages": {
+        "Principals": {
+          "name": "Principi",
+          "text": "<ul><li>Disegna mappe lasciando zone bianche.</li><li>Rivolgiti ai personaggi, non ai giocatori.</li><li>Immergiti nel fantastico.</li><li>Fai mosse che scaturiscono dalla narrazione.</li><li>Non nominare mai le mosse ad alta voce.</li><li>Dai vita a ogni mostro.</li><li>Dai un nome a ogni personaggio.</li><li>Fai domande e segui le risposte.</li><li>Sii il fan dei personaggi dei giocatori.</li><li>Ricorda sempre il pericolo.</li><li>Inizia e termina con la narrazione.</li><li>Pensa oltre la scena attuale.</li></ul>"
+        }
+      }
+    },
+    {
+      "id": "GM Moves",
+      "name": "Mosse del Master",
+      "pages": {
+        "GM Moves": {
+          "name": "Mosse del Master",
+          "text": "<ul><li>Usa la mossa di un mostro, una minaccia o un luogo.</li><li>Rivela una verità scomoda.</li><li>Mostra segni di una minaccia imminente.</li><li>Infliggi danno.</li><li>Consuma le loro risorse.</li><li>Rivolta la loro mossa contro di loro.</li><li>Dividili.</li><li>Offri un'opportunità adatta alla loro classe.</li><li>Mostra un limite della loro classe, razza o equipaggiamento.</li><li>Offri un'opportunità, gratuitamente o a un costo.</li><li>Metti qualcuno in una situazione difficile.</li><li>Descrivi le conseguenze o il prezzo e chiedi cosa fanno.</li></ul>"
+        }
+      }
+    },
+    {
+      "id": "Dungeon Moves",
+      "name": "Mosse del Dungeon",
+      "pages": {
+        "Dungeon Moves": {
+          "name": "Mosse del Dungeon",
+          "text": "<ul><li>Modifica l'ambiente.</li><li>Indica una minaccia imminente.</li><li>Introduci una nuova fazione o tipo di creatura.</li><li>Usa la minaccia di una fazione o creatura.</li><li>Costringili a tornare indietro.</li><li>Offri ricchezze a un prezzo.</li><li>Lancia una sfida diretta a un personaggio.</li></ul>"
+        }
+      }
+    }
+  ]
+}

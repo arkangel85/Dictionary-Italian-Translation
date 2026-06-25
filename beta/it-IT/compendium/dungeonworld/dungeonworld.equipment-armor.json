@@ -1,0 +1,58 @@
+{
+  "label": "Equipaggiamento (Armature)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description",
+    "tags": "system.tags",
+    "tagsString": "system.tagsString"
+  },
+  "entries": [
+    {
+      "id": "Chainmail",
+      "name": "Maglia ad Anelli",
+      "description": "Un tipo di armatura composta da piccoli anelli metallici intrecciati a formare una maglia.",
+      "tags": "[{\"value\":\"1 armatura\"},{\"value\":\"indossato\"}]",
+      "tagsString": "1 armatura, indossato"
+    },
+    {
+      "id": "Hide Armor",
+      "name": "Armatura di Pelle",
+      "tags": "[{\"value\":\"1 armatura\"}]",
+      "tagsString": "1 armatura"
+    },
+    {
+      "id": "Leather Armor",
+      "name": "Armatura di Cuoio",
+      "description": "Una corazza fatta di cuoio grezzo rinforzato.",
+      "tags": "[{\"value\":\"indossato\"},{\"value\":\"1 armatura\"}]",
+      "tagsString": "indossato, 1 armatura"
+    },
+    {
+      "id": "Ostentatious Clothes",
+      "name": "Abiti Sfarzosi",
+      "description": "Con questi abiti fai davvero una dichiarazione di stile.",
+      "tags": "[{\"value\":\"indossato\"}]",
+      "tagsString": "indossato"
+    },
+    {
+      "id": "Plate",
+      "name": "Armatura a Piastre",
+      "description": "Una corazza su misura fatta di placche metalliche.",
+      "tags": "[{\"value\":\"3 armatura\"},{\"value\":\"indossato\"},{\"value\":\"ingombrante\"}]",
+      "tagsString": "3 armatura, indossato, ingombrante"
+    },
+    {
+      "id": "Scale Mail",
+      "name": "Armatura a Scaglie",
+      "tags": "[{\"value\":\"2 armatura\"},{\"value\":\"indossato\"},{\"value\":\"ingombrante\"}]",
+      "tagsString": "2 armatura, indossato, ingombrante"
+    },
+    {
+      "id": "Shield",
+      "name": "Scudo",
+      "description": "Parte dell’armatura impugnata con la mano, che può essere o meno fissata al polso o all’avambraccio.",
+      "tags": "[{\"value\":\"+1 armatura\"}]",
+      "tagsString": "+1 armatura"
+    }
+  ]
+}

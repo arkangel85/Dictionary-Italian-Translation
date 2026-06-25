@@ -1,0 +1,53 @@
+{
+  "itemcollection.ItemSheet5eWithBags": "Scheda 5e con borse",
+  "itemcollection.ItemSheetShop": "Scheda 5e per negozio",
+
+  "itemcollection.goldConversion.Name": "Conversione in oro",
+  "itemcollection.goldConversion.Hint": "Permette ai giocatori di convertire il contenuto del contenitore in oro",
+  "itemcollection.goldConversionPercentage.Name": "Percentuale di conversione",
+  "itemcollection.goldConversionPercentage.Hint": "Percentuale del valore in oro che i giocatori ricevono durante la conversione",
+  "itemcollection.sortBagContents.Name": "Ordina contenuto",
+  "itemcollection.sortBagContents.Hint": "Il contenuto delle borse sarà ordinato per tipo, cerchia dell'incantesimo e nome",
+  "itemcollection.NoRoomInBag": "La borsa è piena. Riprova.",
+  "itemcollection.AlternateDropInInventory": "La borsa è piena. L’oggetto è stato aggiunto all’inventario.",
+  "itemcollection.ExtradimensionalVortex": "Spostare una borsa dentro se stessa crea una frattura extradimensionale che risucchia la realtà.",
+  "itemcollection.canAlwaysAddToBag": [
+    "Lanterna coperta",
+    "Lanterna normale",
+    "Corda di canapa (50 piedi)",
+    "Corda di seta (50 piedi)",
+    "Set da cucina",
+    "Sacco a pelo"
+  ],
+  "itemcollection.canAlwaysAddToBagv9": "Lanterna coperta, Lanterna normale, Corda di canapa (50 piedi), Corda di seta (50 piedi), Set da cucina, Sacco a pelo",
+  "itemcollection.wrongType": "Le borse devono essere di tipo zaino. Modifica disattivata.",
+  "itemcollection.canAlwaysAddToBagTypes": [
+    "Lanterna",
+    "Corda di canapa",
+    "Corda di seta",
+    "Set da cucina",
+    "Sacco a pelo"
+  ],
+  "itemcollection.canAlwaysAddToBagTypesV9": "Lanterna coperta, Lanterna normale, Corda di canapa, Corda di seta, Set da cucina, Sacco a pelo",
+  "itemcollection.billoffare": "Oggetti in vendita",
+  "itemcollection.Purchase": "Acquisto",
+  "itemcollection.Markup": "Ricarico del negozio %",
+  "itemcollection.noSelection": "Nessun token/attore selezionato",
+  "itemcollection.NotEnoghGold": "Oro insufficiente per completare l’acquisto",
+
+  "itemcollection.Name": "Nome",
+  "itemcollection.itemsWeight": "Peso degli oggetti",
+  "itemcollection.Quantity": "Quantità",
+  "itemcollection.itemExport": "Esporta oggetto",
+  "itemcollection.itemExportB": "Esporta oggetti",
+  "itemcollection.itemExportAll": "Esporta tutti gli oggetti",
+  "itemcollection.itemImportAll": "Importa tutti gli oggetti",
+  "itemcollection.itemCompactAll": "Compatta tutti gli oggetti",
+  "itemcollection.totalGoldValue": "Valore in MO",
+  "itemcollection.All": "Tutti",
+  "itemcollection.Pound": "lb",
+  "itemcollection.bagWeight": "Peso della borsa",
+  "itemcollection.bagPrice": "Prezzo della borsa",
+  "itemcollection.displayDescription.Name": "Mostra descrizione oggetto",
+  "itemcollection.displayDescription.Hint": "Se abilitato, verrà mostrata la descrizione della borsa, altrimenti il suo contenuto."
+}

@@ -1,0 +1,309 @@
+{
+  "levels": {
+    "modulename": "Levels",
+    "multiLevelFog": {
+      "createdScenes": "Create %n scene. <a href='https://wiki.theripper93.com/levels#multilevel-fog-of-war' target='_blank'>Scopri di più</a>",
+      "noLevels": "Questa scena non ha livelli multipli.",
+      "alreadyExists": "La scena esiste già. Visualizza la scena e resetta la nebbia o elimina la scena e re-inizializza la nebbia multilivello. Scena: ",
+      "advancedFogWarn": "Levels: Per far funzionare la nebbia multilivello, è necessario disattivare l'opzione Nebbia avanzata. Disattivala nelle impostazioni del modulo o per ciascun tile."
+    },
+    "settings": {
+      "enableTooltips": {
+        "name": "Suggerimenti altezza oggetti",
+        "hint": "Mostra tooltip con altezza superiore e inferiore quando si passa sopra un oggetto dei livelli."
+      },
+      "tokenElevScale": {
+        "name": "Scala altezza token",
+        "hint": "La dimensione dei token varierà in base all'altezza del token controllato."
+      },
+      "tokenElevScaleMultiSett": {
+        "name": "Moltiplicatore scala altezza token",
+        "hint": "Moltiplica la dimensione dei token in base alla loro altezza per questo valore. Valori superiori a 1 li rendono più grandi, inferiori a 1 più piccoli."
+      },
+      "fogHiding": {
+        "name": "Nebbia avanzata",
+        "hint": "I piani non esplorati non verranno rivelati nella nebbia di guerra."
+      },
+      "lockElevation": {
+        "name": "Blocca altezza",
+        "hint": "Impedisce ai giocatori di cambiare l’altezza del token tramite il menu. Nota: se i giocatori hanno i permessi per modificare i token, potranno comunque farlo nelle impostazioni del token."
+      },
+      "defaultLosHeight": {
+        "name": "Altezza predefinita del token",
+        "hint": "Altezza del token (altezza della creatura o dell’oggetto). Default 6."
+      },
+      "autoLOSHeight": {
+        "name": "Altezza automatica token",
+        "hint": "Calcola automaticamente l’altezza del token in base alla sua dimensione e scala. Le impostazioni di default verranno ignorate, ma qualsiasi valore diverso da 0 avrà la precedenza."
+      },
+      "debugRaycast": {
+        "name": "DEBUG: Mostra raggi visivi",
+        "hint": "Mostra i raggi visivi in 3D (verde: visibile, rosso: non visibile)"
+      },
+      "preciseLightOcclusion": {
+        "name": "Calcolo luce preciso",
+        "hint": "Riduce le distorsioni della luce a scapito delle prestazioni"
+      },
+      "preciseTokenVisibility": {
+        "name": "Visibilità precisa dei token",
+        "hint": "Abilitando questa opzione la visibilità verrà calcolata in base agli angoli del token invece che solo dal centro. Impatta leggermente sulle prestazioni dei PC meno potenti."
+      },
+      "exactTokenVisibility": {
+        "name": "Visibilità assoluta dei token",
+        "hint": "Abilita un controllo accurato degli angoli del token con un metodo a 11 punti. Richiede anche 'Visibilità precisa dei token'. Consigliato con 3D Canvas."
+      },
+      "multilevelFogFolder": {
+        "name": "Cartella per la nebbia multilivello",
+        "hint": "Nome della cartella dove salvare le scene generate per la nebbia multilivello."
+      },
+      "blockSightMovement": {
+        "name": "Recinzione",
+        "hint": "Se abilitato, i muri con altezza che non blocca la vista bloccheranno comunque il movimento."
+      },
+      "forceUiRefresh": {
+        "name": "Forza aggiornamento UI",
+        "hint": "Aumenta forzatamente la frequenza di aggiornamento dell’interfaccia Levels a scapito delle prestazioni."
+      },
+      "hideElevation": {
+        "name": "Nascondi altezza",
+        "hint": "Nasconde l'altezza ai token",
+        "opt0": "Non nascondere",
+        "opt1": "Nascondi ai giocatori",
+        "opt2": "Nascondi a tutti"
+      },
+      "revealTokenInFog": {
+        "name": "Rivela token nella nebbia",
+        "hint": "Se il token è visibile, rivela la nebbia attorno a quel token."
+      },
+      "strictVisionCheck": {
+        "name": "Controllo visione rigoroso",
+        "hint": "Se disabilitato, le fonti di oscurità non bloccheranno la visione. Se abilitato, i token visibili solo tramite calcolo 3D saranno visibili anche fuori dal poligono visivo."
+      },
+      "migrateOnStartup": {
+        "name": "Migrazione impostazioni all'avvio",
+        "hint": "Il modulo inizierà la migrazione dei dati da V11 a V12 all'avvio del mondo. È possibile anche usare la macro 'CONFIG.Levels.helpers.migration.showManualMigrationDialog()' per avviare la migrazione manualmente."
+      }
+    },
+    "tileconfig": {
+      "noOverhead": "Non è un tile in sovrimpressione! Questo tile verrà mostrato sul livello di sfondo. Puoi renderlo in sovrimpressione dalla scheda corrispondente nelle impostazioni del tile.",
+      "occlusionNone": "La modalità di occlusione è impostata su 'Nessuna', quindi il tile non bloccherà la visibilità. Imposta su 'Dissolvenza' per bloccare la vista.",
+      "rangeTop": {
+        "name": "Altezza (superiore)"
+      },
+      "rangeBottom": {
+        "name": "Altezza (inferiore)"
+      },
+      "showIfAbove": {
+        "name": "Mostra anche dal basso",
+        "hint": "Il tile sarà visibile anche se il token è al di sotto della sua altezza inferiore (es. un balcone)."
+      },
+      "showAboveRange": {
+        "name": "Differenza massima di altezza",
+        "hint": "Se 'Mostra anche dal basso' è abilitato, questa è la differenza massima di altezza tra token e tile per essere visibile."
+      },
+      "isBasement": {
+        "name": "Intervallo distanza rigoroso",
+        "hint": "Il tile sarà visibile solo se il token si trova nell’intervallo indicato. I token al di sopra non lo vedranno."
+      },
+      "noFogHide": {
+        "name": "Non oscurare con la nebbia",
+        "hint": "Esclude questo tile dalla Nebbia avanzata."
+      },
+      "range": {
+        "unit": "Altezza"
+      },
+      "excludeFromChecker": {
+        "name": "Escludi dal Controllo scena"
+      },
+      "noCollision": {
+        "name": "Non blocca visione",
+        "hint": "Questo tile non bloccherà la linea di vista."
+      },
+      "allWallBlockSight": {
+        "name": "Tutti i muri bloccano la vista",
+        "hint": "Tutti i muri sotto questo tile bloccheranno la vista quando il tile non è sovrapposto."
+      }
+    },
+    "drawingconfig": {
+      "hb": {
+        "name": "Altezza (inferiore)"
+      },
+      "ht": {
+        "name": "Altezza (superiore)"
+      },
+      "range": {
+        "name": "Intervallo apertura"
+      },
+      "elevatorFloors": {
+        "name": "Piani dell’ascensore",
+        "hint": "Specifica i piani come: elevazione,nome|elevazione,nome... Esempio: 0,Piano Terra|10,Primo Piano..."
+      },
+      "isHole": {
+        "name": "Modalità livello",
+        "opt0": "Nessuna",
+        "opt1": "Buco",
+        "opt2": "Scala",
+        "opt21": "Scala (solo giù)",
+        "opt22": "Scala (solo su)",
+        "opt3": "Ascensore"
+      }
+    },
+    "drawingHud": {
+      "title": "Attiva/disattiva blocco scala"
+    },
+    "tokenconfig": {
+      "tokenHeight": {
+        "name": "Altezza linea visiva token",
+        "unit": "(Distanza)"
+      }
+    },
+    "template": {
+      "elevation": {
+        "name": "Altezza"
+      },
+      "special": {
+        "name": "Speciale"
+      },
+      "depth": {
+        "name": "Profondità"
+      }
+    },
+    "sceneconfig": {
+      "backgroundElevation": {
+        "name": "Altezza sfondo",
+        "notes": "Valore in unità della scena che definisce l’altezza dello sfondo e dei tile inferiori."
+      },
+      "weatherElevation": {
+        "name": "Altezza effetti meteo",
+        "notes": "Valore in unità della scena che definisce l’altezza degli effetti meteo."
+      },
+      "lightMasking": {
+        "name": "Levels: non gestire la luce",
+        "notes": "Levels non controllerà la visibilità della luce. Disattiva questa opzione per scene con più livelli."
+      }
+    },
+    "controls": {
+      "main": {
+        "name": "Livelli"
+      },
+      "levelsview": {
+        "name": "Attiva visualizzazione/posizionamento livelli"
+      },
+      "definelevels": {
+        "name": "Modifica livelli"
+      },
+      "levelup": {
+        "name": "Livello superiore"
+      },
+      "leveldown": {
+        "name": "Livello inferiore"
+      },
+      "levelsroof": {
+        "name": "Visualizza/posiziona tetti"
+      },
+      "levelshole": {
+        "name": "ATTIVO - il disegno sarà una Scala; DISATTIVO - sarà un Buco"
+      },
+      "levelsclear": {
+        "name": "Cancella livelli"
+      },
+      "placeOverhead": {
+        "name": "I tile saranno piazzati come tile superiori 'interni' ai livelli"
+      },
+      "setTemplateElevation": {
+        "name": "Imposta l’altezza del prossimo template"
+      },
+      "suppressBrmode": {
+        "name": "Forza disattivazione della modalità Better Roofs"
+      }
+    },
+    "dialog": {
+      "levelsclear": {
+        "title": "Cancella livelli",
+        "content": "Vuoi cancellare tutti i livelli salvati?"
+      },
+      "define": {
+        "warn": "Definisci i livelli come: basso,alto|basso,alto - esempio 0,9|10,19|20,29",
+        "title": "Definizione dei livelli di questa scena",
+        "text": "Livelli:"
+      },
+      "removeLevel": {
+        "title": "Rimuovi livello",
+        "content": "Sei sicuro di voler rimuovere questo livello?"
+      },
+      "getFromScene": {
+        "title": "Recupera livelli dalla scena",
+        "content": "Recuperare i livelli dalla scena? Questo sovrascriverà i livelli attuali."
+      },
+      "elevator": {
+        "title": "Livelli - Seleziona piano"
+      },
+      "elevation": {
+        "title": "Altezza del prossimo template"
+      },
+      "sceneDrop": {
+        "title": "Levels - Trasferimento scena",
+        "content": "Tutti gli elementi della scena trasferita saranno posizionati al livello attuale. Continuare?"
+      },
+      "checkScene": {
+        "title": "Levels - Controllo scena",
+        "content": "Identificazione dei tile con poligoni che potrebbero non essere stati rilevati automaticamente. Verifica manualmente i seguenti tile:",
+        "learnMore": "Non sai cosa sono i poligoni? Hai altre domande? Consulta la documentazione di Levels, dove trovi anche un video tutorial.",
+        "noIssues": "Nessun problema rilevato",
+        "excluded": "Escluso dal controllo"
+      }
+    },
+    "ui": {
+      "title": "Levels - Strumento livelli",
+      "players": "Visualizzazione giocatori",
+      "stair": "Imposta l'area come scala",
+      "addLevel": "Aggiungi livello",
+      "editLevels": "Modifica livelli",
+      "getFromScene": "Recupera livelli dalla scena",
+      "fog": "Configura nebbia multilivello",
+      "clearLevels": "Cancella livelli",
+      "debugScene": "Debug scena (i problemi sono segnati in rosso)",
+      "minElevDiff": "Dimensione minima livello",
+      "tokenAttacher": "Posiziona i template Token Attacher rispetto al livello attuale<hr>Se non li usi, disattiva questa opzione!",
+      "warning": "ATTENZIONE! 'Non disattivare la luce' è attivo nelle impostazioni della scena - Levels potrebbe non funzionare correttamente. Clicca per correggere."
+    },
+    "yesnodialog": {
+      "yes": "Applica",
+      "no": "Annulla"
+    },
+    "widget": {
+      "title": "Livelli",
+      "element": "Livello"
+    },
+    "form": {
+      "bottom": "Basso:",
+      "top": "Alto:",
+      "name": "Nome:",
+      "currentLevel": "Livelli attuali",
+      "addNew": "Aggiungi livello",
+      "tip": "*I livelli non devono sovrapporsi (es. 0,9 / 10,19 / 20,29)",
+      "suggestedLevels": "Crea livelli automaticamente",
+      "autoLevels": "Recupera livelli dalla scena"
+    },
+    "err": {
+      "collision": "Movimento bloccato da un muro o soffitto",
+      "tokenOOB": "Levels: L'altezza del token %n supera il soffitto del livello attuale. Imposta manualmente l'altezza del token o aumenta l'altezza del livello. Maggiori info su <a href='https://wiki.theripper93.com/free/wall-height#token-height' target='_blank'>qui</a>.",
+      "wallheight": "ATTENZIONE! Levels richiede il modulo Wall Height versione 4.1.0 o superiore.",
+      "lessfog": "Levels: ATTENZIONE! Il modulo Less Fog è attivo - la visibilità dei token potrebbe non funzionare correttamente. Disattivalo.",
+      "tokenheight": "Levels: ATTENZIONE! L’opzione 'Abilita altezza token' è attiva nel modulo Wall Height. Questa funzione è incompatibile con Levels ed è stata disabilitata forzatamente.",
+      "elevatedvision": "Levels: ATTENZIONE! L’opzione 'Altezza automatica token' è attiva nel modulo Elevated Vision. È incompatibile con Levels ed è stata disabilitata forzatamente.",
+      "elevatedvisioncompat": "Levels: ATTENZIONE! Il modulo 'Elevated Vision' è attivo. Questo modulo è incompatibile con Levels e va disattivato. Levels ha un sistema interno per gestire la visibilità 3D."
+    },
+    "info": {
+      "advancedMode": "Levels: modalità avanzata attivata in Better Roofs."
+    },
+    "firsttime": {
+      "dialog": "."
+    },
+    "conflicts": {
+      "midiqol": {
+        "tokenvis": "L'opzione 'I giocatori controllano i loro token nascosti' in MidiQOL può causare problemi di visibilità. Disattivala nelle impostazioni."
+      }
+    }
+  }
+}

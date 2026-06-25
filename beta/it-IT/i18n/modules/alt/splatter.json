@@ -1,0 +1,6 @@
+{
+  "splatter.settings.currentHp.text": "Punti ferita attuali",
+  "splatter.settings.currentHp.hint": "Percorso dei dati per i punti ferita attuali dell'attore",
+  "splatter.settings.maxHp.text": "Punti ferita massimi",
+  "splatter.settings.maxHp.hint": "Percorso dei dati per i punti ferita massimi dell'attore"
+}

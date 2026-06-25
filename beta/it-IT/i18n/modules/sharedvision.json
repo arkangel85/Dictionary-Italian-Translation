@@ -1,0 +1,17 @@
+{
+  "SharedVision.Sett.Help": "Aiuto",
+  "SharedVision.Sett.None.Name": "Permessi attore: Nessun accesso",
+  "SharedVision.Sett.None.Hint": "Attiva sempre la visione condivisa per gli attori con permesso 'Nessun accesso'",
+  "SharedVision.Sett.Limited.Name": "Permessi attore: Limitato",
+  "SharedVision.Sett.Limited.Hint": "Attiva sempre la visione condivisa per gli attori con permesso 'Limitato'",
+  "SharedVision.Sett.Observer.Name": "Permessi attore: Osservatore",
+  "SharedVision.Sett.Observer.Hint": "Attiva sempre la visione condivisa per gli attori con permesso 'Osservatore'",
+  "SharedVision.Sett.Owner.Name": "Permessi attore: Proprietario",
+  "SharedVision.Sett.Owner.Hint": "Attiva sempre la visione condivisa per gli attori con permesso 'Proprietario'",
+  "SharedVision.CtrlBtn.Enable": "Abilita visione condivisa",
+  "SharedVision.ActorConf.Global.Note": "Configura la visione condivisa dell'attore con altri giocatori quando l'opzione 'Abilita visione condivisa' è attiva.",
+  "SharedVision.ActorConf.Global.Label": "Visione condivisa globale",
+  "SharedVision.ActorConf.Hidden.Note": "Visione condivisa per attori nascosti/invisibili.",
+  "SharedVision.ActorConf.Hidden.Label": "Vedere nascosti",
+  "SharedVision.ActorConf.User.Note": "Configura la visione condivisa dell'attore con altri giocatori, indipendentemente dal fatto che l'opzione 'Abilita visione condivisa' sia attiva o meno."
+}

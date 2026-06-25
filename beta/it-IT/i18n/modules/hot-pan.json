@@ -1,0 +1,45 @@
+{
+  "hot-pan": {
+    "setting": {
+      "modVersion": {
+        "name": "Versione",
+        "hint": "Versione attuale del modulo."
+      },
+      "debug": {
+        "name": "Modalità debug",
+        "hint": "Abilita la visualizzazione di informazioni di debug nella console."
+      },
+      "isActive": {
+        "name": "Sempre attivo",
+        "hint": "Il modulo sarà sempre attivo (se non disattivato tramite macro)."
+      },
+      "hideChatInfo": {
+        "name": "Nascondi le informazioni del modulo nella chat",
+        "hint": "Nasconde il messaggio informativo del modulo nella chat all’avvio della partita."
+      },
+      "notifyOnChange": {
+        "name": "Notifiche nell’interfaccia",
+        "hint": "Mostra notifiche temporanee quando Hot Pan viene attivato o disattivato (funziona anche tramite macro)."
+      },
+      "warnWhenON": {
+        "name": "Avviso all’attivazione",
+        "hint": "Mostra un avviso aggiuntivo quando si passa su ATTIVO. Richiede l’opzione \"Notifiche nell’interfaccia\" attiva."
+      },
+      "warnWhenOFF": {
+        "name": "Avviso alla disattivazione",
+        "hint": "Mostra un avviso aggiuntivo quando si passa su DISATTIVO. Richiede l’opzione \"Notifiche nell’interfaccia\" attiva."
+      }
+    },
+    "chatInfoContent": {
+      "title": "Hot Pan & Zoom!",
+      "text1": "\"Pana, ingrandisci e libera il regista che è in te!!\"",
+      "text2": "Hot Pan & Zoom! è un modulo indipendente dal sistema che sincronizza la posizione e lo zoom della camera dei giocatori con quella del GM. Il modulo funziona lato server, ma può essere gestito anche tramite macro.",
+      "text3": "Nelle impostazioni del modulo puoi modificare alcune opzioni. Consulta anche la guida su GitHub.",
+      "footer": "Questa scheda nella chat verrà mostrata solo una volta."
+    },
+    "onOffUIMessage": {
+      "whenON": "La telecamera è ora controllata dal GM!",
+      "whenOFF": "La telecamera non è più controllata."
+    }
+  }
+}

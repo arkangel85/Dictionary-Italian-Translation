@@ -1,0 +1,137 @@
+{
+  "label": "Abilità base",
+  "entries": {
+    "Academics": {
+      "name": "Conoscenze accademiche",
+      "description": "<p>Formazione nelle arti e nelle scienze umane.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Athletics": {
+      "name": "Atletica",
+      "description": "<p>Varie capacità fisiche come arrampicarsi, nuotare, saltare, mantenere l'equilibrio, lanciare oggetti, sciare e altro.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Battle": {
+      "name": "Arte militare",
+      "description": "<p>Strategia, tattica e conoscenza dell'organizzazione militare. Abilità chiave per battaglie di massa.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Boating": {
+      "name": "Navigazione",
+      "description": "<p>Capacità di navigare a vela e remare, oltre a gestire diversi tipi di imbarcazioni, incluse quelle di grandi dimensioni.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Common Knowledge": {
+      "name": "Cultura generale",
+      "description": "<p>Conoscenze generali sul mondo.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Driving": {
+      "name": "Guida",
+      "description": "<p>Capacità di guidare mezzi di trasporto terrestri tipici del mondo.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Electronics": {
+      "name": "Elettronica",
+      "description": "<p>Uso di dispositivi e sistemi elettronici.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Faith": {
+      "name": "Fede",
+      "description": "<p>Abilità da usare con il Dono mistico (miracoli).</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Fighting": {
+      "name": "Combattimento",
+      "description": "<p>Capacità di combattere con o senza armi.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Focus": {
+      "name": "Talento",
+      "description": "<p>Abilità da usare con il Dono mistico (fenomeno).</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Gambling": {
+      "name": "Giochi d'azzardo",
+      "description": "<p>Conoscenza teorica e pratica di vari giochi d'azzardo.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Hacking": {
+      "name": "Hacking",
+      "description": "<p>Capacità di programmare e violare sistemi informatici.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Healing": {
+      "name": "Guarigione",
+      "description": "<p>Capacità di curare ferite e malattie, eseguire diagnosi mediche.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Intimidation": {
+      "name": "Intimidazione",
+      "description": "<p>Capacità di ottenere ciò che si vuole con minacce.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Language": {
+      "name": "Lingua",
+      "description": "<p>Conoscenza di una lingua specifica.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Notice": {
+      "name": "Percezione",
+      "description": "<p>Capacità di scoprire cose nascoste e notare dettagli.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Occult": {
+      "name": "Occultismo",
+      "description": "<p>Conoscenza di fenomeni sovrannaturali, creature, tradizioni e metodi occulti.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Performance": {
+      "name": "Spettacolo",
+      "description": "<p>Canto, danza, recitazione e altre forme di esibizione pubblica.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Persuasion": {
+      "name": "Persuasione",
+      "description": "<p>Capacità di convincere gli altri a fare ciò che si desidera.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Piloting": {
+      "name": "Pilotaggio",
+      "description": "<p>Capacità di pilotare veicoli volanti, inclusi droni e astronavi.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Psionics": {
+      "name": "Psionica",
+      "description": "<p>Abilità da usare con il Dono mistico (psionica).</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Repair": {
+      "name": "Riparazione",
+      "description": "<p>Capacità di riparare dispositivi meccanici ed elettronici.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Research": {
+      "name": "Ricerca",
+      "description": "<p>Capacità di trovare informazioni utili in fonti scritte.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Riding": {
+      "name": "Equitazione",
+      "description": "<p>Capacità di gestire e cavalcare animali da sella.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Science": {
+      "name": "Scienza",
+      "description": "<p>Conoscenze nelle scienze esatte e naturali come matematica, biologia, chimica, geologia, ecc.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Shooting": {
+      "name": "Tiro",
+      "description": "<p>Capacità di usare armi a distanza.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Spellcasting": {
+      "name": "Incantamento",
+      "description": "<p>Abilità da usare con il Dono mistico (magia).</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Stealth": {
+      "name": "Furtività",
+      "description": "<p>Capacità di nascondersi e muoversi silenziosamente.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Survival": {
+      "name": "Sopravvivenza",
+      "description": "<p>Capacità di trovare cibo e rifugio e seguire tracce.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Taunt": {
+      "name": "Provocazione",
+      "description": "<p>Capacità di insultare e deridere gli altri. Usata spesso come tattica.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Thievery": {
+      "name": "Furto",
+      "description": "<p>Abilità manuali, borseggio, scasso e altri modi per appropriarsi di proprietà altrui.</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    },
+    "Unskilled Attempt": {
+      "name": "Tentativo maldestro",
+      "description": "<p>Se il personaggio non ha l'abilità necessaria ma vuole rischiare, effettua un tentativo maldestro: lancia un d4 e sottrae 2 dal risultato. La carta jolly sottrae 2 anche dal risultato del dado jolly.</p><p>Il Master può anche decidere che senza addestramento e conoscenze specifiche il personaggio non possa riuscire in compiti complessi, come operazioni chirurgiche o pilotaggio aereo.</p>"
+    },
+    "Weird Science": {
+      "name": "Scienza bizzarra",
+      "description": "<p>Abilità da usare con il Dono mistico (scienza bizzarra).</p><p>Descrizione completa delle abilità disponibile nel modulo premium <a href='https://peginc.com/product/savage-worlds-adventure-edition-core-rules-foundry-vtt/'>Savage Worlds Adventure Edition Core Rules</a> o nell'edizione <a href='https://rpgbook.ru/savage_worlds_rus'>Savage Worlds: Diario dell'avventuriero</a> in lingua russa.</p>"
+    }
+  }
+}

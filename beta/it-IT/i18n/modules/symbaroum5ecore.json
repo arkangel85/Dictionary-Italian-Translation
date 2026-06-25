@@ -1,0 +1,188 @@
+{
+  "SYB5E": {
+    "Error": {
+      "SpellLevelExceedsMax": "Il livello base dell'incantesimo supera il livello massimo consentito per il personaggio."
+    },
+    "setting": {
+      "debug": {
+        "name": "Mostra informazioni di debug",
+        "hint": "Le informazioni di debug saranno visibili nella console"
+      },
+      "config-menu-label": {
+        "name": "Configurazione sistema Symbaroum 5e",
+        "hint": "Impostazioni delle schede personaggio (colore, font, ecc.). Le impostazioni sono personali per ogni utente."
+      },
+      "config-pc-char-bg-img": {
+        "name": "Sfondo scheda personaggio giocatore"
+      },
+      "config-npc-char-bg-img": {
+        "name": "Sfondo scheda personaggio master"
+      },
+      "config-default-dnd5e": {
+        "name": "Visuale standard schede DnD5e"
+      },
+      "config-color-picker": {
+        "name": "Selettore colore"
+      },
+      "config-reset-all-button": {
+        "name": "Ripristina impostazioni predefinite"
+      },
+      "config-reset-note": {
+        "name": "ATTENZIONE: Salvare o ripristinare causerà il riavvio di FVTT."
+      },
+      "config-submit-button": {
+        "name": "Applica"
+      },
+      "config-reset-pc-config": {
+        "name": "Ripristina configurazione personaggi giocatori"
+      },
+      "config-reset-npc-config": {
+        "name": "Ripristina configurazione personaggi master"
+      },
+      "config-pc-color-selector": {
+        "name": "Colore sfondo personaggi giocatori"
+      },
+      "config-npc-color-selector": {
+        "name": "Colore sfondo personaggi master"
+      },
+      "config-pc-text-selector": {
+        "name": "Colore testo personaggi giocatori"
+      },
+      "config-npc-text-selector": {
+        "name": "Colore testo personaggi master"
+      }
+    },
+    "journal": {
+      "widejournal": {
+        "name": "Giornale largo Symbaroum"
+      }
+    },
+    "menu": {
+      "forceImport": {
+        "name": "Rilancia importazione contenuti",
+        "label": "Importa contenuti del modulo",
+        "hint": "Riavvia l’importazione iniziale dei contenuti del modulo."
+      }
+    },
+    "Never": "Mai",
+    "Init": {
+      "SubModule": "Inizializzazione sottosistema: {name}"
+    },
+    "Sheet": {
+      "Origin": "Origine",
+      "Soulless": {
+        "Hint": "Il danno da corruzione si applica sia alla salute corrente che a quella massima.",
+        "Name": "Senz'anima"
+      },
+      "Character": {
+        "Label": "Scheda personaggio giocatore Symbaroum 5e"
+      },
+      "NPC": {
+        "Label": "Scheda personaggio master Symbaroum 5e"
+      }
+    },
+    "Proficiency": {
+      "WeaponAlchemical": "Arma alchemica"
+    },
+    "Item": {
+      "Rarity": {
+        "GreaterArtifact": "Artefatto maggiore"
+      },
+      "WeaponProps": {
+        "AreaEffect": "Ad area",
+        "Balanced": "Bilanciata",
+        "Crewed": "Con equipaggio",
+        "Concealed": "Nascosta",
+        "DeepImpact": "Impatto profondo",
+        "Ensnaring": "Intrappolante",
+        "Immobile": "Immobile",
+        "Massive": "Massiccia",
+        "ReloadCrew": "Ricarica (equipaggio)",
+        "Restraining": "Immobilizzante",
+        "Siege": "D'assedio"
+      },
+      "ArmorProps": {
+        "Label": "Proprietà armatura",
+        "Concealable": "Occultabile",
+        "Cumbersome": "Ingombrante",
+        "Noisy": "Rumorosa",
+        "Weighty": "Pesante"
+      },
+      "Subtype": {
+        "Alchemical": "Alchemico"
+      },
+      "Class": {
+        "Approach": "Approccio"
+      }
+    },
+    "Currency": {
+      "Thaler": "Tallero",
+      "Shilling": "Scellino",
+      "Orteg": "Orteg",
+      "CostThaler": "Costo (t)"
+    },
+    "Spell": {
+      "Favored": "Favorito",
+      "NotFavored": "Non favorito",
+      "NeverFavored": "Mai favorito",
+      "MaxLevel": "Livello massimo incantesimo"
+    },
+    "Shadow": {
+      "Label": "Ombra"
+    },
+    "Manner": {
+      "Label": "Modo"
+    },
+    "Corruption": {
+      "Label": "Corruzione",
+      "Temporary": "Temp.",
+      "TemporaryFull": "Temporanea",
+      "Permanent": "Permanente",
+      "Current": "Attuale",
+      "Threshold": "Soglia",
+      "ThoroughFull": "Completamente corrotto",
+      "ThoroughShort": "Completo",
+      "ShortDesc": "Corruzione attuale: {value}/{max}",
+      "Custom": "Personalizzata",
+      "GainQuestion": "Effetto della corruzione",
+      "PermDamage": "Corruzione permanente",
+      "TempDamage": "Corruzione temporanea"
+    },
+    "Level": {
+      "Zeroth": "0°",
+      "First": "1°",
+      "Second": "2°",
+      "Third": "3°",
+      "Fourth": "4°",
+      "Fifth": "5°",
+      "Sixth": "6°",
+      "Seventh": "7°",
+      "Eighth": "8°",
+      "Nineth": "9°"
+    },
+    "Rest": {
+      "ShortHint": "Effettuare un riposo breve? Rimuoverai corruzione temporanea pari al tuo bonus di competenza e recupererai risorse da riposo breve. Puoi anche usare Dadi Vita rimanenti per rimuovere corruzione temporanea o guarire.",
+      "LongHint": "Effettuare un riposo lungo? Rimuoverai corruzione temporanea pari al doppio del bonus di competenza, recupererai Punti Ferita pari al tuo DV massimo, risorse da riposo lungo e oggetti con cariche limitate. Puoi anche usare Dadi Vita rimanenti per rimuovere corruzione temporanea o guarire.",
+      "Extended": "Riposo prolungato",
+      "ExtendedAbbr": "Prol.",
+      "ExtendedHint": "Effettuare un riposo prolungato? Rimuoverai tutta la corruzione temporanea e recupererai tutti i Punti Ferita e Dadi Vita.",
+      "ResultPreview": "Anteprima risultati",
+      "Results": {
+        "ExtendedShort": "{name} effettua un riposo prolungato.",
+        "ExtendedFull": "{name} effettua un riposo prolungato e recupera {dhp} PF, {dhd} DV e rimuove {dco} corruzione temporanea.",
+        "ShortFull": "{name} effettua un riposo breve, usa {dhd} DV per recuperare {dhp} PF e rimuovere {dco} corruzione temporanea.",
+        "LongFull": "{name} effettua un riposo lungo, usa {dhd} DV per recuperare {dhp} PF e rimuovere {dco} corruzione temporanea."
+      },
+      "Flavor": {
+        "ExtendedRestOvernight": "Riposo prolungato (24h+, nuovo giorno)",
+        "ExtendedRestNormal": "Riposo prolungato (24h+)"
+      }
+    },
+    "Creature": {
+      "Abomination": "Aberrazione",
+      "AbominationPl": "Aberrazioni",
+      "Phenomenon": "Fenomeno",
+      "PhenomenonPl": "Fenomeni"
+    }
+  }
+}

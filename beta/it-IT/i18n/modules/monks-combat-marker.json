@@ -1,0 +1,27 @@
+{
+  "MonksCombatMarker.token-highlight-animate.name": "Velocità animazione",
+  "MonksCombatMarker.token-highlight-animate.hint": "Anima l’indicatore del turno del token. Imposta a 0 per disattivare l’animazione.",
+  "MonksCombatMarker.token-highlight-picture.name": "Immagine per alleati",
+  "MonksCombatMarker.token-highlight-picture.hint": "Immagine usata come indicatore in combattimento per i token amichevoli.",
+  "MonksCombatMarker.token-highlight-picture-hostile.name": "Immagine per nemici",
+  "MonksCombatMarker.token-highlight-picture-hostile.hint": "Immagine usata come indicatore in combattimento per i token ostili.",
+  "MonksCombatMarker.token-highlight-picture-neutral.name": "Immagine per neutrali",
+  "MonksCombatMarker.token-highlight-picture-neutral.hint": "Immagine usata come indicatore in combattimento per i token neutrali.",
+  "MonksCombatMarker.token-highlight-scale.name": "Dimensione indicatore",
+  "MonksCombatMarker.token-highlight-scale.hint": "Dimensione dell'immagine dell’indicatore rispetto al token.",
+  "MonksCombatMarker.token-combat-animation.name": "Animazione indicatore combattimento",
+  "MonksCombatMarker.token-combat-animation.hint": "Scegli il tipo di animazione dell’indicatore di combattimento.",
+  "MonksCombatMarker.token-combat-animation-hostile.name": "Animazione per nemici",
+  "MonksCombatMarker.token-combat-animation-hostile.hint": "Scegli il tipo di animazione per l’indicatore dei token ostili.",
+  "MonksCombatMarker.token-combat-animation-neutral.name": "Animazione per neutrali",
+  "MonksCombatMarker.token-combat-animation-neutral.hint": "Scegli il tipo di animazione per l’indicatore dei token neutrali.",
+  "MonksCombatMarker.token-highlight-remove.name": "Rimuovi indicatore di turno",
+  "MonksCombatMarker.token-highlight-remove.hint": "Rimuove l’indicatore di turno dal token dopo che si è mosso.",
+
+  "MonksCombatMarker.animation.none": "Nessuna",
+  "MonksCombatMarker.animation.clockwise": "In senso orario",
+  "MonksCombatMarker.animation.counterclockwise": "In senso antiorario",
+  "MonksCombatMarker.animation.pulse": "Pulsazione",
+  "MonksCombatMarker.animation.fadein": "Apparizione",
+  "MonksCombatMarker.animation.fadeout": "Scomparsa"
+}

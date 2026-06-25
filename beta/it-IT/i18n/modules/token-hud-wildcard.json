@@ -1,0 +1,11 @@
+{
+  "THWildcard.Title": "Clicca per configurare l'immagine",
+  "THWildcard.Fieldset": "Variante predefinita",
+  "THWildcard.DefaultDescription": "Quando un token con più varianti viene posizionato sulla scena, questa variante verrà selezionata come predefinita invece di una casuale.",
+  "THWildcard.DefaultLabel": "Immagine predefinita:",
+  "THWildcard.ButtonTitle": "Apri file",
+  "THWildcard.DisplaySettingName": "Mostrare come immagine?",
+  "THWildcard.DisplaySettingHint": "Disattiva la visualizzazione delle varianti come elenco di nomi file nell'interfaccia.",
+  "THWildcard.OpacitySettingName": "Opacità dell'anteprima",
+  "THWildcard.OpacitySettingHint": "Regola l'opacità dell'interfaccia di selezione delle varianti del token."
+}

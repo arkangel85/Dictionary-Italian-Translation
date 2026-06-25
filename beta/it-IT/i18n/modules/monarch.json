@@ -1,0 +1,27 @@
+{
+  "monarch": {
+    "title": "🦋 Monarca",
+    "ui": {},
+    "console": {
+      "log": {
+        "ready": "🦋 Monarca | Pronto."
+      }
+    },
+    "sheetTitle": {
+      "myHand": "🦋 Monarca - La mia mano",
+      "deck": "🦋 Monarca - Mazzo",
+      "pile": "🦋 Monarca - Pila",
+      "card": "🦋 Monarca - Carta"
+    },
+    "label": {
+      "faces": "Facce",
+      "back": "Retro"
+    },
+    "settings": {
+      "cardHeight": {
+        "name": "Altezza carta",
+        "hint": "Altezza in pixel per visualizzare la mano/mazzo/pila sulla scena."
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+function e(){Hooks.on(`ready`,()=>{game.settings.set(`forbidden-lands`,`datasetDir`,`modules/it-IT/compendium/fbl/dataset/dataset-it.json`),console.log(`Traduzione del sistema attivata Forbidden Lands`)})}export{e as init};

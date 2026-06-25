@@ -1,0 +1,159 @@
+{
+  "label": "Incantesimi del mago",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Alarm",
+      "name": "Allarme",
+      "description": "Leggendo l'incantesimo, cammina lungo il perimetro di un'area. Quando una qualsiasi creatura entrerà nel cerchio tracciato, l'incantesimo te lo segnalerà; anche se stai dormendo, ti sveglierà. L'allarme rimane attivo finché non inizi nuovamente a preparare incantesimi."
+    },
+    {
+      "id": "Alert",
+      "name": "Avvertimento",
+      "description": "Descrivi un evento. Se accadrà, il GM te lo comunicherà, ovunque tu sia. Se desideri, puoi vedere ciò che sta succedendo come se fossi lì. Può esserci un solo avvertimento attivo alla volta."
+    },
+    {
+      "id": "Antipathy",
+      "name": "Antipatia",
+      "description": "Nomina il bersaglio dell'incantesimo, un tipo di creatura o un allineamento. Quando le creature del tipo o allineamento specificato vedono il bersaglio, fuggono immediatamente. Questo dura finché resti vicino al bersaglio o finché non dissolvi l'incantesimo. Finché l'incantesimo è attivo, hai -1 a tutti i tiri per lanciare incantesimi."
+    },
+    {
+      "id": "Cage",
+      "name": "Gabbia",
+      "description": "Imprigioni il bersaglio in una gabbia magica. Nessuno può entrare o uscire dalla gabbia. Resta attiva finché non lanci un altro incantesimo o la dissolvi. Devi tenerla sempre a vista affinché resti stabile. La creatura intrappolata può sentire i tuoi pensieri."
+    },
+    {
+      "id": "Charm Person",
+      "name": "Incantare persona",
+      "description": "Una persona (in senso lato, non un animale o un mostro) che tocchi mentre lanci l'incantesimo ti considera il suo migliore amico, finché non subisce danni o tu non la convinca del contrario con le tue azioni."
+    },
+    {
+      "id": "Cloudkill",
+      "name": "Nebbia letale",
+      "description": "Dalle Porte Nere della Morte evochi una nube di nebbia che riempie l'area circostante. Qualsiasi creatura che subisce danni in quest'area aggiunge [[/roll 1d6]] (ignorando l'armatura). La nebbia persiste finché vedi l'area colpita o finché non la dissolvi."
+    },
+    {
+      "id": "Contact Other Plane",
+      "name": "Contatto con un altro piano",
+      "description": "Fai una domanda a una creatura di un altro piano. Devi specificare quale piano, tipo di creatura o nome. Crei un canale di comunicazione bidirezionale che può essere interrotto in qualsiasi momento da te o dalla creatura."
+    },
+    {
+      "id": "Contact Spirits",
+      "name": "Parlare con gli spiriti",
+      "description": "Nomina lo spirito con cui vuoi parlare (oppure lascia decidere al GM). Lo evochi dal suo piano natale abbastanza vicino da poterci conversare. Lo spirito è obbligato a rispondere a una domanda nel miglior modo possibile."
+    },
+    {
+      "id": "Contingency",
+      "name": "Contingenza",
+      "description": "Scegli un incantesimo di 5° livello o inferiore e descrivi le condizioni, usando non più parole del tuo livello. L’incantesimo si attiverà quando si verificano tali condizioni o quando lo desideri — ciò che avviene per primo. Non serve tirare per lanciarlo. Puoi averne solo uno preparato in questo modo; uno nuovo sostituisce il vecchio."
+    },
+    {
+      "id": "Detect Magic",
+      "name": "Individuare magia",
+      "description": "Uno dei tuoi sensi percepisce la magia per un breve periodo. Il GM ti dirà se c’è qualcosa di magico nei dintorni."
+    },
+    {
+      "id": "Dispel Magic",
+      "name": "Dissolvi magia",
+      "description": "Questo incantesimo colpisce un altro incantesimo o effetto magico attivo vicino a te. Gli incantesimi deboli si annullano, la magia potente si indebolisce o si interrompe finché resti vicino."
+    },
+    {
+      "id": "Dominate",
+      "name": "Dominare",
+      "description": "<p>Soggioghi la mente altrui con un tocco. Ottieni una riserva di [[/roll 1d4]] che puoi spendere (1:1) per costringere il bersaglio a:</p><ul><li>pronunciare alcune parole a tua scelta;</li><li>darti qualcosa che tiene in mano;</li><li>attaccare un bersaglio che indichi in un certo modo;</li><li>rispondere sinceramente a una domanda.</li></ul><p>Se il bersaglio subisce danni, perdi 1 punto della riserva. Quando finisce, l’incantesimo termina. Finché è attivo, non puoi lanciare altri incantesimi.</p>"
+    },
+    {
+      "id": "Fireball",
+      "name": "Palla di fuoco",
+      "description": "Crei una potente sfera di fuoco che colpisce il bersaglio e chi gli sta vicino, infliggendo [[/roll 2d6]] danni che ignorano l'armatura."
+    },
+    {
+      "id": "Invisibility",
+      "name": "Invisibilità",
+      "description": "Tocca un alleato e rendilo invisibile. L'effetto dura finché non lo dissolvi o finché il bersaglio non attacca qualcuno. Finché l'incantesimo è attivo, non puoi lanciare altri incantesimi."
+    },
+    {
+      "id": "Light",
+      "name": "Luce",
+      "description": "L’oggetto che tocchi emette una luce magica pari a quella di una torcia. Non emette calore, non fa rumore e non consuma combustibile. Puoi scegliere il colore. L’effetto dura finché resti vicino all’oggetto."
+    },
+    {
+      "id": "Magic Missile",
+      "name": "Dardo magico",
+      "description": "Dalle tue dita partono dardi di energia magica pura. Infliggi [[/roll 2d4]] danni a un bersaglio."
+    },
+    {
+      "id": "Mimic",
+      "name": "Mimetismo",
+      "description": "Toccando una creatura mentre lanci questo incantesimo, assumi il suo aspetto. Copi le caratteristiche fisiche, ma conservi memoria e comportamento. Torni normale se subisci danni o termini l’incantesimo. Finché è attivo, non puoi usare mosse da mago."
+    },
+    {
+      "id": "Mirror Image",
+      "name": "Immagine speculare",
+      "description": "Crei un'immagine illusoria di te stesso. Se vieni attaccato, tira [[/roll 1d6]]. Con 4, 5 o 6 il colpo colpisce l'illusione, che svanisce e l'incantesimo finisce."
+    },
+    {
+      "id": "Perfect Summons",
+      "name": "Evocazione perfetta",
+      "description": "Compare una creatura vicino a te. Nominala o descrivine brevemente il tipo. Comparirà esattamente quella creatura o una del tipo descritto."
+    },
+    {
+      "id": "Polymorph",
+      "name": "Polimorfismo",
+      "description": "<p>Toccando una creatura, ne cambi completamente l’aspetto secondo la tua immaginazione. Rimane trasformata finché non lanci un altro incantesimo. Descrivi l’aspetto incluso vantaggi, svantaggi e modifiche alle caratteristiche. Il GM sceglie uno o più effetti:</p><ul><li>L’aspetto sarà instabile e temporaneo;</li><li>Il cambiamento influenzerà anche la mente della creatura;</li><li>Ci sono vantaggi o svantaggi inattesi.</li></ul>"
+    },
+    {
+      "id": "Prestidigitation",
+      "name": "Prestidigitazione",
+      "description": "Compi piccoli trucchi simili alla magia. Se tocchi un oggetto, puoi cambiarne aspetto, temperatura, odore, gusto o colore. Senza contatto, puoi creare piccole illusioni delle dimensioni di una persona. Sono rozze e solo decorative."
+    },
+    {
+      "id": "Shadow Walk",
+      "name": "Cammino d'ombra",
+      "description": "Trasformi un'ombra in un portale. Descrivi il luogo (usando non più parole del tuo livello). Tu e ogni alleato presente potete attraversarlo una sola volta, arrivando lì."
+    },
+    {
+      "id": "Shelter",
+      "name": "Rifugio",
+      "description": "Crei una struttura magica — da un palazzo a una capanna. Blocca qualsiasi danno non magico. Esiste finché non lo lasci o dissolvi l’incantesimo."
+    },
+    {
+      "id": "Sleep",
+      "name": "Sonno",
+      "description": "Dopo aver lanciato questo incantesimo, [[/roll 1d4]] nemici visibili si addormentano. Il GM decide chi. Funziona solo su chi può dormire. Si svegliano per rumori forti, tocchi o dolore."
+    },
+    {
+      "id": "Soul Gem",
+      "name": "Gemma dell’anima",
+      "description": "Intrappoli l’anima di una creatura morente in una gemma. La creatura è consapevole, ma può essere influenzata da magia o parole. Ottieni +1 ai tiri contro di lei. Puoi liberarla in qualsiasi momento, ma non potrà mai più essere imprigionata."
+    },
+    {
+      "id": "Summon Monster",
+      "name": "Evoca mostro",
+      "description": "<p>Invochi un mostro che ti aiuta come può. Lo controlli come un personaggio. Ha 1 PF, modificatori +1, e usa il tuo danno base. Scegli [[/roll 1d6]] caratteristiche:</p><ul><li>+2 a una caratteristica a scelta;</li><li>Non è avventato;</li><li>Infligge [[/roll 1d8]] danni;</li><li>Forte legame col suo piano: +2 PF per ogni tuo livello;</li><li>Ha un vantaggio fisico.</li></ul><p>Il GM determina cosa hai evocato. Resta finché muore o lo bandisci. Finché attivo, hai -1 a tutti gli incantesimi.</p>"
+    },
+    {
+      "id": "Telepathy",
+      "name": "Telepatia",
+      "description": "Tocchi una persona per creare un legame telepatico. Potete parlarvi mentalmente. Puoi avere un solo collegamento attivo alla volta."
+    },
+    {
+      "id": "True Seeing",
+      "name": "Vista vera",
+      "description": "Vedi le cose per ciò che sono. Dura finché non lo dissolvi o non dici una bugia. Finché attivo, hai -1 a tutti i tiri per incantesimi."
+    },
+    {
+      "id": "Unseen Servant",
+      "name": "Servo invisibile",
+      "description": "Crei un’entità invisibile che può solo trasportare oggetti. Può portare fino a 3 unità, ma solo ciò che gli dai direttamente. Gli oggetti fluttuano a pochi passi da te. Se subisce danni o si allontana troppo, sparisce e lascia cadere tutto. Altrimenti, resta finché non termini l’incantesimo."
+    },
+    {
+      "id": "Visions Through Time",
+      "name": "Visioni del tempo",
+      "description": "Lanciando l’incantesimo, guarda in una superficie riflettente (acqua, specchio, ecc.). Il GM descriverà una visione di un evento oscuro che accadrà se non interverrai. La visione include un indizio su come evitarlo. Niente lieto fine, spiacente."
+    }
+  ]
+}

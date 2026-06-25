@@ -1,0 +1,240 @@
+{
+  "label": "Miglioramenti della banda",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "(A) Assassin Rigging": {
+      "name": "(Д) Equipaggiamento degli Assassini",
+      "description": "Ottieni 2 punti di carico extra per armi o equipaggiamento. <br /><em>Ad esempio, puoi portare una pistola (arma) e l’attrezzatura da scassinatore, restando comunque a carico zero.</em>"
+    },
+    "(A) Elite Skulks": {
+      "name": "(Д) Infiltrati d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «infiltrati» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(A) Elite Thugs": {
+      "name": "(Д) Picchiatori d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «picchiatori» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(A) Hardened": {
+      "name": "(Д) Induriti",
+      "description": "Ogni personaggio del gruppo ottiene <strong>una casella stress aggiuntiva</strong>. Questo miglioramento costa come 3 normali. <br /><em>Permette, se lo desideri, di riportare in gioco un personaggio con la quarta ferita.</em>"
+    },
+    "(A) Ironhook Contacts": {
+      "name": "(Д) Contatti a Ironhook",
+      "description": "In prigione il tuo rango è considerato più alto di 1. <br /><em>Ciò influisce su tutti i tiri legati alla prigione, incluso il tempo di detenzione.</em>"
+    },
+    "(B) Bravos Rigging": {
+      "name": "(Бан) Equipaggiamento dei Bravi",
+      "description": "Ottieni 2 punti di carico extra per armature o armi. <br /><em>Ad esempio, puoi portare una lama e una pistola o un’armatura normale, restando a carico zero.</em>"
+    },
+    "(B) Elite Rovers": {
+      "name": "(Бан) Vagabondi d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «vagabondi» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(B) Elite Thugs": {
+      "name": "(Бан) Picchiatori d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «picchiatori» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(B) Hardened": {
+      "name": "(Бан) Induriti",
+      "description": "Ogni personaggio del gruppo ottiene <strong>una casella stress aggiuntiva</strong>. Questo miglioramento costa come 3 normali. <br /><em>Permette, se lo desideri, di riportare in gioco un personaggio con la quarta ferita.</em>"
+    },
+    "(B) Ironhook Contacts": {
+      "name": "(Бан) Contatti a Ironhook",
+      "description": "In prigione il tuo rango è considerato più alto di 1. <br /><em>Ciò influisce su tutti i tiri legati alla prigione, incluso il tempo di detenzione.</em>"
+    },
+    "(C) Cult Rigging": {
+      "name": "(А) Equipaggiamento dei Cultisti",
+      "description": "Ottieni 2 punti di carico extra che puoi usare per documenti o oggetti magici. <br /><em>Ad esempio, puoi portare un libro di maledizioni e una zampa di demone, restando a carico zero.</em>"
+    },
+    "(C) Elite Adepts": {
+      "name": "(А) Adepti d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «adepti» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(C) Elite Thugs": {
+      "name": "(А) Picchiatori d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «picchiatori» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(C) Ordained": {
+      "name": "(А) Ordinati",
+      "description": "Ogni personaggio del gruppo ottiene <strong>una casella stress aggiuntiva</strong>. Questo miglioramento costa come 3 normali. <br /><em>Permette, se lo desideri, di riportare in gioco un personaggio con la quarta ferita.</em>"
+    },
+    "(C) Ritual Sanctum in Lair": {
+      "name": "(А) Sancta Rituale nel CovO",
+      "description": "È considerato un luogo sacro e magico — un <strong>laboratorio</strong> adatto a pratiche occulte e rituali."
+    },
+    "(H) Composed": {
+      "name": "(Бар) Imperturbabili",
+      "description": "Ogni personaggio del gruppo ottiene <strong>una casella stress aggiuntiva</strong>. Questo miglioramento costa come 3 normali."
+    },
+    "(H) Elite Rooks": {
+      "name": "(Бар) Truffatori d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «truffatori» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(H) Elite Thugs": {
+      "name": "(Бар) Picchiatori d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «picchiatori» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(H) Hawker Rigging": {
+      "name": "(Бар) Equipaggiamento degli Spacciatori",
+      "description": "Un oggetto che porti con te è considerato nascosto e non aumenta il carico. <br /><em>Ad esempio, puoi portare un’arma o una partita di droga ben nascosta senza aumentare il tuo carico.</em>"
+    },
+    "(H) Ironhook Contacts": {
+      "name": "(Бар) Contatti a Ironhook",
+      "description": "In prigione il tuo rango è considerato più alto di 1. <br /><em>Ciò influisce su tutti i tiri legati alla prigione, incluso il tempo di detenzione.</em>"
+    },
+    "(Sh) Elite Rooks": {
+      "name": "(Т) Truffatori d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «truffatori» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(Sh) Elite Skulks": {
+      "name": "(Т) Infiltrati d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «infiltrati» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(Sh) Steady": {
+      "name": "(Т) Imperturbabili",
+      "description": "Ogni personaggio del gruppo ottiene <strong>una casella stress aggiuntiva</strong>. Questo miglioramento costa come 3 normali."
+    },
+    "(Sh) Thief Rigging": {
+      "name": "(Т) Equipaggiamento delle Ombre",
+      "description": "Ottieni 2 punti di carico extra per strumenti e attrezzi. <br /><em>Ad esempio, puoi portare strumenti da scasso e da tecnico restando a carico zero.</em>"
+    },
+    "(Sh) Underground Maps and Passkeys": {
+      "name": "(Т) Mappe Sotterranee e Chiavi",
+      "description": "Puoi muoverti facilmente attraverso canali, tunnel e sotterranei della città."
+    },
+    "(Sm) Barge": {
+      "name": "(П) Chiatta",
+      "description": "Rende il tuo covo <em>mobile</em>. Puoi spostarlo in un'altra posizione con una singola azione di riposo."
+    },
+    "(Sm) Camouflage": {
+      "name": "(П) Camuffamento",
+      "description": "Il tuo veicolo, finché è fermo, è molto difficile da individuare. Si mimetizza con l’ambiente o appare assolutamente normale e insignificante (a tua scelta)."
+    },
+    "(Sm) Elite Rovers": {
+      "name": "(П) Vagabondi d’élite",
+      "description": "Tutti i tuoi scagnozzi di tipo «vagabondi» tirano <strong>+d6</strong> nei test legati al loro ruolo."
+    },
+    "(Sm) Smuggler Rigging": {
+      "name": "(П) Equipaggiamento dei Contrabbandieri",
+      "description": "Due oggetti che porti con te sono perfettamente nascosti. <br /><em>Puoi trasportare un carico di contrabbando (carico 1) e una pistola senza che vengano scoperti nemmeno con una perquisizione ordinaria.</em>"
+    },
+    "(Sm) Steady": {
+      "name": "(П) Imperturbabili",
+      "description": "Ogni personaggio del gruppo ottiene <strong>una casella stress aggiuntiva</strong>. Questo miglioramento costa come 3 normali."
+    },
+    "(Sm) Vehicle 1": {
+      "name": "(П) Veicolo 1",
+      "description": "Tutti i contrabbandieri iniziano con un proprio veicolo."
+    },
+    "(Sm) Vehicle 2": {
+      "name": "(П) Veicolo 2",
+      "description": "Se prendi il miglioramento <strong>Veicolo</strong> una seconda volta, il veicolo ottiene <strong>armatura</strong>."
+    },
+    "Boat House 1": {
+      "name": "Capanno per barche 1",
+      "description": "Hai una barca, un molo e uno spazio per conservare tutto ciò che serve per farla funzionare."
+    },
+    "Boat House 2": {
+      "name": "Capanno per barche 2",
+      "description": "Se prendi il miglioramento <strong>Capanno per barche</strong> una seconda volta, la barca ottiene armatura e maggiore capacità di carico."
+    },
+    "Carriage House 1": {
+      "name": "Scuderia 1",
+      "description": "Hai una carrozza e due caproni per trainarla, più una scuderia per conservarli. <br /><em>I cavalli a Duskvol sono rari: la maggior parte delle carrozze è trainata da grossi caproni akorosi.</em>"
+    },
+    "Carriage House 2": {
+      "name": "Scuderia 2",
+      "description": "Se prendi il miglioramento <strong>Scuderia</strong> una seconda volta, la carrozza ottiene armatura e caproni più grandi e veloci."
+    },
+    "Cohort 1": {
+      "name": "Seguaci 1",
+      "description": "I seguaci sono o una banda o uno specialista eccezionale al servizio del tuo gruppo."
+    },
+    "Cohort 2": {
+      "name": "Seguaci 2",
+      "description": "I seguaci sono o una banda o uno specialista eccezionale al servizio del tuo gruppo."
+    },
+    "Cohort 3": {
+      "name": "Seguaci 3",
+      "description": "I seguaci sono o una banda o uno specialista eccezionale al servizio del tuo gruppo."
+    },
+    "Cohort 4": {
+      "name": "Seguaci 4",
+      "description": "I seguaci sono o una banda o uno specialista eccezionale al servizio del tuo gruppo."
+    },
+    "Hidden Lair": {
+      "name": "Covo nascosto",
+      "description": "Il tuo covo è ben nascosto e la sua posizione è segreta. Se viene scoperto, puoi spostarlo e nasconderlo nuovamente spendendo due azioni di riposo e pagando un numero di <strong>monete</strong> pari al tuo rango."
+    },
+    "Mastery": {
+      "name": "Maestria",
+      "description": "La tua banda può diventare maestra nel suo campo. Ora puoi aumentare le abilità dei personaggi fino a 4 (senza questo miglioramento il massimo è 3). Questo miglioramento costa quanto quattro normali."
+    },
+    "Quality: Arcane Implements": {
+      "name": "Qualità: Oggetti arcani",
+      "description": "Aumenta la qualità di un tipo di oggetti per tutti i personaggi, anche se già di buona fattura. <br /><em>Ad esempio, con rango 0 ma grimaldelli buoni (+1) e questo miglioramento (+1), puoi affrontare serrature di qualità 2.</em>"
+    },
+    "Quality: Documents": {
+      "name": "Qualità: Documenti",
+      "description": "Aumenta la qualità di un tipo di oggetti per tutti i personaggi, anche se già di buona fattura. <br /><em>Ad esempio, con rango 0 ma grimaldelli buoni (+1) e questo miglioramento (+1), puoi affrontare serrature di qualità 2.</em>"
+    },
+    "Quality: Gear": {
+      "name": "Qualità: Equipaggiamento",
+      "description": "Aumenta la qualità di un tipo di oggetti per tutti i personaggi, anche se già di buona fattura. <br /><em>Ad esempio, con rango 0 ma grimaldelli buoni (+1) e questo miglioramento (+1), puoi affrontare serrature di qualità 2.</em>"
+    },
+    "Quality: Subterfuge Supplies": {
+      "name": "Qualità: Mezzi di travestimento",
+      "description": "Aumenta la qualità di un tipo di oggetti per tutti i personaggi, anche se già di buona fattura. <br /><em>Ad esempio, con rango 0 ma grimaldelli buoni (+1) e questo miglioramento (+1), puoi affrontare serrature di qualità 2.</em>"
+    },
+    "Quality: Tools": {
+      "name": "Qualità: Strumenti",
+      "description": "Aumenta la qualità di un tipo di oggetti per tutti i personaggi, anche se già di buona fattura. <br /><em>Ad esempio, con rango 0 ma grimaldelli buoni (+1) e questo miglioramento (+1), puoi affrontare serrature di qualità 2.</em>"
+    },
+    "Quality: Weapons": {
+      "name": "Qualità: Armi",
+      "description": "Aumenta la qualità di un tipo di oggetti per tutti i personaggi, anche se già di buona fattura. <br /><em>Ad esempio, con rango 0 ma grimaldelli buoni (+1) e questo miglioramento (+1), puoi affrontare serrature di qualità 2.</em>"
+    },
+    "Quarters": {
+      "name": "Alloggi",
+      "description": "Il tuo covo dispone di stanze abitative. Senza questo miglioramento, tutti devono dormire altrove, rendendosi vulnerabili."
+    },
+    "Secure Lair 1": {
+      "name": "Covo protetto 1",
+      "description": "Il covo è dotato di serrature, allarmi e trappole contro gli intrusi. <br /><em>Se serve stabilire quanto siano efficaci queste misure contro un’intrusione, puoi effettuare una prova di rango del tuo gruppo.</em>"
+    },
+    "Secure Lair 2": {
+      "name": "Covo protetto 2",
+      "description": "Se prendi il miglioramento <strong>Covo protetto</strong> una seconda volta, alle misure difensive si aggiungono protezioni magiche contro gli spiriti. <br /><em>Se serve stabilire quanto siano efficaci queste misure contro un’intrusione, puoi effettuare una prova di rango del tuo gruppo.</em>"
+    },
+    "Training: Insight": {
+      "name": "Addestramento: Intuito",
+      "description": "Con questo miglioramento, ogni sessione di addestramento durante il riposo per ottenere esperienza del tipo corrispondente (intuito, audacia, volontà o talento) fornisce 2 punti invece di 1. Questo consente uno sviluppo più rapido. <em>Se possiedi l’addestramento in volontà, ogni volta che qualcuno del gruppo si allena in volontà durante il riposo, segna 2 punti esperienza (anziché 1). Se possiedi l’addestramento in talenti, ottieni 2 punti ogni volta che alleni e riempi la barra dei talenti del personaggio.</em>"
+    },
+    "Training: Personal Exp": {
+      "name": "Addestramento: Talenti",
+      "description": "Con questo miglioramento, ogni sessione di addestramento durante il riposo per ottenere esperienza del tipo corrispondente (intuito, audacia, volontà o talento) fornisce 2 punti invece di 1. Questo consente uno sviluppo più rapido. <em>Se possiedi l’addestramento in volontà, ogni volta che qualcuno del gruppo si allena in volontà durante il riposo, segna 2 punti esperienza (anziché 1). Se possiedi l’addestramento in talenti, ottieni 2 punti ogni volta che alleni e riempi la barra dei talenti del personaggio.</em>"
+    },
+    "Training: Prowess": {
+      "name": "Addestramento: Audacia",
+      "description": "Con questo miglioramento, ogni sessione di addestramento durante il riposo per ottenere esperienza del tipo corrispondente (intuito, audacia, volontà o talento) fornisce 2 punti invece di 1. Questo consente uno sviluppo più rapido. <em>Se possiedi l’addestramento in volontà, ogni volta che qualcuno del gruppo si allena in volontà durante il riposo, segna 2 punti esperienza (anziché 1). Se possiedi l’addestramento in talenti, ottieni 2 punti ogni volta che alleni e riempi la barra dei talenti del personaggio.</em>"
+    },
+    "Training: Resolve": {
+      "name": "Addestramento: Volontà",
+      "description": "Con questo miglioramento, ogni sessione di addestramento durante il riposo per ottenere esperienza del tipo corrispondente (intuito, audacia, volontà o talento) fornisce 2 punti invece di 1. Questo consente uno sviluppo più rapido. <em>Se possiedi l’addestramento in volontà, ogni volta che qualcuno del gruppo si allena in volontà durante il riposo, segna 2 punti esperienza (anziché 1). Se possiedi l’addestramento in talenti, ottieni 2 punti ogni volta che alleni e riempi la barra dei talenti del personaggio.</em>"
+    },
+    "Vault 1": {
+      "name": "Tesoreria 1",
+      "description": "Il tuo covo dispone di un caveau sicuro per conservare fino a 8 monete."
+    },
+    "Vault 2": {
+      "name": "Tesoreria 2",
+      "description": "Se prendi il miglioramento <strong>Tesoreria</strong> una seconda volta, la capacità aumenta fino a 16 monete."
+    },
+    "Workshop": {
+      "name": "Laboratorio",
+      "description": "Il tuo covo dispone di un laboratorio con strumenti per ingegnere e alchimista, oltre a una piccola biblioteca con libri, documenti e mappe. In questo covo puoi svolgere progetti a lungo termine senza doverlo lasciare."
+    }
+  }
+}

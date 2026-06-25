@@ -1,0 +1,255 @@
+{
+  "enhancedcombathud": {
+    "controls": {
+      "toggle": {
+        "title": "Attiva/Disattiva Argon HUD",
+        "warning": "Argon HUD: Nessun token selezionato. Seleziona un token per visualizzare l'interfaccia."
+      }
+    },
+    "settings": {
+      "color": {
+        "label": "Colore",
+        "text": "Colore principale",
+        "hint": "Colore della scheda delle azioni e degli elementi principali dell'interfaccia"
+      },
+      "fore-color": {
+        "text": "Colore del testo",
+        "hint": "Colore del testo"
+      },
+      "color-bonus-action": {
+        "text": "Colore delle azioni bonus",
+        "hint": "Colore della scheda delle azioni bonus"
+      },
+      "color-free-action": {
+        "text": "Colore delle azioni libere",
+        "hint": "Colore della scheda delle azioni libere"
+      },
+      "color-reaction": {
+        "text": "Colore delle reazioni",
+        "hint": "Colore della scheda delle reazioni"
+      },
+      "color-end-turn": {
+        "text": "Colore di fine turno",
+        "hint": "Colore della scheda di fine turno"
+      },
+      "color-tooltip": {
+        "text": "Colore dei tooltip",
+        "hint": "Colore dei suggerimenti per prove/abilità/strumenti"
+      },
+      "theme": {
+        "name": "Tema",
+        "hint": "Tema visivo dell'interfaccia",
+        "custom": "Personalizzato",
+        "helium": "Elio",
+        "neon": "Neon",
+        "argon": "Argon",
+        "krypton": "Cripton",
+        "xenon": "Xenon",
+        "radon": "Radon",
+        "oganesson": "Oganesson"
+      },
+      "globalTheme": {
+        "name": "Modalità tema",
+        "hint": "'Client' - ogni giocatore può scegliere il proprio tema. 'Mondo' - il GM imposta il tema per tutti.",
+        "choices": {
+          "client": "Client",
+          "world": "Mondo"
+        }
+      },
+      "scale": {
+        "name": "Scala",
+        "hint": "Scala dell'interfaccia - se lo scaling automatico è attivo, questa sarà una moltiplicazione aggiuntiva"
+      },
+      "dialogTheme": {
+        "name": "Tema delle finestre",
+        "hint": "Applica il tema Argon anche alle finestre popup"
+      },
+      "autoScale": {
+        "name": "Scala automatica",
+        "hint": "Scala automaticamente l'HUD in base alla dimensione dello schermo. Le impostazioni manuali saranno ignorate."
+      },
+      "alwaysOn": {
+        "name": "Sempre attivo",
+        "hint": "Mostra automaticamente l'interfaccia alla selezione del token"
+      },
+      "leftPos": {
+        "name": "Margine sinistro",
+        "hint": "Distanza dal bordo sinistro in pixel"
+      },
+      "botPos": {
+        "name": "Margine inferiore",
+        "hint": "Distanza dal bordo inferiore in pixel"
+      },
+      "playerDetailsBottom": {
+        "name": "Dettagli del giocatore in basso",
+        "hint": "Posiziona nome del giocatore e info classe sotto al ritratto"
+      },
+      "preparedSpells": {
+        "name": "Solo incantesimi preparati",
+        "hint": "Mostra solo gli incantesimi preparati"
+      },
+      "showTooltips": {
+        "name": "Mostra suggerimenti",
+        "hint": "Mostra i suggerimenti al passaggio del mouse"
+      },
+      "showTooltipsSpecial": {
+        "name": "Suggerimenti per azioni speciali",
+        "hint": "Mostra suggerimenti al passaggio su azioni speciali (schivata, ritirata, ecc.)"
+      },
+      "showTooltipsAbilityMenuAbilities": {
+        "name": "Suggerimenti per caratteristiche",
+        "hint": "Mostra suggerimenti al passaggio sulle caratteristiche"
+      },
+      "showTooltipsAbilityMenuSkills": {
+        "name": "Suggerimenti per abilità",
+        "hint": "Mostra suggerimenti al passaggio sulle abilità"
+      },
+      "showTooltipsAbilityMenuTools": {
+        "name": "Suggerimenti per strumenti",
+        "hint": "Mostra suggerimenti al passaggio sugli strumenti"
+      },
+      "fadeOutInactive": {
+        "name": "Attenuazione dell'interfaccia",
+        "hint": "Effetto di attenuazione dell'HUD quando il cursore non è sopra"
+      },
+      "fadeoutDelay": {
+        "name": "Ritardo attenuazione",
+        "hint": "Secondi di ritardo prima che l'effetto di attenuazione si attivi"
+      },
+      "fadeoutOpacity": {
+        "name": "Opacità attenuazione",
+        "hint": "Livello di opacità dell'HUD con effetto attenuazione"
+      },
+      "hideMacroPlayers": {
+        "name": "Nascondi macro e giocatori",
+        "hint": "Quando l'HUD è aperto, la barra dei macro e la lista dei giocatori saranno nascoste"
+      },
+      "openCombatStart": {
+        "name": "Apri all'inizio del combattimento",
+        "hint": "L'HUD si aprirà automaticamente all'inizio del combattimento."
+      },
+      "tooltipScale": {
+        "name": "Scala dei suggerimenti",
+        "hint": "Moltiplicatore di dimensione per i suggerimenti"
+      },
+      "switchEquip": {
+        "name": "Equipaggiamento automatico",
+        "hint": "Equipaggia e rimuove automaticamente quando si cambiano i set"
+      },
+      "showWeaponsItems": {
+        "name": "Mostra armi in 'Utilizzo oggetto'",
+        "hint": "Le armi saranno visibili nella sezione 'Utilizzo oggetto'. Utile se mancano slot per set di armi."
+      },
+      "noAA": {
+        "name": "Non applicare effetti attivi",
+        "hint": "Gli effetti attivi non saranno applicati durante azioni speciali (richiede riavvio)"
+      },
+      "noBlur": {
+        "name": "Disattiva effetto sfocatura",
+        "hint": "Disattiva gli effetti di sfocatura nell'interfaccia. Potrebbe migliorare le prestazioni su PC meno potenti."
+      },
+      "suppressWarnings": {
+        "name": "Nascondi avvisi",
+        "hint": "Non mostrare avvisi in caso di errori."
+      },
+      "rangefinder": {
+        "name": "3D Canvas - Rilevatore di distanza",
+        "hint": "Abilita il Rilevatore di distanza per la 3D Canvas quando si passa il mouse sugli oggetti nell'HUD. 'Solo distanza' mostra la distanza dal bersaglio. La distanza sarà rossa se il bersaglio è fuori portata. La 'Modalità di gioco' mostra la probabilità di colpire il bersaglio (per attacchi e prove)."
+      },
+      "rangepicker": {
+        "name": "Puntamento",
+        "hint": "Quando si utilizza un oggetto o un'azione che richiede un bersaglio, viene mostrato un contatore dei bersagli che segue il cursore finché non viene selezionato il numero richiesto. Usa i tasti +/- per regolare manualmente il numero di bersagli."
+      },
+      "rangepickerclear": {
+        "name": "Puntamento - Pulisci bersagli",
+        "hint": "Quando si utilizza un oggetto o un'azione che richiede un bersaglio, tutti i bersagli precedenti verranno rimossi prima di entrare in modalità Puntamento."
+      },
+      "thememenu": {
+        "name": "Impostazioni tema",
+        "hint": "Configura e scegli lo stile di Argon",
+        "label": "Configurazione temi"
+      }
+    },
+    "hud": {
+      "pass": {
+        "name": "Passa"
+      },
+      "endturn": {
+        "name": "Fine turno"
+      },
+      "macro": {
+        "name": "Macro",
+        "page": "Pagina"
+      }
+    },
+    "themeOptions": {
+      "save": "Salva modifiche",
+      "export": "Esporta tema",
+      "autoTextColorTitle": "Colore del testo automatico in base allo sfondo",
+      "autoTextColorHint": "Il colore del testo verrà selezionato automaticamente per garantire la leggibilità sullo sfondo scelto.",
+      "exportThemeName": "Nome del tema:",
+      "exportTheme": {
+        "save": "Salva",
+        "cancel": "Annulla"
+      },
+      "themeTitle": "Selezione tema",
+      "themeHint": "La scelta del tema modificherà anche le impostazioni della palette.",
+      "portrait": "Colori del ritratto",
+      "mainAction": "Colore delle azioni principali",
+      "bonusAction": "Colore delle azioni bonus",
+      "freeAction": "Colore delle azioni libere",
+      "reaction": "Colore delle reazioni",
+      "endTurn": "Colore di fine turno",
+      "tooltip": "Colore dei suggerimenti",
+      "abilityMenu": "Colore del menu delle caratteristiche",
+      "buttons": "Colore dei pulsanti",
+      "movement": "Colore del blocco movimento",
+      "background": "Colore dello sfondo",
+      "color": "Colore del testo",
+      "border": "Colore del bordo",
+      "boxShadow": "Colore delle ombre",
+      "portraitBase": "Colori sfondo/testo/bordo quando il cursore non è sull'elemento",
+      "mainActionBase": "Colori sfondo/testo/bordo quando il cursore non è sull'elemento",
+      "mainActionHover": "Colori sfondo/testo/bordo quando il cursore è sull'elemento",
+      "bonusActionBase": "Colori sfondo/testo/bordo quando il cursore non è sull'elemento",
+      "bonusActionHover": "Colori sfondo/testo/bordo quando il cursore è sull'elemento",
+      "freeActionBase": "Colori sfondo/testo/bordo quando il cursore non è sull'elemento",
+      "freeActionHover": "Colori sfondo/testo/bordo quando il cursore è sull'elemento",
+      "reactionBase": "Colori sfondo/testo/bordo quando il cursore non è sull'elemento",
+      "reactionHover": "Colori sfondo/testo/bordo quando il cursore è sull'elemento",
+      "endTurnBase": "Colori sfondo/testo/bordo quando il cursore non è sull'elemento",
+      "endTurnHover": "Colori sfondo/testo/bordo quando il cursore è sull'elemento",
+      "tooltipHeader": "Colori sfondo/testo/bordo del titolo nei suggerimenti e finestre",
+      "tooltipSubtitle": "Colori sfondo/testo/bordo del sottotitolo nei suggerimenti",
+      "tooltipBody": "Colori sfondo/testo/bordo del corpo nei suggerimenti e finestre",
+      "abilityMenuBase": "Colori del primo piano/ombre quando il cursore non è sull'elemento",
+      "abilityMenuHover": "Colori del primo piano/ombre quando il cursore è sull'elemento",
+      "buttonsBase": "Colori sfondo/primo piano/bordo quando il cursore non è sull'elemento",
+      "buttonsHover": "Colori sfondo/primo piano/bordo quando il cursore è sull'elemento",
+      "movementUsed": "Sfondo/ombra delle caselle che indicano movimento utilizzato",
+      "movementBaseMovement": "Sfondo/ombra delle caselle che indicano movimento disponibile",
+      "movementDashMovement": "Sfondo/ombra delle caselle che indicano movimento con scatto",
+      "movementDangerMovement": "Sfondo/ombra delle caselle che indicano movimento oltre il limite"
+    },
+    "hotkey": {
+      "toggle": {
+        "name": "Attiva/disattiva Argon HUD"
+      }
+    },
+    "err": {
+      "unsupportedActorType": "Argon: attore di tipo '%t' non supportato da Argon HUD.",
+      "moduleNotActive": "Argon CORE: il modulo per il sistema non è installato o attivo, installa e attiva il modulo %m se disponibile."
+    },
+    "targetPicker": {
+      "dialog": {
+        "title": "Guida al Puntamento dei Bersagli",
+        "list": {
+          "0": "Il numero di bersagli selezionati/richiesti seguirà il tuo cursore.",
+          "1": "<span>Click sinistro</span> o <span>T</span> per mirare a un token.",
+          "2": "<span>Click destro</span> per annullare la selezione.",
+          "3": "<span>+</span> o <span>-</span> per regolare manualmente il numero di bersagli richiesti."
+        }
+      }
+    }
+  }
+}

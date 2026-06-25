@@ -1,0 +1,12 @@
+{
+  "MonksBloodsplats.show-bloodsplat.name": "Mostrare schizzi di sangue",
+  "MonksBloodsplats.show-bloodsplat.hint": "Quando un mostro muore, viene visualizzato come uno schizzo di sangue. Puoi nascondere il token ai giocatori.",
+  "MonksBloodsplats.bloodsplat-colour.name": "Colore degli schizzi di sangue",
+  "MonksBloodsplats.bloodsplat-size.name": "Dimensione degli schizzi di sangue",
+  "MonksBloodsplats.bloodsplat-size.hint": "Imposta la dimensione degli schizzi di sangue rispetto alla dimensione originale del token.",
+  "MonksBloodsplats.bloodsplat-opacity.name": "Opacità degli schizzi di sangue",
+  "MonksBloodsplats.bloodsplat-opacity.hint": "Regola l'opacità del token dietro gli schizzi di sangue.",
+
+  "MonksBloodsplats.bloodsplatoptions.true": "Nascondi il token ai giocatori",
+  "MonksBloodsplats.bloodsplatoptions.both": "Mostra il token ai giocatori"
+}

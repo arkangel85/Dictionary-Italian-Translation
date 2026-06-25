@@ -1,0 +1,1977 @@
+{
+  "kin": {
+    "alderlander": {
+      "key": "alderlander",
+      "name": "Umano delle Terre degli Ontani",
+      "weight": 8,
+      "age": [
+        [16, 25],
+        [26, 50],
+        [51, 80]
+      ],
+      "talent": "Adattabile",
+      "childhood": {
+        "orphaned": {
+          "key": "orphaned",
+          "name": "Orfano",
+          "weight": 1,
+          "description": "Non hai mai avuto una famiglia, non hai nemmeno mai visto i tuoi genitori e fin da piccolo hai imparato a prenderti cura di te stesso. Sei cresciuto temprato e forte, ma la tua condizione di senza radici ti pesa.",
+          "attributes": {
+            "strength": "3",
+            "agility": "5",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "endurance": "1",
+            "melee": "1",
+            "scouting": "1",
+            "sleight-of-hand": "1",
+            "survival": "1",
+            "insight": "1"
+          }
+        },
+        "herder": {
+          "key": "herder",
+          "name": "Pastore",
+          "weight": 1,
+          "description": "Fin da piccolo ti hanno insegnato che il bestiame è fonte di vita. Aiutando i pastori, vagavi per i prati intorno al villaggio, proteggendo il gregge. Di notte dormivi accanto a loro e sognavi avventure.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "might": "1",
+            "crafting": "1",
+            "scouting": "2",
+            "animal-handling": "2"
+          }
+        },
+        "vagabond": {
+          "key": "vagabond",
+          "name": "Viandante",
+          "weight": 1,
+          "description": "La tua famiglia viaggiava di villaggio in villaggio, fuggendo dalla nebbia insanguinata e guadagnandosi da vivere con lavori semplici. Non avete mai avuto una vera casa, e ogni giorno portava nuove avventure. Hai imparato a sopravvivere con ciò che trovavi e hai capito quanto sia importante stare uniti.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "3"
+          },
+          "skills": {
+            "endurance": "1",
+            "melee": "1",
+            "scouting": "1",
+            "survival": "2",
+            "insight": "1"
+          }
+        },
+        "squire": {
+          "key": "squire",
+          "name": "Scudiero",
+          "weight": 1,
+          "description": "Hai servito a lungo un fiero guerriero: portavi la sua arma e i suoi equipaggiamenti, ti prendevi cura del suo cavallo e imparavi tutto quello che potevi. Sognavi il giorno in cui saresti diventato padrone di te stesso — e famoso nelle Terre Proibite.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "endurance": "1",
+            "melee": "2",
+            "marksmanship": "1",
+            "move": "1",
+            "healing": "1"
+          }
+        },
+        "laborer": {
+          "key": "laborer",
+          "name": "Lavoratore",
+          "weight": 1,
+          "description": "Fin dall’infanzia hai lavorato duramente nei campi, svolgendo lavori pesanti. Conosci bene cereali, bestiame e coltivazioni. E nel profondo sogni qualcosa di diverso.",
+          "attributes": {
+            "strength": "5",
+            "agility": "3",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "might": "2",
+            "melee": "1",
+            "crafting": "1",
+            "survival": "1",
+            "animal-handling": "1"
+          }
+        },
+        "hard studies": {
+          "key": "hard studies",
+          "name": "Studente diligente",
+          "weight": 1,
+          "description": "Qualcuno colto si prese cura di te e ti mise a studiare antichi manoscritti. Le giornate scorrevano lente, e lo studio era difficile, ma alla fine capisti che il sapere è la cosa più importante in questo mondo.",
+          "attributes": {
+            "strength": "3",
+            "agility": "3",
+            "wits": "5",
+            "empathy": "4"
+          },
+          "skills": {
+            "crafting": "1",
+            "lore": "3",
+            "insight": "1",
+            "manipulation": "1"
+          }
+        }
+      }
+    },
+    "aslene": {
+      "key": "aslene",
+      "name": "Umano di Aslene",
+      "weight": 5,
+      "age": [
+        [16, 25],
+        [26, 50],
+        [51, 80]
+      ],
+      "talent": "Adattabile",
+      "childhood": {
+        "born in the saddle": {
+          "key": "born in the saddle",
+          "name": "Nato in sella",
+          "weight": 1,
+          "description": "Hai sempre capito gli animali meglio delle persone. Sei veramente felice e libero solo in sella, col vento in faccia. Tu e il tuo cavallo siete un tutt’uno, cavalcate le pianure senza fine e rendete onore a Rogah.",
+          "attributes": {
+            "strength": "4",
+            "agility": "5",
+            "wits": "3",
+            "empathy": "3"
+          },
+          "skills": {
+            "move": "2",
+            "survival": "2",
+            "animal-handling": "2"
+          }
+        },
+        "dreamer": {
+          "key": "dreamer",
+          "name": "Sognatore",
+          "weight": 1,
+          "description": "Hai sempre amato leggende e racconti, storie di dèi ed eroi. Fin da piccolo adoravi sederti vicino al fuoco ad ascoltare il bardo del tuo clan raccontare del dio-vulcano Rogah, degli orgogliosi antenati e delle invasioni demoniache. Ti senti vivo quando sogni e ti immergi nei miti del tuo popolo. Forse un giorno comporranno una leggenda anche su di te.",
+          "attributes": {
+            "strength": "3",
+            "agility": "3",
+            "wits": "4",
+            "empathy": "5"
+          },
+          "skills": {
+            "lore": "2",
+            "manipulation": "1",
+            "performance": "1",
+            "animal-handling": "1"
+          }
+        },
+        "strongest of the clan": {
+          "key": "strongest of the clan",
+          "name": "Il più forte del clan",
+          "weight": 1,
+          "description": "Fin da piccolo eri più grande e forte di tutti i tuoi coetanei. Hai dovuto combattere con coraggio, lavorare con impegno e assumerti responsabilità maggiori. Alcuni ti adoravano, altri ti disprezzavano.",
+          "attributes": {
+            "strength": "5",
+            "agility": "3",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "might": "2",
+            "endurance": "1",
+            "melee": "2",
+            "animal-handling": "1"
+          }
+        },
+        "taught by a wise women": {
+          "key": "taught by a wise women",
+          "name": "Allievo del saggio",
+          "weight": 1,
+          "description": "Da bambino ti sei legato a uno dei custodi della conoscenza del clan. Presto sei diventato suo allievo e hai appreso tutto ciò che potevi sulla storia del tuo popolo, sulle gesta antiche e le guerre sanguinose.",
+          "attributes": {
+            "strength": "3",
+            "agility": "3",
+            "wits": "5",
+            "empathy": "4"
+          },
+          "skills": {
+            "lore": "2",
+            "insight": "1",
+            "healing": "2",
+            "animal-handling": "1"
+          }
+        },
+        "hunter": {
+          "key": "hunter",
+          "name": "Cacciatore",
+          "weight": 1,
+          "description": "Hai imparato presto a vivere in armonia con la natura. Cacciando, ti sei abituato non solo a uccidere uccelli e animali, ma anche ad apprezzare ogni vita.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "4"
+          },
+          "skills": {
+            "marksmanship": "2",
+            "scouting": "2",
+            "survival": "1",
+            "animal-handling": "1"
+          }
+        },
+        "child of the winds": {
+          "key": "child of the winds",
+          "name": "Figlio del Vento",
+          "weight": 1,
+          "description": "Per tradizione, il clan sceglie un figlio del vento e lo manda in un lungo pellegrinaggio tra le montagne. Viaggiavi di giorno e ti nascondevi dalla nebbia insanguinata di notte. Hai assolto al tuo dovere, ma ora non sei più sicuro di dove sia davvero casa tua.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "melee": "1",
+            "marksmanship": "1",
+            "endurance": "1",
+            "survival": "2",
+            "animal-handling": "1"
+          }
+        }
+      }
+    },
+    "ailander": {
+      "key": "ailander",
+      "name": "Umano dei Vaganti",
+      "weight": 3,
+      "age": [
+        [16, 25],
+        [26, 50],
+        [51, 80]
+      ],
+      "talent": "Adattabile",
+      "childhood": {
+        "child of the raven": {
+          "key": "child of the raven",
+          "name": "Figlio del Corvo",
+          "weight": 1,
+          "description": "Sei cresciuto tra le Sorelle del Corvo e hai imparato a venerare il Corvo, temere i Fratelli Arrugginiti e vivere di ciò che offre la terra e le persone gentili. Più di ogni altra cosa ami la libertà e il vento libero.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "4"
+          },
+          "skills": {
+            "crafting": "1",
+            "move": "1",
+            "scouting": "1",
+            "lore": "2",
+            "insight": "1"
+          }
+        },
+        "druid's apprentice": {
+          "key": "druid's apprentice",
+          "name": "Apprendista del druido",
+          "weight": 1,
+          "description": "Hai studiato con un vecchio druido e hai appreso tutto ciò che potevi sui misteri sacri, i rituali e la stregoneria. Il tuo mentore è morto, ma è riuscito a trasmetterti parte della sua saggezza.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "5",
+            "empathy": "3"
+          },
+          "skills": {
+            "scouting": "1",
+            "lore": "1",
+            "survival": "2",
+            "healing": "1",
+            "animal-handling": "1"
+          }
+        },
+        "guardian": {
+          "key": "guardian",
+          "name": "Protettore",
+          "weight": 1,
+          "description": "Hai capito presto che i vaganti sono sempre stati cacciati, e hai imparato a proteggere il tuo popolo oppresso con spada e scudo. Le battaglie ti hanno temprato, lasciandoti molte cicatrici.",
+          "attributes": {
+            "strength": "5",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "3"
+          },
+          "skills": {
+            "might": "1",
+            "melee": "2",
+            "marksmanship": "2",
+            "move": "1"
+          }
+        },
+        "wanderer": {
+          "key": "wanderer",
+          "name": "Viandante",
+          "weight": 1,
+          "description": "Non hai mai trovato una dimora stabile e la strada è diventata la tua casa. Ogni sera cercavi un rifugio dalla nebbia insanguinata. Ancora da bambino hai visto più luoghi di quanti molti abitanti di queste terre vedranno mai.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "endurance": "1",
+            "melee": "1",
+            "scouting": "1",
+            "survival": "2",
+            "animal-handling": "1"
+          }
+        },
+        "laborer": {
+          "key": "laborer",
+          "name": "Lavoratore",
+          "weight": 1,
+          "description": "Fin dall’infanzia hai lavorato duramente nei campi, svolgendo lavori pesanti. Conosci bene cereali, bestiame e coltivazioni. E nel profondo sogni qualcosa di diverso.",
+          "attributes": {
+            "strength": "5",
+            "agility": "3",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "might": "2",
+            "melee": "1",
+            "crafting": "1",
+            "survival": "1",
+            "animal-handling": "1"
+          }
+        },
+        "herder": {
+          "key": "herder",
+          "name": "Pastore",
+          "weight": 1,
+          "description": "Fin da piccolo ti hanno insegnato che il bestiame è fonte di vita. Aiutando i pastori, vagavi per i prati intorno al villaggio e proteggevi il gregge. Di notte dormivi accanto a loro e sognavi avventure.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "might": "1",
+            "crafting": "1",
+            "scouting": "2",
+            "animal-handling": "2"
+          }
+        }
+      }
+    },
+    "halfelf": {
+      "key": "halfelf",
+      "name": "Mezzelfo",
+      "weight": 3,
+      "age": [
+        [16, 30],
+        [31, 100],
+        [101, 200]
+      ],
+      "talent": "Potere psichico",
+      "childhood": {
+        "on the run": {
+          "key": "on the run",
+          "name": "Fuggitivo",
+          "weight": 1,
+          "description": "Hai passato tutta la vita a fuggire da qualche pericolo. Non hai mai trovato un vero rifugio e sei sempre rimasto all’erta. Hai viaggiato molto tra villaggi e borghi delle Terre Proibite, ma non sei mai riuscito a dormire con le spalle scoperte.",
+          "attributes": {
+            "strength": "4",
+            "agility": "5",
+            "wits": "3",
+            "empathy": "3"
+          },
+          "skills": {
+            "melee": "1",
+            "stealth": "2",
+            "scouting": "2",
+            "insight": "1"
+          }
+        },
+        "artist": {
+          "key": "artist",
+          "name": "Vero talento",
+          "weight": 1,
+          "description": "Hai scoperto fin da piccolo un talento per l’arte. Ti rende felice e ti permette di vivere appieno.",
+          "attributes": {
+            "strength": "3",
+            "agility": "3",
+            "wits": "4",
+            "empathy": "5"
+          },
+          "skills": {
+            "crafting": "2",
+            "move": "1",
+            "lore": "1",
+            "performance": "2"
+          }
+        },
+        "student": {
+          "key": "student",
+          "name": "Sapientone",
+          "weight": 1,
+          "description": "Sei sempre stato un po’ più sveglio degli altri — e lo sapevi. Quando un saggio ti prese sotto la sua ala, ti immergesti nei misteri del mondo. Nei libri hai trovato tutto ciò che sognavi e anche di più.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "5",
+            "empathy": "3"
+          },
+          "skills": {
+            "crafting": "1",
+            "lore": "3",
+            "insight": "1",
+            "healing": "1"
+          }
+        },
+        "acrobat": {
+          "key": "acrobat",
+          "name": "Acrobata",
+          "weight": 1,
+          "description": "Eri un bambino agile e flessibile, ti arrampicavi ovunque ed esploravi ogni angolo del tuo villaggio. Hai imparato l’arte dello spettacolo e l’importanza dell’eleganza e della bellezza.",
+          "attributes": {
+            "strength": "3",
+            "agility": "5",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "stealth": "1",
+            "move": "2",
+            "sleight-of-hand": "2",
+            "performance": "1"
+          }
+        },
+        "fighter": {
+          "key": "fighter",
+          "name": "Guerriero",
+          "weight": 1,
+          "description": "Ti sei appassionato presto alle armi. Un guerriero ti prese sotto la sua guida e ti insegnò i segreti del combattimento. Ti sei allenato a lungo, fino a eguagliare il tuo maestro.",
+          "attributes": {
+            "strength": "4",
+            "agility": "5",
+            "wits": "3",
+            "empathy": "3"
+          },
+          "skills": {
+            "might": "1",
+            "endurance": "1",
+            "melee": "2",
+            "marksmanship": "2"
+          }
+        },
+        "ghost child": {
+          "key": "ghost child",
+          "name": "Ombra",
+          "weight": 1,
+          "description": "Sei cresciuto per strada senza famiglia, ma hai trovato altri ragazzi fuggiti di casa o esiliati. Vivevate di furti e lavoretti. Vi chiamavano ombre.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "4"
+          },
+          "skills": {
+            "melee": "1",
+            "stealth": "2",
+            "sleight-of-hand": "2",
+            "insight": "1"
+          }
+        }
+      }
+    },
+    "halfling": {
+      "key": "halfling",
+      "name": "Mezz’uomo",
+      "weight": 3,
+      "age": [
+        [16, 25],
+        [26, 60],
+        [61, 100]
+      ],
+      "talent": "Difficile da prendere",
+      "childhood": {
+        "baker's apprentice": {
+          "key": "baker's apprentice",
+          "name": "Apprendista fornaio",
+          "weight": 1,
+          "description": "Hai sempre amato il profumo del pane appena sfornato. Fin da piccolo hai lavorato in cucina, preparando pagnotte che facevano venire l’acquolina in bocca a tutti.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "crafting": "2",
+            "sleight-of-hand": "1",
+            "lore": "1",
+            "survival": "1",
+            "performance": "1"
+          }
+        },
+        "laborer": {
+          "key": "laborer",
+          "name": "Lavoratore",
+          "weight": 1,
+          "description": "Fin dall’infanzia hai lavorato duramente nei campi, svolgendo lavori pesanti. Conosci bene cereali, bestiame e coltivazioni. E nel profondo sogni qualcosa di diverso.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "might": "2",
+            "melee": "1",
+            "crafting": "1",
+            "survival": "1",
+            "animal-handling": "1"
+          }
+        },
+        "craftsman": {
+          "key": "craftsman",
+          "name": "Artigiano",
+          "weight": 1,
+          "description": "Sei sempre stato bravo con le mani, e hai iniziato presto a dedicarti all’artigianato. Gli oggetti che crei riflettono il tuo talento, ma al tempo stesso ti spingono a cercare le opere dei veri maestri.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "4"
+          },
+          "skills": {
+            "melee": "1",
+            "crafting": "3",
+            "lore": "1",
+            "insight": "1"
+          }
+        },
+        "raised in the kitchen": {
+          "key": "raised in the kitchen",
+          "name": "Cresciuto in cucina",
+          "weight": 1,
+          "description": "Hai passato quasi tutta l’infanzia in cucina, tra gli aromi di zuppe, stufati e infusi. Hai imparato i segreti delle spezie e il piacere del buon cibo.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "crafting": "2",
+            "sleight-of-hand": "1",
+            "lore": "1",
+            "survival": "1",
+            "animal-handling": "1"
+          }
+        },
+        "bookworm": {
+          "key": "bookworm",
+          "name": "Topo di biblioteca",
+          "weight": 1,
+          "description": "Mentre gli altri bambini giocavano nel bosco, tu ti immergevi nei vecchi libri, divorando storie di eroi, draghi e tesori.",
+          "attributes": {
+            "strength": "3",
+            "agility": "3",
+            "wits": "5",
+            "empathy": "4"
+          },
+          "skills": {
+            "lore": "3",
+            "insight": "1",
+            "manipulation": "1",
+            "animal-handling": "1"
+          }
+        },
+        "loner": {
+          "key": "loner",
+          "name": "Solitario",
+          "weight": 1,
+          "description": "Non ti sei mai sentito a tuo agio tra la tua gente, sei sempre stato sulle tue e sei cresciuto lontano dai tuoi coetanei. Hai visto cose che loro non vedevano e fatto cose che non avrebbero mai potuto immaginare.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "3"
+          },
+          "skills": {
+            "melee": "1",
+            "stealth": "2",
+            "sleight-of-hand": "1",
+            "scouting": "1",
+            "manipulation": "1"
+          }
+        }
+      }
+    },
+    "goblin": {
+      "key": "goblin",
+      "name": "Goblin",
+      "weight": 4,
+      "age": [
+        [16, 25],
+        [26, 60],
+        [61, 100]
+      ],
+      "talent": "Notturno",
+      "childhood": {
+        "wolfling": {
+          "key": "wolfling",
+          "name": "Cucciolo di lupo",
+          "weight": 1,
+          "description": "I tuoi genitori ti hanno abbandonato, ma hai trovato una nuova famiglia in un branco di lupi. Sei diventato uno di loro, ululavi alla luna, correvi per le pianure e mangiavi carne cruda.",
+          "attributes": {
+            "strength": "3",
+            "agility": "5",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "endurance": "1",
+            "melee": "1",
+            "stealth": "1",
+            "move": "1",
+            "animal-handling": "2"
+          }
+        },
+        "scrounger": {
+          "key": "scrounger",
+          "name": "Furfante",
+          "weight": 1,
+          "description": "Hai capito presto che la proprietà è un concetto relativo. Hai un talento naturale per appropriarti delle cose altrui. Sembrano arrivare a te da sole.",
+          "attributes": {
+            "strength": "3",
+            "agility": "5",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "stealth": "2",
+            "scouting": "2",
+            "insight": "1",
+            "manipulation": "1"
+          }
+        },
+        "child of the woods": {
+          "key": "child of the woods",
+          "name": "Figlio dei boschi",
+          "weight": 1,
+          "description": "Sei cresciuto sotto la chioma degli alberi, arrampicandoti sui rami e ascoltando il vento che bisbiglia tra le foglie. Nel bosco ti senti ancora al sicuro e sai che i suoi abitanti ti aiuteranno sempre.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "3"
+          },
+          "skills": {
+            "endurance": "1",
+            "move": "1",
+            "marksmanship": "1",
+            "scouting": "1",
+            "survival": "2"
+          }
+        },
+        "wildling": {
+          "key": "wildling",
+          "name": "Selvaggio",
+          "weight": 1,
+          "description": "Il tuo clan natio è un gruppo di spiriti liberi, incuranti dell’antica eredità e dei patti. Sei cresciuto libero e selvaggio, nessuno ti ha mai detto cosa fare.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "might": "1",
+            "melee": "2",
+            "move": "2",
+            "survival": "1"
+          }
+        },
+        "wanderer": {
+          "key": "wanderer",
+          "name": "Viandante",
+          "weight": 1,
+          "description": "Non hai mai trovato una dimora stabile e la strada è diventata la tua casa. Ogni sera cercavi un rifugio dalla nebbia insanguinata. Ancora da bambino hai visto più luoghi di quanti molti abitanti di queste terre vedranno mai.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "3"
+          },
+          "skills": {
+            "endurance": "1",
+            "melee": "1",
+            "scouting": "1",
+            "survival": "2",
+            "animal-handling": "1"
+          }
+        },
+        "storyteller": {
+          "key": "storyteller",
+          "name": "Cantastorie",
+          "weight": 1,
+          "description": "Fin da che hai memoria, ti piaceva sederti accanto al fuoco e ascoltare il capo clan raccontare le leggende del vostro popolo. L’immaginazione ti portava attraverso lo spazio e il tempo, facendoti vivere come eroe storie incredibili. Hai imparato tutto ciò che il vecchio goblin poteva insegnare, e presto sei diventato tu stesso uno dei narratori del clan.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "5"
+          },
+          "skills": {
+            "lore": "1",
+            "manipulation": "2",
+            "performance": "3"
+          }
+        }
+      }
+    },
+    "orc": {
+      "key": "orc",
+      "name": "Orco",
+      "weight": 4,
+      "age": [
+        [13, 20],
+        [21, 45],
+        [46, 70]
+      ],
+      "talent": "Infrangibile",
+      "childhood": {
+        "minstrel": {
+          "key": "minstrel",
+          "name": "Bardo",
+          "weight": 1,
+          "description": "Le storie sulle sofferenze del popolo orco ti hanno aiutato a trovare te stesso. In gioventù hai imparato canti sul tradimento degli elfi e sul sangue versato in molte guerre. Questa memoria resterà con te per sempre.",
+          "attributes": {
+            "strength": "3",
+            "agility": "3",
+            "wits": "4",
+            "empathy": "5"
+          },
+          "skills": {
+            "lore": "1",
+            "insight": "1",
+            "manipulation": "1",
+            "performance": "1"
+          }
+        },
+        "worker": {
+          "key": "worker",
+          "name": "Lavoratore",
+          "weight": 1,
+          "description": "Anche da bambino la tua vita era dura. Per quanto ricordi, hai sempre lavorato sodo per poter vivere come volevi.",
+          "attributes": {
+            "strength": "5",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "3"
+          },
+          "skills": {
+            "might": "2",
+            "endurance": "2",
+            "crafting": "2"
+          }
+        },
+        "brigand": {
+          "key": "brigand",
+          "name": "Brigante",
+          "weight": 1,
+          "description": "Un orco forte è un orco che sa badare a sé stesso. Hai capito presto che saccheggiare era una questione di sopravvivenza. E allora perché no? Gli orchi sono stati traditi più volte, e tu hai diritto alla vendetta.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "3"
+          },
+          "skills": {
+            "melee": "2",
+            "stealth": "1",
+            "sleight-of-hand": "1",
+            "scouting": "1",
+            "survival": "1"
+          }
+        },
+        "drifter": {
+          "key": "drifter",
+          "name": "Giramondo",
+          "weight": 1,
+          "description": "La tua infanzia è trascorsa sulla strada, tra boschi e pianure. Viaggiavi di giorno e ti nascondevi dalla nebbia insanguinata di notte. Non sei mai riuscito a fermarti. I tuoi piedi ti portavano sempre oltre.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "endurance": "1",
+            "melee": "1",
+            "scouting": "1",
+            "survival": "2",
+            "animal-handling": "1"
+          }
+        },
+        "warrior": {
+          "key": "warrior",
+          "name": "Guerriero",
+          "weight": 1,
+          "description": "Sei cresciuto sul campo di battaglia. Da bambino hai ucciso il tuo primo nemico. Con le armi in pugno hai guadagnato il rispetto degli altri.",
+          "attributes": {
+            "strength": "5",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "3"
+          },
+          "skills": {
+            "might": "1",
+            "melee": "2",
+            "marksmanship": "2",
+            "move": "1"
+          }
+        },
+        "loner": {
+          "key": "loner",
+          "name": "Solitario",
+          "weight": 1,
+          "description": "Non ti sei mai sentito a tuo agio tra la tua gente, stavi sulle tue e sei cresciuto lontano dai coetanei. Hai visto cose che loro non hanno mai visto, e fatto ciò che non avrebbero mai osato.",
+          "attributes": {
+            "strength": "4",
+            "agility": "3",
+            "wits": "5",
+            "empathy": "3"
+          },
+          "skills": {
+            "melee": "1",
+            "scouting": "1",
+            "insight": "2",
+            "survival": "2"
+          }
+        }
+      }
+    },
+    "wolfkin": {
+      "key": "wolfkin",
+      "name": "Lupinide",
+      "weight": 2,
+      "age": [
+        [13, 20],
+        [21, 40],
+        [41, 65]
+      ],
+      "talent": "Istinti da cacciatore",
+      "childhood": {
+        "howler": {
+          "key": "howler",
+          "name": "Urlatore",
+          "weight": 1,
+          "description": "Sei cresciuto tra gli urlatori — lupinidi che vivevano liberi e passavano di clan in clan. Ti hanno insegnato a raccontare le leggende tragiche tramandate da generazioni.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "4"
+          },
+          "skills": {
+            "lore": "1",
+            "manipulation": "1",
+            "performance": "3",
+            "survival": "1"
+          }
+        },
+        "hunter": {
+          "key": "hunter",
+          "name": "Cacciatore",
+          "weight": 1,
+          "description": "Già da cucciolo hai capito che il sangue è vita. I cacciatori esperti ti hanno insegnato non solo a uccidere, ma a rispettare le prede. È così che vivi. E per te il mondo si divide in cacciatori e prede…",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "3"
+          },
+          "skills": {
+            "endurance": "1",
+            "melee": "1",
+            "scouting": "2",
+            "survival": "2"
+          }
+        },
+        "outcast": {
+          "key": "outcast",
+          "name": "Esiliato",
+          "weight": 1,
+          "description": "Mentre gli altri cuccioli correvano con il branco, tu sei stato scacciato. Hai imparato da solo a sopravvivere nel bosco, scoprendo che altri popoli potevano essere più gentili del tuo. Ma un giorno troverai la strada per tornare.",
+          "attributes": {
+            "strength": "4",
+            "agility": "3",
+            "wits": "5",
+            "empathy": "3"
+          },
+          "skills": {
+            "melee": "1",
+            "scouting": "1",
+            "insight": "2",
+            "survival": "2"
+          }
+        },
+        "tracker": {
+          "key": "tracker",
+          "name": "Segugio",
+          "weight": 1,
+          "description": "Hai scoperto presto di avere un olfatto molto più fine degli altri. Sei in grado di trovare cose straordinarie seguendo solo l’istinto e l’odore.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "5",
+            "empathy": "3"
+          },
+          "skills": {
+            "stealth": "2",
+            "scouting": "3",
+            "survival": "1"
+          }
+        },
+        "fighter": {
+          "key": "fighter",
+          "name": "Combattente",
+          "weight": 1,
+          "description": "Eri il cucciolo più forte della cucciolata, il capo dei giochi tra fratelli e sorelle. Crescendo, gli anziani del clan hanno riconosciuto in te un combattente nato e ti hanno insegnato l’arte della guerra.",
+          "attributes": {
+            "strength": "5",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "3"
+          },
+          "skills": {
+            "might": "2",
+            "melee": "3",
+            "move": "1"
+          }
+        },
+        "child of the forest": {
+          "key": "child of the forest",
+          "name": "Figlio della foresta",
+          "weight": 1,
+          "description": "Fin da piccolo ti sentivi attratto da frutti, fiori, erbe e laghi del bosco. Hai appreso molto dall’erborista del clan: distinguere le piante dall’odore, sapere quali guariscono e quali uccidono.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "4"
+          },
+          "skills": {
+            "lore": "2",
+            "scouting": "1",
+            "survival": "3"
+          }
+        }
+      }
+    },
+    "dwarf": {
+      "key": "dwarf",
+      "name": "Nano",
+      "weight": 2,
+      "age": [
+        [20, 40],
+        [41, 80],
+        [81, 160]
+      ],
+      "talent": "Tenacia Vera",
+      "childhood": {
+        "smith's apprentice": {
+          "key": "smith's apprentice",
+          "name": "Apprendista fabbro",
+          "weight": 1,
+          "description": "Nella calda fucina ti sei sempre sentito a casa. Giorno dopo giorno hai appreso i segreti dell'acciaio alla luce del fuoco della forgia.",
+          "attributes": {
+            "strength": "5",
+            "agility": "3",
+            "wits": "4",
+            "empathy": "3"
+          },
+          "skills": {
+            "might": "1",
+            "endurance": "1",
+            "melee": "1",
+            "crafting": "3"
+          }
+        },
+        "mineborn": {
+          "key": "mineborn",
+          "name": "Nato nella miniera",
+          "weight": 1,
+          "description": "Già da bambino hai imparato a muoverti nel buio delle profondità. Tra le fredde rocce ti senti ancora a tuo agio.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "3"
+          },
+          "skills": {
+            "endurance": "2",
+            "crafting": "1",
+            "scouting": "1",
+            "survival": "2"
+          }
+        },
+        "scout's apprentice": {
+          "key": "scout's apprentice",
+          "name": "Apprendista esploratore",
+          "weight": 1,
+          "description": "Sei sempre stato attento e curioso. Il clan lo ha notato e ti ha scelto come esploratore. Hai passato molti giorni nascosto, scrutando i pericoli delle Terre Proibite.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "3"
+          },
+          "skills": {
+            "melee": "1",
+            "stealth": "2",
+            "scouting": "2",
+            "survival": "1"
+          }
+        },
+        "guardian": {
+          "key": "guardian",
+          "name": "Allievo del guerriero",
+          "weight": 1,
+          "description": "Hai studiato con un fiero e possente guerriero del tuo clan e svolgevi i compiti di scudiero. Era un lavoro estenuante, ma hai imparato molto. Ora sai combattere, dominare il tuo carattere e affrontare il pericolo con coraggio.",
+          "attributes": {
+            "strength": "5",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "3"
+          },
+          "skills": {
+            "might": "2",
+            "endurance": "1",
+            "melee": "2",
+            "marksmanship": "1"
+          }
+        },
+        "carver": {
+          "key": "carver",
+          "name": "Scultore",
+          "weight": 1,
+          "description": "I nani hanno sempre scavato in profondità, creando vita dalla roccia. Fin da bambino eri affascinato dall’arte di dare forma alla pietra secondo la tua visione. Sei diventato uno scultore: ingegnere e costruttore, con pari uso di forza e intelletto.",
+          "attributes": {
+            "strength": "4",
+            "agility": "3",
+            "wits": "5",
+            "empathy": "3"
+          },
+          "skills": {
+            "might": "1",
+            "crafting": "2",
+            "lore": "2",
+            "survival": "1"
+          }
+        },
+        "hard studies": {
+          "key": "hard studies",
+          "name": "Studente diligente",
+          "weight": 1,
+          "description": "Qualcuno colto si prese cura di te e ti mise a studiare antichi manoscritti. Le giornate scorrevano lente, e lo studio era difficile, ma alla fine capisti che il sapere è la cosa più importante in questo mondo.",
+          "attributes": {
+            "strength": "3",
+            "agility": "3",
+            "wits": "5",
+            "empathy": "4"
+          },
+          "skills": {
+            "crafting": "1",
+            "lore": "3",
+            "insight": "1",
+            "manipulation": "1"
+          }
+        }
+      }
+    },
+    "elf": {
+      "key": "elf",
+      "name": "Elfo",
+      "weight": 2,
+      "age": [[0, 0]],
+      "talent": "Pace Interiore",
+      "childhood": {
+        "loner": {
+          "key": "loner",
+          "name": "Solitario",
+          "weight": 1,
+          "description": "Non ti sei mai sentito a tuo agio tra la tua gente, preferivi stare per conto tuo e sei cresciuto lontano dai tuoi coetanei. Hai visto cose che loro non hanno mai visto e fatto ciò che non avrebbero mai osato.",
+          "attributes": {
+            "strength": "4",
+            "agility": "3",
+            "wits": "5",
+            "empathy": "3"
+          },
+          "skills": {
+            "melee": "1",
+            "scouting": "1",
+            "insight": "2",
+            "survival": "2"
+          }
+        },
+        "fighter": {
+          "key": "fighter",
+          "name": "Guerriero",
+          "weight": 1,
+          "description": "Ti sei appassionato presto alle armi. Ben presto un guerriero decise di addestrarti e ti rivelò i segreti del combattimento. Ti sei allenato a lungo e duramente, fino a raggiungere la sua stessa abilità.",
+          "attributes": {
+            "strength": "4",
+            "agility": "5",
+            "wits": "3",
+            "empathy": "3"
+          },
+          "skills": {
+            "might": "1",
+            "endurance": "1",
+            "melee": "2",
+            "marksmanship": "2"
+          }
+        },
+        "child of the forest": {
+          "key": "child of the forest",
+          "name": "Figlio della foresta",
+          "weight": 1,
+          "description": "Fin da piccolo eri attratto dai frutti del bosco, dai fiori, dalle erbe e dai laghi. Hai imparato molto da un erborista esperto: come riconoscere i fiori dall’odore, quali piante curano e quali uccidono.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "4",
+            "empathy": "4"
+          },
+          "skills": {
+            "lore": "2",
+            "scouting": "1",
+            "survival": "3"
+          }
+        },
+        "hard studies": {
+          "key": "hard studies",
+          "name": "Studente diligente",
+          "weight": 1,
+          "description": "Qualcuno di istruito ti prese sotto la sua ala e ti fece studiare antichi manoscritti. I giorni scorrevano lenti e lo studio era difficile, ma alla fine capisti che la conoscenza è ciò che conta davvero in questo mondo.",
+          "attributes": {
+            "strength": "3",
+            "agility": "3",
+            "wits": "5",
+            "empathy": "4"
+          },
+          "skills": {
+            "crafting": "1",
+            "lore": "3",
+            "insight": "1",
+            "manipulation": "1"
+          }
+        },
+        "wanderer": {
+          "key": "wanderer",
+          "name": "Giramondo",
+          "weight": 1,
+          "description": "Non hai mai trovato una dimora stabile, e la strada è diventata la tua casa. Ogni sera cercavi riparo dalla nebbia insanguinata. Hai già visto più luoghi di quanti ne vedranno molti in tutta la loro vita.",
+          "attributes": {
+            "strength": "4",
+            "agility": "4",
+            "wits": "3",
+            "empathy": "4"
+          },
+          "skills": {
+            "endurance": "1",
+            "melee": "1",
+            "scouting": "1",
+            "survival": "2",
+            "animal-handling": "1"
+          }
+        },
+        "druid's apprentice": {
+          "key": "druid's apprentice",
+          "name": "Apprendista druido",
+          "weight": 1,
+          "description": "Hai studiato con un druido e hai appreso tutto ciò che potevi sui sacri misteri, i rituali e la magia. Il tuo maestro è morto da tempo o ha lasciato queste terre, ma è riuscito a trasmetterti parte della sua saggezza.",
+          "attributes": {
+            "strength": "3",
+            "agility": "4",
+            "wits": "5",
+            "empathy": "3"
+          },
+          "skills": {
+            "scouting": "1",
+            "lore": "1",
+            "survival": "2",
+            "healing": "1",
+            "animal-handling": "1"
+          }
+        }
+      }
+    }
+  },
+  "profession": {
+    "druid": {
+      "key": "druid",
+      "name": "Druido",
+      "weight": 1,
+      "paths": [
+        "Via della Guarigione",
+        "Via della Metamorfosi",
+        "Via della Visione"
+      ],
+      "equipment": [["Bastone", "Coltello"], "Merci da Scambio"],
+      "consumables": {
+        "food": 8,
+        "water": 6,
+        "arrows": 0,
+        "torches": 0
+      },
+      "currency": {
+        "gold": 0,
+        "silver": 6,
+        "copper": 0
+      },
+      "formativeEvents": {
+        "pilgrimage": {
+          "key": "pilgrimage",
+          "name": "Pellegrinaggio",
+          "weight": 1,
+          "description": "Ti sei lanciato in un pellegrinaggio, osando attraversare le Terre Proibite coperte dalla nebbia insanguinata. Sei sopravvissuto a stento e hai affrontato molte difficoltà, ma hai raggiunto la tua meta. Non dimenticherai mai questo viaggio pericoloso.",
+          "items": "✥ Ottieni un bastone, uno zaino e un otre.",
+          "skills": {
+            "lore": "1",
+            "survival": "1"
+          },
+          "talent": "Viandante"
+        },
+        "hunted": {
+          "key": "hunted",
+          "name": "In fuga",
+          "weight": 1,
+          "description": "Ti è successo qualcosa che ti ha costretto a fuggire. Forse hai pestato i piedi alla persona sbagliata o sei stato vittima di calunnie?",
+          "items": "✥ Ottieni d3 dosi di veleno soporifero e un coltello.",
+          "skills": {
+            "melee": "1",
+            "move": "1"
+          },
+          "talent": "Sesto Senso"
+        },
+        "unexpected find": {
+          "key": "unexpected find",
+          "name": "Scoperta inaspettata",
+          "weight": 1,
+          "description": "Un giorno hai trovato un tesoro marcato con il simbolo del tuo dio e l’hai visto come un segno divino. Ma i tuoi compagni non la pensavano così... Forse qualcuno sta ancora cercando quell’oggetto?",
+          "items": "✥ Effettua un tiro sulla tabella dei ritrovamenti preziosi nel covo. Se il risultato è inferiore a 32, ritira.",
+          "skills": {
+            "crafting": "1",
+            "survival": "1"
+          },
+          "talent": "Fortunato"
+        },
+        "studied with a master": {
+          "key": "studied with a master",
+          "name": "Addestramento con un saggio",
+          "weight": 1,
+          "description": "Un druido saggio ti ha preso sotto la sua ala e ha dedicato molto tempo alla tua formazione. È stato un periodo difficile ma utile. Forse è ancora vivo... oppure è stato ucciso dalla Guardia di Ferro.",
+          "items": "✥ Ottieni una pergamena, una penna e dell’inchiostro.",
+          "skills": {
+            "lore": "1",
+            "healing": "1"
+          },
+          "talent": "Lingua Affilata"
+        },
+        "protected the forest": {
+          "key": "protected the forest",
+          "name": "Difensore della foresta",
+          "weight": 1,
+          "description": "Vivere sotto l’ombra degli alberi maestosi ti ha fatto sentire parte del bosco. Hai deciso di proteggerlo dalle forze del male e dagli intrusi.",
+          "items": "✥ Ottieni un arco corto e frecce (riserva d12).",
+          "skills": {
+            "marksmanship": "1",
+            "animal-handling": "1"
+          },
+          "talent": "Erborista"
+        },
+        "lived as a hermit": {
+          "key": "lived as a hermit",
+          "name": "Vita da eremita",
+          "weight": 1,
+          "description": "Hai contemplato la bellezza della natura, restando lontano dalle guerre e dai disordini che lacerano le Terre Proibite. Prima di tornare nel mondo, hai acquisito un nuovo potere.",
+          "items": "✥ Ottieni un bastone, una piccola tenda e un paiolo.",
+          "skills": {
+            "endurance": "1",
+            "survival": "1"
+          },
+          "talent": "Esploratore"
+        }
+      }
+    },
+    "fighter": {
+      "key": "fighter",
+      "name": "Guerriero",
+      "weight": 1,
+      "paths": ["Via della Lama", "Via del Nemico", "Via dello Scudo"],
+      "equipment": [
+        "Arma a una mano",
+        "Corazza in cuoio borchiato",
+        "Merci da Scambio"
+      ],
+      "consumables": {
+        "food": 8,
+        "water": 8,
+        "arrows": 0,
+        "torches": 0
+      },
+      "currency": {
+        "gold": 0,
+        "silver": 6,
+        "copper": 0
+      },
+      "formativeEvents": {
+        "captured": {
+          "key": "captured",
+          "name": "Catturato",
+          "weight": 1,
+          "description": "Con vergogna, sei stato fatto prigioniero. Ti hanno gettato in una cella e dimenticato. Ma sei riuscito a scappare alla prima occasione.",
+          "items": "✥ Ottieni una corazza rinforzata e una spada corta.",
+          "skills": {
+            "might": "1",
+            "survival": "1"
+          },
+          "talent": "Resistente al Dolore"
+        },
+        "bloody battle": {
+          "key": "bloody battle",
+          "name": "Battaglia Sanguinosa",
+          "weight": 1,
+          "description": "Hai combattuto in una battaglia cruenta e sei stato gravemente ferito. All’alba, tutti i tuoi amici erano morti e i nemici ti avevano lasciato in pasto ai corvi.",
+          "items": "✥ Ottieni una spada lunga.",
+          "skills": {
+            "melee": "2"
+          },
+          "talent": "Spadaccino"
+        },
+        "a long march": {
+          "key": "a long march",
+          "name": "Lunga Marcia",
+          "weight": 1,
+          "description": "Ti sei arruolato e hai attraversato in lungo e in largo le Terre Proibite. Ricordi a malapena perché e contro chi combattevi, ma non dimentichi i compagni che la nebbia insanguinata ti ha portato via.",
+          "items": "✥ Ottieni una piccola tenda, un paiolo e un'accetta.",
+          "skills": {
+            "survival": "1",
+            "healing": "1"
+          },
+          "talent": "Accumulatore"
+        },
+        "on horseback": {
+          "key": "on horseback",
+          "name": "Vita in Sella",
+          "weight": 1,
+          "description": "Hai imparato a cavalcare e sei entrato al servizio di un nobile. Hai partecipato a scontri, pattugliamenti e difeso i suoi territori.",
+          "items": "✥ Ottieni una cavalcatura (qualsiasi tranne un cavallo da guerra).",
+          "skills": {
+            "melee": "1",
+            "animal-handling": "1"
+          },
+          "talent": "Combattente a Cavallo"
+        },
+        "scout": {
+          "key": "scout",
+          "name": "Esploratore",
+          "weight": 1,
+          "description": "Hai fatto parte dell’avanguardia militare, incaricato di avvistare il nemico prima che lui trovasse te. Ci riuscivi bene. Ma forse qualcosa è andato storto…",
+          "items": "✥ Ottieni una balestra leggera e frecce (riserva d12).",
+          "skills": {
+            "scouting": "1",
+            "marksmanship": "1"
+          },
+          "talent": "Difensore"
+        },
+        "commander": {
+          "key": "commander",
+          "name": "Comandante",
+          "weight": 1,
+          "description": "Comandavi un’unità di soldati, rispettato e amato. Ma poi qualcosa è andato storto. Un tradimento? Un’imboscata? I tuoi uomini sono morti o scappati. Tu sei sopravvissuto.",
+          "items": "✥ Ottieni una cotta di maglia, un elmo chiuso e un falchion.",
+          "skills": {
+            "lore": "1",
+            "manipulation": "1"
+          },
+          "talent": "Sangue Freddo"
+        }
+      }
+    },
+    "hunter": {
+      "key": "hunter",
+      "name": "Cacciatore",
+      "weight": 1,
+      "paths": ["Via della Freccia", "Via della Bestia", "Via della Foresta"],
+      "equipment": [["Arco", "Fionda"], "Merci da Scambio", "Merci da Scambio"],
+      "consumables": {
+        "food": 8,
+        "water": 8,
+        "arrows": 10,
+        "torches": 0
+      },
+      "currency": {
+        "gold": 0,
+        "silver": 6,
+        "copper": 0
+      },
+      "formativeEvents": {
+        "hunted a beast": {
+          "key": "hunted a beast",
+          "name": "Caccia alla Bestia",
+          "weight": 1,
+          "description": "La caccia era tutto per te. Hai seguito la preda su terra, mare e montagna. E a volte... eri tu a essere la preda.",
+          "items": "✥ Ottieni una lancia corta e una trappola per orsi.",
+          "skills": {
+            "melee": "1",
+            "scouting": "1"
+          },
+          "talent": "Lanciatore di Lance"
+        },
+        "lived off the forest": {
+          "key": "lived off the forest",
+          "name": "Vita nella Foresta",
+          "weight": 1,
+          "description": "Hai vissuto nella foresta nutrendoti di ciò che offriva. Cacciavi di giorno e dormivi sotto le stelle. Una vita semplice ma appagante. Non poteva durare per sempre.",
+          "items": "✥ Ottieni una lancia da lancio e un coltello.",
+          "skills": {
+            "marksmanship": "1",
+            "survival": "1"
+          },
+          "talent": "Maestro della Caccia"
+        },
+        "tamed a mount": {
+          "key": "tamed a mount",
+          "name": "Cavalcatura Addomesticata",
+          "weight": 1,
+          "description": "Hai catturato un cavallo selvatico (o un altro animale adatto). È stato difficile, ma alla fine lo hai addomesticato. Da allora non vi siete più separati.",
+          "items": "✥ Ottieni un bastone e una cavalcatura (qualsiasi tranne un cavallo da guerra).",
+          "skills": {
+            "animal-handling": "2"
+          },
+          "talent": "Combattente a Cavallo"
+        },
+        "won an archery competition": {
+          "key": "won an archery competition",
+          "name": "Torneo di Tiro con l'Arco",
+          "weight": 1,
+          "description": "Fin da bambino eri bravo con l’arco, e col tempo sei migliorato ancora. Un giorno sei arrivato in un villaggio o in un castello e hai vinto un torneo.",
+          "items": "✥ Ottieni un arco lungo e frecce (riserva d12).",
+          "skills": {
+            "marksmanship": "2"
+          },
+          "talent": "Tiratore Scelto"
+        },
+        "guide": {
+          "key": "guide",
+          "name": "Guida",
+          "weight": 1,
+          "description": "Ti affittavi come guida a chi offriva più argento: carovane, eserciti, avventurieri. Hai imparato a evitare la nebbia insanguinata e a vivere di ciò che offre la terra.",
+          "items": "✥ Ottieni una piccola tenda, un paiolo e un coltello.",
+          "skills": {
+            "scouting": "2"
+          },
+          "talent": "Esploratore"
+        },
+        "hunted for a lord": {
+          "key": "hunted for a lord",
+          "name": "Guardacaccia",
+          "weight": 1,
+          "description": "Un nobile ha notato il tuo talento e ti ha offerto il ruolo di guardacaccia. Una buona vita: metà tempo nel suo castello, metà nei boschi a caccia.",
+          "items": "✥ Ottieni un mantello ben cucito, una coperta di pelliccia e un arco corto.",
+          "skills": {
+            "marksmanship": "1",
+            "insight": "1"
+          },
+          "talent": "Sesto Senso"
+        }
+      }
+    },
+    "minstrel": {
+      "key": "minstrel",
+      "name": "Bardo",
+      "weight": 1,
+      "paths": ["Via dell'Inno", "Via del Canto", "Via del Grido di Guerra"],
+      "equipment": [["Liuto", "Flauto"], "Coltello", "Merci da Scambio"],
+      "consumables": {
+        "food": 8,
+        "water": 6,
+        "arrows": 0,
+        "torches": 0
+      },
+      "currency": {
+        "gold": 0,
+        "silver": 8,
+        "copper": 0
+      },
+      "formativeEvents": {
+        "wrote a popular ballad": {
+          "key": "wrote a popular ballad",
+          "name": "Ballata Popolare",
+          "weight": 1,
+          "description": "La ballata o storia che hai scritto è diventata popolare. Ancora oggi senti i bardi locali cantarla.",
+          "items": "✥ Ottieni una pergamena, una penna e dell'inchiostro.",
+          "skills": {
+            "manipulation": "1",
+            "performance": "1"
+          },
+          "talent": "Fortunato"
+        },
+        "worked as a minstrel": {
+          "key": "worked as a minstrel",
+          "name": "Menestrello",
+          "weight": 1,
+          "description": "Le tue abilità musicali ti hanno permesso di guadagnarti da vivere come menestrello. Forse hai viaggiato nelle Terre Proibite, o hai trovato lavoro fisso in una taverna o in un castello.",
+          "items": "✥ Ottieni un liuto.",
+          "skills": {
+            "performance": "2"
+          },
+          "talent": "Lingua Affilata"
+        },
+        "inspirational journey": {
+          "key": "inspirational journey",
+          "name": "Viaggio Ispiratore",
+          "weight": 1,
+          "description": "Hai viaggiato tra villaggi e castelli, studiando i popoli che vi abitano, le loro leggende e culture. Hai vissuto avventure, fuggito dal sangue nella nebbia, e raccolto tanto materiale da riempire un intero libro di ballate.",
+          "items": "✥ Ottieni una piccola tenda, una coperta e un paiolo.",
+          "skills": {
+            "lore": "1",
+            "survival": "1"
+          },
+          "talent": "Senza Paura"
+        },
+        "sang for a lord": {
+          "key": "sang for a lord",
+          "name": "Cantore di Corte",
+          "weight": 1,
+          "description": "Un nobile ha notato il tuo talento e ti ha voluto a corte. Lì hai avuto vino, cibo, argento... ma anche intrighi, assassinii e invidia.",
+          "items": "✥ Ottieni abiti eleganti e un coltello.",
+          "skills": {
+            "insight": "1",
+            "performance": "1"
+          },
+          "talent": "Sesto Senso"
+        },
+        "enlisted": {
+          "key": "enlisted",
+          "name": "Arruolato",
+          "weight": 1,
+          "description": "Gli eventi ti hanno spinto ad arruolarti. La vita in marcia era dura, ma hai trovato amici leali e imparato a sopravvivere.",
+          "items": "✥ Ottieni armatura di cuoio, elmo aperto, arco corto e frecce (d8).",
+          "skills": {
+            "melee": "1",
+            "survival": "1"
+          },
+          "talent": "Difensore"
+        },
+        "dueled a rival": {
+          "key": "dueled a rival",
+          "name": "Duello con un Rivale",
+          "weight": 1,
+          "description": "Avevi un rivale invidioso, e la tensione è cresciuta fino a sfociare in un duello. Sei stato ferito... e forse lui è ancora nei paraggi.",
+          "items": "✥ Ottieni una spada corta.",
+          "skills": {
+            "melee": "1",
+            "healing": "1"
+          },
+          "talent": "Spadaccino"
+        }
+      }
+    },
+    "peddler": {
+      "key": "peddler",
+      "name": "Commerciante",
+      "weight": 1,
+      "paths": ["Via dell'Oro", "Via delle Bugie", "Via delle Mille Cose"],
+      "equipment": [
+        "Coltello",
+        "Merci da Scambio",
+        "Merci da Scambio",
+        "Merci da Scambio"
+      ],
+      "consumables": {
+        "food": 8,
+        "water": 8,
+        "arrows": 0,
+        "torches": 0
+      },
+      "currency": {
+        "gold": 0,
+        "silver": 12,
+        "copper": 0
+      },
+      "formativeEvents": {
+        "caravan": {
+          "key": "caravan",
+          "name": "Carovana",
+          "weight": 1,
+          "description": "Hai viaggiato con una carovana che ha osato attraversare la nebbia insanguinata. Molti non ce l’hanno fatta. Forse hai dovuto abbandonare qualcuno per sopravvivere?",
+          "items": "✥ Ottieni un asino e un coltello.",
+          "skills": {
+            "animal-handling": "1",
+            "manipulation": "1"
+          },
+          "talent": "Viandante"
+        },
+        "local business": {
+          "key": "local business",
+          "name": "Commercio Locale",
+          "weight": 1,
+          "description": "Hai fiutato un affare e lo hai sfruttato. Forse vendevi frutta al castello di un sovrano o stoffe dalle Terre d'Ontano. Tutto filava liscio... all’inizio.",
+          "items": "✥ Ottieni un carro e un bastone.",
+          "skills": {
+            "insight": "1",
+            "manipulation": "1"
+          },
+          "talent": "Fortunato"
+        },
+        "cheated": {
+          "key": "cheated",
+          "name": "Truffa Subita",
+          "weight": 1,
+          "description": "Un socio ti ha tradito e rovinato. Ricostruire la tua vita non è stato facile, ma hai imparato molto da quell’amara lezione. Forse quel traditore è ancora vivo?",
+          "items": "✥ Ottieni una piccola tenda, una coperta e un paiolo.",
+          "skills": {
+            "insight": "2"
+          },
+          "talent": "Incorrotta"
+        },
+        "side mission": {
+          "key": "side mission",
+          "name": "Avventura",
+          "weight": 1,
+          "description": "Ti sei unito a un gruppo di avventurieri e hai esplorato le Terre Proibite. Hai perso molti compagni, ma hai imparato a conoscere te stesso.",
+          "items": "✥ Ottieni una cotta di maglia e una spada corta.",
+          "skills": {
+            "melee": "1",
+            "lore": "1"
+          },
+          "talent": "Senza Paura"
+        },
+        "smuggler": {
+          "key": "smuggler",
+          "name": "Contrabbandiere",
+          "weight": 1,
+          "description": "Hai guadagnato trasportando merci di contrabbando, evitando Fratelli Arrugginiti e nebbia insanguinata. Hai imparato a essere cauto e discreto.",
+          "items": "✥ Ottieni un cannocchiale e un coltello.",
+          "skills": {
+            "scouting": "1",
+            "insight": "1"
+          },
+          "talent": "Sesto Senso"
+        },
+        "ran a shop": {
+          "key": "ran a shop",
+          "name": "Proprietario di Bottega",
+          "weight": 1,
+          "description": "Hai deciso di fermarti e aprire una bottega. Ti dava una rendita stabile ma modesta. Alla fine, hai capito che non sei fatto per la vita tranquilla.",
+          "items": "✥ Ottieni una bilancia, pergamena, penna e inchiostro.",
+          "skills": {
+            "manipulation": "2"
+          },
+          "talent": "Lingua Affilata"
+        }
+      }
+    },
+    "rider": {
+      "key": "rider",
+      "name": "Cavaliere",
+      "weight": 1,
+      "paths": ["Via del Compagno", "Via del Cavaliere", "Via delle Pianure"],
+      "equipment": [
+        "Cavallo da Sella",
+        ["Lancia", "Ascia da Mano"],
+        ["Arco Corto", "Fionda"],
+        "Merci da Scambio"
+      ],
+      "consumables": {
+        "food": 8,
+        "water": 8,
+        "arrows": 10,
+        "torches": 0
+      },
+      "currency": {
+        "gold": 0,
+        "silver": 6,
+        "copper": 0
+      },
+      "formativeEvents": {
+        "enlisted": {
+          "key": "enlisted",
+          "name": "Arruolato",
+          "weight": 1,
+          "description": "Ti sei unito a una compagnia di soldati — per scelta o dovere. Hai vissuto battaglie, assedi e la terribile nebbia insanguinata. Poi è successo qualcosa che ti ha costretto a lasciare il gruppo.",
+          "items": "✥ Ottieni una corazza rinforzata, scudo grande e una lancia corta.",
+          "skills": {
+            "melee": "1",
+            "marksmanship": "1"
+          },
+          "talent": "Combattente a Cavallo"
+        },
+        "competed": {
+          "key": "competed",
+          "name": "Gare a Cavallo",
+          "weight": 1,
+          "description": "Hai partecipato a gare di cavalieri, viaggiando tra villaggi e castelli. Finché vincevi andava tutto bene... poi hai iniziato a perdere.",
+          "items": "✥ Ottieni un mantello e un coltello.",
+          "skills": {
+            "move": "1",
+            "animal-handling": "1"
+          },
+          "talent": "Passo Rapido"
+        },
+        "traveled the land": {
+          "key": "traveled the land",
+          "name": "Viaggiatore delle Terre",
+          "weight": 1,
+          "description": "Hai sentito il richiamo dell'avventura e sei partito a cavallo nelle Terre Proibite. Hai affrontato tempeste, terre desolate e mille pericoli.",
+          "items": "✥ Ottieni una piccola tenda, un paiolo e una coperta.",
+          "skills": {
+            "survival": "1",
+            "scouting": "1"
+          },
+          "talent": "Erborista"
+        },
+        "caravan guard": {
+          "key": "caravan guard",
+          "name": "Guardia di Carovana",
+          "weight": 1,
+          "description": "Hai scortato mercanti da villaggio a villaggio, attraversando foreste fitte e alte montagne, evitando la nebbia insanguinata.",
+          "items": "✥ Ottieni una lancia lunga.",
+          "skills": {
+            "melee": "1",
+            "scouting": "1"
+          },
+          "talent": "Esploratore"
+        },
+        "cattle herder": {
+          "key": "cattle herder",
+          "name": "Mandriano",
+          "weight": 1,
+          "description": "Hai condotto mandrie nei pascoli lontani. Di giorno le proteggevi in sella, di notte le sorvegliavi contro la nebbia insanguinata.",
+          "items": "✥ Ottieni una lanterna, un otre e un coltello.",
+          "skills": {
+            "move": "1",
+            "animal-handling": "1"
+          },
+          "talent": "Quartiermastro"
+        },
+        "steppe rider": {
+          "key": "steppe rider",
+          "name": "Cavaliere della Steppa",
+          "weight": 1,
+          "description": "Hai cavalcato le steppe delle Terre Proibite, cacciando e vendendo pelli e carne per sopravvivere.",
+          "items": "✥ Ottieni un arco corto e frecce (riserva d12).",
+          "skills": {
+            "marksmanship": "1",
+            "animal-handling": "1"
+          },
+          "talent": "Conciatore"
+        }
+      }
+    },
+    "rogue": {
+      "key": "rogue",
+      "name": "Ladro",
+      "weight": 1,
+      "paths": ["Via della Maschera", "Via dell'Assassino", "Via del Veleno"],
+      "equipment": ["Pugnale", "Merci da Scambio", "Merci da Scambio"],
+      "consumables": {
+        "food": 6,
+        "water": 6,
+        "arrows": 0,
+        "torches": 0
+      },
+      "currency": {
+        "gold": 0,
+        "silver": 10,
+        "copper": 0
+      },
+      "formativeEvents": {
+        "stole from the wrong person": {
+          "key": "stole from the wrong person",
+          "name": "Furto Avventato",
+          "weight": 1,
+          "description": "Sembrava il crimine perfetto... ma solo per poco. Hai rubato qualcosa di prezioso alla persona sbagliata, nel momento peggiore. Ti hanno dato la caccia e sei dovuto scappare in fretta.",
+          "items": "✥ Ottieni grimaldelli e coltelli da lancio.",
+          "skills": {
+            "sleight-of-hand": "1",
+            "move": "1"
+          },
+          "talent": "Fulmineo"
+        },
+        "imprisoned": {
+          "key": "imprisoned",
+          "name": "Prigionia",
+          "weight": 1,
+          "description": "Forse eri colpevole, forse no, ma ti hanno catturato e messo in cella. Hai passato lunghi giorni al buio, ma non ti sei arreso. Alla prima occasione sei riuscito a scappare.",
+          "items": "✥ Ottieni un pugnale.",
+          "skills": {
+            "endurance": "1",
+            "survival": "1"
+          },
+          "talent": "Resistente al Dolore"
+        },
+        "successful heist": {
+          "key": "successful heist",
+          "name": "Colpo Riuscito",
+          "weight": 1,
+          "description": "Hai organizzato e portato a termine un colpo perfetto. Forse la vittima era un ricco mercante o un nobile locale.",
+          "items": "✥ Esegui un tiro sulla tabella dei tesori trovati nel covo. Se il risultato è sotto 33, ripeti il tiro.",
+          "skills": {
+            "sleight-of-hand": "1",
+            "stealth": "1"
+          },
+          "talent": "Fortunato"
+        },
+        "joined a guild of thieves": {
+          "key": "joined a guild of thieves",
+          "name": "Gilda dei Ladri",
+          "weight": 1,
+          "description": "Hai trovato una gilda di ladri e ti sei unito a loro. Avete progettato rapine e affrontato missioni rischiose insieme.",
+          "items": "✥ Ottieni armatura di cuoio e un pugnale.",
+          "skills": {
+            "insight": "1",
+            "scouting": "1"
+          },
+          "talent": "Sesto Senso"
+        },
+        "enlisted": {
+          "key": "enlisted",
+          "name": "Arruolato",
+          "weight": 1,
+          "description": "Sei finito (forse controvoglia) in un'unità militare. Il tuo compito era esplorare e fare da ricognitore. Hai conosciuto fatiche, pericoli... e anche il valore dell'amicizia.",
+          "items": "✥ Ottieni un arco corto e frecce (riserva d12).",
+          "skills": {
+            "marksmanship": "1",
+            "scouting": "1"
+          },
+          "talent": "Esploratore"
+        },
+        "band of robbers": {
+          "key": "band of robbers",
+          "name": "Banda di Predoni",
+          "weight": 1,
+          "description": "Hai lasciato tutto per unirti a una banda nei boschi. Assaltavate mercanti e carovane dalle ombre. Era una vita selvaggia e libera, finché vi hanno scacciati.",
+          "items": "✥ Ottieni una spada corta.",
+          "skills": {
+            "melee": "1",
+            "survival": "1"
+          },
+          "talent": "Fulmineo"
+        }
+      }
+    },
+    "sorcerer": {
+      "key": "sorcerer",
+      "name": "Stregone",
+      "weight": 1,
+      "paths": [
+        "Via del Sangue",
+        "Via della Morte",
+        "Via dei Segni",
+        "Via della Pietra"
+      ],
+      "equipment": [["Bastone", "Coltello"], "Merci da Scambio"],
+      "consumables": {
+        "food": 6,
+        "water": 8,
+        "arrows": 0,
+        "torches": 0
+      },
+      "currency": {
+        "gold": 0,
+        "silver": 8,
+        "copper": 0
+      },
+      "formativeEvents": {
+        "failed experiment": {
+          "key": "failed experiment",
+          "name": "Esperimento Fallito",
+          "weight": 1,
+          "description": "Uno dei tuoi esperimenti magici è finito male. Qualcuno è rimasto ferito, o forse ti hanno cacciato dalle tue terre d'origine.",
+          "items": "✥ Ottieni un bastone e d6 dosi di veleno allucinogeno.",
+          "skills": {
+            "lore": "1",
+            "healing": "1"
+          },
+          "talent": "Velenista"
+        },
+        "secluded studies": {
+          "key": "secluded studies",
+          "name": "Studi Isolati",
+          "weight": 1,
+          "description": "Hai trovato un rifugio perfetto per dedicarti agli studi arcani. Ti nutrivi di ciò che offriva la natura, in compagnia solo di libri e pergamene.",
+          "items": "✥ Ottieni una piccola tenda, un paiolo e un coltello.",
+          "skills": {
+            "lore": "1",
+            "survival": "1"
+          },
+          "talent": "Quartiermastro"
+        },
+        "found strange artifact": {
+          "key": "found strange artifact",
+          "name": "Artefatto Misterioso",
+          "weight": 1,
+          "description": "Hai trovato un oggetto enigmatico e da allora sei ossessionato dal suo potere e dalle origini magiche che potrebbe nascondere.",
+          "items": "✥ Esegui un tiro sulla tabella dei tesori trovati nel covo. Se il risultato è sotto 32, ripeti il tiro.",
+          "skills": {
+            "crafting": "1",
+            "insight": "1"
+          },
+          "talent": "Incorrotta"
+        },
+        "court magician": {
+          "key": "court magician",
+          "name": "Mago di Corte",
+          "weight": 1,
+          "description": "Hai servito come consigliere magico presso un sovrano locale. Forse hai scoperto trame oscure o sei finito in un gioco di potere troppo pericoloso. Hai dovuto andartene, ma non a mani vuote.",
+          "items": "✥ Ottieni un bastone, una bottiglia di vino e un mantello.",
+          "skills": {
+            "insight": "1",
+            "manipulation": "1"
+          },
+          "talent": "Lingua Affilata"
+        },
+        "entertainer": {
+          "key": "entertainer",
+          "name": "Illusionista",
+          "weight": 1,
+          "description": "Hai guadagnato da vivere intrattenendo con trucchi magici e illusioni. Forse lavoravi in una taverna sgangherata o eri l'attrazione di un nobile.",
+          "items": "✥ Ottieni abiti eleganti e una sfera di cristallo.",
+          "skills": {
+            "manipulation": "2"
+          },
+          "talent": "Fulmineo"
+        },
+        "enlisted": {
+          "key": "enlisted",
+          "name": "Arruolato",
+          "weight": 1,
+          "description": "Ti sei unito a un'unità militare e hai usato la tua magia in battaglia. Hai visto amici morire, ma sei sopravvissuto... anche se con qualche cicatrice.",
+          "items": "✥ Ottieni armatura di cuoio rinforzato, elmo chiuso e spada corta.",
+          "skills": {
+            "melee": "1",
+            "healing": "1"
+          },
+          "talent": "Difensore"
+        }
+      }
+    }
+  }
+}

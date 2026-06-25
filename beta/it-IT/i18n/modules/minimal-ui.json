@@ -1,0 +1,82 @@
+{
+  "I18N.LANGUAGE": "Italiano",
+  "I18N.MAINTAINERS": "Arkangel",
+
+  "MinimalUI.SettingsAlwaysVisible": "Sempre visibile",
+  "MinimalUI.SettingsStartVisible": "Visibile all'avvio",
+  "MinimalUI.SettingsPartiallyVisible": "Parzialmente visibile",
+  "MinimalUI.SettingsAutoHide": "Nascondimento automatico",
+  "MinimalUI.SettingsAutoHidePlus": "Nascondimento automatico Plus",
+  "MinimalUI.SettingsClickToggle": "Alterna con clic",
+  "MinimalUI.SettingsCollapsed": "Avviato compattato",
+  "MinimalUI.SettingsOnlyGM": "Visibile solo al GM",
+  "MinimalUI.SettingsHide": "Completamente nascosto",
+
+  "MinimalUI.SettingsSmall": "Compatto",
+  "MinimalUI.SettingsDefault": "Predefinito",
+  "MinimalUI.SettingsStandard": "Standard",
+  "MinimalUI.SettingsBig": "Grande",
+
+  "MinimalUI.Enabled": "Attivato",
+  "MinimalUI.Disabled": "Disattivato",
+
+  "MinimalUI.LogoStyleName": "Visibilità del logo Foundry",
+  "MinimalUI.LogoStyleHint": "Dimensione e visibilità del logo di Foundry",
+  "MinimalUI.LogoBehaviourName": "Comportamento del logo Foundry",
+  "MinimalUI.LogoBehaviourHint": "Uso del logo Foundry per alternare la visibilità dell'interfaccia.",
+  "MinimalUI.LogoBehaviourToggle": "Alterna la visibilità dell'intera interfaccia",
+  "MinimalUI.LogoBehaviourToggleNoChat": "Alterna la visibilità dell'interfaccia tranne la chat",
+  "MinimalUI.LogoImageName": "Immagine del logo Foundry",
+  "MinimalUI.LogoImageHint": "L'immagine deve avere dimensioni 100x50 pixel.",
+
+  "MinimalUI.ControlsSizeName": "Dimensione della barra degli strumenti",
+  "MinimalUI.ControlsSizeHint": "Seleziona la dimensione preferita per gli strumenti.",
+  "MinimalUI.ControlsSubHideName": "Stile dei controlli a sinistra",
+  "MinimalUI.ControlsSubHideHint": "Mostra o nascondi i sottomenu al passaggio del mouse",
+
+  "MinimalUI.HotbarStyleName": "Barra dei macro",
+  "MinimalUI.HotbarStyleHint": "Configurazione della barra di accesso rapido.",
+  "MinimalUI.HotbarPositionName": "Posizione della barra dei macro",
+  "MinimalUI.HotbarPositionHint": "Posizionamento orizzontale della barra di accesso rapido",
+  "MinimalUI.HotbarPositionExtremeLeft": "Estremamente a sinistra",
+  "MinimalUI.HotbarPositionMaxLeft": "A sinistra (predefinito)",
+  "MinimalUI.HotbarPositionCenterLeft": "Centrato a sinistra",
+  "MinimalUI.HotbarPositionCenter": "Centrato",
+  "MinimalUI.HotbarPositionCenterRight": "Centrato a destra",
+  "MinimalUI.HotbarPositionManual": "Manuale",
+  "MinimalUI.HotbarPPositionName": "Posizione in pixel",
+  "MinimalUI.HotbarPPositionHint": "Inserisci il margine in pixel se hai selezionato l'opzione 'Manuale'",
+
+  "MinimalUI.NavigationStyleName": "Stile di navigazione delle scene",
+  "MinimalUI.NavigationStyleHint": "Configurazione del comportamento della navigazione delle scene",
+  "MinimalUI.NavigationSizeName": "Dimensione della navigazione delle scene",
+  "MinimalUI.NavigationSizeHint": "Configura la dimensione degli elementi di navigazione delle scene.",
+
+  "MinimalUI.PlayersBehaviourName": "Comportamento dell'elenco giocatori",
+  "MinimalUI.PlayersBehaviourHint": "Configurazione dell'interfaccia dell'elenco dei giocatori",
+  "MinimalUI.PlayersSizeName": "Dimensione dell'elenco giocatori",
+  "MinimalUI.PlayersSizeHint": "Scegli tra dimensione standard o compatta.",
+
+  "MinimalUI.PlayersShowPingName": "Compatibilità User Latency con Minimal UI",
+  "MinimalUI.PlayersShowPingHint": "Mostra i ping anche se l'elenco dei giocatori è nascosto",
+  "MinimalUI.PlayersShowPing": "Mostra",
+  "MinimalUI.PlayersHidePing": "Nascondi",
+
+  "MinimalUI.SidebarStyleName": "Comportamento del pannello laterale destro",
+  "MinimalUI.SidebarStyleHint": "Se comprimere il pannello menu a destra",
+
+  "MinimalUI.BorderColorName": "Colore dei bordi",
+  "MinimalUI.BorderColorHint": "Colore dei bordi del pannello laterale e dei pulsanti",
+  "MinimalUI.ShadowColorName": "Colore delle ombre",
+  "MinimalUI.ShadowColorHint": "Colore dell'ombra dei bordi e dei pulsanti",
+  "MinimalUI.ShadowStrengthName": "Intensità delle ombre",
+  "MinimalUI.ShadowStrengthHint": "Quanto forte sarà l'ombra ai bordi degli elementi? Predefinito: 5",
+  "MinimalUI.TransparencyPercentageName": "Opacità al passaggio del mouse",
+  "MinimalUI.TransparencyPercentageHint": "Quanto saranno opachi i componenti prima che il cursore vi passi sopra. Predefinito: 100%",
+  "MinimalUI.ColorPicker": "Selettore colore",
+
+  "MinimalUI.NoCameraBehaviorName": "Comportamento senza fotocamera",
+  "MinimalUI.NoCameraBehaviorHint": "Cosa fare se il giocatore ha disattivato la fotocamera? Nota: la modalità nascosta impedisce l'attivazione della fotocamera. Cambia modalità per abilitarla.",
+  "MinimalUI.NoCameraBehaviorReduced": "Riduci",
+  "MinimalUI.NoCameraBehaviorHidden": "Nascondi"
+}

@@ -1,0 +1,69 @@
+{
+  "anonymous": {
+    "settings": {
+      "token": {
+        "name": "Visualizzazione forzata delle informazioni del token",
+        "hint": "Quando viene mostrato il nome della creatura, verranno forzatamente visualizzate anche le informazioni del token."
+      },
+      "rolls": {
+        "name": "Nascondi dettagli dei tiri",
+        "hint": "I dettagli dei tiri (formula, risultati dei dadi) saranno nascosti nella chat."
+      },
+      "criticals": {
+        "name": "Nascondi i tiri critici",
+        "hint": "Successi e fallimenti critici saranno nascosti ai giocatori. È necessario attivare l'opzione 'Nascondi dettagli dei tiri'."
+      },
+      "cardContent": {
+        "name": "Nascondi le descrizioni in chat",
+        "hint": "Le descrizioni nelle schede della chat saranno nascoste."
+      },
+      "footer": {
+        "name": "Nascondi piè di pagina",
+        "hint": "I dettagli delle azioni nella parte inferiore delle schede della chat saranno nascosti."
+      },
+      "pf2e": {
+        "traits": {
+          "name": "(PF2e) Nascondi tratti",
+          "hint": "I tratti delle azioni saranno nascosti. È necessario attivare l'opzione 'Nascondi dettagli dei tiri'.",
+          "choices": {
+            "never": "Mai",
+            "rolls": "Solo nei tiri",
+            "always": "Sempre"
+          }
+        }
+      },
+
+      "menus": {
+        "namesMenu": {
+          "name": "Nomi speciali",
+          "label": "Configurazione nomi",
+          "hint": "Selezione dei nomi per diversi tipi di entità nel sistema."
+        }
+      }
+    },
+
+    "templates": {
+      "names": {
+        "title": "Configurazione dei nomi speciali",
+        "save": "Salva",
+        "cancel": "Annulla"
+      }
+    },
+
+    "unknown": "Sconosciuto",
+
+    "pf2e": {
+      "disabled": "L'impostazione di sistema '{setting}' è stata disattivata per evitare conflitti con il modulo '{module}'.",
+      "target": "Bersaglio: {name}"
+    },
+
+    "context": {
+      "show": "Mostra il nome ai giocatori",
+      "hide": "Nascondi il nome ai giocatori"
+    },
+
+    "hud": {
+      "title": "Commutazione anonimato"
+    }
+  }
+}

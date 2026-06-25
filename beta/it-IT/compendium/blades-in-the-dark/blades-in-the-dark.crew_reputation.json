@@ -1,0 +1,72 @@
+{
+  "label": "Reputazione della Squadra",
+  "mapping": {
+    "description": "system.description"
+  },
+  "entries": {
+    "Alluring": {
+      "name": "(Divinità) Seducente",
+      "description": ""
+    },
+    "Ambitious": {
+      "name": "Ambiziosi",
+      "description": ""
+    },
+    "Brutal": {
+      "name": "Brutali",
+      "description": ""
+    },
+    "Cruel": {
+      "name": "(Divinità) Crudele",
+      "description": ""
+    },
+    "Daring": {
+      "name": "Audaci",
+      "description": ""
+    },
+    "Ferocious": {
+      "name": "(Divinità) Feroce",
+      "description": ""
+    },
+    "Honorable": {
+      "name": "Onorevoli",
+      "description": ""
+    },
+    "Monstrous": {
+      "name": "(Divinità) Mostruosa",
+      "description": ""
+    },
+    "Professional": {
+      "name": "Professionali",
+      "description": ""
+    },
+    "Radiant": {
+      "name": "(Divinità) Radiosa",
+      "description": ""
+    },
+    "Savvy": {
+      "name": "Astuti",
+      "description": ""
+    },
+    "Serene": {
+      "name": "(Divinità) Serena",
+      "description": ""
+    },
+    "Sinister": {
+      "name": "(Divinità) Sinistra",
+      "description": ""
+    },
+    "Strange": {
+      "name": "Insoliti",
+      "description": ""
+    },
+    "Subtle": {
+      "name": "Sottili",
+      "description": ""
+    },
+    "Transcendent": {
+      "name": "(Divinità) Trascendente",
+      "description": ""
+    }
+  }
+}
