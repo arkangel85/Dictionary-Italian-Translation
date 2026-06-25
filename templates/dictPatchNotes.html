@@ -9,7 +9,7 @@
   <div class="dict-patchnotes__list">
     {{#each blocchi}}
     <div class="dict-patchnotes__entry">
-      <h3>v{{this.version}}</h3>
+      <h3>{{#if this.label}}{{this.label}}{{else}}v{{this.version}}{{/if}}</h3>
       {{{this.html}}}
     </div>
     {{/each}}

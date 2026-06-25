@@ -13,6 +13,8 @@ const DICT_ID = 'it-IT';
 const DICT_PATCH_URL = 'https://php.arkadnd.site/patchNoteDictionary.php';
 const DICT_BUG_ENDPOINT = 'https://php.arkadnd.site/bugReporter.php';
 const DICT_REPO = 'arkangel85/Dictionary-Italian-Translation';
+const DICT_PROMO_URL = 'https://php.arkadnd.site/arkangelPromo.php';
+const ARKANGEL_ID = 'arkangel-compendium';
 
 /* ---- utilità ------------------------------------------------------------- */
 
@@ -42,8 +44,25 @@ async function dictFetchPatchNotes() {
    }
 }
 
-/** Legge l'elenco delle lingue dal manifest del modulo (a runtime). */
-async function dictFetchModuleLanguages() {
+/** Scarica la pagina promozionale dell'Arkangel Compendium dal server. */
+async function dictFetchArkangelPromo() {
+   try {
+      const res = await fetch(DICT_PROMO_URL, { cache: 'no-store' });
+      return await res.json();
+   } catch (e) {
+      console.warn('Dictionary | pagina Arkangel non disponibile', e);
+      return null;
+   }
+}
+
+/** Estrae l'ID video da un URL di YouTube (watch?v=, youtu.be/, embed/). */
+function dictYoutubeId(url) {
+   if (!url) return '';
+   const m = String(url).match(/(?:youtu\.be\/|[?&]v=|\/embed\/)([A-Za-z0-9_-]{6,})/);
+   return m ? m[1] : '';
+}
+
+/** Legge l'elenco delle lingue dal manifest del modulo (a runtime). */async function dictFetchModuleLanguages() {
    try {
       const route = foundry.utils.getRoute('/');
       const manifest = await foundry.utils.fetchJsonWithTimeout(`${route}modules/${DICT_ID}/module.json`, { cache: 'no-store' });
@@ -92,6 +111,8 @@ Hooks.once('init', () => {
    game.settings.register(DICT_ID, 'dictLastSeenVersion', { scope: 'client', config: false, type: String, default: '' });
    // elenco delle traduzioni disattivate (chiavi "system:<id>" / "module:<id>")
    game.settings.register(DICT_ID, 'disabledTranslations', { scope: 'world', config: false, type: Array, default: [] });
+   // versione del modulo a cui l'utente ha chiuso la pagina Arkangel con "non mostrare più"
+   game.settings.register(DICT_ID, 'arkangelPromoDismissed', { scope: 'client', config: false, type: String, default: '' });
 
    // Pulsante "Mostra Patch Note" (per tutti)
    game.settings.registerMenu(DICT_ID, 'dictMostraPatchNote', {
@@ -155,7 +176,9 @@ Hooks.once('ready', () => {
       const latest = versions[0].version; // lista già ordinata dalla più recente
       const seen = game.settings.get(DICT_ID, 'dictLastSeenVersion');
       if (!seen) {
-         // prima volta con questo sistema: memorizzo senza inondare di storico
+         // primo avvio (es. utenti in arrivo dalla beta): mostro UNA volta la nota
+         // della versione corrente, poi memorizzo per non riproporla.
+         new DictPatchNotes({ soloVersione: latest }).render(true);
          game.settings.set(DICT_ID, 'dictLastSeenVersion', latest);
          return;
       }
@@ -164,6 +187,20 @@ Hooks.once('ready', () => {
          game.settings.set(DICT_ID, 'dictLastSeenVersion', latest);
       }
    });
+
+   /* ---- Pagina promozionale Arkangel Compendium (se non attivo) ---- */
+   if (!game.modules.get(ARKANGEL_ID)?.active) {
+      dictFetchArkangelPromo().then(promo => {
+         if (!promo || promo.attivo === false) return;
+         const dismissed = game.settings.get(DICT_ID, 'arkangelPromoDismissed');
+         const cur = game.modules.get(DICT_ID)?.version ?? '';
+         // mostra a ogni avvio finché l'utente non spunta "non mostrare più"
+         // (la spunta vale solo per la versione corrente: a un nuovo aggiornamento riappare)
+         if (dismissed !== cur) {
+            new DictArkangelPromo({ promo }).render(true);
+         }
+      });
+   }
 });
 
 /* =========================================================================
@@ -174,6 +211,8 @@ class DictPatchNotes extends HandlebarsApplicationMixin(ApplicationV2) {
       super(options);
       // se valorizzata, mostra solo le note PIÙ RECENTI di questa versione; altrimenti tutte
       this.daVersione = options?.daVersione ?? null;
+      // se valorizzata, mostra SOLO la nota di questa versione (usata al primo avvio)
+      this.soloVersione = options?.soloVersione ?? null;
    }
 
    static DEFAULT_OPTIONS = {
@@ -190,13 +229,69 @@ class DictPatchNotes extends HandlebarsApplicationMixin(ApplicationV2) {
 
    async _prepareContext(options) {
       let versions = await dictFetchPatchNotes();
-      if (this.daVersione) {
+      if (this.soloVersione) {
+         versions = versions.filter(v => dictCompareVersions(v.version, this.soloVersione) === 0);
+      } else if (this.daVersione) {
          versions = versions.filter(v => dictCompareVersions(v.version, this.daVersione) > 0);
       }
       return { blocchi: versions, vuoto: versions.length === 0 };
    }
 }
 window.DictPatchNotes = DictPatchNotes;
+
+/* =========================================================================
+ *  FINESTRA "ARKANGEL COMPENDIUM" (promo mostrata se il modulo non è attivo)
+ * ========================================================================= */
+class DictArkangelPromo extends HandlebarsApplicationMixin(ApplicationV2) {
+   constructor(options = {}) {
+      super(options);
+      this.promo = options?.promo ?? null;
+   }
+
+   static DEFAULT_OPTIONS = {
+      id: 'dictArkangelPromo',
+      tag: 'div',
+      classes: ['dictionary-settings', 'dictionary-promo'],
+      position: { width: 600, height: 'auto' },
+      window: { title: 'Arkangel Compendium', icon: 'fa-solid fa-dragon', resizable: true }
+   };
+
+   static PARTS = {
+      body: { template: `modules/${DICT_ID}/templates/dictArkangelPromo.html` }
+   };
+
+   async _prepareContext(options) {
+      const p = this.promo || await dictFetchArkangelPromo() || {};
+      const cur = game.modules.get(DICT_ID)?.version ?? '';
+      const dismissed = game.settings.get(DICT_ID, 'arkangelPromoDismissed') === cur;
+      return {
+         intro: p.intro ?? '',
+         html: p.html ?? '',
+         video: p.video ?? '',
+         videoId: dictYoutubeId(p.video),
+         infoText: p.infoText ?? 'Per maggiori informazioni contatta Arkangel sul suo',
+         discord: p.discord ?? '',
+         ctaText: p.ctaText ?? 'Clicca qui per ottenere il modulo',
+         dismissed
+      };
+   }
+
+   _onRender(context, options) {
+      // la spunta "non mostrare più" memorizza/azzera subito la versione corrente
+      const chk = this.element.querySelector('.dict-promo__dismiss-input');
+      if (chk) {
+         chk.addEventListener('change', () => {
+            const cur = game.modules.get(DICT_ID)?.version ?? '';
+            game.settings.set(DICT_ID, 'arkangelPromoDismissed', chk.checked ? cur : '');
+         });
+      }
+      // chiudendo la finestra dai link, la chiudo
+      this.element.querySelectorAll('a[href]').forEach(a =>
+         a.addEventListener('click', () => this.close())
+      );
+   }
+}
+window.DictArkangelPromo = DictArkangelPromo;
 
 /* =========================================================================
  *  FINESTRA "TRADUZIONI ATTIVE" (attiva/disattiva le singole traduzioni)

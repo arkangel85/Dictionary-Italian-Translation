@@ -1,0 +1,30 @@
+<div class="dict-promo">
+  <div class="dict-promo__logo">
+    <video width="240" autoplay loop muted playsinline>
+      <source src="/modules/it-IT/images/module/arkangel-logo.webm" type="video/webm">
+    </video>
+  </div>
+
+  <h2 class="dict-promo__intro">{{intro}}</h2>
+
+  <div class="dict-promo__text">{{{html}}}</div>
+
+  {{#if videoId}}
+  <div class="dict-promo__video">
+    <iframe src="https://www.youtube.com/embed/{{videoId}}" title="Arkangel Compendium"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  {{/if}}
+
+  <p class="dict-promo__info">{{infoText}}&nbsp;<a href="{{discord}}" target="_blank"><i class="fa-brands fa-discord"></i> Server Discord di Arkangel</a></p>
+
+  <div class="dict-promo__cta">
+    <a href="{{discord}}" target="_blank" class="dict-promo__button"><i class="fa-solid fa-download"></i> {{ctaText}}</a>
+  </div>
+
+  <label class="dict-promo__dismiss">
+    <input type="checkbox" class="dict-promo__dismiss-input" {{#if dismissed}}checked{{/if}} />
+    <span>Non mostrare più</span>
+  </label>
+</div>
