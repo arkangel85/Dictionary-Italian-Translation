@@ -267,7 +267,11 @@
       "markAdvancement": "Deseleziona per non avanzare.",
       "rollAdvancement": "Verifica avanzamento abilità a fine sessione.\rRMB per deselezionare senza tiro.",
       "type": "Tipo",
-      "typeTooltip": "Tipo di abilità"
+      "typeTooltip": "Tipo di abilità",
+      "taught": "Insegnato",
+      "taughtTooltip": "Segna l'abilità come avanzata con l'aiuto di un insegnante.\rDeve essere migliorata tramite l'esperienza prima di ricevere altro aiuto da un insegnante.",
+      "trainWithTeacher": "Allenati con un insegnante",
+      "trainWithTeacherTooltip": "Tira per avanzare l'abilità dopo l'allenamento con un insegnante"
     },
     "skillTypes": {
       "core": "Abilità base",
@@ -472,7 +476,8 @@
         "willPointsCurrent": "PV attuali",
         "willPointsMax": "PV massimi",
         "worn": "Indossato",
-        "wp": "PV"
+        "wp": "PV",
+        "storage": "Deposito"
       },
       "chat": {
         "damageApplied": "<b>{actor}</b> subisce <b>{damage}</b> danni",
@@ -554,7 +559,8 @@
     "item-sheet": {
       "details": "Dettagli",
       "description": "Descrizione",
-      "effects": "Effetti"
+      "effects": "Effetti",
+      "gmDescription": "Note del GM"
     },
     "INFO": {
       "monsterAttackUpdated": "Tabella attacchi del mostro per {actor} aggiornata.",
@@ -582,7 +588,33 @@
       "allowDealDamageOnSelected": "Danno a token selezionato",
       "allowDealDamageOnSelectedHint": "Il master può infliggere danni o curare un token selezionato, anche se non è impostato come bersaglio.",
       "automaticSkillAdvancementMark": "Marcatura automatica delle abilità",
-      "automaticSkillAdvancementMarkHint": "Segna automaticamente le abilità per l'avanzamento quando si ottiene un tiro draconico o demoniaco."
+      "automaticSkillAdvancementMarkHint": "Segna automaticamente le abilità per l'avanzamento quando si ottiene un tiro draconico o demoniaco.",
+      "actorSettings": "Impostazioni Attore",
+      "actorSettingsHint": "Configura le schede di Personaggio, PNG e Mostro",
+      "automationSettings": "Impostazioni Automazione",
+      "automationSettingsHint": "Configura il livello di automazione per varie meccaniche di gioco.",
+      "automationSettingsTokens": "Token",
+      "automationSettingsSkills": "Abilità",
+      "combatSettings": "Impostazioni Combattimento",
+      "combatSettingsHint": "Configura le impostazioni relative al combattimento.",
+      "automaticSkillIntensiveTraining": "Gestisci l'allenamento intensivo con un insegnante.",
+      "automaticSkillIntensiveTrainingHint": "Gestisce l'allenamento intensivo con un insegnante (aggiunge l'allenamento intensivo al menu a puntini per tutte le abilità. Se l'allenamento intensivo riesce, l'opzione viene rimossa finché l'abilità non viene aumentata tramite l'esperienza.)",
+      "optionalRuleSettings": "Regole Opzionali",
+      "optionalRuleSettingsHint": "Configura quali regole opzionali usare.",
+      "damageTypes": "Tipi di Danno",
+      "damageTypesHint": "Abilita i tipi di danno (Contundente, Perforante, Tagliente), i modificatori al valore di armatura e le azioni d'arma relative ai tipi di danno.",
+      "coinEncumbrance": "Ingombro Monete",
+      "coinEncumbranceHint": "Includi le monete nei calcoli dell'ingombro.",
+      "coreSettingOverrides": "Override del Modulo di Base",
+      "coreSettingOverridesHint": "Sovrascrivi le impostazioni del modulo di base per questo mondo.",
+      "magicMishapTable": "Tabella Incidenti Magici",
+      "magicMishapTableHint": "Sovrascrivi la tabella da usare per gli incidenti magici.",
+      "meleeMishapTable": "Tabella Incidenti in Mischia",
+      "meleeMishapTableHint": "Sovrascrivi la tabella da usare per gli incidenti in mischia.",
+      "rangedMishapTable": "Tabella Incidenti a Distanza",
+      "rangedMishapTableHint": "Sovrascrivi la tabella da usare per gli incidenti a distanza.",
+      "treasureTable": "Tabella Tesori",
+      "treasureTableHint": "Sovrascrivi la tabella da usare per i tesori."
     },
     "WARNING": {
       "kinAbility": "Impossibile trovare abilità innata: {ability}",

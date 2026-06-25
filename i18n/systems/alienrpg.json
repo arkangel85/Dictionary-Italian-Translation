@@ -100,8 +100,10 @@
     "DAMAGE": "DANNO",
     "DataStorage": "Archivio dati",
     "Days": "Giorni",
-    "debug.hint": "Le informazioni di debug verranno mostrate nella console",
-    "debug.name": "Mostra informazioni di debug",
+    "debug": {
+      "hint": "Le informazioni di debug verranno mostrate nella console",
+      "name": "Mostra informazioni di debug"
+    },
     "decelerate": "Decelerazione",
     "Defensive": "Difensiva",
     "DefMacro": "Sintassi abbreviata per macro",
@@ -450,7 +452,171 @@
     "YouAreAtPanic": "Sei in panico:",
     "youHave": "Hai ",
     "YourPanicLevel": "Il tuo effetto panico sale a ",
-    "youTake": "Hai preso"
+    "youTake": "Hai preso",
+    "Ability": {
+      "Cha": {
+        "abbr": "car",
+        "long": "Carisma"
+      },
+      "Con": {
+        "abbr": "cos",
+        "long": "Costituzione"
+      },
+      "Dex": {
+        "abbr": "des",
+        "long": "Destrezza"
+      },
+      "Int": {
+        "abbr": "int",
+        "long": "Intelligenza"
+      },
+      "Str": {
+        "abbr": "for",
+        "long": "Forza"
+      },
+      "Wis": {
+        "abbr": "sag",
+        "long": "Saggezza"
+      }
+    },
+    "Actor": {
+      "Tabs": {
+        "Creature": "Creatura",
+        "Crew": "Equipaggio",
+        "Description": "Descrizione",
+        "General": "Generale",
+        "Image": "Immagine",
+        "Inventory": "Inventario",
+        "Modules/Upgrades": "Moduli/Potenziamenti",
+        "Notes": "Note",
+        "Skills": "Abilità",
+        "Space Combat Phases": "Fasi del Combattimento Spaziale",
+        "Systems": "Sistemi"
+      }
+    },
+    "aggravated": "Aggravato",
+    "aimForWeakSpot": "Mira al Punto Debole (-2)",
+    "ammo": "Munizioni",
+    "ammoConcerved": "Conservi le Munizioni (Sottrai un successo)",
+    "CantGetJumpy": "Non puoi diventare 'Nervoso' mentre sei Sgonfiato.",
+    "carefullAim": "Mira Attenta? (+2)",
+    "catatonic": "Catatonico",
+    "conserveAmmo": "Conservare le Munizioni con successi extra?",
+    "DANGERLEVEL": "Inserisci il Livello di Pericolo",
+    "deflated": "Sgonfiato",
+    "dialog": {
+      "cancel": "ANNULLA",
+      "howManyDice": "Quanti dadi?",
+      "Modifier": "Modificatore",
+      "ok": "OK",
+      "roll": "TIRA",
+      "Rollontable": "Tira sulla tabella {tablename}",
+      "Tooltip-ManualRoll": "shift+clic per Tiro Manuale",
+      "Tooltip-Rollontable": "shift+clic per aggiungere un modificatore"
+    },
+    "EVCriticalInjuries": "EV - Ferite Critiche",
+    "Evolved": "Usa Regole e Schede Alien Evolved",
+    "EvolvedHint": "Passa dalle schede e regole Alien Classic a quelle Alien Evolved.",
+    "EvolvedStunts": "<ol>Per ogni successo extra ottenuto, scegli un'acrobazia adatta alla situazione:<li>Infliggi un punto di danno in più. Puoi scegliere questa acrobazia più volte, se ottieni più 6.</li><li>Ti metti in mostra.</li><li>Lo fai rapidamente.</li><li>Lo fai silenziosamente.</li><li>Ottieni qualche effetto aggiuntivo inatteso.</li></ol>",
+    "FastAction": "Azione Rapida",
+    "fatigued": "Affaticato",
+    "firingFullAuto": "Fuoco Automatico?",
+    "flee": "Fuga",
+    "frantic": "Frenetico",
+    "freeze": "Paralisi",
+    "frenzy": "Furia",
+    "FullAuto": "Automatico",
+    "fullcover": "Copertura Totale (-3)",
+    "gravitydyspraxia": "Disprassia Gravitazionale",
+    "heatstroke": "Colpo di Calore",
+    "hesitant": "Esitante",
+    "hypoxia": "Ipossia",
+    "InventoryTab": "Devi andare nella scheda Inventario per effettuare questo Tiro di Rifornimento",
+    "Item": {
+      "General": {
+        "FIELDS": {
+          "dieSize": {
+            "label": "Dimensione Dado"
+          },
+          "numDice": {
+            "label": "Numero di Dadi"
+          },
+          "quantity": {
+            "label": "Quantità"
+          },
+          "rollFormula": {
+            "label": "Formula del Tiro"
+          },
+          "rollMod": {
+            "label": "Modificatore al Tiro"
+          },
+          "weight": {
+            "label": "Peso"
+          }
+        }
+      },
+      "Tabs": {
+        "Description": "Descrizione",
+        "General": "Generale",
+        "Modifiers": "Modificatori",
+        "Notes": "Note",
+        "Weapon": "Arma"
+      }
+    },
+    "jumpy": "Nervoso",
+    "keepingguard": "In Guardia",
+    "large": "Grande (+2)",
+    "loseitem": "Perdi Oggetto",
+    "manual": "Manuale",
+    "maxrng": "Gitt. Max",
+    "messup": "Pasticcio",
+    "minrng": "Gitt. Min",
+    "noAmmo": "Devi Ricaricare!!",
+    "nocover": "Nessuna Copertura (0)",
+    "noisy": "Rumoroso",
+    "NoPanic": "Nessun Panico",
+    "NoResolveTable": "Devi importare la Tabella Risposta allo Stress - Configurazione > Alien RPG > Re-Importa",
+    "normal": "Normale (0)",
+    "OutofRange": "Fuori Gittata",
+    "PanicResponseRoll": "Tiro Risposta al Panico per",
+    "PanicResponses": "Risposte al Panico",
+    "paranoid": "Paranoico",
+    "partialcover": "Copertura Parziale (-2)",
+    "Permanent": "Permanente",
+    "Resolve": "Risolutezza",
+    "ResolveMod": "Modificatore alla Risolutezza",
+    "Response": "Risposta",
+    "Result": "Risultato",
+    "RollStress": "Clicca per tirare lo Stress",
+    "scream": "Urlo",
+    "seekcover": "Cerca Copertura",
+    "shakes": "Tremori",
+    "SheetLabels": {
+      "Character": "Scheda Personaggio",
+      "Colony": "Scheda Colonia",
+      "Creature": "Scheda Creatura",
+      "Item": "Scheda Oggetto",
+      "Planet": "Scheda Pianeta",
+      "Spacecraft": "Scheda Astronave",
+      "Synthetic": "Scheda Sintetico",
+      "Territory": "Scheda Territorio",
+      "Vehicle": "Scheda Veicolo"
+    },
+    "Shift": "Spostamento",
+    "SlowAction": "Azione Lenta",
+    "small": "Piccolo (-2)",
+    "spooked": "Spaventato",
+    "StressResponseRoll": "Tiro Risposta allo Stress per",
+    "StressResponses": "Risposte allo Stress",
+    "SynthDontPanic": "I Sintetici non vanno nel Panico.",
+    "SynthDontStress": "I Sintetici non possono forzare i tiri, quindi non subiscono mai Stress né Affaticamento.",
+    "targetCover": "Copertura del Bersaglio",
+    "targetRange": " Gittata al Bersaglio",
+    "targetSize": "Taglia del Bersaglio",
+    "tunnelvision": "Visione a Tunnel",
+    "twitchy": "Teso",
+    "Yes": "Sì",
+    "YouAlreadyHaveThis": "Hai già questa condizione, quindi il tuo Stress aumenta di +1."
   },
   "ITEM": {
     "TypeAgenda": "Obiettivo personale",
@@ -466,5 +632,32 @@
     "TypeSpecialty": "Specializzazione",
     "TypeTalent": "Talento",
     "TypeWeapon": "Arma"
+  },
+  "TYPES": {
+    "Actor": {
+      "character": "Personaggio",
+      "colony": "Colonia",
+      "creature": "Creatura",
+      "planet": "Pianeta",
+      "spacecraft": "Astronave",
+      "synthetic": "Sintetico",
+      "territory": "Territorio",
+      "vehicles": "Veicoli"
+    },
+    "Item": {
+      "agenda": "Agenda",
+      "armor": "Armatura",
+      "colony-initiative": "Iniziativa Colonia",
+      "critical-injury": "Ferita Critica",
+      "item": "Oggetto",
+      "planet-system": "Pianeta/Sistema",
+      "skill-stunts": "Acrobazie di Abilità",
+      "spacecraft-crit": "Critico Astronave",
+      "spacecraftmods": "Moduli/Potenziamenti Astronave",
+      "spacecraftweapons": "Armi Astronave",
+      "specialty": "Carriera/Specializzazione",
+      "talent": "Talento",
+      "weapon": "Arma"
+    }
   }
 }

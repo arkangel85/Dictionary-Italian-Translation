@@ -251,11 +251,6 @@
     },
     {
       "lang": "it",
-      "path": "i18n/systems/vtm5e.json",
-      "system": "vtm5e"
-    },
-    {
-      "lang": "it",
       "path": "i18n/systems/wildsea.json",
       "system": "wildsea"
     },
@@ -821,11 +816,6 @@
     },
     {
       "lang": "it",
-      "path": "i18n/modules/simple-weather.json",
-      "module": "simple-weather"
-    },
-    {
-      "lang": "it",
       "path": "i18n/modules/smarttarget.json",
       "module": "smarttarget"
     },
@@ -968,6 +958,108 @@
       "lang": "it",
       "path": "i18n/systems/coriolis-tgd.json",
       "system": "coriolis-tgd",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/scum-and-villainy.json",
+      "system": "scum-and-villainy",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/slugblaster.json",
+      "system": "slugblaster",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/mosh.json",
+      "system": "mosh",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/whtow.json",
+      "system": "whtow",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/cosmere-rpg.json",
+      "system": "cosmere-rpg",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/crucible.json",
+      "system": "crucible",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/gurps.json",
+      "system": "gurps",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/twodsix.json",
+      "system": "twodsix",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/t2k4e.json",
+      "system": "t2k4e",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/lancer.json",
+      "system": "lancer",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/icrpg.json",
+      "system": "icrpg",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/modules/tidy5e-sheet.json",
+      "module": "tidy5e-sheet",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/modules/lancer-initiative.json",
+      "module": "lancer-initiative",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/modules/storyteller.json",
+      "module": "storyteller",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/modules/tile-scroll.json",
+      "module": "tile-scroll",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/symbaroum5ecore.json",
+      "system": "symbaroum5ecore",
+      "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/systems/wod5e.json",
+      "system": "wod5e",
       "name": "Italiano"
     }
   ],

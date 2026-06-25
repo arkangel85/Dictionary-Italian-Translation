@@ -38,6 +38,12 @@
           "3": "Assistente GM",
           "2": "Giocatore fidato",
           "1": "Giocatore"
+        },
+        "choice": {
+          "1": "Giocatore",
+          "2": "Giocatore Fidato",
+          "3": "GM Assistente",
+          "4": "Game Master"
         }
       },
       "alwaysShowHud": {
@@ -155,6 +161,11 @@
           "auto": "Automatico",
           "down": "In basso",
           "up": "In alto"
+        },
+        "choice": {
+          "auto": "Auto",
+          "down": "Giù",
+          "up": "Su"
         }
       },
       "displayCharacterName": {
@@ -227,6 +238,57 @@
       "toggleHud": {
         "disabled": "HUD disattivato. Premi {binding} per attivarlo",
         "enabled": "HUD attivato. Premi {binding} per disattivarlo"
+      },
+      "collapsibleSubgroups": {
+        "hint": "Comprimi i sottogruppi cliccando con il tasto sinistro sul loro titolo",
+        "name": "Sottogruppi Comprimibili"
+      },
+      "customLayout": {
+        "hint": "Impostazione del Mondo: seleziona un layout da usare come predefinito per tutti gli utenti. Lascia vuoto per usare il layout del sistema",
+        "name": "Layout Predefinito Globale"
+      },
+      "enableCompendiumActions": {
+        "hint": "Impostazione del Mondo: consenti a Token Action HUD Core di rendere disponibili come azioni nell'HUD le voci di giornale e le macro dei compendi",
+        "name": "Abilita Azioni dei Compendi"
+      },
+      "enableMacroActions": {
+        "hint": "Impostazione del Mondo: consenti a Token Action HUD Core di rendere disponibili le macro come azioni nell'HUD",
+        "name": "Abilita Azioni Macro"
+      },
+      "exportLayout": {
+        "hint": "Esporta il layout su file",
+        "label": "Esporta Layout",
+        "name": "Esporta Layout"
+      },
+      "layout": {
+        "form": {
+          "title": "Token Action HUD | Layout"
+        },
+        "hint": "Impostazioni relative al layout",
+        "label": "Layout",
+        "name": "Layout"
+      },
+      "resetAllLayouts": {
+        "hint": "Impostazione del Mondo: reimposta tutti gli utenti al layout predefinito",
+        "label": "Reimposta Tutti i Layout",
+        "name": "Reimposta Tutti i Layout"
+      },
+      "resetLayout": {
+        "hint": "Reimposta l'intero layout dell'HUD (inclusi gruppi, sottogruppi e azioni) al predefinito dell'utente.",
+        "label": "Reimposta Layout",
+        "name": "Reimposta Layout"
+      },
+      "sortActions": {
+        "hint": "Scegli se ordinare le azioni in ordine alfabetico per impostazione predefinita",
+        "name": "Ordina Azioni Alfabeticamente"
+      },
+      "tooltipDelay": {
+        "hint": "Regola il tempo (in millisecondi) impiegato dal tooltip iniziale per comparire",
+        "name": "Ritardo Tooltip"
+      },
+      "userCustomLayout": {
+        "hint": "Seleziona un layout da usare come tuo predefinito. Lascia vuoto per usare il layout del sistema",
+        "name": "Layout Predefinito Utente"
       }
     },
     "tagDialog": {
@@ -292,6 +354,130 @@
         }
       },
       "tagPlaceholder": "Scelte (separa con ; )"
-    }
+    },
+    "addAction": {
+      "label": "Aggiungi Azione"
+    },
+    "addGroup": {
+      "label": "Aggiungi Gruppo"
+    },
+    "addSubgroup": {
+      "createCustom": "Crea personalizzato:",
+      "label": "Aggiungi Sottogruppo",
+      "noResults": "Nessun sottogruppo corrisponde.",
+      "placeholder": "Cerca..."
+    },
+    "collapseExpandHud": "Comprimi/Espandi HUD",
+    "contextMenu": {
+      "collapse": "Comprimi",
+      "delete": "Elimina",
+      "edit": "Modifica",
+      "expand": "Espandi"
+    },
+    "delete": {
+      "confirm": {
+        "content": "Vuoi eliminare <strong>{name}</strong>?",
+        "title": "Elimina Gruppo"
+      }
+    },
+    "dialog": {
+      "button": {
+        "no": "No",
+        "yes": "Sì"
+      },
+      "resetActions": {
+        "content": "Questo reimposterà tutte le azioni per questo attore. Vuoi continuare?",
+        "title": "Reimposta Azioni"
+      },
+      "resetAllLayouts": {
+        "content": "Questo reimposterà l'HUD di ogni utente al layout predefinito. Vuoi continuare?",
+        "title": "Token Action HUD | Reimposta Tutti i Layout"
+      },
+      "resetLayout": {
+        "content": "Questo reimposterà il tuo HUD al layout predefinito. Vuoi continuare?",
+        "title": "Token Action HUD | Reimposta Layout"
+      }
+    },
+    "dragHud": "Trascina HUD",
+    "enableDisableHud": "Attiva/Disattiva HUD",
+    "form": {
+      "group": {
+        "characterCount": {
+          "hint": "Accorcia i nomi delle azioni in questo gruppo a un numero massimo di caratteri. Ad esempio, un limite di 3 mostra \"Forza\" come \"For\".",
+          "label": "Caratteri per Parola",
+          "placeholder": "Nessun limite"
+        },
+        "collapse": {
+          "hint": "Comprimi questo gruppo.",
+          "label": "Comprimi Gruppo"
+        },
+        "content": {
+          "label": "Contenuto del Gruppo"
+        },
+        "customWidth": {
+          "hint": "Imposta una larghezza personalizzata in pixel per questo gruppo. Lascia vuoto per il dimensionamento automatico.",
+          "label": "Larghezza Personalizzata",
+          "placeholder": "Automatica",
+          "units": "(Pixel)"
+        },
+        "grid": {
+          "hint": "Allinea tutte le azioni di questo gruppo in un layout a griglia.",
+          "label": "Layout a Griglia"
+        },
+        "group": {
+          "label": "Gruppo"
+        },
+        "image": {
+          "hint": "Scegli un'immagine da mostrare sul gruppo.",
+          "label": "Immagine"
+        },
+        "name": {
+          "hint": "Il nome del gruppo.",
+          "label": "Nome"
+        },
+        "showTitle": {
+          "hint": "Mostra il nome del gruppo.",
+          "label": "Mostra Nome"
+        },
+        "sort": {
+          "hint": "Ordina le azioni di questo gruppo in ordine alfabetico.",
+          "label": "Ordina Azioni"
+        },
+        "style": {
+          "choice": {
+            "list": "Elenco",
+            "tab": "Scheda"
+          },
+          "hint": "Solo se sganciato: scegli lo stile di questo gruppo.",
+          "label": "Stile"
+        }
+      },
+      "hud": {
+        "grid": {
+          "hint": "Allinea tutte le azioni dell'HUD in un layout a griglia.",
+          "label": "Layout a Griglia"
+        },
+        "groupTitle": "Personalizza Gruppo",
+        "hudTitle": "Personalizza HUD",
+        "resetActions": {
+          "button": "Reimposta Azioni nei Gruppi",
+          "hint": "Reimposta le azioni dentro ogni gruppo di questo attore ai valori predefiniti del sistema. I gruppi personalizzati e il layout generale dell'HUD non vengono reimpostati."
+        }
+      },
+      "newGroup": {
+        "title": "Aggiungi Nuovo Gruppo"
+      }
+    },
+    "group": "Gruppo",
+    "keybinding": {
+      "toggleHud": {
+        "disabled": "HUD disattivato. Per attivarlo, premi {binding}",
+        "enabled": "HUD attivato. Per disattivarlo, premi {binding}"
+      }
+    },
+    "multiple": "Multiplo",
+    "reset": "Reimposta",
+    "resetToDefault": "Reimposta ai Predefiniti",
+    "saveAndClose": "Salva e Chiudi"
   }
 }

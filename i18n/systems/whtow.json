@@ -1,0 +1,584 @@
+{
+  "TYPES": {
+    "Actor": {
+      "character": "Personaggio Giocante",
+      "npc": "Personaggio non Giocante",
+      "vehicle": "Veicolo",
+      "party": "Gruppo"
+    },
+    "Item": {
+      "weapon": "Arma",
+      "talent": "Talento",
+      "lore": "Sapienza",
+      "origin": "Origine",
+      "blessing": "Benedizione",
+      "toolKit": "Strumento / Kit",
+      "tool": "Strumento",
+      "corruption": "Via della Corruzione",
+      "spell": "Incantesimo",
+      "wound": "Ferita",
+      "trapping": "Equipaggiamento",
+      "career": "Carriera",
+      "armour": "Armatura",
+      "asset": "Bene",
+      "ability": "Abilità"
+    }
+  },
+  "TOW": {
+    "CharName": {
+      "WeaponSkill": "Abilità con le Armi",
+      "BallisticSkill": "Abilità Balistica",
+      "Strength": "Forza",
+      "Toughness": "Costituzione",
+      "Initiative": "Iniziativa",
+      "Agility": "Agilità",
+      "Reason": "Raziocinio",
+      "Fellowship": "Socievolezza"
+    },
+    "CharAbbrev": {
+      "WeaponSkill": "AA",
+      "BallisticSkill": "AB",
+      "Strength": "F",
+      "Toughness": "Cos",
+      "Initiative": "I",
+      "Agility": "Ag",
+      "Reason": "Raz",
+      "Fellowship": "Soc"
+    },
+    "SkillName": {
+      "Melee": "Mischia",
+      "Defence": "Difesa",
+      "Shooting": "Tiro",
+      "Throwing": "Lancio",
+      "Brawn": "Vigore",
+      "Toil": "Fatica",
+      "Survival": "Sopravvivenza",
+      "Endurance": "Resistenza",
+      "Awareness": "Attenzione",
+      "Dexterity": "Destrezza",
+      "Athletics": "Atletica",
+      "Stealth": "Furtività",
+      "Willpower": "Forza di Volontà",
+      "Recall": "Memoria",
+      "Leadership": "Comando",
+      "Charm": "Fascino"
+    },
+    "StatusName": {
+      "Brass": "Bronzo",
+      "Silver": "Argento",
+      "Gold": "Oro"
+    },
+    "RangeType": {
+      "Close": "Ravvicinata",
+      "Short": "Corta",
+      "Medium": "Media",
+      "Long": "Lunga",
+      "Extreme": "Estrema"
+    },
+    "Melee": "Mischia",
+    "Brawn": "Vigore",
+    "Shooting": "Tiro",
+    "Throwing": "Lancio",
+    "Duration": "Durata",
+    "Target": "Bersaglio",
+    "Range": "Gittata",
+    "Damage": "Danno",
+    "Glorious": "Glorioso",
+    "Grim": "Cupo",
+    "Advancement": "Avanzamento",
+    "Modifier": "Modificatore",
+    "ModifierConfig": "Configurazione Modificatore",
+    "MountConfig": "Configurazione Cavalcatura",
+    "MagicLevel": "Livello di Magia",
+    "AssetCategory": {
+      "AnimalVehicle": "Animale / Veicolo",
+      "BuildingEstablishment": "Edificio / Attività",
+      "Other": "Altro"
+    },
+    "NPC": {
+      "Minion": "Tirapiedi",
+      "Brute": "Bruto",
+      "Champion": "Campione",
+      "Monstrosity": "Mostruosità"
+    },
+    "Vehicle": {
+      "Land": "Terra",
+      "Water": "Acqua"
+    },
+    "Sheet": {
+      "Tab": {
+        "Description": "Descrizione",
+        "Details": "Dettagli",
+        "Effects": "Effetti",
+        "Main": "Principale",
+        "Combat": "Combattimento",
+        "Magic": "Magia",
+        "Religion": "Religione",
+        "Corruption": "Corruzione",
+        "Trappings": "Equipaggiamento",
+        "Notes": "Note"
+      },
+      "MeleeWeapons": "Armi da Mischia",
+      "RangedWeapons": "Armi a Distanza",
+      "Talents": "Talenti",
+      "Lores": "Sapienze",
+      "Career": "Carriera",
+      "Origin": "Origine",
+      "Weapons": "Armi",
+      "Blessings": "Benedizioni",
+      "ToolsKits": "Strumenti e Kit",
+      "Armour": "Armatura",
+      "Trappings": "Equipaggiamento",
+      "Assets": "Beni",
+      "Spells": "Incantesimi",
+      "Wounds": "Ferite",
+      "Contacts": "Contatti",
+      "CareerTalent": "Talento di Carriera",
+      "Res": "Res.",
+      "Equipped": "Equipaggiato",
+      "Custom": "Personalizzato",
+      "Status": "Status",
+      "Resilience": "Tenacia",
+      "ResilienceModifier": "Modificatore Tenacia",
+      "Modifier": "Modificatore",
+      "Speed": "Velocità",
+      "SpeedModifier": "Velocità (Modificatore)",
+      "Fate": "Fato",
+      "DescriptionPublic": "Descrizione (Pubblica)",
+      "DescriptionGM": "Descrizione (GM)",
+      "Quantity": "Quantità",
+      "Cost": "Costo",
+      "Damage": "Danno",
+      "DamageModifiers": "Modificatori al Danno",
+      "IgnoreArmour": "Ignora Armatura",
+      "Range": "Gittata",
+      "OptimumRange": "Gittata Ottimale",
+      "Magical": "Magico",
+      "Successes": "Successi",
+      "Favour": "Favore",
+      "Prayers": "Preghiere",
+      "Miracles": "Miracoli",
+      "Effects": "Effetti",
+      "TemporaryEffects": "Effetti Temporanei",
+      "PassiveEffects": "Effetti Passivi",
+      "DisabledEffects": "Effetti Disattivati",
+      "Source": "Fonte",
+      "Careers": "Carriere",
+      "Origins": "Origini",
+      "Attacks": "Attacchi",
+      "Abilities": "Abilità",
+      "TypicalTrappings": "Equipaggiamento Tipico",
+      "Value": "Valore",
+      "FavouredCharacteristics": "Caratteristiche Favorite",
+      "SkillBonuses": "Bonus alle Abilità",
+      "Choices": "Scelte",
+      "Starting": "Iniziale",
+      "Maximum": "Massimo",
+      "Table": "Tabella",
+      "Replacements": "Sostituzioni",
+      "Gained": "Ottenuto",
+      "Group": "Gruppo",
+      "Healing": "Guarigione",
+      "Treated": "Curato",
+      "Brass": "Bronzo",
+      "Silver": "Argento",
+      "Gold": "Oro",
+      "DefendingAgainst": "In Difesa Contro",
+      "Experience": "Esperienza",
+      "Available": "Disponibile",
+      "Spent": "Speso",
+      "Total": "Totale",
+      "Characteristic": "Caratteristica",
+      "Base": "Base",
+      "Skill": "Abilità",
+      "Advances": "Avanzamenti",
+      "Item": "Oggetto",
+      "Reason": "Raziocinio",
+      "Description": "Descrizione",
+      "XP": "PE",
+      "Adv": {
+        "": "Av."
+      },
+      "Type": "Tipo",
+      "Category": "Categoria",
+      "Characteristics": "Caratteristiche",
+      "Skills": "Abilità",
+      "Items": "Oggetti",
+      "Log": "Registro",
+      "Offsets": "Compensazioni",
+      "Improvement": "Miglioramento",
+      "CV": "VL",
+      "Target": "Bersaglio",
+      "Duration": "Durata",
+      "MiscastPool": "Riserva di Errore Magico",
+      "Dispose": "Scarta",
+      "Miscast": "Errore Magico",
+      "Potency": "Potenza",
+      "Self": "Sé stesso",
+      "Opposed": "Contrapposto",
+      "Dice": "Dadi",
+      "BlessedBy": "Benedetto da",
+      "PerformMiracle": "Esegui Miracolo",
+      "RegainMiracle": "Recupera Miracolo",
+      "PurchaseMiracleUse": "Uso Miracolo Acquistato",
+      "Corruption": "Corruzione",
+      "Vulnerable": "Vulnerabile",
+      "Tarnished": "Macchiato",
+      "Tainted": "Contaminato",
+      "Damned": "Dannato",
+      "PromptCorruptionTest": "Richiedi Test di Corruzione",
+      "OfferTemptation": "Offri Tentazione",
+      "NPCType": "Tipo",
+      "Defeated": "Sconfitto",
+      "XWounds": "{wounds} Ferite",
+      "XYWounds": "{x}-{y} Ferite",
+      "ToggleEditing": "Attiva/Disattiva Modifica",
+      "ChooseSkill": "Scegli Abilità",
+      "SkillOptions": "Opzioni Abilità",
+      "RequiredSwaps": "Scambi Obbligatori",
+      "OptionalSwaps": "Scambi Facoltativi",
+      "Identifier": "Identificatore",
+      "ExcludeStaggeredOptions": "Escludi Opzioni da Barcollante",
+      "FallProne": "Cadi Prono",
+      "GiveGround": "Cedi Terreno",
+      "TakeWound": "Subisci Ferita",
+      "AddedItems": "Oggetti Aggiunti",
+      "AddedEffects": "Effetti Aggiunti",
+      "Mount": "Cavalca",
+      "Dismount": "Smonta",
+      "RemoveMount": "Rimuovi Cavalcatura",
+      "Faults": "Guasti",
+      "Occupants": "Occupanti",
+      "Animals": "Animali",
+      "RowCrew": "Equipaggio ai Remi",
+      "SailCrew": "Equipaggio alle Vele",
+      "SpeedRow": "Velocità (Remi)",
+      "SpeedSail": "Velocità (Vele)",
+      "PreventStaggeredOption": "Impedisci Opzione da Barcollante"
+    },
+    "Action": {
+      "Aim": "Mira",
+      "Help": "Aiuto",
+      "Improvise": "Improvvisa",
+      "Manoeuvre": "Manovra",
+      "Recover": "Recupera"
+    },
+    "TableSetting": {
+      "wounds": "Ferite",
+      "miscast": "Errore Magico",
+      "faults": "Guasti del Veicolo"
+    },
+    "Setting": {
+      "TableSettings": "Impostazioni Tabelle",
+      "TableConfigure": "Configura Tabelle",
+      "TableSettingsHint": "Configura quali tabelle usa il sistema."
+    },
+    "Speeds": {
+      "Slow": "Lenta",
+      "Normal": "Normale",
+      "Fast": "Veloce"
+    },
+    "MagicLore": {
+      "Battle": "Battaglia",
+      "Elementalism": "Elementalismo",
+      "Illusion": "Illusione",
+      "Necromancy": "Negromanzia",
+      "Daemonology": "Demonologia",
+      "Other": "Altro"
+    },
+    "TargetType": {
+      "Self": "Sé stesso",
+      "Creature": "Creatura",
+      "Zone": "Zona",
+      "Object": "Oggetto"
+    },
+    "DurationType": {
+      "Immediate": "Immediata",
+      "Instant": "Istantanea",
+      "Battle": "Battaglia",
+      "Permanent": "Permanente",
+      "Varies": "Variabile",
+      "Turns": "Turni"
+    },
+    "Test": {
+      "SkillTest": "Test di {skill}",
+      "WeaponTest": "Test di {weapon}",
+      "RerollGlorious": "Ritira (Glorioso)",
+      "RerollGrim": "Ritira (Cupo)",
+      "Reroll": "Ritira"
+    },
+    "Chat": {
+      "OpposedTitle": "{attacker} sta bersagliando {defender}",
+      "Unopposed": "Non Contrapposto",
+      "Successes": "{successes} Successi",
+      "Tie": "Pareggio",
+      "Failure": "Fallimento!",
+      "MarginalSuccesss": "Successo Marginale",
+      "Success": "Successo",
+      "TotalSuccess": "Successo Totale!",
+      "ApplyDamage": "Applica Danno",
+      "ApplyNumDamage": "Applica {damage} Danni",
+      "Potency": "Potenza",
+      "SuffersFault": "<p><strong>{name}</strong> subisce un Guasto!</p>",
+      "TakesWound": "<p><strong>{name}</strong> subisce una Ferita!</p>",
+      "GainsStaggered": "<p><strong>{name}</strong> diventa Barcollante!</p>",
+      "NoEffect": "Nessun Effetto!",
+      "AppliedDamage": "Danno Applicato",
+      "DisposingMiscasts": "Scarto Errori Magici",
+      "DisposingMiscastsCombat": "Usato Recupera per scartare un dado Errore Magico",
+      "DisposingMiscastsNonCombat": "Eliminati {miscasts} dadi Errore Magico",
+      "Damage": "Danno",
+      "FavouredBy": "Favorito da {name}",
+      "MiracleOf": "Miracolo di {name}",
+      "Experience": "Esperienza",
+      "Receive": "Ricevi",
+      "BuySuccessful": "<p>Comprato <strong>{item}</strong> ({cost})</p>"
+    },
+    "WoundHealing": {
+      "CatchYourBreath": "Riprendi fiato",
+      "Respite": "Una notte di riposo",
+      "RestRecovery": "Riposo e Recupero",
+      "Surgery": "Chirurgia, Riposo e Recupero",
+      "NA": "N/D"
+    },
+    "Tooltips": {
+      "ToggleEffect": "Attiva/Disattiva Effetto",
+      "CannotDeleteItemEffect": "Questo effetto proviene da un Oggetto su questo Attore. Elimina l'Oggetto stesso o l'effetto dalla scheda dell'Oggetto.",
+      "Mixing": "Mescolare i Venti",
+      "WearingArmour": "Indossare Armatura"
+    },
+    "ConditionName": {
+      "Ablaze": "In Fiamme",
+      "Blinded": "Accecato",
+      "Broken": "Spezzato",
+      "Burdened": "Appesantito",
+      "CriticallyInjured": "Ferito Gravemente",
+      "Deafened": "Assordato",
+      "Defenceless": "Indifeso",
+      "Distracted": "Distratto",
+      "Drained": "Prosciugato",
+      "Prone": "Prono",
+      "Staggered": "Barcollante",
+      "Dead": "Morto"
+    },
+    "Dialog": {
+      "BonusDice": "Dadi Bonus",
+      "DicePenalty": "Penalità ai Dadi",
+      "Bonus": "Bonus",
+      "Penalty": "Penalità",
+      "Charging": "Carica",
+      "Damage": "Danno",
+      "Mixing": "Mescolare i Venti",
+      "Grim": "Cupo",
+      "Normal": "Normale",
+      "Glorious": "Glorioso",
+      "Staggered": "Barcollante!",
+      "StaggeredPrompt": "Sei di nuovo Barcollante! Scegli tra le seguenti opzioni.",
+      "RegainMiracleTitle": "Recupera Miracolo",
+      "RegainMiracle": "Spendere 4 PE per recuperare la capacità di eseguire un Miracolo?",
+      "Temptation": "Offri Tentazione",
+      "Accept": "Accetta",
+      "Refuse": "Rifiuta",
+      "Offer": "Offri",
+      "AnOffering": "Un'Offerta...",
+      "ChooseSkills": "Scegli Abilità",
+      "ChooseSkillsContent": "Scegli {number} Abilità per ricevere +1",
+      "ApplyCareer": "Applicare la Carriera a questo Attore?",
+      "ApplyOrigin": "Applicare l'Origine a questo Attore?",
+      "UseReload": "Usare Ricarica?",
+      "UsingReload": "Uso Bonus Ricarica"
+    },
+    "Error": {
+      "MiscastReroll": "Impossibile ritirare gli Errori Magici",
+      "Experience": "I valori di esperienza devono essere numerici",
+      "ActorsXP": "Bersaglia i token a cui dare esperienza",
+      "CharAssigned": "Nessun personaggio assegnato. Vedi il menu di configurazione del giocatore per assegnare un personaggio.",
+      "NoSpellsToCast": "Nessun Incantesimo disponibile da Lanciare",
+      "NoCoin": "Non hai le monete per comprare questo Oggetto!",
+      "NoACtorBuyItem": "Nessun Attore assegnato per comprare questo Oggetto."
+    },
+    "Zone": {
+      "Cover": "Copertura",
+      "CoverConcealment": "Copertura / Occultamento",
+      "DifficultTerrain": "Terreno Difficile",
+      "Hazard": "Pericolo"
+    }
+  },
+  "WH": {
+    "Trigger": {
+      "ComputeOwnedItem": "Calcola Oggetto Posseduto",
+      "Targeted": "Bersagliato"
+    },
+    "TransferType": {
+      "Rider": "Cavaliere"
+    },
+    "Models": {
+      "weapon": {
+        "FIELDS": {
+          "skill": {
+            "label": "Abilità"
+          },
+          "grip": {
+            "label": "Impugnatura"
+          },
+          "traits": {
+            "label": "Tratti"
+          },
+          "reload": {
+            "value": {
+              "label": "Successi per Ricaricare"
+            }
+          }
+        }
+      },
+      "ability": {
+        "FIELDS": {
+          "attack": {
+            "skill": {
+              "label": "Abilità d'Attacco"
+            },
+            "traits": {
+              "label": "Tratti"
+            },
+            "grip:": {
+              "label": "Impugnatura"
+            }
+          }
+        }
+      },
+      "talent": {
+        "FIELDS": {
+          "cost": {
+            "label": "Costo PE"
+          },
+          "requirement": {
+            "text": {
+              "label": "Requisito"
+            },
+            "script": {
+              "label": "Script Requisito"
+            }
+          }
+        }
+      },
+      "lore": {
+        "FIELDS": {
+          "category": {
+            "label": "Categoria"
+          }
+        }
+      },
+      "armour": {
+        "FIELDS": {
+          "resilience": {
+            "label": "Tenacia"
+          },
+          "traits": {
+            "label": "Tratti"
+          },
+          "shield": {
+            "label": "Scudo"
+          }
+        }
+      },
+      "spell": {
+        "FIELDS": {
+          "cv": {
+            "label": "Valore di Lancio"
+          },
+          "lore": {
+            "label": "Sapienza"
+          },
+          "target": {
+            "value": {
+              "label": "Bersaglio"
+            }
+          },
+          "range": {
+            "value": {
+              "label": "Gittata"
+            }
+          },
+          "duration": {
+            "value": {
+              "label": "Durata"
+            }
+          },
+          "damage": {
+            "formula": {
+              "label": "Danno"
+            }
+          }
+        }
+      },
+      "origin": {
+        "FIELDS": {
+          "fate": {
+            "label": "Fato"
+          },
+          "talents": {
+            "rolls": {
+              "label": "Tiri"
+            },
+            "keep": {
+              "label": "Tieni"
+            }
+          }
+        }
+      },
+      "career": {
+        "FIELDS": {
+          "status": {
+            "label": "Status"
+          }
+        }
+      },
+      "trapping": {
+        "FIELDS": {
+          "equippable": {
+            "label": "Equipaggiabile"
+          }
+        }
+      },
+      "asset": {
+        "FIELDS": {
+          "category": {
+            "label": "Categoria"
+          }
+        }
+      },
+      "toolKit": {
+        "FIELDS": {
+          "tests": {
+            "label": "Test Rilevanti"
+          },
+          "lore": {
+            "label": "Sapienza Richiesta"
+          }
+        }
+      },
+      "wound": {
+        "FIELDS": {
+          "healing": {
+            "label": "Guarigione"
+          }
+        }
+      }
+    },
+    "Components": {
+      "Locational": {
+        "FIELDS": {
+          "prompt": {
+            "label": "Richiedi Posizione",
+            "hint": "Richiedi una posizione quando aggiunto a un Attore."
+          },
+          "location": {
+            "value": {
+              "label": "Posizione"
+            }
+          }
+        }
+      }
+    }
+  }
+}
