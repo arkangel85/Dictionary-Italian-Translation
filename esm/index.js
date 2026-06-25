@@ -86,7 +86,12 @@ Hooks.once(`init`, async () => {
     "OCR-A": { editor: true, fonts: [] },
     "Roboto Condensed": { editor: true, fonts: [] },
     "Roboto Serif": { editor: true, fonts: [] },
-    Roboto: { editor: true, fonts: [] }
+    Roboto: { editor: true, fonts: [] },
+    "Bruno Ace SC": { editor: true, fonts: [{ urls: [`fonts/bruno-ace/bruno-ace-sc.woff2`] }] },
+    "Signika Negative": { editor: true, fonts: [
+      { urls: [`fonts/signika-negative/signika-negative-regular.woff2`] },
+      { urls: [`fonts/signika-negative/signika-negative-bold.woff2`], weight: `700` }
+    ] }
   };
 
   CONFIG.fontDefinitions = foundry.utils.mergeObject(CONFIG.fontDefinitions, a);

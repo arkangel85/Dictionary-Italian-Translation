@@ -1,0 +1,66 @@
+<div class="dict-translations">
+  <h2 class="dictionary-settings__header">
+    <div class="dictionary-settings__header__logo">
+      <img src="/modules/it-IT/images/module/logo_no_sfondo.webp" alt="Dictionary" />
+    </div>
+    <span class="dictionary-settings__header__label">Traduzioni attive</span>
+  </h2>
+
+  <p class="dict-translations__intro">
+    Qui trovi le traduzioni di Dictionary che si applicano al <strong>sistema e ai moduli attivi</strong> nel tuo mondo.
+    Puoi disattivarne una alla volta con l'interruttore; la traduzione del <strong>core di Foundry</strong> non è disattivabile.
+    Le modifiche vengono applicate al salvataggio (con ricarica di Foundry).
+  </p>
+
+  <div class="dict-translations__list">
+    {{#if core.length}}
+    <h3 class="dict-translations__section">Core</h3>
+    {{#each core}}
+    <div class="dict-translations__row">
+      <span class="dict-translations__name">{{this.nome}}</span>
+      <label class="dict-switch dict-switch--locked" title="Il core non è disattivabile">
+        <input type="checkbox" class="dict-switch__input" data-key="{{this.key}}" data-locked="true" checked disabled />
+        <span class="dict-switch__slider"></span>
+        <span class="dict-switch__state">Acceso</span>
+      </label>
+    </div>
+    {{/each}}
+    {{/if}}
+
+    {{#if nSistemi}}
+    <h3 class="dict-translations__section">Sistema di gioco</h3>
+    {{#each sistemi}}
+    <div class="dict-translations__row">
+      <span class="dict-translations__name">{{this.nome}}</span>
+      <label class="dict-switch">
+        <input type="checkbox" class="dict-switch__input" data-key="{{this.key}}" {{#if this.attivo}}checked{{/if}} />
+        <span class="dict-switch__slider"></span>
+        <span class="dict-switch__state">{{#if this.attivo}}Acceso{{else}}Spento{{/if}}</span>
+      </label>
+    </div>
+    {{/each}}
+    {{/if}}
+
+    {{#if nModuli}}
+    <h3 class="dict-translations__section">Moduli</h3>
+    {{#each moduli}}
+    <div class="dict-translations__row">
+      <span class="dict-translations__name">{{this.nome}}</span>
+      <label class="dict-switch">
+        <input type="checkbox" class="dict-switch__input" data-key="{{this.key}}" {{#if this.attivo}}checked{{/if}} />
+        <span class="dict-switch__slider"></span>
+        <span class="dict-switch__state">{{#if this.attivo}}Acceso{{else}}Spento{{/if}}</span>
+      </label>
+    </div>
+    {{/each}}
+    {{/if}}
+
+    {{#if vuoto}}
+    <p style="text-align:center">Nessuna traduzione aggiuntiva attiva per il mondo corrente (oltre al core).</p>
+    {{/if}}
+  </div>
+
+  <div class="dict-translations__footer">
+    <button type="button" data-action="salva"><i class="fa-solid fa-floppy-disk"></i> Salva e applica</button>
+  </div>
+</div>

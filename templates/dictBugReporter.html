@@ -1,0 +1,60 @@
+<div class="dictionary-bugReporter">
+  <h2 class="dictionary-settings__header">
+    <div class="dictionary-settings__header__logo">
+      <img src="/modules/it-IT/images/module/logo_no_sfondo.webp" alt="Dictionary" />
+    </div>
+    <span class="dictionary-settings__header__label">Segnala</span>
+  </h2>
+
+  <div class="dictionary-settings__row">
+    <div class="dictionary-settings__row__item dictionary-bugReporter__title">
+      <label>Titolo*</label>
+      <input type="text" class="bug-title" name="campiForm.titolo" data-dtype="String" value="{{campiForm.titolo}}" />
+    </div>
+  </div>
+
+  <div class="dictionary-settings__row">
+    <div class="dictionary-settings__row__item dictionary-bugReporter__name">
+      <label>Il tuo nome (facoltativo)</label>
+      <input name="campiForm.spione" data-dtype="String" value="{{campiForm.spione}}" type="text"
+        placeholder="Es. Mario Rossi" class="issuer" />
+    </div>
+    <div class="dictionary-settings__row__item dictionary-bugReporter__tipo">
+      <label>Tipo di segnalazione</label>
+      <select name="campiForm.tipo" class="issue-label">
+        {{#each tipi}}
+        <option value="{{this.value}}" {{#if this.selected}}selected{{/if}}>{{this.label}}</option>
+        {{/each}}
+      </select>
+    </div>
+  </div>
+
+  <div class="dictionary-settings__row">
+    <div class="dictionary-settings__row__item dictionary-bugReporter__descrizione">
+      <label class="wide">Descrizione* <span class="dict-hint">(indica sistema/modulo, la chiave o la frase errata e la correzione proposta)</span></label>
+      <textarea placeholder="Descrivi l'errore di traduzione o il suggerimento..."
+        class="bug-description" maxlength="875" name="campiForm.descrizione" rows="7">{{campiForm.descrizione}}</textarea>
+    </div>
+  </div>
+
+  <div class="dictionary-settings__row">
+    <div class="dictionary-settings__row__item dictionary-bugReporter__submit">
+      <button type="submit" {{#if onAir}}disabled{{/if}}><i class="fa-solid fa-paper-plane"></i> Invia segnalazione</button>
+    </div>
+  </div>
+
+  {{#if bugSegnalato}}
+  <div class="dictionary-settings__row">
+    <div class="dictionary-settings__row__item dictionary-bugReporter__notifyArea">
+      <h3>Segnalazione inviata con successo!</h3>
+      <p><a href="{{bugURL}}" target="_blank">{{bugURL}}</a></p>
+    </div>
+  </div>
+  {{/if}}
+
+  {{#if onAir}}
+  <div class="dictionary-settings__row">
+    <div class="dictionary-bugReporter__loader">Caricamento...</div>
+  </div>
+  {{/if}}
+</div>

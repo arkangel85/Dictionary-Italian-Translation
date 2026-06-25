@@ -9,18 +9,20 @@
       "url": "https://github.com/arkangel85"
     }
   ],
-  "version": "14.363.8",
+  "version": "14.363.9",
   "compatibility": {
     "minimum": "13",
     "verified": "14",
     "maximum": "14"
   },
   "esmodules": [
-    "esm/index.js"
+    "esm/index.js",
+    "esm/dict-settings.js"
   ],
   "styles": [
     "styles/_main.css",
-    "styles/_fonts.css"
+    "styles/_fonts.css",
+    "styles/dictionary-settings.css"
   ],
   "coreTranslation": true,
   "relationships": {
@@ -1079,6 +1081,11 @@
       "path": "i18n/systems/sf2e.json",
       "system": "sf2e",
       "name": "Italiano"
+    },
+    {
+      "lang": "it",
+      "path": "i18n/modules/chris-premades.json",
+      "module": "chris-premades"
     }
   ],
   "media": [

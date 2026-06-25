@@ -1,0 +1,20 @@
+<div class="dict-patchnotes">
+  <h2 class="dictionary-settings__header">
+    <div class="dictionary-settings__header__logo">
+      <img src="/modules/it-IT/images/module/logo_no_sfondo.webp" alt="Dictionary" />
+    </div>
+    <span class="dictionary-settings__header__label">Note di versione</span>
+  </h2>
+
+  <div class="dict-patchnotes__list">
+    {{#each blocchi}}
+    <div class="dict-patchnotes__entry">
+      <h3>v{{this.version}}</h3>
+      {{{this.html}}}
+    </div>
+    {{/each}}
+    {{#if vuoto}}
+    <p style="text-align:center">Nessuna nota di versione disponibile al momento.</p>
+    {{/if}}
+  </div>
+</div>
