@@ -224,18 +224,25 @@ class DictActiveTranslations extends HandlebarsApplicationMixin(ApplicationV2) {
       const gruppi = new Map();
       for (const entry of langs) {
          if (entry.lang && entry.lang !== 'it') continue;
-         if (!dictEntryActive(entry)) continue;        // solo ciò che è attivo nel mondo
          const key = dictEntryKey(entry);
+         if (key === 'core') continue;                 // mai mostrare il core di Foundry
+         if (entry.module === DICT_ID) continue;        // mai mostrare il modulo Dictionary stesso
+         if (!dictEntryActive(entry)) continue;         // solo ciò che è attivo nel mondo
          if (!gruppi.has(key)) gruppi.set(key, { key, files: [], entry });
          gruppi.get(key).files.push(entry.path);
       }
 
+      // un "name" generico tipo "Italiano"/"Italian"/"it" non è un'etichetta utile
+      const generico = (s) => !s || /^(italian[oa]?|it(?:[-_]it)?)$/i.test(String(s).trim());
       const nomeLeggibile = (g) => {
-         if (g.key === 'core') return 'Foundry Core (Italiano)';
-         if (g.entry.name) return g.entry.name;
-         if (g.entry.system) return game.system?.title || g.entry.system;
-         if (g.entry.module) return game.modules.get(g.entry.module)?.title || g.entry.module;
-         return g.key;
+         if (g.entry.system) {
+            return game.system?.title || (!generico(g.entry.name) ? g.entry.name : g.entry.system);
+         }
+         if (g.entry.module) {
+            const t = game.modules.get(g.entry.module)?.title;
+            return t || (!generico(g.entry.name) ? g.entry.name : g.entry.module);
+         }
+         return !generico(g.entry.name) ? g.entry.name : g.key;
       };
 
       const core = [];
